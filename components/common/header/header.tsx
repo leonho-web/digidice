@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 // Local Components & Hooks
-import { ThemeToggle } from "../../theme/theme-toggle";
+// import { ThemeToggle } from "../../theme/theme-toggle";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { SearchModal } from "@/components/features/search/search-modal";
