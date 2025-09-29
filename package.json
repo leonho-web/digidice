@@ -2,10 +2,11 @@
 	"name": "digi-dice",
 	"version": "0.1.0",
 	"private": true,
+	
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build",
-		"start": "next start",
+		"start": "PORT=3001 next start",
 		"lint": "next lint",
 		"build:sdk": "npm --prefix packages/wallet-sdk run build",
 		"i18n:add": "node scripts/dictionary/generateTranslation.mjs"
