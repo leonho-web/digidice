@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 // Local Components & Hooks
-// import { ThemeToggle } from "../../theme/theme-toggle";
+import { ThemeToggle } from "../../theme/theme-toggle";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { SearchModal } from "@/components/features/search/search-modal";
@@ -37,6 +37,7 @@ import {
 	faMagnifyingGlass,
 	faRightFromBracket,
 	faSquareList,
+	faUser,
 	faUsers,
 	faWallet,
 } from "@fortawesome/pro-light-svg-icons";
@@ -109,12 +110,16 @@ export function PageHeader({ className }: { className?: string }) {
 				</DropdownMenuLabel>
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup>
+					<DropdownMenuItem onClick={() => router.push("/profile")}>
+						<FontAwesomeIcon icon={faUser} fontSize={20} />
+						<span>{tHeader("profile")}</span>
+					</DropdownMenuItem>
 					<DropdownMenuItem onClick={handleCashirClick}>
 						<FontAwesomeIcon icon={faWallet} fontSize={20} />
 						<span>{tHeader("cashier")}</span>
 					</DropdownMenuItem>
 					<DropdownMenuItem
-						onClick={() => router.push("/profile?section=bet")}
+						onClick={() => router.push("/history?section=bet")}
 					>
 						<FontAwesomeIcon icon={faChartLineUp} fontSize={20} />
 						<span>{tHeader("winLoss")}</span>
@@ -127,7 +132,7 @@ export function PageHeader({ className }: { className?: string }) {
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup className="block lg:hidden">
 					<DropdownMenuItem>
-						{/* <ThemeToggle className="flex " /> */}
+						<ThemeToggle className="flex " />
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<Button
@@ -449,7 +454,7 @@ export function PageHeader({ className }: { className?: string }) {
 					<FontAwesomeIcon icon={faGlobe} className="w-5 h-5" />
 					<span className="sr-only">Language</span>
 				</Button>
-				{/* <ThemeToggle className="hidden lg:flex" /> */}
+				<ThemeToggle className="hidden lg:flex" />
 			</div>
 			<SearchModal open={searchOpen} onOpenChange={setSearchOpen} />
 			<EmailVerificationModal

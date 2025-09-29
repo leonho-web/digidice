@@ -5,7 +5,14 @@ import { heroBannerPropsFactory } from "@/components/features/banners/hero/hero-
 import { Game } from "@/types/games/gameList.types";
 
 const LAYOUT_STORAGE_KEY = "hero-banner-layout";
-type SupportedLayouts = "layout1" | "layout2" | "layout3" | "layout4";
+type SupportedLayouts =
+	| "layout1"
+	| "layout2"
+	| "layout3"
+	| "layout4"
+	| "layout6"
+	| "layout7"
+	| "layout8";
 
 /**
  * Defines the state structure for UI-related HeroBanner configurations.

@@ -108,7 +108,7 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 						<TrendingUp className="h-7 w-7 text-primary" />
 					</div>
 					<div>
-						<CardTitle className="text-2xl font-bold text-foreground tracking-tight">
+						<CardTitle className="text-2xl font-semibold text-foreground tracking-tight">
 							{t("title")}
 						</CardTitle>
 						<p className="text-muted-foreground mt-1">
@@ -128,31 +128,31 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 						<Table>
 							<TableHeader>
 								<TableRow className="bg-gradient-to-r from-muted/40 to-muted/20 border-none hover:bg-muted/50 transition-colors">
-									<TableHead className="font-bold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[200px]">
+									<TableHead className="font-semibold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[200px]">
 										<div className="flex items-center gap-3">
 											<Diamond className="h-5 w-5 text-primary" />
 											{t("table.tierLevel")}
 										</div>
 									</TableHead>
-									<TableHead className="font-bold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[180px]">
+									<TableHead className="font-semibold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[180px]">
 										<div className="flex items-center gap-2">
 											<TrendingUp className="h-4 w-4 text-muted-foreground" />
 											{t("table.wagerRange")}
 										</div>
 									</TableHead>
-									<TableHead className="text-center font-bold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[150px]">
+									<TableHead className="text-center font-semibold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[150px]">
 										<div className="flex items-center justify-center gap-2">
 											<Dice6 className="h-4 w-4 text-amber-600" />
 											{t("table.slots")}
 										</div>
 									</TableHead>
-									<TableHead className="text-center font-bold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[150px]">
+									<TableHead className="text-center font-semibold text-foreground text-base py-6 px-6 border-r border-border/30 min-w-[150px]">
 										<div className="flex items-center justify-center gap-2">
 											<Gamepad2 className="h-4 w-4 text-red-600" />
 											{t("table.liveCasino")}
 										</div>
 									</TableHead>
-									<TableHead className="text-center font-bold text-foreground text-base py-6 px-6 min-w-[150px]">
+									<TableHead className="text-center font-semibold text-foreground text-base py-6 px-6 min-w-[150px]">
 										<div className="flex items-center justify-center gap-2">
 											<Trophy className="h-4 w-4 text-blue-600" />
 											{t("table.sports")}
@@ -175,12 +175,12 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 													<div
 														className={`w-10 h-10 rounded-xl bg-gradient-to-r ${tierColor.gradient} flex items-center justify-center shadow-lg border border-white/20`}
 													>
-														<span className="text-white font-bold text-sm">
+														<span className="text-white font-semibold text-sm">
 															{tier.level}
 														</span>
 													</div>
 													<div>
-														<div className="font-bold text-foreground text-lg">
+														<div className="font-semibold text-foreground text-lg">
 															{t(
 																"table.tierPrefix"
 															)}{" "}
@@ -210,7 +210,7 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 											<TableCell className="text-center py-6 px-6 border-r border-border/20">
 												<div className="inline-flex items-center gap-2 px-4 py-3 bg-amber-500/10 border border-amber-500/30 rounded-xl shadow-sm">
 													<Dice6 className="w-4 h-4 text-amber-600" />
-													<span className="font-bold text-foreground text-lg">
+													<span className="font-semibold text-foreground text-lg">
 														{tier.slot_percent}%
 													</span>
 												</div>
@@ -218,7 +218,7 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 											<TableCell className="text-center py-6 px-6 border-r border-border/20">
 												<div className="inline-flex items-center gap-2 px-4 py-3 bg-red-500/10 border border-red-500/30 rounded-xl shadow-sm">
 													<Gamepad2 className="w-4 h-4 text-red-600" />
-													<span className="font-bold text-foreground text-lg">
+													<span className="font-semibold text-foreground text-lg">
 														{tier.lc_percent}%
 													</span>
 												</div>
@@ -226,7 +226,7 @@ export const RatesTable = ({ affiliateRates, isLoading }: RatesTableProps) => {
 											<TableCell className="text-center py-6 px-6">
 												<div className="inline-flex items-center gap-2 px-4 py-3 bg-blue-500/10 border border-blue-500/30 rounded-xl shadow-sm">
 													<Trophy className="w-4 h-4 text-blue-600" />
-													<span className="font-bold text-foreground text-lg">
+													<span className="font-semibold text-foreground text-lg">
 														{tier.sport_percent}%
 													</span>
 												</div>

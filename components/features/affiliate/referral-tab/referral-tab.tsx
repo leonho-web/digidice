@@ -25,12 +25,12 @@ export const ReferralsTab = () => {
 						/>
 					</div>
 					<div>
-						<h1 className="text-3xl font-bold text-foreground tracking-tight">
+						<h1 className="text-3xl font-semibold text-foreground tracking-tight">
 							{t("title")}
 						</h1>
-						{/* <p className="text-muted-foreground text-base mt-1">
+						<p className="text-muted-foreground text-base mt-1">
 							{t("subtitle")}
-						</p> */}
+						</p>
 					</div>
 				</div>
 
