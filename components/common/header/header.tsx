@@ -132,7 +132,7 @@ export function PageHeader({ className }: { className?: string }) {
 				<DropdownMenuSeparator />
 				<DropdownMenuGroup className="block lg:hidden">
 					<DropdownMenuItem>
-						<ThemeToggle className="flex " />
+						{/* <ThemeToggle className="flex " /> */}
 						<DropdownMenu>
 							<DropdownMenuTrigger asChild>
 								<Button
@@ -454,7 +454,7 @@ export function PageHeader({ className }: { className?: string }) {
 					<FontAwesomeIcon icon={faGlobe} className="w-5 h-5" />
 					<span className="sr-only">Language</span>
 				</Button>
-				<ThemeToggle className="hidden lg:flex" />
+				{/* <ThemeToggle className="hidden lg:flex" /> */}
 			</div>
 			<SearchModal open={searchOpen} onOpenChange={setSearchOpen} />
 			<EmailVerificationModal
