@@ -7,7 +7,7 @@
 		"viewAll": "Voir tout"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Basculer la barre latérale",
@@ -526,6 +526,10 @@
 				"schedule": "Calendrier des commissions :",
 				"availableDaily": "Disponible tous les jours à",
 				"localTimeLabel": "(Votre heure locale : {time})"
+			},
+			"overview": {
+				"title": "Aperçu",
+				"body": "Le Programme d'Affiliation récompense les affiliés en fonction du chiffre d'affaires des paris des joueurs référés dans les machines à sous, le casino en direct, les paris sportifs et la loterie. Les commissions sont calculées toutes les 24 heures, avec des gains basés sur différents paliers de chiffre d'affaires."
 			}
 		},
 		"calculator": {
@@ -811,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Retrait réussi !",
-			"successMessage": "🎉 Je viens de retirer {withdrawAmount} {tokenSymbol} de Digi Dice ! 🚀 Rejoignez la série de victoires sur {shareUrl}",
+			"successMessage": "🎉 Je viens de retirer {withdrawAmount} {tokenSymbol} de Meme Win ! 🚀 Rejoignez la série de victoires sur {shareUrl}",
 			"withdrawnAmount": "Montant retiré",
 			"shareText": "Partager",
 			"subText": "🚀 REJOIGNEZ LA SÉRIE DE VICTOIRES ! 🚀",
@@ -932,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JEUX",
-				"desc": "Profitez des originaux de DigiDice et d'autres jeux de casino des meilleurs fournisseurs.",
+				"desc": "Profitez des originaux de MemeWin et d'autres jeux de casino des meilleurs fournisseurs.",
 				"link": "Aller au casino"
 			},
 			"slots": {
@@ -1048,6 +1052,156 @@
 			"fontResetSuccess": "Police réinitialisée par défaut",
 			"invalidFileType": "Veuillez téléverser un fichier de police valide (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Échec de la lecture du fichier de police"
+		}
+	},
+	"bonus": {
+		"title": "Programme de Bonus pour Membres",
+		"loginPromptTitle": "Programme de Bonus pour Membres",
+		"loginPromptSubtitle": "Connectez-vous pour afficher vos statistiques de bonus et réclamer vos récompenses.",
+		"goHome": "Aller à l'accueil",
+		"tabs": {
+			"dashboard": "Tableau de bord",
+			"claims": "Réclamations",
+			"rates": "Taux de bonus",
+			"calculator": "Calculatrice"
+		},
+		"refresh": "Rafraîchir",
+		"refreshing": "Actualisation...",
+		"refreshAllSuccess": "Toutes les données ont été rafraîchies avec succès !",
+		"refreshPartial": "Partiellement rafraîchi : {success}/{total} sections mises à jour",
+		"refreshFailed": "Échec de l'actualisation des données. Veuillez réessayer.",
+		"dashboard": {
+			"title": "Tableau de Bord des Bonus",
+			"subtitle": "Suivez vos paris, bonus et gains de récompenses",
+			"performanceOverview": "Aperçu des bonus",
+			"bonusRatesTitle": "Structure du taux de bonus",
+			"totalIncome": "Bonus Total",
+			"pendingBonus": "Bonus en Attente",
+			"lastClaim": "Dernière réclamation",
+			"unclaimedEarnings": "Disponible à réclamer",
+			"claim": {
+				"title": "Réclamation et Retrait",
+				"points": {
+					"0": "Les commissions sont disponibles pour retrait une fois calculées.",
+					"1": "Il n'y a pas de date d'expiration pour les commissions non réclamées - elles s'accumulent jusqu'à ce qu'elles soient réclamées.",
+					"2": "Les retraits suivent les règles standard de la plateforme, telles que les limites minimales et les délais de traitement."
+				}
+			},
+			"claiming": "Réclamation en cours...",
+			"section2": {
+				"title": "Éligibilité",
+				"content": "Pour participer :"
+			},
+			"section3": {
+				"title": "Niveaux et Tarifs d'Agriculture",
+				"content": "Les bonus sont calculés en fonction de vos montants de pari quotidiens :",
+				"noteTitle": "Remarque",
+				"noteContent": "Les niveaux sont évalués quotidiennement à 14:00 UTC. Le volume des mises du jour précédent détermine le taux de bonus du jour. Les taux s'appliquent à tous les types de jeux : Machines à sous, Casino en direct, et Sports."
+			}
+		},
+		"claims": {
+			"title": "Historique des réclamations",
+			"subtitle": "Suivez vos réclamations de bonus et votre activité de pari",
+			"tableHeaders": {
+				"date": "Date de pari",
+				"slots": "Machines à sous",
+				"liveCasino": "Casino en Direct",
+				"sports": "Sports",
+				"total": "Total",
+				"tier": "Niveau",
+				"unclaimed": "Non réclamé",
+				"token": "Token"
+			},
+			"tierPrefix": "Niveau",
+			"availableToClaim": "Disponible à réclamer",
+			"totalBonus": "Bonus Total",
+			"claimed": "Réclamé",
+			"progressPercentage": "Progression",
+			"progressTitle": "Votre progression",
+			"currentTier": "Niveau actuel",
+			"nextTier": "Prochain niveau",
+			"wagerProgress": "Progression des paris",
+			"totalWagered": "Total misé aujourd'hui",
+			"toNextTier": "pour atteindre le niveau suivant",
+			"empty": {
+				"title": "Pas encore de réclamations de bonus",
+				"subtitle": "Commencez à jouer pour gagner des bonus!"
+			}
+		},
+		"rates": {
+			"title": "Niveaux et Tarifs d'Agriculture",
+			"subtitle": "Pourcentages de bonus par niveau de mise et catégorie de jeu",
+			"overview": {
+				"title": "Aperçu",
+				"body": "La Culture de Bonus récompense les utilisateurs en fonction de leurs mises sur les machines à sous, le casino en direct, le livre de sport et la loterie. Les bonus sont calculés toutes les 24 heures, et les utilisateurs peuvent les réclamer le lendemain après avoir misé. Il y a sept niveaux, chacun avec des taux différents selon le montant de la mise."
+			},
+			"eligibility": {
+				"title": "Éligibilité",
+				"content": "Pour participer :",
+				"points": {
+					"0": "Vous devez avoir un compte actif.",
+					"1": "Placez des paris sur les machines à sous, le casino en direct, le bookmaker et la loterie.",
+					"2": "Répondez aux exigences de mise minimale pour chaque niveau."
+				}
+			},
+			"calculation": {
+				"title": "Comment les bonus sont calculés",
+				"desc": "Les bonus sont calculés toutes les 24 heures en fonction de vos mises totales. Exemples :",
+				"exampleTitle": "Niveau {tier}:",
+				"wagerIn": "Pariez {amount} dans {gameType}"
+			},
+			"table": {
+				"tierLevel": "Niveau de niveau",
+				"wagerRange": "Gamme de Pari",
+				"slots": "Machines à sous",
+				"liveCasino": "Casino en Direct",
+				"sports": "Sports",
+				"tierPrefix": "NIVEAU",
+				"commissionLevel": "Niveau bonus",
+				"dailyWager": "Volume des paris quotidiens"
+			},
+			"claim": {
+				"title": "Réclamation et retrait des bonus",
+				"points": {
+					"0": "Les bonus deviennent éligibles pour être réclamés 24 heures après le pari.",
+					"1": "Les bonus non réclamés s'accumuleront et ne périmeront pas.",
+					"2": "Le processus de réclamation et de retrait peut varier en fonction des politiques spécifiques à la plateforme."
+				}
+			},
+			"system": {
+				"title": "Heure et opérations du système",
+				"dailyTimeframeLabel": "Période quotidienne :",
+				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (chaque jour).",
+				"claimDailyLabel": "Réclamation quotidienne:",
+				"claimDailyValue": "Disponible quotidiennement à 14:00 UTC (Votre heure locale : {local}).",
+				"note": "Remarque : bien que nous travaillions avec des fournisseurs de différents fuseaux horaires, tous les calculs suivent l'heure UTC pour garantir la cohérence et éviter toute confusion."
+			},
+			"amendments": {
+				"title": "Amendements et disqualifications",
+				"body": "Nous pouvons mettre à jour ces conditions à tout moment, et les modifications prennent effet dès leur publication. En cas de soupçon d'erreurs système, de mauvais calculs ou de tricherie, nous nous réservons le droit de modifier ou de disqualifier les bonus et comptes si nécessaire pour assurer l'équité"
+			},
+			"footer": {
+				"schedule": "Calendrier des bonus:",
+				"availableDaily": "Disponible tous les jours à",
+				"localTimeLabel": "(Votre heure locale : {time})"
+			}
+		},
+		"calculator": {
+			"title": "Calculateur de Bonus",
+			"subtitle": "Estimez vos gains bonus en fonction de vos montants de pari",
+			"interactive": {
+				"title": "Outil interactif:",
+				"body": "Entrez différents montants de mise pour voir les bonus potentiels à travers tous les niveaux"
+			},
+			"potentialEarnings": "Bonus Potentiel",
+			"basedOnRate": "Basé sur un taux de bonus de {percentage}%",
+			"tier": "Niveau {level}",
+			"commissionLevel": "Niveau Bonus {level}",
+			"enterWager": "Entrez le montant du pari (USD)",
+			"wagerPlaceholder": "p. ex., 1000",
+			"calcFor": "Calcul du bonus pour une mise de ${amount}",
+			"totalPotential": "Bonus Potentiel Total:",
+			"combinedAtTier": "Bonus combiné de tous les types de jeu au niveau {level}"
 		}
 	}
 }

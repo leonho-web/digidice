@@ -7,7 +7,7 @@
 		"viewAll": "Zobacz wszystko"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Przełącz pasek boczny",
@@ -526,6 +526,10 @@
 				"schedule": "Harmonogram prowizji:",
 				"availableDaily": "Dostępne codziennie o",
 				"localTimeLabel": "(Twój czas lokalny: {time})"
+			},
+			"overview": {
+				"title": "Przegląd",
+				"body": "Program partnerski nagradza partnerów na podstawie obrotu zakładów od poleconych graczy w automatach, kasynie na żywo, zakładach sportowych i loteriach. Prowizje są obliczane co 24 godziny, a zyski opierają się na różnych poziomach obrotu."
 			}
 		},
 		"calculator": {
@@ -811,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Wypłata udana!",
-			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Digi Dice! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
+			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Meme Win! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
 			"withdrawnAmount": "Wypłacona kwota",
 			"shareText": "Udostępnij",
 			"subText": "🚀 DOŁĄCZ DO ZWYCIĘSKIEJ PASSY! 🚀",
@@ -932,7 +936,7 @@
 			"casino": {
 				"title": "Kasyno",
 				"badge": "590+ GIER",
-				"desc": "Ciesz się oryginalnymi grami DigiDice i innymi grami kasynowymi od najlepszych dostawców.",
+				"desc": "Ciesz się oryginalnymi grami MemeWin i innymi grami kasynowymi od najlepszych dostawców.",
 				"link": "Przejdź do kasyna"
 			},
 			"slots": {
@@ -1048,6 +1052,156 @@
 			"fontResetSuccess": "Czcionka została przywrócona do domyślnej",
 			"invalidFileType": "Prześlij prawidłowy plik czcionki (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Nie udało się odczytać pliku czcionki"
+		}
+	},
+	"bonus": {
+		"title": "Program Premii dla Członków",
+		"loginPromptTitle": "Program Bonusowy dla Członków",
+		"loginPromptSubtitle": "Zaloguj się, aby zobaczyć swoje statystyki bonusowe i odebrać nagrody.",
+		"goHome": "Przejdź do strony głównej",
+		"tabs": {
+			"dashboard": "Panel",
+			"claims": "Roszczenia",
+			"rates": "Stawki premiowe",
+			"calculator": "Kalkulator"
+		},
+		"refresh": "Odśwież",
+		"refreshing": "Odświeżanie...",
+		"refreshAllSuccess": "Wszystkie dane zostały pomyślnie odświeżone!",
+		"refreshPartial": "Częściowo odświeżone: {success}/{total} sekcji zaktualizowano",
+		"refreshFailed": "Nie udało się odświeżyć danych. Proszę spróbować ponownie.",
+		"dashboard": {
+			"title": "Pulpit Bonusów",
+			"subtitle": "Śledź swoje zakłady, bonusy i zarobki z nagród",
+			"performanceOverview": "Przegląd bonusów",
+			"bonusRatesTitle": "Struktura stawki premii",
+			"totalIncome": "Całkowity Bonus",
+			"pendingBonus": "Oczekujący Bonus",
+			"lastClaim": "Ostatnie roszczenie",
+			"unclaimedEarnings": "Dostępne do odebrania",
+			"claim": {
+				"title": "Reklamacja i Wypłata",
+				"points": {
+					"0": "Prowizje są dostępne do wypłaty po obliczeniu.",
+					"1": "Nie ma terminu ważności dla nieodebranych prowizji — kumulują się one aż do zgłoszenia.",
+					"2": "Wypłaty podlegają standardowym zasadom platformy, takim jak minimalne limity i czasy przetwarzania."
+				}
+			},
+			"claiming": "Roszczenie...",
+			"section2": {
+				"title": "Uprawnienia",
+				"content": "Aby wziąć udział:"
+			},
+			"section3": {
+				"title": "Poziomy i Stawki Rolnicze",
+				"content": "Premie obliczane są na podstawie dziennych kwot zakładów:",
+				"noteTitle": "Notatka",
+				"noteContent": "Poziomy są oceniane codziennie o 14:00 UTC. Objętość zakładów z poprzedniego dnia określa dzisiejszą stawkę bonusową. Stawki obowiązują dla wszystkich rodzajów gier: Automaty, Kasyno na żywo i Sport."
+			}
+		},
+		"claims": {
+			"title": "Historia roszczeń",
+			"subtitle": "Śledź swoje roszczenia bonusowe i aktywność w zakładach",
+			"tableHeaders": {
+				"date": "Data zakładu",
+				"slots": "Automaty",
+				"liveCasino": "Kasyno na Żywo",
+				"sports": "Sporty",
+				"total": "Łącznie",
+				"tier": "Poziom",
+				"unclaimed": "Nieodebrane",
+				"token": "Token"
+			},
+			"tierPrefix": "Poziom",
+			"availableToClaim": "Dostępne do zgłoszenia",
+			"totalBonus": "Całkowity Bonus",
+			"claimed": "Zgłoszone",
+			"progressPercentage": "Postęp",
+			"progressTitle": "Twój postęp",
+			"currentTier": "Obecny poziom",
+			"nextTier": "Następny poziom",
+			"wagerProgress": "Postęp zakładu",
+			"totalWagered": "Razem obstawione dzisiaj",
+			"toNextTier": "aby osiągnąć następny poziom",
+			"empty": {
+				"title": "Brak roszczeń o bonusy",
+				"subtitle": "Zacznij grać, aby zdobywać bonusy!"
+			}
+		},
+		"rates": {
+			"title": "Poziomy i Stawki Rolnicze",
+			"subtitle": "Procenty bonusu według poziomu zakładu i kategorii gry",
+			"overview": {
+				"title": "Przegląd",
+				"body": "Bonus Farming nagradza użytkowników na podstawie ich zakładów w Slot, Kasynie na Żywo, Bukmacherze i Loterii. Bonusy są obliczane co 24 godziny, a użytkownicy mogą się o nie ubiegać następnego dnia po obstawieniu. Istnieje siedem poziomów, każdy z różnymi stawkami w zależności od kwoty zakładu."
+			},
+			"eligibility": {
+				"title": "Uprawnienia",
+				"content": "Aby wziąć udział:",
+				"points": {
+					"0": "Musisz mieć aktywne konto.",
+					"1": "Złóż zakłady w automatach, kasynie na żywo, zakładach sportowych i loterii.",
+					"2": "Spełnij minimalne wymagania dotyczące zakładów dla każdego poziomu."
+				}
+			},
+			"calculation": {
+				"title": "Jak oblicza się bonusy",
+				"desc": "Bonusy są obliczane co 24 godziny na podstawie twoich całkowitych zakładów. Przykłady:",
+				"exampleTitle": "Poziom {tier}:",
+				"wagerIn": "Postaw {amount} w {gameType}"
+			},
+			"table": {
+				"tierLevel": "Poziom poziomu",
+				"wagerRange": "Zakres Zakładów",
+				"slots": "Automaty",
+				"liveCasino": "Kasyno Na Żywo",
+				"sports": "Sporty",
+				"tierPrefix": "POZIOM",
+				"commissionLevel": "Poziom bonusowy",
+				"dailyWager": "Dzienna objętość zakładów"
+			},
+			"claim": {
+				"title": "Zgłaszanie i wypłacanie bonusów",
+				"points": {
+					"0": "Bonusy można odbierać 24 godziny po zakładzie.",
+					"1": "Niewypłacone bonusy będą się kumulować i nie wygasną.",
+					"2": "Proces roszczeń i wypłat może się różnić w zależności od polityk specyficznych dla platformy."
+				}
+			},
+			"system": {
+				"title": "Czas i operacje systemowe",
+				"dailyTimeframeLabel": "Dzienne ramy czasowe:",
+				"dailyTimeframeValue": "00:00 UTC do 23:59 UTC (każdego dnia).",
+				"claimDailyLabel": "Zgłoś codziennie:",
+				"claimDailyValue": "Dostępne codziennie o 14:00 UTC (Twój czas lokalny: {local}).",
+				"note": "Uwaga: podczas pracy z dostawcami z różnych stref czasowych, wszystkie obliczenia są wykonywane zgodnie z UTC, aby zapewnić spójność i uniknąć nieporozumień."
+			},
+			"amendments": {
+				"title": "Poprawki i dyskwalifikacje",
+				"body": "Możemy zaktualizować te warunki w dowolnym momencie, a zmiany wchodzą w życie po ich opublikowaniu. W przypadku podejrzenia błędów systemowych, błędnych obliczeń lub oszustwa zastrzegamy sobie prawo do dostosowania lub zdyskwalifikowania premii i kont, aby zapewnić uczciwość"
+			},
+			"footer": {
+				"schedule": "Harmonogram premii:",
+				"availableDaily": "Dostępne codziennie o",
+				"localTimeLabel": "(Twój lokalny czas: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Kalkulator premii",
+			"subtitle": "Oszacuj swoje zarobki z bonusu na podstawie kwot zakładów",
+			"interactive": {
+				"title": "Narzędzie interaktywne:",
+				"body": "Wprowadź różne kwoty stawek, aby zobaczyć potencjalne premie we wszystkich poziomach"
+			},
+			"potentialEarnings": "Potencjalny Bonus",
+			"basedOnRate": "Na podstawie stawki bonusowej {percentage}%",
+			"tier": "Poziom {level}",
+			"commissionLevel": "Poziom Bonusowy {level}",
+			"enterWager": "Wpisz kwotę zakładu (USD)",
+			"wagerPlaceholder": "np., 1000",
+			"calcFor": "Obliczanie bonusu dla zakładu za ${amount}",
+			"totalPotential": "Całkowity Potencjalny Bonus:",
+			"combinedAtTier": "Połączony bonus ze wszystkich typów gier na poziomie {level}"
 		}
 	}
 }

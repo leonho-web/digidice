@@ -7,7 +7,7 @@
 		"viewAll": "Ver tudo"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
@@ -526,6 +526,10 @@
 				"schedule": "Calendário de comissões:",
 				"availableDaily": "Disponível diariamente às",
 				"localTimeLabel": "(Sua hora local: {time})"
+			},
+			"overview": {
+				"title": "Visão Geral",
+				"body": "O Programa de Afiliados recompensa os afiliados com base no volume de apostas dos jogadores indicados em Slots, Casino ao Vivo, Sportsbooks e Loterias. As comissões são calculadas a cada 24 horas, com ganhos baseados em diferentes níveis de volume."
 			}
 		},
 		"calculator": {
@@ -811,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Levantamento Bem-sucedido!",
-			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do Digi Dice! 🚀 Junte-se à série de vitórias em {shareUrl}",
+			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do Meme Win! 🚀 Junte-se à série de vitórias em {shareUrl}",
 			"withdrawnAmount": "Montante Levantado",
 			"shareText": "Partilhar",
 			"subText": "🚀 JUNTE-SE À SÉRIE DE VITÓRIAS! 🚀",
@@ -932,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JOGOS",
-				"desc": "Desfrute dos Originais DigiDice e de outros jogos de casino dos melhores fornecedores.",
+				"desc": "Desfrute dos Originais MemeWin e de outros jogos de casino dos melhores fornecedores.",
 				"link": "Ir para o Casino"
 			},
 			"slots": {
@@ -1048,6 +1052,156 @@
 			"fontResetSuccess": "Fonte reposta para o padrão",
 			"invalidFileType": "Por favor, carregue um ficheiro de fonte válido (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Falha ao ler o ficheiro de fonte"
+		}
+	},
+	"bonus": {
+		"title": "Programa de Bônus para Membros",
+		"loginPromptTitle": "Programa de Bônus para Membros",
+		"loginPromptSubtitle": "Faça login para ver suas estatísticas de bônus e reivindicar suas recompensas.",
+		"goHome": "Ir para Início",
+		"tabs": {
+			"dashboard": "Painel de controle",
+			"claims": "Reivindicações",
+			"rates": "Taxas de Bônus",
+			"calculator": "Calculadora"
+		},
+		"refresh": "Atualizar",
+		"refreshing": "Atualizando...",
+		"refreshAllSuccess": "Todos os dados foram atualizados com sucesso!",
+		"refreshPartial": "Parcialmente atualizado: {success}/{total} seções atualizadas",
+		"refreshFailed": "Falha ao atualizar os dados. Por favor, tente novamente.",
+		"dashboard": {
+			"title": "Painel de Bônus",
+			"subtitle": "Acompanhe suas apostas, bônus e ganhos de recompensas",
+			"performanceOverview": "Visão geral do bônus",
+			"bonusRatesTitle": "Estrutura da Taxa de Bônus",
+			"totalIncome": "Bónus Total",
+			"pendingBonus": "Bônus Pendente",
+			"lastClaim": "Última reclamação",
+			"unclaimedEarnings": "Disponível para reivindicar",
+			"claim": {
+				"title": "Reivindicação e Retirada",
+				"points": {
+					"0": "Comissões estão disponíveis para saque uma vez calculadas.",
+					"1": "Não há vencimento para as comissões não reclamadas - elas acumulam até serem reclamadas.",
+					"2": "Os saques seguem as regras padrão da plataforma, como limites mínimos e tempos de processamento."
+				}
+			},
+			"claiming": "Reivindicando...",
+			"section2": {
+				"title": "Elegibilidade",
+				"content": "Para participar:"
+			},
+			"section3": {
+				"title": "Níveis e Taxas de Agricultura",
+				"content": "Os bônus são calculados com base nos seus valores de aposta diários:",
+				"noteTitle": "Nota",
+				"noteContent": "Os níveis são avaliados diariamente às 14:00 UTC. O volume de apostas do dia anterior determina a taxa de bônus de hoje. As taxas aplicam-se a todos os tipos de jogos: Caça-níqueis, Cassino ao vivo e Esportes."
+			}
+		},
+		"claims": {
+			"title": "Histórico de Reclamações",
+			"subtitle": "Acompanhe suas reivindicações de bônus e atividade de apostas",
+			"tableHeaders": {
+				"date": "Data da aposta",
+				"slots": "Caça-níqueis",
+				"liveCasino": "Cassino ao Vivo",
+				"sports": "Esportes",
+				"total": "Total",
+				"tier": "Nível",
+				"unclaimed": "Não reclamado",
+				"token": "Token"
+			},
+			"tierPrefix": "Nível",
+			"availableToClaim": "Disponível para reivindicar",
+			"totalBonus": "Bônus Total",
+			"claimed": "Reivindicado",
+			"progressPercentage": "Progresso",
+			"progressTitle": "Seu progresso",
+			"currentTier": "Nível atual",
+			"nextTier": "Próximo nível",
+			"wagerProgress": "Progresso da Aposta",
+			"totalWagered": "Total apostado hoje",
+			"toNextTier": "para atingir o próximo nível",
+			"empty": {
+				"title": "Ainda não há reivindicações de bônus",
+				"subtitle": "Comece a jogar para ganhar bônus!"
+			}
+		},
+		"rates": {
+			"title": "Níveis e Tarifas de Agricultura",
+			"subtitle": "Percentagens de bônus por nível de aposta e categoria de jogo",
+			"overview": {
+				"title": "Visão geral",
+				"body": "O Bonus Farming recompensa os utilizadores com base nas suas apostas em Slot, Casino ao Vivo, Sportsbook e Lotaria. Os bónus são calculados a cada 24 horas, e os utilizadores podem reclamá-los no dia seguinte após a aposta. Existem sete níveis, cada um com taxas diferentes dependendo do valor da aposta."
+			},
+			"eligibility": {
+				"title": "Elegibilidade",
+				"content": "Para participar:",
+				"points": {
+					"0": "Você deve ter uma conta ativa.",
+					"1": "Faça apostas em Slot, Cassino ao Vivo, Apostas Esportivas e Loteria.",
+					"2": "Atenda aos requisitos mínimos de aposta para cada nível."
+				}
+			},
+			"calculation": {
+				"title": "Como os bônus são calculados",
+				"desc": "Os bônus são calculados a cada 24 horas com base em suas apostas totais. Exemplos:",
+				"exampleTitle": "Nível {tier}:",
+				"wagerIn": "Aposte {amount} em {gameType}"
+			},
+			"table": {
+				"tierLevel": "Nível de nível",
+				"wagerRange": "Faixa de Aposta",
+				"slots": "Slots",
+				"liveCasino": "Cassino ao Vivo",
+				"sports": "Esportes",
+				"tierPrefix": "NÍVEL",
+				"commissionLevel": "Nível de bônus",
+				"dailyWager": "Volume de apostas diárias"
+			},
+			"claim": {
+				"title": "Reclamar e Retirar Bônus",
+				"points": {
+					"0": "Os bônus se tornam elegíveis para reivindicação 24 horas após a aposta.",
+					"1": "Os bônus não reivindicados se acumularão e não expirarão.",
+					"2": "O processo de reivindicação e retirada pode variar com base em políticas específicas da plataforma."
+				}
+			},
+			"system": {
+				"title": "Hora e operações do sistema",
+				"dailyTimeframeLabel": "Prazo diário:",
+				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos os dias).",
+				"claimDailyLabel": "Reivindicar Diariamente:",
+				"claimDailyValue": "Disponível diariamente às 14:00 UTC (Seu horário local: {local}).",
+				"note": "Nota: enquanto trabalhamos com fornecedores de diferentes fusos horários, todos os cálculos seguem o UTC para garantir consistência e evitar confusões."
+			},
+			"amendments": {
+				"title": "Emendas e desqualificações",
+				"body": "Podemos atualizar estes termos a qualquer momento, e as alterações entram em vigor após a publicação. Se erros do sistema, erros de cálculo ou fraudes forem suspeitos, reservamo-nos o direito de ajustar ou desqualificar bônus e contas conforme necessário para garantir a justiça"
+			},
+			"footer": {
+				"schedule": "Cronograma de bônus:",
+				"availableDaily": "Disponível diariamente às",
+				"localTimeLabel": "(Seu horário local: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Calculadora de Bônus",
+			"subtitle": "Estime seus ganhos de bônus com base nos seus valores de aposta",
+			"interactive": {
+				"title": "Ferramenta Interativa:",
+				"body": "Insira diferentes quantias de apostas para ver bônus potenciais em todos os níveis"
+			},
+			"potentialEarnings": "Bónus Potencial",
+			"basedOnRate": "Com base na taxa de bônus de {percentage}%",
+			"tier": "Nível {level}",
+			"commissionLevel": "Nível Bônus {level}",
+			"enterWager": "Digite o valor da aposta (USD)",
+			"wagerPlaceholder": "ex., 1000",
+			"calcFor": "Calculando bônus para aposta de ${amount}",
+			"totalPotential": "Bônus Potencial Total:",
+			"combinedAtTier": "Bónus combinado de todos os tipos de jogo no Nível {level}"
 		}
 	}
 }

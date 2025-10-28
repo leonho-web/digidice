@@ -7,7 +7,7 @@
 		"viewAll": "Tümünü Gör"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
@@ -526,6 +526,10 @@
 				"schedule": "Komisyon Takvimi:",
 				"availableDaily": "Her gün",
 				"localTimeLabel": "'de kullanılabilir (Yerel Saatiniz: {time})"
+			},
+			"overview": {
+				"title": "Genel Bakış",
+				"body": "Ortaklık Programı, Ortaklarını, Slotlar, Canlı Casino, Spor Bahisleri ve Piyango gibi oyunlarda yönlendirilen oyuncuların bahis ciro toplamı esas alınarak ödüllendirir. Komisyonlar her 24 saatte bir hesaplanır ve kazançlar farklı ciro seviyelerine göre belirlenir."
 			}
 		},
 		"calculator": {
@@ -811,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Çekim Başarılı!",
-			"successMessage": "🎉 Digi Dice'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
+			"successMessage": "🎉 Meme Win'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
 			"withdrawnAmount": "Çekilen Miktar",
 			"shareText": "Paylaş",
 			"subText": "🚀 KAZANMA SERİSİNE KATIL! 🚀",
@@ -932,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ OYUN",
-				"desc": "DigiDice Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
+				"desc": "MemeWin Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
 				"link": "Casinoya Git"
 			},
 			"slots": {
@@ -1048,6 +1052,156 @@
 			"fontResetSuccess": "Yazı tipi varsayılana sıfırlandı",
 			"invalidFileType": "Lütfen geçerli bir yazı tipi dosyası yükleyin (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Yazı tipi dosyası okunamadı"
+		}
+	},
+	"bonus": {
+		"title": "Üye Bonus Programı",
+		"loginPromptTitle": "Üye Bonus Programı",
+		"loginPromptSubtitle": "Bonus istatistiklerinizi görmek ve ödüllerinizi talep etmek için giriş yapın.",
+		"goHome": "Ana Sayfaya Git",
+		"tabs": {
+			"dashboard": "Kontrol Paneli",
+			"claims": "Talepler",
+			"rates": "Bonus Oranları",
+			"calculator": "Hesap Makinesi"
+		},
+		"refresh": "Yenile",
+		"refreshing": "Yenileniyor...",
+		"refreshAllSuccess": "Tüm veriler başarıyla yenilendi!",
+		"refreshPartial": "Kısmen yenilendi: {success}/{total} bölüm güncellendi",
+		"refreshFailed": "Veri yenileme başarısız. Lütfen tekrar deneyin.",
+		"dashboard": {
+			"title": "Bonus Kontrol Paneli",
+			"subtitle": "Bahislerinizi, bonuslarınızı ve ödül kazançlarınızı takip edin",
+			"performanceOverview": "Bonus Genel Görünümü",
+			"bonusRatesTitle": "Bonus Oran Yapısı",
+			"totalIncome": "Toplam Bonus",
+			"pendingBonus": "Bekleyen Bonus",
+			"lastClaim": "Son Talep",
+			"unclaimedEarnings": "Talep edilebilir",
+			"claim": {
+				"title": "Talep ve Çekme",
+				"points": {
+					"0": "Komisyonlar hesaplandıktan sonra çekim için mevcuttur.",
+					"1": "Talep edilmemiş komisyonlar için son tarih yoktur—talep edilene kadar birikir.",
+					"2": "Çekimler, minimum limitler ve işleme süreleri gibi platformun standart kurallarını takip eder."
+				}
+			},
+			"claiming": "Talep ediliyor...",
+			"section2": {
+				"title": "Uygunluk",
+				"content": "Katılmak için:"
+			},
+			"section3": {
+				"title": "Tarım Seviyeleri ve Tarifeleri",
+				"content": "Bonuslar, günlük bahis miktarlarınıza göre hesaplanır:",
+				"noteTitle": "Not",
+				"noteContent": "Kademe değerlendirmesi her gün saat 14:00 UTC'de yapılmaktadır. Önceki günün bahis hacmi, bugünün bonus oranını belirler. Oranlar tüm oyun türleri için uygulanır: Slotlar, Canlı Casino ve Spor."
+			}
+		},
+		"claims": {
+			"title": "Talep Geçmişi",
+			"subtitle": "Bonus taleplerinizi ve bahis etkinliklerinizi takip edin",
+			"tableHeaders": {
+				"date": "Bahis Tarihi",
+				"slots": "Yuvalar",
+				"liveCasino": "Canlı Casino",
+				"sports": "Sporlar",
+				"total": "Toplam",
+				"tier": "Seviye",
+				"unclaimed": "Talep edilmemiş",
+				"token": "Jeton"
+			},
+			"tierPrefix": "Seviye",
+			"availableToClaim": "Talep için mevcut",
+			"totalBonus": "Toplam Bonus",
+			"claimed": "Talep Edildi",
+			"progressPercentage": "İlerleme",
+			"progressTitle": "İlerlemeniz",
+			"currentTier": "Geçerli Seviye",
+			"nextTier": "Sonraki seviye",
+			"wagerProgress": "Bahis İlerlemesi",
+			"totalWagered": "Bugün Bahis Toplamı",
+			"toNextTier": "bir sonraki seviyeye ulaşmak için",
+			"empty": {
+				"title": "Henüz Bonus Talebi Yok",
+				"subtitle": "Bonus kazanmak için oynamaya başla!"
+			}
+		},
+		"rates": {
+			"title": "Çiftçilik Seviyeleri ve Oranları",
+			"subtitle": "Bahis seviyesi ve oyun kategorisine göre bonus yüzdeleri",
+			"overview": {
+				"title": "Genel Bakış",
+				"body": "Bonus Tarımı, Slot, Canlı Casino, Spor Bahisleri ve Piyango'daki bahislerine göre kullanıcılara ödül verir. Bonuslar her 24 saatte bir hesaplanır ve kullanıcılar bunları bahis koyduktan sonraki gün talep edebilir. Bahis miktarına bağlı olarak farklı oranlara sahip yedi seviye vardır."
+			},
+			"eligibility": {
+				"title": "Uygunluk",
+				"content": "Katılmak için:",
+				"points": {
+					"0": "Aktif bir hesabınız olmalı.",
+					"1": "Slot, Canlı Casino, Spor Bahisleri ve Piyango'da bahis yapın.",
+					"2": "Her kademe için minimum bahis gereksinimlerini karşılayın."
+				}
+			},
+			"calculation": {
+				"title": "Bonuslar Nasıl Hesaplanır",
+				"desc": "Bonuslar, toplam bahislerinize göre her 24 saatte bir hesaplanır. Örnekler:",
+				"exampleTitle": "Seviye {tier}:",
+				"wagerIn": "{gameType} içine {amount} bahis yap"
+			},
+			"table": {
+				"tierLevel": "Kademe Seviyesi",
+				"wagerRange": "Bahis Aralığı",
+				"slots": "Slotlar",
+				"liveCasino": "Canlı Casino",
+				"sports": "Sporlar",
+				"tierPrefix": "SEVİYE",
+				"commissionLevel": "Bonus Seviyesi",
+				"dailyWager": "Günlük bahis hacmi"
+			},
+			"claim": {
+				"title": "Bonusları Talep Etme ve Çekme",
+				"points": {
+					"0": "Bonuslar, bahisten 24 saat sonra talep edilmeye uygun hale gelir.",
+					"1": "Talep edilmeyen bonuslar birikecek ve zaman aşımına uğramayacaktır.",
+					"2": "Taleplerin alınması ve para çekme işlemi, platforma özgü politikalara bağlı olarak değişebilir."
+				}
+			},
+			"system": {
+				"title": "Sistem Saati ve İşlemleri",
+				"dailyTimeframeLabel": "Günlük Zaman Dilimi:",
+				"dailyTimeframeValue": "00:00 UTC'den 23:59 UTC'ye (her gün).",
+				"claimDailyLabel": "Günlük Talep:",
+				"claimDailyValue": "Her gün 14:00 UTC'de mevcut (Yerel saatiniz: {local}).",
+				"note": "Not: Farklı saat dilimlerinden sağlayıcılarla çalışırken, tüm hesaplamalar tutarlılığı sağlamak ve karışıklığı önlemek için UTC'yi takip eder."
+			},
+			"amendments": {
+				"title": "Değişiklikler ve Diskalifiyeler",
+				"body": "Bu şartları herhangi bir zamanda güncelleyebiliriz ve değişiklikler yayınlandığında yürürlüğe girer. Sistem hataları, yanlış hesaplamalar veya hile şüphesi varsa, adaleti sağlamak için gerektiğinde bonusları ve hesapları ayarlama veya diskalifiye etme hakkımız saklıdır"
+			},
+			"footer": {
+				"schedule": "Bonus Programı:",
+				"availableDaily": "Günlük olarak mevcut",
+				"localTimeLabel": "(Yerel Saatiniz: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Bonus Hesaplayıcı",
+			"subtitle": "Bahis miktarlarınıza göre bonus kazançlarınızı tahmin edin",
+			"interactive": {
+				"title": "Etkileşimli Araç:",
+				"body": "Farklı bahis tutarları girerek tüm kademelerdeki potansiyel bonusları görün"
+			},
+			"potentialEarnings": "Potansiyel Bonus",
+			"basedOnRate": "{percentage}% bonus oranına göre",
+			"tier": "Seviye {level}",
+			"commissionLevel": "Bonus Seviyesi {level}",
+			"enterWager": "Bahis Tutarını Girin (USD)",
+			"wagerPlaceholder": "örn., 1000",
+			"calcFor": "${amount} bahis için bonus hesaplanıyor",
+			"totalPotential": "Toplam Potansiyel Bonus:",
+			"combinedAtTier": "{level} Seviyesindeki tüm oyun türlerinden birleşik bonus"
 		}
 	}
 }

@@ -7,7 +7,7 @@
 		"viewAll": "Xem tất cả"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Chuyển đổi thanh bên",
@@ -526,6 +526,10 @@
 				"schedule": "Lịch trình hoa hồng:",
 				"availableDaily": "Có sẵn hàng ngày lúc",
 				"localTimeLabel": "(Giờ địa phương của bạn: {time})"
+			},
+			"overview": {
+				"title": "Tổng quan",
+				"body": "Chương trình Liên kết thưởng cho các chi nhánh dựa trên doanh số cược từ người chơi được giới thiệu trong Slots, Sòng bạc trực tiếp, Cá cược thể thao và Xổ số. Hoa hồng được tính toán mỗi 24 giờ, với thu nhập dựa trên nhiều bậc doanh số khác nhau."
 			}
 		},
 		"calculator": {
@@ -811,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Rút tiền thành công!",
-			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Digi Dice! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Meme Win! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
 			"withdrawnAmount": "Số tiền đã rút",
 			"shareText": "Chia sẻ",
 			"subText": "🚀 HÃY THAM GIA CHUỖI THẮNG! 🚀",
@@ -932,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "Hơn 590 TRÒ CHƠI",
-				"desc": "Thưởng thức các trò chơi gốc của DigiDice và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"desc": "Thưởng thức các trò chơi gốc của MemeWin và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
 				"link": "Đến Casino"
 			},
 			"slots": {
@@ -1048,6 +1052,156 @@
 			"fontResetSuccess": "Phông chữ đã được đặt lại về mặc định",
 			"invalidFileType": "Vui lòng tải lên một tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Không thể đọc tệp phông chữ"
+		}
+	},
+	"bonus": {
+		"title": "Chương Trình Thưởng Cho Thành Viên",
+		"loginPromptTitle": "Chương trình Thưởng Thành viên",
+		"loginPromptSubtitle": "Đăng nhập để xem thống kê tiền thưởng của bạn và nhận phần thưởng.",
+		"goHome": "Về Trang Chủ",
+		"tabs": {
+			"dashboard": "Bảng điều khiển",
+			"claims": "Yêu cầu",
+			"rates": "Tỷ lệ thưởng",
+			"calculator": "Máy tính"
+		},
+		"refresh": "Làm mới",
+		"refreshing": "Đang làm mới...",
+		"refreshAllSuccess": "Tất cả dữ liệu đã được làm mới thành công!",
+		"refreshPartial": "Đã làm mới một phần: {success}/{total} phần đã được cập nhật",
+		"refreshFailed": "Không thể làm mới dữ liệu. Vui lòng thử lại.",
+		"dashboard": {
+			"title": "Bảng Điều Khiển Thưởng",
+			"subtitle": "Theo dõi cược, tiền thưởng và thu nhập phần thưởng của bạn",
+			"performanceOverview": "Tổng quan về tiền thưởng",
+			"bonusRatesTitle": "Cấu trúc tỷ lệ thưởng",
+			"totalIncome": "Tổng Tiền Thưởng",
+			"pendingBonus": "Tiền Thưởng Đang Chờ",
+			"lastClaim": "Yêu cầu cuối cùng",
+			"unclaimedEarnings": "Có thể yêu cầu",
+			"claim": {
+				"title": "Yêu cầu và Rút tiền",
+				"points": {
+					"0": "Hoa hồng có sẵn để rút một khi đã được tính toán.",
+					"1": "Không có thời hạn hết hạn cho các hoa hồng chưa được yêu cầu - chúng tích lũy cho đến khi được yêu cầu.",
+					"2": "Rút tiền tuân theo quy tắc tiêu chuẩn của nền tảng, như giới hạn tối thiểu và thời gian xử lý."
+				}
+			},
+			"claiming": "Đang yêu cầu...",
+			"section2": {
+				"title": "Đủ điều kiện",
+				"content": "Để tham gia:"
+			},
+			"section3": {
+				"title": "Các Cấp độ và Mức Giá Trồng Trọt",
+				"content": "Tiền thưởng được tính dựa trên số tiền cược hàng ngày của bạn:",
+				"noteTitle": "Ghi chú",
+				"noteContent": "Các cấp bậc được đánh giá hàng ngày vào lúc 14:00 UTC. Khối lượng đặt cược của ngày hôm trước xác định tỷ lệ tiền thưởng của ngày hôm nay. Các tỷ lệ áp dụng cho tất cả các loại trò chơi: Slots, Sòng Bạc Trực Tiếp và Thể Thao."
+			}
+		},
+		"claims": {
+			"title": "Lịch sử yêu cầu",
+			"subtitle": "Theo dõi yêu cầu thưởng và hoạt động đặt cược của bạn",
+			"tableHeaders": {
+				"date": "Ngày đặt cược",
+				"slots": "Máy đánh bạc",
+				"liveCasino": "Sòng bạc Trực tiếp",
+				"sports": "Thể thao",
+				"total": "Tổng",
+				"tier": "Cấp",
+				"unclaimed": "Chưa yêu cầu",
+				"token": "Mã thông báo"
+			},
+			"tierPrefix": "Cấp độ",
+			"availableToClaim": "Có sẵn để yêu cầu",
+			"totalBonus": "Tổng Tiền Thưởng",
+			"claimed": "Đã yêu cầu",
+			"progressPercentage": "Tiến độ",
+			"progressTitle": "Tiến trình của bạn",
+			"currentTier": "Bậc hiện tại",
+			"nextTier": "Cấp độ tiếp theo",
+			"wagerProgress": "Tiến trình đặt cược",
+			"totalWagered": "Tổng số đã cược hôm nay",
+			"toNextTier": "để đạt đến tầng tiếp theo",
+			"empty": {
+				"title": "Chưa có yêu cầu thưởng",
+				"subtitle": "Bắt đầu chơi để kiếm thưởng!"
+			}
+		},
+		"rates": {
+			"title": "Cấp Độ và Tỷ Lệ Nông Nghiệp",
+			"subtitle": "Tỷ lệ phần trăm tiền thưởng theo mức cược và loại trò chơi",
+			"overview": {
+				"title": "Tổng quan",
+				"body": "Nông trại Tiền thưởng thưởng cho người dùng dựa trên cược của họ trong Slot, Sòng bài trực tiếp, Sách Thể thao và Xổ số. Tiền thưởng được tính toán mỗi 24 giờ, và người dùng có thể yêu cầu chúng vào ngày hôm sau sau khi đặt cược. Có bảy cấp độ, mỗi cấp có tỷ lệ khác nhau tùy thuộc vào số tiền cược."
+			},
+			"eligibility": {
+				"title": "Tính đủ điều kiện",
+				"content": "Để tham gia:",
+				"points": {
+					"0": "Bạn phải có một tài khoản đang hoạt động.",
+					"1": "Đặt cược vào Slot, Sòng bạc Trực tiếp, Sách thể thao và Xổ số.",
+					"2": "Đáp ứng yêu cầu đặt cược tối thiểu cho mỗi cấp độ."
+				}
+			},
+			"calculation": {
+				"title": "Cách tính thưởng",
+				"desc": "Tiền thưởng được tính toán mỗi 24 giờ dựa trên tổng số tiền cược của bạn. Ví dụ:",
+				"exampleTitle": "Cấp độ {tier}:",
+				"wagerIn": "Cược {amount} vào {gameType}"
+			},
+			"table": {
+				"tierLevel": "Cấp độ bậc",
+				"wagerRange": "Phạm Vi Cược",
+				"slots": "Máy đánh bạc",
+				"liveCasino": "Sòng Bạc Trực Tiếp",
+				"sports": "Thể thao",
+				"tierPrefix": "CẤP ĐỘ",
+				"commissionLevel": "Cấp độ thưởng",
+				"dailyWager": "Khối lượng cược hàng ngày"
+			},
+			"claim": {
+				"title": "Yêu cầu và rút tiền thưởng",
+				"points": {
+					"0": "Tiền thưởng trở nên đủ điều kiện để nhận sau 24 giờ kể từ khi đặt cược.",
+					"1": "Tiền thưởng chưa được nhận sẽ tích lũy và không hết hạn.",
+					"2": "Quá trình yêu cầu và rút tiền có thể thay đổi tùy theo chính sách cụ thể của nền tảng."
+				}
+			},
+			"system": {
+				"title": "Thời gian và hoạt động hệ thống",
+				"dailyTimeframeLabel": "Khung thời gian hàng ngày:",
+				"dailyTimeframeValue": "00:00 UTC đến 23:59 UTC (mỗi ngày).",
+				"claimDailyLabel": "Yêu cầu hàng ngày:",
+				"claimDailyValue": "Có sẵn hàng ngày vào lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
+				"note": "Lưu ý: trong khi chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
+			},
+			"amendments": {
+				"title": "Sửa đổi và loại trừ",
+				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào và các thay đổi có hiệu lực khi được đăng tải. Nếu nghi ngờ có lỗi hệ thống, tính toán sai hoặc gian lận, chúng tôi có quyền điều chỉnh hoặc loại bỏ tiền thưởng và tài khoản khi cần thiết để đảm bảo công bằng"
+			},
+			"footer": {
+				"schedule": "Lịch trình thưởng:",
+				"availableDaily": "Có sẵn hàng ngày vào",
+				"localTimeLabel": "(Giờ địa phương của bạn: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Máy Tính Tiền Thưởng",
+			"subtitle": "Ước tính thu nhập thưởng của bạn dựa trên số tiền cược của bạn",
+			"interactive": {
+				"title": "Công cụ tương tác:",
+				"body": "Nhập các khoản cược khác nhau để xem tiền thưởng tiềm năng trên tất cả các cấp"
+			},
+			"potentialEarnings": "Tiền Thưởng Tiềm Năng",
+			"basedOnRate": "Dựa trên tỷ lệ thưởng {percentage}%",
+			"tier": "Cấp độ {level}",
+			"commissionLevel": "Cấp độ Thưởng {level}",
+			"enterWager": "Nhập số tiền đặt cược (USD)",
+			"wagerPlaceholder": "ví dụ, 1000",
+			"calcFor": "Tính toán tiền thưởng cho số tiền cược ${amount}",
+			"totalPotential": "Tổng Tiền Thưởng Tiềm Năng:",
+			"combinedAtTier": "Tiền thưởng kết hợp từ tất cả các loại trò chơi tại Cấp độ {level}"
 		}
 	}
 }
