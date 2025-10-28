@@ -7,7 +7,7 @@
 		"viewAll": "Alles bekijken"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Zijbalk wisselen",
@@ -815,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Opname Geslaagd!",
-			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van Meme Win! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
+			"successMessage": "🎉 Zojuist {withdrawAmount} {tokenSymbol} opgenomen van Digi Dice! 🚀 Sluit je aan bij de winnende reeks op {shareUrl}",
 			"withdrawnAmount": "Opgenomen Bedrag",
 			"shareText": "Delen",
 			"subText": "🚀 SLUIT JE AAN BIJ DE WINNENDE REEKS! 🚀",
@@ -936,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ SPELLEN",
-				"desc": "Geniet van MemeWin Originals en andere casinospellen van top providers.",
+				"desc": "Geniet van DigiDice Originals en andere casinospellen van top providers.",
 				"link": "Ga naar Casino"
 			},
 			"slots": {

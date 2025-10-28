@@ -1,6 +1,6 @@
 {
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
@@ -815,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "¡Retiro Exitoso!",
-			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Meme Win! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
+			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Digi Dice! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
 			"withdrawnAmount": "Cantidad Retirada",
 			"shareText": "¡Comparte",
 			"subText": "🚀 ¡ÚNETE A LA RACHA GANADORA! 🚀",
@@ -823,7 +823,14 @@
 			"screenshot": "Tomar Captura",
 			"download": "Descargar Imagen",
 			"close": "Cerrar",
-			"copiedToClipboard": "Enlace para compartir copiado exitosamente"
+			"copiedToClipboard": "Enlace para compartir copiado exitosamente",
+			"userName": "Jugador de MemeWin",
+			"status": "Completado",
+			"entryPrice": "Cantidad de Retiro",
+			"lastPrice": "Símbolo del Token",
+			"referralCode": "Código de Referencia",
+			"screenshotFailed": "Captura de pantalla fallida. Por favor intenta de nuevo o usa un navegador diferente.",
+			"shareFailed": "Compartir falló. Por favor intenta de nuevo."
 		},
 		"withdrawPending": {
 			"confirmedTitle": "¡Retiro confirmado!",
@@ -936,7 +943,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JUEGOS",
-				"desc": "Disfruta de MemeWin Originals y otros juegos de casino de los mejores proveedores.",
+				"desc": "Disfruta de DigiDice Originals y otros juegos de casino de los mejores proveedores.",
 				"link": "Ir al Casino"
 			},
 			"slots": {

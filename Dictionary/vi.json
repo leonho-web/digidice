@@ -7,7 +7,7 @@
 		"viewAll": "Xem tất cả"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Chuyển đổi thanh bên",
@@ -815,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Rút tiền thành công!",
-			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Meme Win! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ Digi Dice! 🚀 Hãy tham gia chuỗi thắng tại {shareUrl}",
 			"withdrawnAmount": "Số tiền đã rút",
 			"shareText": "Chia sẻ",
 			"subText": "🚀 HÃY THAM GIA CHUỖI THẮNG! 🚀",
@@ -936,7 +936,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "Hơn 590 TRÒ CHƠI",
-				"desc": "Thưởng thức các trò chơi gốc của MemeWin và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"desc": "Thưởng thức các trò chơi gốc của DigiDice và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
 				"link": "Đến Casino"
 			},
 			"slots": {

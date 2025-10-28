@@ -7,7 +7,7 @@
 		"viewAll": "Zobacz wszystko"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Przełącz pasek boczny",
@@ -815,7 +815,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Wypłata udana!",
-			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Meme Win! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
+			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Digi Dice! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
 			"withdrawnAmount": "Wypłacona kwota",
 			"shareText": "Udostępnij",
 			"subText": "🚀 DOŁĄCZ DO ZWYCIĘSKIEJ PASSY! 🚀",
@@ -936,7 +936,7 @@
 			"casino": {
 				"title": "Kasyno",
 				"badge": "590+ GIER",
-				"desc": "Ciesz się oryginalnymi grami MemeWin i innymi grami kasynowymi od najlepszych dostawców.",
+				"desc": "Ciesz się oryginalnymi grami DigiDice i innymi grami kasynowymi od najlepszych dostawców.",
 				"link": "Przejdź do kasyna"
 			},
 			"slots": {
