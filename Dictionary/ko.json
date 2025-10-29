@@ -7,7 +7,7 @@
 		"viewAll": "모두 보기"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "사이드바 전환",
@@ -33,7 +33,8 @@
 		"promotions": "프로모션",
 		"affiliate": "제휴",
 		"providers": "제공업체",
-		"lobby": "로비"
+		"lobby": "로비",
+		"bonus": "매출 보너스"
 	},
 	"profile": {
 		"language": "언어",
@@ -815,7 +816,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "출금 성공!",
-			"successMessage": "🎉 Digi Dice에서 방금 {withdrawAmount} {tokenSymbol}을(를) 출금했습니다! 🚀 {shareUrl}에서 승리의 행진에 동참하세요",
+			"successMessage": "🎉 Meme Win에서 방금 {withdrawAmount} {tokenSymbol}을(를) 출금했습니다! 🚀 {shareUrl}에서 승리의 행진에 동참하세요",
 			"withdrawnAmount": "출금된 금액",
 			"shareText": "공유하기",
 			"subText": "🚀 승리의 행진에 동참하세요! 🚀",
@@ -936,7 +937,7 @@
 			"casino": {
 				"title": "카지노",
 				"badge": "590+ 게임",
-				"desc": "DigiDice 오리지널 및 상위 제공업체의 다른 카지노 게임을 즐기세요.",
+				"desc": "MemeWin 오리지널 및 상위 제공업체의 다른 카지노 게임을 즐기세요.",
 				"link": "카지노로 가기"
 			},
 			"slots": {

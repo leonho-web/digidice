@@ -7,7 +7,7 @@
 		"viewAll": "Visa alla"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Växla sidofält",
@@ -33,7 +33,8 @@
 		"promotions": "Kampanjer",
 		"affiliate": "Affiliate",
 		"providers": "Leverantörer",
-		"lobby": "Lobby"
+		"lobby": "Lobby",
+		"bonus": "Omsättningsbonus"
 	},
 	"profile": {
 		"language": "Språk",
@@ -815,7 +816,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Uttag lyckades!",
-			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från Digi Dice! 🚀 Häng med på vinnarstråket på {shareUrl}",
+			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från Meme Win! 🚀 Häng med på vinnarstråket på {shareUrl}",
 			"withdrawnAmount": "Uttaget belopp",
 			"shareText": "Dela",
 			"subText": "🚀 HÄNG MED PÅ VINNARSTRÅKET! 🚀",
@@ -936,7 +937,7 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ SPEL",
-				"desc": "Njut av DigiDice Originals och andra kasinospel från toppleverantörer.",
+				"desc": "Njut av MemeWin Originals och andra kasinospel från toppleverantörer.",
 				"link": "Gå till kasinot"
 			},
 			"slots": {

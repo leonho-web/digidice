@@ -7,7 +7,7 @@
 		"viewAll": "Tümünü Gör"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
@@ -33,7 +33,8 @@
 		"promotions": "Promosyonlar",
 		"affiliate": "Ortaklık",
 		"providers": "Sağlayıcılar",
-		"lobby": "Lobi"
+		"lobby": "Lobi",
+		"bonus": "Ciro Bonusu"
 	},
 	"profile": {
 		"language": "Dil",
@@ -815,7 +816,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Çekim Başarılı!",
-			"successMessage": "🎉 Digi Dice'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
+			"successMessage": "🎉 Meme Win'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
 			"withdrawnAmount": "Çekilen Miktar",
 			"shareText": "Paylaş",
 			"subText": "🚀 KAZANMA SERİSİNE KATIL! 🚀",
@@ -936,7 +937,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ OYUN",
-				"desc": "DigiDice Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
+				"desc": "MemeWin Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
 				"link": "Casinoya Git"
 			},
 			"slots": {

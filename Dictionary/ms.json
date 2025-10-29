@@ -7,7 +7,7 @@
 		"viewAll": "Lihat Semua"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Togol Bar Sisi",
@@ -33,7 +33,8 @@
 		"promotions": "Promosi",
 		"affiliate": "Afiliasi",
 		"providers": "Penyedia",
-		"lobby": "Lobi"
+		"lobby": "Lobi",
+		"bonus": "Bonus Perolehan"
 	},
 	"profile": {
 		"language": "Bahasa",
@@ -815,7 +816,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Pengeluaran Berjaya!",
-			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari Digi Dice! 🚀 Sertai rentetan kemenangan di {shareUrl}",
+			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari Meme Win! 🚀 Sertai rentetan kemenangan di {shareUrl}",
 			"withdrawnAmount": "Jumlah Dikeluarkan",
 			"shareText": "Kongsi",
 			"subText": "🚀 SERTAI RENTETAN KEMENANGAN! 🚀",
@@ -936,7 +937,7 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ PERMAINAN",
-				"desc": "Nikmati DigiDice Originals dan permainan kasino lain dari penyedia teratas.",
+				"desc": "Nikmati MemeWin Originals dan permainan kasino lain dari penyedia teratas.",
 				"link": "Pergi ke Kasino"
 			},
 			"slots": {

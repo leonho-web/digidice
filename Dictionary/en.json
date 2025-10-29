@@ -7,7 +7,7 @@
 		"viewAll": "View All"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "Meme Win"
 	},
 	"header": {
 		"toggleSidebar": "Toggle Sidebar",
@@ -32,7 +32,7 @@
 		"settings": "Settings",
 		"promotions": "Promotions",
 		"affiliate": "Affiliate",
-		"bonus": "Bonus",
+		"bonus": "Turnover Bonus",
 		"providers": "Providers",
 		"lobby": "Lobby"
 	},
@@ -1008,7 +1008,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Withdrawal Successful!",
-			"successMessage": "🎉 Just withdrew {withdrawAmount} {tokenSymbol} from Digi Dice! 🚀 Join the winning streak at {shareUrl}",
+			"successMessage": "🎉 Just withdrew {withdrawAmount} {tokenSymbol} from Meme Win! 🚀 Join the winning streak at {shareUrl}",
 			"withdrawnAmount": "Withdrawn Amount",
 			"shareText": "Share",
 			"subText": "🚀 JOIN THE WINNING STREAK! 🚀",
@@ -1017,7 +1017,7 @@
 			"download": "Download Image",
 			"close": "Close",
 			"copiedToClipboard": "Share Link Copied successfully",
-			"userName": "DigiDice Player",
+			"userName": "MemeWin Player",
 			"status": "Completed",
 			"entryPrice": "Withdrawal Amount",
 			"lastPrice": "Token Symbol",
@@ -1136,7 +1136,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ GAMES",
-				"desc": "Enjoy DigiDice Originals and other casino games from top providers.",
+				"desc": "Enjoy MemeWin Originals and other casino games from top providers.",
 				"link": "Go to Casino"
 			},
 			"slots": {
