@@ -1,7 +1,7 @@
 "use client";
 
 import useBonusDashboard from "@/hooks/bonus/useBonusDashboard";
-import useBonusClaims from "@/hooks/bonus/useBonusClaims";
+import useBonusClaims from "@/hooks/bonus/usBonusClaims";
 import { ClaimBonus } from "@/components/features/affiliate/dashboard-tab/claim-bonus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClipboardList, faRefresh } from "@fortawesome/pro-light-svg-icons";
@@ -93,7 +93,7 @@ const SemiCircularProgress = ({
 
 				{/* Center content - Day Progress */}
 				<div className="absolute inset-0 flex flex-col items-center justify-center mt-4 sm:mt-6 md:mt-8">
-					<div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tabular-nums tracking-tight">
+					<div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tabular-nums tracking-tight mt-auto mb-1">
 						<span className="bg-gradient-to-br from-orange-500 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
 							{currentDay}
 						</span>
@@ -210,7 +210,7 @@ export const BonusClaimsTab = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
+			<div className="flex flex-col  lg:flex-row gap-4 lg:gap-6">
 				{/* Table Section */}
 				<div className="flex-1 min-w-0 lg:sticky lg:top-4">
 					<Card className="overflow-hidden pt-0">
@@ -225,7 +225,7 @@ export const BonusClaimsTab = () => {
 							</div>
 						) : (
 							<div className="overflow-x-auto">
-								<Table>
+								<Table className="lg:min-h-100 min-h-40">
 									<TableHeader>
 										<TableRow className="bg-muted/50 hover:bg-muted/50">
 											<TableHead className="font-semibold text-foreground/80 py-2 sm:py-3 md:py-4 px-2 sm:px-3 md:px-4 text-xs sm:text-sm">
