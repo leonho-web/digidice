@@ -546,7 +546,7 @@ class TransactionService {
 				network,
 				fromToken,
 				toToken,
-				amount: 1,
+				amount,
 				username,
 			};
 

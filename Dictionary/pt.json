@@ -7,7 +7,7 @@
 		"viewAll": "Ver tudo"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
@@ -22,7 +22,8 @@
 		"winLoss": "Ganhos/Perdas",
 		"affiliate": "Afiliado",
 		"logout": "Sair",
-		"balance": "Saldo"
+		"balance": "Saldo",
+		"turnoverBonus": "Bónus de Volume de Negócios"
 	},
 	"navigation": {
 		"home": "Início",
@@ -33,7 +34,7 @@
 		"promotions": "Promoções",
 		"affiliate": "Afiliado",
 		"providers": "Fornecedores",
-		"lobby": "Lobby",
+		"lobby": "Salão",
 		"bonus": "Bônus de faturamento"
 	},
 	"profile": {
@@ -272,7 +273,7 @@
 				"trending": "Em destaque",
 				"reactions": "Reações",
 				"gaming": "Jogos",
-				"casino": "Casino",
+				"casino": "Cassino",
 				"celebration": "Celebração",
 				"sports": "Desportos"
 			},
@@ -300,7 +301,7 @@
 		"message": {
 			"you": "Você",
 			"winTitle": "Grande vitória em \"{game}\"! 🎰",
-			"gifAlt": "GIF",
+			"gifAlt": "GIFs",
 			"imageAlt": "Imagem carregada",
 			"rainTitle": "Chuva de dinheiro! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {destinatário} other {destinatários}}",
@@ -361,7 +362,7 @@
 		"gameTypes": {
 			"blackjack": "Blackjack",
 			"roulette": "Roleta",
-			"crash": "Crash"
+			"crash": "Colidir"
 		}
 	},
 	"query": {
@@ -396,8 +397,8 @@
 	},
 	"commonExtra": {
 		"connecting": "A conectar...",
-		"offline": "Offline",
-		"online": "Online",
+		"offline": "Off-line",
+		"online": "On-line",
 		"clear": "Limpar"
 	},
 	"home": {
@@ -407,7 +408,7 @@
 		"yourFavorites": "Os seus favoritos",
 		"featuredCasinoGames": "Jogos de casino em destaque",
 		"hotPicks": "Escolhas populares",
-		"slots": "Slots",
+		"slots": "Caça-níqueis",
 		"sports": "Desportos",
 		"realTimeScoreboard": "Placar em tempo real"
 	},
@@ -447,7 +448,8 @@
 			"yourReferralId": "O seu ID de referência",
 			"referralIdHelp": "Partilhe este código para os utilizadores inserirem manualmente durante o registo",
 			"copyFullSuccess": "Link de referência completo copiado para a área de transferência!",
-			"copyIdSuccess": "ID de referência copiado para a área de transferência!"
+			"copyIdSuccess": "ID de referência copiado para a área de transferência!",
+			"claimButtonTitle": "REIVINDICAR O BÓNUS"
 		},
 		"referrals": {
 			"title": "As minhas referências",
@@ -496,7 +498,7 @@
 			"table": {
 				"tierLevel": "Nível",
 				"wagerRange": "Intervalo de aposta",
-				"slots": "Slots",
+				"slots": "Caça-níqueis",
 				"liveCasino": "Casino ao vivo",
 				"sports": "Desportos",
 				"tierPrefix": "NÍVEL",
@@ -592,7 +594,7 @@
 		"close": "Fechar",
 		"firstDepositBoost": "Impulso de bónus do 1º depósito",
 		"bonus": "Bónus",
-		"min": "Min",
+		"min": "Mínimo",
 		"sec": "Seg",
 		"deposit": "Depositar"
 	},
@@ -659,15 +661,20 @@
 				"deposit": "Depositar",
 				"withdraw": "Levantar",
 				"swap": "Trocar",
-				"walletInfo": "Carteira"
+				"walletInfo": "Carteira",
+				"tip": "Gorjeta",
+				"emailWallet": "Carteira de e-mail",
+				"wallet": "Carteira"
 			},
 			"mobileDropdown": {
 				"emailWallet": "Carteira de E-mail",
 				"wallet": "Carteira",
 				"deposit": "Depositar",
 				"withdraw": "Levantar",
-				"swap": "Trocar"
-			}
+				"swap": "Trocar",
+				"tip": "Gorjeta"
+			},
+			"title": "CARTEIRA"
 		},
 		"networkSelector": {
 			"placeholder": "Selecione a Rede",
@@ -723,7 +730,8 @@
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} é reservado para cobrir taxas de gás e evitar falhas na transação"
 		},
 		"swapPanel": {
 			"selectTokens": "Selecione os tokens",
@@ -773,7 +781,8 @@
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} é reservado para cobrir taxas de gás e evitar falhas na transação"
 		},
 		"depositPending": {
 			"confirmedTitle": "Depósito Confirmado!",
@@ -782,7 +791,10 @@
 			"submittedDesc": "A aguardar confirmação da blockchain. Isto pode demorar alguns minutos.",
 			"viewOnExplorer": "Ver no Explorador",
 			"newDepositConfirmed": "Fazer Outro Depósito",
-			"newDepositPending": "Iniciar um novo depósito"
+			"newDepositPending": "Iniciar um novo depósito",
+			"failedTitle": "Falha na transação",
+			"failedDesc": "Sua transação falhou. ",
+			"newDepositFailed": "Tente novamente"
 		},
 		"withdrawPanel": {
 			"resetForm": "Repor Formulário",
@@ -812,11 +824,12 @@
 			"buttons": {
 				"withdraw": "Levantar {amount} {symbol}",
 				"minimum": "Mínimo {amount} {symbol}"
-			}
+			},
+			"calculating": "Calculando"
 		},
 		"withdrawSuccess": {
 			"title": "Levantamento Bem-sucedido!",
-			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do Meme Win! 🚀 Junte-se à série de vitórias em {shareUrl}",
+			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do Digi Dice! 🚀 Junte-se à série de vitórias em {shareUrl}",
 			"withdrawnAmount": "Montante Levantado",
 			"shareText": "Partilhar",
 			"subText": "🚀 JUNTE-SE À SÉRIE DE VITÓRIAS! 🚀",
@@ -824,7 +837,14 @@
 			"screenshot": "Tirar Captura de Ecrã",
 			"download": "Descarregar Imagem",
 			"close": "Fechar",
-			"copiedToClipboard": "Link de partilha copiado com sucesso"
+			"copiedToClipboard": "Link de partilha copiado com sucesso",
+			"entryPrice": "Montante de Retirada",
+			"lastPrice": "Símbolo do token",
+			"referralCode": "Código de referência",
+			"screenshotFailed": "Falha ao capturar a tela. Por favor, tente novamente ou use um navegador diferente.",
+			"shareFailed": "Compartilhamento falhou. Por favor, tente novamente.",
+			"status": "Concluído",
+			"userName": "Jogador DigiDice"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Levantamento Confirmado!",
@@ -838,6 +858,51 @@
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Você Irá Receber"
+		},
+		"tipPanel": {
+			"approxUsd": "~  USD",
+			"balance": "Saldo:",
+			"buttons": {
+				"tip": "Gorjeta",
+				"tipUsd": "Gorjeta"
+			},
+			"emailWalletAddress": "Endereço de carteira de e-mail",
+			"enterAmount": "Insira o valor",
+			"errors": {
+				"belowMinimum": "O valor deve ser pelo menos {min}.",
+				"checkForm": "Por favor, verifique os detalhes da sua gorjeta.",
+				"insufficientBalance": "Saldo insuficiente.",
+				"missingWallet": "Não foi possível buscar a carteira de gorjetas. Por favor, tente novamente mais tarde.",
+				"selectTokenAndAmount": "Por favor, selecione um token e insira um valor."
+			},
+			"max": "Máx",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} é reservado para cobrir taxas de gás e evitar falhas na transação",
+			"minimumIs": "A gorjeta mínima é {min}",
+			"minPrefix": "Mínimo",
+			"prompts": {
+				"enterAmount": "Insira o valor",
+				"selectToken": "Selecionar token"
+			},
+			"resetForm": "Redefinir formulário",
+			"selectToken": "Selecionar token",
+			"status": {
+				"awaitingApproval": "Aguardando aprovação...",
+				"calculatingRate": "Calculando...",
+				"fetchingWallet": "Preparando a carteira de gorjetas...",
+				"insufficientBalance": "Saldo insuficiente",
+				"processing": "Enviando gorjeta..."
+			},
+			"tipPanelWarningText": "As gorjetas são voluntárias e não reembolsáveis.",
+			"youTip": "Sua gorjeta"
+		},
+		"tipPending": {
+			"confirmedDesc": "Sua gorjeta foi entregue com sucesso.",
+			"confirmedTitle": "Gorjeta confirmada!",
+			"newTipConfirmed": "Enviar outra dica",
+			"newTipPending": "Enviar outra gorjeta",
+			"submittedDesc": "A sua gorjeta está a ser confirmada na cadeia.",
+			"submittedTitle": "Gorjeta pendente",
+			"viewOnExplorer": "Ver no explorador"
 		}
 	},
 	"navUser": {
@@ -851,10 +916,10 @@
 		"pageTitle": "Todos os jogos",
 		"playNow": "Jogar agora",
 		"byProvider": "Por {name}",
-		"count": "{count, plural, one {Jogo} other {Jogos}}",
+		"count": "{count} Jogos",
 		"noResults": "Nenhum jogo encontrado que corresponda aos seus critérios.",
 		"errorLoading": "Não foi possível carregar os jogos. Por favor, tente novamente mais tarde.",
-		"slots": "Slots",
+		"slots": "Caça-níqueis",
 		"sports": "Desportos",
 		"liveCasino": "Casino ao vivo",
 		"explore": "Explorar",
@@ -862,7 +927,7 @@
 		"poker": "Póquer",
 		"lottery": "Lotaria",
 		"futures": "Futuros",
-		"vr": "VR",
+		"vr": "RV",
 		"swap": "Trocar",
 		"slotsDescription": "Gire os rolos e ganhe jackpots massivos",
 		"liveCasinoDescription": "Experimente a ação de casino em tempo real com dealers ao vivo",
@@ -929,19 +994,19 @@
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
-			"title2": "$1,000,000",
+			"title2": "US$ 1.000.000",
 			"subtitle": "Jogue agora e ganhe em grande",
 			"cta": "Jogar agora"
 		},
 		"cards": {
 			"casino": {
-				"title": "Casino",
+				"title": "Cassino",
 				"badge": "590+ JOGOS",
-				"desc": "Desfrute dos Originais MemeWin e de outros jogos de casino dos melhores fornecedores.",
+				"desc": "Desfrute dos Originais DigiDice e de outros jogos de casino dos melhores fornecedores.",
 				"link": "Ir para o Casino"
 			},
 			"slots": {
-				"title": "Slots",
+				"title": "Caça-níqueis",
 				"badge": "5292 JOGOS",
 				"desc": "Gire os rolos e ganhe jackpots massivos com a nossa coleção de slots premium.",
 				"link": "Ir para as Slots"
@@ -954,7 +1019,7 @@
 			},
 			"crypto": {
 				"title": "Cripto e Ganhar",
-				"badge": "60% APR",
+				"badge": "TAEG de 60%",
 				"desc": "Faça staking, negoceie e ganhe com criptomoedas a taxas atrativas.",
 				"link": "Ir para Cripto"
 			}
@@ -1112,7 +1177,7 @@
 				"total": "Total",
 				"tier": "Nível",
 				"unclaimed": "Não reclamado",
-				"token": "Token"
+				"token": "Símbolo"
 			},
 			"tierPrefix": "Nível",
 			"availableToClaim": "Disponível para reivindicar",
@@ -1155,7 +1220,7 @@
 			"table": {
 				"tierLevel": "Nível de nível",
 				"wagerRange": "Faixa de Aposta",
-				"slots": "Slots",
+				"slots": "Caça-níqueis",
 				"liveCasino": "Cassino ao Vivo",
 				"sports": "Esportes",
 				"tierPrefix": "NÍVEL",
@@ -1204,6 +1269,29 @@
 			"calcFor": "Calculando bônus para aposta de ${amount}",
 			"totalPotential": "Bônus Potencial Total:",
 			"combinedAtTier": "Bónus combinado de todos os tipos de jogo no Nível {level}"
+		},
+		"claimSuccessModal": {
+			"title": "Coletar o sucesso!",
+			"statusCompleted": "Concluído",
+			"statusOnChain": "On-Chain",
+			"claimAmount": "Montante reclamado",
+			"logoAlt": "Logotipo do DigiDice",
+			"backgroundAlt": "Histórico de sucesso da reivindicação",
+			"creatingMagic": "A criar magia...",
+			"downloadShare": "<g id=\"1112\"> Baixar </g><g id=\"1122\"><g id=\"1121\"> Partilhar </g></g>",
+			"spreadTheWin": "ESPALHE A VITÓRIA",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "O co-fundador da Reddit,",
+			"socialMore": "Mais",
+			"shareText": "I just claimed {amount} bonus! Join me: {url}",
+			"referralLinkCopied": "Link de indicação copiado!",
+			"referralLinkCopyFailed": "Falha ao copiar link de indicação",
+			"screenshotFailed": "A captura de tela falhou. Tente novamente ou use um navegador diferente.",
+			"shareTextCopied": "Partilhe o texto copiado para a área de transferência!",
+			"shareFailed": "Falha na partilha. Tente novamente."
 		}
 	}
 }

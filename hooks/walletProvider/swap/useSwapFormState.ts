@@ -21,40 +21,6 @@ export const useSwapFormState = (): UseSwapFormStateReturn => {
 		fromToken && toToken && fromToken.address !== toToken.address
 	);
 
-	// --- ACTIONS ---
-
-	/**
-	 * Set the 'from' token with special handling to prevent same token selection
-	 */
-	const updateFromToken = useCallback(
-		(token: Token | null) => {
-			if (toToken && token && toToken.address === token.address) {
-				// If selecting the same token as 'to', swap them
-				// setFromToken(token);
-				setToToken(fromToken);
-			} else {
-				setFromToken(token);
-			}
-		},
-		[toToken, fromToken]
-	);
-
-	/**
-	 * Set the 'to' token with special handling to prevent same token selection
-	 */
-	const updateToToken = useCallback(
-		(token: Token | null) => {
-			if (fromToken && token && fromToken.address === token.address) {
-				// If selecting the same token as 'from', swap them
-				// setToToken(token);
-				setFromToken(toToken);
-			} else {
-				setToToken(token);
-			}
-		},
-		[fromToken, toToken]
-	);
-
 	/**
 	 * Switch fromToken and toToken
 	 */
@@ -215,8 +181,8 @@ export const useSwapFormState = (): UseSwapFormStateReturn => {
 		isValidSwap,
 
 		// Actions
-		setFromToken: updateFromToken,
-		setToToken: updateToToken,
+		setFromToken,
+		setToToken,
 		switchTokens,
 		handleExchangeAmountChange,
 		handleReceivedAmountChange,

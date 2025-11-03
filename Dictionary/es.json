@@ -1,13 +1,13 @@
 {
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
 		"searchPlaceholder": "Buscar juegos, proveedores...",
 		"liveChat": "Chat en Vivo",
 		"player": "Jugador",
-		"vip": "VIP",
+		"vip": "personaje",
 		"profile": "Perfil",
 		"statistics": "Estadísticas",
 		"wallet": "Depositar/Retirar",
@@ -15,7 +15,8 @@
 		"winLoss": "Ganancias/Pérdidas",
 		"affiliate": "Afiliado",
 		"logout": "Cerrar sesión",
-		"balance": "Saldo"
+		"balance": "Saldo",
+		"turnoverBonus": "Bono de facturación"
 	},
 	"navigation": {
 		"home": "Inicio",
@@ -258,8 +259,8 @@
 			"searchEmojis": "Buscar emojis...",
 			"searchGifs": "Buscar GIFs...",
 			"tabs": {
-				"emojis": "Emojis",
-				"gifs": "GIFs"
+				"emojis": "emojis",
+				"gifs": "GIF"
 			},
 			"loadingEmojis": "Cargando emojis...",
 			"loadingGifs": "Cargando GIFs...",
@@ -365,15 +366,15 @@
 			"found": "Se encontraron {games} juegos, {categories} categorías y {providers} proveedores"
 		},
 		"gameTypes": {
-			"blackjack": "Blackjack",
+			"blackjack": "Veintiuna",
 			"roulette": "Ruleta",
-			"crash": "Crash"
+			"crash": "Chocar"
 		}
 	},
 	"query": {
 		"sort": {
 			"label": "Ordenar por",
-			"a-z": "A-Z",
+			"a-z": "ARIZONA",
 			"z-a": "Z-A"
 		},
 		"filters": {
@@ -447,7 +448,8 @@
 			"yourReferralId": "Tu ID de referido",
 			"referralIdHelp": "Comparte este código para ingresarlo manualmente durante el registro",
 			"copyFullSuccess": "¡Enlace completo copiado al portapapeles!",
-			"copyIdSuccess": "¡ID de referido copiado al portapapeles!"
+			"copyIdSuccess": "¡ID de referido copiado al portapapeles!",
+			"claimButtonTitle": "Cupón de apuestas"
 		},
 		"referrals": {
 			"title": "Mis Referidos",
@@ -586,13 +588,13 @@
 		"balance": "Saldo",
 		"max": "Máx",
 		"deposit": "Depositar",
-		"ethereum": "Ethereum"
+		"ethereum": "Etereum"
 	},
 	"modalsSmall": {
 		"close": "Cerrar",
 		"firstDepositBoost": "Impulso de bono por 1er depósito",
 		"bonus": "Bono",
-		"min": "Min",
+		"min": "mín.",
 		"sec": "Seg",
 		"deposit": "Depositar"
 	},
@@ -659,15 +661,20 @@
 				"deposit": "Depositar",
 				"withdraw": "Retirar",
 				"swap": "Intercambiar",
-				"walletInfo": "Billetera"
+				"walletInfo": "Billetera",
+				"tip": "Propina",
+				"emailWallet": "Cartera de correo electrónico",
+				"wallet": "Billetera"
 			},
 			"mobileDropdown": {
 				"emailWallet": "Billetera de Correo",
 				"wallet": "Billetera",
 				"deposit": "Depositar",
 				"withdraw": "Retirar",
-				"swap": "Intercambiar"
-			}
+				"swap": "Intercambiar",
+				"tip": "Propina"
+			},
+			"title": "BILLETERA"
 		},
 		"networkSelector": {
 			"placeholder": "Seleccionar red",
@@ -723,7 +730,8 @@
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} está reservado para cubrir las tarifas del gas y evitar fallas en la transacción."
 		},
 		"swapPanel": {
 			"selectTokens": "Seleccionar tokens",
@@ -741,7 +749,7 @@
 			"currentSlippage": "Deslizamiento actual",
 			"swapSuccessful": "¡Intercambio Exitoso!",
 			"transactionConfirmed": "Tu transacción ha sido confirmada",
-			"hash": "Hash",
+			"hash": "Picadillo",
 			"newSwap": "Nuevo Intercambio",
 			"youPay": "Pagas",
 			"max": "Máx",
@@ -773,7 +781,8 @@
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} está reservado para cubrir las tarifas de gas y evitar fallos en la transacción"
 		},
 		"depositPending": {
 			"confirmedTitle": "¡Depósito confirmado!",
@@ -782,7 +791,10 @@
 			"submittedDesc": "Esperando confirmación de la blockchain. Esto puede tomar unos minutos.",
 			"viewOnExplorer": "Ver en el explorador",
 			"newDepositConfirmed": "Hacer otro depósito",
-			"newDepositPending": "Iniciar un nuevo depósito"
+			"newDepositPending": "Iniciar un nuevo depósito",
+			"failedTitle": "Transacción fallida",
+			"failedDesc": "Su transacción ha fallado. ",
+			"newDepositFailed": "Intentar otra vez"
 		},
 		"withdrawPanel": {
 			"resetForm": "Restablecer formulario",
@@ -812,11 +824,12 @@
 			"buttons": {
 				"withdraw": "Retirar {amount} {symbol}",
 				"minimum": "Mínimo {amount} {symbol}"
-			}
+			},
+			"calculating": "Calculador"
 		},
 		"withdrawSuccess": {
 			"title": "¡Retiro Exitoso!",
-			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Meme Win! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
+			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de Digi Dice! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
 			"withdrawnAmount": "Cantidad Retirada",
 			"shareText": "¡Comparte",
 			"subText": "🚀 ¡ÚNETE A LA RACHA GANADORA! 🚀",
@@ -825,7 +838,7 @@
 			"download": "Descargar Imagen",
 			"close": "Cerrar",
 			"copiedToClipboard": "Enlace para compartir copiado exitosamente",
-			"userName": "Jugador de MemeWin",
+			"userName": "Jugador de DigiDice",
 			"status": "Completado",
 			"entryPrice": "Cantidad de Retiro",
 			"lastPrice": "Símbolo del Token",
@@ -845,6 +858,51 @@
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Vas a recibir"
+		},
+		"tipPanel": {
+			"approxUsd": "~  USD",
+			"balance": "Saldo:",
+			"buttons": {
+				"tip": "Propina",
+				"tipUsd": "Propina"
+			},
+			"emailWalletAddress": "Dirección de billetera de correo electrónico",
+			"enterAmount": "Introduce el monto",
+			"errors": {
+				"belowMinimum": "El monto debe ser al menos {min}.",
+				"checkForm": "Por favor verifica los detalles de tu propina.",
+				"insufficientBalance": "Saldo insuficiente.",
+				"missingWallet": "No se pudo obtener la billetera de propinas. Inténtelo de nuevo más tarde.",
+				"selectTokenAndAmount": "Por favor, seleccione un token y ingrese una cantidad."
+			},
+			"max": "Máx",
+			"maxButtonToolTipText": "Se reserva {gasReservationAmount} {selectedTokenSymbol} para cubrir las tarifas de gas y evitar el fallo de transacción",
+			"minimumIs": "La propina mínima es {min}",
+			"minPrefix": "Mínimo",
+			"prompts": {
+				"enterAmount": "Ingrese el monto",
+				"selectToken": "Seleccionar token"
+			},
+			"resetForm": "Restablecer formulario",
+			"selectToken": "Seleccionar token",
+			"status": {
+				"awaitingApproval": "Esperando aprobación...",
+				"calculatingRate": "Calculando...",
+				"fetchingWallet": "Preparando la billetera de propinas...",
+				"insufficientBalance": "Saldo insuficiente",
+				"processing": "Enviando propina..."
+			},
+			"tipPanelWarningText": "Las propinas son voluntarias y no reembolsables.",
+			"youTip": "Tu propina"
+		},
+		"tipPending": {
+			"confirmedDesc": "Tu propina fue entregada con éxito.",
+			"confirmedTitle": "¡Propina confirmada!",
+			"newTipConfirmed": "Enviar otra propina",
+			"newTipPending": "Enviar otra propina",
+			"submittedDesc": "Tu propina está siendo confirmada en la cadena.",
+			"submittedTitle": "Propina pendiente",
+			"viewOnExplorer": "Ver en el explorador"
 		}
 	},
 	"navUser": {
@@ -858,7 +916,7 @@
 		"pageTitle": "Todos los Juegos",
 		"playNow": "Jugar ahora",
 		"byProvider": "Por {name}",
-		"count": "{count, plural, one {Juego} other {Juegos}}",
+		"count": "{count} Juegos",
 		"noResults": "No se encontraron juegos que coincidan con tus criterios.",
 		"errorLoading": "No se pudieron cargar los juegos. Inténtalo de nuevo más tarde.",
 		"slots": "Tragamonedas",
@@ -869,7 +927,7 @@
 		"poker": "Póker",
 		"lottery": "Lotería",
 		"futures": "Futuros",
-		"vr": "VR",
+		"vr": "realidad virtual",
 		"swap": "Intercambio",
 		"slotsDescription": "Gira los carretes y gana jackpots masivos",
 		"liveCasinoDescription": "Experimenta la acción del casino en tiempo real con crupieres en vivo",
@@ -935,7 +993,7 @@
 			"cta": "Deposita y Obtén"
 		},
 		"jackpot": {
-			"title1": "Mega Jackpot",
+			"title1": "Mega bote",
 			"title2": "$1,000,000",
 			"subtitle": "Juega ahora y gana en grande",
 			"cta": "Jugar ahora"
@@ -944,7 +1002,7 @@
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JUEGOS",
-				"desc": "Disfruta de MemeWin Originals y otros juegos de casino de los mejores proveedores.",
+				"desc": "Disfruta de DigiDice Originals y otros juegos de casino de los mejores proveedores.",
 				"link": "Ir al Casino"
 			},
 			"slots": {
@@ -961,7 +1019,7 @@
 			},
 			"crypto": {
 				"title": "Crypto y Ganancias",
-				"badge": "60% APR",
+				"badge": "60% TAE",
 				"desc": "Haz staking, comercia y gana con criptomonedas a tasas atractivas.",
 				"link": "Ir a Crypto"
 			}
@@ -1022,7 +1080,7 @@
 		"quickUploadFontFile": "Subida Rápida de Archivo de Fuente",
 		"resetToDefault": "Restablecer a Predeterminado",
 		"googleFonts": {
-			"title": "Google Fonts",
+			"title": "Fuentes de Google",
 			"searchFonts": "Buscar fuentes...",
 			"preview": "Vista previa",
 			"previewText": "El veloz murciélago hindú comía feliz cardillo y kiwi",
@@ -1119,7 +1177,7 @@
 				"total": "Total",
 				"tier": "Nivel",
 				"unclaimed": "No reclamado",
-				"token": "Token"
+				"token": "Simbólico"
 			},
 			"tierPrefix": "Nivel",
 			"availableToClaim": "Disponible para reclamar",
@@ -1211,6 +1269,29 @@
 			"calcFor": "Calculando bono para una apuesta de ${amount}",
 			"totalPotential": "Bono Potencial Total:",
 			"combinedAtTier": "Bono combinado de todos los tipos de juego en el nivel {level}"
+		},
+		"claimSuccessModal": {
+			"title": "Reclamación realizada con éxito",
+			"statusCompleted": "Completado",
+			"statusOnChain": "en cadena",
+			"claimAmount": "Importe de reclamación",
+			"logoAlt": "Logotipo de DigiDice",
+			"backgroundAlt": "Antecedentes de éxito de la reclamación",
+			"creatingMagic": "Creando magia...",
+			"downloadShare": "Descargar y compartir",
+			"spreadTheWin": "DIFUNDE EL PREMIO",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "Más",
+			"shareText": "I just claimed {amount} bonus! Join me: {url}",
+			"referralLinkCopied": "Enlace de referencia copiado",
+			"referralLinkCopyFailed": "Ha habido un error al copiar el enlace de referencia",
+			"screenshotFailed": "La captura de pantalla ha fallado. Inténtalo de nuevo o utiliza un navegador diferente.",
+			"shareTextCopied": "¡Comparte el texto copiado al portapapeles!",
+			"shareFailed": "Error al compartir. Inténtalo de nuevo."
 		}
 	}
 }

@@ -7,14 +7,14 @@
 		"viewAll": "Tümünü Gör"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "Kenar Çubuğunu Aç/Kapat",
 		"searchPlaceholder": "Oyun, sağlayıcı ara...",
 		"liveChat": "Canlı Sohbet",
 		"player": "Oyuncu",
-		"vip": "VIP",
+		"vip": "vip",
 		"profile": "Profil",
 		"statistics": "İstatistikler",
 		"wallet": "Yatırma/Çekme",
@@ -22,7 +22,8 @@
 		"winLoss": "Kazanç/Kayıp",
 		"affiliate": "Ortaklık",
 		"logout": "Çıkış Yap",
-		"balance": "Bakiye"
+		"balance": "Bakiye",
+		"turnoverBonus": "Ciro Bonusu"
 	},
 	"navigation": {
 		"home": "Ana Sayfa",
@@ -175,7 +176,7 @@
 			"showingRangeOfTotal": "{total} sonuçtan {from}-{to} arası gösteriliyor",
 			"totalBet": "Toplam Bahis",
 			"totalWin": "Toplam Kazanç",
-			"net": "Net",
+			"net": "Açık",
 			"tableHeaders": {
 				"date": "Tarih",
 				"game": "Oyun",
@@ -272,7 +273,7 @@
 				"trending": "Trendler",
 				"reactions": "Tepkiler",
 				"gaming": "Oyun",
-				"casino": "Casino",
+				"casino": "Kumarhane",
 				"celebration": "Kutlama",
 				"sports": "Spor"
 			},
@@ -361,13 +362,13 @@
 		"gameTypes": {
 			"blackjack": "Blackjack",
 			"roulette": "Rulet",
-			"crash": "Crash"
+			"crash": "Kaza"
 		}
 	},
 	"query": {
 		"sort": {
 			"label": "Sırala",
-			"a-z": "A-Z",
+			"a-z": "A'dan Z'ye",
 			"z-a": "Z-A"
 		},
 		"filters": {
@@ -447,7 +448,8 @@
 			"yourReferralId": "Referans ID'n",
 			"referralIdHelp": "Kullanıcıların kayıt sırasında manuel olarak girmesi için bu kodu paylaş",
 			"copyFullSuccess": "Tam referans linki panoya kopyalandı!",
-			"copyIdSuccess": "Referans ID'si panoya kopyalandı!"
+			"copyIdSuccess": "Referans ID'si panoya kopyalandı!",
+			"claimButtonTitle": "BONUSU AL"
 		},
 		"referrals": {
 			"title": "Referanslarım",
@@ -659,15 +661,20 @@
 				"deposit": "Yatır",
 				"withdraw": "Çek",
 				"swap": "Takas",
-				"walletInfo": "Cüzdan"
+				"walletInfo": "Cüzdan",
+				"tip": "Bahşiş",
+				"emailWallet": "E-posta Cüzdanı",
+				"wallet": "Cüzdan"
 			},
 			"mobileDropdown": {
 				"emailWallet": "E-posta Cüzdanı",
 				"wallet": "Cüzdan",
 				"deposit": "Yatır",
 				"withdraw": "Çek",
-				"swap": "Takas"
-			}
+				"swap": "Takas",
+				"tip": "Bahşiş"
+			},
+			"title": "CÜZDAN"
 		},
 		"networkSelector": {
 			"placeholder": "Ağ Seç",
@@ -723,7 +730,8 @@
 			},
 			"buttons": {
 				"depositUsd": "${amount} Yatır"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} gas ücretlerini karşılamak ve işlem başarısızlıklarını önlemek için ayrılmıştır"
 		},
 		"swapPanel": {
 			"selectTokens": "Tokenları seç",
@@ -741,7 +749,7 @@
 			"currentSlippage": "Mevcut slippage",
 			"swapSuccessful": "Takas Başarılı!",
 			"transactionConfirmed": "İşleminiz onaylandı",
-			"hash": "Hash",
+			"hash": "Doğramak",
 			"newSwap": "Yeni Takas",
 			"youPay": "Ödediğin",
 			"max": "Maks",
@@ -750,7 +758,7 @@
 			"selectToken": "Token Seç",
 			"youReceive": "Alacağın",
 			"gettingBestQuote": "En iyi fiyat alınıyor...",
-			"gas": "Gas",
+			"gas": "Gaz",
 			"minimumReceived": "Minimum alınacak",
 			"slippageToleranceLabel": "Slippage toleransı",
 			"gasFee": "Gas ücreti",
@@ -773,7 +781,8 @@
 			},
 			"buttons": {
 				"depositUsd": "${amount} Yatır"
-			}
+			},
+			"maxButtonToolTipText": "Gaz ücretlerini karşılamak ve işlem hatasını önlemek için {gasReservationAmount} {selectedTokenSymbol} rezerve edilmiştir"
 		},
 		"depositPending": {
 			"confirmedTitle": "Yatırım Onaylandı!",
@@ -782,7 +791,10 @@
 			"submittedDesc": "Blokzincir onayı bekleniyor. Bu birkaç dakika sürebilir.",
 			"viewOnExplorer": "Explorer'da Görüntüle",
 			"newDepositConfirmed": "Başka Bir Yatırım Yap",
-			"newDepositPending": "Yeni bir yatırım başlat"
+			"newDepositPending": "Yeni bir yatırım başlat",
+			"failedTitle": "İşlem Başarısız",
+			"failedDesc": "İşleminiz başarısız oldu. ",
+			"newDepositFailed": "Tekrar deneyin"
 		},
 		"withdrawPanel": {
 			"resetForm": "Formu Sıfırla",
@@ -812,11 +824,12 @@
 			"buttons": {
 				"withdraw": "{amount} {symbol} Çek",
 				"minimum": "Minimum {amount} {symbol}"
-			}
+			},
+			"calculating": "Hesaplanıyor"
 		},
 		"withdrawSuccess": {
 			"title": "Çekim Başarılı!",
-			"successMessage": "🎉 Meme Win'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
+			"successMessage": "🎉 Digi Dice'den {withdrawAmount} {tokenSymbol} çektim! 🚀 Sen de kazanma serisine katıl: {shareUrl}",
 			"withdrawnAmount": "Çekilen Miktar",
 			"shareText": "Paylaş",
 			"subText": "🚀 KAZANMA SERİSİNE KATIL! 🚀",
@@ -824,7 +837,14 @@
 			"screenshot": "Ekran Görüntüsü Al",
 			"download": "Resmi İndir",
 			"close": "Kapat",
-			"copiedToClipboard": "Paylaşım linki başarıyla kopyalandı"
+			"copiedToClipboard": "Paylaşım linki başarıyla kopyalandı",
+			"entryPrice": "Çekim Miktarı",
+			"lastPrice": "Token Sembolü",
+			"referralCode": "Referans Kodu",
+			"screenshotFailed": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
+			"shareFailed": "Paylaşım başarısız. Lütfen tekrar deneyin.",
+			"status": "Tamamlandı",
+			"userName": "DigiDice Oyuncusu"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Çekim Onaylandı!",
@@ -838,6 +858,51 @@
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Alacağın Tutar"
+		},
+		"tipPanel": {
+			"approxUsd": "~  USD",
+			"balance": "Bakiye:",
+			"buttons": {
+				"tip": "Bahşiş",
+				"tipUsd": "Bahşiş"
+			},
+			"emailWalletAddress": "E-posta cüzdan adresi",
+			"enterAmount": "Miktar girin",
+			"errors": {
+				"belowMinimum": "Tutar en az {min} olmalıdır.",
+				"checkForm": "Lütfen bahşiş detaylarınızı kontrol edin.",
+				"insufficientBalance": "Yetersiz bakiye.",
+				"missingWallet": "Bahşiş cüzdanı alınamıyor. Lütfen daha sonra tekrar deneyin.",
+				"selectTokenAndAmount": "Lütfen bir token seçin ve bir miktar girin."
+			},
+			"max": "Maks",
+			"maxButtonToolTipText": "Gaz ücretlerini karşılamak ve işlem hatasını önlemek için {gasReservationAmount} {selectedTokenSymbol} ayrılmıştır",
+			"minimumIs": "Minimum bahşiş {min}",
+			"minPrefix": "Asgari",
+			"prompts": {
+				"enterAmount": "Tutarı girin",
+				"selectToken": "Jeton seç"
+			},
+			"resetForm": "Formu sıfırla",
+			"selectToken": "Token seç",
+			"status": {
+				"awaitingApproval": "Onay bekleniyor...",
+				"calculatingRate": "Hesaplanıyor...",
+				"fetchingWallet": "Bahşiş cüzdanı hazırlanıyor...",
+				"insufficientBalance": "Yetersiz bakiye",
+				"processing": "Bahşiş gönderiliyor..."
+			},
+			"tipPanelWarningText": "Bahşişler gönüllüdür ve iade edilemez.",
+			"youTip": "Bahşişiniz"
+		},
+		"tipPending": {
+			"confirmedDesc": "Bahşişiniz başarıyla iletildi.",
+			"confirmedTitle": "Bahşiş onaylandı!",
+			"newTipConfirmed": "Başka bir ipucu gönder",
+			"newTipPending": "Başka bir bahşiş gönder",
+			"submittedDesc": "Bahşişiniz zincirde onaylanıyor.",
+			"submittedTitle": "Bahşiş Bekliyor",
+			"viewOnExplorer": "Gezgin üzerinde görüntüle"
 		}
 	},
 	"navUser": {
@@ -862,7 +927,7 @@
 		"poker": "Poker",
 		"lottery": "Loto",
 		"futures": "Vadeli İşlemler",
-		"vr": "VR",
+		"vr": "Sanal Gerçeklik",
 		"swap": "Takas",
 		"slotsDescription": "Makaraları çevir ve devasa jackpotlar kazan",
 		"liveCasinoDescription": "Canlı krupiyelerle gerçek zamanlı casino heyecanını yaşa",
@@ -928,16 +993,16 @@
 			"cta": "Yatır ve Kazan"
 		},
 		"jackpot": {
-			"title1": "Mega Jackpot",
+			"title1": "Büyük İkramiye",
 			"title2": "1.000.000 $",
 			"subtitle": "Şimdi Oyna ve Büyük Kazan",
 			"cta": "Şimdi Oyna"
 		},
 		"cards": {
 			"casino": {
-				"title": "Casino",
+				"title": "Kumarhane",
 				"badge": "590+ OYUN",
-				"desc": "MemeWin Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
+				"desc": "DigiDice Orijinalleri ve diğer en iyi sağlayıcıların casino oyunlarının keyfini çıkarın.",
 				"link": "Casinoya Git"
 			},
 			"slots": {
@@ -1015,7 +1080,7 @@
 		"quickUploadFontFile": "Hızlı Yazı Tipi Dosyası Yükle",
 		"resetToDefault": "Varsayılana Sıfırla",
 		"googleFonts": {
-			"title": "Google Fonts",
+			"title": "Google Yazı Tipleri",
 			"searchFonts": "Yazı tipi ara...",
 			"preview": "Önizleme",
 			"previewText": "Pijamalı hasta, yağız şoföre çabucak güvendi.",
@@ -1204,6 +1269,29 @@
 			"calcFor": "${amount} bahis için bonus hesaplanıyor",
 			"totalPotential": "Toplam Potansiyel Bonus:",
 			"combinedAtTier": "{level} Seviyesindeki tüm oyun türlerinden birleşik bonus"
+		},
+		"claimSuccessModal": {
+			"title": "Talep Başarılı",
+			"statusCompleted": "Tamamlandı",
+			"statusOnChain": "zincir içi",
+			"claimAmount": "Talep Miktarı",
+			"logoAlt": "DigiDice Logosu",
+			"backgroundAlt": "Talep başarısı arka planı",
+			"creatingMagic": "Sihir Oluşturuluyor...",
+			"downloadShare": "İndir ve Paylaş",
+			"spreadTheWin": "KAZANCI YAYIN",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "Daha fazla",
+			"shareText": "I just claimed {amount} bonus! Join me: {url}",
+			"referralLinkCopied": "Yönlendirme linki",
+			"referralLinkCopyFailed": "Başvuru bağlantısı kopyalanamadı",
+			"screenshotFailed": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin veya farklı bir tarayıcı kullanın.",
+			"shareTextCopied": "Panoya kopyalanan metni paylaş!",
+			"shareFailed": "Paylaşım başarısız oldu. Lütfen tekrar deneyin."
 		}
 	}
 }

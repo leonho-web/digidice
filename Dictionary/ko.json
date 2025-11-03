@@ -7,14 +7,14 @@
 		"viewAll": "모두 보기"
 	},
 	"app": {
-		"name": "Meme Win"
+		"name": "Digi Dice"
 	},
 	"header": {
 		"toggleSidebar": "사이드바 전환",
 		"searchPlaceholder": "게임, 제공업체 검색...",
 		"liveChat": "라이브 채팅",
 		"player": "플레이어",
-		"vip": "VIP",
+		"vip": "요일",
 		"profile": "프로필",
 		"statistics": "통계",
 		"wallet": "입금/출금",
@@ -22,7 +22,8 @@
 		"winLoss": "승/패",
 		"affiliate": "제휴",
 		"logout": "로그아웃",
-		"balance": "잔액"
+		"balance": "잔액",
+		"turnoverBonus": "턴오버 보너스"
 	},
 	"navigation": {
 		"home": "홈",
@@ -367,8 +368,8 @@
 	"query": {
 		"sort": {
 			"label": "정렬 기준",
-			"a-z": "A-Z",
-			"z-a": "Z-A"
+			"a-z": "AZ",
+			"z-a": "Z~A"
 		},
 		"filters": {
 			"filter": "필터",
@@ -447,7 +448,8 @@
 			"yourReferralId": "내 추천 ID",
 			"referralIdHelp": "이 코드를 공유하여 사용자가 등록 시 수동으로 입력할 수 있도록 하세요",
 			"copyFullSuccess": "전체 추천 링크가 클립보드에 복사되었습니다!",
-			"copyIdSuccess": "추천 ID가 클립보드에 복사되었습니다!"
+			"copyIdSuccess": "추천 ID가 클립보드에 복사되었습니다!",
+			"claimButtonTitle": "보너스 받기"
 		},
 		"referrals": {
 			"title": "내 추천",
@@ -601,7 +603,7 @@
 			"title": "이메일 로그인",
 			"description": "6자리 코드를 보내드립니다",
 			"emailLabel": "이메일 주소",
-			"emailPlaceholder": "name@email.com",
+			"emailPlaceholder": "이름@email.com",
 			"cancel": "취소",
 			"sending": "전송 중",
 			"continue": "계속하기",
@@ -659,15 +661,20 @@
 				"deposit": "입금",
 				"withdraw": "출금",
 				"swap": "스왑",
-				"walletInfo": "지갑"
+				"walletInfo": "지갑",
+				"tip": "팁",
+				"emailWallet": "이메일 지갑",
+				"wallet": "지갑"
 			},
 			"mobileDropdown": {
 				"emailWallet": "이메일 지갑",
 				"wallet": "지갑",
 				"deposit": "입금",
 				"withdraw": "출금",
-				"swap": "스왑"
-			}
+				"swap": "스왑",
+				"tip": "팁"
+			},
+			"title": "지갑"
 		},
 		"networkSelector": {
 			"placeholder": "네트워크 선택",
@@ -723,7 +730,8 @@
 			},
 			"buttons": {
 				"depositUsd": "${amount} 입금"
-			}
+			},
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol}은 가스 요금을 충당하고 거래 실패를 방지하기 위해 예약되어 있습니다."
 		},
 		"swapPanel": {
 			"selectTokens": "토큰 선택",
@@ -773,7 +781,8 @@
 			},
 			"buttons": {
 				"depositUsd": "${amount} 입금"
-			}
+			},
+			"maxButtonToolTipText": "가스 요금을 충당하고 거래 실패를 피하기 위해 {gasReservationAmount} {selectedTokenSymbol}이 예약되었습니다"
 		},
 		"depositPending": {
 			"confirmedTitle": "입금이 확인되었습니다!",
@@ -782,7 +791,10 @@
 			"submittedDesc": "블록체인 확인을 기다리는 중입니다. 몇 분 정도 걸릴 수 있습니다.",
 			"viewOnExplorer": "탐색기에서 보기",
 			"newDepositConfirmed": "다른 입금하기",
-			"newDepositPending": "새로운 입금 시작하기"
+			"newDepositPending": "새로운 입금 시작하기",
+			"failedTitle": "거래 실패",
+			"failedDesc": "거래가 실패했습니다. ",
+			"newDepositFailed": "다시 시도"
 		},
 		"withdrawPanel": {
 			"resetForm": "양식 초기화",
@@ -812,11 +824,12 @@
 			"buttons": {
 				"withdraw": "{amount} {symbol} 출금",
 				"minimum": "최소 {amount} {symbol}"
-			}
+			},
+			"calculating": "계산 중"
 		},
 		"withdrawSuccess": {
 			"title": "출금 성공!",
-			"successMessage": "🎉 Meme Win에서 방금 {withdrawAmount} {tokenSymbol}을(를) 출금했습니다! 🚀 {shareUrl}에서 승리의 행진에 동참하세요",
+			"successMessage": "🎉 Digi Dice에서 방금 {withdrawAmount} {tokenSymbol}을(를) 출금했습니다! 🚀 {shareUrl}에서 승리의 행진에 동참하세요",
 			"withdrawnAmount": "출금된 금액",
 			"shareText": "공유하기",
 			"subText": "🚀 승리의 행진에 동참하세요! 🚀",
@@ -824,7 +837,14 @@
 			"screenshot": "스크린샷 찍기",
 			"download": "이미지 다운로드",
 			"close": "닫기",
-			"copiedToClipboard": "공유 링크가 성공적으로 복사되었습니다"
+			"copiedToClipboard": "공유 링크가 성공적으로 복사되었습니다",
+			"entryPrice": "출금 금액",
+			"lastPrice": "토큰 심볼",
+			"referralCode": "추천 코드",
+			"screenshotFailed": "스크린샷에 실패했습니다. 다시 시도하거나 다른 브라우저를 사용하세요.",
+			"shareFailed": "공유 실패. 다시 시도해 주세요.",
+			"status": "완료됨",
+			"userName": "DigiDice 플레이어"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "출금이 확인되었습니다!",
@@ -838,6 +858,51 @@
 		},
 		"withdrawSummary": {
 			"youWillReceive": "받을 금액"
+		},
+		"tipPanel": {
+			"approxUsd": "~  USD",
+			"balance": "잔액:",
+			"buttons": {
+				"tip": "팁",
+				"tipUsd": "팁"
+			},
+			"emailWalletAddress": "이메일 지갑 주소",
+			"enterAmount": "금액 입력",
+			"errors": {
+				"belowMinimum": "금액은 최소 {min} 이상이어야 합니다.",
+				"checkForm": "팁 세부정보를 확인해 주세요.",
+				"insufficientBalance": "잔액이 부족합니다.",
+				"missingWallet": "팁 지갑을 가져올 수 없습니다. 나중에 다시 시도해 주세요.",
+				"selectTokenAndAmount": "토큰을 선택하고 금액을 입력하세요."
+			},
+			"max": "최대",
+			"maxButtonToolTipText": "가스 비용을 충당하고 거래 실패를 방지하기 위해 {gasReservationAmount} {selectedTokenSymbol}가 예약되었습니다",
+			"minimumIs": "최소 팁은 {min}입니다",
+			"minPrefix": "최소",
+			"prompts": {
+				"enterAmount": "금액 입력",
+				"selectToken": "토큰 선택"
+			},
+			"resetForm": "양식 재설정",
+			"selectToken": "토큰 선택",
+			"status": {
+				"awaitingApproval": "승인 대기 중...",
+				"calculatingRate": "계산 중...",
+				"fetchingWallet": "팁 지갑 준비 중...",
+				"insufficientBalance": "잔액 부족",
+				"processing": "팁 보내는 중..."
+			},
+			"tipPanelWarningText": "팁은 자발적이며 환불되지 않습니다.",
+			"youTip": "당신의 팁"
+		},
+		"tipPending": {
+			"confirmedDesc": "팁이 성공적으로 전달되었습니다.",
+			"confirmedTitle": "팁 확인 완료!",
+			"newTipConfirmed": "다른 팁 보내기",
+			"newTipPending": "다른 팁 보내기",
+			"submittedDesc": "당신의 팁이 체인에서 확인되고 있습니다.",
+			"submittedTitle": "팁 처리중",
+			"viewOnExplorer": "탐색기에서 보기"
 		}
 	},
 	"navUser": {
@@ -851,7 +916,7 @@
 		"pageTitle": "모든 게임",
 		"playNow": "지금 플레이",
 		"byProvider": "{name} 제공",
-		"count": "{count}개의 게임",
+		"count": "{count} 개의 게임",
 		"noResults": "조건에 맞는 게임을 찾을 수 없습니다.",
 		"errorLoading": "게임을 불러올 수 없습니다. 나중에 다시 시도해 주세요.",
 		"slots": "슬롯",
@@ -937,7 +1002,7 @@
 			"casino": {
 				"title": "카지노",
 				"badge": "590+ 게임",
-				"desc": "MemeWin 오리지널 및 상위 제공업체의 다른 카지노 게임을 즐기세요.",
+				"desc": "DigiDice 오리지널 및 상위 제공업체의 다른 카지노 게임을 즐기세요.",
 				"link": "카지노로 가기"
 			},
 			"slots": {
@@ -954,7 +1019,7 @@
 			},
 			"crypto": {
 				"title": "암호화폐 & 수익",
-				"badge": "60% APR",
+				"badge": "연이율 60%",
 				"desc": "매력적인 이율로 암호화폐를 스테이킹, 거래, 수익 창출하세요.",
 				"link": "암호화폐로 가기"
 			}
@@ -1015,7 +1080,7 @@
 		"quickUploadFontFile": "글꼴 파일 빠른 업로드",
 		"resetToDefault": "기본값으로 재설정",
 		"googleFonts": {
-			"title": "Google Fonts",
+			"title": "구글 글꼴",
 			"searchFonts": "글꼴 검색...",
 			"preview": "미리보기",
 			"previewText": "다람쥐 헌 쳇바퀴에 타고파",
@@ -1204,6 +1269,29 @@
 			"calcFor": "${amount} 베팅의 보너스를 계산 중",
 			"totalPotential": "총 잠재 보너스:",
 			"combinedAtTier": "레벨 {level}에서 모든 게임 유형의 결합 보너스"
+		},
+		"claimSuccessModal": {
+			"title": "청구 성공",
+			"statusCompleted": "완료",
+			"statusOnChain": "온체인",
+			"claimAmount": "소 가",
+			"logoAlt": "DigiDice 로고",
+			"backgroundAlt": "청구 성공 배경",
+			"creatingMagic": "매직 생성 중...",
+			"downloadShare": "다운로드 및 공유",
+			"spreadTheWin": "승리를 널리 알리세요",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "더 보기",
+			"shareText": "I just claimed {amount} bonus! Join me: {url}",
+			"referralLinkCopied": "추천 링크가 복사되었습니다!",
+			"referralLinkCopyFailed": "추천 링크를 복사하지 못했습니다.",
+			"screenshotFailed": "스크린샷을 찍지 못했습니다. 다시 시도하거나 다른 브라우저를 사용하세요.",
+			"shareTextCopied": "클립보드에 복사한 텍스트를 공유하세요!",
+			"shareFailed": "공유에 실패했습니다. 다시 시도하십시오."
 		}
 	}
 }

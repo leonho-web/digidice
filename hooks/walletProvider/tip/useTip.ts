@@ -58,9 +58,10 @@ export const useTip = () => {
 		setIsBalanceInsufficient,
 	} = useTipFormState();
 
-	const { gasReservationAmount, isNativeCurrency } = useGasManager({
-		selectedToken,
-	});
+	const { gasReservationAmount, isNativeCurrency, showTooltip } =
+		useGasManager({
+			selectedToken,
+		});
 
 	const [tipWalletAddress, setTipWalletAddress] = useState<string | null>(
 		null
@@ -96,6 +97,17 @@ export const useTip = () => {
 	useEffect(() => {
 		fetchTipWallet();
 	}, [fetchTipWallet]);
+
+	// --- 1.5. MONITOR NETWORK CHANGES AND RESET FORM ---
+	// This effect clears the selected token when the network changes
+	// to prevent the bug where a token from the previous network remains selected
+	useEffect(() => {
+		if (selectedToken && chainId) {
+			// Reset the form when network changes to prevent cross-network token selection
+			resetFormState();
+		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [chainId]); // Only depend on chainId to trigger on network changes
 
 	const {
 		isLoading,
@@ -264,6 +276,8 @@ export const useTip = () => {
 		minTipAmount,
 		usdEstimate,
 		isFetchingWallet,
+		gasReservationAmount,
+		showTooltip,
 		selectToken,
 		handleAmountChange,
 		setMaxAmount,

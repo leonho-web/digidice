@@ -87,7 +87,6 @@ export const sanitizeReferralIdInput = (value: string): string => {
 	return value.replace(/[^a-zA-Z0-9]/g, "");
 };
 
-
 /**
  * Sanitizes a string to allow only valid numeric input for amounts.
  * Handles decimal points, precision, and leading zeros.

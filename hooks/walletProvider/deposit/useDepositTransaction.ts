@@ -86,6 +86,7 @@ export const useDepositTransaction = ({
 			setIsApproved(true);
 			return;
 		}
+
 		const isDirect = ["USDT", "USDC", "55Swap", "USD₮0", "USDT0"].includes(
 			selectedToken.symbol
 		);
@@ -94,6 +95,7 @@ export const useDepositTransaction = ({
 			setIsApproved(true);
 			return;
 		}
+
 		const check = async () => {
 			const { hasAllowance } = await transactionService.checkAllowance({
 				tokenAddress: selectedToken.address,
@@ -143,7 +145,8 @@ export const useDepositTransaction = ({
 					// Increment retry count
 					if (retryCount < MAX_RETRIES) {
 						console.log(
-							`Transaction not found, retry ${retryCount + 1
+							`Transaction not found, retry ${
+								retryCount + 1
 							}/${MAX_RETRIES}`
 						);
 						return; // Continue polling
@@ -324,7 +327,11 @@ export const useDepositTransaction = ({
 				depositSuccess = true;
 			} else {
 				const isStablecoin = [
-					"USDT", "USDC", "55Swap", "USD₮0", "USDT0"
+					"USDT",
+					"USDC",
+					"55Swap",
+					"USD₮0",
+					"USDT0",
 				].includes(selectedToken.symbol);
 				if (isStablecoin || depositType === "direct") {
 					txResult = await transactionService.executeTokenTransfer({
