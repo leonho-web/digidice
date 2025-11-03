@@ -39,6 +39,34 @@ TokenRowProps) => {
 	// 	(state) => state.blockchain.network
 	// );
 
+	// dont round off the balance use this function insted just pass the value and the decimal places
+	const roundOffBalance = (value: number, decimalPlaces: number) => {
+		let sanitized = value.toString().replace(/[^0-9.]/g, "");
+
+		if ((sanitized.match(/\./g) || []).length > 1) {
+			sanitized = sanitized.substring(0, sanitized.lastIndexOf("."));
+		}
+
+		if (sanitized.includes(".")) {
+			const parts = sanitized.split(".");
+			sanitized = `${parts[0]}.${parts[1].substring(0, decimalPlaces)}`;
+		}
+
+		if (
+			sanitized.startsWith("0") &&
+			sanitized !== "0" &&
+			!sanitized.startsWith("0.")
+		) {
+			sanitized = sanitized.replace(/^0+/, "");
+		}
+
+		if (sanitized.startsWith(".")) {
+			sanitized = `0${sanitized}`;
+		}
+
+		return sanitized;
+	};
+
 	return (
 		<CommandItem
 			value={`${token.name} ${token.symbol} ${token.address}`}
@@ -85,7 +113,7 @@ TokenRowProps) => {
 									? ""
 									: balance < 0.000001
 									? "< 0.01"
-									: balance.toFixed(6)}
+									: roundOffBalance(Number(balance), 6)}
 							</span>{" "}
 							{token.symbol}
 						</p>
@@ -136,18 +164,13 @@ TokenRowProps) => {
 							)}
 						</>
 					) : (
-						<p className={"text-muted-foreground"}>
-							<span
-								className={`${
-									isTokenOwned
-										? "text-blue-500"
-										: "text-muted-foreground"
-								}`}
-							>
-								{balance.toFixed(6)}
-							</span>{" "}
-							{token.symbol}{" "}
-						</p>
+						<>
+							<p className="font-semibold text-lg">
+								{Number(balance.toFixed(6)) > 0.01
+									? roundOffBalance(Number(balance), 2)
+									: roundOffBalance(Number(balance), 6)}
+							</p>
+						</>
 					)}
 				</div>
 			</div>

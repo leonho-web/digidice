@@ -7,6 +7,7 @@ import { useState, useCallback } from "react";
 import React from "react";
 import { Token } from "@/types/blockchain/swap.types";
 import { UseSwapFormStateReturn } from "@/types/walletProvider/swap-hooks.types";
+import { sanitizeAmountInput } from "@/lib/utils";
 
 export const useSwapFormState = (): UseSwapFormStateReturn => {
 	// --- STATE ---
@@ -131,7 +132,10 @@ export const useSwapFormState = (): UseSwapFormStateReturn => {
 				if (maxAmount <= 0) {
 					setExchangeAmount("0");
 				} else {
-					setExchangeAmount(maxAmount.toString());
+					// setExchangeAmount(maxAmount.toString());
+					setExchangeAmount(
+						sanitizeAmountInput(String(maxAmount), 6)
+					);
 				}
 				setReceivedAmount("");
 				setIsReversedQuote(false);

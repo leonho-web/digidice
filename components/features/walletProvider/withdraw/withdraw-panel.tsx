@@ -18,7 +18,7 @@ import { useWithdraw } from "@/hooks/walletProvider/withdrawal/useWithdraw";
 import { WithdrawTransactionPending } from "@/components/features/walletProvider/withdraw/withdraw-transaction-pending";
 import { WithdrawalSuccessModal } from "@/components/features/walletProvider/withdraw/withdrawal-success-modal";
 import { useTranslations } from "@/lib/locale-provider";
-import { cn } from "@/lib/utils";
+import { cn, sanitizeAmountInput } from "@/lib/utils";
 import { sanitizeDecimalInput } from "@/lib/utils";
 
 export const WithdrawPanel = memo(
@@ -268,7 +268,11 @@ export const WithdrawPanel = memo(
 										<div className="flex items-center justify-between gap-2 sm:justify-end">
 											<span className="text-muted-foreground text-xs sm:text-sm">
 												{t("balance")}{" "}
-												{maxWithdrawAmount.toFixed(2)}
+												{/* {maxWithdrawAmount.toFixed(2)} */}
+												{sanitizeAmountInput(
+													maxWithdrawAmount.toString(),
+													2
+												)}{" "}
 											</span>
 											<Button
 												variant="link"

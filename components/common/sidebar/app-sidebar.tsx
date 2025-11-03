@@ -133,7 +133,7 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 			className="border-r w-[calc(var(--sidebar-width)+2dvw)] border-border/20 bg-background backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 font-poppins sidebar-stable sidebar-transition sidebar-no-flicker"
 		>
 			{/* Sidebar Header with logo and title */}
-
+			{/* <div className="flex items-center group-data-[collapsible=icon]:p-1 group-data-[collapsible=icon]:pt-3 p-4"> */}
 			<div className="group-data-[collapsible=icon]:hidden flex items-center p-4">
 				<Link
 					href="/"

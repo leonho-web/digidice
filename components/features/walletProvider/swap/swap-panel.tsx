@@ -1,5 +1,3 @@
-// TODO: add the transaltion key form the max button tooltip text for Swap Panel in all languages
-
 "use client";
 
 import Image from "next/image";
@@ -16,13 +14,13 @@ import {
 	ArrowDownUp,
 	Settings,
 	Zap,
-	RefreshCw,
 	ChevronDown,
 	Loader2,
 	// AlertTriangle,
 	Info,
 	TrendingUp,
 	CircleCheck,
+	RotateCcw,
 } from "lucide-react";
 import {
 	Popover,
@@ -312,7 +310,7 @@ export const SwapPanel = memo(
 							}}
 							className="h-8 w-8 hover:bg-muted"
 						>
-							<RefreshCw className="h-4 w-4" />
+							<RotateCcw className="h-4 w-4" />
 						</Button>
 
 						<Popover

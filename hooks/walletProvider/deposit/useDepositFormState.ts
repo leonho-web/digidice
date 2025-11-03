@@ -14,7 +14,9 @@ export const useDepositFormState = () => {
 	// --- DERIVED STATE ---
 	const formattedBalance = useMemo(() => {
 		if (!selectedToken?.balance) return "0.00";
-		return parseFloat(formatFullAmount(selectedToken.balance)).toFixed(6);
+		return sanitizeAmountInput(
+			parseFloat(formatFullAmount(selectedToken.balance)).toString()
+		);
 	}, [selectedToken]);
 
 	// --- ACTIONS ---

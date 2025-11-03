@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWifiSlash, faCircleCheck } from "@fortawesome/pro-light-svg-icons";
+import { useDynamicAuth } from "@/hooks/useDynamicAuth";
 
 export function OfflineDetector() {
 	const [isOnline, setIsOnline] = useState(true);
-	const [showBanner, setShowBanner] = useState(false);
-	const router = useRouter();
+	const [showNotification, setShowNotification] = useState(false);
+
+	const { refreshUserData } = useDynamicAuth();
 
 	useEffect(() => {
 		// Check initial online status
@@ -16,20 +17,17 @@ export function OfflineDetector() {
 
 		const handleOnline = () => {
 			setIsOnline(true);
-			setShowBanner(true);
-			// Hide success banner after 3 seconds
+			setShowNotification(true);
+			refreshUserData();
 			setTimeout(() => {
-				setShowBanner(false);
+				setShowNotification(false);
 			}, 3000);
 		};
 
 		const handleOffline = () => {
 			setIsOnline(false);
-			setShowBanner(true);
-			// Redirect to offline page after a brief delay
-			setTimeout(() => {
-				router.push("/offline");
-			}, 2000);
+			setShowNotification(true);
+			// Keep showing "You are offline" notification (don't auto-hide)
 		};
 
 		window.addEventListener("online", handleOnline);
@@ -39,27 +37,25 @@ export function OfflineDetector() {
 			window.removeEventListener("online", handleOnline);
 			window.removeEventListener("offline", handleOffline);
 		};
-	}, [router]);
+	}, []);
 
-	if (!showBanner) return null;
+	if (!showNotification) return null;
 
 	return (
 		<div
-			className={`fixed top-20 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-lg shadow-lg transition-all duration-300 ${
+			className={`fixed bottom-6 right-6 z-50 px-4 py-3 rounded-lg shadow-lg backdrop-blur-sm transition-all duration-300 ${
 				isOnline
 					? "bg-green-500/90 text-white"
 					: "bg-destructive/90 text-white"
-			} animate-slide-down`}
+			} animate-fade-in-up`}
 		>
 			<div className="flex items-center gap-3">
 				<FontAwesomeIcon
 					icon={isOnline ? faCircleCheck : faWifiSlash}
-					className={`w-5 h-5 ${isOnline ? "" : "animate-pulse"}`}
+					className={`w-4 h-4 ${isOnline ? "" : "animate-pulse"}`}
 				/>
-				<span className="font-semibold">
-					{isOnline
-						? "Connection restored!"
-						: "You're offline. Redirecting..."}
+				<span className="text-sm font-medium">
+					{isOnline ? "Back online" : "You are offline"}
 				</span>
 			</div>
 		</div>

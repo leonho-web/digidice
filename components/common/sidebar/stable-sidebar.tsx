@@ -194,7 +194,7 @@ const StableSidebarComponent = ({
 						className="w-full shadow-lg shadow-accent/30 transition-all duration-300 text-foreground bg-sky-600"
 						asChild
 					>
-						<a href="https://t.me/digidice_bot/digiDice">
+						<a href="https://t.me/memewin_bot/memewin">
 							<FontAwesomeIcon
 								icon={faPaperPlane}
 								fontSize={16}
