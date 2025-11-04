@@ -76,6 +76,7 @@ export const useWithdrawFormState = () => {
 			} else {
 				setAvailableTokens([]);
 				const errorMessage =
+					// eslint-disable-next-line @typescript-eslint/no-explicit-any
 					(response as any).message ||
 					"Could not load withdrawal tokens for this network.";
 				toast.error(errorMessage);

@@ -10,6 +10,7 @@ export const useDepositFormState = () => {
 	const [depositAmount, setDepositAmount] = useState("");
 	const [depositType, setDepositType] = useState<"direct" | "swap">("direct");
 	const [isBalanceInsufficient, setIsBalanceInsufficient] = useState(false);
+	const [isBelowMinimum, setIsBelowMinimum] = useState(false);
 
 	// --- DERIVED STATE ---
 	const formattedBalance = useMemo(() => {
@@ -54,6 +55,7 @@ export const useDepositFormState = () => {
 		setSelectedToken(null);
 		setDepositAmount("");
 		setIsBalanceInsufficient(false);
+		setIsBelowMinimum(false);
 		setDepositType("direct");
 	}, []);
 
@@ -63,6 +65,7 @@ export const useDepositFormState = () => {
 		depositAmount,
 		depositType,
 		isBalanceInsufficient,
+		isBelowMinimum,
 		formattedBalance,
 
 		// Actions
@@ -71,5 +74,6 @@ export const useDepositFormState = () => {
 		resetFormState,
 		setDepositAmount, // Expose the raw setter for the main hook to use
 		setIsBalanceInsufficient, // Expose for the main hook
+		setIsBelowMinimum, // Expose for the main hook
 	};
 };
