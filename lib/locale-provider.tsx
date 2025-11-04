@@ -97,7 +97,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 						{[0, 1, 2].map((index) => (
 							<div
 								key={index}
-								className="w-2 h-2 bg-primary rounded-full animate-bounce"
+								className="w-2 h-2 bg-[#155dfc] rounded-full animate-bounce"
 								style={{
 									animationDelay: `${index * 0.15}s`,
 									animationDuration: "0.8s",
