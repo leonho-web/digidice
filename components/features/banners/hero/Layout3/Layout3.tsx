@@ -653,14 +653,14 @@ export const Layout3 = ({
 	return (
 		<div className="w-full space-y-8 py-8">
 			{/* Header Section */}
-			<div className="text-center space-y-3">
+			{/* <div className="text-center space-y-3">
 				<h1 className="text-4xl font-semibold tracking-tight text-foreground">
 					{tHero("layout3.headerTitle")}
 				</h1>
 				<p className="text-muted-foreground max-w-2xl mx-auto">
 					{tHero("layout3.headerSubtitle")}
 				</p>
-			</div>
+			</div> */}
 
 			{/* Dual Slider Layout */}
 			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
