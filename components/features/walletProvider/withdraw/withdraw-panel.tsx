@@ -31,6 +31,8 @@ export const WithdrawPanel = memo(
 	}) => {
 		const t = useTranslations("walletProvider.withdrawPanel");
 		const { address: walletAddress } = useWalletAddress();
+		const [isSubmitButtonDisabled, setIsSubmitButtonDisabled] =
+			useState(true);
 
 		// --- 1. CONNECT TO THE MASTER LOGIC HOOK ---
 		const {
@@ -107,6 +109,11 @@ export const WithdrawPanel = memo(
 			}
 			return "!text-xl md:!text-2xl";
 		}, [withdrawAmount]);
+
+		useEffect(() => {
+			// Update the button's disabled state once isWithdrawDisabled is computed
+			setIsSubmitButtonDisabled(isWithdrawDisabled());
+		}, [isWithdrawDisabled]);
 
 		const handleSetMaxAmount = () => {
 			if (selectedToken) {
@@ -371,7 +378,7 @@ export const WithdrawPanel = memo(
 							<div className="p-4 pt-0">
 								<Button
 									onClick={executeWithdraw}
-									disabled={isWithdrawDisabled()}
+									disabled={isSubmitButtonDisabled}
 									size="default"
 									className="w-full h-11 text-base font-semibold rounded-xl"
 								>
