@@ -7,7 +7,7 @@
 		"viewAll": "Zobacz wszystko"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Przełącz pasek boczny",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Wypłata udana!",
-			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z Digi Dice! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
+			"successMessage": "🎉 Właśnie wypłaciłem(am) {withdrawAmount} {tokenSymbol} z {siteName}! 🚀 Dołącz do zwycięskiej passy na {shareUrl}",
 			"withdrawnAmount": "Wypłacona kwota",
 			"shareText": "Udostępnij",
 			"subText": "🚀 DOŁĄCZ DO ZWYCIĘSKIEJ PASSY! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Nie udało się wykonać zrzutu ekranu. Spróbuj ponownie lub użyj innej przeglądarki.",
 			"shareFailed": "Udostępnianie nie powiodło się. Proszę spróbować ponownie.",
 			"status": "Zakończono",
-			"userName": "Gracz DigiDice"
+			"userName": "Gracz {siteName}"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Wypłata potwierdzona!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Kasyno",
 				"badge": "590+ GIER",
-				"desc": "Ciesz się oryginalnymi grami DigiDice i innymi grami kasynowymi od najlepszych dostawców.",
+				"desc": "Ciesz się oryginalnymi grami {siteName} i innymi grami kasynowymi od najlepszych dostawców.",
 				"link": "Przejdź do kasyna"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Zakończone",
 			"statusOnChain": "Na łańcuchu",
 			"claimAmount": "Kwota Roszczenia",
-			"logoAlt": "Logo DigiDice",
+			"logoAlt": "Logo {siteName}",
 			"backgroundAlt": "Tło sukcesu wniosku",
 			"creatingMagic": "Tworzenie magii...",
 			"downloadShare": "Pobierz i udostępnij",

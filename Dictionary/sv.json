@@ -7,7 +7,7 @@
 		"viewAll": "Visa alla"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Växla sidofält",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Uttag lyckades!",
-			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från Digi Dice! 🚀 Häng med på vinnarstråket på {shareUrl}",
+			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från {siteName}! 🚀 Häng med på vinnarstråket på {shareUrl}",
 			"withdrawnAmount": "Uttaget belopp",
 			"shareText": "Dela",
 			"subText": "🚀 HÄNG MED PÅ VINNARSTRÅKET! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Skärmdumpen misslyckades. Vänligen försök igen eller använd en annan webbläsare.",
 			"shareFailed": "Delning misslyckades. Försök igen.",
 			"status": "Avslutad",
-			"userName": "DigiDice-spelare"
+			"userName": "{siteName}-spelare"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Uttag bekräftat!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ SPEL",
-				"desc": "Njut av DigiDice Originals och andra kasinospel från toppleverantörer.",
+				"desc": "Njut av {siteName} Originals och andra kasinospel från toppleverantörer.",
 				"link": "Gå till kasinot"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Klar",
 			"statusOnChain": "On-Chain",
 			"claimAmount": "Anspråksbelopp",
-			"logoAlt": "DigiDice-logotyp",
+			"logoAlt": "{siteName}-logotyp",
 			"backgroundAlt": "Bakgrund för anspråk på framgång",
 			"creatingMagic": "Skapar magi...",
 			"downloadShare": "Ladda ner och dela",
