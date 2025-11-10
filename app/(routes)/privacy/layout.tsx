@@ -7,18 +7,18 @@ import {
 
 // Generate SEO Metadata for Privacy Policy Page
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Privacy Policy | HyperBetz.games – Crypto Wallet Casino Security",
+	title: "Privacy Policy | digidice.com – Crypto Wallet Casino Security",
 	description:
-		"Learn how HyperBetz.games protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.",
+		"Learn how digidice.com protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.",
 	keywords: [
-		"HyperBetz privacy policy",
-		"HyperBetz crypto casino",
-		"HyperBetz data protection",
-		"HyperBetz wallet security",
+		"DigiDice privacy policy",
+		"DigiDice crypto casino",
+		"DigiDice data protection",
+		"DigiDice wallet security",
 		"crypto gambling privacy",
 		"GDPR crypto casino",
 		"blockchain casino policy",
-		"HyperBetz games secure",
+		"DigiDice games secure",
 		"crypto betting privacy",
 	],
 	path: "/privacy",
@@ -28,10 +28,10 @@ export const metadata: Metadata = generateSEOMetadata({
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
-			title: "Privacy Policy - HyperBetz",
-			url: "https://hyperbetz.games/privacy",
+			title: "Privacy Policy - DigiDice",
+			url: "https://digidice.com/privacy",
 			description:
-				"HyperBetz Privacy Policy - How we collect, use, store and protect your personal and transaction data.",
+				"DigiDice Privacy Policy - How we collect, use, store and protect your personal and transaction data.",
 		}),
 	],
 });

@@ -1716,7 +1716,7 @@
 					"You will not use the Service for illegal or commercial purposes.",
 					"You accept that cryptocurrency value may fluctuate and you bear all market risk."
 				],
-				"outro": "5.2 If you breach these warranties, HyperBetz may suspend or terminate access and withhold funds where permitted by law."
+				"outro": "5.2 If you breach these warranties, DigiDice may suspend or terminate access and withhold funds where permitted by law."
 			},
 			"5": {
 				"title": "6. Bonuses and Promotions",
@@ -1730,14 +1730,14 @@
 			},
 			"kyc": {
 				"title": "8. No Routine Identity Verification (No KYC)",
-				"content1": "8.1 HyperBetz does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
-				"content2": "8.2 Notwithstanding the above, HyperBetz reserves the right to request information or suspend transactions if required to:",
+				"content1": "8.1 DigiDice does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
+				"content2": "8.2 Notwithstanding the above, DigiDice reserves the right to request information or suspend transactions if required to:",
 				"items": [
 					"Comply with a lawful order from the competent authorities:",
 					"Prevent, investigate, or remediate fraud, money-laundering, or other illegal activity",
 					"Or protect the security and integrity of the platform."
 				],
-				"content3": "8.3 If you refuse to provide such information when legally required, HyperBetz may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
+				"content3": "8.3 If you refuse to provide such information when legally required, DigiDice may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
 			},
 			"9": {
 				"title": "9. Intellectual Property",
@@ -1753,32 +1753,32 @@
 				"title": "11. Playing Rules & Game Settlement",
 				"items": [
 					"Bets are accepted only once you receive on-screen confirmation. Bets placed with insufficient balance are void.",
-					"HyperBetz's internal logs and blockchain records are authoritative in case of disputes.",
-					"If an event is canceled, suspended, or otherwise compromised, HyperBetz will settle or void bets according to published game and market rules.",
+					"DigiDice's internal logs and blockchain records are authoritative in case of disputes.",
+					"If an event is canceled, suspended, or otherwise compromised, DigiDice will settle or void bets according to published game and market rules.",
 					"For provably-fair games, verification tools and server seeds (where applicable) are made available per game; server logs are final."
 				]
 			},
 			"errors": {
 				"title": "12. Errors, Interruptions & Limits",
-				"intro": "HyperBetz is not liable for losses caused by:",
+				"intro": "DigiDice is not liable for losses caused by:",
 				"items": [
 					"Internet or device failures",
 					"Blockchain delays, forks, or network congestion",
 					"Software bugs or third-party service outages"
 				],
-				"outro1": "HyperBetz reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
+				"outro1": "DigiDice reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
 				"outro2": "We may set wagering limits, maximum wins, and other controls to protect users and the platform."
 			},
 			"suspension": {
 				"title": "13. Suspension, Closure & Fund Handling",
-				"intro": "HyperBetz may suspend or close accounts where:",
+				"intro": "DigiDice may suspend or close accounts where:",
 				"items": [
 					"Terms are violated",
 					"Abuse, fraud, or suspicious behavior is detected",
 					"Legal or regulatory obligations require it"
 				],
 				"outro1": "On account closure, pending wagers may be canceled and remaining funds handled per applicable law and platform policy.",
-				"outro2": "HyperBetz may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
+				"outro2": "DigiDice may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
 			},
 			"responsibleGaming": {
 				"title": "14. Responsible Gaming",
@@ -1790,13 +1790,13 @@
 			},
 			"ip": {
 				"title": "15. Intellectual Property",
-				"content1": "All trademarks, logos, site content, software, and game assets on HyperBetz are owned or licensed by HyperBetz. Unauthorized copying, scraping, or redistribution is prohibited.",
+				"content1": "All trademarks, logos, site content, software, and game assets on DigiDice are owned or licensed by DigiDice. Unauthorized copying, scraping, or redistribution is prohibited.",
 				"content2": "You are granted a limited, revocable license to access the Service for personal entertainment only."
 			},
 			"liability": {
 				"title": "16. Limitation of Liability",
 				"items": [
-					"To the fullest extent permitted by law, HyperBetz will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
+					"To the fullest extent permitted by law, DigiDice will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
 					"Our aggregate liability for any claim related to these Terms shall not exceed the value of your last deposit or an amount specified by applicable law.",
 					"Nothing in these Terms limits liability for death or personal injury caused by negligence where applicable law prohibits such limitation."
 				]
@@ -1807,14 +1807,14 @@
 			},
 			"amendments": {
 				"title": "18. Amendments",
-				"content": "HyperBetz may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
+				"content": "DigiDice may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
 			},
 			"miscellaneous": {
 				"title": "19. Miscellaneous",
 				"items": [
-					"These Terms constitute the entire agreement between you and HyperBetz regarding the Service.",
+					"These Terms constitute the entire agreement between you and DigiDice regarding the Service.",
 					"If any clause is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will remain in effect.",
-					"You may not assign your rights under these Terms. HyperBetz may assign or subcontract rights and obligations."
+					"You may not assign your rights under these Terms. DigiDice may assign or subcontract rights and obligations."
 				]
 			},
 			"contact": {

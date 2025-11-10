@@ -1,5 +1,5 @@
 {
-	"defaultDomain": "https://hyperbetz.games",
+	"defaultDomain": "https://digidice.com",
 	"defaultLang": "en",
 	"defaultCountry": "global",
 	"environment": "production",
@@ -12,7 +12,7 @@
 			"countryCode": "INT",
 			"timezone": "UTC",
 			"metaTitleSuffix": " | Hyperbetz",
-			"canonicalBase": "https://hyperbetz.games",
+			"canonicalBase": "https://digidice.com",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -29,7 +29,7 @@
 			"countryCode": "US",
 			"timezone": "America/New_York",
 			"metaTitleSuffix": " | Hyperbetz USA",
-			"canonicalBase": "https://hyperbetz.games/us",
+			"canonicalBase": "https://digidice.com/us",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -46,7 +46,7 @@
 			"countryCode": "GB",
 			"timezone": "Europe/London",
 			"metaTitleSuffix": " | Hyperbetz UK",
-			"canonicalBase": "https://hyperbetz.games/uk",
+			"canonicalBase": "https://digidice.com/uk",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -63,7 +63,7 @@
 			"countryCode": "IN",
 			"timezone": "Asia/Kolkata",
 			"metaTitleSuffix": " | Hyperbetz India",
-			"canonicalBase": "https://hyperbetz.games/in",
+			"canonicalBase": "https://digidice.com/in",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -80,7 +80,7 @@
 			"countryCode": "ZA",
 			"timezone": "Africa/Johannesburg",
 			"metaTitleSuffix": " | Hyperbetz South Africa",
-			"canonicalBase": "https://hyperbetz.games/za",
+			"canonicalBase": "https://digidice.com/za",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -97,7 +97,7 @@
 			"countryCode": "NG",
 			"timezone": "Africa/Lagos",
 			"metaTitleSuffix": " | Hyperbetz Nigeria",
-			"canonicalBase": "https://hyperbetz.games/ng",
+			"canonicalBase": "https://digidice.com/ng",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -114,7 +114,7 @@
 			"countryCode": "DE",
 			"timezone": "Europe/Berlin",
 			"metaTitleSuffix": " | Hyperbetz Deutschland",
-			"canonicalBase": "https://hyperbetz.games/de",
+			"canonicalBase": "https://digidice.com/de",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -131,7 +131,7 @@
 			"countryCode": "JP",
 			"timezone": "Asia/Tokyo",
 			"metaTitleSuffix": " | Hyperbetz Japan",
-			"canonicalBase": "https://hyperbetz.games/jp",
+			"canonicalBase": "https://digidice.com/jp",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -148,7 +148,7 @@
 			"countryCode": "BR",
 			"timezone": "America/Sao_Paulo",
 			"metaTitleSuffix": " | Hyperbetz Brasil",
-			"canonicalBase": "https://hyperbetz.games/br",
+			"canonicalBase": "https://digidice.com/br",
 			"gtmId": "",
 			"ga4Id": "",
 			"localizedTerms": {
@@ -169,7 +169,7 @@
 		"logo": "/assets/site/Hyperbetz-logo.png",
 		"logoWidth": 1200,
 		"logoHeight": 630,
-		"twitterHandle": "@hyperbetz",
+		"twitterHandle": "@digidice",
 		"facebookAppId": "",
 		"enableAISEO": true,
 		"enableAEO": true,
@@ -182,27 +182,27 @@
 		"organization": {
 			"@type": "Organization",
 			"name": "Hyperbetz Gaming",
-			"url": "https://hyperbetz.games",
-			"logo": "https://hyperbetz.games/assets/site/Hyperbetz-logo.png",
+			"url": "https://digidice.com",
+			"logo": "https://digidice.com/assets/site/Hyperbetz-logo.png",
 			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
 			"sameAs": [
-				"https://twitter.com/hyperbetz",
-				"https://facebook.com/hyperbetz",
-				"https://instagram.com/hyperbetz"
+				"https://twitter.com/digidice",
+				"https://facebook.com/digidice",
+				"https://instagram.com/digidice"
 			],
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "customer support",
-				"email": "support@hyperbetz.games"
+				"email": "support@digidice.com"
 			}
 		},
 		"website": {
 			"@type": "WebSite",
 			"name": "Hyperbetz",
-			"url": "https://hyperbetz.games",
+			"url": "https://digidice.com",
 			"potentialAction": {
 				"@type": "SearchAction",
-				"target": "https://hyperbetz.games/search?q={search_term_string}",
+				"target": "https://digidice.com/search?q={search_term_string}",
 				"query-input": "required name=search_term_string"
 			}
 		}
@@ -210,8 +210,8 @@
 
 	"pageDefaults": {
 		"home": {
-			"title": "HyperBetz – Global Casino for Slots, Sports & Live Games",
-			"description": "Play at HyperBetz – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
+			"title": "DigiDice – Global Casino for Slots, Sports & Live Games",
+			"description": "Play at DigiDice – a trusted online casino with 5000+ slots, live tables & sports betting. Secure play, fast payouts & daily rewards.",
 			"keywords": [
 				"gaming",
 				"rewards",
@@ -254,19 +254,19 @@
 			"schemaType": "ProfilePage"
 		},
 		"affiliate": {
-			"title": "Join the HyperBetz Affiliate Program – Earn Lifetime Commissions",
-			"description": "Partner with HyperBetz & earn lifetime income for every player you refer. Easy setup & global reach.",
+			"title": "Join the DigiDice Affiliate Program – Earn Lifetime Commissions",
+			"description": "Partner with DigiDice & earn lifetime income for every player you refer. Easy setup & global reach.",
 			"keywords": [
-				"HyperBetz affiliate program",
+				"DigiDice affiliate program",
 				"crypto casino affiliate",
-				"HyperBetz partners",
+				"DigiDice partners",
 				"referral rewards",
 				"commission earnings",
 				"revenue share crypto casino",
 				"blockchain affiliate network",
 				"earn crypto commissions",
 				"gaming affiliate marketing",
-				"HyperBetz referrals",
+				"DigiDice referrals",
 				"crypto partnership program",
 				"casino affiliate dashboard",
 				"play and earn referrals",
@@ -276,10 +276,10 @@
 			"schemaType": "WebPage"
 		},
 		"providers": {
-			"title": "Game Providers at HyperBetz – Top Casino Studios",
-			"description": "Explore 50+ trusted providers on HyperBetz – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
+			"title": "Game Providers at DigiDice – Top Casino Studios",
+			"description": "Explore 50+ trusted providers on DigiDice – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
 			"keywords": [
-				"HyperBetz game providers",
+				"DigiDice game providers",
 				"crypto casino providers",
 				"best slot developers",
 				"blockchain casino games",
@@ -293,16 +293,16 @@
 				"NetEnt games",
 				"casino software partners",
 				"provably fair providers",
-				"HyperBetz live dealers"
+				"DigiDice live dealers"
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
 		},
 		"about": {
-			"title": "About HyperBetz – Our Story & Mission",
-			"description": "Learn about HyperBetz - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
+			"title": "About DigiDice – Our Story & Mission",
+			"description": "Learn about DigiDice - our mission, values, and commitment to providing a safe, fair, and exciting gaming experience.",
 			"keywords": [
-				"about hyperbetz",
+				"about digidice",
 				"online casino platform",
 				"gaming platform",
 				"casino about us",
@@ -313,10 +313,10 @@
 			"schemaType": "WebPage"
 		},
 		"bonus": {
-			"title": "Turnover Bonus Program – Earn Rewards | HyperBetz",
-			"description": "Join HyperBetz Turnover Bonus Program. Earn up to 20% bonus on your gaming activity. Automatic rewards, transparent calculations.",
+			"title": "Turnover Bonus Program – Earn Rewards | DigiDice",
+			"description": "Join DigiDice Turnover Bonus Program. Earn up to 20% bonus on your gaming activity. Automatic rewards, transparent calculations.",
 			"keywords": [
-				"HyperBetz bonuses",
+				"DigiDice bonuses",
 				"crypto casino bonus",
 				"turnover bonus",
 				"reload bonus",
@@ -324,7 +324,7 @@
 				"wagering rewards",
 				"crypto cashback",
 				"play to earn casino",
-				"HyperBetz promotions",
+				"DigiDice promotions",
 				"crypto gambling bonuses",
 				"VIP rewards",
 				"blockchain casino offers",
@@ -336,8 +336,8 @@
 			"schemaType": "WebPage"
 		},
 		"privacy": {
-			"title": "Privacy Policy – Data Protection | HyperBetz",
-			"description": "HyperBetz Privacy Policy. Learn how we collect, use, and protect your personal data in our crypto-casino platform.",
+			"title": "Privacy Policy – Data Protection | DigiDice",
+			"description": "DigiDice Privacy Policy. Learn how we collect, use, and protect your personal data in our crypto-casino platform.",
 			"keywords": [
 				"privacy policy",
 				"data protection",
@@ -349,8 +349,8 @@
 			"schemaType": "WebPage"
 		},
 		"terms": {
-			"title": "Terms & Conditions – User Agreement | HyperBetz",
-			"description": "Read HyperBetz Terms & Conditions. Understand your rights, responsibilities, and our platform rules.",
+			"title": "Terms & Conditions – User Agreement | DigiDice",
+			"description": "Read DigiDice Terms & Conditions. Understand your rights, responsibilities, and our platform rules.",
 			"keywords": [
 				"terms and conditions",
 				"user agreement",
@@ -362,8 +362,8 @@
 			"schemaType": "WebPage"
 		},
 		"responsibleGambling": {
-			"title": "Responsible Gambling – Player Protection | HyperBetz",
-			"description": "HyperBetz promotes responsible gambling. Access tools, resources, and support for safe gaming.",
+			"title": "Responsible Gambling – Player Protection | DigiDice",
+			"description": "DigiDice promotes responsible gambling. Access tools, resources, and support for safe gaming.",
 			"keywords": [
 				"responsible gambling",
 				"player protection",
@@ -375,8 +375,8 @@
 			"schemaType": "WebPage"
 		},
 		"faqs": {
-			"title": "FAQs – Frequently Asked Questions | HyperBetz",
-			"description": "Find answers to common questions about HyperBetz crypto-casino. Learn about deposits, withdrawals, games, and bonuses.",
+			"title": "FAQs – Frequently Asked Questions | DigiDice",
+			"description": "Find answers to common questions about DigiDice crypto-casino. Learn about deposits, withdrawals, games, and bonuses.",
 			"keywords": [
 				"FAQs",
 				"frequently asked questions",
@@ -393,7 +393,7 @@
 		"production": {
 			"allow": ["/"],
 			"disallow": ["/api/", "/admin/", "/_next/", "/private/"],
-			"sitemap": "https://hyperbetz.games/sitemap.xml"
+			"sitemap": "https://digidice.com/sitemap.xml"
 		},
 		"staging": {
 			"allow": [],
@@ -429,7 +429,7 @@
 		"androidAppId": "",
 		"iosAppId": "",
 		"appName": "Hyperbetz",
-		"appDeepLinkScheme": "hyperbetz://",
+		"appDeepLinkScheme": "digidice://",
 		"pwaEnabled": true
 	},
 
@@ -446,7 +446,7 @@
 
 	"socialMedia": {
 		"twitter": {
-			"handle": "@hyperbetz",
+			"handle": "@digidice",
 			"cardType": "summary_large_image"
 		},
 		"facebook": {
@@ -454,7 +454,7 @@
 			"pages": []
 		},
 		"instagram": {
-			"handle": "hyperbetz"
+			"handle": "digidice"
 		}
 	},
 
