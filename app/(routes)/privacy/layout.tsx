@@ -14,17 +14,18 @@ const siteTLD = interpolateSiteTLD(`{siteTLD}`);
 
 // Generate SEO Metadata for Privacy Policy Page
 export const metadata: Metadata = generateSEOMetadata({
-	title: `Privacy Policy | ${siteName}${siteTLD} – Crypto Wallet Casino Security`,
-	description: `Learn how ${siteName}${siteTLD} protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.`,
+	title: "Privacy Policy | HyperBetz.games – Crypto Wallet Casino Security",
+	description:
+		"Learn how HyperBetz.games protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.",
 	keywords: [
-		`${siteName} privacy policy`,
-		`${siteName} crypto casino`,
-		`${siteName} data protection`,
-		`${siteName} wallet security`,
+		"HyperBetz privacy policy",
+		"HyperBetz crypto casino",
+		"HyperBetz data protection",
+		"HyperBetz wallet security",
 		"crypto gambling privacy",
 		"GDPR crypto casino",
 		"blockchain casino policy",
-		`${siteName} games secure`,
+		"HyperBetz games secure",
 		"crypto betting privacy",
 	],
 	path: "/privacy",
