@@ -7,7 +7,7 @@
 		"viewAll": "Lihat Semua"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Togol Bar Sisi",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Pengeluaran Berjaya!",
-			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari Digi Dice! 🚀 Sertai rentetan kemenangan di {shareUrl}",
+			"successMessage": "🎉 Baru sahaja mengeluarkan {withdrawAmount} {tokenSymbol} dari {siteName}! 🚀 Sertai rentetan kemenangan di {shareUrl}",
 			"withdrawnAmount": "Jumlah Dikeluarkan",
 			"shareText": "Kongsi",
 			"subText": "🚀 SERTAI RENTETAN KEMENANGAN! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Tangkapan layar gagal. Sila cuba lagi atau guna pelayar yang lain.",
 			"shareFailed": "Perkongsian gagal. Sila cuba lagi.",
 			"status": "Selesai",
-			"userName": "Pemain DigiDice"
+			"userName": "Pemain {siteName}"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Pengeluaran Disahkan!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Kasino",
 				"badge": "590+ PERMAINAN",
-				"desc": "Nikmati DigiDice Originals dan permainan kasino lain dari penyedia teratas.",
+				"desc": "Nikmati {siteName} Originals dan permainan kasino lain dari penyedia teratas.",
 				"link": "Pergi ke Kasino"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Selesai",
 			"statusOnChain": "On-Chain",
 			"claimAmount": "Jumlah Tuntutan",
-			"logoAlt": "Logo DigiDice",
+			"logoAlt": "Logo {siteName}",
 			"backgroundAlt": "Tuntut latar belakang kejayaan",
 			"creatingMagic": "Mencipta Sihir...",
 			"downloadShare": "Muat Turun & Kongsi",

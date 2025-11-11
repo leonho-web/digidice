@@ -7,7 +7,7 @@
 		"viewAll": "Ver tudo"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "Alternar barra lateral",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "Levantamento Bem-sucedido!",
-			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do Digi Dice! 🚀 Junte-se à série de vitórias em {shareUrl}",
+			"successMessage": "🎉 Acabei de levantar {withdrawAmount} {tokenSymbol} do {siteName}! 🚀 Junte-se à série de vitórias em {shareUrl}",
 			"withdrawnAmount": "Montante Levantado",
 			"shareText": "Partilhar",
 			"subText": "🚀 JUNTE-SE À SÉRIE DE VITÓRIAS! 🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "Falha ao capturar a tela. Por favor, tente novamente ou use um navegador diferente.",
 			"shareFailed": "Compartilhamento falhou. Por favor, tente novamente.",
 			"status": "Concluído",
-			"userName": "Jogador DigiDice"
+			"userName": "Jogador {siteName}"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "Levantamento Confirmado!",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "Cassino",
 				"badge": "590+ JOGOS",
-				"desc": "Desfrute dos Originais DigiDice e de outros jogos de casino dos melhores fornecedores.",
+				"desc": "Desfrute dos Originais {siteName} e de outros jogos de casino dos melhores fornecedores.",
 				"link": "Ir para o Casino"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "Concluído",
 			"statusOnChain": "On-Chain",
 			"claimAmount": "Montante reclamado",
-			"logoAlt": "Logotipo do DigiDice",
+			"logoAlt": "Logotipo do {siteName}",
 			"backgroundAlt": "Histórico de sucesso da reivindicação",
 			"creatingMagic": "A criar magia...",
 			"downloadShare": "<g id=\"1112\"> Baixar </g><g id=\"1122\"><g id=\"1121\"> Partilhar </g></g>",

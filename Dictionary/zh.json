@@ -7,7 +7,7 @@
 		"viewAll": "查看全部"
 	},
 	"app": {
-		"name": "Digi Dice"
+		"name": "{siteName}"
 	},
 	"header": {
 		"toggleSidebar": "切换侧边栏",
@@ -829,7 +829,7 @@
 		},
 		"withdrawSuccess": {
 			"title": "取款成功！",
-			"successMessage": "🎉 刚从 Digi Dice 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入胜利的行列",
+			"successMessage": "🎉 刚从 {siteName} 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入胜利的行列",
 			"withdrawnAmount": "已取款金额",
 			"shareText": "分享",
 			"subText": "🚀 加入胜利的行列！🚀",
@@ -844,7 +844,7 @@
 			"screenshotFailed": "截图失败。请重试或使用其他浏览器。",
 			"shareFailed": "分享失败。请再试一次。",
 			"status": "已完成",
-			"userName": "DigiDice 玩家"
+			"userName": "{siteName} 玩家"
 		},
 		"withdrawPending": {
 			"confirmedTitle": "取款已确认！",
@@ -1002,7 +1002,7 @@
 			"casino": {
 				"title": "赌场",
 				"badge": "590+ 游戏",
-				"desc": "享受 DigiDice 原创和其他顶级提供商的赌场游戏。",
+				"desc": "享受 {siteName} 原创和其他顶级提供商的赌场游戏。",
 				"link": "前往赌场"
 			},
 			"slots": {
@@ -1275,7 +1275,7 @@
 			"statusCompleted": "已完成",
 			"statusOnChain": "上链",
 			"claimAmount": "报销金额",
-			"logoAlt": "DigiDice徽标",
+			"logoAlt": "{siteName}徽标",
 			"backgroundAlt": "领取成功背景",
 			"creatingMagic": "创造魔术",
 			"downloadShare": "下载和分享",
