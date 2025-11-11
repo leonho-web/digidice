@@ -85,7 +85,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 						priority
 						width={800}
 						height={800}
-						src="/assets/site/digidice-logo.png"
+						src="/assets/site/Digidice-logo.png"
 						alt="digi dice logo"
 						className="w-[80%] mx-auto"
 					/>

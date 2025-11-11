@@ -36,7 +36,7 @@ export function generateGamePageMetadata(
 	const seo = SEOTemplates.game(gameName, undefined, {
 		description:
 			gameData?.description ||
-			`Play ${gameName} at Hyperbetz. Enjoy exciting gameplay and win big!`,
+			`Play ${gameName} at Digidice. Enjoy exciting gameplay and win big!`,
 		ogImage: gameData?.image,
 		schemas: gameData
 			? [
@@ -61,7 +61,7 @@ export function generateGamePageMetadata(
 // Example 4: Regional Page (South Africa)
 // ============================================
 export const southAfricaHomeMetadata: Metadata = SEOTemplates.home("za", {
-	title: "Hyperbetz South Africa - Premier Online Gaming",
+	title: "Digidice South Africa - Premier Online Gaming",
 	description:
 		"Join South Africa's leading online gaming platform. Play slots, live casino, and sports betting with ZAR support.",
 	keywords: ["online gaming south africa", "casino ZA", "sports betting SA"],
@@ -146,7 +146,7 @@ export function generateArticleMetadata(article: {
 				description: article.description,
 				author: {
 					"@type": "Person",
-					name: article.author || "Hyperbetz Team",
+					name: article.author || "Digidice Team",
 				},
 				datePublished: article.publishedDate,
 				image: article.image,
@@ -169,10 +169,10 @@ export const profilePageMetadata: Metadata = SEOTemplates.profile(undefined, {
 export function generateAffiliatePageByRegion(region: string = "global") {
 	const regionTitles: Record<string, string> = {
 		global: "Join Our Affiliate Program",
-		us: "Hyperbetz USA Affiliate Program",
-		uk: "Hyperbetz UK Affiliate Programme",
-		za: "Hyperbetz South Africa Affiliate Program",
-		in: "Hyperbetz India Affiliate Program",
+		us: "Digidice USA Affiliate Program",
+		uk: "Digidice UK Affiliate Programme",
+		za: "Digidice South Africa Affiliate Program",
+		in: "Digidice India Affiliate Program",
 	};
 
 	return SEOTemplates.affiliate(region, {
@@ -195,7 +195,7 @@ export function generateCategoryPageMetadata(
 ) {
 	return generateSEOMetadata({
 		title: `${category} Games - Browse ${gamesCount} Games`,
-		description: `Discover ${gamesCount} exciting ${category} games at Hyperbetz. From classic favorites to new releases.`,
+		description: `Discover ${gamesCount} exciting ${category} games at Digidice. From classic favorites to new releases.`,
 		keywords: [
 			`${category} games`,
 			`online ${category}`,

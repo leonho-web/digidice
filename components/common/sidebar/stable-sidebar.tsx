@@ -158,7 +158,7 @@ const StableSidebarComponent = ({
 			{/* Sidebar Header with logo and title */}
 			<div className="flex items-center p-4">
 				<Image
-					src="/assets/site/digidice-logo.png"
+					src="/assets/site/Digidice-logo.png"
 					alt="digi dice logo"
 					width={192}
 					height={48}
@@ -194,7 +194,7 @@ const StableSidebarComponent = ({
 						className="w-full shadow-lg shadow-accent/30 transition-all duration-300 text-foreground bg-sky-600"
 						asChild
 					>
-						<a href="https://t.me/memewin_bot/memewin">
+						<a href="https://t.me/digidice_bot/digidice">
 							<FontAwesomeIcon
 								icon={faPaperPlane}
 								fontSize={16}
