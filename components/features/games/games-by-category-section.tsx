@@ -82,13 +82,7 @@ export const DynamicGameCarouselList = () => {
 			{/* Add Explore Section */}
 			<ExploreSection />
 
-<<<<<<< HEAD
 			{finalCategories.map((category) => {
-=======
-			{filteredCategories.map((category) => {
-				//if name = "-" then skip
-				if (category === "-") return null;
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				const gamesForCategory = getGamesByCategory(
 					allGames,
 					category,

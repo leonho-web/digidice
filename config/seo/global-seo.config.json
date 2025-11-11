@@ -11,11 +11,7 @@
 			"hreflang": "en",
 			"countryCode": "INT",
 			"timezone": "UTC",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice",
-=======
-			"metaTitleSuffix": " | Hyperbetz",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com",
 			"gtmId": "",
 			"ga4Id": "",
@@ -32,11 +28,7 @@
 			"hreflang": "en-us",
 			"countryCode": "US",
 			"timezone": "America/New_York",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice USA",
-=======
-			"metaTitleSuffix": " | Hyperbetz USA",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/us",
 			"gtmId": "",
 			"ga4Id": "",
@@ -53,11 +45,7 @@
 			"hreflang": "en-gb",
 			"countryCode": "GB",
 			"timezone": "Europe/London",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice UK",
-=======
-			"metaTitleSuffix": " | Hyperbetz UK",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/uk",
 			"gtmId": "",
 			"ga4Id": "",
@@ -74,11 +62,7 @@
 			"hreflang": "en-in",
 			"countryCode": "IN",
 			"timezone": "Asia/Kolkata",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice India",
-=======
-			"metaTitleSuffix": " | Hyperbetz India",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/in",
 			"gtmId": "",
 			"ga4Id": "",
@@ -95,11 +79,7 @@
 			"hreflang": "en-za",
 			"countryCode": "ZA",
 			"timezone": "Africa/Johannesburg",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice South Africa",
-=======
-			"metaTitleSuffix": " | Hyperbetz South Africa",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/za",
 			"gtmId": "",
 			"ga4Id": "",
@@ -116,11 +96,7 @@
 			"hreflang": "en-ng",
 			"countryCode": "NG",
 			"timezone": "Africa/Lagos",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice Nigeria",
-=======
-			"metaTitleSuffix": " | Hyperbetz Nigeria",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/ng",
 			"gtmId": "",
 			"ga4Id": "",
@@ -137,11 +113,7 @@
 			"hreflang": "de-de",
 			"countryCode": "DE",
 			"timezone": "Europe/Berlin",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice Deutschland",
-=======
-			"metaTitleSuffix": " | Hyperbetz Deutschland",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/de",
 			"gtmId": "",
 			"ga4Id": "",
@@ -158,11 +130,7 @@
 			"hreflang": "ja-jp",
 			"countryCode": "JP",
 			"timezone": "Asia/Tokyo",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice Japan",
-=======
-			"metaTitleSuffix": " | Hyperbetz Japan",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/jp",
 			"gtmId": "",
 			"ga4Id": "",
@@ -179,11 +147,7 @@
 			"hreflang": "pt-br",
 			"countryCode": "BR",
 			"timezone": "America/Sao_Paulo",
-<<<<<<< HEAD
 			"metaTitleSuffix": " | Digidice Brasil",
-=======
-			"metaTitleSuffix": " | Hyperbetz Brasil",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"canonicalBase": "https://digidice.com/br",
 			"gtmId": "",
 			"ga4Id": "",
@@ -197,7 +161,6 @@
 	},
 
 	"defaults": {
-<<<<<<< HEAD
 		"siteName": "Digidice",
 		"siteTLD": ".games",
 		"organization": "Digidice Gaming",
@@ -205,15 +168,6 @@
 		"author": "Digidice Team",
 		"favicon": "/assets/site/Digidice-logo.png",
 		"logo": "/assets/site/Digidice-logo.png",
-=======
-		"siteName": "Hyperbetz",
-		"siteTLD": ".games",
-		"organization": "Hyperbetz Gaming",
-		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
-		"author": "Hyperbetz Team",
-		"favicon": "/assets/site/Hyperbetz-logo.png",
-		"logo": "/assets/site/Hyperbetz-logo.png",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		"logoWidth": 1200,
 		"logoHeight": 630,
 		"twitterHandle": "@digidice",
@@ -228,15 +182,9 @@
 	"schemaDefaults": {
 		"organization": {
 			"@type": "Organization",
-<<<<<<< HEAD
 			"name": "Digidice Gaming",
 			"url": "https://digidice.com",
 			"logo": "https://digidice.com/assets/site/Digidice-logo.png",
-=======
-			"name": "Hyperbetz Gaming",
-			"url": "https://digidice.com",
-			"logo": "https://digidice.com/assets/site/Hyperbetz-logo.png",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
 			"sameAs": [
 				"https://twitter.com/digidice",
@@ -251,11 +199,7 @@
 		},
 		"website": {
 			"@type": "WebSite",
-<<<<<<< HEAD
 			"name": "Digidice",
-=======
-			"name": "Hyperbetz",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"url": "https://digidice.com",
 			"potentialAction": {
 				"@type": "SearchAction",
@@ -297,55 +241,33 @@
 			"schemaType": "CollectionPage"
 		},
 		"game": {
-<<<<<<< HEAD
 			"title": "All Games on DigiDice – Slots, Poker & Live Casino",
 			"description": "Discover the full DigiDice game list – slots, poker & live casino from top providers. Play instantly, win securely.",
-=======
-			"title": "All Games on HyperBetz – Slots, Poker & Live Casino",
-			"description": "Discover the full HyperBetz game list – slots, poker & live casino from top providers. Play instantly, win securely.",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"keywords": ["play {gameName}", "{gameName} game", "online gaming"],
 			"ogType": "website",
 			"schemaType": "Game"
 		},
 		"profile": {
 			"title": "My Profile - Account Settings",
-<<<<<<< HEAD
 			"description": "Manage your Digidice account, view your gaming history, and update your preferences.",
-=======
-			"description": "Manage your Hyperbetz account, view your gaming history, and update your preferences.",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			"keywords": ["profile", "account", "settings", "gaming history"],
 			"ogType": "profile",
 			"schemaType": "ProfilePage"
 		},
 		"affiliate": {
-<<<<<<< HEAD
 			"title": "Join the DigiDice Affiliate Program – Earn Lifetime Commissions.",
 			"description": "Partner with DigiDice & earn lifetime income for every player you refer. Easy setup & global reach.",
 			"keywords": [
 				"DigiDice affiliate program",
 				"crypto casino affiliate",
 				"DigiDice partners",
-=======
-			"title": "Join the HyperBetz Affiliate Program – Earn Lifetime Commissions.",
-			"description": "Partner with HyperBetz & earn lifetime income for every player you refer. Easy setup & global reach.",
-			"keywords": [
-				"HyperBetz affiliate program",
-				"crypto casino affiliate",
-				"HyperBetz partners",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				"referral rewards",
 				"commission earnings",
 				"revenue share crypto casino",
 				"blockchain affiliate network",
 				"earn crypto commissions",
 				"gaming affiliate marketing",
-<<<<<<< HEAD
 				"DigiDice referrals",
-=======
-				"HyperBetz referrals",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				"crypto partnership program",
 				"casino affiliate dashboard",
 				"play and earn referrals",
@@ -355,17 +277,10 @@
 			"schemaType": "WebPage"
 		},
 		"providers": {
-<<<<<<< HEAD
 			"title": "Game Providers at DigiDice – Top Casino Studios",
 			"description": "Explore 50+ trusted providers on DigiDice – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
 			"keywords": [
 				"DigiDice game providers",
-=======
-			"title": "Game Providers at HyperBetz – Top Casino Studios",
-			"description": "Explore 50+ trusted providers on HyperBetz – Pragmatic Play, Red Tiger, Microgaming & more. Fair, certified gaming.",
-			"keywords": [
-				"HyperBetz game providers",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				"crypto casino providers",
 				"best slot developers",
 				"blockchain casino games",
@@ -379,11 +294,7 @@
 				"NetEnt games",
 				"casino software partners",
 				"provably fair providers",
-<<<<<<< HEAD
 				"DigiDice live dealers"
-=======
-				"HyperBetz live dealers"
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
@@ -403,17 +314,10 @@
 			"schemaType": "WebPage"
 		},
 		"bonus": {
-<<<<<<< HEAD
 			"title": "DigiDice Turnover Bonus – Earn Rewards While You Play",
 			"description": "Join the DigiDice Turnover Bonus Program & earn daily rewards as you play slots & live games.",
 			"keywords": [
 				"DigiDice bonuses",
-=======
-			"title": "HyperBetz Turnover Bonus – Earn Rewards While You Play",
-			"description": "Join the HyperBetz Turnover Bonus Program & earn daily rewards as you play slots & live games.",
-			"keywords": [
-				"HyperBetz bonuses",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				"crypto casino bonus",
 				"turnover bonus",
 				"reload bonus",
@@ -421,11 +325,7 @@
 				"wagering rewards",
 				"crypto cashback",
 				"play to earn casino",
-<<<<<<< HEAD
 				"DigiDice promotions",
-=======
-				"HyperBetz promotions",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				"crypto gambling bonuses",
 				"VIP rewards",
 				"blockchain casino offers",
@@ -529,11 +429,7 @@
 		"enabled": true,
 		"androidAppId": "",
 		"iosAppId": "",
-<<<<<<< HEAD
 		"appName": "Digidice",
-=======
-		"appName": "Hyperbetz",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		"appDeepLinkScheme": "digidice://",
 		"pwaEnabled": true
 	},
@@ -542,11 +438,7 @@
 		"enablePreconnect": true,
 		"enableDNSPrefetch": true,
 		"enablePreload": true,
-<<<<<<< HEAD
 		"criticalResources": ["/assets/site/Digidice-logo.png"],
-=======
-		"criticalResources": ["/assets/site/Hyperbetz-logo.png"],
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		"externalDomains": [
 			"https://fonts.googleapis.com",
 			"https://fonts.gstatic.com"

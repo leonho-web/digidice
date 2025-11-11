@@ -1,11 +1,7 @@
 "use client";
 
 import Link from "next/link";
-<<<<<<< HEAD
 import { usePathname } from "next/navigation";
-=======
-import Image from "next/image";
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 import { useT } from "@/hooks/useI18n";
 import {
 	Facebook,
@@ -22,10 +18,7 @@ import { SeoContentSection } from "./seo-content-section";
 export function Footer() {
 	const t = useT();
 	const currentYear = new Date().getFullYear();
-<<<<<<< HEAD
 	const pathname = usePathname();
-=======
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 	// Network logos
 	const networks = [
@@ -194,11 +187,7 @@ export function Footer() {
 				},
 				// {
 				// 	label: t("footer.sections.support.links.contact"),
-<<<<<<< HEAD
 				// 	href: "mailto:support@digidice.games",
-=======
-				// 	href: "mailto:support@hyperbetz.games",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				// 	icon: Mail,
 				// },
 			],
@@ -231,11 +220,7 @@ export function Footer() {
 	return (
 		<>
 			{/* SEO Content Section */}
-<<<<<<< HEAD
 			{pathname === "/" && <SeoContentSection />}
-=======
-			<SeoContentSection />
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 			{/* Main Footer */}
 			<footer className="border-t border-border bg-card mb-10 md:mb-0">
@@ -276,11 +261,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-<<<<<<< HEAD
 									<img
-=======
-									<Image
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 										src={network.src}
 										alt={network.name}
 										width={80}
@@ -303,11 +284,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-<<<<<<< HEAD
 									<img
-=======
-									<Image
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 										src={crypto.src}
 										alt={crypto.name}
 										width={80}
@@ -330,11 +307,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-<<<<<<< HEAD
 									<img
-=======
-									<Image
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 										src={logo.src}
 										alt={logo.name}
 										width={80}
@@ -357,7 +330,6 @@ export function Footer() {
 								href="/"
 								className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
 							>
-<<<<<<< HEAD
 								DigiDice
 							</Link>
 							<div className="text-sm tracking-wider max-w-3xl text-muted-foreground space-y-2">
@@ -367,18 +339,6 @@ export function Footer() {
 										<p key={index}>{para}</p>
 									))}
 							</div>
-=======
-								HyperBetz
-							</Link>
-							<p className="text-sm tracking-wider max-w-3xl text-muted-foreground">
-								A multi-award-winning crypto gaming platform.
-								With a player-centric approach, HyperBetz
-								satisfies millions of gamblers globally.
-								HyperBetz prioritizes its community, ensuring a
-								continuously engaging and entertaining
-								experience.
-							</p>
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 							<p className="text-xs text-muted-foreground">
 								{t("footer.copyright", {
 									year: currentYear.toString(),
