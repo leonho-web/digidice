@@ -96,18 +96,38 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		});
 	});
 
+	// TODO: A VERY CRITICAL BUG SOME COMBINATIONS OF PROVIDER+CATEGORY DO NOT YIELD ANY RESULTS AS THE getGameListLastLast api doesn't have some combinations that this particular function creates.
+	// in these links only live22/slot works because the api has data for it others aren't valid combinations
+	// Correct configuration:
+	// hyperbetz.games/games/live22/slot
+
+	// Wrong Configurations:
+	// https: //hyperbetz.games/games/live22/live-casino
+	// https: //hyperbetz.games/games/live22/sports
+	// https: //hyperbetz.games/games/live22/rng
+
 	// ============================================
 	// TIER 4: Category Combos (Priority 0.6)
 	// Long-tail keywords - highest conversion rate
 	// ============================================
+<<<<<<< HEAD
 	https: categories.forEach((category) => {
 		sitemapEntries.push({
 			url: `${baseUrl}/games/${category}`,
 			lastModified: new Date(),
 			changeFrequency: "weekly",
 			priority: 0.6,
+=======
+	https:
+		categories.forEach((category) => {
+			sitemapEntries.push({
+				url: `${baseUrl}/games/${category}`,
+				lastModified: new Date(),
+				changeFrequency: "weekly",
+				priority: 0.6,
+			});
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		});
-	});
 
 	// ============================================
 	// TIER 5: Secondary Providers (Priority 0.5)

@@ -8,10 +8,14 @@ import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
 import { SEOTemplates } from "@/lib/seo/seo-provider";
 import { JsonLd } from "@/components/seo/json-ld";
+<<<<<<< HEAD
 import {
 	generateOrganizationSchema,
 	generateWebsiteSchema,
 } from "@/lib/seo/schema-generator";
+=======
+import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo/schema-generator";
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -39,7 +43,11 @@ export default async function RootLayout({
 
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
+<<<<<<< HEAD
 	const locale = cookieStore.get("NEXT_LOCALE")?.value || "en";
+=======
+	const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
@@ -50,7 +58,11 @@ export default async function RootLayout({
 
 				<script
 					async
+<<<<<<< HEAD
 					src="https://www.googletagmanager.com/gtag/js?id=G-XGN25EPM9P"
+=======
+					src="https://www.googletagmanager.com/gtag/js?id=G-CM98Y8Y7K3"
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				></script>
 				<script
 					dangerouslySetInnerHTML={{
@@ -58,7 +70,11 @@ export default async function RootLayout({
 	  						window.dataLayer = window.dataLayer || [];
 	  						function gtag(){dataLayer.push(arguments);}
 	  						gtag('js', new Date());
+<<<<<<< HEAD
 	  						gtag('config', 'G-XGN25EPM9P');
+=======
+	  						gtag('config', 'G-CM98Y8Y7K3');
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 						`,
 					}}
 				/>

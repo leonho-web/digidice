@@ -6,11 +6,19 @@ import {
 } from "@/lib/seo/schema-generator";
 import {
 	interpolateSiteName,
+<<<<<<< HEAD
 	interpolateSiteDomain,
 } from "@/lib/utils/site-config";
 
 const siteName = interpolateSiteName(`{siteName}`);
 const siteDomain = interpolateSiteDomain(`{siteDomain}`);
+=======
+	interpolateSiteTLD,
+} from "@/lib/utils/site-config";
+
+const siteName = interpolateSiteName(`{siteName}`);
+const siteTLD = interpolateSiteTLD(`{siteTLD}`);
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 // Generate SEO Metadata for Bonus Page
 export const metadata: Metadata = generateSEOMetadata({
@@ -36,14 +44,22 @@ export const metadata: Metadata = generateSEOMetadata({
 	path: "/bonus",
 	pageType: "bonus",
 	ogTitle: `${siteName} Turnover Bonus | Earn Crypto Rewards While You Play`,
+<<<<<<< HEAD
 	ogDescription: `Unlock daily turnover bonuses and exclusive crypto rewards at ${siteName}. Play slots, live casino, and sports — get paid instantly with blockchain transparency.`,
+=======
+	ogDescription: `Unlock daily turnover bonuses and exclusive crypto rewards at ${siteName}${siteTLD}. Play slots, live casino, and sports — get paid instantly with blockchain transparency.`,
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	ogType: "website",
 	ogImage: "/assets/seo/TURNOVER_BONUS.png",
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
 			title: `${siteName} Turnover Bonus – Earn Rewards While You Play`,
+<<<<<<< HEAD
 			url: `https://${siteDomain}/bonus`,
+=======
+			url: `https://${siteName.toLowerCase()}${siteTLD}/bonus`,
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			description: `Join the ${siteName} Turnover Bonus Program & earn daily rewards as you play slots & live games.`,
 		}),
 	],

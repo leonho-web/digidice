@@ -76,7 +76,11 @@ export const QueryPageLayout = () => {
 		const baseUrl =
 			typeof window !== "undefined"
 				? window.location.origin
+<<<<<<< HEAD
 				: "https://digidice.games";
+=======
+				: "https://hyperbetz.games";
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 		const breadcrumbItems = [
 			{

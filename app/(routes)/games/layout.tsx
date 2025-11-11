@@ -6,11 +6,19 @@ import {
 } from "@/lib/seo/schema-generator";
 import {
 	interpolateSiteName,
+<<<<<<< HEAD
 	interpolateSiteDomain,
 } from "@/lib/utils/site-config";
 
 const siteName = interpolateSiteName(`{siteName}`);
 const siteDomain = interpolateSiteDomain(`{siteDomain}`);
+=======
+	interpolateSiteTLD,
+} from "@/lib/utils/site-config";
+
+const siteName = interpolateSiteName(`{siteName}`);
+const siteTLD = interpolateSiteTLD(`{siteTLD}`);
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 
 // Generate SEO Metadata for Games Page
 export const metadata: Metadata = generateSEOMetadata({
@@ -30,15 +38,24 @@ export const metadata: Metadata = generateSEOMetadata({
 	],
 	path: "/games",
 	pageType: "games",
+<<<<<<< HEAD
 	ogTitle: `All Games at ${siteName} | Slots, Poker, Live Casino & Sports`,
 	ogDescription: `Play 5,000+ casino games at ${siteName} — including crypto slots, live dealers, poker, and sports betting. Fast wallet payouts and provably fair gaming on every spin.`,
+=======
+	ogTitle: `All Games at ${siteName}${siteTLD} | Slots, Poker, Live Casino & Sports`,
+	ogDescription: `Play 5,000+ casino games at ${siteName}${siteTLD} — including crypto slots, live dealers, poker, and sports betting. Fast wallet payouts and provably fair gaming on every spin.`,
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	ogType: "website",
 	ogImage: "/assets/seo/GAMES.png",
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
 			title: `All Games on ${siteName} – Slots, Poker & Live Casino`,
+<<<<<<< HEAD
 			url: `https://${siteDomain}/games`,
+=======
+			url: `https://${siteName.toLowerCase()}${siteTLD}/games`,
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			description: `Discover the full ${siteName} game list – slots, poker & live casino from top providers. Play instantly, win securely.`,
 		}),
 	],

@@ -71,7 +71,11 @@ export default function AboutPage() {
 				</div>
 			</div>
 
+<<<<<<< HEAD
 			{/* What Makes DigiDice Different */}
+=======
+			{/* What Makes HyperBetz Different */}
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			<div className="rounded-lg border border-border bg-card p-6">
 				<h2 className="mb-4 text-xl font-semibold">
 					{t("about.whatMakesUsDifferent.title")}
@@ -131,7 +135,11 @@ export default function AboutPage() {
 				</div>
 			</div>
 
+<<<<<<< HEAD
 			{/* Join the DigiDice Community */}
+=======
+			{/* Join the HyperBetz Community */}
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			<div className="rounded-lg border border-border bg-card p-6">
 				<h2 className="mb-4 text-xl font-semibold">
 					{t("about.joinCommunity.title")}

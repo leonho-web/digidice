@@ -25,7 +25,10 @@ import Link from "next/link";
 export default function TermsPage() {
 	const t = useT();
 
+<<<<<<< HEAD
 	const siteDomain = window?.location?.hostname || "digidice.games";
+=======
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
@@ -34,7 +37,11 @@ export default function TermsPage() {
 				lastUpdated={t("terms.lastUpdated")}
 			/>
 
+<<<<<<< HEAD
 			{/* 1. DigiDice.games Ownership */}
+=======
+			{/* 1. HyperBetz.games Ownership */}
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 			<SectionCard title={t("terms.sections.ownership.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ownership.content1")}</p>
@@ -409,12 +416,20 @@ export default function TermsPage() {
 					<p>{t("terms.sections.contact.intro")}</p>
 					<div className="mt-4">
 						<Link
+<<<<<<< HEAD
 							href={`https://${siteDomain}`}
+=======
+							href="https://hyperbetz.games"
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 							className="text-primary hover:underline font-medium"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
+<<<<<<< HEAD
 							{`🌐 https://${siteDomain}`}
+=======
+							🌐 https://hyperbetz.games
+>>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 						</Link>
 					</div>
 				</ContentSection>
