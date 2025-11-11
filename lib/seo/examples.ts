@@ -36,11 +36,7 @@ export function generateGamePageMetadata(
 	const seo = SEOTemplates.game(gameName, undefined, {
 		description:
 			gameData?.description ||
-<<<<<<< HEAD
 			`Play ${gameName} at Digidice. Enjoy exciting gameplay and win big!`,
-=======
-			`Play ${gameName} at Hyperbetz. Enjoy exciting gameplay and win big!`,
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		ogImage: gameData?.image,
 		schemas: gameData
 			? [
@@ -65,11 +61,7 @@ export function generateGamePageMetadata(
 // Example 4: Regional Page (South Africa)
 // ============================================
 export const southAfricaHomeMetadata: Metadata = SEOTemplates.home("za", {
-<<<<<<< HEAD
 	title: "Digidice South Africa - Premier Online Gaming",
-=======
-	title: "Hyperbetz South Africa - Premier Online Gaming",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	description:
 		"Join South Africa's leading online gaming platform. Play slots, live casino, and sports betting with ZAR support.",
 	keywords: ["online gaming south africa", "casino ZA", "sports betting SA"],
@@ -154,11 +146,7 @@ export function generateArticleMetadata(article: {
 				description: article.description,
 				author: {
 					"@type": "Person",
-<<<<<<< HEAD
 					name: article.author || "Digidice Team",
-=======
-					name: article.author || "Hyperbetz Team",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 				},
 				datePublished: article.publishedDate,
 				image: article.image,
@@ -181,17 +169,10 @@ export const profilePageMetadata: Metadata = SEOTemplates.profile(undefined, {
 export function generateAffiliatePageByRegion(region: string = "global") {
 	const regionTitles: Record<string, string> = {
 		global: "Join Our Affiliate Program",
-<<<<<<< HEAD
 		us: "Digidice USA Affiliate Program",
 		uk: "Digidice UK Affiliate Programme",
 		za: "Digidice South Africa Affiliate Program",
 		in: "Digidice India Affiliate Program",
-=======
-		us: "Hyperbetz USA Affiliate Program",
-		uk: "Hyperbetz UK Affiliate Programme",
-		za: "Hyperbetz South Africa Affiliate Program",
-		in: "Hyperbetz India Affiliate Program",
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	};
 
 	return SEOTemplates.affiliate(region, {
@@ -214,11 +195,7 @@ export function generateCategoryPageMetadata(
 ) {
 	return generateSEOMetadata({
 		title: `${category} Games - Browse ${gamesCount} Games`,
-<<<<<<< HEAD
 		description: `Discover ${gamesCount} exciting ${category} games at Digidice. From classic favorites to new releases.`,
-=======
-		description: `Discover ${gamesCount} exciting ${category} games at Hyperbetz. From classic favorites to new releases.`,
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 		keywords: [
 			`${category} games`,
 			`online ${category}`,

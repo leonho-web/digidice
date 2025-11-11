@@ -8,14 +8,11 @@ export function SeoContentSection() {
 	const t = useT();
 	const [isExpanded, setIsExpanded] = useState(false);
 
-<<<<<<< HEAD
 	// Helper function to split multi-paragraph content
 	const splitParagraphs = (text: string) => {
 		return text.includes("|") ? text.split("|") : [text];
 	};
 
-=======
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	return (
 		<section className="border-t border-border/50 bg-card ">
 			<div className="container mx-auto consistent-padding-x py-10">
@@ -25,7 +22,6 @@ export function SeoContentSection() {
 						<h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary via-chart-1 to-primary bg-clip-text text-transparent mb-4">
 							{t("footer.seoContent.title")}
 						</h2>
-<<<<<<< HEAD
 						<div className="space-y-3 text-sm text-foreground/80 leading-relaxed">
 							{splitParagraphs(
 								t("footer.seoContent.paragraph1")
@@ -57,17 +53,6 @@ export function SeoContentSection() {
 									</div>
 									<p className="text-base font-semibold text-primary animate-[fade-in_0.3s_ease-out_0.3s_backwards]">
 										{t("footer.seoContent.tagline")}
-=======
-						<div className="space-y-3 text-sm  text-foreground/80 leading-relaxed">
-							<p>{t("footer.seoContent.paragraph1")}</p>
-							{isExpanded && (
-								<>
-									<p className="animate-[fade-in_0.3s_ease-out]">
-										{t("footer.seoContent.paragraph2")}
-									</p>
-									<p className="animate-[fade-in_0.3s_ease-out_0.1s_backwards]">
-										{t("footer.seoContent.paragraph3")}
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 									</p>
 								</>
 							)}

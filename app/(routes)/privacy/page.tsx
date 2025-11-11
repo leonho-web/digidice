@@ -13,10 +13,7 @@ import Link from "next/link";
 export default function PrivacyPage() {
 	const t = useT();
 
-<<<<<<< HEAD
 	const siteDomain = window?.location?.hostname || "digidice.games";
-=======
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
@@ -278,20 +275,12 @@ export default function PrivacyPage() {
 				<p>{t("privacy.sections.contact.intro")}</p>
 				<div className="mt-4">
 					<Link
-<<<<<<< HEAD
 						href={`https://${siteDomain}`}
-=======
-						href="https://digidice.com"
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 						className="text-primary hover:underline font-medium"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-<<<<<<< HEAD
 						{`🌐 https://${siteDomain}`}
-=======
-						🌐 https://digidice.com
->>>>>>> 4464c92e36f8810d2f234392e38134db02d1f8b9
 					</Link>
 				</div>
 			</SectionCard>
