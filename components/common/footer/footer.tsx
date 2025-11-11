@@ -186,7 +186,7 @@ export function Footer() {
 				},
 				// {
 				// 	label: t("footer.sections.support.links.contact"),
-				// 	href: "mailto:support@hyperbetz.games",
+				// 	href: "mailto:support@digidice.com",
 				// 	icon: Mail,
 				// },
 			],
@@ -196,22 +196,22 @@ export function Footer() {
 	const socialLinks = [
 		{
 			icon: Twitter,
-			href: "https://twitter.com/hyperbetz",
+			href: "https://twitter.com/digidice",
 			label: "Twitter",
 		},
 		{
 			icon: Facebook,
-			href: "https://facebook.com/hyperbetz",
+			href: "https://facebook.com/digidice",
 			label: "Facebook",
 		},
 		{
 			icon: Instagram,
-			href: "https://instagram.com/hyperbetz",
+			href: "https://instagram.com/digidice",
 			label: "Instagram",
 		},
 		{
 			icon: Youtube,
-			href: "https://youtube.com/@hyperbetz",
+			href: "https://youtube.com/@digidice",
 			label: "YouTube",
 		},
 	];
@@ -329,13 +329,13 @@ export function Footer() {
 								href="/"
 								className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
 							>
-								HyperBetz
+								DigiDice
 							</Link>
 							<p className="text-sm tracking-wider max-w-3xl text-muted-foreground">
 								A multi-award-winning crypto gaming platform.
-								With a player-centric approach, HyperBetz
+								With a player-centric approach, DigiDice
 								satisfies millions of gamblers globally.
-								HyperBetz prioritizes its community, ensuring a
+								DigiDice prioritizes its community, ensuring a
 								continuously engaging and entertaining
 								experience.
 							</p>
