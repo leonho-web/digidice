@@ -442,8 +442,46 @@ export default function ResponsibleGamblingPage() {
 					<p className="text-sm">
 						{t("responsibleGambling.finalMessage.contact")}
 					</p>
+					<ListSection
+						items={[
+							{
+								content: t(
+									"responsibleGambling.playSmart.reminders.0"
+								),
+							},
+							{
+								content: t(
+									"responsibleGambling.playSmart.reminders.1"
+								),
+							},
+							{
+								content: t(
+									"responsibleGambling.playSmart.reminders.2"
+								),
+							},
+							{
+								content: t(
+									"responsibleGambling.playSmart.reminders.3"
+								),
+							},
+							{
+								content: t(
+									"responsibleGambling.playSmart.reminders.4"
+								),
+							},
+						]}
+					/>
 				</ContentSection>
 			</SectionCard>
+
+			{/* <div className="flex justify-center">
+				<Link href="/profile">
+					<Button size="lg" className="gap-2">
+						<Settings className="size-4" />
+						{t("responsibleGambling.manageSettingsButton")}
+					</Button>
+				</Link>
+			</div> */}
 		</div>
 	);
 }
