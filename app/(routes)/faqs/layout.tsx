@@ -25,7 +25,7 @@ export const metadata: Metadata = generateSEOMetadata({
 		generateOrganizationSchema(),
 		generateWebPageSchema({
 			title: "FAQs – {siteName} Crypto Casino Help Center",
-			url: "https://digidice.com/faqs",
+			url: "https://hyperbetz.games/faqs",
 			description:
 				"Explore FAQs at {siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.",
 		}),
