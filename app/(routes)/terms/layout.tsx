@@ -6,15 +6,15 @@ import {
 } from "@/lib/seo/schema-generator";
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Terms & Conditions | digidice.com – Crypto Casino Rules",
+	title: "Terms & Conditions | HyperBetz.games – Crypto Casino Rules",
 	description:
-		"Read digidice.com Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
+		"Read HyperBetz.games Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
 	keywords: [
-		"DigiDice Terms and Conditions",
-		"DigiDice crypto casino rules",
+		"HyperBetz Terms and Conditions",
+		"HyperBetz crypto casino rules",
 		"Dynamic.xyz wallet login",
-		"DigiDice withdrawal policy",
-		"DigiDice fair play",
+		"HyperBetz withdrawal policy",
+		"HyperBetz fair play",
 	],
 	path: "/terms",
 	pageType: "terms",

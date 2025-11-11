@@ -33,7 +33,7 @@ export default function TermsPage() {
 				lastUpdated={t("terms.lastUpdated")}
 			/>
 
-			{/* 1. digidice.com Ownership */}
+			{/* 1. HyperBetz.games Ownership */}
 			<SectionCard title={t("terms.sections.ownership.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ownership.content1")}</p>
@@ -408,12 +408,12 @@ export default function TermsPage() {
 					<p>{t("terms.sections.contact.intro")}</p>
 					<div className="mt-4">
 						<Link
-							href="https://digidice.com"
+							href="https://hyperbetz.games"
 							className="text-primary hover:underline font-medium"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							🌐 https://digidice.com
+							🌐 https://hyperbetz.games
 						</Link>
 					</div>
 				</ContentSection>
