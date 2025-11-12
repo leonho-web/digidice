@@ -28,7 +28,7 @@ export const metadata: Metadata = generateSEOMetadata({
 		"wallet-based casino",
 		`${siteName} security`,
 	],
-	path: "/privacy",
+	path: "/privacy-policy",
 	pageType: "privacy",
 	ogTitle: `Privacy & Data Protection | ${siteName} (Crypto Casino)`,
 	ogDescription: `${siteDomain} safeguards your crypto wallet and blockchain data with top-tier encryption, privacy-first technology, and no KYC authentication.`,
@@ -38,7 +38,7 @@ export const metadata: Metadata = generateSEOMetadata({
 		generateOrganizationSchema(),
 		generateWebPageSchema({
 			title: `Privacy Policy - ${siteName}`,
-			url: `https://${siteDomain}/privacy`,
+			url: `https://${siteDomain}/privacy-policy`,
 			description: `${siteName} Privacy Policy - How we collect, use, store and protect your personal and transaction data.`,
 		}),
 	],
