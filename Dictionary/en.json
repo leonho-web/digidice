@@ -1877,23 +1877,23 @@
 			"intro": "Here's what {siteName} stands for:",
 			"items": {
 				"0": {
-					"title": "🔹 Transparency:",
+					"title": "Transparency",
 					"description": "Every game is provably fair and open on the blockchain."
 				},
 				"1": {
-					"title": "🔹 Security:",
+					"title": "Security",
 					"description": "Wallet-based login with Dynamic.xyz — no passwords, no KYC, total privacy."
 				},
 				"2": {
-					"title": "🔹 Control:",
+					"title": "Control",
 					"description": "You decide when to play or take a break."
 				},
 				"3": {
-					"title": "🔹 Awareness:",
+					"title": "Awareness",
 					"description": "We show you how to keep your gaming healthy."
 				},
 				"4": {
-					"title": "🔹 Support:",
+					"title": "Support",
 					"description": "Our team's here 24/7 to help with self-exclusion or advice."
 				}
 			}
@@ -1902,11 +1902,11 @@
 			"title": "Don't Forget: Play Smart, Play Safe",
 			"intro": "{siteName} is about fun and freedom, never about pressure or financial stress. Stick to these basics:",
 			"reminders": {
-				"0": "✅ Set your limits ahead of time.",
-				"1": "✅ Walk away when it stops being fun.",
-				"2": "✅ Never chase your losses.",
-				"3": "✅ Keep gambling separate from your regular finances.",
-				"4": "✅ Treat any winnings as a bonus, not a paycheck."
+				"0": "Set your limits ahead of time.",
+				"1": "Walk away when it stops being fun.",
+				"2": "Never chase your losses.",
+				"3": "Keep gambling separate from your regular finances.",
+				"4": "Treat any winnings as a bonus, not a paycheck."
 			}
 		},
 		"finalMessage": {

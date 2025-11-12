@@ -53,7 +53,7 @@ export default function TermsPage() {
 			>
 				<ContentSection>
 					<p className="font-medium text-foreground">
-						{t("terms.sections.notice.content1")}
+						{t("terms.sections.notice.content")}
 					</p>
 
 					<ListSection
