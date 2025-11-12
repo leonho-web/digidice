@@ -13,23 +13,19 @@ const siteName = interpolateSiteName(`{siteName}`);
 const siteDomain = interpolateSiteDomain(`{siteDomain}`);
 // Generate SEO Metadata for About Page
 export const metadata: Metadata = generateSEOMetadata({
-	title: `About ${siteName} | Trusted Global Online Casino Platform`,
-	description: `Learn about ${siteName} — a secure, global casino platform offering slots, live casino, sports betting, and poker. Fair, fast, and built for real players.`,
+	title: `About ${siteDomain} | Secure Global Crypto Casino Platform`,
+	description: `Learn about ${siteDomain} —  a decentralized crypto casino offering 5000+ slots, poker, and live casino games. Instant wallet login, fair play, and fast payouts.`,
 	keywords: [
-		`About ${siteName}`,
-		`${siteName} casino`,
-		`${siteName} games`,
+		`${siteDomain}`,
+		`about ${siteName}`,
+		`${siteName} crypto casino`,
+		"decentralized gaming",
+		"blockchain gambling",
+		"provably fair crypto games",
+		"instant wallet login",
+		"secure crypto platform",
 		"global online casino",
-		"secure casino platform",
-		"online casino platform",
-		"gaming platform",
-		"fair play casino",
-		"responsible gaming",
-		"casino providers",
-		"pragmatic play",
-		"red tiger gaming",
-		"microgaming",
-		"ka gaming",
+		"no KYC crypto gaming",
 	],
 	path: "/about",
 	pageType: "about",
@@ -52,5 +48,6 @@ export default function AboutLayout({
 }: {
 	children: React.ReactNode;
 }) {
+	
 	return <>{children}</>;
 }

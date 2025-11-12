@@ -13,19 +13,22 @@ const siteName = interpolateSiteName(`{siteName}`);
 const siteDomain = interpolateSiteDomain(`{siteDomain}`);
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: `Responsible Gambling | ${siteName} – Play Smart, Stay Safe`,
-	description: `Learn about responsible gambling at ${siteName}. Stay in control, play responsibly, and get support through global help organizations.`,
+	title: `Responsible Gambling | ${siteDomain} – Play Smart, Stay Safe`,
+	description: `Learn about responsible gambling at ${siteName}.. Stay in control, play safely, and access global gambling support and self-exclusion options.`,
 	keywords: [
 		`${siteName} Responsible Gambling`,
 		`${siteName} play safe`,
 		"crypto casino responsible gaming",
-		"gambling help",
+		`${siteName} gambling help`,
 		`${siteName} self exclusion`,
+		"blockchain casino safety",
+		"responsible crypto gaming",
+		"fair crypto play",
 	],
 	path: "/responsible-gambling",
 	pageType: "responsibleGambling",
 	ogTitle: `Responsible Gambling | ${siteName} – Play Smart, Stay Safe`,
-	ogDescription: `${siteName} promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.`,
+	ogDescription: `${siteName} promotes responsible crypto gaming. Learn to play safely, manage your playtime, and access trusted global gambling support resources.`,
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [
@@ -33,7 +36,7 @@ export const metadata: Metadata = generateSEOMetadata({
 		generateWebPageSchema({
 			title: `Responsible Gambling at ${siteName}`,
 			url: `https://${siteDomain}/responsible-gambling`,
-			description: `${siteName} promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.`,
+			description: `${siteName} promotes responsible crypto gaming. Learn to play safely, manage your playtime, and access trusted global gambling support resources.`,
 		}),
 	],
 });

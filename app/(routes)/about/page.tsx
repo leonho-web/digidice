@@ -71,23 +71,40 @@ export default function AboutPage() {
 				</div>
 			</div>
 
+			{/* What We Focus On */}
+			<div className="rounded-lg border border-border bg-card p-6">
+				<h2 className="mb-4 text-xl font-semibold">
+					{t("about.focus.title")}
+				</h2>
+				<div className="space-y-3">
+					{[0, 1, 2, 3].map((index) => (
+						<div
+							key={index}
+							className="flex items-start gap-3 text-muted-foreground"
+						>
+							<CheckCircle className="size-5 shrink-0 text-primary mt-0.5" />
+							<p>{t(`about.focus.items.${index}`)}</p>
+						</div>
+					))}
+				</div>
+				<p className="mt-6 font-medium text-foreground">
+					{t("about.focus.closing")}
+				</p>
+			</div>
+
 			{/* What Makes DigiDice Different */}
 			<div className="rounded-lg border border-border bg-card p-6">
 				<h2 className="mb-4 text-xl font-semibold">
 					{t("about.whatMakesUsDifferent.title")}
 				</h2>
 				<div className="space-y-3">
-					{[0, 1, 2, 3, 4].map((index) => (
+					{[0, 1, 2, 3, 4, 5].map((index) => (
 						<div
 							key={index}
 							className="flex items-start gap-3 text-muted-foreground"
 						>
 							<CheckCircle className="size-5 shrink-0 text-primary mt-0.5" />
-							<p>
-								{t(
-									`about.whatMakesUsDifferent.features.${index}`
-								)}
-							</p>
+							<p>{t(`about.whatMakesUsDifferent.features.${index}`)}</p>
 						</div>
 					))}
 				</div>

@@ -14,23 +14,24 @@ const siteDomain = interpolateSiteDomain(`{siteDomain}`);
 
 // Generate SEO Metadata for Privacy Policy Page
 export const metadata: Metadata = generateSEOMetadata({
-	title: `Privacy Policy | ${siteName} – Crypto Wallet Casino Security`,
-	description: `Learn how ${siteName} protects wallet addresses and crypto data with SSL, AML, and GDPR-compliant privacy for secure blockchain gaming.`,
+	title: `Privacy Policy | ${siteDomain} – Secure Crypto Casino`,
+	description: `Learn how ${siteName} protects your crypto wallet and data. Blockchain privacy, full transparency, and no KYC for secure decentralized gaming.`,
 	keywords: [
 		`${siteName} privacy policy`,
 		`${siteName} crypto casino`,
 		`${siteName} data protection`,
 		`${siteName} wallet security`,
-		"crypto gambling privacy",
-		"GDPR crypto casino",
-		"blockchain casino policy",
-		`${siteName} games secure`,
-		"crypto betting privacy",
+		"blockchain privacy",
+		"no KYC casino",
+		"decentralized gaming",
+		"crypto casino GDPR",
+		"wallet-based casino",
+		`${siteName} security`,
 	],
 	path: "/privacy",
 	pageType: "privacy",
 	ogTitle: `Privacy & Data Protection | ${siteName} (Crypto Casino)`,
-	ogDescription: `Explore how ${siteName} safeguards your crypto wallet and transaction data with advanced encryption and GDPR-compliant protection.`,
+	ogDescription: `${siteDomain} safeguards your crypto wallet and blockchain data with top-tier encryption, privacy-first technology, and no KYC authentication.`,
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [

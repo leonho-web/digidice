@@ -1292,53 +1292,64 @@
 		}
 	},
 	"about": {
-		"title": "🎮 About {siteName}",
-		"subtitle": "At {siteName}, gaming isn't just a pastime — it's an experience.",
+		"title": "About {siteDomain}",
+		"subtitle": "At {siteName}, gaming isn't just about fun — it's a whole new way to play.",
 		"meta": {
-			"title": "About {siteName} | Trusted Global Online Casino Platform",
-			"description": "Learn about {siteName} — a secure, global casino platform offering slots, live casino, sports betting, and poker. Fair, fast, and built for real players."
+			"title": "About {siteName} | Crypto-Powered Gaming Platform",
+			"description": "Learn about {siteName} — a decentralized crypto casino offering provably fair slots, live casino, sports betting, and instant payouts. Built for today's blockchain era."
 		},
 		"intro": {
-			"paragraph1": "At {siteName}, gaming isn't just a pastime — it's an experience.|We built this platform for players who expect more than just luck — players who want speed, fairness, and a world-class gaming environment.",
-			"paragraph2": "From day one, our goal has been clear: to create a gaming space that feels real, secure, and exciting. Whether you're here for live casino games, sports betting, poker, or high-reward slots, {siteName} brings it all together under one trusted name."
+			"paragraph1": "At {siteName}, gaming isn't just about fun — it's a whole new way to play. We built this crypto powered platform for people who want more than just luck. If you care about speed, transparency, and having control, you're in the right place.",
+			"paragraph2": "From day one, our goal was clear: give players a next-level gaming experience where tech and fairness actually work together. We want you to feel safe, connected, and like you're getting rewarded for every spin, bet, or hand. Whether you're spinning crypto slots, betting live on sports, or sitting at a casino table, {siteName} is built for today's blockchain era."
 		},
 		"whoWeAre": {
-			"title": "💎 Who We Are",
-			"paragraph1": "{siteName} is a global online gaming platform that connects players to thousands of high-quality casino and betting games.|We work with the industry's most respected providers — including Pragmatic Play, Red Tiger, Microgaming, and KA Gaming — to deliver a seamless experience on every device.",
-			"paragraph2": "Every feature, every spin, and every card dealt is designed to bring you closer to the thrill of real gaming — while keeping everything transparent and fair."
+			"title": "Who We Are",
+			"paragraph1": "We're a worldwide, fully decentralized gaming platform designed for crypto fans who want freedom, privacy, and instant action. We work with top names in the industry—Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech and bring you over 5,000 premium games and betting options, all in one place.",
+			"paragraph2": "Every game on {siteName} is provably fair and blockchain-verified. No shady stuff, just total transparency. We believe gaming should be trustless but still human, mixing the honesty of blockchain with a smooth, exciting experience that anyone can enjoy, wherever they are."
 		},
 		"mission": {
-			"title": "🎯 Our Mission",
-			"paragraph1": "To make online gaming simple, safe, and rewarding for everyone.|We believe gaming should feel personal — not mechanical — so we focus on fast transactions, smooth design, and reliable customer support available 24/7.",
-			"paragraph2": "At {siteName}, players always come first. Your trust is what drives us to keep improving every day."
+			"title": "Our Mission",
+			"paragraph1": "We want to change how people experience online gaming—make it faster, fairer, and fully crypto-driven. So we ditched the usual hassles like KYC checks, slow payouts, and trust issues. Here, you get wallet-based access, instant transactions, and proof of fairness on every single bet.",
+			"paragraph2": "Your privacy stays protected, your winnings are paid out instantly, and you're always in control of your play."
+		},
+		"focus": {
+			"title": "What We Focus On",
+			"items": [
+				"Lightning-fast deposits and withdrawals",
+				"Privacy-first access with no KYC",
+				"A seamless UI that works everywhere",
+				"Real, 24/7 customer support from actual humans"
+			],
+			"closing": "Trust matters to us. Every new feature? It's designed for you."
 		},
 		"whatMakesUsDifferent": {
-			"title": "🏆 What Makes {siteName} Different",
+			"title": "What Sets {siteName} Apart",
 			"features": [
-				"5,000+ games across slots, poker, sports, and live casino",
-				"Secure transactions with instant deposits and withdrawals",
-				"Verified fair play through RNG-certified games",
-				"Clean design that works perfectly on desktop and mobile",
-				"Exciting bonuses and promotions for active players"
+				"Over 5,000 crypto casino games—slots, poker, live tables, you name it",
+				"Wallet-based login with Dynamic.xyz—just connect and play, no waiting",
+				"Instant crypto payouts—automated and verified right on the blockchain",
+				"Every game is provably fair and RNG-certified",
+				"Works perfectly on any device, mobile or desktop",
+				"Transparent rewards—bonuses and promos that actually benefit players"
 			],
-			"closing": "We don't just host games — we create an environment where every player feels safe, connected, and confident."
+			"closing": "{siteName} isn't just about games—it's about freedom. Play securely, from anywhere, with total transparency."
 		},
 		"fairGaming": {
-			"title": "🌍 Fair & Responsible Gaming",
-			"paragraph1": "We believe that gaming should always be responsible and transparent.|That's why {siteName} follows strict international gaming standards and age policies.",
+			"title": "Fair & Responsible Gaming",
+			"paragraph1": "We also take fair and responsible gaming seriously. We don't let anyone under 18 (or under their country's legal age) play, period. Every game gets checked by independent testers and runs on blockchain transparency, so you can verify every outcome yourself.",
 			"ageRestriction": "Only players aged 18 or older can register and play.",
-			"paragraph2": "All games are tested for fairness, and our encryption technology keeps your personal and financial information completely secure."
+			"paragraph2": "Your personal and financial info stays private—always. We use end-to-end encryption and never store your wallet keys or sensitive data."
 		},
 		"promise": {
-			"title": "🤝 Our Promise",
-			"paragraph1": "We're not here to be another casino site — we're here to set a new standard for online gaming.|When you play on {siteName}, you play on a platform built on trust, innovation, and real value.",
-			"paragraph2": "Every update, every feature, and every partnership we add is focused on one goal: giving players the best gaming experience possible."
+			"title": "Our Promise",
+			"paragraph1": "We're not just another online casino. We're the next step in gaming. {siteName} exists to empower players, not control them. With crypto tech, provable fairness, and a player-first approach, we're building a gaming world that's open, safe, and rewarding.",
+			"paragraph2": "Every update, feature, or new partner—everything we do is about making gaming fair, instant, and yours."
 		},
 		"joinCommunity": {
-			"title": "🚀 Join the {siteName} Community",
-			"paragraph1": "The future of online gaming is here — and it's faster, smarter, and more rewarding than ever.",
-			"paragraph2": "Join {siteName} today, claim your welcome bonus, and see why players around the world are making the switch to {siteName}.",
-			"tagline": "🎯 Play. Win. Experience. {siteName}."
+			"title": "Ready to Join?",
+			"paragraph1": "The future of gaming is here—decentralized, lightning-fast, and without borders. Sign up, connect your wallet, and see what real gaming freedom feels like.",
+			"paragraph2": "Play smart. Win fast. Experience {siteName}.",
+			"tagline": "Play smart. Win fast. Experience {siteName}."
 		}
 	},
 	"footer": {
@@ -1398,426 +1409,445 @@
 		"description": "{siteName} — your trusted crypto casino for slots, live tables, and sports betting.|Play provably fair blockchain games, enjoy instant wallet-based payouts, and unlock daily casino bonuses.|Fast, secure, and decentralized — {siteName} brings next-level gaming to players worldwide.|🎯 Play Smart. Win Big. Trust {siteName}."
 	},
 	"privacy": {
-		"title": "Privacy Policy",
-		"subtitle": "How {siteName} collects, uses, and protects your data",
-		"lastUpdated": "January 2025",
+		"title": "Privacy Policy — {siteDomain}",
+		"subtitle": "How we handle your info covering your crypto wallet, gameplay, and anything you do on our site",
+		"lastUpdated": "Last updated: January 2025",
 		"intro": {
-			"paragraph1": "{siteName} ('{siteName}', 'we', 'us', or 'our') runs the {siteName} crypto-casino platform. This Privacy Policy explains how we collect, use, store and protect personal and transaction data when you use our website, mobile apps, or related services (the 'Services').",
-			"paragraph2": "{siteName} operates as a crypto-wallet-only casino: all deposits and withdrawals are made using cryptocurrency wallets. We are committed to protecting your privacy while meeting regulatory obligations (such as AML/KYC requirements) and ensuring a safe, fair gaming environment.",
-			"paragraph3": "By accessing or using {siteName} you accept the terms of this Privacy Policy."
+			"paragraph1": "At {siteName} ('{siteDomain},' 'we,' 'us,' or 'our'), your privacy is front and center. We run the {siteName} crypto casino and decentralized gaming platform, and this Privacy Policy lays out how we handle your info covering your crypto wallet, gameplay, and anything you do on our site, dApp, or related services (we'll call these the 'Services').",
+			"paragraph2": "{siteDomain} is a wallet-only crypto casino. That means deposits and withdrawals go straight through the blockchain, no middleman. We don't ask for your ID, and we never store personal identity info. Your privacy, wallet, and assets? They stay yours.",
+			"paragraph3": "By using {siteDomain}, you're agreeing to this Privacy Policy."
 		},
 		"sections": {
 			"scope": {
-				"title": "1. Scope & Acceptance",
-				"content": "This policy applies to all users of {siteName}. We may update this policy; updates take effect when posted on the site. Continued use following a change means you accept the new policy."
+				"title": "Scope & Acceptance",
+				"content": "This policy covers everyone who visits or uses {siteDomain}. If we ever need to update the policy—maybe because of new tech or changing laws we'll post the changes right here. If you keep using the platform after that, you're accepting the new terms."
 			},
 			"dataCollection": {
-				"title": "2. What Data We Collect",
-				"intro": "Because we operate with crypto wallets only, the types of data we collect reflect that model. We collect:",
+				"title": "Data We Collect",
+				"intro": "We built {siteName} with privacy in mind. We only ask for what's needed to make the site work, keep things secure, and make sure the games are fair.",
 				"accountData": {
-					"title": "A. Account & Identity Data (when required)",
-					"email": "Email (if provided), display name, account ID.",
-					"kyc": "Important: While crypto wallets enable on-chain anonymity, certain transactions or regulatory triggers may require identity verification. We will clearly request KYC only when necessary."
+					"title": "A. Wallet & Account Data",
+					"items": {
+						"0": "Connected wallet address (through Dynamic.xyz, WalletConnect, or MetaMask).",
+						"1": "Display name (optional) if you want to personalize your account.",
+						"2": "Email address (optional) if you sign up for newsletters or reach out to support."
+					},
+
+					"kyc": "We never do identity checks or collect government IDs. If, and only if, a legal situation pops up (like a fraud investigation), we might ask for proof of identity. If that happens, we'll be upfront about it and only ask for what's strictly necessary."
 				},
 				"walletData": {
-					"title": "B. Wallet & Transaction Data",
-					"addresses": "Cryptocurrency wallet addresses you connect or use with {siteName}.",
-					"transactions": "On-chain transaction hashes and timestamps (deposits/withdrawals).",
-					"metadata": "Transaction metadata necessary to reconcile payments and prevent fraud."
+					"title": "B. Transaction Data",
+					"addresses": "Blockchain wallet addresses used for deposits or withdrawals.",
+					"transactions": "Transaction hashes, timestamps, and network confirmations.",
+					"metadata": "Deposit and withdrawal details for balancing your account.",
+					"note": "All crypto transactions are public on the blockchain. We don't edit, hide, or try to make this data anonymous—everything's transparent."
 				},
 				"technicalData": {
 					"title": "C. Technical & Usage Data",
-					"ip": "IP address, approximate geolocation derived from IP, device type, browser, OS.",
-					"session": "Session logs, time stamps, pages visited, game activity, wagers and outcomes.",
-					"cookies": "Cookies and analytics data to improve site performance and user experience."
+					"ip": "Info about your device and browser (type, OS, screen size).|IP address and rough location for fraud prevention.",
+					"session": "Pages you visit, games you play, transaction history, and time spent on site.",
+					"cookies": "Cookies and analytics to help us improve the experience."
 				},
 				"securityData": {
 					"title": "D. Security & Risk Data",
-					"fraud": "Fraud signals, device fingerprints, risk scores from anti-fraud vendors.",
-					"disputes": "Records of dispute resolution, chargebacks (if applicable), and compliance checks.",
-					"note": "We do not collect sensitive categories (race, religion, health, etc.) unless lawfully required and with clear consent."
+					"fraud": "Device fingerprinting and anti-fraud monitoring.",
+					"disputes": "Gameplay session logs for fairness and to help resolve issues.|Automated checks to spot bots or abuse.",
+					"note": "We don't collect sensitive personal data like your ethnicity, religion, political views, or biometrics."
 				}
 			},
 			"purposes": {
-				"title": "3. Why We Collect Data – Lawful Bases & Purposes",
-				"intro": "We process your data for lawful and specific purposes:",
-				"outro": "When we rely on consent (e.g., marketing), you can withdraw that consent anytime.",
+				"title": "Why We Collect Data",
+				"intro": "Here's what we use your info for:",
+				"outro": "You can unsubscribe from marketing messages whenever you want.",
 				"items": {
 					"0": {
-						"title": "Service provision & contract performance",
-						"description": "to create and maintain accounts, process deposits/withdrawals via crypto wallets, pay winnings."
+						"title": "Service Operations",
+						"description": "To let you log in with your wallet, verify transactions, run games, and handle payouts."
 					},
 					"1": {
-						"title": "Security & fraud prevention",
-						"description": "detect and prevent abuse and money-laundering."
+						"title": "Security & Fraud Prevention",
+						"description": "To spot and prevent fraud, duplicate accounts, or anything fishy."
 					},
 					"2": {
-						"title": "Compliance with legal obligations",
-						"description": "meet AML/KYC requirements when necessary."
+						"title": "Platform Improvement",
+						"description": "To make the site run better and smoother."
 					},
 					"3": {
-						"title": "Platform operations & improvement",
-						"description": "analytics, product development, customer support."
+						"title": "Marketing (with consent)",
+						"description": "For marketing, but only if you say yes—we never sneak in promos without your permission."
 					},
 					"4": {
-						"title": "Marketing (with consent)",
-						"description": "newsletters, promotional offers — only if you opt in."
-					},
-					"5": {
-						"title": "Legitimate interest",
-						"description": "preserving platform integrity and investigating misuse."
+						"title": "Platform Integrity",
+						"description": "To protect {siteName} and keep gaming fair."
 					}
 				}
 			},
 			"cryptoWallet": {
-				"title": "4. Crypto Wallet Specifics & On-Chain Data",
+				"title": "Blockchain Transparency",
+				"intro": "{siteDomain} runs entirely on blockchain:",
+				"outro": "If you use a third-party wallet (like Dynamic.xyz, WalletConnect, or MetaMask), their privacy policy applies to your use of their service",
 				"points": {
-					"0": "Wallet addresses and on-chain transaction data are stored only to the extent necessary to credit/debit user accounts, audit transactions, and meet compliance obligations.",
-					"1": "On-chain data is public by nature — {siteName} does not control blockchain visibility. We combine on-chain data with off-chain records to reconcile accounts.",
-					"2": "If you connect a custodial wallet service (third-party), you consent to any data those providers share with us for transaction processing."
+					"0": "Your wallet and transaction data live permanently on public blockchains like Ethereum or BNB Chain.",
+					"1": "Once a blockchain transaction's done, we can't change or erase it.",
+					"2": "We only store the bare minimum of info off-chain, just for technical and account reasons.",
+					"3": "If you use a third-party wallet (like Dynamic.xyz, WalletConnect, or MetaMask), their privacy policy applies to your use of their service."
 				}
 			},
 			"dataSharing": {
-				"title": "5. When We Share Data",
-				"intro": "We may share your information:",
+				"title": "Sharing & Disclosure",
+				"intro": "We don't sell, trade, or rent your data. Ever.",
+				"para": "But in rare cases, we might have to share limited info:",
 				"items": {
-					"0": "With regulators or law enforcement when compelled by legal process or to prevent illegal activity.",
-					"1": "With affiliates or third parties in a business transfer (merger, acquisition) — always with appropriate safeguards.",
-					"2": "With fraud prevention networks to protect our platform and users."
+					"0": "If the law or a valid legal process demands it.",
+					"1": "With anti-fraud partners or blockchain analytics tools if we spot suspicious activity.",
+					"2": "If there's a merger, acquisition, or major business change always under strict confidentiality."
 				},
-				"noSelling": "We do not sell your personal data to advertisers."
+				"noSelling": "Whenever we share anything, we make sure it follows data protection laws."
 			},
 			"security": {
-				"title": "6. Security Measures",
-				"intro": "We use industry-standard security measures:",
+				"title": "Security Measures",
+				"intro": "We take your security seriously and layer several advanced protections to keep your data and digital assets safe:",
 				"items": {
-					"0": "TLS/SSL encryption in transit; encrypted storage for sensitive data.",
-					"1": "Access controls, logging, and role-based privileges.",
-					"2": "Regular security audits and vulnerability testing.",
-					"3": "Multi-factor authentication (MFA) for staff and optional for users."
+					"0": "Every bit of data you send between your browser and our servers gets TLS/SSL encryption.",
+					"1": "We store logs and technical data in encrypted form.",
+					"2": "Role-based access control (RBAC) keeps internal access tightly locked down.",
+					"3": "We run regular penetration tests and bring in outside experts for security audits.",
+					"4": "Admins log in with Multi-Factor Authentication (MFA) for extra safety."
 				},
-				"warning": "You must keep your wallet private keys and account credentials secure. We never request private keys."
+				"warning": "Just a heads up:\n\n🔐 {siteName} will never ask for your private keys or seed phrases. Keep your wallet credentials private that's on you."
 			},
 			"cookies": {
-				"title": "7. Cookies & Tracking",
-				"content": "We use cookies and similar technologies for necessary site functions, analytics, and (with consent) marketing. You can control cookies in your browser, but disabling essential cookies may break functionality."
+				"title": "Cookies & Analytics",
+				"intro": "We use cookies and tracking tools to:",
+				"items": {
+					"0": "Keep your wallet connected and sessions stable.",
+					"1": "Improve site speed and performance.",
+					"2": "Gather anonymous analytics so we can understand how people use the site."
+				},
+				"outro": "You can turn off non-essential cookies in your browser whenever you want. If you block essential cookies, though, you might run into issues with gameplay or wallet connections."
 			},
 			"minAge": {
-				"title": "8. Children & Minimum Age",
-				"content": "You must be 18+ (or older if required by local law) to use our Services. We actively prevent underage use and will delete data if a minor's registration is identified."
+				"title": "Underage Use Policy",
+				"intro": "{siteDomain} is off-limits to anyone under 18, or under the legal gambling age in their area.",
+				"content": "If we find out someone is underage, we'll suspend the account right away, void any winnings, and wipe related data. \nFor parents and guardians:",
+				"items": {
+					"0": "Use password protection on devices.",
+					"1": "Don't save wallet info on shared devices.",
+					"2": "Set up tools like NetNanny or GamBlock to block gambling sites."
+				}
 			},
 			"breach": {
-				"title": "9. Breach Notification",
-				"content": "In case of a data breach that presents a risk to your rights, we will notify affected users and relevant authorities as required by law, and we will take steps to remediate."
+				"title": "Data Breach Response",
+				"content": "If a data breach ever threatens your rights or security:",
+				"items": {
+					"0": "We'll alert all affected users right away.",
+					"1": "We'll notify the right authorities, following the law.",
+					"2": "We'll act fast to fix problems and restore security."
+				}
 			},
 			"changes": {
-				"title": "10. Changes to This Policy",
-				"content": "We may modify this Privacy Policy. Material changes will be posted on the site and, when appropriate, notified to you."
+				"title": "Policy Updates",
+				"content": "We update this Privacy Policy from time to time as things change whether it's operations, technology, or the law. Big changes will show up on the site as notifications or banners. Check this page now and then to stay in the loop."
 			},
 			"contact": {
-				"title": "11. Contact",
-				"intro": "Questions or requests:"
+				"title": "Contact Us",
+				"intro": "Got questions, privacy concerns, or a request about your data? Reach out any time:"
 			}
 		}
 	},
 	"terms": {
-		"title": "Terms & Conditions",
-		"subtitle": "User Agreement and Platform Rules",
-		"lastUpdated": "January 2025",
-		"intro": {
-			"paragraph1": "By registering or connecting your wallet on www.{siteDomain}, you enter into a binding agreement with {siteName} N.V.",
-			"paragraph2": "If you do not agree with any of these terms, do not access, use, or register on our Website. Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
-		},
+		"title": "Terms & Conditions — {siteName} Crypto Casino",
+		"lastUpdated": "Last updated: January 2025",
+
 		"sections": {
 			"ownership": {
-				"title": "1. {siteName} Ownership",
-				"content1": "{siteName} is owned and operated by {siteName} N.V. ('{siteName}', 'We', 'Our', 'Us').",
-				"content2": "{siteName} is a crypto-wallet-only casino. All deposits, wagers, and withdrawals are processed through users' cryptocurrency wallets. We support wallet login through Dynamic.xyz and compatible wallet connectors (e.g., WalletConnect / MetaMask)."
+				"title": "Who Runs {siteDomain}",
+				"content1": "{siteDomain} belongs to {siteName} N.V. That's us—when we say '{siteName},' 'we,' 'our,' or 'us,' we're talking about the team behind the site.",
+				"content2": "We run a wallet-only crypto casino. All deposits, bets, and withdrawals move straight through your own crypto wallet. For security and easy access, we support Dynamic.xyz, WalletConnect, and MetaMask."
 			},
 			"notice": {
-				"title": "2. Important Notice",
-				"content1": "2.1 By registering or connecting your wallet on www.{siteDomain} (the 'Website'), you enter into a binding agreement with {siteName} N.V. and agree to: (i) these Terms and Conditions; (ii) our Privacy Policy; (iii) our Cookie Policy; (iv) our Affiliate Terms; and (v) our Responsible Gaming Policy.",
-				"content2": "2.2 If you do not agree with any of these terms, do not access, use, or register on our Website.",
-				"content3": "2.3 Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
+				"title": "What You're Agreeing To",
+				"content": "When you connect your wallet or use {siteDomain}, you're agreeing to:",
+				"items": {
+					"0": "These Terms & Conditions",
+					"1": "Our Privacy Policy",
+					"2": "Our Responsible Gaming Policy",
+					"3": "Any bonus, affiliate, or promo terms",
+					"4": "All other rules or updates posted on {siteDomain}"
+				},
+				"content2": "If you don't accept these terms, just don't use {siteDomain}.",
+				"outro": "It's up to you to make sure crypto gaming is allowed where you live before you play."
 			},
 			"general": {
-				"title": "3. General Terms",
+				"title": "The Basics",
 				"items": [
-					"Upon registration or wallet connection, you ('User', 'Player', 'You', or 'Your') agree to comply with all {siteName} rules and policies.",
-					"This Agreement is a legally binding contract between you and {siteName}.",
-					"These Terms become effective the moment you connect your wallet and start using the site.",
-					"{siteName} reserves the right to amend or update these Terms at any time. Changes will be published on the Website; continued use constitutes acceptance.",
-					"In the event of conflict, these Terms prevail over any other rules, promotions, or external materials.",
-					"Only the English version of these Terms is legally binding. Translations are for convenience only."
+					"Once you connect your wallet, you agree to follow every rule and guideline here.",
+					"These terms are a binding agreement between you and {siteDomain}. They kick in as soon as you connect your wallet or use the site.",
+					"We can update these terms whenever we need to. If we do, we'll post the new version here and it applies right away.",
+					"If there's a conflict between these terms and anything else bonus offers, third-party stuff, you name it—these terms win.",
+					"The English version is the official one. Translations are just to help out."
 				]
 			},
 			"account": {
-				"title": "4. Account, Wallet Login & Security",
-				"intro": "{siteName} uses Dynamic.xyz for wallet-based authentication and security measures to protect your account.",
+				"title": "Your Wallet, Login, and Security",
+				"intro": "",
 				"walletLogin": {
-					"title": "4.1 Wallet Login (Dynamic.xyz)",
+					"title": "Wallet Connection & Ownership",
 					"items": [
-						"{siteName} uses Dynamic.xyz (or other supported connectors) for wallet-based login and authentication. By connecting a wallet, you confirm you are the lawful owner of that wallet and authorize {siteName} to recognize that wallet as your account.",
-						"We never request your private keys. You must keep your wallet credentials and device secure. {siteName} is not responsible for losses caused by compromised wallets or leaked private keys."
+						"We use Dynamic.xyz and other wallet connectors for login and authentication. When you connect your wallet, you confirm you own it and let us link it to your account.",
+						"We will never ask for your private keys, seed phrases, or recovery info. Your wallet's security is in your hands. We're not responsible if you get phished, hacked, or lose access because of your own device."
 					]
 				},
 				"registration": {
-					"title": "4.2 Registration Details",
+					"title": "Email & Account Details",
 					"items": [
-						"You may be asked to provide contact details (email, username) for account communication. You must provide accurate information and keep it up to date.",
-						"You are responsible for all actions taken using your connected wallet."
+						"You can give us an email or username if you want help or updates, but that's optional.",
+						"You're responsible for everything that happens with your connected wallet."
 					]
 				},
 				"security": {
-					"title": "4.3 Multiple Accounts & Security",
+					"title": "Multiple Accounts & Security",
 					"items": [
-						"Only one account per individual is permitted. Multiple accounts or attempts to circumvent limits may result in account suspension and fund forfeiture.",
-						"Enable any offered platform security features (for example, 2FA for associated services) and secure your own wallet.",
-						"Notify support immediately if you suspect unauthorized access."
+						"Stick with one wallet/account per person. If you try to game the system using more than one, we can suspend your account and keep your funds.",
+						"If your wallet supports 2FA, turn it on.",
+						"If something seems off, email us at support@digidice.games right away."
 					]
 				}
 			},
 			"eligibility": {
-				"title": "5. Eligibility & User Warranties",
-				"intro": "5.1 You represent and warrant that:",
+				"title": "Who Can Play and What You Promise",
+				"intro": "By using {siteDomain}, you promise:",
 				"items": [
-					"You are at least 18 years old (or the minimum legal gambling age in your jurisdiction).",
-					"You are legally permitted to use online crypto gambling services where you are located.",
-					"You are the lawful owner of the wallet you connect.",
-					"You will not use VPNs or location spoofing to bypass regional restrictions.",
-					"You will not use the Service for illegal or commercial purposes.",
-					"You accept that cryptocurrency value may fluctuate and you bear all market risk."
+					"You're at least 18, or whatever the legal gambling age is where you live.",
+					"Online crypto gaming is legal for you.",
+					"You own the wallet you connect.",
+					"You won't use VPNs, proxies, or IP-masking to dodge geo-blocks.",
+					"You won't use {siteName} for anything illegal or shady.",
+					"You get that crypto is volatile, and you accept the risks."
 				],
-				"outro": "5.2 If you breach these warranties, {siteName} may suspend or terminate access and withhold funds where permitted by law."
+				"outro": "If you break any of these promises, we can suspend or close your account, and hold your funds if the law says so."
 			},
 			"restricted": {
-				"title": "6. Restricted Jurisdictions",
-				"content1": "6.1 {siteName} does not accept players from jurisdictions where crypto gambling is prohibited or restricted. This includes, but is not limited to:",
-				"content2": "United States (and U.S. territories), United Kingdom, France, Netherlands, Spain, Germany, Australia, Austria, Comoros, Iran, North Korea, Sudan, Syria, and any jurisdiction listed on FATF blacklists.",
-				"content3": "6.2 Attempting to access the Service from a restricted jurisdiction, including via VPN or proxy, is a breach of these Terms and may lead to account closure and forfeiture of funds."
+				"title": "Where You Can't Play",
+				"content1": "{siteDomain} is off-limits if you're in a place where online gambling or crypto betting is restricted. That means, for example: United States, United Kingdom, France, Netherlands, Spain, Germany, Australia, Comoros, Iran, North Korea, Syria, Sudan, and anywhere on the FATF blacklist.",
+				"content2": "Trying to sneak in with a VPN or proxy? Don't. If you do, we'll close your account and you'll lose your funds.",
+				"content3": ""
 			},
 			"crypto": {
-				"title": "7. Crypto Deposits & Withdrawals",
+				"title": "Crypto Deposits and Withdrawals",
 				"policy": {
-					"title": "7.1 Crypto-Only Policy",
+					"title": "Crypto-Only",
 					"items": [
-						"{siteName} accepts deposits and withdrawals in supported cryptocurrencies only (e.g., BTC, ETH, USDT, TRX, BNB). No fiat, card, or bank-transfer deposits are accepted.",
-						"All deposits must originate from wallets you control. Deposits from third-party wallets are prohibited."
+						"We're crypto-only. You can deposit and withdraw with approved coins only: BTC, ETH, USDT, BNB, TRX, and similar. No fiat or card payments.",
+						"All transactions have to come from wallets you control. No third-party or shared wallets."
 					]
 				},
 				"deposits": {
-					"title": "7.2 Deposits",
+					"title": "Deposits",
 					"items": [
-						"Deposits are credited after the required blockchain confirmations. Network (gas) fees are payable by you.",
-						"{siteName} may refuse or reverse deposits that appear to originate from blocked addresses or restricted sources."
+						"When you deposit, your funds show up after the blockchain confirms the transaction. You cover the network (gas) fees, not us. The minimum deposit is $10 in crypto. We might reject deposits from blacklisted or risky wallets.",
+						""
 					]
 				},
 				"withdrawals": {
-					"title": "7.3 Withdrawals",
+					"title": "Withdrawals",
 					"items": [
-						"Withdrawals are processed to the wallet address you provide. {siteName} may require you to confirm the destination wallet prior to processing.",
-						"You must have sufficient cleared balance to cover a withdrawal. Withdrawals may be delayed to investigate suspected abuse or unusual activity."
+						"Withdrawals go straight to your chosen wallet. Make sure it works with the right blockchain. Minimum withdrawal is usually $10, depending on fees. We might delay withdrawals for fraud checks or security.",
+						"All blockchain transactions are final. We can't cancel, refund, or change them once they're confirmed."
 					]
 				},
 				"chargebacks": {
-					"title": "7.4 Chargebacks & Reversals",
-					"items": [
-						"Crypto transactions are final on-chain. If {siteName} incurs losses because of chargebacks or reversals from third-party service providers (rare with on-chain), we reserve the right to recover amounts or charge administrative fees."
-					]
+					"title": "",
+					"items": []
 				}
 			},
 			"kyc": {
-				"title": "8. No Routine Identity Verification (No KYC)",
-				"content1": "8.1 {siteName} does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
-				"content2": "8.2 Notwithstanding the above, {siteName} reserves the right to request information or suspend transactions if required to:",
+				"title": "NO KYC POLICY",
+				"intro": "{siteDomain} runs on a No KYC model, so you can play without ID checks for regular games.",
+				"content1": "But sometimes, {siteName} might ask for a bit of info if:",
 				"items": [
-					"Comply with a lawful order from the competent authorities:",
-					"Prevent, investigate, or remediate fraud, money-laundering, or other illegal activity",
-					"Or protect the security and integrity of the platform."
+					"The law or an authority requires it.",
+					"They need to look into fraud or suspicious behavior.",
+					"It's needed to keep the platform secure or meet regulations."
 				],
-				"content3": "8.3 If you refuse to provide such information when legally required, {siteName} may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
+				"outro": "If you don't cooperate with a legal verification request, your account might get suspended or your withdrawals could be delayed."
 			},
 			"fairPlay": {
-				"title": "9. Fair Play, Prohibited Conduct & Security",
-				"intro": "You must not:",
+				"title": "FAIR PLAY, CONDUCT & SECURITY",
+				"intro": "You can't:",
 				"items": [
-					"Use bots, scripts, automated play tools, or any unauthorized software.",
-					"Collude with other players or manipulate game outcomes.",
-					"Create multiple accounts to exploit bonuses or promotions.",
-					"Attempt to reverse or tamper with on-chain transactions.",
-					"Exploit game bugs or platform vulnerabilities."
+					"Use bots, scripts, or auto-play tools.",
+					"Team up with others to fix results.",
+					"Take advantage of bugs or smart contract loopholes.",
+					"Abuse bonuses, referrals, or promos."
 				],
-				"outro1": "Accounts found cheating, colluding, or exploiting the platform may be suspended, closed, or have balances forfeited.",
-				"outro2": "{siteName} implements technical and behavioral monitoring to protect platform integrity."
+				"outro1": "If you break these rules, {siteName} can ban your account for good and take your balance.",
+				"outro2": "{siteName} uses AI fraud detection, behavioral analytics, and blockchain checks to keep things fair and secure."
 			},
 			"bonuses": {
-				"title": "10. Bonuses & Promotions",
+				"title": "BONUSES & PROMOTIONS",
 				"items": [
-					"All bonus offers and promotions are subject to specific Bonus Terms stated with each offer.",
-					"Bonus abuse (including multiple accounts or rapid bonus switching) can lead to denial, reversal, or forfeiture of bonuses and closure of accounts.",
-					"Bonus wagering requirements must be met before withdrawing bonus-derived funds, as specified per promotion."
+					"Each bonus follows its own set of terms listed with the promo.",
+					"If you abuse bonuses (like making extra accounts, cycling wallets, or using VPNs), you lose your bonus.",
+					"You have to meet all wagering requirements before you can cash out bonus winnings."
 				]
 			},
 			"playingRules": {
-				"title": "11. Playing Rules & Game Settlement",
+				"title": "GAME RULES & RESULTS",
 				"items": [
-					"Bets are accepted only once you receive on-screen confirmation. Bets placed with insufficient balance are void.",
-					"{siteName}'s internal logs and blockchain records are authoritative in case of disputes.",
-					"If an event is canceled, suspended, or otherwise compromised, {siteName} will settle or void bets according to published game and market rules.",
-					"For provably-fair games, verification tools and server seeds (where applicable) are made available per game; server logs are final."
+					"Your bet counts only after you see confirmation on the screen. If your balance can't cover it, the bet's void.",
+					"If there's a dispute, {siteName}'s blockchain records are final.",
+					"All provably fair games use on-chain randomness to stay transparent.",
+					""
 				]
 			},
 			"errors": {
-				"title": "12. Errors, Interruptions & Limits",
-				"intro": "{siteName} is not liable for losses caused by:",
+				"title": "LIMITATIONS & INTERRUPTIONS",
+				"intro": "{siteName} isn't responsible for:",
 				"items": [
-					"Internet or device failures",
-					"Blockchain delays, forks, or network congestion",
-					"Software bugs or third-party service outages"
+					"Internet drops or lag.",
+					"Blockchain delays or forks.",
+					"Wallet downtime from third parties.",
+					"Smart contract or game provider glitches."
 				],
-				"outro1": "{siteName} reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
-				"outro2": "We may set wagering limits, maximum wins, and other controls to protect users and the platform."
+				"outro1": "{siteName} can void bets or transactions if a tech issue or exploit messes things up."
 			},
 			"suspension": {
-				"title": "13. Suspension, Closure & Fund Handling",
-				"intro": "{siteName} may suspend or close accounts where:",
-				"items": [
-					"Terms are violated",
-					"Abuse, fraud, or suspicious behavior is detected",
-					"Legal or regulatory obligations require it"
-				],
-				"outro1": "On account closure, pending wagers may be canceled and remaining funds handled per applicable law and platform policy.",
-				"outro2": "{siteName} may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
+				"title": "ACCOUNT SUSPENSION & FUNDS",
+				"intro": "{siteName} can suspend or shut down accounts for:",
+				"items": ["Breaking the rules", "Fraud", "Legal reasons."],
+				"outro1": "Any money left will be handled according to the law and {siteName}'s policies.",
+				"outro2": ""
 			},
 			"responsibleGaming": {
-				"title": "14. Responsible Gaming",
+				"title": "RESPONSIBLE GAMING",
 				"items": [
-					"{siteName} promotes responsible gambling. You may request: Self-exclusion, Deposit limits, or Temporary suspension.",
-					"If you suspect gambling harm, visit {siteDomain} for immediate assistance.",
-					"Underage gambling (under 18 or the local legal age) is strictly prohibited. Accounts found to belong to minors will be closed and funds handled per policy."
+					"{siteName} supports responsible gambling. If you need a break, email support@digidice.games for self-exclusion or a cool-off.",
+					"No one under 18 or below the legal age can play. Accounts found breaking this rule get shut down immediately.",
+					""
 				]
 			},
 			"ip": {
-				"title": "15. Intellectual Property",
-				"content1": "All trademarks, logos, site content, software, and game assets on {siteName} are owned or licensed by {siteName}. Unauthorized copying, scraping, or redistribution is prohibited.",
-				"content2": "You are granted a limited, revocable license to access the Service for personal entertainment only."
+				"title": "INTELLECTUAL PROPERTY",
+				"content1": "All trademarks, graphics, content, and software belong to {siteName} or its licensors. You can use them only for personal fun. Don't copy or share them without permission.",
+				"content2": ""
 			},
 			"liability": {
-				"title": "16. Limitation of Liability",
+				"title": "LIMITATION OF LIABILITY",
 				"items": [
-					"To the fullest extent permitted by law, {siteName} will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
-					"Our aggregate liability for any claim related to these Terms shall not exceed the value of your last deposit or an amount specified by applicable law.",
-					"Nothing in these Terms limits liability for death or personal injury caused by negligence where applicable law prohibits such limitation."
+					"{siteName} isn't responsible for indirect or unexpected damages—like lost profits.",
+					"If there's a claim, the most {siteName} will cover is your latest deposit.",
+					""
 				]
 			},
 			"disputes": {
-				"title": "17. Dispute Resolution & Governing Law",
-				"content": "In case of dispute, visit {siteDomain}. We aim to resolve complaints quickly; escalate to management if needed."
+				"title": "DISPUTE RESOLUTION",
+				"content": "If you've got a complaint or dispute, reach out to {siteDomain}. They aim to sort things out quickly and fairly."
 			},
 			"amendments": {
-				"title": "18. Amendments",
-				"content": "{siteName} may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
+				"title": "AMENDMENTS",
+				"content": "{siteName} can change these Terms anytime. The latest version is always at https://{siteDomain}. By using the site, you accept any updates."
 			},
 			"miscellaneous": {
-				"title": "19. Miscellaneous",
+				"title": "MISCELLANEOUS",
 				"items": [
-					"These Terms constitute the entire agreement between you and {siteName} regarding the Service.",
-					"If any clause is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will remain in effect.",
-					"You may not assign your rights under these Terms. {siteName} may assign or subcontract rights and obligations."
+					"These Terms are the whole agreement between you and {siteName}. If any part doesn't hold up, the rest still stands. {siteName} can assign or delegate its rights, but users can't.",
+					"",
+					""
 				]
 			},
 			"contact": {
-				"title": "20. Contact",
-				"intro": "For support, complaints, or legal notices:",
-				"supportEmail": "General Support: visit {siteDomain}",
-				"affiliateEmail": "Affiliate Inquiries: visit {siteDomain}",
-				"registeredOffice": "Registered office: {siteName} N.V., Heelsumstraat 51, Willemstad, Curaçao"
+				"title": "CONTACT",
+				"intro": "{siteDomain}",
+				"supportEmail": "",
+				"affiliateEmail": "",
+				"registeredOffice": ""
 			}
 		}
 	},
 	"responsibleGambling": {
-		"title": "Responsible Gambling – {siteName}",
+		"title": "Responsible Gambling at {siteName}",
 		"subtitle": "Learn about responsible gambling at {siteName}. Stay in control, play responsibly, and get support through global help organizations.",
 		"lastUpdated": "Last Updated: January 2025",
 		"intro": {
-			"title": "🎯 Responsible Gambling – {siteName}",
-			"paragraph1": "At {siteName}, we are committed to ensuring that gaming remains a safe, enjoyable, and responsible form of entertainment.|We encourage our community to play smart, stay in control, and treat gambling as a leisure activity — not as a source of income or financial recovery.",
-			"paragraph2": "We strictly prohibit all individuals under the age of 18 (or the minimum legal gambling age in their jurisdiction) from accessing or using our platform."
+			"title": "Responsible Gambling at {siteName}",
+			"paragraph1": "At {siteName}, we want gaming to be exciting, fair, and always responsible. Our main goal? Make sure every player has a great time—while staying informed, safe, and in control.",
+			"paragraph2": "We don't allow anyone under 18 (or below the legal age in their country) to play. Period."
 		},
 		"mission": {
-			"title": "⚖️ Our Mission",
-			"paragraph1": "{siteName} promotes responsible gaming by offering an environment that is transparent, secure, and community-driven.|Our mission is to help players make informed decisions and to prevent gambling from becoming a problem.",
-			"paragraph2": "We believe in:",
+			"title": "Our mission is simple:",
+			"paragraph1": "Responsible gaming isn't just a rule for us—it's at the heart of what we do. We're committed to building a transparent, secure, crypto-powered space where you can make smart, balanced choices.",
+			"paragraph2": "We stand for:",
 			"beliefs": {
-				"0": "Gambling as entertainment, not a way to earn money.",
-				"1": "Promoting self-awareness and moderation.",
-				"2": "Providing support tools and resources to prevent risky behavior."
+				"0": "Gambling as entertainment, not a way to make money",
+				"1": "Self-awareness, moderation, and smart play",
+				"2": "Tools, education, and access to real help organizations worldwide"
 			}
 		},
 		"understanding": {
-			"title": "🧠 Understanding Responsible Gambling",
-			"paragraph1": "Online gambling is more accessible than ever — but that also means it's easier to lose track of time, balance, or motivation.|Responsible gambling means knowing your limits, staying informed, and maintaining control over your play.",
-			"paragraph2": "To keep your experience fun and safe, remember:",
+			"title": "Responsible Gambling: What It Really Means",
+			"paragraph1": "Crypto gaming is quick, borderless, and right at your fingertips. That's exciting, but it also means you need to stay alert. Responsible gambling isn't just a buzzword — it's about knowing your limits, keeping an eye on your time and crypto, and making sure gaming stays enjoyable, not something you can't walk away from.",
+			"paragraph2": "Here's how to keep things safe and fun:",
 			"tips": {
-				"0": "Play for fun, not profit.",
-				"1": "Don't chase losses — take breaks when needed.",
-				"2": "Set personal limits for spending and time.",
-				"3": "Never gamble if you're stressed, tired, or upset.",
-				"4": "Avoid gambling with money intended for other expenses.",
-				"5": "If gambling stops being fun, it's time to step back."
+				"0": "Play for the thrill, not for making money.",
+				"1": "Don't chase your losses. If you're frustrated, step away for a bit.",
+				"2": "Set your own limits on how long you play and how much you deposit.",
+				"3": "If you're tired, stressed, or upset, take a break instead of playing.",
+				"4": "Never gamble money you need for rent, food, or anything essential.",
+				"5": "When the fun's gone, hit pause and reset."
 			}
 		},
 		"selfCheck": {
-			"title": "🧩 Self-Check: Are You Gambling Responsibly?",
-			"intro": "Ask yourself these questions honestly:",
+			"title": "Quick Self-Check: Are You Still in Control?",
+			"intro": "Be honest with yourself:",
 			"questions": {
-				"0": "Do you ever gamble longer than intended?",
-				"1": "Has gambling affected your relationships or work?",
-				"2": "Do you feel irritated when you can't play?",
-				"3": "Do you gamble to escape stress or boredom?",
-				"4": "Have you ever borrowed crypto or money to continue gambling?",
-				"5": "Do you often try to recover previous losses by betting more?"
+				"0": "Do you end up playing longer than you meant to?",
+				"1": "Is gaming taking a toll on your job or relationships?",
+				"2": "Do you get restless or annoyed when you can't play?",
+				"3": "Are you gambling just to escape stress or boredom?",
+				"4": "Have you borrowed crypto just to keep playing?",
+				"5": "Do you raise your bets after losing, hoping to win it all back?"
 			},
-			"warning": "If you answered \"yes\" to several of these, you may need to review your gambling habits and seek assistance."
+			"warning": "If you said \"yes\" to a few of these, it's probably time to step back or talk to someone about it."
 		},
 		"tools": {
-			"title": "🛡️ What {siteName} Offers to Help You Stay in Control",
-			"intro": "We want all players to enjoy gambling safely and responsibly.|Our platform includes several tools and resources designed to help you manage your gameplay.",
+			"title": "How {siteName} Looks Out for You",
+			"intro": "We want you to have fun, but we care even more about your well-being. That's why {siteName} gives you tools to play it safe and stay aware of your spending.",
 			"selfExclusion": {
-				"title": "🔹 Self-Exclusion",
-				"description": "You can request a temporary or permanent self-exclusion from your account. During this period, your access will be restricted, and you won't receive promotional materials.|To initiate self-exclusion, contact {siteDomain} — our team will assist you confidentially."
+				"title": "Self-Exclusion",
+				"description": "You can ask to block your account temporarily or for good. During that time, you won't be able to play or get our promos. Just email support@{siteDomain} — everything stays private."
 			},
 			"coolingOff": {
-				"title": "🔹 Cooling-Off Periods",
-				"paragraph1": "Feeling overwhelmed or just need a break?|You can take a cooling-off period of:",
+				"title": " Cooling-Off Periods",
+				"paragraph1": "Need a breather? Pick a pause that works for you:",
 				"periods": {
 					"0": "24 hours",
 					"1": "1 week",
 					"2": "1 month"
 				},
-				"paragraph2": "During this time, your wallet connection will be disabled for gameplay."
+				"paragraph2": "While you're on pause, your wallet won't work for gaming."
 			},
 			"depositAwareness": {
-				"title": "🔹 Deposit & Loss Awareness",
-				"description": "Since {siteName} operates exclusively via crypto wallets, players can easily monitor all deposits and transactions on-chain.|We encourage you to review your wallet activity regularly to stay aware of your total play volume."
+				"title": "Crypto Deposit Awareness",
+				"description": "{siteName} runs fully on the blockchain. We suggest you keep an eye on your wallet or a block explorer to track your deposits and bets."
 			}
 		},
 		"underagePrevention": {
-			"title": "👶 Underage Gambling Prevention",
-			"paragraph1": "Gambling by anyone under 18 is strictly prohibited.|We take underage gambling seriously and actively discourage it.",
-			"tipsTitle": "Tips for Parents and Guardians:",
+			"title": "Keeping Minors Out",
+			"paragraph1": "We don't allow anyone under 18 to play, deposit, or register. Period.",
+			"tipsTitle": "For parents and guardians:",
 			"tips": {
-				"0": "Use passwords or lock access on devices.",
-				"1": "Avoid storing wallet credentials or recovery phrases on shared devices.",
-				"2": "Log out of {siteName} when leaving your device unattended.",
-				"3": "Use content filters like NetNanny or GamBlock to restrict access.",
-				"4": "Regularly monitor children's online activities."
+				"0": "Set passwords and use parental controls.",
+				"1": "Don't save wallet info on shared devices.",
+				"2": "Log out of {siteName} when you're not around.",
+				"3": "Install web filters like NetNanny or GamBlock to block access.",
+				"4": "Regularly check what your kids do online."
 			},
-			"warning": "If underage gambling is detected, the account will be immediately closed and any winnings forfeited."
+			"warning": "If we spot underage play, we shut that account down and forfeit any winnings."
 		},
 		"helpSupport": {
-			"title": "❤️ Help and Support",
-			"intro": "If you ever feel gambling is affecting your mental, emotional, or financial health, you are not alone.|Below are trusted global organizations that provide free and confidential help:",
+			"title": "Need Help? You're Not Alone",
+			"intro": "If gambling starts to take over, there's real help out there — free, private, and judgment-free.|Check out these global organizations for support:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1829,7 +1859,7 @@
 				},
 				"2": {
 					"name": "Gamblers Anonymous",
-					"url": "https://www.gamblersanonymous.org"
+					"url": "https://www.gamblersanonymous.org/ga"
 				},
 				"3": {
 					"name": "National Council on Problem Gambling (NCPG)",
@@ -1840,130 +1870,132 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "These resources offer self-assessment tools, online chat, and local support groups worldwide."
+			"paragraph2": "They offer self-tests, online chats, and support from people who get it."
 		},
 		"principles": {
-			"title": "⚙️ Responsible Gaming Principles at {siteName}",
-			"intro": "At {siteName}, we uphold these core principles:",
+			"title": "Our Promise: Responsible Gaming, Always",
+			"intro": "Here's what {siteName} stands for:",
 			"items": {
 				"0": {
-					"title": "Transparency:",
-					"description": "Every game and outcome is provably fair and blockchain-verified."
+					"title": "🔹 Transparency:",
+					"description": "Every game is provably fair and open on the blockchain."
 				},
 				"1": {
-					"title": "Security:",
-					"description": "All sessions are protected through Dynamic.xyz wallet login — no passwords or KYC needed."
+					"title": "🔹 Security:",
+					"description": "Wallet-based login with Dynamic.xyz — no passwords, no KYC, total privacy."
 				},
 				"2": {
-					"title": "Autonomy:",
-					"description": "You control your gameplay; you can disconnect anytime."
+					"title": "🔹 Control:",
+					"description": "You decide when to play or take a break."
 				},
 				"3": {
-					"title": "Education:",
-					"description": "We promote awareness and help players understand risks."
+					"title": "🔹 Awareness:",
+					"description": "We show you how to keep your gaming healthy."
 				},
 				"4": {
-					"title": "Community Support:",
-					"description": "Our support team is available 24/7 to guide you toward healthy gaming habits."
+					"title": "🔹 Support:",
+					"description": "Our team's here 24/7 to help with self-exclusion or advice."
 				}
 			}
 		},
 		"playSmart": {
-			"title": "🎮 Remember — Play Smart",
-			"intro": "Gambling should always be fun, social, and balanced.|Keep these key reminders in mind:",
+			"title": "Don't Forget: Play Smart, Play Safe",
+			"intro": "{siteName} is about fun and freedom, never about pressure or financial stress. Stick to these basics:",
 			"reminders": {
-				"0": "Set a time limit before you start.",
-				"1": "Never chase losses or play under emotional stress.",
-				"2": "Treat winnings as a bonus, not income.",
-				"3": "Keep gambling separate from your work and relationships.",
-				"4": "Stop playing when the fun stops."
+				"0": "✅ Set your limits ahead of time.",
+				"1": "✅ Walk away when it stops being fun.",
+				"2": "✅ Never chase your losses.",
+				"3": "✅ Keep gambling separate from your regular finances.",
+				"4": "✅ Treat any winnings as a bonus, not a paycheck."
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "At {siteName}, your well-being is our top priority.|We encourage every player to make conscious, informed choices and enjoy a safe gaming experience.",
-			"paragraph2": "If you need advice, assistance, or self-exclusion support, contact us at",
-			"contact": "📧 {siteDomain}"
+			"paragraph1": "Your well-being comes first. If gaming ever starts to feel like a problem, reach out. We're always here at {siteDomain}.",
+			"paragraph2": "",
+			"contact": ""
 		}
 	},
 	"faqs": {
 		"title": "FAQs – {siteName}",
 		"subtitle": "Find answers to common {siteName} questions. Learn about wallet login, deposits, withdrawals, fair play, and blockchain transparency.",
 		"introTitle": "FAQs – {siteName}",
-		"intro": "Welcome to the {siteName} FAQ Center, where you'll find quick answers to the most common questions about our crypto gaming platform.|If you can't find your answer here, our 24/7 support team is always ready to help at {siteName}.",
-		"lastUpdated": "Last Updated: January 2025",
+		"intro": "Hey, welcome to the {siteName} FAQ. If you're curious about how our crypto gaming platform works, you're in the right spot. Whether you're new to blockchain gaming or you've been around the block a few times, you'll find answers here to help you play smart and safe.|And if you don't see your question, just reach out — our support team's always on at {siteDomain}.",
+		"lastUpdated": "Last updated: January 2025",
 		"blockchainTransparency": {
 			"title": "🧩 Blockchain Transparency",
-			"paragraph1": "{siteName} is powered by Ethereum-based smart contracts, ensuring that every bet, transaction, and reward is recorded transparently on-chain.|All data and game logic are immutable and verifiable, ensuring true fairness and auditability.",
-			"paragraph2": "You can track all platform transactions through public explorers such as:",
+			"paragraph1": "{siteName} runs completely on blockchain smart contracts.|Every bet, win, and payout is out in the open—anyone can check the records.",
+			"paragraph2": "Want to see for yourself? All {siteName} transactions are on:",
 			"explorersTitle": "",
-			"guarantee": "This guarantees that no manipulation or bias can occur — ever."
+			"guarantee": "This way, you know everything's fair and above board."
 		},
 		"categories": {
 			"accountRegistration": {
-				"title": "🔹 Account & Registration",
+				"title": "Account & Registration",
 				"items": {
 					"0": {
-						"question": "1. Can I register on your website?",
-						"answer": "Yes — registration is open to anyone 18 years or older (or the legal age of majority in your jurisdiction).|You must also ensure that online gaming is legal where you reside.|At {siteName}, you don't need traditional sign-ups or passwords.|Simply connect your wallet via Dynamic.xyz to start playing instantly.|👉 For legal and compliance details, please review our Terms & Conditions.",
-						"reminder": "Reminder: Gambling can be addictive. Please play responsibly and know your limits."
+						"question": "Can I register on {siteName}?",
+						"answer": "If you're 18 or older (or old enough to gamble where you live), you can play on {siteName}. Before you jump in, make sure crypto gaming's actually legal where you live.|Signing up is easy. No forms, no passwords, no email hassle. Just connect your crypto wallet through Dynamic.xyz and you're in.|Want to know more about who's eligible? Take a look at our Terms & Conditions.",
+						"reminder": "One quick reminder: gambling can get addictive. Please, play responsibly and know your limits."
 					},
 					"1": {
-						"question": "2. What if I forget my login details?",
-						"answer": "Since {siteName} uses wallet-based login via Dynamic.xyz, you don't use traditional passwords.|To access your account again:|Reconnect your wallet using the same address you originally used.|If you've lost access to your wallet, please restore it with your seed phrase or backup method (we never store or control private keys).|{siteName} cannot reset or recover your wallet credentials for security reasons."
+						"question": "What if I lose access to my account?",
+						"answer": "We use wallet-based login. So, no usernames, no passwords to recover. To get back in, just reconnect with the same wallet address you used before.|Lost access to your wallet? Use your seed phrase or recovery file to restore it.|For your security, we never store private keys and can't recover lost wallets for you."
 					},
 					"2": {
-						"question": "3. Can I change my username or linked wallet?",
-						"answer": "Your {siteName} account is tied to your wallet address.|To use a new wallet, simply connect a new one — but note that your previous gaming history, VIP status, and bonuses will not transfer automatically."
+						"question": "Can I change my wallet or username?",
+						"answer": "Your account is tied directly to your wallet. If you want to use a new wallet, connect a different one. Just keep in mind — your balance, VIP status, and rewards stay with your old wallet. They don't move over automatically."
 					},
 					"3": {
-						"question": "4. How do I become a VIP member?",
-						"answer": "Our VIP program is exclusive and invitation-only.|As you play and engage with the {siteName} community, your gaming activity is automatically tracked.|Once eligible, you'll receive an official invitation via in-platform notification or direct message from the {siteName} team.|VIPs enjoy access to exclusive bonuses, faster withdrawals, and personalized rewards."
+						"question": "How do I become a VIP member?",
+						"answer": "Our VIP Club is invite-only. As you play and get more involved, we track your activity. Once you qualify, we'll send you a personal invite right on the platform.|VIP perks include:|Higher rewards|Faster withdrawals|Personalized bonuses"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 Deposits & Withdrawals",
+				"title": "Deposits & Withdrawals",
 				"items": {
 					"0": {
-						"question": "5. How do I deposit crypto?",
-						"answer": "Depositing on {siteName} is fast and simple:|Go to \"My Wallet\" on the main dashboard.|Choose Deposit and select your preferred cryptocurrency (e.g., BTC, ETH, USDT, BNB).|Copy your unique wallet address or scan the QR code.|Send your crypto from your external wallet to the address displayed.|Once confirmed on the blockchain, your funds will appear in your {siteName} balance automatically.|⚠️ Make sure you only send supported cryptocurrencies to the correct address network (e.g., ERC20, TRC20, BEP20)."
+						"question": "How do I deposit crypto?",
+						"answer": "Depositing is quick and secure, and it all happens on-chain. Here's how:|Open My Wallet on your dashboard.|Hit Deposit and pick your coin (BTC, ETH, USDT, BNB, etc.).|Copy the address or scan the QR code.|Send your crypto from your personal wallet.|Once your transaction gets enough confirmations on the blockchain, your funds show up automatically.",
+						"reminder": "Double-check you're using the right network (ERC20, TRC20, BEP20, etc.) before sending anything."
 					},
 					"1": {
-						"question": "6. How long do deposits take?",
-						"answer": "Deposits are usually confirmed within 5–10 minutes, depending on blockchain congestion and transaction fees.|You can track the progress of your transaction through a block explorer (e.g., Etherscan.io or BscScan.com) using your transaction hash (TXID).|A minimum of 3 confirmations is typically required for your deposit to appear in your balance."
+						"question": "How long do deposits take?",
+						"answer": "Usually, deposits show up in 5 to 10 minutes, depending on network traffic and fees. You can keep an eye on your transaction using a blockchain explorer like Etherscan.io or BscScan.com.|We credit your funds after three confirmations."
 					},
 					"2": {
-						"question": "7. What is the minimum withdrawal amount?",
-						"answer": "The minimum withdrawal amount depends on the cryptocurrency you are using.|Each coin has its own network fee and minimum threshold.|These values are displayed in the Withdraw section under \"My Wallet.\""
+						"question": "What's the minimum withdrawal limit?",
+						"answer": "Each crypto has its own minimum withdrawal amount. You'll see the exact numbers under the Withdraw section. It depends on the coin and the network fee."
 					},
 					"3": {
-						"question": "8. How do I withdraw my winnings?",
-						"answer": "To withdraw your crypto:|Go to \"My Wallet\" → \"Withdraw.\"|Enter your destination wallet address and the amount you wish to withdraw.|Double-check your address and network type before confirming.|Withdrawals are processed instantly, but may take a few minutes depending on blockchain network activity.|💡 Always ensure your receiving wallet supports the network you're withdrawing from."
+						"question": "How do I withdraw winnings?",
+						"answer": "To withdraw:|Go to My Wallet and tap Withdraw.|Enter where you want your crypto sent and how much you want to take out.|Double-check the address and network.|Confirm your transaction.|Withdrawals are instant once confirmed on-chain. You'll see your funds in a few minutes.",
+						"reminder": "Always use a wallet that supports the network you're withdrawing from."
 					},
 					"4": {
-						"question": "9. What if my transaction is delayed?",
-						"answer": "Blockchain transactions sometimes take longer due to network congestion or low gas fees.|If your deposit or withdrawal hasn't arrived:|Check your TXID on the blockchain explorer.|Confirm that you used the correct network and address.|If it's been more than an hour, contact {siteDomain} with your TXID and wallet details."
+						"question": "What if my transaction is delayed?",
+						"answer": "If your transaction's taking longer than usual:|Check your TXID with a blockchain explorer.|Make sure you used the right address and network.|Give it a few more minutes for confirmations.|Still waiting after an hour? Contact us at {siteDomain}. Send your TXID and wallet info, and we'll help you sort it out."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "🎮 Games, Fairness & Security",
+				"title": "Games, Fairness & Security",
 				"items": {
 					"0": {
-						"question": "10. Are {siteName} games fair?",
-						"answer": "Yes — all {siteName} games are built using provably fair technology and verified smart contracts.|Every bet, result, and payout can be independently verified on the blockchain.|We operate on transparent, tamper-proof systems that guarantee randomness, fairness, and openness.|You can view game outcomes and transaction proofs on-chain through Etherscan or the respective network explorer."
+						"question": "Are {siteName} games fair?",
+						"answer": "Absolutely. Every game is 100% provably fair. We use cryptographic algorithms on the blockchain so you can check every bet and payout yourself.|There are no hidden results, no tricks, just fair and transparent gaming."
 					},
 					"1": {
-						"question": "11. What should I do if a game freezes or crashes?",
-						"answer": "If your game stops responding:|Refresh the page.|Clear your browser cache and reconnect your wallet.|If the issue persists, contact our support team via Live Chat or {siteDomain}.|Our team will assist you in restoring your game session or balance if affected."
+						"question": "What should I do if a game freezes or crashes?",
+						"answer": "If a game stops working:|Refresh the page.|Clear your browser cache or cookies.|Reconnect your wallet.|Still stuck? Hop on Live Chat. Our team will get your session or balance restored if anything's affected."
 					},
 					"2": {
-						"question": "12. Can I use more than one wallet or account?",
-						"answer": "No.|Each player is permitted to use one wallet address as their primary account.|Creating multiple accounts or using wallet rotations to claim bonuses or exploit promotions is strictly prohibited and may result in account restriction or balance forfeiture."
+						"question": "Can I use multiple wallets or accounts?",
+						"answer": "No. One wallet equals one account. Opening extra wallets to grab bonuses or mess with the system breaks our Terms and could cost you your winnings."
 					},
 					"3": {
-						"question": "13. Is my personal data safe?",
-						"answer": "Yes.|At {siteName}, we do not collect personal data — your identity remains secure.|Access is managed through Dynamic.xyz, ensuring full privacy and ownership of your digital identity.|No passwords, emails, or sensitive documents are stored by us.|Your wallet = your identity."
+						"question": "Is my data safe?",
+						"answer": "Yes. We're a wallet-only platform, so we never collect your personal info, emails, passwords, or ID documents.|Your wallet is your identity, and you're in control. No stored user data means you don't have to worry about data breaches."
 					}
 				}
 			},
@@ -1971,21 +2003,21 @@
 				"title": "🧠 Responsible Gambling",
 				"items": {
 					"0": {
-						"question": "14. Does {siteName} support responsible gambling?",
-						"answer": "Absolutely.|We encourage every player to enjoy gaming in moderation.|You can request a self-exclusion period or take a cooling-off break anytime by contacting {siteDomain}.|If you feel gambling is affecting your life, visit our Responsible Gambling page for resources and help organizations."
+						"question": "Does {siteName} support responsible gaming?",
+						"answer": "Absolutely. Keeping play responsible is at the heart of what we do.|We've built in self-exclusion and cooling-off tools so you can take a break or set limits whenever you need.|If you want advice or just someone to talk to, check out our Responsible Gambling page or drop a note to our support team."
 					},
 					"1": {
-						"question": "15. What should I do if I suspect a gambling problem?",
-						"answer": "If you feel your gambling is getting out of control, take a break and reach out to one of these trusted organizations for confidential help:|GamCare: GamCare - Founder of the National Gambling Helpline|Gambling Therapy: Gambling Therapy - Advice and support for problem gambling|Gamblers Anonymous: GA Gävle - Monday|Our support team can also guide you on limiting access to your account safely."
+						"question": "What should I do if I suspect a gambling problem?",
+						"answer": "If gambling starts messing with your money, health, or relationships, don't wait—reach out for help. These organizations offer confidential support:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|You can always ask {siteName} support to block or pause your account, too."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
 			"title": "💬 Need More Help?",
-			"intro": "Our support team is available 24/7 to assist you via:",
+			"intro": "Our support team's around 24/7.|You can reach us on Live Chat (just log in to your dashboard) or email us at support@{siteDomain}.",
 			"contactTitle": "",
-			"liveChat": "💬 Live Chat (available inside your wallet-connected dashboard)"
+			"liveChat": "We're here to make sure your experience stays safe, fair, and hassle-free."
 		}
 	}
 }

@@ -13,20 +13,22 @@ const siteName = interpolateSiteName(`{siteName}`);
 const siteDomain = interpolateSiteDomain(`{siteDomain}`);
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: `FAQs | ${siteName} – Crypto Casino Help & Support`,
-	description: `Find answers to common ${siteName} questions. Learn about wallet login, deposits, withdrawals, fair play, and blockchain transparency.`,
+	title: `FAQs | ${siteDomain} – Crypto Casino Help & Support`,
+	description: `Find answers to ${siteDomain} FAQs. Learn about wallet login, crypto deposits, withdrawals, fair play, and blockchain transparency.`,
 	keywords: [
 		`${siteName} FAQ`,
 		`${siteName} crypto casino help`,
-		"wallet login guide",
-		"crypto deposit",
-		"crypto withdrawal",
-		"provably fair games",
+		`${siteName} wallet login`,
+		"crypto deposit guide",
+		"crypto withdrawals",
+		"provably fair casino",
+		"blockchain gambling help",
+		`${siteName} support`,
 	],
 	path: "/faqs",
 	pageType: "faqs",
-	ogTitle: `FAQs | ${siteName} – Crypto Casino Help Center`,
-	ogDescription: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.`,
+	ogTitle: `FAQs | ${siteName} – Crypto Casino Help & Support`,
+	ogDescription: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain-based casino games.`,
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [
