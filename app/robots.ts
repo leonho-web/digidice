@@ -12,9 +12,11 @@
  */
 
 import { MetadataRoute } from "next";
+import { interpolateSiteDomain } from "../lib/utils/site-config";
+const siteDoamin = interpolateSiteDomain("{siteDomain}");
 
 // Site configuration
-const SITE_URL = "https://digidice.games";
+const SITE_URL = `https://${siteDoamin}`;
 const DEFAULT_CRAWL_DELAY = 2;
 
 // Public content paths that should be indexed
