@@ -641,11 +641,16 @@
 					"2": "Soddisfa i requisiti minimi di scommessa per ogni livello."
 				}
 			},
-			"calculation": {
-				"title": "Come vengono calcolati i bonus",
-				"desc": "I bonus vengono calcolati ogni 24 ore in base alle tue scommesse totali. Esempi:",
-				"exampleTitle": "Livello {tier}:",
-				"wagerIn": "Scommetti {amount} in {gameType}"
+			"kyc": {
+				"title": "8. Nessuna Verifica di Identità di Routine (Nessun KYC)",
+				"content1": "8.1 {siteName} non esegue la verifica di identità di routine (KYC) come condizione per il gioco normale. Gli utenti possono connettere un portafoglio tramite Dynamic.xyz e iniziare a giocare senza fornire documenti di identità.",
+				"content2": "8.2 Nonostante quanto sopra, {siteName} si riserva il diritto di richiedere informazioni o sospendere le transazioni se necessario per:",
+				"items": [
+					"Rispettare un ordine legale delle autorità competenti:",
+					"Prevenire, indagare o rimediare a frodi, riciclaggio di denaro o altre attività illegali",
+					"O proteggere la sicurezza e l'integrità della piattaforma."
+				],
+				"content3": "8.3 Se ti rifiuti di fornire tali informazioni quando legalmente richiesto, {siteName} può limitare o chiudere il tuo account e ritardare o trattenere i prelievi nella misura consentita dalla legge."
 			},
 			"table": {
 				"tierLevel": "Livello",

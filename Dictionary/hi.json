@@ -822,9 +822,9 @@
 				"wagerIn": "{gameType} में {amount} दांव"
 			},
 			"table": {
-				"tierLevel": "स्तर",
+				"tierLevel": "टियर स्तर",
 				"wagerRange": "दांव सीमा",
-				"slots": "स्लॉट्स",
+				"slots": "स्लॉट",
 				"liveCasino": "लाइव कैसीनो",
 				"sports": "खेल",
 				"tierPrefix": "स्तर",
@@ -841,7 +841,7 @@
 			},
 			"system": {
 				"title": "सिस्टम समय और संचालन",
-				"dailyTimeframeLabel": "दैनिक समय-सीमा:",
+				"dailyTimeframeLabel": "दैनिक समय सीमा:",
 				"dailyTimeframeValue": "00:00 UTC से 23:59 UTC (हर दिन)।",
 				"claimDailyLabel": "दैनिक दावा:",
 				"claimDailyValue": "प्रतिदिन 14:00 UTC पर उपलब्ध (आपका स्थानीय समय: {local})।",
