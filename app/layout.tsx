@@ -6,9 +6,12 @@ import { ThemeColorProvider } from "@/components/theme/theme-color-provider";
 import { LocaleProvider } from "@/lib/locale-provider";
 import { IOSViewportFix } from "@/components/common/ios-viewport-fix";
 import { ServiceWorkerRegister } from "@/components/common/service-worker-register";
-// import { SEOTemplates } from "@/lib/seo/seo-provider";
+import { SEOTemplates } from "@/lib/seo/seo-provider";
 import { JsonLd } from "@/components/seo/json-ld";
-import { generateOrganizationSchema, generateWebsiteSchema } from "@/lib/seo/schema-generator";
+import {
+	generateOrganizationSchema,
+	generateWebsiteSchema,
+} from "@/lib/seo/schema-generator";
 // Avoid bundling public images via import to skip sharp at build time
 import "./globals.css";
 
@@ -22,56 +25,8 @@ const poppins = Poppins({
 	adjustFontFallback: true, // Reduce layout shift
 });
 
-export const metadata: Metadata = {
-	metadataBase: new URL("https://digidice.games"),
-	title: "Digi Dice - Your Gateway to Fun and Rewards",
-	description:
-		"Join Digi Dice for an exciting gaming experience with amazing rewards!",
-	keywords: [
-		"gaming",
-		"rewards",
-		"fun",
-		"crypto",
-		"slots",
-		"live casino",
-		"sports betting",
-		"online gaming",
-		"betting",
-		"jackpots",
-	],
-	authors: [
-		{
-			name: "Digi Dice",
-			url: "https://digidice.games",
-		},
-	],
-	openGraph: {
-		title: "Digi Dice - Your Gateway to Fun and Rewards",
-		description:
-			"Join Digi Dice for an exciting gaming experience with amazing rewards!",
-		url: "https://digidice.games",
-		siteName: "Digi Dice",
-		images: [
-			{
-				url: "/assets/site/digidice-logo.png",
-				width: 1200,
-				height: 630,
-				alt: "Digi Dice - Your Gateway to Fun and Rewards",
-			},
-		],
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Digi Dice - Your Gateway to Fun and Rewards",
-		description:
-			"Join Digi Dice for an exciting gaming experience with amazing rewards!",
-	},
-	icons: {
-		icon: "/assets/site/digidice-logo.png",
-		shortcut: "/assets/site/digidice-logo.png",
-		apple: "/assets/site/digidice-logo.png",
-	},
-};
+// Global SEO metadata from centralized SEO system
+export const metadata: Metadata = SEOTemplates.home().metadata;
 
 export default async function RootLayout({
 	children,
@@ -84,7 +39,7 @@ export default async function RootLayout({
 
 	// Get user's locale from cookies for proper HTML lang attribute (SEO)
 	const cookieStore = await cookies();
-	const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
+	const locale = cookieStore.get("NEXT_LOCALE")?.value || "en";
 
 	return (
 		<html lang={locale} suppressHydrationWarning>
@@ -95,7 +50,7 @@ export default async function RootLayout({
 
 				<script
 					async
-					src="https://www.googletagmanager.com/gtag/js?id=G-CM98Y8Y7K3"
+					src="https://www.googletagmanager.com/gtag/js?id=G-XGN25EPM9P"
 				></script>
 				<script
 					dangerouslySetInnerHTML={{
@@ -103,7 +58,7 @@ export default async function RootLayout({
 	  						window.dataLayer = window.dataLayer || [];
 	  						function gtag(){dataLayer.push(arguments);}
 	  						gtag('js', new Date());
-	  						gtag('config', 'G-CM98Y8Y7K3');
+	  						gtag('config', 'G-XGN25EPM9P');
 						`,
 					}}
 				/>
@@ -147,7 +102,7 @@ export default async function RootLayout({
 				{/* Preload critical logo for LCP */}
 				<link
 					rel="preload"
-					href="/assets/site/digidice-logo.png"
+					href="/assets/site/Digidice-logo.png"
 					as="image"
 					type="image/png"
 					fetchPriority="high"

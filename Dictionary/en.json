@@ -33,6 +33,7 @@
 		"settings": "Settings",
 		"promotions": "Promotions",
 		"affiliate": "Referral Bonus",
+		"affiliate": "Referral Bonus",
 		"bonus": "Turnover Bonus",
 		"providers": "Providers",
 		"lobby": "Lobby",
@@ -489,6 +490,7 @@
 			"overview": {
 				"title": "Overview",
 				"body": "The Referral Bonus rewards affiliates based on the wager turnover from referred players in Slots , Live Casino , Sportsbooks and Lottery. Commissions are calculated every 24 hours, with earnings based on different turnover tiers."
+				"body": "The Referral Bonus rewards affiliates based on the wager turnover from referred players in Slots , Live Casino , Sportsbooks and Lottery. Commissions are calculated every 24 hours, with earnings based on different turnover tiers."
 			},
 			"calculation": {
 				"title": "How Commissions Are Calculated",
@@ -591,6 +593,7 @@
 			},
 			"section3": {
 				"title": "Turnover Tiers and Rates",
+				"title": "Turnover Tiers and Rates",
 				"content": "Bonuses are calculated based on your daily wager amounts:",
 				"noteTitle": "Note",
 				"noteContent": "Tiers are evaluated daily at 14:00 UTC. Your previous day's wager volume determines today's bonus rate. Rates apply to all game types: Slots, Live Casino, and Sports."
@@ -627,9 +630,11 @@
 		},
 		"rates": {
 			"title": "Turnover Tiers and Rates",
+			"title": "Turnover Tiers and Rates",
 			"subtitle": "Bonus percentages by wager level and game category",
 			"overview": {
 				"title": "Overview",
+				"body": "The Turnover Bonus rewards users based on their wagers in Slot , Live Casino , Sportsbook and Lottery. Bonuses are calculated every 24 hours, and users can claim them next day after wagering. There are seven tiers, each with different rates depending on the wager amount."
 				"body": "The Turnover Bonus rewards users based on their wagers in Slot , Live Casino , Sportsbook and Lottery. Bonuses are calculated every 24 hours, and users can claim them next day after wagering. There are seven tiers, each with different rates depending on the wager amount."
 			},
 			"eligibility": {
@@ -1348,6 +1353,7 @@
 					"about": "About Us",
 					"providers": "Providers",
 					"affiliate": "Referral Bonus",
+					"affiliate": "Referral Bonus",
 					"bonus": "Turnover Bonus"
 				}
 			},
@@ -1544,7 +1550,7 @@
 				"content3": "2.3 Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
 			},
 			"general": {
-				"title": "3. General Terms",
+				"title": "The Basics",
 				"items": [
 					"Upon registration or wallet connection, you ('User', 'Player', 'You', or 'Your') agree to comply with all {siteName} rules and policies.",
 					"This Agreement is a legally binding contract between you and {siteName}.",
@@ -1581,15 +1587,15 @@
 				}
 			},
 			"eligibility": {
-				"title": "5. Eligibility & User Warranties",
-				"intro": "5.1 You represent and warrant that:",
+				"title": "Who Can Play and What You Promise",
+				"intro": "By using {siteDomain}, you promise:",
 				"items": [
-					"You are at least 18 years old (or the minimum legal gambling age in your jurisdiction).",
-					"You are legally permitted to use online crypto gambling services where you are located.",
-					"You are the lawful owner of the wallet you connect.",
-					"You will not use VPNs or location spoofing to bypass regional restrictions.",
-					"You will not use the Service for illegal or commercial purposes.",
-					"You accept that cryptocurrency value may fluctuate and you bear all market risk."
+					"You're at least 18, or whatever the legal gambling age is where you live.",
+					"Online crypto gaming is legal for you.",
+					"You own the wallet you connect.",
+					"You won't use VPNs, proxies, or IP-masking to dodge geo-blocks.",
+					"You won't use {siteName} for anything illegal or shady.",
+					"You get that crypto is volatile, and you accept the risks."
 				],
 				"outro": "5.2 If you breach these warranties, {siteName} may suspend or terminate access and withhold funds where permitted by law."
 			},
@@ -1634,9 +1640,9 @@
 				"content1": "8.1 {siteName} does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents.",
 				"content2": "8.2 Notwithstanding the above, {siteName} reserves the right to request information or suspend transactions if required to:",
 				"items": [
-					"Comply with a lawful order from the competent authorities:",
-					"Prevent, investigate, or remediate fraud, money-laundering, or other illegal activity",
-					"Or protect the security and integrity of the platform."
+					"The law or an authority requires it.",
+					"They need to look into fraud or suspicious behavior.",
+					"It's needed to keep the platform secure or meet regulations."
 				],
 				"content3": "8.3 If you refuse to provide such information when legally required, {siteName} may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
 			},
@@ -1662,7 +1668,7 @@
 				]
 			},
 			"playingRules": {
-				"title": "11. Playing Rules & Game Settlement",
+				"title": "GAME RULES & RESULTS",
 				"items": [
 					"Bets are accepted only once you receive on-screen confirmation. Bets placed with insufficient balance are void.",
 					"{siteName}'s internal logs and blockchain records are authoritative in case of disputes.",
@@ -1674,9 +1680,10 @@
 				"title": "12. Errors, Interruptions & Limits",
 				"intro": "{siteName} is not liable for losses caused by:",
 				"items": [
-					"Internet or device failures",
-					"Blockchain delays, forks, or network congestion",
-					"Software bugs or third-party service outages"
+					"Internet drops or lag.",
+					"Blockchain delays or forks.",
+					"Wallet downtime from third parties.",
+					"Smart contract or game provider glitches."
 				],
 				"outro1": "{siteName} reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected.",
 				"outro2": "We may set wagering limits, maximum wins, and other controls to protect users and the platform."
@@ -1693,7 +1700,7 @@
 				"outro2": "{siteName} may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
 			},
 			"responsibleGaming": {
-				"title": "14. Responsible Gaming",
+				"title": "RESPONSIBLE GAMING",
 				"items": [
 					"{siteName} promotes responsible gambling. You may request: Self-exclusion, Deposit limits, or Temporary suspension.",
 					"If you suspect gambling harm, visit {siteDomain} for immediate assistance.",
@@ -1706,7 +1713,7 @@
 				"content2": "You are granted a limited, revocable license to access the Service for personal entertainment only."
 			},
 			"liability": {
-				"title": "16. Limitation of Liability",
+				"title": "LIMITATION OF LIABILITY",
 				"items": [
 					"To the fullest extent permitted by law, {siteName} will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs.",
 					"Our aggregate liability for any claim related to these Terms shall not exceed the value of your last deposit or an amount specified by applicable law.",
@@ -1722,7 +1729,7 @@
 				"content": "{siteName} may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
 			},
 			"miscellaneous": {
-				"title": "19. Miscellaneous",
+				"title": "MISCELLANEOUS",
 				"items": [
 					"These Terms constitute the entire agreement between you and {siteName} regarding the Service.",
 					"If any clause is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will remain in effect.",
@@ -1771,6 +1778,8 @@
 			}
 		},
 		"selfCheck": {
+			"title": "Quick Self-Check: Are You Still in Control?",
+			"intro": "Be honest with yourself:",
 			"title": "Quick Self-Check: Are You Still in Control?",
 			"intro": "Be honest with yourself:",
 			"questions": {
@@ -1832,7 +1841,7 @@
 				},
 				"2": {
 					"name": "Gamblers Anonymous",
-					"url": "https://www.gamblersanonymous.org"
+					"url": "https://www.gamblersanonymous.org/ga"
 				},
 				"3": {
 					"name": "National Council on Problem Gambling",
@@ -1896,7 +1905,7 @@
 		"intro": "Welcome to the {siteName} FAQ Center, where you'll find quick answers to the most common questions about our crypto gaming platform.|If you can't find your answer here, our 24/7 support team is always ready to help at {siteName}.",
 		"categories": {
 			"accountRegistration": {
-				"title": "🔹 Account & Registration",
+				"title": "Account & Registration",
 				"items": {
 					"0": {
 						"question": "1. Can I register on your website?",
@@ -1904,37 +1913,39 @@
 						"reminder": "Reminder: Gambling can be addictive. Please play responsibly and know your limits."
 					},
 					"1": {
-						"question": "2. What if I forget my login details?",
-						"answer": "Since {siteName} uses wallet-based login via Dynamic.xyz, you don't use traditional passwords.|To access your account again:|Reconnect your wallet using the same address you originally used.|If you've lost access to your wallet, please restore it with your seed phrase or backup method (we never store or control private keys).|{siteName} cannot reset or recover your wallet credentials for security reasons."
+						"question": "What if I lose access to my account?",
+						"answer": "We use wallet-based login. So, no usernames, no passwords to recover. To get back in, just reconnect with the same wallet address you used before.|Lost access to your wallet? Use your seed phrase or recovery file to restore it.|For your security, we never store private keys and can't recover lost wallets for you."
 					},
 					"2": {
-						"question": "3. Can I change my username or linked wallet?",
-						"answer": "Your {siteName} account is tied to your wallet address.|To use a new wallet, simply connect a new one — but note that your previous gaming history, VIP status, and bonuses will not transfer automatically."
+						"question": "Can I change my wallet or username?",
+						"answer": "Your account is tied directly to your wallet. If you want to use a new wallet, connect a different one. Just keep in mind — your balance, VIP status, and rewards stay with your old wallet. They don't move over automatically."
 					},
 					"3": {
-						"question": "4. How do I become a VIP member?",
-						"answer": "Our VIP program is exclusive and invitation-only.|As you play and engage with the {siteName} community, your gaming activity is automatically tracked.|Once eligible, you'll receive an official invitation via in-platform notification or direct message from the {siteName} team.|VIPs enjoy access to exclusive bonuses, faster withdrawals, and personalized rewards."
+						"question": "How do I become a VIP member?",
+						"answer": "Our VIP Club is invite-only. As you play and get more involved, we track your activity. Once you qualify, we'll send you a personal invite right on the platform.|VIP perks include:|Higher rewards|Faster withdrawals|Personalized bonuses"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "💰 Deposits & Withdrawals",
+				"title": "Deposits & Withdrawals",
 				"items": {
 					"0": {
-						"question": "5. How do I deposit crypto?",
-						"answer": "Depositing on {siteName} is fast and simple:|Go to \"My Wallet\" on the main dashboard.|Choose Deposit and select your preferred cryptocurrency (e.g., BTC, ETH, USDT, BNB).|Copy your unique wallet address or scan the QR code.|Send your crypto from your external wallet to the address displayed.|Once confirmed on the blockchain, your funds will appear in your {siteName} balance automatically.|⚠️ Make sure you only send supported cryptocurrencies to the correct address network (e.g., ERC20, TRC20, BEP20)."
+						"question": "How do I deposit crypto?",
+						"answer": "Depositing is quick and secure, and it all happens on-chain. Here's how:|Open My Wallet on your dashboard.|Hit Deposit and pick your coin (BTC, ETH, USDT, BNB, etc.).|Copy the address or scan the QR code.|Send your crypto from your personal wallet.|Once your transaction gets enough confirmations on the blockchain, your funds show up automatically.",
+						"reminder": "Double-check you're using the right network (ERC20, TRC20, BEP20, etc.) before sending anything."
 					},
 					"1": {
-						"question": "6. How long do deposits take?",
-						"answer": "Deposits are usually confirmed within 5–10 minutes, depending on blockchain congestion and transaction fees.|You can track the progress of your transaction through a block explorer (e.g., Etherscan.io or BscScan.com) using your transaction hash (TXID).|A minimum of 3 confirmations is typically required for your deposit to appear in your balance."
+						"question": "How long do deposits take?",
+						"answer": "Usually, deposits show up in 5 to 10 minutes, depending on network traffic and fees. You can keep an eye on your transaction using a blockchain explorer like Etherscan.io or BscScan.com.|We credit your funds after three confirmations."
 					},
 					"2": {
-						"question": "7. What is the minimum withdrawal amount?",
-						"answer": "The minimum withdrawal amount depends on the cryptocurrency you are using.|Each coin has its own network fee and minimum threshold.|These values are displayed in the Withdraw section under \"My Wallet.\""
+						"question": "What's the minimum withdrawal limit?",
+						"answer": "Each crypto has its own minimum withdrawal amount. You'll see the exact numbers under the Withdraw section. It depends on the coin and the network fee."
 					},
 					"3": {
-						"question": "8. How do I withdraw my winnings?",
-						"answer": "To withdraw your crypto:|Go to \"My Wallet\" → \"Withdraw.\"|Enter your destination wallet address and the amount you wish to withdraw.|Double-check your address and network type before confirming.|Withdrawals are processed instantly, but may take a few minutes depending on blockchain network activity.|💡 Always ensure your receiving wallet supports the network you're withdrawing from."
+						"question": "How do I withdraw winnings?",
+						"answer": "To withdraw:|Go to My Wallet and tap Withdraw.|Enter where you want your crypto sent and how much you want to take out.|Double-check the address and network.|Confirm your transaction.|Withdrawals are instant once confirmed on-chain. You'll see your funds in a few minutes.",
+						"reminder": "Always use a wallet that supports the network you're withdrawing from."
 					},
 					"4": {
 						"question": "9. What if my transaction is delayed?",
@@ -1943,19 +1954,19 @@
 				}
 			},
 			"gamesSecurity": {
-				"title": "🎮 Games, Fairness & Security",
+				"title": "Games, Fairness & Security",
 				"items": {
 					"0": {
-						"question": "10. Are {siteName} games fair?",
-						"answer": "Yes — all {siteName} games are built using provably fair technology and verified smart contracts.|Every bet, result, and payout can be independently verified on the blockchain.|We operate on transparent, tamper-proof systems that guarantee randomness, fairness, and openness.|You can view game outcomes and transaction proofs on-chain through Etherscan or the respective network explorer."
+						"question": "Are {siteName} games fair?",
+						"answer": "Absolutely. Every game is 100% provably fair. We use cryptographic algorithms on the blockchain so you can check every bet and payout yourself.|There are no hidden results, no tricks, just fair and transparent gaming."
 					},
 					"1": {
 						"question": "11. What should I do if a game freezes or crashes?",
 						"answer": "If your game stops responding:|Refresh the page.|Clear your browser cache and reconnect your wallet.|If the issue persists, contact our support team via Live Chat or {siteName}.|Our team will assist you in restoring your game session or balance if affected."
 					},
 					"2": {
-						"question": "12. Can I use more than one wallet or account?",
-						"answer": "No.|Each player is permitted to use one wallet address as their primary account.|Creating multiple accounts or using wallet rotations to claim bonuses or exploit promotions is strictly prohibited and may result in account restriction or balance forfeiture."
+						"question": "Can I use multiple wallets or accounts?",
+						"answer": "No. One wallet equals one account. Opening extra wallets to grab bonuses or mess with the system breaks our Terms and could cost you your winnings."
 					},
 					"3": {
 						"question": "13. Is my personal data safe?",
@@ -1986,7 +1997,7 @@
 		},
 		"needMoreHelp": {
 			"title": "💬 Need More Help?",
-			"intro": "Our support team is available 24/7 to assist you via:",
+			"intro": "Our support team's around 24/7.|You can reach us on Live Chat (just log in to your dashboard) or email us at support@{siteDomain}.",
 			"contactTitle": "",
 			"liveChat": "💬 Live Chat (available inside your wallet-connected dashboard)"
 		}

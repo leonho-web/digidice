@@ -4,29 +4,39 @@ import {
 	generateOrganizationSchema,
 	generateWebPageSchema,
 } from "@/lib/seo/schema-generator";
+import {
+	interpolateSiteName,
+	interpolateSiteDomain,
+} from "@/lib/utils/site-config";
+
+const siteName = interpolateSiteName(`{siteName}`);
+const siteDomain = interpolateSiteDomain(`{siteDomain}`);
 
 export const metadata: Metadata = generateSEOMetadata({
-	title: "Responsible Gambling | digidice.com – Play Smart, Stay Safe",
-	description:
-		"Learn about responsible gambling at digidice.com. Stay in control, play responsibly, and get support through global help organizations.",
+	title: `Responsible Gambling | ${siteDomain} – Play Smart, Stay Safe`,
+	description: `Learn about responsible gambling at ${siteName}.. Stay in control, play safely, and access global gambling support and self-exclusion options.`,
 	keywords: [
-		"DigiDice Responsible Gambling",
-		"DigiDice play safe",
+		`${siteName} Responsible Gambling`,
+		`${siteName} play safe`,
 		"crypto casino responsible gaming",
-		"gambling help",
-		"DigiDice self exclusion",
+		`${siteName} gambling help`,
+		`${siteName} self exclusion`,
+		"blockchain casino safety",
+		"responsible crypto gaming",
+		"fair crypto play",
 	],
 	path: "/responsible-gambling",
 	pageType: "responsibleGambling",
+	ogTitle: `Responsible Gambling | ${siteName} – Play Smart, Stay Safe`,
+	ogDescription: `${siteName} promotes responsible crypto gaming. Learn to play safely, manage your playtime, and access trusted global gambling support resources.`,
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [
 		generateOrganizationSchema(),
 		generateWebPageSchema({
-			title: "Responsible Gambling at digidice.com",
-			url: "https://digidice.com/responsible-gambling",
-			description:
-				"digidice.com promotes responsible crypto gaming. Learn to play safely, control habits, and access global gambling support organizations.",
+			title: `Responsible Gambling at ${siteName}`,
+			url: `https://${siteDomain}/responsible-gambling`,
+			description: `${siteName} promotes responsible crypto gaming. Learn to play safely, manage your playtime, and access trusted global gambling support resources.`,
 		}),
 	],
 });

@@ -477,18 +477,8 @@ export default function ResponsibleGamblingPage() {
 			{/* Final Message */}
 			<SectionCard variant="primary">
 				<ContentSection>
-					{splitParagraphs(
-						t("responsibleGambling.finalMessage.paragraph1")
-					).map((para, index) => (
-						<p key={index} className="mb-4 text-lg font-semibold">
-							{para}
-						</p>
-					))}
-					<p className="mb-2">
-						{t("responsibleGambling.finalMessage.paragraph2")}
-					</p>
-					<p className="text-primary font-medium">
-						{t("responsibleGambling.finalMessage.contact")}
+					<p className="mb-4 text-lg font-semibold">
+						{t("responsibleGambling.finalMessage.paragraph1")}
 					</p>
 				</ContentSection>
 			</SectionCard>

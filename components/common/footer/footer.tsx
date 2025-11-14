@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useT } from "@/hooks/useI18n";
 import {
 	Facebook,
@@ -18,6 +18,7 @@ import { SeoContentSection } from "./seo-content-section";
 export function Footer() {
 	const t = useT();
 	const currentYear = new Date().getFullYear();
+	const pathname = usePathname();
 
 	// Network logos
 	const networks = [
@@ -113,7 +114,7 @@ export function Footer() {
 			links: [
 				{
 					label: t("footer.sections.company.links.about"),
-					href: "/about",
+					href: "/about-us",
 					icon: Info,
 				},
 				{
@@ -135,12 +136,12 @@ export function Footer() {
 			links: [
 				{
 					label: t("footer.sections.legal.links.privacy"),
-					href: "/privacy",
+					href: "/privacy-policy",
 					icon: Shield,
 				},
 				{
 					label: t("footer.sections.legal.links.terms"),
-					href: "/terms",
+					href: "/terms-and-conditions",
 					icon: FileText,
 				},
 				{
@@ -186,7 +187,7 @@ export function Footer() {
 				},
 				// {
 				// 	label: t("footer.sections.support.links.contact"),
-				// 	href: "mailto:support@digidice.com",
+				// 	href: "mailto:support@digidice.games",
 				// 	icon: Mail,
 				// },
 			],
@@ -219,7 +220,7 @@ export function Footer() {
 	return (
 		<>
 			{/* SEO Content Section */}
-			<SeoContentSection />
+			{pathname === "/" && <SeoContentSection />}
 
 			{/* Main Footer */}
 			<footer className="border-t border-border bg-card mb-10 md:mb-0">
@@ -260,7 +261,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-									<Image
+									<img
 										src={network.src}
 										alt={network.name}
 										width={80}
@@ -283,7 +284,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-									<Image
+									<img
 										src={crypto.src}
 										alt={crypto.name}
 										width={80}
@@ -306,7 +307,7 @@ export function Footer() {
 									key={index}
 									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
 								>
-									<Image
+									<img
 										src={logo.src}
 										alt={logo.name}
 										width={80}
@@ -331,14 +332,13 @@ export function Footer() {
 							>
 								DigiDice
 							</Link>
-							<p className="text-sm tracking-wider max-w-3xl text-muted-foreground">
-								A multi-award-winning crypto gaming platform.
-								With a player-centric approach, DigiDice
-								satisfies millions of gamblers globally.
-								DigiDice prioritizes its community, ensuring a
-								continuously engaging and entertaining
-								experience.
-							</p>
+							<div className="text-sm tracking-wider max-w-3xl text-muted-foreground space-y-2">
+								{t("footer.description")
+									.split("|")
+									.map((para, index) => (
+										<p key={index}>{para}</p>
+									))}
+							</div>
 							<p className="text-xs text-muted-foreground">
 								{t("footer.copyright", {
 									year: currentYear.toString(),

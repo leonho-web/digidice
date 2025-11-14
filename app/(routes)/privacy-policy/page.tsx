@@ -13,6 +13,7 @@ import Link from "next/link";
 export default function PrivacyPage() {
 	const t = useT();
 
+	const siteDomain = window?.location?.hostname || "digidice.games";
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
@@ -49,16 +50,31 @@ export default function PrivacyPage() {
 					items={[
 						{
 							content: t(
-								"privacy.sections.dataCollection.accountData.email"
+								"privacy.sections.dataCollection.accountData.items.0"
 							),
 						},
 						{
 							content: t(
-								"privacy.sections.dataCollection.accountData.kyc"
+								"privacy.sections.dataCollection.accountData.items.1"
 							),
 						},
+						{
+							content: t(
+								"privacy.sections.dataCollection.accountData.items.2"
+							),
+						},
+						// {
+						// 	content: t(
+						// 		"privacy.sections.dataCollection.accountData.kyc"
+						// 	),
+						// },
 					]}
 				/>
+				<ContentSection>
+					<p>
+						{t("privacy.sections.dataCollection.accountData.kyc")}
+					</p>
+				</ContentSection>
 
 				<ListSection
 					title={t(
@@ -82,6 +98,11 @@ export default function PrivacyPage() {
 						},
 					]}
 				/>
+				<ContentSection>
+					<p>
+						{t("privacy.sections.dataCollection.walletData.note")}
+					</p>
+				</ContentSection>
 
 				<ListSection
 					title={t(
@@ -167,9 +188,11 @@ export default function PrivacyPage() {
 				/>
 			</SectionCard>
 
-			{/* 4. Crypto Wallet Specifics */}
+			{/* 4. Blockchain Transparency */}
 			<SectionCard
 				title={t("privacy.sections.cryptoWallet.title")}
+				intro={t("privacy.sections.cryptoWallet.intro")}
+				outro={t("privacy.sections.cryptoWallet.outro")}
 				icon={Lock}
 			>
 				<ListSection
@@ -189,17 +212,25 @@ export default function PrivacyPage() {
 								"privacy.sections.cryptoWallet.points.2"
 							),
 						},
+						{
+							content: t(
+								"privacy.sections.cryptoWallet.points.3"
+							),
+						},
 					]}
 				/>
 			</SectionCard>
 
-			{/* 5. Data Sharing */}
+			{/* 5. Sharing & Disclosure */}
 			<SectionCard
 				title={t("privacy.sections.dataSharing.title")}
 				intro={t("privacy.sections.dataSharing.intro")}
 				outro={t("privacy.sections.dataSharing.noSelling")}
 				classNames={{ outro: "font-medium" }}
 			>
+				<ContentSection>
+					<p>{t("privacy.sections.dataSharing.para")}</p>
+				</ContentSection>
 				<ListSection
 					items={[
 						{
@@ -237,49 +268,102 @@ export default function PrivacyPage() {
 						{
 							content: t("privacy.sections.security.items.3"),
 						},
+						{
+							content: t("privacy.sections.security.items.4"),
+						},
 					]}
 				/>
 			</SectionCard>
 
-			{/* 7. Cookies & Tracking */}
-			<SectionCard title={t("privacy.sections.cookies.title")}>
-				<p>{t("privacy.sections.cookies.content")}</p>
+			{/* 7. Cookies & Analytics */}
+			<SectionCard
+				title={t("privacy.sections.cookies.title")}
+				intro={t("privacy.sections.cookies.intro")}
+				outro={t("privacy.sections.cookies.outro")}
+			>
+				<ListSection
+					items={[
+						{
+							content: t("privacy.sections.cookies.items.0"),
+						},
+						{
+							content: t("privacy.sections.cookies.items.1"),
+						},
+						{
+							content: t("privacy.sections.cookies.items.2"),
+						},
+					]}
+				/>
 			</SectionCard>
 
-			{/* 8. Children & Minimum Age */}
+			{/* 8. Underage Use Policy */}
 			<SectionCard
 				title={t("privacy.sections.minAge.title")}
+				intro={t("privacy.sections.minAge.intro")}
 				variant="warning"
 			>
 				<p className="font-medium text-foreground">
 					{t("privacy.sections.minAge.content")}
 				</p>
+				<ListSection
+					items={[
+						{
+							content: t("privacy.sections.minAge.items.0"),
+						},
+						{
+							content: t("privacy.sections.minAge.items.1"),
+						},
+						{
+							content: t("privacy.sections.minAge.items.2"),
+						},
+					]}
+				/>
 			</SectionCard>
 
-			{/* 9. Breach Notification */}
+			{/* 9. Data Breach Response */}
 			<SectionCard title={t("privacy.sections.breach.title")}>
 				<p>{t("privacy.sections.breach.content")}</p>
+
+				<ListSection
+					items={[
+						{
+							content: t("privacy.sections.breach.items.0"),
+						},
+						{
+							content: t("privacy.sections.breach.items.1"),
+						},
+						{
+							content: t("privacy.sections.breach.items.2"),
+						},
+					]}
+				/>
 			</SectionCard>
 
-			{/* 10. Policy Changes */}
+			{/* 10. Policy Updates */}
 			<SectionCard title={t("privacy.sections.changes.title")}>
 				<p>{t("privacy.sections.changes.content")}</p>
 			</SectionCard>
 
-			{/* 11. Contact */}
+			{/* 11. Contact Us */}
 			<SectionCard
 				title={t("privacy.sections.contact.title")}
 				icon={Mail}
 			>
 				<p>{t("privacy.sections.contact.intro")}</p>
-				<div className="mt-4">
+				<div className="mt-4 space-y-2">
 					<Link
-						href="https://digidice.com"
-						className="text-primary hover:underline font-medium"
+						href={`mailto:support@${siteDomain}`}
+						className="text-primary hover:underline font-medium block"
+					>
+						{`📧 ${siteDomain}`}
+					</Link>
+					<Link
+						href={`https://${siteDomain}`}
+						className="text-primary hover:underline font-medium block"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						🌐 https://digidice.com
+						{`🌐 https://${siteDomain}`}
 					</Link>
 				</div>
 			</SectionCard>

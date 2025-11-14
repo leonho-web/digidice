@@ -1,0 +1,54 @@
+import { Metadata } from "next";
+import { generateSEOMetadata } from "@/lib/seo/seo-provider";
+import {
+	generateOrganizationSchema,
+	generateWebPageSchema,
+} from "@/lib/seo/schema-generator";
+import {
+	interpolateSiteName,
+	interpolateSiteDomain,
+} from "@/lib/utils/site-config";
+
+const siteName = interpolateSiteName(`{siteName}`);
+const siteDomain = interpolateSiteDomain(`{siteDomain}`);
+
+// Generate SEO Metadata for Games Page
+export const metadata: Metadata = generateSEOMetadata({
+	title: `All Games | ${siteDomain} – Slots, Poker & Live Casino`,
+	description: `Explore 5000+ crypto games at ${siteDomain}. Play slots, poker, and live casino titles with instant wallet access, no KYC, and fair blockchain-based gameplay.`,
+	keywords: [
+		`${siteDomain} games`,
+		`${siteName} slots`,
+		"crypto casino games",
+		"play poker online crypto",
+		"live crypto casino",
+		"provably fair casino",
+		"no KYC gaming",
+		"decentralized betting",
+		"blockchain casino games",
+		"crypto poker tables",
+		`${siteName} live gaming`,
+	],
+	path: "/games",
+	pageType: "games",
+	ogTitle: `All Games at ${siteName} | Slots, Poker, Live Casino & Sports`,
+	ogDescription: `Play 5,000+ casino games at ${siteName} — including crypto slots, live dealers, poker, and sports betting. Fast wallet payouts and provably fair gaming on every spin.`,
+	ogType: "website",
+	ogImage: "/assets/seo/GAMES.png",
+	schemas: [
+		generateOrganizationSchema(),
+		generateWebPageSchema({
+			title: `All Games on ${siteName} – Slots, Poker & Live Casino`,
+			url: `https://${siteDomain}/games`,
+			description: `Discover the full ${siteName} game list – slots, poker & live casino from top providers. Play instantly, win securely.`,
+		}),
+	],
+});
+
+export default function GamesLayout({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
+	return <>{children}</>;
+}

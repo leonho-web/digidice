@@ -25,42 +25,54 @@ import Link from "next/link";
 export default function TermsPage() {
 	const t = useT();
 
+	const siteDomain = window?.location?.hostname || "digidice.games";
 	return (
 		<div className="container mx-auto space-y-8 consistent-padding-x consistent-padding-y">
 			<PageHeader
 				title={t("terms.title")}
-				subtitle={t("terms.subtitle")}
 				lastUpdated={t("terms.lastUpdated")}
 			/>
 
-			{/* 1. digidice.com Ownership */}
+			{/* 1. Who Runs DigiDice.games */}
 			<SectionCard title={t("terms.sections.ownership.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ownership.content1")}</p>
-					<p>{t("terms.sections.ownership.content2")}</p>
+					<p className="mt-2">
+						{t("terms.sections.ownership.content2")}
+					</p>
 				</ContentSection>
 			</SectionCard>
 
-			{/* 2. Important Notice */}
+			{/* 2. What You're Agreeing To */}
 			<SectionCard
 				title={t("terms.sections.notice.title")}
+				outro={t("terms.sections.notice.outro")}
+				classNames={{ outro: "font-medium text-foreground mt-2" }}
 				variant="warning"
 				icon={AlertTriangle}
 			>
 				<ContentSection>
 					<p className="font-medium text-foreground">
-						{t("terms.sections.notice.content1")}
+						{t("terms.sections.notice.content")}
 					</p>
-					<p className="font-medium text-foreground">
+
+					<ListSection
+						items={[
+							{ content: t("terms.sections.notice.items.0") },
+							{ content: t("terms.sections.notice.items.1") },
+							{ content: t("terms.sections.notice.items.2") },
+							{ content: t("terms.sections.notice.items.3") },
+							{ content: t("terms.sections.notice.items.4") },
+						]}
+					/>
+
+					<p className="font-medium text-foreground mt-2">
 						{t("terms.sections.notice.content2")}
-					</p>
-					<p className="font-medium text-foreground">
-						{t("terms.sections.notice.content3")}
 					</p>
 				</ContentSection>
 			</SectionCard>
 
-			{/* 3. General Terms */}
+			{/* 3. The Basics */}
 			<SectionCard title={t("terms.sections.general.title")} icon={Scale}>
 				<ListSection
 					items={[
@@ -69,16 +81,14 @@ export default function TermsPage() {
 						{ content: t("terms.sections.general.items.2") },
 						{ content: t("terms.sections.general.items.3") },
 						{ content: t("terms.sections.general.items.4") },
-						{ content: t("terms.sections.general.items.5") },
 					]}
 				/>
 			</SectionCard>
 
-			{/* 4. Account, Wallet Login & Security */}
+			{/* 4. Your Wallet, Login, and Security */}
 			<SectionCard
 				title={t("terms.sections.account.title")}
 				icon={Wallet}
-				intro={t("terms.sections.account.intro")}
 			>
 				<ListSection
 					title={t("terms.sections.account.walletLogin.title")}
@@ -134,7 +144,7 @@ export default function TermsPage() {
 				/>
 			</SectionCard>
 
-			{/* 5. Eligibility & User Warranties */}
+			{/* 5. Who Can Play and What You Promise */}
 			<SectionCard
 				title={t("terms.sections.eligibility.title")}
 				intro={t("terms.sections.eligibility.intro")}
@@ -156,7 +166,7 @@ export default function TermsPage() {
 				/>
 			</SectionCard>
 
-			{/* 6. Restricted Jurisdictions */}
+			{/* 6. Where You Can't Play */}
 			<SectionCard
 				title={t("terms.sections.restricted.title")}
 				variant="warning"
@@ -175,7 +185,7 @@ export default function TermsPage() {
 				</ContentSection>
 			</SectionCard>
 
-			{/* 7. Crypto Deposits & Withdrawals */}
+			{/* 7. Crypto Deposits and Withdrawals */}
 			<SectionCard title={t("terms.sections.crypto.title")} icon={Wallet}>
 				<ListSection
 					title={t("terms.sections.crypto.policy.title")}
@@ -191,11 +201,6 @@ export default function TermsPage() {
 						{
 							content: t(
 								"terms.sections.crypto.deposits.items.0"
-							),
-						},
-						{
-							content: t(
-								"terms.sections.crypto.deposits.items.1"
 							),
 						},
 					]}
@@ -216,38 +221,29 @@ export default function TermsPage() {
 						},
 					]}
 				/>
+			</SectionCard>
+
+			{/* 8. NO KYC POLICY */}
+			<SectionCard
+				title={t("terms.sections.kyc.title")}
+				intro={t("terms.sections.kyc.intro")}
+				outro={t("terms.sections.kyc.outro")}
+				icon={Lock}
+			>
+				<ContentSection>
+					<p className="mt-2">{t("terms.sections.kyc.content1")}</p>
+				</ContentSection>
 
 				<ListSection
-					title={t("terms.sections.crypto.chargebacks.title")}
 					items={[
-						{
-							content: t(
-								"terms.sections.crypto.chargebacks.items.0"
-							),
-						},
+						{ content: t("terms.sections.kyc.items.0") },
+						{ content: t("terms.sections.kyc.items.1") },
+						{ content: t("terms.sections.kyc.items.2") },
 					]}
 				/>
 			</SectionCard>
 
-			{/* 8. No Routine Identity Verification (No KYC) */}
-			<SectionCard title={t("terms.sections.kyc.title")} icon={Lock}>
-				<ContentSection>
-					<p>{t("terms.sections.kyc.content1")}</p>
-					<p className="mt-2">{t("terms.sections.kyc.content2")}</p>
-
-					<ListSection
-						items={[
-							{ content: t("terms.sections.kyc.items.0") },
-							{ content: t("terms.sections.kyc.items.1") },
-							{ content: t("terms.sections.kyc.items.2") },
-						]}
-					/>
-
-					<p className="mt-2">{t("terms.sections.kyc.content3")}</p>
-				</ContentSection>
-			</SectionCard>
-
-			{/* 9. Fair Play, Prohibited Conduct & Security */}
+			{/* 9. FAIR PLAY, CONDUCT & SECURITY */}
 			<SectionCard
 				title={t("terms.sections.fairPlay.title")}
 				icon={Shield}
@@ -259,7 +255,6 @@ export default function TermsPage() {
 						{ content: t("terms.sections.fairPlay.items.1") },
 						{ content: t("terms.sections.fairPlay.items.2") },
 						{ content: t("terms.sections.fairPlay.items.3") },
-						{ content: t("terms.sections.fairPlay.items.4") },
 					]}
 				/>
 				<p className="mt-4 font-medium text-foreground">
@@ -268,7 +263,7 @@ export default function TermsPage() {
 				<p className="mt-2">{t("terms.sections.fairPlay.outro2")}</p>
 			</SectionCard>
 
-			{/* 10. Bonuses & Promotions */}
+			{/* 10. BONUSES & PROMOTIONS */}
 			<SectionCard title={t("terms.sections.bonuses.title")} icon={Gift}>
 				<ListSection
 					items={[
@@ -279,7 +274,7 @@ export default function TermsPage() {
 				/>
 			</SectionCard>
 
-			{/* 11. Playing Rules & Game Settlement */}
+			{/* 11. GAME RULES & RESULTS */}
 			<SectionCard
 				title={t("terms.sections.playingRules.title")}
 				icon={Gamepad2}
@@ -289,12 +284,11 @@ export default function TermsPage() {
 						{ content: t("terms.sections.playingRules.items.0") },
 						{ content: t("terms.sections.playingRules.items.1") },
 						{ content: t("terms.sections.playingRules.items.2") },
-						{ content: t("terms.sections.playingRules.items.3") },
 					]}
 				/>
 			</SectionCard>
 
-			{/* 12. Errors, Interruptions & Limits */}
+			{/* 12. LIMITATIONS & INTERRUPTIONS */}
 			<SectionCard
 				title={t("terms.sections.errors.title")}
 				intro={t("terms.sections.errors.intro")}
@@ -304,13 +298,13 @@ export default function TermsPage() {
 						{ content: t("terms.sections.errors.items.0") },
 						{ content: t("terms.sections.errors.items.1") },
 						{ content: t("terms.sections.errors.items.2") },
+						{ content: t("terms.sections.errors.items.3") },
 					]}
 				/>
 				<p className="mt-4">{t("terms.sections.errors.outro1")}</p>
-				<p className="mt-2">{t("terms.sections.errors.outro2")}</p>
 			</SectionCard>
 
-			{/* 13. Suspension, Closure & Fund Handling */}
+			{/* 13. ACCOUNT SUSPENSION & FUNDS */}
 			<SectionCard
 				title={t("terms.sections.suspension.title")}
 				intro={t("terms.sections.suspension.intro")}
@@ -323,10 +317,9 @@ export default function TermsPage() {
 					]}
 				/>
 				<p className="mt-4">{t("terms.sections.suspension.outro1")}</p>
-				<p className="mt-2">{t("terms.sections.suspension.outro2")}</p>
 			</SectionCard>
 
-			{/* 14. Responsible Gaming */}
+			{/* 14. RESPONSIBLE GAMING */}
 			<SectionCard
 				title={t("terms.sections.responsibleGaming.title")}
 				icon={Users}
@@ -343,35 +336,28 @@ export default function TermsPage() {
 								"terms.sections.responsibleGaming.items.1"
 							),
 						},
-						{
-							content: t(
-								"terms.sections.responsibleGaming.items.2"
-							),
-						},
 					]}
 				/>
 			</SectionCard>
 
-			{/* 15. Intellectual Property */}
+			{/* 15. INTELLECTUAL PROPERTY */}
 			<SectionCard title={t("terms.sections.ip.title")}>
 				<ContentSection>
 					<p>{t("terms.sections.ip.content1")}</p>
-					<p className="mt-2">{t("terms.sections.ip.content2")}</p>
 				</ContentSection>
 			</SectionCard>
 
-			{/* 16. Limitation of Liability */}
+			{/* 16. LIMITATION OF LIABILITY */}
 			<SectionCard title={t("terms.sections.liability.title")}>
 				<ListSection
 					items={[
 						{ content: t("terms.sections.liability.items.0") },
 						{ content: t("terms.sections.liability.items.1") },
-						{ content: t("terms.sections.liability.items.2") },
 					]}
 				/>
 			</SectionCard>
 
-			{/* 17. Dispute Resolution & Governing Law */}
+			{/* 17. DISPUTE RESOLUTION */}
 			<SectionCard
 				title={t("terms.sections.disputes.title")}
 				icon={Scale}
@@ -381,7 +367,7 @@ export default function TermsPage() {
 				</ContentSection>
 			</SectionCard>
 
-			{/* 18. Amendments */}
+			{/* 18. AMENDMENTS */}
 			<SectionCard
 				title={t("terms.sections.amendments.title")}
 				icon={RefreshCw}
@@ -391,29 +377,27 @@ export default function TermsPage() {
 				</ContentSection>
 			</SectionCard>
 
-			{/* 19. Miscellaneous */}
+			{/* 19. MISCELLANEOUS */}
 			<SectionCard title={t("terms.sections.miscellaneous.title")}>
 				<ListSection
 					items={[
 						{ content: t("terms.sections.miscellaneous.items.0") },
-						{ content: t("terms.sections.miscellaneous.items.1") },
-						{ content: t("terms.sections.miscellaneous.items.2") },
 					]}
 				/>
 			</SectionCard>
 
-			{/* 20. Contact */}
+			{/* 20. CONTACT */}
 			<SectionCard title={t("terms.sections.contact.title")} icon={Mail}>
 				<ContentSection>
 					<p>{t("terms.sections.contact.intro")}</p>
-					<div className="mt-4">
+					<div className="mt-4 space-y-2">
 						<Link
-							href="https://digidice.com"
-							className="text-primary hover:underline font-medium"
+							href={`https://${siteDomain}`}
+							className="text-primary hover:underline font-medium block"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							🌐 https://digidice.com
+							{`🌐 https://${siteDomain}`}
 						</Link>
 					</div>
 				</ContentSection>

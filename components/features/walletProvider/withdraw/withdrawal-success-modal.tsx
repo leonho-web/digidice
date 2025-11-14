@@ -239,7 +239,7 @@ export const WithdrawalSuccessModal = (props: WithdrawalSuccessModalProps) => {
 								{/* Logo */}
 								<div className="flex items-center gap-2">
 									<img
-										src="/assets/site/digidice-logo.png"
+										src="/assets/site/Digidice-logo.png"
 										alt="DigiDice Logo"
 										width={200}
 										height={32}

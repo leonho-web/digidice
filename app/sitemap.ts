@@ -97,18 +97,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	});
 
 	// ============================================
-	// TIER 4: Provider+Category Combos (Priority 0.6)
+	// TIER 4: Category Combos (Priority 0.6)
 	// Long-tail keywords - highest conversion rate
-	// Top 20 providers × 4 categories = 80 URLs
 	// ============================================
-	topProviders.forEach((provider) => {
-		categories.forEach((category) => {
-			sitemapEntries.push({
-				url: `${baseUrl}/games/${provider}/${category}`,
-				lastModified: new Date(),
-				changeFrequency: "weekly",
-				priority: 0.6,
-			});
+	https: categories.forEach((category) => {
+		sitemapEntries.push({
+			url: `${baseUrl}/games/${category}`,
+			lastModified: new Date(),
+			changeFrequency: "weekly",
+			priority: 0.6,
 		});
 	});
 

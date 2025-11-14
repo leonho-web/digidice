@@ -76,7 +76,7 @@ export const QueryPageLayout = () => {
 		const baseUrl =
 			typeof window !== "undefined"
 				? window.location.origin
-				: "https://digidice.com";
+				: "https://digidice.games";
 
 		const breadcrumbItems = [
 			{
