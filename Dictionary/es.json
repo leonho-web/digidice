@@ -1,35 +1,4 @@
 {
-	"app": {
-		"name": "{siteName}"
-	},
-	"header": {
-		"toggleSidebar": "Alternar barra lateral",
-		"searchPlaceholder": "Buscar juegos, proveedores...",
-		"liveChat": "Chat en Vivo",
-		"player": "Jugador",
-		"vip": "personaje",
-		"profile": "Perfil",
-		"statistics": "Estadísticas",
-		"wallet": "Depositar/Retirar",
-		"cashier": "Cajero",
-		"winLoss": "Ganancias/Pérdidas",
-		"affiliate": "Afiliado",
-		"logout": "Cerrar sesión",
-		"balance": "Saldo",
-		"turnoverBonus": "Bono de facturación"
-	},
-	"navigation": {
-		"home": "Inicio",
-		"games": "Juegos",
-		"profile": "Perfil",
-		"wallet": "Billetera",
-		"settings": "Configuración",
-		"promotions": "Promociones",
-		"affiliate": "Afiliados",
-		"providers": "Proveedores",
-		"lobby": "Vestíbulo",
-		"bonus": "Bono por volumen de negocio"
-	},
 	"common": {
 		"loading": "Cargando...",
 		"save": "Guardar",
@@ -37,87 +6,119 @@
 		"confirm": "Confirmar",
 		"viewAll": "Ver todo"
 	},
+	"app": {
+		"name": "{siteName}"
+	},
+	"header": {
+		"toggleSidebar": "Alternar barra lateral",
+		"searchPlaceholder": "Buscar juegos, proveedores...",
+		"liveChat": "Chat en vivo",
+		"player": "Jugador",
+		"vip": "VIP",
+		"profile": "Perfil",
+		"statistics": "Estadísticas",
+		"wallet": "Depositar/Retirar",
+		"cashier": "Cajero",
+		"winLoss": "Ganancia/Pérdida",
+		"affiliate": "Bono de referido",
+		"logout": "Cerrar sesión",
+		"balance": "Saldo",
+		"turnoverBonus": "Bono por volumen de juego"
+	},
+	"navigation": {
+		"home": "Inicio",
+		"games": "Juegos",
+		"profile": "Perfil",
+		"wallet": "Billetera",
+		"settings": "Ajustes",
+		"promotions": "Promociones",
+		"affiliate": "Bono de referido",
+		"bonus": "Bono por volumen de juego",
+		"providers": "Proveedores",
+		"lobby": "Lobby",
+		"about": "Sobre nosotros"
+	},
 	"profile": {
 		"language": "Idioma",
 		"welcome": "¡Bienvenido, {name}!",
 		"settingUp": "Configurando",
-		"profileBtn": "Ver Perfil",
-		"currentBalance": "Saldo Actual",
+		"profileBtn": "Ver perfil",
+		"currentBalance": "Saldo actual",
 		"availableFunds": "Fondos disponibles",
-		"totalDeposits": "Depósitos Totales",
-		"totalWithdrawals": "Retiros Totales",
-		"walletAddress": "Dirección de Billetera",
-		"copySuccess": "¡Dirección de billetera copiada!",
-		"copyFailed": "Error al copiar la dirección",
+		"totalDeposits": "Depósitos totales",
+		"totalWithdrawals": "Retiros totales",
+		"walletAddress": "Dirección de la billetera",
+		"copySuccess": "¡Dirección de la billetera copiada al portapapeles!",
+		"copyFailed": "Error al copiar la dirección de la billetera",
 		"notConnected": "No conectado",
-		"myProfile": "Mi Perfil",
+		"myProfile": "Mi perfil",
 		"history": {
 			"title": "Historial"
 		},
 		"logout": "Cerrar sesión",
 		"pendingRegistration": "Registro pendiente",
-		"noEmailProvided": "Sin correo electrónico",
-		"balanceOverview": "Resumen de Saldo",
-		"gettingStarted": "Primeros Pasos",
-		"verifyEmail": "Verifica tu correo",
-		"completeEmailVerification": "Completa la verificación de correo",
+		"noEmailProvided": "No se proporcionó correo electrónico",
+		"balanceOverview": "Resumen de saldo",
+		"gettingStarted": "Primeros pasos",
+		"verifyEmail": "Verifica tu correo electrónico",
+		"completeEmailVerification": "Completa la verificación de correo electrónico",
 		"verifyPhone": "Verifica tu número de teléfono",
-		"addPhoneVerification": "Agrega verificación telefónica",
-		"firstDeposit": "Primer Depósito",
+		"addPhoneVerification": "Añadir verificación de teléfono",
+		"firstDeposit": "Primer depósito",
 		"makeFirstDeposit": "Realiza tu primer depósito",
-		"placeBetOrTrade": "Realiza una apuesta / operación",
+		"placeBetOrTrade": "Realizar apuesta / Hacer operación",
 		"startFirstGame": "Comienza tu primer juego",
-		"recentActivity": "Actividad Reciente",
-		"transactionHistory": "Historial de Transacciones",
-		"activityGameWinDiceRoll": "Victoria - Tiro de Dados",
-		"activityGameLossBlackjack": "Derrota - Blackjack",
+		"recentActivity": "Actividad reciente",
+		"transactionHistory": "Historial de transacciones",
+		"activityGameWinDiceRoll": "Victoria en juego - Tirada de dados",
+		"activityGameLossBlackjack": "Derrota en juego - Blackjack",
 		"twoHoursAgo": "Hace 2 horas",
 		"oneDayAgo": "Hace 1 día",
 		"twoDaysAgo": "Hace 2 días",
 		"deposit": "Depósito",
 		"loggedOutTitle": "¡Ups! Has cerrado sesión",
 		"loggedOutSubtitle": "Inicia sesión para ver tu perfil",
-		"goHome": "Ir al Inicio",
+		"goHome": "Ir al inicio",
 		"withdrawal": "Retiro",
 		"transactions": {
-			"title": "Historial de Transacciones",
+			"title": "Historial de transacciones",
 			"trackDepositsWithdrawals": "Sigue tus depósitos y retiros",
 			"filters": "Filtros",
 			"refresh": "Actualizar",
-			"advancedFilters": "Filtros Avanzados",
-			"searchTransactionComingSoon": "Buscar Transacción (Próximamente)",
-			"searchPlaceholderDisabled": "La búsqueda se implementará a nivel de API...",
-			"dateRange": "Rango de Fechas",
+			"advancedFilters": "Filtros avanzados",
+			"searchTransactionComingSoon": "Buscar transacción (Próximamente)",
+			"searchPlaceholderDisabled": "La funcionalidad de búsqueda se implementará a nivel de API...",
+			"dateRange": "Rango de fechas",
 			"selectDateRange": "Seleccionar rango de fechas",
 			"today": "Hoy",
-			"last7Days": "Últimos 7 Días",
-			"last30Days": "Últimos 30 Días",
-			"last90Days": "Últimos 90 Días",
-			"thisMonth": "Este Mes",
-			"lastMonth": "Mes Pasado",
-			"customRange": "Rango Personalizado",
+			"last7Days": "Últimos 7 días",
+			"last30Days": "Últimos 30 días",
+			"last90Days": "Últimos 90 días",
+			"thisMonth": "Este mes",
+			"lastMonth": "Mes pasado",
+			"customRange": "Rango personalizado",
 			"fromDate": "Desde",
 			"toDate": "Hasta",
-			"transactionStatus": "Estado de la Transacción",
+			"transactionStatus": "Estado de la transacción",
 			"allStatuses": "Todos los estados",
 			"success": "Éxito",
 			"pending": "Pendiente",
 			"rejected": "Rechazado",
-			"clearAll": "Limpiar Todo",
+			"clearAll": "Limpiar todo",
 			"cancel": "Cancelar",
-			"applyFilters": "Aplicar Filtros",
-			"activeFilters": "Filtros Activos:",
+			"applyFilters": "Aplicar filtros",
+			"activeFilters": "Filtros activos:",
 			"statusLabel": "Estado",
 			"dateLabel": "Fecha",
-			"statsTotalTransactions": "{total} transacciones totales",
+			"statsTotalTransactions": "{total} transacciones en total",
 			"pageOf": "Página {current} de {total}",
 			"live": "En vivo",
 			"tabs": {
-				"all": "Todas",
+				"all": "Todo",
 				"deposits": "Depósitos",
 				"withdrawals": "Retiros"
 			},
-			"errorLoadingTransactions": "Error al cargar transacciones",
+			"errorLoadingTransactions": "Error al cargar las transacciones",
 			"tryAgain": "Intentar de nuevo",
 			"noTransactionsFound": "No se encontraron transacciones",
 			"noTransactionsAvailableSelectedPeriod": "No hay transacciones disponibles para el período seleccionado.",
@@ -129,53 +130,53 @@
 			"pageShort": "Página {current}/{total}"
 		},
 		"betHistory": {
-			"title": "Historial de Apuestas",
-			"trackBetsResults": "Rastrea tus apuestas de juegos y resultados",
+			"title": "Historial de apuestas",
+			"trackBetsResults": "Sigue tus apuestas y resultados de juegos",
 			"filters": "Filtros",
 			"refresh": "Actualizar",
-			"advancedFilters": "Filtros Avanzados",
-			"dateRange": "Rango de Fechas",
+			"advancedFilters": "Filtros avanzados",
+			"dateRange": "Rango de fechas",
 			"selectDateRange": "Seleccionar rango de fechas",
 			"today": "Hoy",
-			"last7Days": "Últimos 7 Días",
-			"last30Days": "Últimos 30 Días",
-			"last90Days": "Últimos 90 Días",
-			"thisMonth": "Este Mes",
-			"lastMonth": "Mes Pasado",
-			"customRange": "Rango Personalizado",
+			"last7Days": "Últimos 7 días",
+			"last30Days": "Últimos 30 días",
+			"last90Days": "Últimos 90 días",
+			"thisMonth": "Este mes",
+			"lastMonth": "Mes pasado",
+			"customRange": "Rango personalizado",
 			"fromDate": "Desde",
 			"toDate": "Hasta",
 			"provider": "Proveedor",
-			"allProviders": "Todos los Proveedores",
+			"allProviders": "Todos los proveedores",
 			"status": "Estado",
-			"allStatuses": "Todos los Estados",
+			"allStatuses": "Todos los estados",
 			"outstanding": "Pendiente",
 			"win": "Ganar",
 			"lose": "Perder",
 			"draw": "Empate",
 			"void": "Anulado",
-			"bonusWin": "Ganancia Bonus",
-			"clearAll": "Limpiar Todo",
+			"bonusWin": "Ganancia de bono",
+			"clearAll": "Limpiar todo",
 			"cancel": "Cancelar",
-			"applyFilters": "Aplicar Filtros",
-			"activeFilters": "Filtros Activos",
+			"applyFilters": "Aplicar filtros",
+			"activeFilters": "Filtros activos",
 			"statusLabel": "Estado",
 			"providerLabel": "Proveedor",
 			"dateLabel": "Fecha",
-			"totalBets": "Apuestas Totales",
+			"totalBets": "Apuestas totales",
+			"totalProfitLoss": "Ganancia/Pérdida total",
 			"pageOf": "Página {current} de {total}",
 			"live": "En vivo",
-			"totalProfitLoss": "Total Ganancias/Pérdidas",
-			"errorLoadingBets": "Error al Cargar Historial de Apuestas",
+			"errorLoadingBets": "Error al cargar el historial de apuestas",
 			"failedToLoadBetHistory": "No se pudo cargar el historial de apuestas. Inténtalo de nuevo.",
-			"tryAgain": "Intentar de Nuevo",
-			"noBetsFound": "No se Encontraron Apuestas",
+			"tryAgain": "Intentar de nuevo",
+			"noBetsFound": "No se encontraron apuestas",
 			"noBetsFoundSelectedPeriod": "No se encontró historial de apuestas para el período y filtros seleccionados.",
 			"show": "Mostrar",
 			"ofBets": "de {count} apuestas",
 			"showingRangeOfTotal": "Mostrando {from}-{to} de {total}",
-			"totalBet": "Apuesta Total",
-			"totalWin": "Ganancia Total",
+			"totalBet": "Apuesta total",
+			"totalWin": "Ganancia total",
 			"net": "Neto",
 			"tableHeaders": {
 				"date": "Fecha",
@@ -183,44 +184,44 @@
 				"provider": "Proveedor",
 				"type": "Tipo",
 				"status": "Estado",
-				"betAmount": "Monto de Apuesta",
-				"winAmount": "Monto de Ganancia",
-				"hideAmounts": "Ocultar Montos",
-				"showAmounts": "Mostrar Montos",
-				"gameType": "Tipo de Juego",
+				"betAmount": "Monto de la apuesta",
+				"winAmount": "Monto ganado",
+				"hideAmounts": "Ocultar montos",
+				"showAmounts": "Mostrar montos",
+				"gameType": "Tipo de juego",
 				"vendor": "Vendedor",
-				"lastUpdate": "Última Actualización",
-				"netResult": "Resultado Neto",
-				"betId": "ID de Apuesta"
+				"lastUpdate": "Última actualización",
+				"netResult": "Resultado neto",
+				"betId": "ID de la apuesta"
 			},
-			"errorLoading": "Error al Cargar",
-			"noBetsFoundDescription": "Comienza a jugar para ver tu historial de apuestas aquí.",
-			"betHistory": "Historial de Apuestas",
-			"hideAmounts": "Ocultar Montos",
-			"showAmounts": "Mostrar Montos",
+			"errorLoading": "Error al cargar",
+			"noBetsFoundDescription": "Empieza a jugar para ver tu historial de apuestas aquí.",
+			"betHistory": "Historial de apuestas",
+			"hideAmounts": "Ocultar montos",
+			"showAmounts": "Mostrar montos",
 			"date": "Fecha",
 			"game": "Juego",
-			"betId": "ID de Apuesta",
+			"betId": "ID de la apuesta",
 			"amount": "Monto",
 			"payout": "Pago",
 			"player": "Jugador",
-			"gameType": "Tipo de Juego",
+			"gameType": "Tipo de juego",
 			"vendor": "Vendedor",
-			"lastUpdate": "Última Actualización",
-			"netResult": "Resultado Neto",
-			"totalWagered": "Total Apostado",
-			"totalWon": "Total Ganado",
-			"netProfit": "Beneficio Neto",
-			"winRate": "Tasa de Ganancia",
+			"lastUpdate": "Última actualización",
+			"netResult": "Resultado neto",
+			"totalWagered": "Total apostado",
+			"totalWon": "Total ganado",
+			"netProfit": "Beneficio neto",
+			"winRate": "Tasa de victorias",
 			"showingResults": "Mostrando {start}-{end} de {total} resultados",
-			"firstPage": "Primera Página",
-			"previousPage": "Página Anterior",
-			"nextPage": "Página Siguiente",
-			"lastPage": "Última Página"
+			"firstPage": "Primera página",
+			"previousPage": "Página anterior",
+			"nextPage": "Página siguiente",
+			"lastPage": "Última página"
 		}
 	},
 	"chat": {
-		"title": "Chat en Vivo",
+		"title": "Chat en vivo",
 		"placeholder": "Escribe tu mensaje...",
 		"send": "Enviar",
 		"input": {
@@ -245,11 +246,11 @@
 		},
 		"imageDialog": {
 			"title": "Comparte tu imagen 🎰",
-			"description": "¿Listo para mostrarla en el chat?",
+			"description": "¿Listo para mostrar a la sala de chat?",
 			"previewLabel": "Vista previa",
 			"statusReady": "Listo para compartir",
 			"roomLabel": "🎰 Chat del casino",
-			"shareNotice": "Tu imagen se compartirá con todos los jugadores en la sala de chat",
+			"shareNotice": "Tu imagen será compartida con todos los jugadores en la sala de chat",
 			"closeAria": "Cerrar diálogo",
 			"cancelAria": "Cancelar subida de imagen",
 			"sendAria": "Enviar imagen al chat",
@@ -259,8 +260,8 @@
 			"searchEmojis": "Buscar emojis...",
 			"searchGifs": "Buscar GIFs...",
 			"tabs": {
-				"emojis": "emojis",
-				"gifs": "GIF"
+				"emojis": "Emojis",
+				"gifs": "GIFs"
 			},
 			"loadingEmojis": "Cargando emojis...",
 			"loadingGifs": "Cargando GIFs...",
@@ -268,7 +269,7 @@
 			"recent": "Recientes",
 			"noEmojis": "No se encontraron emojis",
 			"noGifs": "No se encontraron GIFs",
-			"tryDifferent": "Prueba otro término de búsqueda",
+			"tryDifferent": "Prueba con otro término de búsqueda",
 			"gifCategories": {
 				"trending": "Tendencias",
 				"reactions": "Reacciones",
@@ -278,25 +279,25 @@
 				"sports": "Deportes"
 			},
 			"searchResults": "Resultados de búsqueda",
-			"availableToTag": "Usuarios disponibles para mencionar 🎯",
-			"clickOrTab": "Clic o Tab para seleccionar",
+			"availableToTag": "Usuarios disponibles para etiquetar 🎯",
+			"clickOrTab": "Haz clic o pulsa Tab para seleccionar",
 			"noUsers": "No se encontraron usuarios",
-			"noUsersMatching": "No hay usuarios que coincidan",
+			"noUsersMatching": "No se encontraron usuarios que coincidan",
 			"startTyping": "Empieza a escribir para buscar",
 			"typeAt": "Escribe",
 			"toSeeSuggestions": "para ver sugerencias 🎰",
 			"errors": {
-				"emojisLoad": "Error al cargar emojis",
+				"emojisLoad": "Error al cargar los emojis",
 				"emojisSearch": "Error al buscar emojis",
-				"gifsLoad": "Error al cargar GIFs"
+				"gifsLoad": "Error al cargar los GIFs"
 			}
 		},
 		"messages": {
 			"emptyTitle": "Aún no hay mensajes...",
-			"emptySubtitle": "¡Inicia la conversación y gana en grande! 🎰",
+			"emptySubtitle": "¡Inicia la conversación y gana a lo grande! 🎰",
 			"loadingHistory": "Cargando historial del chat...",
 			"loadingHistorySubtitle": "Obteniendo mensajes recientes 📜",
-			"historyError": "No se pudo cargar el historial del chat"
+			"historyError": "Error al cargar el historial del chat"
 		},
 		"message": {
 			"you": "Tú",
@@ -305,24 +306,18 @@
 			"imageAlt": "Imagen subida",
 			"rainTitle": "¡Lluvia de dinero! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {destinatario} other {destinatarios}}",
-			"eachTo": "{amount} {currency} para cada uno: {list}",
+			"eachTo": "{amount} {currency} para cada uno de: {list}",
 			"replyCount": "{count} {count, plural, one {respuesta} other {respuestas}}",
 			"loadingHistory": "Cargando historial del chat..."
 		},
 		"system": {
-			"slashDisabled": "Los comandos con / están temporalmente deshabilitados. Usa mensajes normales.",
+			"slashDisabled": "Los comandos de barra están desactivados temporalmente. Utiliza mensajes normales.",
 			"rateLimit": "Límite de velocidad excedido. Espera {seconds} segundos antes de enviar otro mensaje.",
 			"cannotTagSelf": "No puedes etiquetarte a ti mismo en los mensajes.",
 			"processingImage": "Procesando imagen...",
-			"failedUploadPrefix": "No se pudo subir la imagen: {message}",
+			"failedUploadPrefix": "Error al subir la imagen: {message}",
 			"unknownError": "Error desconocido"
 		}
-	},
-	"commonExtra": {
-		"connecting": "Conectando...",
-		"offline": "Desconectado",
-		"online": "En línea",
-		"clear": "Limpiar"
 	},
 	"sidebar": {
 		"quest": "MISIÓN",
@@ -330,34 +325,34 @@
 		"deposit": "DEPOSITAR",
 		"withdraw": "RETIRAR",
 		"playOnTelegram": "Jugar en Telegram",
-		"dailyBonus": "Bono Diario",
+		"dailyBonus": "Bono diario",
 		"navigation": "Navegación",
 		"games": "Juegos",
 		"providers": "Proveedores",
-		"trendingNow": "Tendencias",
-		"allProviders": "Todos los Proveedores",
-		"allTopProviders": "Todos los Mejores Proveedores",
-		"hotBadge": "Caliente"
+		"trendingNow": "Tendencias actuales",
+		"allProviders": "Todos los proveedores",
+		"allTopProviders": "Todos los proveedores principales",
+		"hotBadge": "Popular"
 	},
 	"search": {
 		"title": "Buscar juegos",
-		"subtitle": "Buscar por nombre, proveedor o categoría",
+		"subtitle": "Busca por nombre, proveedor o categoría",
 		"placeholder": "Buscar juegos, proveedores, categorías...",
 		"clear": "Limpiar",
 		"recent": "Reciente:",
 		"popular": "Popular:",
-		"favoritesTry": "Puedes probar — Tus favoritos",
-		"hotPicks": "Selecciones destacadas",
+		"favoritesTry": "Puedes probar: tus favoritos",
+		"hotPicks": "Selecciones populares",
 		"resultsCount": "Se encontraron {count} {count, plural, one {juego} other {juegos}}",
-		"noResults": "Sin resultados",
+		"noResults": "No hay resultados",
 		"filterApplied": "Filtrado por {count} {count, plural, one {proveedor} other {proveedores}}",
 		"suggestions": {
 			"category": "Categoría",
 			"provider": "Proveedor"
 		},
 		"sections": {
-			"topProviders": "Mejores Proveedores",
-			"selectedProviders": "Proveedores Seleccionados",
+			"topProviders": "Proveedores principales",
+			"selectedProviders": "Proveedores seleccionados",
 			"categories": "Categorías",
 			"games": "Juegos",
 			"providers": "Proveedores"
@@ -366,29 +361,29 @@
 			"found": "Se encontraron {games} juegos, {categories} categorías y {providers} proveedores"
 		},
 		"gameTypes": {
-			"blackjack": "Veintiuna",
+			"blackjack": "Blackjack",
 			"roulette": "Ruleta",
-			"crash": "Chocar"
+			"crash": "Crash"
 		}
 	},
 	"query": {
 		"sort": {
 			"label": "Ordenar por",
-			"a-z": "ARIZONA",
+			"a-z": "A-Z",
 			"z-a": "Z-A"
 		},
 		"filters": {
 			"filter": "Filtrar",
 			"optionsTitle": "Opciones de filtro",
 			"clearAll": "Limpiar todos los filtros",
-			"activeLabel": "Activos:"
+			"activeLabel": "Activo:"
 		},
 		"searchPlaceholderGeneric": "Buscar...",
 		"providersDropdown": {
 			"title": "Proveedores",
 			"selected": "{count} seleccionados",
 			"searchPlaceholder": "Buscar proveedores...",
-			"empty": "No se encontró proveedor.",
+			"empty": "No se encontró ningún proveedor.",
 			"clear": "Limpiar filtros de proveedores"
 		},
 		"category": {
@@ -401,72 +396,78 @@
 		},
 		"loadMore": "Cargar más"
 	},
+	"commonExtra": {
+		"connecting": "Conectando...",
+		"offline": "Desconectado",
+		"online": "En línea",
+		"clear": "Limpiar"
+	},
 	"home": {
-		"topProviders": "Principales Proveedores de Juegos"
+		"topProviders": "Proveedores de juegos principales"
 	},
 	"lobby": {
-		"yourFavorites": "Tus Favoritos",
-		"featuredCasinoGames": "Juegos de Casino Destacados",
-		"hotPicks": "Selecciones Populares",
+		"yourFavorites": "Tus favoritos",
+		"featuredCasinoGames": "Juegos de casino destacados",
+		"hotPicks": "Selecciones populares",
 		"slots": "Tragamonedas",
 		"sports": "Deportes",
-		"realTimeScoreboard": "Marcador en Tiempo Real"
+		"realTimeScoreboard": "Marcador en tiempo real"
 	},
 	"affiliate": {
-		"title": "Programa de Afiliados",
-		"loginPromptTitle": "Programa de Referidos",
+		"title": "Programa de bonos de referido",
+		"loginPromptTitle": "Programa de referidos",
 		"loginPromptSubtitle": "Inicia sesión para ver tus estadísticas de referidos, bonos y reclamar recompensas.",
-		"goHome": "Ir al Inicio",
+		"goHome": "Ir al inicio",
 		"tabs": {
 			"dashboard": "Panel",
-			"rates": "Tarifas de Comisión",
+			"rates": "Tasas de comisión",
 			"calculator": "Calculadora"
 		},
 		"refresh": "Actualizar",
 		"refreshing": "Actualizando...",
 		"refreshAllSuccess": "¡Todos los datos se actualizaron correctamente!",
-		"refreshPartial": "Actualización parcial: {success}/{total} secciones actualizadas",
-		"refreshFailed": "No se pudo actualizar. Inténtalo de nuevo.",
+		"refreshPartial": "Actualizado parcialmente: {success}/{total} secciones actualizadas",
+		"refreshFailed": "Error al actualizar los datos. Inténtalo de nuevo.",
 		"dashboard": {
-			"title": "Panel de Afiliados",
-			"subtitle": "Sigue tus referidos, ganancias y desempeño de comisiones",
-			"performanceOverview": "Resumen de Rendimiento",
-			"referralManagement": "Gestión de Referidos",
-			"termsAndCommission": "Términos y Estructura de Comisiones",
+			"title": "Panel de afiliados",
+			"subtitle": "Sigue tus referidos, ganancias y rendimiento de comisiones",
+			"performanceOverview": "Resumen de rendimiento",
+			"referralManagement": "Gestión de referidos",
+			"termsAndCommission": "Términos y estructura de comisiones",
 			"unclaimedEarnings": "Ganancias no reclamadas",
 			"claim": "Reclamar",
 			"claiming": "Reclamando...",
-			"totalIncome": "Ingresos Totales",
-			"totalReferrals": "Referidos Totales",
+			"totalIncome": "Ingresos totales",
+			"claimButtonTitle": "Reclamar bono",
+			"totalReferrals": "Referidos totales",
 			"usersUnit": "usuarios",
 			"yourReferralLinks": "Tus enlaces de referido",
-			"referralLinksSubtitle": "Comparte estos enlaces para referir nuevos usuarios y ganar comisiones",
+			"referralLinksSubtitle": "Comparte estos enlaces para referir a nuevos usuarios y ganar comisiones",
 			"completeReferralLink": "Enlace de referido completo",
-			"fullReferralPlaceholder": "El enlace completo aparecerá aquí",
-			"fullReferralHelp": "Enlace directo para que los usuarios se registren con tu código",
+			"fullReferralPlaceholder": "El enlace de referido completo aparecerá aquí",
+			"fullReferralHelp": "Enlace directo que los usuarios pueden hacer clic para registrarse con tu código de referido",
 			"referralCodeOnly": "Solo código de referido",
 			"yourReferralId": "Tu ID de referido",
-			"referralIdHelp": "Comparte este código para ingresarlo manualmente durante el registro",
-			"copyFullSuccess": "¡Enlace completo copiado al portapapeles!",
-			"copyIdSuccess": "¡ID de referido copiado al portapapeles!",
-			"claimButtonTitle": "Cupón de apuestas"
+			"referralIdHelp": "Comparte este código para que los usuarios lo introduzcan manualmente durante el registro",
+			"copyFullSuccess": "¡Enlace de referido completo copiado al portapapeles!",
+			"copyIdSuccess": "¡ID de referido copiado al portapapeles!"
 		},
 		"referrals": {
-			"title": "Mis Referidos",
-			"subtitle": "Administra todos los usuarios referidos con tus enlaces",
+			"title": "Mis referidos",
+			"subtitle": "Sigue y gestiona todos los usuarios referidos a través de tus enlaces de afiliado",
 			"totalReferrals": "referidos en total",
-			"monitorHelp": "Monitorea la actividad, depósitos y patrones de juego de tus referidos",
+			"monitorHelp": "Supervisa la actividad, los depósitos y los patrones de juego de tus referidos",
 			"sort": {
 				"placeholder": "Ordenar por...",
 				"nicknameAsc": "Apodo (A-Z)",
 				"nicknameDesc": "Apodo (Z-A)",
-				"lastLogin": "Último acceso",
+				"lastLogin": "Último inicio de sesión",
 				"unclaimedAmount": "Monto no reclamado"
 			},
 			"table": {
 				"nickname": "Apodo",
-				"totalWager": "Apuesta Total",
-				"lastLogin": "Último acceso",
+				"totalWager": "Apuesta total",
+				"lastLogin": "Último inicio de sesión",
 				"registered": "Registrado",
 				"lastDeposit": "Último depósito",
 				"depositDate": "Fecha de depósito",
@@ -474,7 +475,7 @@
 			},
 			"empty": {
 				"title": "No se encontraron referidos",
-				"subtitle": "Comienza a referir usuarios para verlos aquí."
+				"subtitle": "Empieza a referir usuarios para verlos aquí."
 			},
 			"pagination": {
 				"showing": "Mostrando {from} a {to} de {total} resultados",
@@ -483,211 +484,381 @@
 			}
 		},
 		"rates": {
-			"title": "Estructura de tarifas de comisión",
+			"title": "Estructura de tasas de comisión",
 			"subtitle": "Porcentajes de ganancias por nivel y categoría de juego",
-			"howItWorks": {
-				"title": "Cómo funcionan los niveles de comisión",
-				"body": "Tu nivel de comisión se determina por la apuesta diaria total de tus referidos. Los niveles más altos ofrecen mejores tarifas en todos los tipos de juego."
+			"overview": {
+				"title": "Resumen",
+				"body": "El Bono de Referido recompensa a los afiliados según el volumen de apuestas de los jugadores referidos en Tragamonedas, Casino en Vivo, Apuestas Deportivas y Lotería. Las comisiones se calculan cada 24 horas, y las ganancias se basan en diferentes niveles de volumen de apuestas."
 			},
 			"calculation": {
 				"title": "Cómo se calculan las comisiones",
-				"desc": "Las comisiones se calculan cada 24 horas en función de las apuestas totales de los referidos. Ejemplos:",
+				"desc": "Las comisiones se calculan cada 24 horas en función de las apuestas totales de los jugadores referidos. \nEjemplos:",
 				"exampleTitle": "Nivel {tier}:",
-				"wagerIn": "Apuesta de {amount} en {gameType}"
+				"wagerIn": "Apostar {amount} en {gameType}"
 			},
 			"table": {
 				"tierLevel": "Nivel",
 				"wagerRange": "Rango de apuesta",
 				"slots": "Tragamonedas",
-				"liveCasino": "Casino en Vivo",
+				"liveCasino": "Casino en vivo",
 				"sports": "Deportes",
 				"tierPrefix": "NIVEL",
 				"commissionLevel": "Nivel de comisión",
-				"dailyWager": "Volumen de apuesta diaria"
+				"dailyWager": "Volumen de apuesta diario"
 			},
 			"claim": {
-				"title": "Reclamación y Retiros",
+				"title": "Reclamación y retiro",
 				"points": {
-					"0": "Las comisiones están disponibles para retirar una vez calculadas.",
-					"1": "No hay vencimiento para las comisiones no reclamadas: se acumulan hasta ser reclamadas.",
+					"0": "Las comisiones están disponibles para su retiro una vez calculadas.",
+					"1": "No hay fecha de vencimiento para las comisiones no reclamadas; se acumulan hasta que se reclaman.",
 					"2": "Los retiros siguen las reglas estándar de la plataforma, como límites mínimos y tiempos de procesamiento."
 				}
 			},
 			"system": {
-				"title": "Tiempo del sistema y operaciones",
-				"dailyTimeframeLabel": "Ventana diaria:",
+				"title": "Hora del sistema y operaciones",
+				"dailyTimeframeLabel": "Intervalo diario:",
 				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos los días).",
-				"claimDailyLabel": "Reclamo diario:",
+				"claimDailyLabel": "Reclamación diaria:",
 				"claimDailyValue": "Disponible diariamente a las 14:00 UTC (Tu hora local: {local}).",
-				"note": "Nota: Aunque trabajamos con proveedores en diferentes zonas horarias, todos los cálculos siguen UTC para garantizar coherencia y evitar confusiones."
+				"note": "Nota: Aunque trabajamos con proveedores de diferentes zonas horarias, todos los cálculos siguen el UTC para garantizar la coherencia y evitar confusiones."
 			},
 			"amendments": {
 				"title": "Modificaciones",
-				"body": "Podemos actualizar estos términos en cualquier momento. Los cambios entran en vigor inmediatamente después de su publicación y tu participación continua implica la aceptación de los nuevos términos."
+				"body": "Podemos actualizar estos términos en cualquier momento. Los cambios entran en vigor inmediatamente después de su publicación, y la participación continua significa que aceptas los nuevos términos."
 			},
 			"footer": {
-				"schedule": "Calendario de comisiones:",
+				"schedule": "Horario de comisiones:",
 				"availableDaily": "Disponible diariamente a las",
 				"localTimeLabel": "(Tu hora local: {time})"
-			},
-			"overview": {
-				"title": "Resumen",
-				"body": "El Programa de Afiliados recompensa a los afiliados en función de la rotación de apuestas de los jugadores referidos en tragamonedas, casino en vivo, apuestas deportivas y lotería. Las comisiones se calculan cada 24 horas, con ganancias basadas en diferentes niveles de rotación."
 			}
 		},
 		"calculator": {
-			"title": "Calculadora de Ganancias",
-			"subtitle": "Estima tus ganancias por comisión según las apuestas de tus referidos",
+			"title": "Calculadora de ganancias",
+			"subtitle": "Estima tus ganancias por comisiones en función de los montos de apuesta de tus referidos",
 			"interactive": {
 				"title": "Herramienta interactiva:",
-				"body": "Ingresa diferentes montos de apuesta para ver ganancias potenciales en todos los niveles"
+				"body": "Introduce diferentes montos de apuesta para ver las ganancias potenciales en todos los niveles"
 			},
 			"potentialEarnings": "Ganancias potenciales",
 			"basedOnRate": "Basado en una tasa de comisión del {percentage}%",
 			"tier": "Nivel {level}",
-			"commissionLevel": "Nivel de Comisión {level}",
-			"enterWager": "Ingresar monto de apuesta (USD)",
+			"commissionLevel": "Nivel de comisión {level}",
+			"enterWager": "Introduce el monto de la apuesta (USD)",
 			"wagerPlaceholder": "p. ej., 1000",
-			"calcFor": "Calculando ganancias para apuesta de ${amount}",
-			"totalPotential": "Ganancia potencial total:",
-			"combinedAtTier": "Ganancias combinadas de todos los juegos en el Nivel {level}"
+			"calcFor": "Calculando ganancias para una apuesta de ${amount}",
+			"totalPotential": "Ganancias potenciales totales:",
+			"combinedAtTier": "Ganancias combinadas de todos los tipos de juego en el Nivel {level}"
+		}
+	},
+	"bonus": {
+		"title": "Programa de bonos por volumen de juego",
+		"loginPromptTitle": "Programa de bonos por volumen de juego",
+		"loginPromptSubtitle": "Inicia sesión para ver tus estadísticas de bonos y reclamar tus recompensas.",
+		"goHome": "Ir al inicio",
+		"tabs": {
+			"dashboard": "Panel",
+			"claims": "Reclamaciones",
+			"rates": "Tasas de bonos",
+			"calculator": "Calculadora"
+		},
+		"refresh": "Actualizar",
+		"refreshing": "Actualizando...",
+		"refreshAllSuccess": "¡Todos los datos se actualizaron correctamente!",
+		"refreshPartial": "Actualizado parcialmente: {success}/{total} secciones actualizadas",
+		"refreshFailed": "Error al actualizar los datos. Inténtalo de nuevo.",
+		"dashboard": {
+			"title": "Panel de bonos",
+			"subtitle": "Sigue tus apuestas, bonos y ganancias de recompensas",
+			"claimButtonTitle": "Reclamar",
+			"performanceOverview": "Resumen de bonos",
+			"bonusRatesTitle": "Estructura de tasas de bonos",
+			"totalIncome": "Bono total",
+			"pendingBonus": "Bono pendiente",
+			"lastClaim": "Última reclamación",
+			"unclaimedEarnings": "Disponible para reclamar",
+			"claim": {
+				"title": "Reclamación y retiro",
+				"points": {
+					"0": "Las comisiones están disponibles para su retiro una vez calculadas.",
+					"1": "No hay fecha de vencimiento para las comisiones no reclamadas; se acumulan hasta que se reclaman.",
+					"2": "Los retiros siguen las reglas estándar de la plataforma, como límites mínimos y tiempos de procesamiento."
+				}
+			},
+			"claiming": "Reclamando...",
+			"section2": {
+				"title": "Elegibilidad",
+				"content": "Para participar:"
+			},
+			"section3": {
+				"title": "Niveles de volumen de juego y tasas",
+				"content": "Los bonos se calculan en función de tus montos de apuesta diarios:",
+				"noteTitle": "Nota",
+				"noteContent": "Los niveles se evalúan diariamente a las 14:00 UTC. El volumen de apuestas del día anterior determina la tasa de bonificación de hoy. Las tasas se aplican a todos los tipos de juegos: Tragamonedas, Casino en vivo y Deportes."
+			}
+		},
+		"claims": {
+			"title": "Historial de reclamaciones",
+			"subtitle": "Sigue tus reclamaciones de bonos y tu actividad de apuestas",
+			"tableHeaders": {
+				"date": "Fecha de apuesta",
+				"slots": "Tragamonedas",
+				"liveCasino": "Casino en vivo",
+				"sports": "Deportes",
+				"total": "Total",
+				"tier": "Nivel",
+				"unclaimed": "No reclamado",
+				"token": "Token"
+			},
+			"tierPrefix": "Nivel",
+			"availableToClaim": "Disponible para reclamar",
+			"totalBonus": "Bono total",
+			"claimed": "Reclamado",
+			"progressPercentage": "Progreso",
+			"progressTitle": "Tu progreso",
+			"currentTier": "Nivel actual",
+			"nextTier": "Siguiente nivel",
+			"wagerProgress": "Progreso de la apuesta",
+			"totalWagered": "Total apostado hoy",
+			"toNextTier": "para alcanzar el siguiente nivel",
+			"empty": {
+				"title": "Aún no hay reclamaciones de bonos",
+				"subtitle": "¡Empieza a jugar para ganar bonos!"
+			}
+		},
+		"rates": {
+			"title": "Niveles y tasas de volumen de juego",
+			"subtitle": "Porcentajes de bonificación por nivel de apuesta y categoría de juego",
+			"overview": {
+				"title": "Resumen",
+				"body": "El Bono por Volumen de Juego recompensa a los usuarios en función de sus apuestas en Tragamonedas, Casino en Vivo, Apuestas Deportivas y Lotería. Los bonos se calculan cada 24 horas, y los usuarios pueden reclamarlos al día siguiente de apostar. Hay siete niveles, cada uno con diferentes tasas según el monto de la apuesta."
+			},
+			"eligibility": {
+				"title": "Elegibilidad",
+				"content": "Para participar:",
+				"points": {
+					"0": "Debes tener una cuenta activa.",
+					"1": "Realiza apuestas en Tragamonedas, Casino en Vivo, Apuestas Deportivas y Lotería.",
+					"2": "Cumple con los requisitos mínimos de apuesta para cada nivel."
+				}
+			},
+			"calculation": {
+				"title": "Cómo se calculan los bonos",
+				"desc": "Los bonos se calculan cada 24 horas en función de tus apuestas totales. Ejemplos:",
+				"exampleTitle": "Nivel {tier}:",
+				"wagerIn": "Apostar {amount} en {gameType}"
+			},
+			"table": {
+				"tierLevel": "Nivel",
+				"wagerRange": "Rango de apuesta",
+				"slots": "Tragamonedas",
+				"liveCasino": "Casino en vivo",
+				"sports": "Deportes",
+				"tierPrefix": "NIVEL",
+				"commissionLevel": "Nivel de bono",
+				"dailyWager": "Volumen de apuesta diario"
+			},
+			"claim": {
+				"title": "Reclamación y retiro de bonos",
+				"points": {
+					"0": "Los bonos se pueden reclamar 24 horas después de la apuesta.",
+					"1": "Los bonos no reclamados se acumularán y no caducan.",
+					"2": "El proceso de reclamación y retiro puede variar según las políticas específicas de la plataforma."
+				}
+			},
+			"system": {
+				"title": "Hora del sistema y operaciones",
+				"dailyTimeframeLabel": "Intervalo diario:",
+				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos los días).",
+				"claimDailyLabel": "Reclamación diaria:",
+				"claimDailyValue": "Disponible diariamente a las 14:00 UTC (Tu hora local: {local}).",
+				"note": "Nota: aunque trabajamos con proveedores de diferentes zonas horarias, todos los cálculos siguen el UTC para garantizar la coherencia y evitar confusiones."
+			},
+			"amendments": {
+				"title": "Modificaciones y descalificaciones",
+				"body": "Podemos actualizar estos términos en cualquier momento, y los cambios entran en vigor al publicarse. Si se sospecha de errores del sistema, cálculos incorrectos o trampas, nos reservamos el derecho de ajustar o descalificar bonos y cuentas según sea necesario para garantizar la equidad."
+			},
+			"footer": {
+				"schedule": "Horario de bonos:",
+				"availableDaily": "Disponible diariamente a las",
+				"localTimeLabel": "(Tu hora local: {time})"
+			}
+		},
+		"calculator": {
+			"title": "Calculadora de bonos",
+			"subtitle": "Estima tus ganancias de bonos en función de los montos de tus apuestas",
+			"interactive": {
+				"title": "Herramienta interactiva:",
+				"body": "Introduce diferentes montos de apuesta para ver los bonos potenciales en todos los niveles"
+			},
+			"potentialEarnings": "Bono potencial",
+			"basedOnRate": "Basado en una tasa de bonificación del {percentage}%",
+			"tier": "Nivel {level}",
+			"commissionLevel": "Nivel de bono {level}",
+			"enterWager": "Introduce el monto de la apuesta (USD)",
+			"wagerPlaceholder": "p. ej., 1000",
+			"calcFor": "Calculando bono para una apuesta de ${amount}",
+			"totalPotential": "Bono potencial total:",
+			"combinedAtTier": "Bono combinado de todos los tipos de juego en el Nivel {level}"
+		},
+		"claimSuccessModal": {
+			"title": "Reclamación exitosa",
+			"statusCompleted": "Completado",
+			"statusOnChain": "En la cadena",
+			"claimAmount": "Monto reclamado",
+			"logoAlt": "Logo de {siteName}",
+			"backgroundAlt": "Fondo de reclamación exitosa",
+			"creatingMagic": "Creando magia...",
+			"downloadShare": "Descargar y compartir",
+			"spreadTheWin": "¡CORRE LA VOZ DE LA VICTORIA!",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "Más",
+			"shareText": "¡Acabo de reclamar un bono de {amount}! Únete a mí: {url}",
+			"referralLinkCopied": "¡Enlace de referido copiado!",
+			"referralLinkCopyFailed": "Error al copiar el enlace de referido",
+			"screenshotFailed": "Error en la captura de pantalla. Inténtalo de nuevo o usa un navegador diferente.",
+			"shareTextCopied": "¡Texto para compartir copiado al portapapeles!",
+			"shareFailed": "Error al compartir. Inténtalo de nuevo."
 		}
 	},
 	"debug": {
-		"title": "Página de Depuración"
+		"title": "Página de depuración"
 	},
 	"getLobby": {
-		"enteringLobby": "Entrando al Lobby...",
-		"connectingWait": "Por favor espera mientras te conectamos.",
-		"invalidSession": "Tu sesión es inválida o falta el proveedor. Inténtalo de nuevo.",
+		"enteringLobby": "Entrando al lobby...",
+		"connectingWait": "Espera mientras te conectamos.",
+		"invalidSession": "Tu sesión no es válida o falta el proveedor. Inténtalo de nuevo.",
 		"failedPrefix": "Error al entrar al lobby: {message}",
-		"launchFailedTitle": "Error al Iniciar",
-		"returnHome": "Volver al Inicio"
+		"launchFailedTitle": "Error al iniciar",
+		"returnHome": "Volver al inicio"
 	},
 	"play": {
 		"connecting": "Conectando al servidor del juego...",
-		"invalidSession": "Tu sesión es inválida o ha expirado. Inicia sesión e inténtalo de nuevo.",
-		"launchFailedTitle": "Error al Iniciar",
-		"returnHome": "Volver al Inicio"
+		"invalidSession": "Tu sesión no es válida o ha caducado. Inicia sesión e inténtalo de nuevo.",
+		"launchFailedTitle": "Error al iniciar",
+		"returnHome": "Volver al inicio"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "OFERTA POR TIEMPO LIMITADO",
 		"headline": "¡Obtén un bono de bienvenida del 200%!",
-		"subheadline": "Conecta tu billetera cripto ahora y recibe hasta {amount} de bono en tu primer depósito!",
-		"featureDepositMatch": "Igualación de Depósito 200%",
-		"featureZeroFees": "Cero comisiones",
+		"subheadline": "¡Conecta tu billetera de criptomonedas ahora y recibe hasta {amount} de bono en tu primer depósito!",
+		"featureDepositMatch": "Bono de depósito del 200%",
+		"featureZeroFees": "Cero comisiones de transacción",
 		"featureInstantWithdrawals": "Retiros instantáneos",
-		"featureNoKyc": "Sin KYC requerido",
-		"ctaClaim": "¡RECLAMAR BONO AHORA!",
+		"featureNoKyc": "No se requiere KYC",
+		"ctaClaim": "¡RECLAMA EL BONO AHORA!",
 		"offerExpires": "La oferta expira en:",
-		"disclaimer": "Apl. TyC. Apostar implica riesgo. Juega responsablemente. 18+",
+		"disclaimer": "Se aplican los términos y condiciones. El juego implica riesgos. Juega de forma responsable. Mayores de 18 años.",
 		"closeAria": "Cerrar modal",
 		"bannerAlt": "Banner promocional",
 		"ctaOk": "Conectar billetera y empezar a apostar",
-		"enterAmount": "Ingresar monto",
+		"enterAmount": "Introducir monto",
 		"balance": "Saldo",
-		"max": "Máx",
+		"max": "Máx.",
 		"deposit": "Depositar",
-		"ethereum": "Etereum"
+		"ethereum": "Ethereum"
 	},
 	"modalsSmall": {
 		"close": "Cerrar",
-		"firstDepositBoost": "Impulso de bono por 1er depósito",
+		"firstDepositBoost": "Bono extra del primer depósito",
 		"bonus": "Bono",
-		"min": "mín.",
-		"sec": "Seg",
+		"min": "Mín.",
+		"sec": "Seg.",
 		"deposit": "Depositar"
 	},
 	"auth": {
 		"email": {
-			"title": "Inicio de sesión por correo",
+			"title": "Iniciar sesión con correo electrónico",
 			"description": "Te enviaremos un código de 6 dígitos",
-			"emailLabel": "Correo electrónico",
+			"emailLabel": "Dirección de correo electrónico",
 			"emailPlaceholder": "nombre@email.com",
 			"cancel": "Cancelar",
 			"sending": "Enviando",
 			"continue": "Continuar",
-			"enterCodeTitle": "Ingresar código",
+			"enterCodeTitle": "Introduce el código",
 			"sentTo": "Enviado a {email}",
-			"changeEmail": "Cambiar correo",
+			"changeEmail": "Cambiar correo electrónico",
 			"resendCode": "Reenviar código",
 			"resendIn": "Reenviar en {seconds}s",
 			"verifying": "Verificando",
-			"successTitle": "¡Estás dentro!",
-			"successSubtitle": "Configurando…",
-			"modalAria": "Modal de verificación de correo",
+			"successTitle": "¡Has entrado!",
+			"successSubtitle": "Configurando todo...",
+			"modalAria": "Modal de verificación de correo electrónico",
 			"errors": {
-				"invalidEmail": "Por favor ingresa un correo válido",
-				"sendFailed": "No se pudo enviar el código de verificación.",
-				"invalidCode": "Por favor ingresa un código de 6 dígitos"
+				"invalidEmail": "Introduce una dirección de correo electrónico válida",
+				"sendFailed": "Error al enviar el código de verificación.",
+				"invalidCode": "Introduce un código de verificación de 6 dígitos"
 			}
 		},
 		"setNickname": {
-			"title": "Configura tu Apodo",
-			"subtitle": "Esto es una configuración única y no se puede cambiar",
+			"title": "Establece tu apodo",
+			"subtitle": "Esta es una configuración única y no se puede cambiar",
 			"logoutAria": "Cerrar sesión",
 			"inputPlaceholder": "Elige tu apodo único",
-			"referrerCheckbox": "Tengo un ID de referente",
-			"referrerPlaceholder": "Ingresa el ID del referente",
-			"referrerHelp": "Opcional. Vincula tu cuenta al referente para programas de bonificación.",
+			"referrerCheckbox": "Tengo un ID de referido",
+			"referrerPlaceholder": "Introduce el ID de referido",
+			"referrerHelp": "Opcional. Esto vincula tu cuenta al referente para los programas de bonos.",
 			"status": {
 				"checking": "Comprobando disponibilidad...",
 				"available": "¡El apodo está disponible!",
 				"taken": "Este apodo ya está en uso."
 			},
-			"register": "Registrarse y Jugar",
-			"termsTitle": "Términos y Condiciones:",
-			"termsBody": "Al firmar este documento con tu billetera y/o continuar usando esta Aplicación Web3, aceptas los términos de uso de la aplicación. Firmar tu consentimiento a los Términos de Uso no es una transacción en la blockchain y no tiene costo.",
+			"register": "Registrarse y jugar",
+			"termsTitle": "Términos y condiciones:",
+			"termsBody": "Al firmar este documento con tu Billetera y/o continuar usando esta Aplicación Web3, aceptas los términos de uso de la aplicación. Firmar tu consentimiento a los Términos de Uso no es una transacción de blockchain y no tiene costo.",
 			"errors": {
 				"verifyNicknameFailed": "No se pudo verificar el apodo. Inténtalo de nuevo.",
 				"registerFailed": "Registro fallido: {message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "Iniciar sesión con correo",
+			"loginWithEmail": "Iniciar sesión con correo electrónico",
 			"connectWalletBtn": "Conectar billetera",
 			"loginWithWallet": "Iniciar sesión con billetera",
 			"player": "Jugador",
 			"walletConnected": "Billetera conectada",
-			"emailConnected": "Correo conectado",
+			"emailConnected": "Correo electrónico conectado",
 			"disconnect": "Desconectar",
-			"walletAddress": "Dirección de billetera",
+			"walletAddress": "Dirección de la billetera",
 			"balance": "Saldo"
 		}
 	},
 	"walletProvider": {
 		"transactionModal": {
+			"title": "BILLETERA",
 			"tabs": {
 				"deposit": "Depositar",
+				"tip": "Propina",
 				"withdraw": "Retirar",
 				"swap": "Intercambiar",
 				"walletInfo": "Billetera",
-				"tip": "Propina",
-				"emailWallet": "Cartera de correo electrónico",
+				"emailWallet": "Billetera de correo electrónico",
 				"wallet": "Billetera"
 			},
 			"mobileDropdown": {
-				"emailWallet": "Billetera de Correo",
+				"emailWallet": "Billetera de correo electrónico",
 				"wallet": "Billetera",
 				"deposit": "Depositar",
+				"tip": "Propina",
 				"withdraw": "Retirar",
-				"swap": "Intercambiar",
-				"tip": "Propina"
-			},
-			"title": "BILLETERA"
+				"swap": "Intercambiar"
+			}
 		},
 		"networkSelector": {
 			"placeholder": "Seleccionar red",
 			"switching": "Cambiando...",
 			"walletNotConnected": "Billetera no conectada.",
-			"failedToSwitch": "No se pudo cambiar de red. Inténtalo desde tu billetera.",
+			"failedToSwitch": "Error al cambiar de red. Inténtalo desde tu billetera.",
 			"altLogo": "Logo de la red"
 		},
 		"tokenList": {
 			"dialogTitle": "Selecciona un token",
 			"instantDeposit": "Depósito instantáneo",
-			"yourWalletBalance": "Saldo de tu billetera",
-			"searchPlaceholder": "Busca por nombre o pega dirección",
+			"yourWalletBalance": "El saldo de tu billetera",
+			"searchPlaceholder": "Busca un nombre o pega una dirección",
 			"emptySearch": "No se encontraron tokens que coincidan con tu búsqueda.",
 			"emptyOwned": "No se encontraron tokens con saldo.",
 			"searchResults": "Resultados de búsqueda",
@@ -696,256 +867,256 @@
 		},
 		"tabsSidebar": {
 			"walletInfo": "Billetera",
-			"emailWallet": "Billetera de Correo",
+			"emailWallet": "Billetera de correo electrónico",
 			"deposit": "Depositar",
 			"withdraw": "Retirar",
 			"swap": "Intercambiar"
 		},
 		"depositPanel": {
-			"youPay": "Depositar",
+			"youPay": "Tú pagas",
 			"resetForm": "Restablecer formulario",
-			"enterAmount": "Ingresar monto",
-			"selectToken": "Seleccionar Token",
-			"max": "Máx",
+			"enterAmount": "Introducir monto",
+			"selectToken": "Seleccionar token",
+			"max": "Máx.",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
 			"balance": "Saldo:",
 			"calculating": "Calculando...",
 			"approxUsd": "~ ${amount} USD",
 			"minPrefix": "Mín:",
 			"ratesMayVary": "Las tasas pueden variar",
-			"emailWalletAddress": "Dirección de billetera de correo",
-			"walletAddress": "Dirección de billetera",
+			"emailWalletAddress": "Dirección de la billetera de correo electrónico",
+			"walletAddress": "Dirección de la billetera",
 			"minimumIs": "El mínimo es {min}",
 			"errors": {
-				"selectTokenAndAmount": "Por favor selecciona un token e ingresa un monto",
+				"selectTokenAndAmount": "Selecciona un token e introduce un monto",
 				"insufficientBalance": "Saldo insuficiente para esta transacción",
-				"amountTooHighGas": "El monto es muy alto considerando las tarifas de gas",
-				"checkForm": "Por favor revisa el formulario e inténtalo de nuevo",
-				"pendingDeposit": "Tienes un depósito pendiente. Por favor espera a que se complete"
+				"amountTooHighGas": "El monto es demasiado alto al tener en cuenta las tarifas de gas",
+				"checkForm": "Comprueba el formulario e inténtalo de nuevo",
+				"pendingDeposit": "Tienes un depósito pendiente. Espera a que se complete"
 			},
 			"status": {
 				"processing": "Procesando...",
-				"awaitingApproval": "Esperando Aprobación",
-				"calculatingRate": "Calculando Tasa...",
-				"insufficientBalance": "Saldo Insuficiente"
+				"awaitingApproval": "Esperando aprobación",
+				"calculatingRate": "Calculando tasa...",
+				"insufficientBalance": "Saldo insuficiente"
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
+			}
+		},
+		"tipPanel": {
+			"youTip": "Tú das propina",
+			"resetForm": "Restablecer formulario",
+			"enterAmount": "Introducir monto",
+			"selectToken": "Seleccionar token",
+			"minPrefix": "Mínimo",
+			"balance": "Saldo:",
+			"max": "Máx.",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
+			"approxUsd": "~ ${amount} USD",
+			"tipPanelWarningText": "Las propinas son voluntarias y no reembolsables.",
+			"emailWalletAddress": "Dirección de la billetera de correo electrónico",
+			"errors": {
+				"selectTokenAndAmount": "Selecciona un token e introduce un monto.",
+				"insufficientBalance": "Saldo insuficiente.",
+				"belowMinimum": "El monto debe ser de al menos {min}.",
+				"missingWallet": "No se pudo obtener la billetera de propinas. Inténtalo de nuevo más tarde.",
+				"checkForm": "Verifica los detalles de tu propina."
 			},
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} está reservado para cubrir las tarifas del gas y evitar fallas en la transacción."
+			"status": {
+				"processing": "Enviando propina...",
+				"awaitingApproval": "Esperando aprobación...",
+				"calculatingRate": "Calculando...",
+				"insufficientBalance": "Saldo insuficiente",
+				"fetchingWallet": "Preparando billetera de propinas..."
+			},
+			"prompts": {
+				"selectToken": "Seleccionar token",
+				"enterAmount": "Introducir monto"
+			},
+			"buttons": {
+				"tipUsd": "Dar ${amount} de propina",
+				"tip": "Propina"
+			},
+			"minimumIs": "La propina mínima es de {min}"
+		},
+		"tipPending": {
+			"submittedTitle": "Propina pendiente",
+			"submittedDesc": "Tu propina se está confirmando en la cadena.",
+			"confirmedTitle": "¡Propina confirmada!",
+			"confirmedDesc": "Tu propina se entregó correctamente.",
+			"viewOnExplorer": "Ver en el explorador",
+			"newTipPending": "Enviar otra propina",
+			"newTipConfirmed": "Enviar otra propina"
 		},
 		"swapPanel": {
 			"selectTokens": "Seleccionar tokens",
-			"enterAmount": "Ingresar monto",
+			"enterAmount": "Introducir monto",
 			"gettingQuote": "Obteniendo cotización...",
 			"confirming": "Confirmando...",
 			"approving": "Aprobando...",
 			"insufficientBalance": "Saldo insuficiente para el intercambio",
 			"sameToken": "No se puede intercambiar el mismo token",
-			"approveAndSwap": "Aprobar e Intercambiar",
+			"approveAndSwap": "Aprobar e intercambiar",
 			"swap": "Intercambiar",
-			"slippageTolerance": "Tolerancia de Deslizamiento",
+			"slippageTolerance": "Tolerancia de deslizamiento",
 			"custom": "Personalizado",
 			"set": "Establecer",
 			"currentSlippage": "Deslizamiento actual",
-			"swapSuccessful": "¡Intercambio Exitoso!",
-			"transactionConfirmed": "Tu transacción ha sido confirmada",
-			"hash": "Picadillo",
-			"newSwap": "Nuevo Intercambio",
-			"youPay": "Pagas",
-			"max": "Máx",
+			"swapSuccessful": "¡Intercambio exitoso!",
+			"transactionConfirmed": "Tu transacción ha sido enviada",
+			"hash": "Hash",
+			"newSwap": "Nuevo intercambio",
+			"youPay": "Tú pagas",
+			"max": "Máx.",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} se reserva para cubrir las tarifas de gas y evitar fallos en la transacción",
 			"low": "Bajo",
 			"amountPlaceholder": "0",
-			"selectToken": "Seleccionar Token",
-			"youReceive": "Recibes",
+			"selectToken": "Seleccionar token",
+			"youReceive": "Tú recibes",
 			"gettingBestQuote": "Obteniendo la mejor cotización...",
 			"gas": "Gas",
 			"minimumReceived": "Mínimo recibido",
 			"slippageToleranceLabel": "Tolerancia de deslizamiento",
 			"gasFee": "Tarifa de gas",
 			"priceWarning": "Los precios se actualizan en tiempo real y pueden cambiar antes de que se confirme tu transacción",
-			"emailWalletAddress": "Dirección de Billetera de Correo",
-			"walletAddress": "Dirección de Billetera",
+			"emailWalletAddress": "Dirección de la billetera de correo electrónico",
+			"walletAddress": "Dirección de la billetera",
 			"minimumIs": "El mínimo es {min}",
 			"errors": {
-				"selectTokenAndAmount": "Por favor selecciona un token e ingresa un monto",
+				"selectTokenAndAmount": "Selecciona un token e introduce un monto",
 				"insufficientBalance": "Saldo insuficiente para esta transacción",
-				"amountTooHighGas": "El monto es muy alto considerando las tarifas de gas",
-				"checkForm": "Por favor revisa el formulario e inténtalo de nuevo",
-				"pendingDeposit": "Tienes un depósito pendiente. Por favor espera a que se complete"
+				"amountTooHighGas": "El monto es demasiado alto al tener en cuenta las tarifas de gas",
+				"checkForm": "Comprueba el formulario e inténtalo de nuevo",
+				"pendingDeposit": "Tienes un depósito pendiente. Espera a que se complete"
 			},
 			"status": {
 				"processing": "Procesando...",
-				"awaitingApproval": "Esperando Aprobación",
-				"calculatingRate": "Calculando Tasa...",
-				"insufficientBalance": "Saldo Insuficiente"
+				"awaitingApproval": "Esperando aprobación",
+				"calculatingRate": "Calculando tasa...",
+				"insufficientBalance": "Saldo insuficiente"
 			},
 			"buttons": {
 				"depositUsd": "Depositar ${amount}"
-			},
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} está reservado para cubrir las tarifas de gas y evitar fallos en la transacción"
+			}
 		},
 		"depositPending": {
 			"confirmedTitle": "¡Depósito confirmado!",
 			"submittedTitle": "Transacción enviada",
+			"failedTitle": "Transacción fallida",
 			"confirmedDesc": "Tu saldo ha sido actualizado.",
-			"submittedDesc": "Esperando confirmación de la blockchain. Esto puede tomar unos minutos.",
+			"submittedDesc": "Esperando la confirmación de la blockchain. Esto puede tardar unos minutos.",
+			"failedDesc": "Tu transacción ha fallado. Inténtalo de nuevo.",
 			"viewOnExplorer": "Ver en el explorador",
 			"newDepositConfirmed": "Hacer otro depósito",
 			"newDepositPending": "Iniciar un nuevo depósito",
-			"failedTitle": "Transacción fallida",
-			"failedDesc": "Su transacción ha fallado. ",
-			"newDepositFailed": "Intentar otra vez"
+			"newDepositFailed": "Intentar de nuevo"
 		},
 		"withdrawPanel": {
 			"resetForm": "Restablecer formulario",
-			"networkNotSupported": "Los retiros solo están disponibles en Arbitrum, Polygon y BNB",
-			"youWithdraw": "Retirar",
+			"networkNotSupported": "Los retiros solo son compatibles con Arbitrum, Polygon y BNB",
+			"youWithdraw": "Tú retiras",
 			"loading": "Cargando...",
 			"amount": "Monto",
-			"max": "Máx",
+			"max": "Máx.",
 			"balance": "Saldo:",
 			"available": "Disponible:",
 			"insufficientBalance": "Saldo insuficiente",
 			"minimumIs": "El mínimo es {min}",
 			"minLabel": "Mín:",
-			"emailWalletAddress": "Dirección de billetera de correo",
-			"walletAddress": "Dirección de billetera",
+			"calculating": "Calculando",
+			"emailWalletAddress": "Dirección de la billetera de correo electrónico",
+			"walletAddress": "Dirección de la billetera",
 			"errors": {
 				"pendingWithdrawal": "Ya tienes un retiro pendiente",
-				"invalidAddress": "Dirección Inválida",
-				"enterAmount": "Ingresa Cantidad",
-				"networkNotSupported": "Red No Compatible"
+				"invalidAddress": "Dirección no válida",
+				"enterAmount": "Introducir monto",
+				"networkNotSupported": "Red no compatible"
 			},
 			"status": {
 				"processing": "Procesando...",
-				"insufficientBalance": "Saldo Insuficiente",
-				"pendingWithdrawal": "Ya Tienes Retiro Pendiente"
+				"insufficientBalance": "Saldo insuficiente",
+				"pendingWithdrawal": "Ya tienes un retiro pendiente"
 			},
 			"buttons": {
 				"withdraw": "Retirar {amount} {symbol}",
 				"minimum": "Mínimo {amount} {symbol}"
-			},
-			"calculating": "Calculador"
+			}
 		},
 		"withdrawSuccess": {
-			"title": "¡Retiro Exitoso!",
-			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de {siteName}! 🚀 ¡Únete a la racha ganadora en {shareUrl}",
-			"withdrawnAmount": "Cantidad Retirada",
-			"shareText": "¡Comparte",
+			"title": "¡Retiro exitoso!",
+			"successMessage": "🎉 ¡Acabo de retirar {withdrawAmount} {tokenSymbol} de {siteName}! 🚀 Únete a la racha ganadora en {shareUrl}",
+			"withdrawnAmount": "Monto retirado",
+			"shareText": "Compartir",
 			"subText": "🚀 ¡ÚNETE A LA RACHA GANADORA! 🚀",
 			"generating": "Generando...",
-			"screenshot": "Tomar Captura",
-			"download": "Descargar Imagen",
+			"screenshot": "Hacer captura de pantalla",
+			"download": "Descargar imagen",
 			"close": "Cerrar",
-			"copiedToClipboard": "Enlace para compartir copiado exitosamente",
+			"copiedToClipboard": "Enlace para compartir copiado correctamente",
 			"userName": "Jugador de {siteName}",
 			"status": "Completado",
-			"entryPrice": "Cantidad de Retiro",
-			"lastPrice": "Símbolo del Token",
-			"referralCode": "Código de Referencia",
-			"screenshotFailed": "Captura de pantalla fallida. Por favor intenta de nuevo o usa un navegador diferente.",
-			"shareFailed": "Compartir falló. Por favor intenta de nuevo."
+			"entryPrice": "Monto del retiro",
+			"lastPrice": "Símbolo del token",
+			"referralCode": "Código de referido",
+			"screenshotFailed": "Error en la captura de pantalla. Inténtalo de nuevo o usa un navegador diferente.",
+			"shareFailed": "Error al compartir. Inténtalo de nuevo."
 		},
 		"withdrawPending": {
 			"confirmedTitle": "¡Retiro confirmado!",
 			"submittedTitle": "Transacción enviada",
-			"confirmedDesc": "Tus fondos van en camino.",
-			"submittedDesc": "Esperando confirmación de la blockchain...",
+			"confirmedDesc": "Tus fondos están en camino.",
+			"submittedDesc": "Esperando la confirmación de la blockchain...",
 			"viewOnExplorer": "Ver en el explorador",
 			"manualApproval": "Este retiro requiere aprobación manual.",
 			"newWithdrawalConfirmed": "Hacer otro retiro",
 			"newWithdrawalPending": "Iniciar un nuevo retiro"
 		},
 		"withdrawSummary": {
-			"youWillReceive": "Vas a recibir"
-		},
-		"tipPanel": {
-			"approxUsd": "~  USD",
-			"balance": "Saldo:",
-			"buttons": {
-				"tip": "Propina",
-				"tipUsd": "Propina"
-			},
-			"emailWalletAddress": "Dirección de billetera de correo electrónico",
-			"enterAmount": "Introduce el monto",
-			"errors": {
-				"belowMinimum": "El monto debe ser al menos {min}.",
-				"checkForm": "Por favor verifica los detalles de tu propina.",
-				"insufficientBalance": "Saldo insuficiente.",
-				"missingWallet": "No se pudo obtener la billetera de propinas. Inténtelo de nuevo más tarde.",
-				"selectTokenAndAmount": "Por favor, seleccione un token y ingrese una cantidad."
-			},
-			"max": "Máx",
-			"maxButtonToolTipText": "Se reserva {gasReservationAmount} {selectedTokenSymbol} para cubrir las tarifas de gas y evitar el fallo de transacción",
-			"minimumIs": "La propina mínima es {min}",
-			"minPrefix": "Mínimo",
-			"prompts": {
-				"enterAmount": "Ingrese el monto",
-				"selectToken": "Seleccionar token"
-			},
-			"resetForm": "Restablecer formulario",
-			"selectToken": "Seleccionar token",
-			"status": {
-				"awaitingApproval": "Esperando aprobación...",
-				"calculatingRate": "Calculando...",
-				"fetchingWallet": "Preparando la billetera de propinas...",
-				"insufficientBalance": "Saldo insuficiente",
-				"processing": "Enviando propina..."
-			},
-			"tipPanelWarningText": "Las propinas son voluntarias y no reembolsables.",
-			"youTip": "Tu propina"
-		},
-		"tipPending": {
-			"confirmedDesc": "Tu propina fue entregada con éxito.",
-			"confirmedTitle": "¡Propina confirmada!",
-			"newTipConfirmed": "Enviar otra propina",
-			"newTipPending": "Enviar otra propina",
-			"submittedDesc": "Tu propina está siendo confirmada en la cadena.",
-			"submittedTitle": "Propina pendiente",
-			"viewOnExplorer": "Ver en el explorador"
+			"youWillReceive": "Recibirás"
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "Mejorar a Pro",
+		"upgradeToPro": "Actualizar a Pro",
 		"account": "Cuenta",
 		"billing": "Facturación",
 		"notifications": "Notificaciones",
 		"logout": "Cerrar sesión"
 	},
 	"games": {
-		"pageTitle": "Todos los Juegos",
+		"pageTitle": "Todos los juegos",
 		"playNow": "Jugar ahora",
 		"byProvider": "Por {name}",
-		"count": "{count} Juegos",
+		"count": "{count} juegos",
 		"noResults": "No se encontraron juegos que coincidan con tus criterios.",
 		"errorLoading": "No se pudieron cargar los juegos. Inténtalo de nuevo más tarde.",
 		"slots": "Tragamonedas",
 		"sports": "Deportes",
-		"liveCasino": "Casino en Vivo",
+		"liveCasino": "Casino en vivo",
 		"explore": "Explorar",
 		"exploreSubtitle": "Descubre increíbles experiencias de juego",
 		"poker": "Póker",
 		"lottery": "Lotería",
 		"futures": "Futuros",
-		"vr": "realidad virtual",
-		"swap": "Intercambio",
-		"slotsDescription": "Gira los carretes y gana jackpots masivos",
+		"vr": "RV",
+		"swap": "Intercambiar",
+		"slotsDescription": "Gira los carretes y gana premios masivos",
 		"liveCasinoDescription": "Experimenta la acción del casino en tiempo real con crupieres en vivo",
-		"sportsDescription": "Apuesta en tus equipos favoritos y eventos deportivos",
+		"sportsDescription": "Apuesta en tus equipos y eventos deportivos favoritos",
 		"pokerDescription": "Pon a prueba tus habilidades en juegos de póker clásicos",
-		"lotteryDescription": "Prueba tu suerte con lotería y juegos de ganancia instantánea",
-		"futuresDescription": "Negocia y predice movimientos del mercado",
-		"vrDescription": "Sumérgete en juegos de realidad virtual",
+		"lotteryDescription": "Prueba tu suerte con la lotería y los juegos de ganancia instantánea",
+		"futuresDescription": "Opera y predice los movimientos del mercado",
+		"vrDescription": "Sumérgete en los juegos de realidad virtual",
 		"swapDescription": "Intercambia tokens y criptomonedas sin problemas",
 		"categories": {
 			"slot": {
-				"title": "Tragamonedas"
+				"title": "Juegos de tragamonedas"
 			},
 			"liveCasino": {
-				"title": "Juegos de Casino en Vivo"
+				"title": "Juegos de casino en vivo"
 			},
 			"sports": {
-				"title": "Juegos de Apuestas Deportivas"
+				"title": "Juegos de apuestas deportivas"
 			},
 			"rng": {
 				"title": "Juegos RNG"
@@ -956,7 +1127,7 @@
 		}
 	},
 	"providers": {
-		"pageTitle": "Todos los Proveedores de Juegos",
+		"pageTitle": "Todos los proveedores de juegos",
 		"searchPlaceholder": "Buscar un proveedor...",
 		"empty": "No se encontraron proveedores que coincidan con tu búsqueda.",
 		"logoAlt": "Logo de {name}",
@@ -964,19 +1135,19 @@
 		"clearFilter": "Limpiar filtro",
 		"categories": {
 			"slot": {
-				"title": "Proveedores de Tragamonedas"
+				"title": "Proveedores de juegos de tragamonedas"
 			},
 			"liveCasino": {
-				"title": "Proveedores de Casino en Vivo"
+				"title": "Proveedores de casino en vivo"
 			},
 			"sports": {
-				"title": "Proveedores de Apuestas Deportivas"
+				"title": "Proveedores de apuestas deportivas"
 			},
 			"rng": {
-				"title": "Proveedores de Juegos RNG"
+				"title": "Proveedores de juegos RNG"
 			},
 			"other": {
-				"title": "Proveedores de Juegos {category}"
+				"title": "Proveedores de juegos de {category}"
 			}
 		}
 	},
@@ -984,67 +1155,67 @@
 		"guest": {
 			"title": "Únete a la acción",
 			"subtitle": "¡Regístrate ahora y obtén un bono de bienvenida exclusivo!",
-			"cta": "Regístrate ahora"
+			"cta": "Registrarse ahora"
 		},
 		"welcome": {
-			"title1": "Bono de Bienvenida",
+			"title1": "Bono de bienvenida",
 			"title2": "Hasta 590%",
-			"subtitle": "+ 225 Giros Gratis",
-			"cta": "Deposita y Obtén"
+			"subtitle": "+ 225 giros gratis",
+			"cta": "Deposita y obtén"
 		},
 		"jackpot": {
-			"title1": "Mega bote",
+			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
-			"subtitle": "Juega ahora y gana en grande",
+			"subtitle": "Juega ahora y gana a lo grande",
 			"cta": "Jugar ahora"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ JUEGOS",
-				"desc": "Disfruta de {siteName} Originals y otros juegos de casino de los mejores proveedores.",
-				"link": "Ir al Casino"
+				"desc": "Disfruta de los originales de {siteName} y otros juegos de casino de los mejores proveedores.",
+				"link": "Ir al casino"
 			},
 			"slots": {
 				"title": "Tragamonedas",
 				"badge": "5292 JUEGOS",
-				"desc": "Gira los carretes y gana jackpots masivos con nuestra colección premium de tragamonedas.",
-				"link": "Ir a Tragamonedas"
+				"desc": "Gira los carretes y consigue grandes premios con nuestra colección de tragamonedas premium.",
+				"link": "Ir a las tragamonedas"
 			},
 			"sports": {
 				"title": "Deportes",
 				"badge": "3 JUEGOS",
-				"desc": "Apuesta en tus equipos favoritos y eventos deportivos con cuotas competitivas.",
-				"link": "Ir a Deportes"
+				"desc": "Apuesta en tus equipos y eventos deportivos favoritos con cuotas competitivas.",
+				"link": "Ir a deportes"
 			},
 			"crypto": {
-				"title": "Crypto y Ganancias",
+				"title": "Cripto y gana",
 				"badge": "60% TAE",
-				"desc": "Haz staking, comercia y gana con criptomonedas a tasas atractivas.",
-				"link": "Ir a Crypto"
+				"desc": "Apuesta, comercia y gana con criptomonedas a tasas atractivas.",
+				"link": "Ir a cripto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Destacados del Juego",
-			"headerSubtitle": "Descubre increíbles juegos y explora nuevas aventuras en nuestra colección curada",
-			"slider1Title": "Juegos Destacados",
-			"slider1Badge": "Selección del equipo",
+			"headerTitle": "Juego destacado",
+			"headerSubtitle": "Descubre juegos increíbles y explora nuevas aventuras en nuestra colección seleccionada",
+			"slider1Title": "Juegos destacados",
+			"slider1Badge": "Selecciones del personal",
 			"slider2Title": "Más para explorar",
 			"slider2Badge": "Tendencias",
-			"featuredGameLabel": "Juego Destacado"
+			"featuredGameLabel": "Juego destacado"
 		},
 		"ctaExploreGames": "Explorar juegos",
-		"ctaJoinAffiliate": "Únete al programa de afiliados"
+		"ctaJoinAffiliate": "Unirse como afiliado"
 	},
 	"betting": {
 		"live": {
-			"winRate": "Tasa de victoria",
-			"biggestWin": "Mayor ganancia",
-			"bigWins50": "Grandes ganancias (50+)",
-			"recentWins": "Ganancias recientes",
+			"winRate": "Tasa de victorias",
+			"biggestWin": "Mayor victoria",
+			"bigWins50": "Grandes victorias (50+)",
+			"recentWins": "Victorias recientes",
 			"header": {
 				"title": "Actividad de apuestas en vivo",
-				"subtitle": "Actividad en tiempo real • {count} juegos cargados"
+				"subtitle": "Actividad de apuestas en tiempo real • {count} juegos cargados"
 			},
 			"status": {
 				"live": "EN VIVO",
@@ -1055,243 +1226,796 @@
 				"resume": "Reanudar"
 			},
 			"tabs": {
-				"all": "Todos",
-				"wins": "Ganancias",
-				"losses": "Pérdidas"
+				"all": "Todo",
+				"wins": "Victorias",
+				"losses": "Derrotas"
 			},
 			"table": {
-				"game": "Juego",
+				"game": "Nombre del juego",
 				"time": "Hora",
 				"provider": "Proveedor",
 				"nickname": "Apodo",
 				"bet": "Apuesta",
 				"multiplier": "Multiplicador",
-				"profit": "Ganancia"
+				"profit": "Beneficio"
 			},
 			"empty": "No se encontraron registros de apuestas"
 		}
 	},
 	"fontChanger": {
-		"changeFont": "Cambiar Fuente",
-		"fontSettings": "Configuración de Fuente",
+		"changeFont": "Cambiar fuente",
+		"fontSettings": "Configuración de la fuente",
 		"current": "Actual",
 		"browseGoogleFonts": "Explorar Google Fonts",
-		"uploadCustomFont": "Subir Fuente Personalizada",
-		"quickUploadFontFile": "Subida Rápida de Archivo de Fuente",
-		"resetToDefault": "Restablecer a Predeterminado",
+		"uploadCustomFont": "Subir fuente personalizada",
+		"quickUploadFontFile": "Subida rápida de archivo de fuente",
+		"resetToDefault": "Restablecer a predeterminado",
 		"googleFonts": {
-			"title": "Fuentes de Google",
+			"title": "Google Fonts",
 			"searchFonts": "Buscar fuentes...",
 			"preview": "Vista previa",
-			"previewText": "El veloz murciélago hindú comía feliz cardillo y kiwi",
-			"alphabetPreview": "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 1234567890",
-			"applyFont": "Aplicar Fuente",
-			"clearPreview": "Limpiar Vista Previa",
-			"previewWith": "Texto de vista previa con {font}",
+			"previewText": "El rápido zorro marrón salta sobre el perro perezoso",
+			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
+			"applyFont": "Aplicar fuente",
+			"clearPreview": "Limpiar vista previa",
+			"previewWith": "Vista previa del texto con {font}",
 			"noFontsFound": "No se encontraron fuentes que coincidan con \"{searchTerm}\""
 		},
 		"customUpload": {
-			"title": "Subir Fuente Personalizada",
+			"title": "Subir fuente personalizada",
 			"description": "Sube tu propio archivo de fuente para personalizar el sitio web",
-			"fontFile": "Archivo de Fuente",
+			"fontFile": "Archivo de fuente",
 			"dragDropArea": "Arrastra y suelta tu archivo de fuente aquí, o",
 			"clickToUpload": "haz clic para subir",
-			"supportedFormats": "Formatos compatibles: .woff, .woff2, .ttf, .otf",
+			"supportedFormats": "Formatos admitidos: .woff, .woff2, .ttf, .otf",
 			"maxFileSize": "Tamaño máximo de archivo: 10MB",
-			"fontName": "Nombre de la Fuente",
-			"fontNamePlaceholder": "Ingresa un nombre para tu fuente",
-			"previewYourFont": "Vista Previa de Tu Fuente",
-			"uploadAndApply": "Subir y Aplicar Fuente",
+			"fontName": "Nombre de la fuente",
+			"fontNamePlaceholder": "Introduce un nombre para tu fuente",
+			"previewYourFont": "Vista previa de tu fuente",
+			"uploadAndApply": "Subir y aplicar fuente",
 			"cancel": "Cancelar",
 			"uploading": "Subiendo...",
 			"errors": {
-				"invalidFileType": "Por favor sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
-				"fileTooLarge": "El tamaño del archivo excede el límite de 10MB",
+				"invalidFileType": "Sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "El tamaño del archivo supera el límite de 10MB",
 				"uploadFailed": "Error al subir el archivo de fuente",
-				"enterFontName": "Por favor selecciona un archivo de fuente y proporciona un nombre",
+				"enterFontName": "Selecciona un archivo de fuente y proporciona un nombre",
 				"readFileFailed": "Error al leer el archivo de fuente"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "¡Fuente \"{fontName}\" aplicada exitosamente!",
-			"fontUploadedSuccess": "¡Fuente \"{fontName}\" subida y aplicada exitosamente!",
-			"fontResetSuccess": "Fuente restablecida a predeterminada",
-			"invalidFileType": "Por favor sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
+			"fontAppliedSuccess": "¡Fuente \"{fontName}\" aplicada correctamente!",
+			"fontUploadedSuccess": "¡Fuente \"{fontName}\" subida y aplicada correctamente!",
+			"fontResetSuccess": "Fuente restablecida a la predeterminada",
+			"invalidFileType": "Sube un archivo de fuente válido (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Error al leer el archivo de fuente"
 		}
 	},
-	"bonus": {
-		"title": "Programa de bonificación por facturación",
-		"loginPromptTitle": "Programa de bonificación por facturación",
-		"loginPromptSubtitle": "Inicia sesión para ver tus estadísticas de bonificación y reclamar tus recompensas.",
-		"goHome": "Ir a Inicio",
-		"tabs": {
-			"dashboard": "Panel de control",
-			"claims": "Reclamaciones",
-			"rates": "Tasas de bonificación",
-			"calculator": "Calculadora"
+	"about": {
+		"title": "Sobre {siteDomain}",
+		"subtitle": "En {siteName}, jugar no es solo diversión, es una forma completamente nueva de jugar.",
+		"meta": {
+			"title": "Sobre {siteName} | Plataforma de juegos con tecnología cripto",
+			"description": "Descubre más sobre {siteName}, un casino de criptomonedas descentralizado que ofrece tragamonedas demostrablemente justas, casino en vivo, apuestas deportivas y pagos instantáneos. Creado para la era actual de la cadena de bloques."
 		},
-		"refresh": "Actualizar",
-		"refreshing": "Actualizando...",
-		"refreshAllSuccess": "¡Todos los datos se actualizaron con éxito!",
-		"refreshPartial": "Actualizado parcialmente: {success}/{total} secciones actualizadas",
-		"refreshFailed": "Error al actualizar los datos. Por favor, inténtelo de nuevo.",
-		"dashboard": {
-			"title": "Panel de Bonificaciones",
-			"subtitle": "Rastrea tus apuestas, bonos y ganancias de recompensas",
-			"performanceOverview": "Resumen de bonificación",
-			"bonusRatesTitle": "Estructura de tasa de bonificación",
-			"totalIncome": "Bono Total",
-			"pendingBonus": "Bono Pendiente",
-			"lastClaim": "Última reclamación",
-			"unclaimedEarnings": "Disponible para reclamar",
-			"claim": {
-				"title": "Reclamación y Retiro",
-				"points": {
-					"0": "Las comisiones están disponibles para retiro una vez calculadas.",
-					"1": "No hay vencimiento para las comisiones no reclamadas: se acumulan hasta que se reclaman.",
-					"2": "Los retiros siguen las reglas estándar de la plataforma, como límites mínimos y tiempos de procesamiento."
+		"intro": {
+			"paragraph1": "En {siteName}, jugar no es solo diversión, es una forma completamente nueva de jugar. Creamos esta plataforma impulsada por criptomonedas para personas que quieren algo más que suerte. Si te importan la velocidad, la transparencia y tener el control, estás en el lugar correcto.",
+			"paragraph2": "Desde el primer día, nuestro objetivo fue claro: dar a los jugadores una experiencia de juego de siguiente nivel donde la tecnología y la equidad realmente funcionan juntas. Queremos que te sientas seguro, conectado y como si estuvieras siendo recompensado por cada giro, apuesta o mano. Ya sea que estés jugando en tragamonedas de criptomonedas, apostando en vivo en deportes o sentado en una mesa de casino, {siteName} está diseñado para la era actual de la cadena de bloques."
+		},
+		"whoWeAre": {
+			"title": "¿Quiénes somos?",
+			"paragraph1": "Somos una plataforma de juegos mundial y totalmente descentralizada, diseñada para los fanáticos de las criptomonedas que buscan libertad, privacidad y acción instantánea. Trabajamos con los nombres más importantes de la industria (Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech) y te ofrecemos más de 5,000 juegos premium y opciones de apuestas, todo en un solo lugar.",
+			"paragraph2": "Cada juego en {siteName} es demostrablemente justo y está verificado en la cadena de bloques. Sin trampas, solo transparencia total. Creemos que los juegos deben ser sin confianza pero aún humanos, mezclando la honestidad de la cadena de bloques con una experiencia fluida y emocionante que cualquiera puede disfrutar, donde sea que esté."
+		},
+		"mission": {
+			"title": "Nuestra misión",
+			"paragraph1": "Queremos cambiar la forma en que las personas experimentan los juegos en línea: hacerlos más rápidos, más justos y completamente impulsados por criptomonedas. Así que eliminamos las molestias habituales como las verificaciones KYC, los pagos lentos y los problemas de confianza. Aquí, obtienes acceso basado en billetera, transacciones instantáneas y prueba de equidad en cada apuesta.",
+			"paragraph2": "Tu privacidad permanece protegida, tus ganancias se pagan al instante y siempre tienes el control de tu juego."
+		},
+		"focus": {
+			"title": "En qué nos centramos",
+			"items": [
+				"Depósitos y retiros ultrarrápidos",
+				"Acceso prioritario a la privacidad sin KYC",
+				"Una interfaz de usuario fluida que funciona en todas partes",
+				"Soporte al cliente real, 24/7, de humanos reales"
+			],
+			"closing": "La confianza nos importa. ¿Cada nueva función? Está diseñada para ti."
+		},
+		"whatMakesUsDifferent": {
+			"title": "Qué diferencia a {siteName}",
+			"features": [
+				"Más de 5,000 juegos de casino de criptomonedas: tragamonedas, póker, mesas en vivo, lo que se te ocurra",
+				"Inicio de sesión basado en billetera con Dynamic.xyz: solo conecta y juega, sin esperas",
+				"Pagos instantáneos en criptomonedas, automatizados y verificados directamente en la cadena de bloques",
+				"Cada juego es demostrablemente justo y certificado por RNG",
+				"Funciona perfectamente en cualquier dispositivo, móvil o de escritorio",
+				"Recompensas transparentes: bonos y promociones que realmente benefician a los jugadores"
+			],
+			"closing": "{siteName} no se trata solo de juegos, se trata de libertad. Juega de forma segura, desde cualquier lugar, con total transparencia."
+		},
+		"fairGaming": {
+			"title": "Juego justo y responsable",
+			"paragraph1": "También nos tomamos muy en serio el juego justo y responsable. No permitimos que nadie menor de 18 años (o menor de la edad legal de su país) juegue, punto. Cada juego es verificado por probadores independientes y se ejecuta con la transparencia de la cadena de bloques, por lo que puedes verificar cada resultado tú mismo.",
+			"ageRestriction": "Solo los jugadores de 18 años o más pueden registrarse y jugar.",
+			"paragraph2": "Tu información personal y financiera permanece privada, siempre. Usamos cifrado de extremo a extremo y nunca almacenamos tus claves de billetera ni datos confidenciales."
+		},
+		"promise": {
+			"title": "Nuestra promesa",
+			"paragraph1": "No somos solo otro casino en línea. Somos el siguiente paso en los juegos. {siteName} existe para empoderar a los jugadores, no para controlarlos. Con tecnología cripto, equidad demostrable y un enfoque centrado en el jugador, estamos construyendo un mundo de juegos abierto, seguro y gratificante.",
+			"paragraph2": "Cada actualización, función o nuevo socio, todo lo que hacemos es para que los juegos sean justos, instantáneos y tuyos."
+		},
+		"joinCommunity": {
+			"title": "¿Listo para unirte?",
+			"paragraph1": "El futuro de los juegos está aquí: descentralizado, ultrarrápido y sin fronteras. Regístrate, conecta tu billetera y descubre cómo se siente la verdadera libertad de juego.",
+			"paragraph2": "Juega inteligentemente. Gana rápido. Experimenta {siteName}.",
+			"tagline": "Juega inteligentemente. Gana rápido. Experimenta {siteName}."
+		}
+	},
+	"footer": {
+		"sections": {
+			"company": {
+				"title": "Empresa",
+				"links": {
+					"about": "Sobre nosotros",
+					"providers": "Proveedores",
+					"affiliate": "Bono de referido",
+					"bonus": "Bono por volumen de juego"
 				}
 			},
-			"claiming": "Reclamando...",
-			"section2": {
-				"title": "Elegibilidad",
-				"content": "Para participar:"
+			"legal": {
+				"title": "Legal",
+				"links": {
+					"privacy": "Política de privacidad",
+					"terms": "Términos y condiciones",
+					"gambling": "Juego responsable",
+					"faqs": "Preguntas frecuentes"
+				}
 			},
-			"section3": {
-				"title": "Niveles y Tarifas de Cultivo",
-				"content": "Las bonificaciones se calculan en función de sus montos de apuesta diarios:",
-				"noteTitle": "Nota",
-				"noteContent": "Los niveles se evalúan diariamente a las 14:00 UTC. El volumen de apuestas del día anterior determina la tasa de bonificación de hoy. Las tasas se aplican a todos los tipos de juegos: Tragamonedas, Casino en vivo y Deportes."
+			"games": {
+				"title": "Juegos",
+				"links": {
+					"lobby": "Lobby de juegos",
+					"slots": "Tragamonedas",
+					"live": "Casino en vivo",
+					"sports": "Apuestas deportivas"
+				}
 			},
-			"claimButtonTitle": "Reclamar"
-		},
-		"claims": {
-			"title": "Historial de reclamaciones",
-			"subtitle": "Sigue tus reclamos de bonificación y actividad de apuestas",
-			"tableHeaders": {
-				"date": "Fecha de apuesta",
-				"slots": "Tragamonedas",
-				"liveCasino": "Casino en Vivo",
-				"sports": "Deportes",
-				"total": "Total",
-				"tier": "Nivel",
-				"unclaimed": "No reclamado",
-				"token": "Simbólico"
-			},
-			"tierPrefix": "Nivel",
-			"availableToClaim": "Disponible para reclamar",
-			"totalBonus": "Bono Total",
-			"claimed": "Reclamado",
-			"progressPercentage": "Progreso",
-			"progressTitle": "Tu progreso",
-			"currentTier": "Nivel actual",
-			"nextTier": "Siguiente nivel",
-			"wagerProgress": "Progreso de apuesta",
-			"totalWagered": "Total apostado hoy",
-			"toNextTier": "para alcanzar el siguiente nivel",
-			"empty": {
-				"title": "Aún no hay reclamaciones de bonificación",
-				"subtitle": "¡Empieza a jugar para ganar bonificaciones!"
+			"support": {
+				"title": "Soporte",
+				"links": {
+					"help": "Centro de ayuda",
+					"contact": "Contáctanos"
+				}
 			}
 		},
-		"rates": {
-			"title": "Niveles y Tarifas de Agricultura",
-			"subtitle": "Porcentajes de bonificación por nivel de apuesta y categoría de juego",
-			"overview": {
-				"title": "Visión general",
-				"body": "La Agricultura de Bonos recompensa a los usuarios según sus apuestas en tragamonedas, casino en vivo, sportsbook y lotería. Los bonos se calculan cada 24 horas y los usuarios pueden reclamarlos al día siguiente después de apostar. Hay siete niveles, cada uno con diferentes tasas dependiendo del monto de la apuesta."
+		"seoContent": {
+			"title": "{siteName} — Tu destino definitivo para el entretenimiento de casino con criptomonedas",
+			"paragraph1": "Adéntrate en el futuro de los juegos en línea con {siteName}, el principal casino del mundo impulsado por criptomonedas donde la innovación se encuentra con la emoción. Diseñada para jugadores reales, nuestra plataforma ofrece una experiencia rápida, segura y transparente en tragamonedas, mesas de casino en vivo, apuestas deportivas y juegos de criptomonedas.",
+			"paragraph2": "Cada giro, carta y apuesta en {siteName} se basa en la equidad de la cadena de bloques, verificado en tiempo real para garantizar que cada resultado sea verdaderamente aleatorio y a prueba de manipulaciones. Desde la acción de altas apuestas hasta el juego casual, nuestros juegos satisfacen a todo tipo de jugador, desde los buscadores de emociones hasta los profesionales de la estrategia.",
+			"paragraph3": "Con depósitos instantáneos y retiros ultrarrápidos, inicio de sesión con billetera Dynamic.xyz y bonos exclusivos por volumen de juego, {siteName} se asegura de que tu juego sea fluido, gratificante y seguro. Ya sea que estés en Canadá, Europa o Asia, nuestro sistema de múltiples cadenas es compatible con jugadores de todo el mundo mientras se optimiza para las tendencias locales de casinos de criptomonedas en cada región.",
+			"paragraph4": "Únete a miles de jugadores que descubren una forma más inteligente de jugar, donde el juego limpio, la privacidad y las ganancias se unen. {siteName} no es solo un casino. Es la próxima evolución del juego Web3, creado para los audaces, impulsado por criptomonedas y confiable para jugadores de todo el mundo.",
+			"tagline": "🎯 Juega inteligentemente. Apuesta seguro. Gana a lo grande — Solo en {siteName}.",
+			"showMore": "Mostrar más",
+			"showLess": "Mostrar menos"
+		},
+		"copyright": "© {year} {siteName}. Todos los derechos reservados.",
+		"followUs": "Síguenos:",
+		"disclaimer": {
+			"line1": "Solo para mayores de 18 años | Juega de forma responsable",
+			"line2": "El juego puede ser adictivo. Juega de forma responsable y solo apuesta lo que puedas permitirte perder.",
+			"line3": "Si sientes que tienes un problema con el juego, busca ayuda."
+		},
+		"description": "{siteName} — tu casino de criptomonedas de confianza para tragamonedas, mesas en vivo y apuestas deportivas. Juega juegos de cadena de bloques demostrablemente justos, disfruta de pagos instantáneos basados en billetera y desbloquea bonos de casino diarios. Rápido, seguro y descentralizado — {siteName} lleva los juegos de siguiente nivel a jugadores de todo el mundo. 🎯 Juega inteligentemente. Gana a lo grande. Confía en {siteName}."
+	},
+	"privacy": {
+		"title": "Política de privacidad — {siteDomain}",
+		"subtitle": "Cómo manejamos tu información, cubriendo tu billetera de criptomonedas, jugabilidad y todo lo que haces en nuestro sitio",
+		"lastUpdated": "Última actualización: enero de 2025",
+		"intro": {
+			"paragraph1": "En {siteName} ('{siteDomain},' 'nosotros,' 'nos,' o 'nuestro'), tu privacidad es lo más importante. Dirigimos el casino de criptomonedas y la plataforma de juegos descentralizada {siteName}, y esta Política de Privacidad explica cómo manejamos tu información, cubriendo tu billetera de criptomonedas, jugabilidad y todo lo que haces en nuestro sitio, dApp o servicios relacionados (a los que llamaremos los 'Servicios').",
+			"paragraph2": "{siteDomain} es un casino de criptomonedas solo con billetera. Eso significa que los depósitos y retiros van directamente a través de la cadena de bloques, sin intermediarios. No te pedimos tu identificación y nunca almacenamos información de identidad personal. ¿Tu privacidad, billetera y activos? Siguen siendo tuyos.",
+			"paragraph3": "Al usar {siteDomain}, aceptas esta Política de Privacidad."
+		},
+		"sections": {
+			"scope": {
+				"title": "Alcance y aceptación",
+				"content": "Esta política cubre a todos los que visitan o usan {siteDomain}. Si alguna vez necesitamos actualizar la política, tal vez debido a nueva tecnología o leyes cambiantes, publicaremos los cambios aquí mismo. Si sigues usando la plataforma después de eso, estás aceptando los nuevos términos."
+			},
+			"dataCollection": {
+				"title": "Datos que recopilamos",
+				"intro": "Construimos {siteName} pensando en la privacidad. Solo pedimos lo necesario para que el sitio funcione, mantener las cosas seguras y asegurarnos de que los juegos sean justos.",
+				"accountData": {
+					"title": "A. Datos de billetera y cuenta",
+					"items": {
+						"0": "Dirección de billetera conectada (a través de Dynamic.xyz, WalletConnect o MetaMask).",
+						"1": "Nombre de usuario (opcional) si quieres personalizar tu cuenta.",
+						"2": "Dirección de correo electrónico (opcional) si te suscribes a boletines o te pones en contacto con el soporte."
+					},
+					"kyc": "Nunca realizamos verificaciones de identidad ni recopilamos documentos de identidad emitidos por el gobierno. Si, y solo si, surge una situación legal (como una investigación por fraude), podríamos solicitar una prueba de identidad. Si eso sucede, seremos transparentes al respecto y solo pediremos lo estrictamente necesario."
+				},
+				"walletData": {
+					"title": "B. Datos de transacción",
+					"addresses": "Direcciones de billetera de la cadena de bloques utilizadas para depósitos o retiros.",
+					"transactions": "Hashes de transacción, marcas de tiempo y confirmaciones de red.",
+					"metadata": "Detalles de depósitos y retiros para equilibrar tu cuenta.",
+					"note": "Todas las transacciones de criptomonedas son públicas en la cadena de bloques. No editamos, ocultamos ni intentamos anonimizar estos datos; todo es transparente."
+				},
+				"technicalData": {
+					"title": "C. Datos técnicos y de uso",
+					"ip": "Información sobre tu dispositivo y navegador (tipo, sistema operativo, tamaño de pantalla).|Dirección IP y ubicación aproximada para la prevención de fraudes.",
+					"session": "Páginas que visitas, juegos que juegas, historial de transacciones y tiempo que pasas en el sitio.",
+					"cookies": "Cookies y análisis para ayudarnos a mejorar la experiencia."
+				},
+				"securityData": {
+					"title": "D. Datos de seguridad y riesgo",
+					"fraud": "Huella digital del dispositivo y monitoreo antifraude.",
+					"disputes": "Registros de sesión de juego para la equidad y para ayudar a resolver problemas.|Verificaciones automatizadas para detectar bots o abusos.",
+					"note": "No recopilamos datos personales sensibles como tu origen étnico, religión, opiniones políticas o datos biométricos."
+				}
+			},
+			"purposes": {
+				"title": "Por qué recopilamos datos",
+				"intro": "Para esto usamos tu información:",
+				"outro": "Puedes darte de baja de los mensajes de marketing cuando quieras.",
+				"items": {
+					"0": {
+						"title": "Operaciones de servicio",
+						"description": "Para permitirte iniciar sesión con tu billetera, verificar transacciones, ejecutar juegos y gestionar pagos."
+					},
+					"1": {
+						"title": "Seguridad y prevención de fraudes",
+						"description": "Para detectar y prevenir fraudes, cuentas duplicadas o cualquier actividad sospechosa."
+					},
+					"2": {
+						"title": "Mejora de la plataforma",
+						"description": "Para hacer que el sitio funcione mejor y de manera más fluida."
+					},
+					"3": {
+						"title": "Marketing (con consentimiento)",
+						"description": "Para marketing, pero solo si dices que sí; nunca incluimos promociones sin tu permiso."
+					},
+					"4": {
+						"title": "Integridad de la plataforma",
+						"description": "Para proteger {siteName} y mantener el juego limpio."
+					}
+				}
+			},
+			"cryptoWallet": {
+				"title": "Transparencia de la cadena de bloques",
+				"intro": "{siteDomain} funciona completamente en la cadena de bloques:",
+				"outro": "Si usas una billetera de terceros (como Dynamic.xyz, WalletConnect o MetaMask), su política de privacidad se aplica a tu uso de su servicio",
+				"points": {
+					"0": "Los datos de tu billetera y tus transacciones viven permanentemente en cadenas de bloques públicas como Ethereum o BNB Chain.",
+					"1": "Una vez que se completa una transacción en la cadena de bloques, no podemos cambiarla ni borrarla.",
+					"2": "Solo almacenamos la información mínima fuera de la cadena, solo por razones técnicas y de cuenta.",
+					"3": "Si usas una billetera de terceros (como Dynamic.xyz, WalletConnect o MetaMask), su política de privacidad se aplica a tu uso de su servicio."
+				}
+			},
+			"dataSharing": {
+				"title": "Compartir y divulgar",
+				"intro": "No vendemos, intercambiamos ni alquilamos tus datos. Nunca.",
+				"para": "Pero en casos excepcionales, podríamos tener que compartir información limitada:",
+				"items": {
+					"0": "Si la ley o un proceso legal válido lo exige.",
+					"1": "Con socios antifraude o herramientas de análisis de la cadena de bloques si detectamos actividad sospechosa.",
+					"2": "Si hay una fusión, adquisición o un cambio empresarial importante, siempre bajo estricta confidencialidad."
+				},
+				"noSelling": "Siempre que compartimos algo, nos aseguramos de que cumpla con las leyes de protección de datos."
+			},
+			"security": {
+				"title": "Medidas de seguridad",
+				"intro": "Nos tomamos tu seguridad muy en serio y aplicamos varias capas de protecciones avanzadas para mantener seguros tus datos y activos digitales:",
+				"items": {
+					"0": "Cada bit de datos que envías entre tu navegador y nuestros servidores está cifrado con TLS/SSL.",
+					"1": "Almacenamos registros y datos técnicos en forma cifrada.",
+					"2": "El control de acceso basado en roles (RBAC) mantiene el acceso interno estrictamente controlado.",
+					"3": "Realizamos pruebas de penetración regulares y contamos con expertos externos para auditorías de seguridad.",
+					"4": "Los administradores inician sesión con autenticación multifactor (MFA) para mayor seguridad."
+				},
+				"warning": "Solo un aviso:\n\n🔐 {siteName} nunca te pedirá tus claves privadas ni tus frases semilla. Mantén las credenciales de tu billetera privadas, eso depende de ti."
+			},
+			"cookies": {
+				"title": "Cookies y análisis",
+				"intro": "Usamos cookies y herramientas de seguimiento para:",
+				"items": {
+					"0": "Mantener tu billetera conectada y las sesiones estables.",
+					"1": "Mejorar la velocidad y el rendimiento del sitio.",
+					"2": "Recopilar análisis anónimos para entender cómo la gente usa el sitio."
+				},
+				"outro": "Puedes desactivar las cookies no esenciales en tu navegador cuando quieras. Sin embargo, si bloqueas las cookies esenciales, podrías tener problemas con el juego o las conexiones de la billetera."
+			},
+			"minAge": {
+				"title": "Política de uso para menores de edad",
+				"intro": "{siteDomain} está prohibido para cualquier persona menor de 18 años, o por debajo de la edad legal para jugar en su área.",
+				"content": "Si descubrimos que alguien es menor de edad, suspenderemos la cuenta de inmediato, anularemos cualquier ganancia y eliminaremos los datos relacionados. \nPara padres y tutores:",
+				"items": {
+					"0": "Usa protección con contraseña en los dispositivos.",
+					"1": "No guardes la información de la billetera en dispositivos compartidos.",
+					"2": "Configura herramientas como NetNanny o GamBlock para bloquear sitios de juego."
+				}
+			},
+			"breach": {
+				"title": "Respuesta a una violación de datos",
+				"content": "Si una violación de datos amenaza tus derechos o tu seguridad:",
+				"items": {
+					"0": "Alertaremos a todos los usuarios afectados de inmediato.",
+					"1": "Notificaremos a las autoridades correspondientes, siguiendo la ley.",
+					"2": "Actuaremos rápidamente para solucionar los problemas y restaurar la seguridad."
+				}
+			},
+			"changes": {
+				"title": "Actualizaciones de la política",
+				"content": "Actualizamos esta Política de Privacidad de vez en cuando a medida que las cosas cambian, ya sea en las operaciones, la tecnología o la ley. Los cambios importantes aparecerán en el sitio como notificaciones o banners. Revisa esta página de vez en cuando para mantenerte informado."
+			},
+			"contact": {
+				"title": "Contáctanos",
+				"intro": "¿Tienes preguntas, preocupaciones sobre la privacidad o una solicitud sobre tus datos? Ponte en contacto en cualquier momento:"
+			}
+		}
+	},
+	"terms": {
+		"title": "Términos y condiciones — Casino de criptomonedas {siteName}",
+		"lastUpdated": "Última actualización: enero de 2025",
+		"sections": {
+			"ownership": {
+				"title": "Quién dirige {siteDomain}",
+				"content1": "{siteDomain} pertenece a {siteName} N.V. Esos somos nosotros; cuando decimos '{siteName},' 'nosotros,' 'nuestro,' o 'nos,' nos referimos al equipo detrás del sitio.",
+				"content2": "Dirigimos un casino de criptomonedas solo con billetera. Todos los depósitos, apuestas y retiros se mueven directamente a través de tu propia billetera de criptomonedas. Para seguridad y fácil acceso, admitimos Dynamic.xyz, WalletConnect y MetaMask."
+			},
+			"notice": {
+				"title": "A qué estás accediendo",
+				"content": "Cuando conectas tu billetera o usas {siteDomain}, aceptas:",
+				"items": {
+					"0": "Estos Términos y Condiciones",
+					"1": "Nuestra Política de Privacidad",
+					"2": "Nuestra Política de Juego Responsable",
+					"3": "Cualquier término de bono, afiliado o promoción",
+					"4": "Todas las demás reglas o actualizaciones publicadas en {siteDomain}"
+				},
+				"content2": "Si no aceptas estos términos, simplemente no uses {siteDomain}.",
+				"outro": "Es tu responsabilidad asegurarte de que los juegos de criptomonedas estén permitidos donde vives antes de jugar."
+			},
+			"general": {
+				"title": "Lo básico",
+				"items": [
+					"Una vez que conectas tu billetera, aceptas seguir todas las reglas y directrices aquí.",
+					"Estos términos son un acuerdo vinculante entre tú y {siteDomain}. Entran en vigor tan pronto como conectas tu billetera o usas el sitio.",
+					"Podemos actualizar estos términos cuando lo necesitemos. Si lo hacemos, publicaremos la nueva versión aquí y se aplicará de inmediato.",
+					"Si hay un conflicto entre estos términos y cualquier otra cosa (ofertas de bonos, cosas de terceros, lo que sea), estos términos prevalecen.",
+					"La versión en inglés es la oficial. Las traducciones son solo para ayudar."
+				]
+			},
+			"account": {
+				"title": "Tu billetera, inicio de sesión y seguridad",
+				"intro": "",
+				"walletLogin": {
+					"title": "Conexión y propiedad de la billetera",
+					"items": [
+						"Usamos Dynamic.xyz y otros conectores de billetera para el inicio de sesión y la autenticación. Cuando conectas tu billetera, confirmas que eres el propietario y nos permites vincularla a tu cuenta.",
+						"Nunca te pediremos tus claves privadas, frases semilla o información de recuperación. La seguridad de tu billetera está en tus manos. No somos responsables si sufres phishing, eres hackeado o pierdes el acceso debido a tu propio dispositivo."
+					]
+				},
+				"registration": {
+					"title": "Correo electrónico y detalles de la cuenta",
+					"items": [
+						"Puedes darnos un correo electrónico o un nombre de usuario si quieres ayuda o actualizaciones, pero eso es opcional.",
+						"Eres responsable de todo lo que sucede con tu billetera conectada."
+					]
+				},
+				"security": {
+					"title": "Cuentas múltiples y seguridad",
+					"items": [
+						"Usa una sola billetera/cuenta por persona. Si intentas manipular el sistema usando más de una, podemos suspender tu cuenta y quedarnos con tus fondos.",
+						"Si tu billetera admite 2FA, actívala.",
+						"Si algo parece extraño, envíanos un correo electrónico a support@digidice.games de inmediato."
+					]
+				}
 			},
 			"eligibility": {
-				"title": "Elegibilidad",
-				"content": "Para participar:",
-				"points": {
-					"0": "Debe tener una cuenta activa.",
-					"1": "Haz apuestas en tragamonedas, casino en vivo, apuestas deportivas y lotería.",
-					"2": "Cumple con los requisitos mínimos de apuesta para cada nivel."
+				"title": "Quién puede jugar y qué prometes",
+				"intro": "Al usar {siteDomain}, prometes:",
+				"items": [
+					"Tienes al menos 18 años, o la edad legal para jugar donde vives.",
+					"Los juegos de criptomonedas en línea son legales para ti.",
+					"Eres el propietario de la billetera que conectas.",
+					"No usarás VPN, proxies o enmascaramiento de IP para evitar bloqueos geográficos.",
+					"No usarás {siteName} para nada ilegal o sospechoso.",
+					"Entiendes que las criptomonedas son volátiles y aceptas los riesgos."
+				],
+				"outro": "Si rompes alguna de estas promesas, podemos suspender o cerrar tu cuenta y retener tus fondos si la ley lo dice."
+			},
+			"restricted": {
+				"title": "Dónde no puedes jugar",
+				"content1": "{siteDomain} está prohibido si te encuentras en un lugar donde los juegos de azar en línea o las apuestas con criptomonedas están restringidos. Eso significa, por ejemplo: Estados Unidos, Reino Unido, Francia, Países Bajos, España, Alemania, Australia, Comoras, Irán, Corea del Norte, Siria, Sudán y cualquier lugar en la lista negra del GAFI.",
+				"content2": "¿Intentas entrar con una VPN o un proxy? No lo hagas. Si lo haces, cerraremos tu cuenta y perderás tus fondos.",
+				"content3": ""
+			},
+			"crypto": {
+				"title": "Depósitos y retiros de criptomonedas",
+				"policy": {
+					"title": "Solo criptomonedas",
+					"items": [
+						"Somos solo de criptomonedas. Puedes depositar y retirar solo con monedas aprobadas: BTC, ETH, USDT, BNB, TRX y similares. No hay pagos con dinero fiduciario o tarjetas.",
+						"Todas las transacciones deben provenir de billeteras que tú controlas. No se permiten billeteras de terceros o compartidas."
+					]
+				},
+				"deposits": {
+					"title": "Depósitos",
+					"items": [
+						"Cuando depositas, tus fondos aparecen después de que la cadena de bloques confirma la transacción. Tú cubres las tarifas de red (gas), no nosotros. El depósito mínimo es de $10 en criptomonedas. Podríamos rechazar depósitos de billeteras incluidas en listas negras o de riesgo.",
+						""
+					]
+				},
+				"withdrawals": {
+					"title": "Retiros",
+					"items": [
+						"Los retiros van directamente a la billetera que elijas. Asegúrate de que funcione con la cadena de bloques correcta. El retiro mínimo suele ser de $10, dependiendo de las tarifas. Podríamos retrasar los retiros por controles de fraude o seguridad.",
+						"Todas las transacciones de la cadena de bloques son finales. No podemos cancelarlas, reembolsarlas ni cambiarlas una vez que se confirman."
+					]
+				},
+				"chargebacks": {
+					"title": "",
+					"items": []
 				}
 			},
-			"calculation": {
-				"title": "Cómo se calculan los bonos",
-				"desc": "Los bonos se calculan cada 24 horas basados en tus apuestas totales. Ejemplos:",
-				"exampleTitle": "Nivel {tier}:",
-				"wagerIn": "Apuesta {amount} en {gameType}"
+			"kyc": {
+				"title": "POLÍTICA DE NO KYC",
+				"intro": "{siteDomain} funciona con un modelo de No KYC, por lo que puedes jugar sin verificaciones de identidad para los juegos regulares.",
+				"content1": "Pero a veces, {siteName} podría pedir un poco de información si:",
+				"items": [
+					"La ley o una autoridad lo requiere.",
+					"Necesitan investigar fraudes o comportamientos sospechosos.",
+					"Es necesario para mantener la seguridad de la plataforma o cumplir con las regulaciones."
+				],
+				"outro": "Si no cooperas con una solicitud de verificación legal, tu cuenta podría ser suspendida o tus retiros podrían retrasarse."
 			},
-			"table": {
-				"tierLevel": "Nivel de nivel",
-				"wagerRange": "Rango de Apuesta",
-				"slots": "Tragamonedas",
-				"liveCasino": "Casino en Vivo",
-				"sports": "Deportes",
-				"tierPrefix": "NIVEL",
-				"commissionLevel": "Nivel de bonificación",
-				"dailyWager": "Volumen de apuesta diaria"
+			"fairPlay": {
+				"title": "JUEGO LIMPIO, CONDUCTA Y SEGURIDAD",
+				"intro": "No puedes:",
+				"items": [
+					"Usar bots, scripts o herramientas de juego automático.",
+					"Asociarte con otros para amañar resultados.",
+					"Aprovecharte de errores o lagunas en los contratos inteligentes.",
+					"Abusar de bonos, referidos o promociones."
+				],
+				"outro1": "Si rompes estas reglas, {siteName} puede prohibir tu cuenta permanentemente y quedarse con tu saldo.",
+				"outro2": "{siteName} utiliza detección de fraudes con IA, análisis de comportamiento y verificaciones de la cadena de bloques para mantener las cosas justas y seguras."
 			},
-			"claim": {
-				"title": "Reclamar y retirar bonos",
-				"points": {
-					"0": "Las bonificaciones se vuelven elegibles para reclamar 24 horas después de la apuesta.",
-					"1": "Los bonos no reclamados se acumularán y no caducarán.",
-					"2": "El proceso de reclamación y retirada puede variar según las políticas específicas de la plataforma."
-				}
+			"bonuses": {
+				"title": "BONOS Y PROMOCIONES",
+				"items": [
+					"Cada bono sigue su propio conjunto de términos enumerados con la promoción.",
+					"Si abusas de los bonos (como crear cuentas adicionales, ciclar billeteras o usar VPN), pierdes tu bono.",
+					"Debes cumplir con todos los requisitos de apuesta antes de poder retirar las ganancias del bono."
+				]
 			},
-			"system": {
-				"title": "Hora y operaciones del sistema",
-				"dailyTimeframeLabel": "Período diario:",
-				"dailyTimeframeValue": "00:00 UTC a 23:59 UTC (todos los días).",
-				"claimDailyLabel": "Reclamación diaria:",
-				"claimDailyValue": "Disponible diariamente a las 14:00 UTC (Tu hora local: {local}).",
-				"note": "Nota: Mientras trabajamos con proveedores de diferentes zonas horarias, todos los cálculos siguen la UTC para garantizar la coherencia y evitar confusiones."
+			"playingRules": {
+				"title": "REGLAS Y RESULTADOS DEL JUEGO",
+				"items": [
+					"Tu apuesta cuenta solo después de que veas la confirmación en la pantalla. Si tu saldo no puede cubrirla, la apuesta es nula.",
+					"Si hay una disputa, los registros de la cadena de bloques de {siteName} son finales.",
+					"Todos los juegos demostrablemente justos utilizan aleatoriedad en la cadena para mantenerse transparentes.",
+					""
+				]
+			},
+			"errors": {
+				"title": "LIMITACIONES E INTERRUPCIONES",
+				"intro": "{siteName} no es responsable de:",
+				"items": [
+					"Caídas de internet o retrasos.",
+					"Retrasos o bifurcaciones de la cadena de bloques.",
+					"Tiempo de inactividad de la billetera por parte de terceros.",
+					"Fallos en los contratos inteligentes o en los proveedores de juegos."
+				],
+				"outro1": "{siteName} puede anular apuestas o transacciones si un problema técnico o una explotación afecta las cosas."
+			},
+			"suspension": {
+				"title": "SUSPENSIÓN DE CUENTA Y FONDOS",
+				"intro": "{siteName} puede suspender o cerrar cuentas por:",
+				"items": ["Romper las reglas", "Fraude", "Razones legales."],
+				"outro1": "Cualquier dinero restante se manejará de acuerdo con la ley y las políticas de {siteName}.",
+				"outro2": ""
+			},
+			"responsibleGaming": {
+				"title": "JUEGO RESPONSABLE",
+				"items": [
+					"{siteName} apoya el juego responsable. Si necesitas un descanso, envía un correo electrónico a support@digidice.games para autoexcluirte o tomar un respiro.",
+					"Nadie menor de 18 años o por debajo de la edad legal puede jugar. Las cuentas que se encuentren infringiendo esta regla se cierran inmediatamente.",
+					""
+				]
+			},
+			"ip": {
+				"title": "PROPIEDAD INTELECTUAL",
+				"content1": "Todas las marcas comerciales, gráficos, contenido y software pertenecen a {siteName} o sus licenciantes. Puedes usarlos solo para diversión personal. No los copies ni los compartas sin permiso.",
+				"content2": ""
+			},
+			"liability": {
+				"title": "LIMITACIÓN DE RESPONSABILIDAD",
+				"items": [
+					"{siteName} no es responsable de daños indirectos o inesperados, como la pérdida de beneficios.",
+					"Si hay una reclamación, lo máximo que cubrirá {siteName} es tu último depósito.",
+					""
+				]
+			},
+			"disputes": {
+				"title": "RESOLUCIÓN DE DISPUTAS",
+				"content": "Si tienes una queja o disputa, ponte en contacto con {siteDomain}. Su objetivo es resolver las cosas de manera rápida y justa."
 			},
 			"amendments": {
-				"title": "Enmiendas y descalificaciones",
-				"body": "Podemos actualizar estos términos en cualquier momento, y los cambios entran en vigor al publicarse. Si se sospecha de errores del sistema, errores de cálculo o trampas, nos reservamos el derecho de ajustar o descalificar bonificaciones y cuentas según sea necesario para garantizar la equidad"
+				"title": "MODIFICACIONES",
+				"content": "{siteName} puede cambiar estos Términos en cualquier momento. La última versión siempre está en https://{siteDomain}. Al usar el sitio, aceptas cualquier actualización."
 			},
-			"footer": {
-				"schedule": "Programa de bonificaciones:",
-				"availableDaily": "Disponible diariamente a",
-				"localTimeLabel": "(Tu hora local: {time})"
+			"miscellaneous": {
+				"title": "VARIOS",
+				"items": [
+					"Estos Términos son el acuerdo completo entre tú y {siteName}. Si alguna parte no se sostiene, el resto sigue en pie. {siteName} puede ceder o delegar sus derechos, pero los usuarios no pueden.",
+					"",
+					""
+				]
+			},
+			"contact": {
+				"title": "CONTACTO",
+				"intro": "{siteDomain}",
+				"supportEmail": "",
+				"affiliateEmail": "",
+				"registeredOffice": ""
+			}
+		}
+	},
+	"responsibleGambling": {
+		"title": "Juego responsable en {siteName}",
+		"subtitle": "Aprende sobre el juego responsable en {siteName}. Mantén el control, juega de forma responsable y obtén apoyo a través de organizaciones de ayuda globales.",
+		"lastUpdated": "Última actualización: enero de 2025",
+		"intro": {
+			"title": "Juego responsable en {siteName}",
+			"paragraph1": "En {siteName}, queremos que el juego sea emocionante, justo y siempre responsable. ¿Nuestro principal objetivo? Asegurarnos de que cada jugador tenga una gran experiencia, manteniéndose informado, seguro y en control.",
+			"paragraph2": "No permitimos que nadie menor de 18 años (o por debajo de la edad legal en su país) juegue. Punto."
+		},
+		"mission": {
+			"title": "Nuestra misión es simple:",
+			"paragraph1": "El juego responsable no es solo una regla para nosotros, está en el corazón de lo que hacemos. Estamos comprometidos a construir un espacio transparente, seguro y impulsado por criptomonedas donde puedas tomar decisiones inteligentes y equilibradas.",
+			"paragraph2": "Defendemos:",
+			"beliefs": {
+				"0": "El juego como entretenimiento, no como una forma de ganar dinero",
+				"1": "La autoconciencia, la moderación y el juego inteligente",
+				"2": "Herramientas, educación y acceso a organizaciones de ayuda reales en todo el mundo"
 			}
 		},
-		"calculator": {
-			"title": "Calculadora de Bonos",
-			"subtitle": "Estime sus ganancias de bonificación basadas en sus montos de apuesta",
-			"interactive": {
-				"title": "Herramienta interactiva:",
-				"body": "Ingrese diferentes montos de apuesta para ver bonos potenciales en todos los niveles"
-			},
-			"potentialEarnings": "Bono Potencial",
-			"basedOnRate": "Basado en una tasa de bonificación del {percentage}%",
-			"tier": "Nivel {level}",
-			"commissionLevel": "Nivel de bonificación {level}",
-			"enterWager": "Ingresa el monto de la apuesta (USD)",
-			"wagerPlaceholder": "p. ej., 1000",
-			"calcFor": "Calculando bono para una apuesta de ${amount}",
-			"totalPotential": "Bono Potencial Total:",
-			"combinedAtTier": "Bono combinado de todos los tipos de juego en el nivel {level}"
+		"understanding": {
+			"title": "Juego responsable: lo que realmente significa",
+			"paragraph1": "El juego con criptomonedas es rápido, sin fronteras y está al alcance de tu mano. Eso es emocionante, pero también significa que debes estar alerta. El juego responsable no es solo una palabra de moda, se trata de conocer tus límites, vigilar tu tiempo y tus criptomonedas, y asegurarte de que el juego siga siendo agradable, no algo de lo que no puedas alejarte.",
+			"paragraph2": "Aquí te mostramos cómo mantener las cosas seguras y divertidas:",
+			"tips": {
+				"0": "Juega por la emoción, no por ganar dinero.",
+				"1": "No persigas tus pérdidas. Si estás frustrado, aléjate un rato.",
+				"2": "Establece tus propios límites sobre cuánto tiempo juegas y cuánto depositas.",
+				"3": "Si estás cansado, estresado o molesto, tómate un descanso en lugar de jugar.",
+				"4": "Nunca apuestes dinero que necesites para el alquiler, la comida o cualquier cosa esencial.",
+				"5": "Cuando la diversión se acabe, haz una pausa y reinicia."
+			}
 		},
-		"claimSuccessModal": {
-			"title": "Reclamación realizada con éxito",
-			"statusCompleted": "Completado",
-			"statusOnChain": "en cadena",
-			"claimAmount": "Importe de reclamación",
-			"logoAlt": "Logotipo de {siteName}",
-			"backgroundAlt": "Antecedentes de éxito de la reclamación",
-			"creatingMagic": "Creando magia...",
-			"downloadShare": "Descargar y compartir",
-			"spreadTheWin": "DIFUNDE EL PREMIO",
-			"socialX": "X",
-			"socialFacebook": "Facebook",
-			"socialWhatsApp": "WhatsApp",
-			"socialTelegram": "Telegram",
-			"socialReddit": "Reddit",
-			"socialMore": "Más",
-			"shareText": "I just claimed {amount} bonus! Join me: {url}",
-			"referralLinkCopied": "Enlace de referencia copiado",
-			"referralLinkCopyFailed": "Ha habido un error al copiar el enlace de referencia",
-			"screenshotFailed": "La captura de pantalla ha fallado. Inténtalo de nuevo o utiliza un navegador diferente.",
-			"shareTextCopied": "¡Comparte el texto copiado al portapapeles!",
-			"shareFailed": "Error al compartir. Inténtalo de nuevo."
+		"selfCheck": {
+			"title": "Autoevaluación rápida: ¿todavía tienes el control?",
+			"intro": "Sé honesto contigo mismo:",
+			"questions": {
+				"0": "¿Terminas jugando más tiempo del que pretendías?",
+				"1": "¿El juego está afectando tu trabajo o tus relaciones?",
+				"2": "¿Te sientes inquieto o molesto cuando no puedes jugar?",
+				"3": "¿Estás jugando solo para escapar del estrés o el aburrimiento?",
+				"4": "¿Has pedido prestado criptomonedas solo para seguir jugando?",
+				"5": "¿Aumentas tus apuestas después de perder, con la esperanza de recuperarlo todo?"
+			},
+			"warning": "Si respondiste \"sí\" a algunas de estas preguntas, probablemente sea hora de dar un paso atrás o hablar con alguien al respecto."
+		},
+		"tools": {
+			"title": "Cómo {siteName} te cuida",
+			"intro": "Queremos que te diviertas, pero nos importa aún más tu bienestar. Por eso {siteName} te ofrece herramientas para jugar de forma segura y ser consciente de tus gastos.",
+			"selfExclusion": {
+				"title": "Autoexclusión",
+				"description": "Puedes solicitar bloquear tu cuenta temporalmente o de forma permanente. Durante ese tiempo, no podrás jugar ni recibir nuestras promociones. Simplemente envía un correo electrónico a support@{siteDomain}, todo se mantiene privado."
+			},
+			"coolingOff": {
+				"title": "Períodos de descanso",
+				"paragraph1": "¿Necesitas un respiro? Elige una pausa que te funcione:",
+				"periods": {
+					"0": "24 horas",
+					"1": "1 semana",
+					"2": "1 mes"
+				},
+				"paragraph2": "Mientras estés en pausa, tu billetera no funcionará para jugar."
+			},
+			"depositAwareness": {
+				"title": "Conciencia de los depósitos de criptomonedas",
+				"description": "{siteName} funciona completamente en la cadena de bloques. Te sugerimos que vigiles tu billetera o un explorador de bloques para rastrear tus depósitos y apuestas."
+			}
+		},
+		"underagePrevention": {
+			"title": "Mantener a los menores fuera",
+			"paragraph1": "No permitimos que nadie menor de 18 años juegue, deposite o se registre. Punto.",
+			"tipsTitle": "Para padres y tutores:",
+			"tips": {
+				"0": "Establece contraseñas y usa controles parentales.",
+				"1": "No guardes la información de la billetera en dispositivos compartidos.",
+				"2": "Cierra la sesión de {siteName} cuando no estés cerca.",
+				"3": "Instala filtros web como NetNanny o GamBlock para bloquear el acceso.",
+				"4": "Revisa regularmente lo que hacen tus hijos en línea."
+			},
+			"warning": "Si detectamos juego de menores de edad, cerramos esa cuenta y confiscamos cualquier ganancia."
+		},
+		"helpSupport": {
+			"title": "¿Necesitas ayuda? No estás solo",
+			"intro": "Si el juego comienza a tomar el control, hay ayuda real disponible: gratuita, privada y sin prejuicios. Consulta estas organizaciones globales para obtener apoyo:",
+			"organizations": {
+				"0": {
+					"name": "GamCare",
+					"url": "https://www.gamcare.org.uk"
+				},
+				"1": {
+					"name": "Gambling Therapy",
+					"url": "https://www.gamblingtherapy.org"
+				},
+				"2": {
+					"name": "Jugadores Anónimos",
+					"url": "https://www.gamblersanonymous.org/ga"
+				},
+				"3": {
+					"name": "Consejo Nacional sobre el Juego Problemático (NCPG)",
+					"url": "https://www.ncpgambling.org"
+				},
+				"4": {
+					"name": "GamTalk",
+					"url": "https://www.gamtalk.org"
+				}
+			},
+			"paragraph2": "Ofrecen autoevaluaciones, chats en línea y apoyo de personas que lo entienden."
+		},
+		"principles": {
+			"title": "Nuestra promesa: juego responsable, siempre",
+			"intro": "Esto es lo que representa {siteName}:",
+			"items": {
+				"0": {
+					"title": "Transparencia",
+					"description": "Cada juego es demostrablemente justo y abierto en la cadena de bloques."
+				},
+				"1": {
+					"title": "Seguridad",
+					"description": "Inicio de sesión basado en billetera con Dynamic.xyz: sin contraseñas, sin KYC, total privacidad."
+				},
+				"2": {
+					"title": "Control",
+					"description": "Tú decides cuándo jugar o tomar un descanso."
+				},
+				"3": {
+					"title": "Conciencia",
+					"description": "Te mostramos cómo mantener tu juego saludable."
+				},
+				"4": {
+					"title": "Soporte",
+					"description": "Nuestro equipo está aquí 24/7 para ayudarte con la autoexclusión o consejos."
+				}
+			}
+		},
+		"playSmart": {
+			"title": "No lo olvides: juega inteligentemente, juega seguro",
+			"intro": "{siteName} se trata de diversión y libertad, nunca de presión o estrés financiero. Sigue estos conceptos básicos:",
+			"reminders": {
+				"0": "Establece tus límites con antelación.",
+				"1": "Aléjate cuando deje de ser divertido.",
+				"2": "Nunca persigas tus pérdidas.",
+				"3": "Mantén el juego separado de tus finanzas habituales.",
+				"4": "Considera cualquier ganancia como un bono, no como un sueldo."
+			}
+		},
+		"finalMessage": {
+			"paragraph1": "Tu bienestar es lo primero. Si el juego alguna vez comienza a sentirse como un problema, ponte en contacto. Siempre estamos aquí en {siteDomain}.",
+			"paragraph2": "",
+			"contact": ""
+		}
+	},
+	"faqs": {
+		"title": "Preguntas frecuentes – {siteName}",
+		"subtitle": "Encuentra respuestas a las preguntas comunes de {siteName}. Aprende sobre el inicio de sesión con billetera, depósitos, retiros, juego limpio y transparencia de la cadena de bloques.",
+		"introTitle": "Preguntas frecuentes – {siteName}",
+		"intro": "Hola, bienvenido a las preguntas frecuentes de {siteName}. Si tienes curiosidad sobre cómo funciona nuestra plataforma de juegos de criptomonedas, estás en el lugar correcto. Ya sea que seas nuevo en los juegos de cadena de bloques o ya tengas experiencia, aquí encontrarás respuestas para ayudarte a jugar de manera inteligente y segura. Y si no ves tu pregunta, simplemente contáctanos; nuestro equipo de soporte siempre está disponible en {siteDomain}.",
+		"lastUpdated": "Última actualización: enero de 2025",
+		"blockchainTransparency": {
+			"title": "🧩 Transparencia de la cadena de bloques",
+			"paragraph1": "{siteName} funciona completamente con contratos inteligentes de la cadena de bloques. Cada apuesta, ganancia y pago es público; cualquiera puede verificar los registros.",
+			"paragraph2": "¿Quieres verlo por ti mismo? Todas las transacciones de {siteName} están en:",
+			"explorersTitle": "",
+			"guarantee": "De esta manera, sabes que todo es justo y transparente."
+		},
+		"categories": {
+			"accountRegistration": {
+				"title": "Cuenta y registro",
+				"items": {
+					"0": {
+						"question": "¿Puedo registrarme en {siteName}?",
+						"answer": "Si tienes 18 años o más (o la edad suficiente para jugar donde vives), puedes jugar en {siteName}. Antes de empezar, asegúrate de que los juegos de criptomonedas sean legales donde vives. Registrarse es fácil. Sin formularios, sin contraseñas, sin complicaciones de correo electrónico. Simplemente conecta tu billetera de criptomonedas a través de Dynamic.xyz y estarás dentro. ¿Quieres saber más sobre quién es elegible? Echa un vistazo a nuestros Términos y Condiciones.",
+						"reminder": "Un recordatorio rápido: el juego puede volverse adictivo. Por favor, juega de manera responsable y conoce tus límites."
+					},
+					"1": {
+						"question": "¿Qué pasa si pierdo el acceso a mi cuenta?",
+						"answer": "Usamos inicio de sesión basado en billetera. Por lo tanto, no hay nombres de usuario ni contraseñas que recuperar. Para volver a entrar, simplemente vuelve a conectar con la misma dirección de billetera que usaste antes. ¿Perdiste el acceso a tu billetera? Usa tu frase semilla o archivo de recuperación para restaurarla. Por tu seguridad, nunca almacenamos claves privadas y no podemos recuperar billeteras perdidas por ti."
+					},
+					"2": {
+						"question": "¿Puedo cambiar mi billetera o nombre de usuario?",
+						"answer": "Tu cuenta está vinculada directamente a tu billetera. Si quieres usar una nueva billetera, conecta una diferente. Solo ten en cuenta que tu saldo, estado VIP y recompensas permanecen con tu billetera anterior. No se transfieren automáticamente."
+					},
+					"3": {
+						"question": "¿Cómo me convierto en miembro VIP?",
+						"answer": "Nuestro Club VIP es solo por invitación. A medida que juegas y te involucras más, rastreamos tu actividad. Una vez que califiques, te enviaremos una invitación personal directamente en la plataforma. Las ventajas VIP incluyen: Recompensas más altas, retiros más rápidos, bonos personalizados."
+					}
+				}
+			},
+			"depositsWithdrawals": {
+				"title": "Depósitos y retiros",
+				"items": {
+					"0": {
+						"question": "¿Cómo deposito criptomonedas?",
+						"answer": "Depositar es rápido y seguro, y todo sucede en la cadena. Así es como se hace: Abre Mi Billetera en tu panel. Pulsa Depositar y elige tu moneda (BTC, ETH, USDT, BNB, etc.). Copia la dirección o escanea el código QR. Envía tus criptomonedas desde tu billetera personal. Una vez que tu transacción obtenga suficientes confirmaciones en la cadena de bloques, tus fondos aparecerán automáticamente.",
+						"reminder": "Verifica que estás usando la red correcta (ERC20, TRC20, BEP20, etc.) antes de enviar algo."
+					},
+					"1": {
+						"question": "¿Cuánto tardan los depósitos?",
+						"answer": "Por lo general, los depósitos aparecen en 5 a 10 minutos, dependiendo del tráfico de la red y las tarifas. Puedes seguir tu transacción usando un explorador de la cadena de bloques como Etherscan.io o BscScan.com. Acreditamos tus fondos después de tres confirmaciones."
+					},
+					"2": {
+						"question": "¿Cuál es el límite mínimo de retiro?",
+						"answer": "Cada criptomoneda tiene su propio monto mínimo de retiro. Verás los números exactos en la sección de Retiro. Depende de la moneda y la tarifa de la red."
+					},
+					"3": {
+						"question": "¿Cómo retiro mis ganancias?",
+						"answer": "Para retirar: Ve a Mi Billetera y pulsa Retirar. Ingresa a dónde quieres que se envíen tus criptomonedas y cuánto quieres sacar. Verifica la dirección y la red. Confirma tu transacción. Los retiros son instantáneos una vez confirmados en la cadena. Verás tus fondos en unos minutos.",
+						"reminder": "Usa siempre una billetera que admita la red desde la que estás retirando."
+					},
+					"4": {
+						"question": "¿Qué pasa si mi transacción se retrasa?",
+						"answer": "Si tu transacción tarda más de lo habitual: Verifica tu TXID con un explorador de la cadena de bloques. Asegúrate de haber usado la dirección y la red correctas. Dale unos minutos más para las confirmaciones. ¿Todavía esperas después de una hora? Contáctanos en {siteDomain}. Envía tu TXID y la información de tu billetera, y te ayudaremos a resolverlo."
+					}
+				}
+			},
+			"gamesSecurity": {
+				"title": "Juegos, equidad y seguridad",
+				"items": {
+					"0": {
+						"question": "¿Son justos los juegos de {siteName}?",
+						"answer": "Absolutamente. Cada juego es 100% demostrablemente justo. Usamos algoritmos criptográficos en la cadena de bloques para que puedas verificar cada apuesta y pago tú mismo. No hay resultados ocultos, ni trucos, solo juegos justos y transparentes."
+					},
+					"1": {
+						"question": "¿Qué debo hacer si un juego se congela o se bloquea?",
+						"answer": "Si un juego deja de funcionar: Actualiza la página. Limpia la caché o las cookies de tu navegador. Vuelve a conectar tu billetera. ¿Aún estás atascado? Entra en el Chat en Vivo. Nuestro equipo restaurará tu sesión o saldo si algo se ve afectado."
+					},
+					"2": {
+						"question": "¿Puedo usar múltiples billeteras o cuentas?",
+						"answer": "No. Una billetera equivale a una cuenta. Abrir billeteras adicionales para obtener bonos o manipular el sistema infringe nuestros Términos y podría costarte tus ganancias."
+					},
+					"3": {
+						"question": "¿Están seguros mis datos?",
+						"answer": "Sí. Somos una plataforma solo con billetera, por lo que nunca recopilamos tu información personal, correos electrónicos, contraseñas o documentos de identidad. Tu billetera es tu identidad, y tú tienes el control. Sin datos de usuario almacenados significa que no tienes que preocuparte por las violaciones de datos."
+					}
+				}
+			},
+			"responsibleGambling": {
+				"title": "🧠 Juego responsable",
+				"items": {
+					"0": {
+						"question": "¿{siteName} apoya el juego responsable?",
+						"answer": "Absolutamente. Mantener el juego responsable es el núcleo de lo que hacemos. Hemos incorporado herramientas de autoexclusión y de descanso para que puedas tomarte un respiro o establecer límites cuando lo necesites. Si quieres un consejo o simplemente alguien con quien hablar, consulta nuestra página de Juego Responsable o envía una nota a nuestro equipo de soporte."
+					},
+					"1": {
+						"question": "¿Qué debo hacer si sospecho que tengo un problema con el juego?",
+						"answer": "Si el juego comienza a afectar tu dinero, tu salud o tus relaciones, no esperes, busca ayuda. Estas organizaciones ofrecen apoyo confidencial: GamCare: https://www.gamcare.org.uk, Terapia de Juego: https://www.gamblingtherapy.org, Jugadores Anónimos: https://www.gamblersanonymous.org. Siempre puedes pedirle al soporte de {siteName} que bloquee o pause tu cuenta también."
+					}
+				}
+			}
+		},
+		"needMoreHelp": {
+			"title": "💬 ¿Necesitas más ayuda?",
+			"intro": "Nuestro equipo de soporte está disponible 24/7. Puedes contactarnos en el Chat en Vivo (simplemente inicia sesión en tu panel) o envíanos un correo electrónico a support@{siteDomain}.",
+			"contactTitle": "",
+			"liveChat": "Estamos aquí para asegurarnos de que tu experiencia sea segura, justa y sin problemas."
 		}
 	}
 }
