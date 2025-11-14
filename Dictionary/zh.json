@@ -12,18 +12,18 @@
 	"header": {
 		"toggleSidebar": "切换侧边栏",
 		"searchPlaceholder": "搜索游戏、提供商...",
-		"liveChat": "在线聊天",
+		"liveChat": "在线客服",
 		"player": "玩家",
-		"vip": "贵宾",
+		"vip": "VIP",
 		"profile": "个人资料",
 		"statistics": "统计数据",
 		"wallet": "存款/取款",
-		"cashier": "出纳",
-		"winLoss": "盈亏",
-		"affiliate": "联盟",
+		"cashier": "收银台",
+		"winLoss": "输/赢",
+		"affiliate": "推荐奖金",
 		"logout": "登出",
 		"balance": "余额",
-		"turnoverBonus": "营业额奖金"
+		"turnoverBonus": "流水奖金"
 	},
 	"navigation": {
 		"home": "首页",
@@ -31,16 +31,17 @@
 		"profile": "个人资料",
 		"wallet": "钱包",
 		"settings": "设置",
-		"promotions": "促销活动",
-		"affiliate": "联盟",
-		"providers": "提供商",
-		"lobby": "大厅",
-		"bonus": "营业额奖励"
+		"promotions": "优惠活动",
+		"affiliate": "推荐奖金",
+		"bonus": "流水奖金",
+		"providers": "游戏厂商",
+		"lobby": "游戏大厅",
+		"about": "关于我们"
 	},
 	"profile": {
 		"language": "语言",
 		"welcome": "欢迎，{name}！",
-		"settingUp": "正在设置中",
+		"settingUp": "设置中",
 		"profileBtn": "查看个人资料",
 		"currentBalance": "当前余额",
 		"availableFunds": "可用资金",
@@ -55,7 +56,7 @@
 			"title": "历史记录"
 		},
 		"logout": "登出",
-		"pendingRegistration": "待注册",
+		"pendingRegistration": "等待注册",
 		"noEmailProvided": "未提供电子邮件",
 		"balanceOverview": "余额概览",
 		"gettingStarted": "入门指南",
@@ -67,7 +68,7 @@
 		"makeFirstDeposit": "进行您的首次存款",
 		"placeBetOrTrade": "下注/进行交易",
 		"startFirstGame": "开始您的第一场游戏",
-		"recentActivity": "近期活动",
+		"recentActivity": "最近活动",
 		"transactionHistory": "交易历史",
 		"activityGameWinDiceRoll": "游戏胜利 - 掷骰子",
 		"activityGameLossBlackjack": "游戏失败 - 二十一点",
@@ -94,14 +95,14 @@
 			"last30Days": "过去30天",
 			"last90Days": "过去90天",
 			"thisMonth": "本月",
-			"lastMonth": "上个月",
+			"lastMonth": "上月",
 			"customRange": "自定义范围",
-			"fromDate": "从日期",
-			"toDate": "至日期",
+			"fromDate": "起始日期",
+			"toDate": "结束日期",
 			"transactionStatus": "交易状态",
 			"allStatuses": "所有状态",
 			"success": "成功",
-			"pending": "待处理",
+			"pending": "处理中",
 			"rejected": "已拒绝",
 			"clearAll": "全部清除",
 			"cancel": "取消",
@@ -110,22 +111,22 @@
 			"statusLabel": "状态",
 			"dateLabel": "日期",
 			"statsTotalTransactions": "共 {total} 笔交易",
-			"pageOf": "第 {current} 页 / 共 {total} 页",
+			"pageOf": "第 {current} 页，共 {total} 页",
 			"live": "直播",
 			"tabs": {
 				"all": "全部",
 				"deposits": "存款",
 				"withdrawals": "取款"
 			},
-			"errorLoadingTransactions": "加载交易出错",
+			"errorLoadingTransactions": "加载交易时出错",
 			"tryAgain": "重试",
-			"noTransactionsFound": "未找到交易记录",
+			"noTransactionsFound": "未找到任何交易",
 			"noTransactionsAvailableSelectedPeriod": "选定时期内无可用交易。",
 			"noDepositsFoundSelectedPeriod": "选定时期内未找到存款记录。",
 			"noWithdrawalsFoundSelectedPeriod": "选定时期内未找到取款记录。",
 			"show": "显示",
 			"ofTransactions": "共 {count} 笔交易",
-			"showingRangeOfTotal": "显示 {from}-{to} / 共 {total}",
+			"showingRangeOfTotal": "显示 {from}-{to}，共 {total} 条",
 			"pageShort": "第 {current}/{total} 页"
 		},
 		"betHistory": {
@@ -141,10 +142,10 @@
 			"last30Days": "过去30天",
 			"last90Days": "过去90天",
 			"thisMonth": "本月",
-			"lastMonth": "上个月",
+			"lastMonth": "上月",
 			"customRange": "自定义范围",
-			"fromDate": "从日期",
-			"toDate": "至日期",
+			"fromDate": "起始日期",
+			"toDate": "结束日期",
 			"provider": "提供商",
 			"allProviders": "所有提供商",
 			"status": "状态",
@@ -164,18 +165,18 @@
 			"dateLabel": "日期",
 			"totalBets": "总投注数",
 			"totalProfitLoss": "总盈亏",
-			"pageOf": "第 {current} 页 / 共 {total} 页",
+			"pageOf": "第 {current} 页，共 {total} 页",
 			"live": "直播",
-			"errorLoadingBets": "加载投注历史出错",
+			"errorLoadingBets": "加载投注历史时出错",
 			"failedToLoadBetHistory": "加载投注历史失败。请重试。",
 			"tryAgain": "重试",
-			"noBetsFound": "未找到投注记录",
-			"noBetsFoundSelectedPeriod": "在选定的时期和筛选条件下未找到投注历史。",
+			"noBetsFound": "未找到任何投注",
+			"noBetsFoundSelectedPeriod": "在选定时期和筛选条件下未找到投注历史。",
 			"show": "显示",
-			"ofBets": "共 {count} 条投注",
-			"showingRangeOfTotal": "显示 {from}-{to} / 共 {total}",
-			"totalBet": "总投注",
-			"totalWin": "总赢取",
+			"ofBets": "共 {count} 笔投注",
+			"showingRangeOfTotal": "显示 {from}-{to}，共 {total} 条",
+			"totalBet": "总投注额",
+			"totalWin": "总赢额",
 			"net": "净额",
 			"tableHeaders": {
 				"date": "日期",
@@ -188,12 +189,12 @@
 				"hideAmounts": "隐藏金额",
 				"showAmounts": "显示金额",
 				"gameType": "游戏类型",
-				"vendor": "供应商",
+				"vendor": "厂商",
 				"lastUpdate": "最后更新",
 				"netResult": "净结果",
 				"betId": "投注ID"
 			},
-			"errorLoading": "加载出错",
+			"errorLoading": "加载时出错",
 			"noBetsFoundDescription": "开始玩游戏以在此处查看您的投注历史。",
 			"betHistory": "投注历史",
 			"hideAmounts": "隐藏金额",
@@ -202,17 +203,17 @@
 			"game": "游戏",
 			"betId": "投注ID",
 			"amount": "金额",
-			"payout": "派彩",
+			"payout": "赔付",
 			"player": "玩家",
 			"gameType": "游戏类型",
-			"vendor": "供应商",
+			"vendor": "厂商",
 			"lastUpdate": "最后更新",
 			"netResult": "净结果",
 			"totalWagered": "总投注额",
 			"totalWon": "总赢额",
 			"netProfit": "净利润",
 			"winRate": "胜率",
-			"showingResults": "显示 {start}-{end} / 共 {total} 条结果",
+			"showingResults": "显示 {start}-{end}，共 {total} 条结果",
 			"firstPage": "首页",
 			"previousPage": "上一页",
 			"nextPage": "下一页",
@@ -220,7 +221,7 @@
 		}
 	},
 	"chat": {
-		"title": "在线聊天",
+		"title": "在线客服",
 		"placeholder": "输入您的消息...",
 		"send": "发送",
 		"input": {
@@ -229,23 +230,23 @@
 		"reply": {
 			"replyingTo": "正在回复 {username}",
 			"types": {
-				"win": "赢得 {amount} {currency}",
-				"gif": "GIF 消息",
+				"win": "赢了 {amount} {currency}",
+				"gif": "GIF消息",
 				"image": "图片",
 				"default": "消息"
 			},
 			"preview": {
-				"winIn": "在 {game} 中赢得 {amount} {currency}",
-				"gifAlt": "GIF 预览",
+				"winIn": "在 {game} 中赢了 {amount} {currency}",
+				"gifAlt": "GIF预览",
 				"imageAlt": "图片预览",
-				"emoji": "表情消息",
+				"emoji": "表情符号消息",
 				"rain": "红包雨: {amount} {currency}",
 				"system": "系统: {content}"
 			}
 		},
 		"imageDialog": {
 			"title": "分享您的图片 🎰",
-			"description": "准备好在聊天室展示了吗？",
+			"description": "准备好向聊天室展示了吗？",
 			"previewLabel": "预览",
 			"statusReady": "准备分享",
 			"roomLabel": "🎰 赌场聊天室",
@@ -256,17 +257,17 @@
 			"send": "发送到聊天室"
 		},
 		"picker": {
-			"searchEmojis": "搜索表情...",
+			"searchEmojis": "搜索表情符号...",
 			"searchGifs": "搜索GIF...",
 			"tabs": {
-				"emojis": "表情",
+				"emojis": "表情符号",
 				"gifs": "GIF"
 			},
-			"loadingEmojis": "正在加载表情...",
+			"loadingEmojis": "正在加载表情符号...",
 			"loadingGifs": "正在加载GIF...",
 			"retry": "重试",
 			"recent": "最近使用",
-			"noEmojis": "未找到表情",
+			"noEmojis": "未找到表情符号",
 			"noGifs": "未找到GIF",
 			"tryDifferent": "尝试不同的搜索词",
 			"gifCategories": {
@@ -286,35 +287,35 @@
 			"typeAt": "输入",
 			"toSeeSuggestions": "查看建议 🎰",
 			"errors": {
-				"emojisLoad": "加载表情失败",
-				"emojisSearch": "搜索表情失败",
+				"emojisLoad": "加载表情符号失败",
+				"emojisSearch": "搜索表情符号失败",
 				"gifsLoad": "加载GIF失败"
 			}
 		},
 		"messages": {
-			"emptyTitle": "暂无消息...",
+			"emptyTitle": "还没有消息...",
 			"emptySubtitle": "开始对话，赢取大奖！🎰",
-			"loadingHistory": "加载聊天历史...",
-			"loadingHistorySubtitle": "获取最新消息 📜",
-			"historyError": "加载聊天历史失败"
+			"loadingHistory": "正在加载聊天记录...",
+			"loadingHistorySubtitle": "正在获取最近的消息 📜",
+			"historyError": "加载聊天记录失败"
 		},
 		"message": {
 			"you": "您",
 			"winTitle": "在“{game}”中大获全胜！🎰",
-			"gifAlt": "动图",
+			"gifAlt": "GIF",
 			"imageAlt": "已上传的图片",
-			"rainTitle": "天降财运！🌧️💰",
+			"rainTitle": "天降财神！🌧️💰",
 			"recipients": "→ {count} 位接收者",
 			"eachTo": "每人 {amount} {currency} 发给: {list}",
 			"replyCount": "{count} 条回复",
-			"loadingHistory": "加载聊天历史..."
+			"loadingHistory": "正在加载聊天记录..."
 		},
 		"system": {
-			"slashDisabled": "斜杠命令暂时禁用。请使用普通消息。",
+			"slashDisabled": "斜杠命令暂时禁用。请使用常规消息。",
 			"rateLimit": "超出频率限制。请等待 {seconds} 秒后再发送另一条消息。",
 			"cannotTagSelf": "您不能在消息中@自己。",
 			"processingImage": "正在处理图片...",
-			"failedUploadPrefix": "上传图片失败: {message}",
+			"failedUploadPrefix": "图片上传失败: {message}",
 			"unknownError": "未知错误"
 		}
 	},
@@ -324,11 +325,11 @@
 		"deposit": "存款",
 		"withdraw": "取款",
 		"playOnTelegram": "在Telegram上玩",
-		"dailyBonus": "每日奖励",
+		"dailyBonus": "每日奖金",
 		"navigation": "导航",
 		"games": "游戏",
 		"providers": "提供商",
-		"trendingNow": "热门趋势",
+		"trendingNow": "当前热门",
 		"allProviders": "所有提供商",
 		"allTopProviders": "所有顶级提供商",
 		"hotBadge": "热门"
@@ -338,8 +339,8 @@
 		"subtitle": "按名称、提供商或类别查找",
 		"placeholder": "搜索游戏、提供商、类别...",
 		"clear": "清除",
-		"recent": "最近:",
-		"popular": "热门:",
+		"recent": "最近搜索:",
+		"popular": "热门搜索:",
 		"favoritesTry": "您可以尝试 — 您的收藏",
 		"hotPicks": "热门精选",
 		"resultsCount": "找到 {count} 个游戏",
@@ -406,14 +407,14 @@
 	},
 	"lobby": {
 		"yourFavorites": "您的收藏",
-		"featuredCasinoGames": "特色赌场游戏",
+		"featuredCasinoGames": "精选赌场游戏",
 		"hotPicks": "热门精选",
 		"slots": "老虎机",
 		"sports": "体育",
 		"realTimeScoreboard": "实时记分板"
 	},
 	"affiliate": {
-		"title": "联盟计划",
+		"title": "推荐奖金计划",
 		"loginPromptTitle": "推荐计划",
 		"loginPromptSubtitle": "登录以查看您的推荐统计、奖金并领取奖励。",
 		"goHome": "返回首页",
@@ -428,32 +429,32 @@
 		"refreshPartial": "部分刷新: {success}/{total} 部分已更新",
 		"refreshFailed": "刷新数据失败。请重试。",
 		"dashboard": {
-			"title": "联盟仪表盘",
+			"title": "代理仪表盘",
 			"subtitle": "追踪您的推荐、收益和佣金表现",
-			"performanceOverview": "表现概览",
+			"performanceOverview": "业绩概览",
 			"referralManagement": "推荐管理",
 			"termsAndCommission": "条款与佣金结构",
 			"unclaimedEarnings": "未领取收益",
 			"claim": "领取",
 			"claiming": "领取中...",
 			"totalIncome": "总收入",
+			"claimButtonTitle": "领取奖金",
 			"totalReferrals": "总推荐数",
 			"usersUnit": "用户",
 			"yourReferralLinks": "您的推荐链接",
 			"referralLinksSubtitle": "分享这些链接以推荐新用户并赚取佣金",
 			"completeReferralLink": "完整推荐链接",
-			"fullReferralPlaceholder": "完整推荐链接将显示在此处",
-			"fullReferralHelp": "用户可点击此直接链接使用您的推荐码进行注册",
+			"fullReferralPlaceholder": "完整推荐链接将在此处显示",
+			"fullReferralHelp": "用户可以直接点击此链接使用您的推荐码进行注册",
 			"referralCodeOnly": "仅推荐码",
 			"yourReferralId": "您的推荐ID",
 			"referralIdHelp": "分享此代码供用户在注册时手动输入",
 			"copyFullSuccess": "完整推荐链接已复制到剪贴板！",
-			"copyIdSuccess": "推荐ID已复制到剪贴板！",
-			"claimButtonTitle": "领取奖励"
+			"copyIdSuccess": "推荐ID已复制到剪贴板！"
 		},
 		"referrals": {
 			"title": "我的推荐",
-			"subtitle": "追踪和管理通过您的联盟链接推荐的所有用户",
+			"subtitle": "追踪和管理通过您的代理链接推荐的所有用户",
 			"totalReferrals": "总推荐数",
 			"monitorHelp": "监控您推荐用户的活动、存款和游戏模式",
 			"sort": {
@@ -477,7 +478,7 @@
 				"subtitle": "开始推荐用户以在此处看到他们。"
 			},
 			"pagination": {
-				"showing": "显示 {from} 到 {to} / 共 {total} 条结果",
+				"showing": "显示 {from} 到 {to}，共 {total} 条结果",
 				"prev": "上一页",
 				"next": "下一页"
 			}
@@ -485,13 +486,13 @@
 		"rates": {
 			"title": "佣金率结构",
 			"subtitle": "按等级和游戏类别划分的收益百分比",
-			"howItWorks": {
-				"title": "佣金等级如何运作",
-				"body": "您的佣金等级由您推荐用户的每日总投注额决定。等级越高，所有游戏类型的佣金率也越高。"
+			"overview": {
+				"title": "概览",
+				"body": "推荐奖金根据被推荐玩家在老虎机、真人娱乐场、体育博彩和彩票中的投注流水额奖励代理商。佣金每24小时计算一次，收益基于不同的流水等级。"
 			},
 			"calculation": {
 				"title": "佣金如何计算",
-				"desc": "佣金每24小时根据被推荐玩家的总投注额计算。例如：",
+				"desc": "佣金根据被推荐玩家的总投注额每24小时计算一次。\n例如:",
 				"exampleTitle": "等级 {tier}:",
 				"wagerIn": "在 {gameType} 中投注 {amount}"
 			},
@@ -502,37 +503,33 @@
 				"liveCasino": "真人娱乐场",
 				"sports": "体育",
 				"tierPrefix": "等级",
-				"commissionLevel": "佣金等级",
+				"commissionLevel": "佣金级别",
 				"dailyWager": "每日投注量"
 			},
 			"claim": {
 				"title": "领取和提款",
 				"points": {
-					"0": "佣金一旦计算完毕即可提款。",
-					"1": "未领取的佣金没有有效期——它们会累积直到被领取。",
-					"2": "提款遵循平台的标准规则，如最低限额和处理时间。"
+					"0": "佣金计算后即可提款。",
+					"1": "未领取的佣金没有有效期——它们会一直累积直到被领取。",
+					"2": "提款遵循平台的标准规则，例如最低限额和处理时间。"
 				}
 			},
 			"system": {
 				"title": "系统时间和操作",
 				"dailyTimeframeLabel": "每日时间范围:",
-				"dailyTimeframeValue": "UTC 00:00 至 UTC 23:59 (每天)。",
+				"dailyTimeframeValue": "每日 00:00 UTC 至 23:59 UTC。",
 				"claimDailyLabel": "每日领取:",
-				"claimDailyValue": "每日 UTC 14:00 可用 (您的本地时间: {local})。",
-				"note": "注意：尽管我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
+				"claimDailyValue": "每日 14:00 UTC 可用 (您的本地时间: {local})。",
+				"note": "注意: 虽然我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
 			},
 			"amendments": {
 				"title": "修订",
-				"body": "我们可能随时更新这些条款。更改在发布后立即生效，继续参与意味着您接受新条款。"
+				"body": "我们可能随时更新这些条款。更改在发布后立即生效，继续参与即表示您接受新条款。"
 			},
 			"footer": {
 				"schedule": "佣金时间表:",
-				"availableDaily": "每日可用时间为",
+				"availableDaily": "每日可用时间",
 				"localTimeLabel": "(您的本地时间: {time})"
-			},
-			"overview": {
-				"title": "概览",
-				"body": "联盟计划根据推荐玩家在老虎机、真人娱乐场、体育博彩和彩票中的下注营业额来奖励联盟。佣金每24小时计算一次，收入基于不同营业额层级。"
 			}
 		},
 		"calculator": {
@@ -545,12 +542,186 @@
 			"potentialEarnings": "潜在收益",
 			"basedOnRate": "基于 {percentage}% 的佣金率",
 			"tier": "等级 {level}",
-			"commissionLevel": "佣金等级 {level}",
+			"commissionLevel": "佣金级别 {level}",
 			"enterWager": "输入投注额 (USD)",
 			"wagerPlaceholder": "例如, 1000",
-			"calcFor": "正在计算 ${amount} 投注的收益",
+			"calcFor": "计算 ${amount} 投注额的收益",
 			"totalPotential": "总潜在收益:",
-			"combinedAtTier": "等级 {level}下所有游戏类型的合并收益"
+			"combinedAtTier": "在等级 {level} 下所有游戏类型的合并收益"
+		}
+	},
+	"bonus": {
+		"title": "流水奖金计划",
+		"loginPromptTitle": "流水奖金计划",
+		"loginPromptSubtitle": "登录以查看您的奖金统计并领取您的奖励。",
+		"goHome": "返回首页",
+		"tabs": {
+			"dashboard": "仪表盘",
+			"claims": "领取记录",
+			"rates": "奖金率",
+			"calculator": "计算器"
+		},
+		"refresh": "刷新",
+		"refreshing": "刷新中...",
+		"refreshAllSuccess": "所有数据已成功刷新！",
+		"refreshPartial": "部分刷新: {success}/{total} 部分已更新",
+		"refreshFailed": "刷新数据失败。请重试。",
+		"dashboard": {
+			"title": "奖金仪表盘",
+			"subtitle": "追踪您的投注、奖金和奖励收益",
+			"claimButtonTitle": "领取",
+			"performanceOverview": "奖金概览",
+			"bonusRatesTitle": "奖金率结构",
+			"totalIncome": "总奖金",
+			"pendingBonus": "待处理奖金",
+			"lastClaim": "上次领取",
+			"unclaimedEarnings": "可领取",
+			"claim": {
+				"title": "领取和提款",
+				"points": {
+					"0": "佣金计算后即可提款。",
+					"1": "未领取的佣金没有有效期——它们会一直累积直到被领取。",
+					"2": "提款遵循平台的标准规则，例如最低限额和处理时间。"
+				}
+			},
+			"claiming": "领取中...",
+			"section2": {
+				"title": "参与资格",
+				"content": "要参与:"
+			},
+			"section3": {
+				"title": "流水等级和费率",
+				"content": "奖金根据您的每日投注额计算:",
+				"noteTitle": "注意",
+				"noteContent": "等级每日在 14:00 UTC 进行评估。您前一天的投注量决定了今天的奖金率。费率适用于所有游戏类型: 老虎机、真人娱乐场和体育。"
+			}
+		},
+		"claims": {
+			"title": "领取历史",
+			"subtitle": "追踪您的奖金领取和投注活动",
+			"tableHeaders": {
+				"date": "投注日期",
+				"slots": "老虎机",
+				"liveCasino": "真人娱乐场",
+				"sports": "体育",
+				"total": "总计",
+				"tier": "等级",
+				"unclaimed": "未领取",
+				"token": "代币"
+			},
+			"tierPrefix": "等级",
+			"availableToClaim": "可领取",
+			"totalBonus": "总奖金",
+			"claimed": "已领取",
+			"progressPercentage": "进度",
+			"progressTitle": "您的进度",
+			"currentTier": "当前等级",
+			"nextTier": "下一等级",
+			"wagerProgress": "投注进度",
+			"totalWagered": "今日总投注额",
+			"toNextTier": "达到下一等级",
+			"empty": {
+				"title": "尚无奖金领取记录",
+				"subtitle": "开始游戏以赚取奖金！"
+			}
+		},
+		"rates": {
+			"title": "流水等级和费率",
+			"subtitle": "按投注级别和游戏类别划分的奖金百分比",
+			"overview": {
+				"title": "概览",
+				"body": "流水奖金根据用户在老虎机、真人娱乐场、体育博彩和彩票中的投注额奖励用户。奖金每24小时计算一次，用户可以在投注后的第二天领取。共有七个等级，每个等级根据投注额有不同的费率。"
+			},
+			"eligibility": {
+				"title": "参与资格",
+				"content": "要参与:",
+				"points": {
+					"0": "您必须拥有一个活跃账户。",
+					"1": "在老虎机、真人娱乐场、体育博彩和彩票中下注。",
+					"2": "满足每个等级的最低投注要求。"
+				}
+			},
+			"calculation": {
+				"title": "奖金如何计算",
+				"desc": "奖金根据您的总投注额每24小时计算一次。例如:",
+				"exampleTitle": "等级 {tier}:",
+				"wagerIn": "在 {gameType} 中投注 {amount}"
+			},
+			"table": {
+				"tierLevel": "等级",
+				"wagerRange": "投注范围",
+				"slots": "老虎机",
+				"liveCasino": "真人娱乐场",
+				"sports": "体育",
+				"tierPrefix": "等级",
+				"commissionLevel": "奖金级别",
+				"dailyWager": "每日投注量"
+			},
+			"claim": {
+				"title": "领取和提取奖金",
+				"points": {
+					"0": "奖金在投注后24小时即可领取。",
+					"1": "未领取的奖金将累积且不会过期。",
+					"2": "领取和提款过程可能根据平台特定政策而有所不同。"
+				}
+			},
+			"system": {
+				"title": "系统时间和操作",
+				"dailyTimeframeLabel": "每日时间范围:",
+				"dailyTimeframeValue": "每日 00:00 UTC 至 23:59 UTC。",
+				"claimDailyLabel": "每日领取:",
+				"claimDailyValue": "每日 14:00 UTC 可用 (您的本地时间: {local})。",
+				"note": "注意: 虽然我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
+			},
+			"amendments": {
+				"title": "修订和取消资格",
+				"body": "我们可能随时更新这些条款，更改在发布后生效。如果怀疑存在系统错误、计算错误或作弊行为，我们保留根据需要调整或取消奖金和账户资格的权利，以确保公平。"
+			},
+			"footer": {
+				"schedule": "奖金时间表:",
+				"availableDaily": "每日可用时间",
+				"localTimeLabel": "(您的本地时间: {time})"
+			}
+		},
+		"calculator": {
+			"title": "奖金计算器",
+			"subtitle": "根据您的投注额估算您的奖金收益",
+			"interactive": {
+				"title": "互动工具:",
+				"body": "输入不同的投注额以查看所有等级的潜在奖金"
+			},
+			"potentialEarnings": "潜在奖金",
+			"basedOnRate": "基于 {percentage}% 的奖金率",
+			"tier": "等级 {level}",
+			"commissionLevel": "奖金级别 {level}",
+			"enterWager": "输入投注额 (USD)",
+			"wagerPlaceholder": "例如, 1000",
+			"calcFor": "计算 ${amount} 投注额的奖金",
+			"totalPotential": "总潜在奖金:",
+			"combinedAtTier": "在等级 {level} 下所有游戏类型的合并奖金"
+		},
+		"claimSuccessModal": {
+			"title": "领取成功",
+			"statusCompleted": "已完成",
+			"statusOnChain": "链上",
+			"claimAmount": "领取金额",
+			"logoAlt": "{siteName} 标志",
+			"backgroundAlt": "领取成功背景",
+			"creatingMagic": "正在创造奇迹...",
+			"downloadShare": "下载并分享",
+			"spreadTheWin": "分享胜利",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "更多",
+			"shareText": "我刚领取了 {amount} 奖金！加入我: {url}",
+			"referralLinkCopied": "推荐链接已复制！",
+			"referralLinkCopyFailed": "复制推荐链接失败",
+			"screenshotFailed": "截图失败。请重试或使用其他浏览器。",
+			"shareTextCopied": "分享文本已复制到剪贴板！",
+			"shareFailed": "分享失败。请重试。"
 		}
 	},
 	"debug": {
@@ -566,7 +737,7 @@
 	},
 	"play": {
 		"connecting": "正在连接到游戏服务器...",
-		"invalidSession": "您的会话无效或已过期。请重新登录并重试。",
+		"invalidSession": "您的会话无效或已过期。请登录并重试。",
 		"launchFailedTitle": "启动失败",
 		"returnHome": "返回首页"
 	},
@@ -579,8 +750,8 @@
 		"featureInstantWithdrawals": "即时取款",
 		"featureNoKyc": "无需KYC",
 		"ctaClaim": "立即领取奖金！",
-		"offerExpires": "优惠到期时间:",
-		"disclaimer": "条款与条件适用。赌博涉及风险。请负责任地玩。18+",
+		"offerExpires": "优惠截止日期:",
+		"disclaimer": "适用条款与条件。赌博涉及风险。请负责任地玩。18+",
 		"closeAria": "关闭模态框",
 		"bannerAlt": "促销横幅",
 		"ctaOk": "连接钱包并开始投注",
@@ -592,9 +763,9 @@
 	},
 	"modalsSmall": {
 		"close": "关闭",
-		"firstDepositBoost": "首次存款奖金提升",
+		"firstDepositBoost": "首次存款奖金加成",
 		"bonus": "奖金",
-		"min": "分",
+		"min": "分钟",
 		"sec": "秒",
 		"deposit": "存款"
 	},
@@ -603,7 +774,7 @@
 			"title": "邮箱登录",
 			"description": "我们将向您发送一个6位数的验证码",
 			"emailLabel": "电子邮件地址",
-			"emailPlaceholder": "姓名@email.com",
+			"emailPlaceholder": "name@email.com",
 			"cancel": "取消",
 			"sending": "发送中",
 			"continue": "继续",
@@ -615,29 +786,29 @@
 			"verifying": "验证中",
 			"successTitle": "您已登录",
 			"successSubtitle": "正在设置...",
-			"modalAria": "邮箱验证模态框",
+			"modalAria": "电子邮件验证模态框",
 			"errors": {
 				"invalidEmail": "请输入有效的电子邮件地址",
 				"sendFailed": "发送验证码失败。",
-				"invalidCode": "请输入6位数的验证码"
+				"invalidCode": "请输入一个6位数的验证码"
 			}
 		},
 		"setNickname": {
 			"title": "设置您的昵称",
-			"subtitle": "这是一次性设置，无法更改",
+			"subtitle": "这是一次性设置，不可更改",
 			"logoutAria": "登出",
 			"inputPlaceholder": "选择您独特的昵称",
 			"referrerCheckbox": "我有推荐人ID",
 			"referrerPlaceholder": "输入推荐人ID",
-			"referrerHelp": "可选。这将您的账户与推荐人关联以获得奖励计划。",
+			"referrerHelp": "可选。这将您的账户与推荐人关联以参与奖金计划。",
 			"status": {
 				"checking": "正在检查可用性...",
 				"available": "昵称可用！",
-				"taken": "该昵称已被占用。"
+				"taken": "此昵称已被占用。"
 			},
 			"register": "注册并开始游戏",
 			"termsTitle": "条款与条件:",
-			"termsBody": "通过使用您的钱包签署本文件和/或继续使用此Web3应用程序，即表示您接受该应用程序的使用条款。签署您对使用条款的同意并非区块链交易，不产生任何费用。",
+			"termsBody": "通过使用您的钱包签署本文件和/或继续使用此Web3应用程序，您即接受该应用程序的使用条款。签署同意使用条款不是区块链交易，不会产生任何费用。",
 			"errors": {
 				"verifyNicknameFailed": "无法验证昵称。请重试。",
 				"registerFailed": "注册失败: {message}"
@@ -646,35 +817,35 @@
 		"walletConnect": {
 			"loginWithEmail": "使用邮箱登录",
 			"connectWalletBtn": "连接钱包",
+			"loginWithWallet": "使用钱包登录",
 			"player": "玩家",
 			"walletConnected": "钱包已连接",
 			"emailConnected": "邮箱已连接",
 			"disconnect": "断开连接",
 			"walletAddress": "钱包地址",
-			"balance": "余额",
-			"loginWithWallet": "使用钱包登录"
+			"balance": "余额"
 		}
 	},
 	"walletProvider": {
 		"transactionModal": {
+			"title": "钱包",
 			"tabs": {
 				"deposit": "存款",
+				"tip": "打赏",
 				"withdraw": "取款",
 				"swap": "兑换",
 				"walletInfo": "钱包",
-				"tip": "小费",
-				"emailWallet": "电子邮件钱包",
+				"emailWallet": "邮箱钱包",
 				"wallet": "钱包"
 			},
 			"mobileDropdown": {
 				"emailWallet": "邮箱钱包",
 				"wallet": "钱包",
 				"deposit": "存款",
+				"tip": "打赏",
 				"withdraw": "取款",
-				"swap": "兑换",
-				"tip": "小费"
-			},
-			"title": "钱包"
+				"swap": "兑换"
+			}
 		},
 		"networkSelector": {
 			"placeholder": "选择网络",
@@ -707,18 +878,19 @@
 			"enterAmount": "输入金额",
 			"selectToken": "选择代币",
 			"max": "最大",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
 			"balance": "余额:",
 			"calculating": "计算中...",
-			"approxUsd": "约 ${amount} 美元",
+			"approxUsd": "≈ ${amount} USD",
 			"minPrefix": "最小:",
-			"ratesMayVary": "汇率可能会有变动",
+			"ratesMayVary": "汇率可能变化",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
 			"minimumIs": "最小为 {min}",
 			"errors": {
-				"selectTokenAndAmount": "请选择代币并输入金额",
+				"selectTokenAndAmount": "请选择一个代币并输入金额",
 				"insufficientBalance": "此交易余额不足",
-				"amountTooHighGas": "考虑到燃料费，金额过高",
+				"amountTooHighGas": "考虑gas费用后金额过高",
 				"checkForm": "请检查表单并重试",
 				"pendingDeposit": "您有待处理的存款。请等待其完成"
 			},
@@ -729,9 +901,53 @@
 				"insufficientBalance": "余额不足"
 			},
 			"buttons": {
-				"depositUsd": "存款 ${amount}"
+				"depositUsd": "存入 ${amount}"
+			}
+		},
+		"tipPanel": {
+			"youTip": "您打赏",
+			"resetForm": "重置表单",
+			"enterAmount": "输入金额",
+			"selectToken": "选择代币",
+			"minPrefix": "最小",
+			"balance": "余额:",
+			"max": "最大",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
+			"approxUsd": "≈ ${amount} USD",
+			"tipPanelWarningText": "打赏是自愿且不可退款的。",
+			"emailWalletAddress": "邮箱钱包地址",
+			"errors": {
+				"selectTokenAndAmount": "请选择一个代币并输入金额。",
+				"insufficientBalance": "余额不足。",
+				"belowMinimum": "金额必须至少为 {min}。",
+				"missingWallet": "无法获取打赏钱包。请稍后重试。",
+				"checkForm": "请核实您的打赏详情。"
 			},
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 保留用于支付汽油费并避免交易失败"
+			"status": {
+				"processing": "发送打赏中...",
+				"awaitingApproval": "等待批准中...",
+				"calculatingRate": "计算中...",
+				"insufficientBalance": "余额不足",
+				"fetchingWallet": "准备打赏钱包中..."
+			},
+			"prompts": {
+				"selectToken": "选择代币",
+				"enterAmount": "输入金额"
+			},
+			"buttons": {
+				"tipUsd": "打赏 ${amount}",
+				"tip": "打赏"
+			},
+			"minimumIs": "最小打赏金额为 {min}"
+		},
+		"tipPending": {
+			"submittedTitle": "打赏待处理",
+			"submittedDesc": "您的打赏正在链上确认中。",
+			"confirmedTitle": "打赏已确认！",
+			"confirmedDesc": "您的打赏已成功送达。",
+			"viewOnExplorer": "在浏览器中查看",
+			"newTipPending": "发送另一笔打赏",
+			"newTipConfirmed": "发送另一笔打赏"
 		},
 		"swapPanel": {
 			"selectTokens": "选择代币",
@@ -748,28 +964,29 @@
 			"set": "设置",
 			"currentSlippage": "当前滑点",
 			"swapSuccessful": "兑换成功！",
-			"transactionConfirmed": "您的交易已确认",
-			"hash": "哈希",
+			"transactionConfirmed": "您的交易已提交",
+			"hash": "哈希值",
 			"newSwap": "新的兑换",
 			"youPay": "您支付",
 			"max": "最大",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
 			"low": "低",
 			"amountPlaceholder": "0",
 			"selectToken": "选择代币",
 			"youReceive": "您收到",
 			"gettingBestQuote": "正在获取最佳报价...",
-			"gas": "燃料费",
+			"gas": "Gas费",
 			"minimumReceived": "最少收到",
 			"slippageToleranceLabel": "滑点容差",
-			"gasFee": "燃料费",
-			"priceWarning": "价格实时更新，可能会在您的交易确认前发生变化",
+			"gasFee": "Gas费",
+			"priceWarning": "价格实时更新，可能在您的交易确认前发生变化",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
 			"minimumIs": "最小为 {min}",
 			"errors": {
-				"selectTokenAndAmount": "请选择代币并输入金额",
+				"selectTokenAndAmount": "请选择一个代币并输入金额",
 				"insufficientBalance": "此交易余额不足",
-				"amountTooHighGas": "考虑到燃料费，金额过高",
+				"amountTooHighGas": "考虑gas费用后金额过高",
 				"checkForm": "请检查表单并重试",
 				"pendingDeposit": "您有待处理的存款。请等待其完成"
 			},
@@ -780,26 +997,25 @@
 				"insufficientBalance": "余额不足"
 			},
 			"buttons": {
-				"depositUsd": "存款 ${amount}"
-			},
-			"maxButtonToolTipText": "预留{gasReservationAmount} {selectedTokenSymbol}以支付燃气费，避免交易失败"
+				"depositUsd": "存入 ${amount}"
+			}
 		},
 		"depositPending": {
 			"confirmedTitle": "存款已确认！",
 			"submittedTitle": "交易已提交",
+			"failedTitle": "交易失败",
 			"confirmedDesc": "您的余额已更新。",
 			"submittedDesc": "等待区块链确认。这可能需要几分钟。",
-			"viewOnExplorer": "在浏览器上查看",
+			"failedDesc": "您的交易失败。请重试。",
+			"viewOnExplorer": "在浏览器中查看",
 			"newDepositConfirmed": "进行另一笔存款",
 			"newDepositPending": "开始新的存款",
-			"failedTitle": "交易失败",
-			"failedDesc": "您的交易失败。",
-			"newDepositFailed": "再试一次"
+			"newDepositFailed": "重试"
 		},
 		"withdrawPanel": {
 			"resetForm": "重置表单",
-			"networkNotSupported": "仅支持在 Arbitrum、Polygon 和 BNB 上提款",
-			"youWithdraw": "您取款",
+			"networkNotSupported": "仅支持在Arbitrum, Polygon和BNB上提款",
+			"youWithdraw": "您提款",
 			"loading": "加载中...",
 			"amount": "金额",
 			"max": "最大",
@@ -808,10 +1024,11 @@
 			"insufficientBalance": "余额不足",
 			"minimumIs": "最小为 {min}",
 			"minLabel": "最小:",
+			"calculating": "计算中",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
 			"errors": {
-				"pendingWithdrawal": "您已有待处理的取款",
+				"pendingWithdrawal": "您已有待处理的提款",
 				"invalidAddress": "无效地址",
 				"enterAmount": "输入金额",
 				"networkNotSupported": "不支持的网络"
@@ -819,90 +1036,44 @@
 			"status": {
 				"processing": "处理中...",
 				"insufficientBalance": "余额不足",
-				"pendingWithdrawal": "已有待处理的取款"
+				"pendingWithdrawal": "已有待处理的提款"
 			},
 			"buttons": {
-				"withdraw": "取款 {amount} {symbol}",
+				"withdraw": "提款 {amount} {symbol}",
 				"minimum": "最小 {amount} {symbol}"
-			},
-			"calculating": "计算"
+			}
 		},
 		"withdrawSuccess": {
-			"title": "取款成功！",
-			"successMessage": "🎉 刚从 {siteName} 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入胜利的行列",
-			"withdrawnAmount": "已取款金额",
+			"title": "提款成功！",
+			"successMessage": "🎉 刚从 {siteName} 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入连胜行列",
+			"withdrawnAmount": "已提款金额",
 			"shareText": "分享",
-			"subText": "🚀 加入胜利的行列！🚀",
+			"subText": "🚀 加入连胜行列！🚀",
 			"generating": "生成中...",
-			"screenshot": "截屏",
+			"screenshot": "截图",
 			"download": "下载图片",
 			"close": "关闭",
 			"copiedToClipboard": "分享链接已成功复制",
+			"userName": "{siteName} 玩家",
+			"status": "已完成",
 			"entryPrice": "提款金额",
 			"lastPrice": "代币符号",
 			"referralCode": "推荐码",
 			"screenshotFailed": "截图失败。请重试或使用其他浏览器。",
-			"shareFailed": "分享失败。请再试一次。",
-			"status": "已完成",
-			"userName": "{siteName} 玩家"
+			"shareFailed": "分享失败。请重试。"
 		},
 		"withdrawPending": {
-			"confirmedTitle": "取款已确认！",
+			"confirmedTitle": "提款已确认！",
 			"submittedTitle": "交易已提交",
 			"confirmedDesc": "您的资金正在路上。",
 			"submittedDesc": "等待区块链确认...",
-			"viewOnExplorer": "在浏览器上查看",
-			"manualApproval": "此取款需要手动批准。",
-			"newWithdrawalConfirmed": "进行另一笔取款",
-			"newWithdrawalPending": "开始新的取款"
+			"viewOnExplorer": "在浏览器中查看",
+			"manualApproval": "此提款需要手动批准。",
+			"newWithdrawalConfirmed": "进行另一笔提款",
+			"newWithdrawalPending": "开始新的提款"
 		},
 		"withdrawSummary": {
 			"youWillReceive": "您将收到"
-		},
-		"tipPanel": {
-			"approxUsd": "~  USD",
-			"balance": "余额：",
-			"buttons": {
-				"tip": "小费",
-				"tipUsd": "小费"
-			},
-			"emailWalletAddress": "电子邮件钱包地址",
-			"enterAmount": "输入金额",
-			"errors": {
-				"belowMinimum": "金额必须至少为 {min}。",
-				"checkForm": "请核实您的小费详情。",
-				"insufficientBalance": "余额不足。",
-				"missingWallet": "无法获取小费钱包。请稍后再试。",
-				"selectTokenAndAmount": "请选择一个代币并输入金额。"
-			},
-			"max": "最大",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 被保留用于支付燃气费用及避免交易失败",
-			"minimumIs": "最低小费为{min}",
-			"minPrefix": "最小值",
-			"prompts": {
-				"enterAmount": "输入金额",
-				"selectToken": "选择代币"
-			},
-			"resetForm": "重置表单",
-			"selectToken": "选择代币",
-			"status": {
-				"awaitingApproval": "等待批准中...",
-				"calculatingRate": "正在计算...",
-				"fetchingWallet": "正在准备小费钱包...",
-				"insufficientBalance": "余额不足",
-				"processing": "正在发送小费..."
-			},
-			"tipPanelWarningText": "小费是自愿的且不可退还。",
-			"youTip": "您的小费"
-		},
-		"tipPending": {
-			"confirmedDesc": "您的小费已成功送达。",
-			"confirmedTitle": "小费已确认!",
-			"newTipConfirmed": "发送另一个提示",
-			"newTipPending": "发送另一个小费",
-			"submittedDesc": "您的小费正在链上确认。",
-			"submittedTitle": "小费待处理",
-			"viewOnExplorer": "在浏览器中查看"
 		}
 	},
 	"navUser": {
@@ -923,20 +1094,20 @@
 		"sports": "体育",
 		"liveCasino": "真人娱乐场",
 		"explore": "探索",
-		"exploreSubtitle": "发现惊人的游戏体验",
+		"exploreSubtitle": "发现奇妙的游戏体验",
 		"poker": "扑克",
 		"lottery": "彩票",
 		"futures": "期货",
-		"vr": "虚拟现实",
+		"vr": "VR",
 		"swap": "兑换",
 		"slotsDescription": "旋转卷轴，赢取巨额头奖",
 		"liveCasinoDescription": "与真人荷官一起体验实时赌场行动",
 		"sportsDescription": "为您最喜爱的球队和体育赛事下注",
 		"pokerDescription": "在经典扑克游戏中测试您的技巧",
 		"lotteryDescription": "通过彩票和即时赢取游戏试试您的运气",
-		"futuresDescription": "交易并预测市场动向",
+		"futuresDescription": "交易和预测市场动向",
 		"vrDescription": "沉浸在虚拟现实游戏中",
-		"swapDescription": "无缝交换代币和加密货币",
+		"swapDescription": "无缝兑换代币和加密货币",
 		"categories": {
 			"slot": {
 				"title": "老虎机游戏"
@@ -948,7 +1119,7 @@
 				"title": "体育博彩游戏"
 			},
 			"rng": {
-				"title": "随机数游戏"
+				"title": "RNG游戏"
 			},
 			"other": {
 				"title": "{category} 游戏"
@@ -958,7 +1129,7 @@
 	"providers": {
 		"pageTitle": "所有游戏提供商",
 		"searchPlaceholder": "搜索提供商...",
-		"empty": "未找到符合您搜索的提供商。",
+		"empty": "未找到与您搜索匹配的提供商。",
 		"logoAlt": "{name} 标志",
 		"filteredBy": "按类别筛选:",
 		"clearFilter": "清除筛选",
@@ -973,7 +1144,7 @@
 				"title": "体育博彩提供商"
 			},
 			"rng": {
-				"title": "随机数游戏提供商"
+				"title": "RNG游戏提供商"
 			},
 			"other": {
 				"title": "{category} 游戏提供商"
@@ -983,7 +1154,7 @@
 	"hero": {
 		"guest": {
 			"title": "加入行动",
-			"subtitle": "立即注册并获得独家欢迎奖金！",
+			"subtitle": "立即注册，获取专属欢迎奖金！",
 			"cta": "立即注册"
 		},
 		"welcome": {
@@ -994,7 +1165,7 @@
 		},
 		"jackpot": {
 			"title1": "巨额头奖",
-			"title2": "1,000,000 美元",
+			"title2": "1,000,000美元",
 			"subtitle": "立即游戏，赢取大奖",
 			"cta": "立即游戏"
 		},
@@ -1002,7 +1173,7 @@
 			"casino": {
 				"title": "赌场",
 				"badge": "590+ 游戏",
-				"desc": "享受 {siteName} 原创和其他顶级提供商的赌场游戏。",
+				"desc": "享受 {siteName} 原创游戏和其他顶级提供商的赌场游戏。",
 				"link": "前往赌场"
 			},
 			"slots": {
@@ -1019,32 +1190,32 @@
 			},
 			"crypto": {
 				"title": "加密货币与收益",
-				"badge": "60% 年利率",
+				"badge": "60% 年化收益率",
 				"desc": "以诱人的利率进行质押、交易和赚取加密货币。",
 				"link": "前往加密货币"
 			}
 		},
 		"layout3": {
 			"headerTitle": "游戏焦点",
-			"headerSubtitle": "在我们精选的系列中发现惊人的游戏并探索新的冒险",
-			"slider1Title": "特色游戏",
+			"headerSubtitle": "在我们精选的系列中发现精彩游戏并探索新的冒险",
+			"slider1Title": "精选游戏",
 			"slider1Badge": "员工精选",
 			"slider2Title": "更多探索",
 			"slider2Badge": "热门",
-			"featuredGameLabel": "特色游戏"
+			"featuredGameLabel": "精选游戏"
 		},
 		"ctaExploreGames": "探索游戏",
-		"ctaJoinAffiliate": "加入联盟计划"
+		"ctaJoinAffiliate": "加入代理"
 	},
 	"betting": {
 		"live": {
 			"winRate": "胜率",
 			"biggestWin": "最大赢额",
-			"bigWins50": "大赢 (50+)",
+			"bigWins50": "大赢(50+)",
 			"recentWins": "最近赢取",
 			"header": {
 				"title": "实时投注活动",
-				"subtitle": "实时投注活动 • 已加载 {count} 场游戏"
+				"subtitle": "实时投注活动 • 已加载 {count} 个游戏"
 			},
 			"status": {
 				"live": "直播",
@@ -1083,12 +1254,12 @@
 			"title": "谷歌字体",
 			"searchFonts": "搜索字体...",
 			"preview": "预览",
-			"previewText": "敏捷的棕色狐狸跳过了懒惰的狗",
+			"previewText": "敏捷的棕色狐狸跳过懒惰的狗",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
 			"applyFont": "应用字体",
 			"clearPreview": "清除预览",
 			"previewWith": "使用 {font} 预览文本",
-			"noFontsFound": "未找到匹配 “{searchTerm}” 的字体"
+			"noFontsFound": "未找到与“{searchTerm}”匹配的字体"
 		},
 		"customUpload": {
 			"title": "上传自定义字体",
@@ -1099,7 +1270,7 @@
 			"supportedFormats": "支持的格式: .woff, .woff2, .ttf, .otf",
 			"maxFileSize": "最大文件大小: 10MB",
 			"fontName": "字体名称",
-			"fontNamePlaceholder": "为您的字体输入一个名称",
+			"fontNamePlaceholder": "为您的字体输入名称",
 			"previewYourFont": "预览您的字体",
 			"uploadAndApply": "上传并应用字体",
 			"cancel": "取消",
@@ -1108,190 +1279,743 @@
 				"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
 				"fileTooLarge": "文件大小超过10MB限制",
 				"uploadFailed": "上传字体文件失败",
-				"enterFontName": "请选择字体文件并提供名称",
+				"enterFontName": "请选择一个字体文件并提供名称",
 				"readFileFailed": "读取字体文件失败"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "字体 “{fontName}” 应用成功！",
-			"fontUploadedSuccess": "字体 “{fontName}” 上传并应用成功！",
+			"fontAppliedSuccess": "字体“{fontName}”已成功应用！",
+			"fontUploadedSuccess": "字体“{fontName}”已成功上传并应用！",
 			"fontResetSuccess": "字体已重置为默认",
 			"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "读取字体文件失败"
 		}
 	},
-	"bonus": {
-		"title": "营业额奖金计划",
-		"loginPromptTitle": "营业额奖金计划",
-		"loginPromptSubtitle": "登录以查看您的奖金统计和领取奖励。",
-		"goHome": "返回主页",
-		"tabs": {
-			"dashboard": "仪表板",
-			"claims": "索赔",
-			"rates": "奖金率",
-			"calculator": "计算器"
+	"about": {
+		"title": "关于 {siteDomain}",
+		"subtitle": "在 {siteName}，游戏不仅仅是娱乐——它是一种全新的玩法。",
+		"meta": {
+			"title": "关于 {siteName} | 加密驱动的游戏平台",
+			"description": "了解 {siteName}——一个提供可证明公平的老虎机、真人娱乐场、体育博彩和即时支付的去中心化加密赌场。为当今的区块链时代而建。"
 		},
-		"refresh": "刷新",
-		"refreshing": "正在刷新...",
-		"refreshAllSuccess": "所有数据刷新成功！",
-		"refreshPartial": "部分刷新：已更新 {success}/{total} 部分",
-		"refreshFailed": "无法刷新数据。请再试一次。",
-		"dashboard": {
-			"title": "奖金仪表板",
-			"subtitle": "跟踪您的投注、奖金和奖励收益",
-			"performanceOverview": "奖励概况",
-			"bonusRatesTitle": "奖金率结构",
-			"totalIncome": "总奖金",
-			"pendingBonus": "待处理奖金",
-			"lastClaim": "最后一次索赔",
-			"unclaimedEarnings": "可领取",
-			"claim": {
-				"title": "申领和提现",
-				"points": {
-					"0": "佣金在计算后即可提款。",
-					"1": "未领取的佣金没有截止日期—它们会累积直到被领取。",
-					"2": "提款遵循平台的标准规则，如最低限额和处理时间。"
+		"intro": {
+			"paragraph1": "在 {siteName}，游戏不仅仅是娱乐——它是一种全新的玩法。我们为那些不仅仅追求运气的人们打造了这个加密驱动的平台。如果您关心速度、透明度和控制权，那么您来对地方了。",
+			"paragraph2": "从第一天起，我们的目标就很明确：为玩家提供更高层次的游戏体验，让技术与公平真正协同工作。我们希望您感到安全、互联，并为每一次旋转、下注或每一手牌都感到有所回报。无论您是在玩加密老虎机、现场体育博彩，还是坐在赌场牌桌前，{siteName} 都是为当今的区块链时代而建。"
+		},
+		"whoWeAre": {
+			"title": "我们是谁",
+			"paragraph1": "我们是一个全球性的、完全去中心化的游戏平台，专为追求自由、隐私和即时行动的加密爱好者设计。我们与行业顶尖品牌合作——Pragmatic Play、Red Tiger、Yggdrasil、PG Soft、Playtech，为您带来超过5,000款优质游戏和投注选项，尽在一个平台。",
+			"paragraph2": "在 {siteName} 上的每一款游戏都经过可证明的公平性和区块链验证。没有暗箱操作，只有完全的透明度。我们相信游戏应该是无需信任但仍具人情味的，将区块链的诚实与任何人在任何地方都能享受的流畅、刺激的体验相结合。"
+		},
+		"mission": {
+			"title": "我们的使命",
+			"paragraph1": "我们希望改变人们体验在线游戏的方式——使其更快、更公平、完全由加密货币驱动。因此，我们摒弃了像KYC检查、支付缓慢和信任问题等常见的麻烦。在这里，您可以通过钱包访问、享受即时交易，并在每一次投注中获得公平性证明。",
+			"paragraph2": "您的隐私得到保护，您的奖金即时支付，您始终掌控着自己的游戏。"
+		},
+		"focus": {
+			"title": "我们关注什么",
+			"items": [
+				"闪电般的存款和取款",
+				"无需KYC的隐私优先访问",
+				"可在任何地方无缝工作的用户界面",
+				"真实的人工客服提供24/7支持"
+			],
+			"closing": "信任对我们至关重要。每一个新功能？都是为您设计的。"
+		},
+		"whatMakesUsDifferent": {
+			"title": "{siteName} 的与众不同之处",
+			"features": [
+				"超过5,000款加密赌场游戏——老虎机、扑克、真人牌桌，应有尽有",
+				"通过Dynamic.xyz进行基于钱包的登录——只需连接即可玩，无需等待",
+				"即时加密货币支付——在区块链上自动验证",
+				"每款游戏都经过可证明的公平性和RNG认证",
+				"在任何设备上完美运行，无论是移动设备还是桌面设备",
+				"透明的奖励——真正惠及玩家的奖金和促销活动"
+			],
+			"closing": "{siteName} 不仅仅是游戏——它是自由。安全地玩，从任何地方，完全透明。"
+		},
+		"fairGaming": {
+			"title": "公平与负责任的游戏",
+			"paragraph1": "我们也认真对待公平和负责任的游戏。我们不允许任何未满18岁（或未达到其国家法定年龄）的人玩游戏。每一款游戏都经过独立测试人员的检查，并在区块链的透明度下运行，因此您可以亲自验证每一个结果。",
+			"ageRestriction": "只有年满18岁的玩家才能注册和玩游戏。",
+			"paragraph2": "您的个人和财务信息始终保持私密。我们使用端到端加密，绝不存储您的钱包密钥或敏感数据。"
+		},
+		"promise": {
+			"title": "我们的承诺",
+			"paragraph1": "我们不仅仅是另一个在线赌场。我们是游戏的下一步。{siteName} 的存在是为了赋予玩家力量，而不是控制他们。凭借加密技术、可证明的公平性和玩家至上的方法，我们正在构建一个开放、安全和有益的游戏世界。",
+			"paragraph2": "每一次更新、功能或新合作伙伴——我们所做的一切都是为了让游戏变得公平、即时和属于您。"
+		},
+		"joinCommunity": {
+			"title": "准备好加入了？",
+			"paragraph1": "游戏的未来就在这里——去中心化、闪电般快速、无国界。注册，连接您的钱包，感受真正的游戏自由。",
+			"paragraph2": "聪明地玩。快速赢。体验 {siteName}。",
+			"tagline": "聪明地玩。快速赢。体验 {siteName}。"
+		}
+	},
+	"footer": {
+		"sections": {
+			"company": {
+				"title": "公司",
+				"links": {
+					"about": "关于我们",
+					"providers": "提供商",
+					"affiliate": "推荐奖金",
+					"bonus": "流水奖金"
 				}
 			},
-			"claiming": "正在认领...",
-			"section2": {
-				"title": "资格",
-				"content": "要参与："
+			"legal": {
+				"title": "法律",
+				"links": {
+					"privacy": "隐私政策",
+					"terms": "条款与条件",
+					"gambling": "负责任的博彩",
+					"faqs": "常见问题"
+				}
 			},
-			"section3": {
-				"title": "耕作等级与费率",
-				"content": "奖励是根据您的每日投注金额计算的：",
-				"noteTitle": "注意",
-				"noteContent": "等级每天在14:00 UTC进行评估。前一天的投注量决定了当天的奖金率。该比率适用于所有游戏类型：老虎机、真人娱乐场和体育。"
+			"games": {
+				"title": "游戏",
+				"links": {
+					"lobby": "游戏大厅",
+					"slots": "老虎机",
+					"live": "真人娱乐场",
+					"sports": "体育博彩"
+				}
 			},
-			"claimButtonTitle": "领取"
-		},
-		"claims": {
-			"title": "索赔历史",
-			"subtitle": "跟踪您的奖金申领和投注活动",
-			"tableHeaders": {
-				"date": "投注日期",
-				"slots": "老虎机",
-				"liveCasino": "真人赌场",
-				"sports": "体育",
-				"total": "总计",
-				"tier": "级别",
-				"unclaimed": "未认领",
-				"token": "代币"
-			},
-			"tierPrefix": "级别",
-			"availableToClaim": "可领取",
-			"totalBonus": "总奖金",
-			"claimed": "已索取",
-			"progressPercentage": "进度",
-			"progressTitle": "您的进度",
-			"currentTier": "当前等级",
-			"nextTier": "下一阶",
-			"wagerProgress": "投注进度",
-			"totalWagered": "今日投注总额",
-			"toNextTier": "达到下一层级",
-			"empty": {
-				"title": "尚未有奖金索赔",
-				"subtitle": "开始游戏以赚取奖励！"
+			"support": {
+				"title": "支持",
+				"links": {
+					"help": "帮助中心",
+					"contact": "联系我们"
+				}
 			}
 		},
-		"rates": {
-			"title": "农业等级和费率",
-			"subtitle": "按投注等级和游戏类别划分的奖金百分比",
-			"overview": {
-				"title": "概览",
-				"body": "奖金农场根据用户在老虎机、真人赌场、体育博彩和彩票中的投注给予奖励。奖金每24小时计算一次，用户可以在投注后的第二天领取。共有七个等级，每个等级的费率根据投注额不同。"
+		"seoContent": {
+			"title": "{siteName} — 您加密赌场娱乐的终极目的地",
+			"paragraph1": "与 {siteName} 一起迈向在线游戏的未来，这是世界上首屈一指的加密驱动赌场，创新与激情在此相遇。专为真实玩家设计，我们的平台在老虎机、真人赌场牌桌、体育博彩和加密游戏中提供快速、安全和透明的体验。",
+			"paragraph2": "{siteName} 的每一次旋转、每一张牌和每一次下注都建立在区块链的公平性之上，实时验证以确保每一个结果都是真正随机和防篡改的。从高风险的行动到休闲游戏，我们的游戏满足了各种类型的赌徒——从寻求刺激的人到策略专家。",
+			"paragraph3": "通过即时存款和闪电般的取款、Dynamic.xyz钱包登录和独家流水奖金，{siteName} 确保您的游戏体验流畅、有益且安全。无论您在加拿大、欧洲还是亚洲，我们的多链系统都支持全球玩家，同时为每个地区的本地加密赌场趋势进行优化。",
+			"paragraph4": "加入成千上万发现更智能游戏方式的玩家——在这里，公平游戏、隐私和利润汇聚一堂。{siteName} 不仅仅是一个赌场。它是Web3赌博的下一次进化——为大胆者而建，由加密货币驱动，并受到全球玩家的信赖。",
+			"tagline": "🎯 聪明地玩。安全地下注。赢取大奖 — 仅在 {siteName}。",
+			"showMore": "显示更多",
+			"showLess": "显示更少"
+		},
+		"copyright": "© {year} {siteName}. 保留所有权利。",
+		"followUs": "关注我们:",
+		"disclaimer": {
+			"line1": "仅限18岁以上 | 请负责任地赌博",
+			"line2": "赌博可能上瘾。请负责任地玩，只下注您能承受损失的金额。",
+			"line3": "如果您觉得自己有赌博问题，请寻求帮助。"
+		},
+		"description": "{siteName} — 您值得信赖的加密赌场，提供老虎机、真人牌桌和体育博彩。玩可证明公平的区块链游戏，享受基于钱包的即时支付，并解锁每日赌场奖金。快速、安全和去中心化 — {siteName} 为全球玩家带来更高层次的游戏体验。🎯 聪明地玩。赢取大奖。信任 {siteName}。"
+	},
+	"privacy": {
+		"title": "隐私政策 — {siteDomain}",
+		"subtitle": "我们如何处理您的信息，涵盖您的加密钱包、游戏玩法以及您在我们网站上所做的一切",
+		"lastUpdated": "最后更新：2025年1月",
+		"intro": {
+			"paragraph1": "在 {siteName}（'{siteDomain}'、'我们'、'我们的'），您的隐私至关重要。我们运营 {siteName} 加密赌场和去中心化游戏平台，本隐私政策阐述了我们如何处理您的信息，涵盖您的加密钱包、游戏玩法以及您在我们网站、dApp或相关服务（我们称之为'服务'）上所做的一切。",
+			"paragraph2": "{siteDomain} 是一个仅限钱包的加密赌场。这意味着存款和取款都直接通过区块链进行，没有中间人。我们不要求您的身份证明，也从不存储个人身份信息。您的隐私、钱包和资产？它们仍然属于您。",
+			"paragraph3": "使用 {siteDomain} 即表示您同意本隐私政策。"
+		},
+		"sections": {
+			"scope": {
+				"title": "范围与接受",
+				"content": "本政策涵盖访问或使用 {siteDomain} 的每个人。如果我们将来需要更新政策——可能是因为新技术或法律变化——我们会在这里发布更改。如果您在此之后继续使用平台，即表示您接受新条款。"
+			},
+			"dataCollection": {
+				"title": "我们收集的数据",
+				"intro": "我们以隐私为核心构建了 {siteName}。我们只要求为确保网站正常运行、保障安全和游戏公平所必需的信息。",
+				"accountData": {
+					"title": "A. 钱包和账户数据",
+					"items": {
+						"0": "连接的钱包地址（通过Dynamic.xyz、WalletConnect或MetaMask）。",
+						"1": "显示名称（可选），如果您想个性化您的账户。",
+						"2": "电子邮件地址（可选），如果您订阅时事通讯或联系支持。"
+					},
+					"kyc": "我们从不进行身份检查或收集政府ID。如果，且仅当出现法律情况（如欺诈调查），我们可能会要求提供身份证明。如果发生这种情况，我们会坦诚相告，并且只要求绝对必要的信息。"
+				},
+				"walletData": {
+					"title": "B. 交易数据",
+					"addresses": "用于存款或取款的区块链钱包地址。",
+					"transactions": "交易哈希、时间戳和网络确认。",
+					"metadata": "用于平衡您账户的存款和取款详情。",
+					"note": "所有加密交易在区块链上都是公开的。我们不编辑、隐藏或试图匿名化这些数据——一切都是透明的。"
+				},
+				"technicalData": {
+					"title": "C. 技术和使用数据",
+					"ip": "关于您的设备和浏览器的信息（类型、操作系统、屏幕尺寸）。用于预防欺诈的IP地址和大致位置。",
+					"session": "您访问的页面、玩的游戏、交易历史和在网站上花费的时间。",
+					"cookies": "用于帮助我们改善体验的Cookie和分析工具。"
+				},
+				"securityData": {
+					"title": "D. 安全和风险数据",
+					"fraud": "设备指纹和反欺诈监控。",
+					"disputes": "用于保证公平性和帮助解决问题的游戏会话日志。用于检测机器人或滥用行为的自动检查。",
+					"note": "我们不收集敏感的个人数据，如您的种族、宗教、政治观点或生物识别信息。"
+				}
+			},
+			"purposes": {
+				"title": "我们为什么收集数据",
+				"intro": "以下是我们使用您信息的目的：",
+				"outro": "您可以随时取消订阅营销信息。",
+				"items": {
+					"0": {
+						"title": "服务运营",
+						"description": "让您可以用钱包登录、验证交易、运行游戏和处理支付。"
+					},
+					"1": {
+						"title": "安全与欺诈预防",
+						"description": "发现和预防欺诈、重复账户或任何可疑行为。"
+					},
+					"2": {
+						"title": "平台改进",
+						"description": "让网站运行得更好、更流畅。"
+					},
+					"3": {
+						"title": "营销（经同意）",
+						"description": "用于营销，但只有在您同意的情况下——我们绝不会未经您的许可擅自推送促销活动。"
+					},
+					"4": {
+						"title": "平台完整性",
+						"description": "保护 {siteName} 并保持游戏公平。"
+					}
+				}
+			},
+			"cryptoWallet": {
+				"title": "区块链透明度",
+				"intro": "{siteDomain} 完全在区块链上运行：",
+				"outro": "如果您使用第三方钱包（如Dynamic.xyz、WalletConnect或MetaMask），他们的隐私政策将适用于您对他们服务的使用",
+				"points": {
+					"0": "您的钱包和交易数据永久存在于像以太坊或币安智能链这样的公共区块链上。",
+					"1": "一旦区块链交易完成，我们无法更改或删除它。",
+					"2": "我们只在链下存储最少量的信息，仅用于技术和账户原因。",
+					"3": "如果您使用第三方钱包（如Dynamic.xyz、WalletConnect或MetaMask），他们的隐私政策将适用于您对他们服务的使用。"
+				}
+			},
+			"dataSharing": {
+				"title": "分享与披露",
+				"intro": "我们从不销售、交易或出租您的数据。绝不。",
+				"para": "但在极少数情况下，我们可能需要分享有限的信息：",
+				"items": {
+					"0": "如果法律或有效的法律程序要求。",
+					"1": "如果我们发现可疑活动，会与反欺诈合作伙伴或区块链分析工具分享。",
+					"2": "如果发生合并、收购或重大业务变更，始终在严格保密的情况下进行。"
+				},
+				"noSelling": "无论何时我们分享任何信息，我们都确保其符合数据保护法。"
+			},
+			"security": {
+				"title": "安全措施",
+				"intro": "我们认真对待您的安全，并采用多层先进的保护措施来确保您的数据和数字资产的安全：",
+				"items": {
+					"0": "您在浏览器和我们服务器之间发送的每一位数据都经过TLS/SSL加密。",
+					"1": "我们将日志和技术数据以加密形式存储。",
+					"2": "基于角色的访问控制（RBAC）严格限制内部访问。",
+					"3": "我们定期进行渗透测试，并聘请外部专家进行安全审计。",
+					"4": "管理员使用多因素认证（MFA）登录以增加安全性。"
+				},
+				"warning": "温馨提示：\n\n🔐 {siteName} 绝不会索要您的私钥或助记词。请妥善保管您的钱包凭证，这是您的责任。"
+			},
+			"cookies": {
+				"title": "Cookies与分析",
+				"intro": "我们使用cookies和跟踪工具来：",
+				"items": {
+					"0": "保持您的钱包连接和会话稳定。",
+					"1": "提高网站速度和性能。",
+					"2": "收集匿名分析数据，以便我们了解人们如何使用网站。"
+				},
+				"outro": "您可以随时在浏览器中关闭非必要的cookies。但是，如果您阻止了必要的cookies，您可能会在游戏或钱包连接方面遇到问题。"
+			},
+			"minAge": {
+				"title": "未成年人使用政策",
+				"intro": "{siteDomain} 禁止任何未满18岁或未达到其所在地区法定赌博年龄的人使用。",
+				"content": "如果我们发现有人是未成年人，我们将立即暂停该账户，作废任何奖金，并删除相关数据。\n致家长和监护人：",
+				"items": {
+					"0": "在设备上使用密码保护。",
+					"1": "不要在共享设备上保存钱包信息。",
+					"2": "设置像NetNanny或GamBlock这样的工具来阻止赌博网站。"
+				}
+			},
+			"breach": {
+				"title": "数据泄露响应",
+				"content": "如果数据泄露威胁到您的权利或安全：",
+				"items": {
+					"0": "我们将立即通知所有受影响的用户。",
+					"1": "我们将依法通知相关部门。",
+					"2": "我们将迅速采取行动解决问题并恢复安全。"
+				}
+			},
+			"changes": {
+				"title": "政策更新",
+				"content": "我们会不时更新本隐私政策以应对运营、技术或法律的变化。重大变更将以通知或横幅的形式出现在网站上。请不时查看此页面以保持更新。"
+			},
+			"contact": {
+				"title": "联系我们",
+				"intro": "有关于您的数据的问题、隐私疑虑或请求吗？随时联系我们："
+			}
+		}
+	},
+	"terms": {
+		"title": "条款与条件 — {siteName} 加密赌场",
+		"lastUpdated": "最后更新：2025年1月",
+		"sections": {
+			"ownership": {
+				"title": "谁运营 {siteDomain}",
+				"content1": "{siteDomain} 属于 {siteName} N.V.。这就是我们——当我们说“{siteName}”、“我们”、“我们的”或“我们”时，我们指的是网站背后的团队。",
+				"content2": "我们运营一个仅限钱包的加密赌场。所有存款、投注和取款都直接通过您自己的加密钱包进行。为了安全和方便访问，我们支持 Dynamic.xyz、WalletConnect 和 MetaMask。"
+			},
+			"notice": {
+				"title": "您同意的内容",
+				"content": "当您连接钱包或使用 {siteDomain} 时，即表示您同意：",
+				"items": {
+					"0": "这些条款与条件",
+					"1": "我们的隐私政策",
+					"2": "我们的负责任博彩政策",
+					"3": "任何奖金、代理或促销条款",
+					"4": "{siteDomain} 上发布的所有其他规则或更新"
+				},
+				"content2": "如果您不接受这些条款，请不要使用 {siteDomain}。",
+				"outro": "在您玩游戏之前，确保加密博彩在您居住的地方是合法的，这是您的责任。"
+			},
+			"general": {
+				"title": "基本原则",
+				"items": [
+					"一旦您连接了您的钱包，您即同意遵守此处的所有规则和指南。",
+					"这些条款是您与 {siteDomain} 之间具有约束力的协议。它们在您连接钱包或使用网站时立即生效。",
+					"我们可能随时根据需要更新这些条款。如果我们这样做，我们会在此处发布新版本，并立即生效。",
+					"如果这些条款与任何其他内容——奖金优惠、第三方内容等——发生冲突，以这些条款为准。",
+					"英文版本为官方版本。翻译仅为提供帮助。"
+				]
+			},
+			"account": {
+				"title": "您的钱包、登录和安全",
+				"intro": "",
+				"walletLogin": {
+					"title": "钱包连接与所有权",
+					"items": [
+						"我们使用 Dynamic.xyz 和其他钱包连接器进行登录和身份验证。当您连接您的钱包时，您确认您拥有该钱包并允许我们将其链接到您的账户。",
+						"我们绝不会索要您的私钥、助记词或恢复信息。您钱包的安全由您自己负责。如果您因自己的设备而被钓鱼、被黑客攻击或失去访问权限，我们概不负责。"
+					]
+				},
+				"registration": {
+					"title": "电子邮件和账户详情",
+					"items": [
+						"如果您需要帮助或更新，可以向我们提供电子邮件或用户名，但这是可选的。",
+						"您对您连接的钱包发生的一切负责。"
+					]
+				},
+				"security": {
+					"title": "多个账户与安全",
+					"items": [
+						"每人坚持使用一个钱包/账户。如果您试图通过使用多个账户来滥用系统，我们可能会暂停您的账户并扣留您的资金。",
+						"如果您的钱包支持双重认证（2FA），请开启它。",
+						"如果出现任何异常情况，请立即发送电子邮件至 support@digidice.games。"
+					]
+				}
 			},
 			"eligibility": {
-				"title": "资格",
-				"content": "要参与：",
-				"points": {
-					"0": "您必须拥有一个活跃的账户。",
-					"1": "在老虎机、真人娱乐场、体育博彩和彩票中投注。",
-					"2": "满足每个级别的最低投注要求。"
+				"title": "谁可以玩以及您的承诺",
+				"intro": "通过使用 {siteDomain}，您承诺：",
+				"items": [
+					"您至少年满18岁，或达到您所在地的法定博彩年龄。",
+					"在线加密博彩对您是合法的。",
+					"您拥有您所连接的钱包。",
+					"您不会使用VPN、代理或IP隐藏来规避地理区域限制。",
+					"您不会将 {siteName} 用于任何非法或可疑的活动。",
+					"您理解加密货币的波动性，并接受相关风险。"
+				],
+				"outro": "如果您违反任何这些承诺，我们可能会暂停或关闭您的账户，并在法律允许的情况下扣留您的资金。"
+			},
+			"restricted": {
+				"title": "您不能玩的地区",
+				"content1": "如果您身处在线赌博或加密投注受限的地区，则禁止使用 {siteDomain}。这些地区例如：美国、英国、法国、荷兰、西班牙、德国、澳大利亚、科摩罗、伊朗、朝鲜、叙利亚、苏丹以及FATF黑名单上的任何地方。",
+				"content2": "试图使用VPN或代理偷偷进入？不要这样做。如果您这样做，我们将关闭您的账户，您将失去您的资金。",
+				"content3": ""
+			},
+			"crypto": {
+				"title": "加密货币存款和取款",
+				"policy": {
+					"title": "仅限加密货币",
+					"items": [
+						"我们仅支持加密货币。您只能使用经批准的币种进行存款和取款：BTC、ETH、USDT、BNB、TRX等。不接受法定货币或银行卡支付。",
+						"所有交易必须来自您控制的钱包。不接受第三方或共享钱包。"
+					]
+				},
+				"deposits": {
+					"title": "存款",
+					"items": [
+						"当您存款时，您的资金在区块链确认交易后出现。您需要支付网络（gas）费，而不是我们。最低存款额为价值10美元的加密货币。我们可能会拒绝来自黑名单或高风险钱包的存款。",
+						""
+					]
+				},
+				"withdrawals": {
+					"title": "取款",
+					"items": [
+						"取款直接进入您选择的钱包。请确保它与正确的区块链兼容。最低取款额通常为10美元，具体取决于费用。我们可能会因欺诈检查或安全原因延迟取款。",
+						"所有区块链交易都是最终的。一旦确认，我们无法取消、退款或更改它们。"
+					]
+				},
+				"chargebacks": {
+					"title": "",
+					"items": []
 				}
 			},
-			"calculation": {
-				"title": "奖金如何计算",
-				"desc": "奖金每24小时根据您的总投注额计算。示例：",
-				"exampleTitle": "等级 {tier}:",
-				"wagerIn": "在{gameType}中投注{amount}"
+			"kyc": {
+				"title": "无KYC政策",
+				"intro": "{siteDomain} 采用无KYC模式，因此您可以在常规游戏中无需身份验证即可玩。",
+				"content1": "但有时，{siteName} 可能会在以下情况下要求提供一些信息：",
+				"items": [
+					"法律或权威机构要求。",
+					"他们需要调查欺诈或可疑行为。",
+					"为确保平台安全或满足监管要求所必需。"
+				],
+				"outro": "如果您不配合合法的验证请求，您的账户可能会被暂停，或您的取款可能会被延迟。"
 			},
-			"table": {
-				"tierLevel": "层级",
-				"wagerRange": "下注范围",
-				"slots": "老虎机",
-				"liveCasino": "真人娱乐场",
-				"sports": "体育",
-				"tierPrefix": "等级",
-				"commissionLevel": "奖励等级",
-				"dailyWager": "每日下注量"
+			"fairPlay": {
+				"title": "公平游戏、行为与安全",
+				"intro": "您不可以：",
+				"items": [
+					"使用机器人、脚本或自动播放工具。",
+					"与他人合谋操纵结果。",
+					"利用漏洞或智能合约的漏洞。",
+					"滥用奖金、推荐或促销活动。"
+				],
+				"outro1": "如果您违反这些规则，{siteName} 可能会永久封禁您的账户并没收您的余额。",
+				"outro2": "{siteName} 使用人工智能欺诈检测、行为分析和区块链检查来保持公平和安全。"
 			},
-			"claim": {
-				"title": "领取和提款奖金",
-				"points": {
-					"0": "奖金在下注后的24小时后才有资格领取。",
-					"1": "未领取的奖金将累积且不会过期。",
-					"2": "申领和提款过程可能会根据平台的具体政策而有所不同。"
-				}
+			"bonuses": {
+				"title": "奖金与促销",
+				"items": [
+					"每个奖金都遵循其与促销活动一起列出的条款。",
+					"如果您滥用奖金（例如创建额外账户、循环使用钱包或使用VPN），您将失去您的奖金。",
+					"您必须满足所有投注要求才能兑现奖金 winnings。"
+				]
 			},
-			"system": {
-				"title": "系统时间和操作",
-				"dailyTimeframeLabel": "日时间框架：",
-				"dailyTimeframeValue": "00:00 UTC 到 23:59 UTC（每天）。",
-				"claimDailyLabel": "每日领取：",
-				"claimDailyValue": "每天的14:00 UTC可用（您的本地时间：{local}）。",
-				"note": "注意：虽然我们与来自不同时区的供应商合作，但所有计算均遵循UTC，以确保一致性并避免混淆。"
+			"playingRules": {
+				"title": "游戏规则与结果",
+				"items": [
+					"您的投注只有在屏幕上看到确认为后才算数。如果您的余额不足以支付，则投注无效。",
+					"如果发生争议，{siteName} 的区块链记录为最终依据。",
+					"所有可证明公平的游戏都使用链上随机性来保持透明。",
+					""
+				]
+			},
+			"errors": {
+				"title": "限制与中断",
+				"intro": "{siteName} 不对以下情况负责：",
+				"items": [
+					"互联网中断或延迟。",
+					"区块链延迟或分叉。",
+					"第三方钱包停机。",
+					"智能合约或游戏提供商的故障。"
+				],
+				"outro1": "{siteName} 如果技术问题或漏洞导致问题，可以使投注或交易无效。"
+			},
+			"suspension": {
+				"title": "账户暂停与资金",
+				"intro": "{siteName} 可能因以下原因暂停或关闭账户：",
+				"items": ["违反规则", "欺诈", "法律原因。"],
+				"outro1": "任何剩余资金将根据法律和 {siteName} 的政策处理。",
+				"outro2": ""
+			},
+			"responsibleGaming": {
+				"title": "负责任的博彩",
+				"items": [
+					"{siteName} 支持负责任的博彩。如果您需要休息，请发送电子邮件至 support@digidice.games 进行自我排除或冷静期。",
+					"任何未满18岁或未达到法定年龄的人都不得玩游戏。发现违反此规则的账户将立即被关闭。",
+					""
+				]
+			},
+			"ip": {
+				"title": "知识产权",
+				"content1": "所有商标、图形、内容和软件均属于 {siteName} 或其许可方。您只能将其用于个人娱乐。未经许可不得复制或分享。",
+				"content2": ""
+			},
+			"liability": {
+				"title": "责任限制",
+				"items": [
+					"{siteName} 不对间接或意外损害负责——例如利润损失。",
+					"如果有索赔，{siteName} 将赔偿的最高金额是您最近一次的存款额。",
+					""
+				]
+			},
+			"disputes": {
+				"title": "争议解决",
+				"content": "如果您有投诉或争议，请联系 {siteDomain}。他们的目标是快速、公正地解决问题。"
 			},
 			"amendments": {
-				"title": "修正和取消资格",
-				"body": "我们可能随时更新这些条款，变更在发布时生效。如果怀疑系统错误、计算错误或作弊行为，我们保留根据需要调整或取消奖金和账户的权利，以确保公正性"
+				"title": "修订",
+				"content": "{siteName} 可能随时更改这些条款。最新版本始终在 https://{siteDomain}。使用本网站即表示您接受任何更新。"
 			},
-			"footer": {
-				"schedule": "奖金计划：",
-				"availableDaily": "每天可用时间",
-				"localTimeLabel": "(您的本地时间：{time})"
+			"miscellaneous": {
+				"title": "其他",
+				"items": [
+					"这些条款是您与 {siteName} 之间的完整协议。如果任何部分无效，其余部分仍然有效。{siteName} 可以转让或委托其权利，但用户不能。",
+					"",
+					""
+				]
+			},
+			"contact": {
+				"title": "联系方式",
+				"intro": "{siteDomain}",
+				"supportEmail": "",
+				"affiliateEmail": "",
+				"registeredOffice": ""
+			}
+		}
+	},
+	"responsibleGambling": {
+		"title": "在 {siteName} 负责任地博彩",
+		"subtitle": "了解在 {siteName} 的负责任博彩。保持控制，负责任地玩，并通过全球帮助组织获得支持。",
+		"lastUpdated": "最后更新：2025年1月",
+		"intro": {
+			"title": "在 {siteName} 负责任地博彩",
+			"paragraph1": "在 {siteName}，我们希望游戏是有趣、公平且始终负责任的。我们的主要目标是什么？确保每位玩家都能享受美好时光——同时保持知情、安全和可控。",
+			"paragraph2": "我们不允许任何未满18岁（或低于其所在国家法定年龄）的人玩游戏。句号。"
+		},
+		"mission": {
+			"title": "我们的使命很简单：",
+			"paragraph1": "负责任的博彩对我们来说不仅仅是一条规则——它是我们工作的核心。我们致力于建立一个透明、安全、由加密货币驱动的空间，在这里您可以做出明智、平衡的选择。",
+			"paragraph2": "我们主张：",
+			"beliefs": {
+				"0": "将赌博视为娱乐，而非赚钱方式",
+				"1": "自我意识、适度和明智的游戏",
+				"2": "提供工具、教育和接触全球真实帮助组织的渠道"
 			}
 		},
-		"calculator": {
-			"title": "奖金计算器",
-			"subtitle": "根据您的投注金额估算您的奖金收入",
-			"interactive": {
-				"title": "互动工具:",
-				"body": "输入不同的赌注金额以查看所有级别的潜在奖金"
-			},
-			"potentialEarnings": "潜在奖金",
-			"basedOnRate": "基于{percentage}%的奖金率",
-			"tier": "等级 {level}",
-			"commissionLevel": "奖励关卡 {level}",
-			"enterWager": "输入投注金额 (USD)",
-			"wagerPlaceholder": "例如，1000",
-			"calcFor": "正在计算 ${amount} 投注的奖金",
-			"totalPotential": "总潜在奖金:",
-			"combinedAtTier": "在级别{level}的所有游戏类型中获得的综合奖金"
+		"understanding": {
+			"title": "负责任的博彩：它真正的含义",
+			"paragraph1": "加密游戏快速、无国界，触手可及。这很令人兴奋，但也意味着您需要保持警惕。负责任的博彩不仅仅是一个时髦的词——它关乎了解您的极限，关注您的时间和加密货币，并确保游戏保持乐趣，而不是您无法摆脱的东西。",
+			"paragraph2": "以下是如何保持安全和乐趣的方法：",
+			"tips": {
+				"0": "为刺激而玩，而不是为了赚钱。",
+				"1": "不要追逐您的损失。如果您感到沮丧，请暂时离开。",
+				"2": "为您玩多长时间和存入多少钱设定自己的限制。",
+				"3": "如果您感到疲倦、有压力或心烦意乱，请休息一下而不是玩游戏。",
+				"4": "切勿用您需要支付房租、食物或任何必需品的钱来赌博。",
+				"5": "当乐趣消失时，按下暂停并重置。"
+			}
 		},
-		"claimSuccessModal": {
-			"title": "领取成功",
-			"statusCompleted": "已完成",
-			"statusOnChain": "上链",
-			"claimAmount": "报销金额",
-			"logoAlt": "{siteName}徽标",
-			"backgroundAlt": "领取成功背景",
-			"creatingMagic": "创造魔术",
-			"downloadShare": "下载和分享",
-			"spreadTheWin": "传播胜利",
-			"socialX": "X",
-			"socialFacebook": "Facebook",
-			"socialWhatsApp": "什么APP",
-			"socialTelegram": "电报",
-			"socialReddit": "保存此",
-			"socialMore": "更多",
-			"shareText": "I just claimed {amount} bonus! Join me: {url}",
-			"referralLinkCopied": "推荐链接已复制",
-			"referralLinkCopyFailed": "复制邀请链接失败",
-			"screenshotFailed": "屏幕截图失败。请重试或使用其他浏览器。",
-			"shareTextCopied": "共享复制到剪贴板的文本！",
-			"shareFailed": "分享失败，请重试"
+		"selfCheck": {
+			"title": "快速自检：您是否仍在控制之中？",
+			"intro": "对自己诚实：",
+			"questions": {
+				"0": "您最终玩的时间是否比您预期的要长？",
+				"1": "游戏是否对您的工作或人际关系造成了影响？",
+				"2": "当您不能玩游戏时，您是否会感到烦躁或恼怒？",
+				"3": "您是否只是为了逃避压力或无聊而赌博？",
+				"4": "您是否曾为了继续玩而借用加密货币？",
+				"5": "您是否在输钱后提高赌注，希望赢回所有？"
+			},
+			"warning": "如果您对其中几个问题回答了“是”，那么可能是时候退一步或与某人谈谈了。"
+		},
+		"tools": {
+			"title": "{siteName} 如何关心您",
+			"intro": "我们希望您玩得开心，但我们更关心您的福祉。这就是为什么 {siteName} 为您提供工具来安全游戏并注意您的支出。",
+			"selfExclusion": {
+				"title": "自我排除",
+				"description": "您可以要求临时或永久封锁您的账户。在此期间，您将无法玩游戏或接收我们的促销活动。只需发送电子邮件至 support@{siteDomain}——一切都将保密。"
+			},
+			"coolingOff": {
+				"title": "冷静期",
+				"paragraph1": "需要喘口气吗？选择一个适合您的暂停时间：",
+				"periods": {
+					"0": "24小时",
+					"1": "1周",
+					"2": "1个月"
+				},
+				"paragraph2": "当您处于暂停期间，您的钱包将无法用于游戏。"
+			},
+			"depositAwareness": {
+				"title": "加密货币存款意识",
+				"description": "{siteName} 完全在区块链上运行。我们建议您密切关注您的钱包或区块浏览器来跟踪您的存款和投注。"
+			}
+		},
+		"underagePrevention": {
+			"title": "防止未成年人参与",
+			"paragraph1": "我们不允许任何未满18岁的人玩游戏、存款或注册。句号。",
+			"tipsTitle": "致家长和监护人：",
+			"tips": {
+				"0": "设置密码并使用家长控制。",
+				"1": "不要在共享设备上保存钱包信息。",
+				"2": "在您不在时注销 {siteName}。",
+				"3": "安装像NetNanny或GamBlock这样的网络过滤器来阻止访问。",
+				"4": "定期检查您的孩子在网上做什么。"
+			},
+			"warning": "如果我们发现有未成年人玩游戏，我们将关闭该账户并没收任何奖金。"
+		},
+		"helpSupport": {
+			"title": "需要帮助吗？您并不孤单",
+			"intro": "如果赌博开始占据您的生活，外面有真正的帮助——免费、保密且不带评判。请查看这些全球组织以获得支持：",
+			"organizations": {
+				"0": {
+					"name": "GamCare",
+					"url": "https://www.gamcare.org.uk"
+				},
+				"1": {
+					"name": "Gambling Therapy",
+					"url": "https://www.gamblingtherapy.org"
+				},
+				"2": {
+					"name": "Gamblers Anonymous",
+					"url": "https://www.gamblersanonymous.org/ga"
+				},
+				"3": {
+					"name": "National Council on Problem Gambling (NCPG)",
+					"url": "https://www.ncpgambling.org"
+				},
+				"4": {
+					"name": "GamTalk",
+					"url": "https://www.gamtalk.org"
+				}
+			},
+			"paragraph2": "他们提供自我测试、在线聊天以及来自理解您处境的人的支持。"
+		},
+		"principles": {
+			"title": "我们的承诺：始终负责任地博彩",
+			"intro": "以下是 {siteName} 所代表的：",
+			"items": {
+				"0": {
+					"title": "透明度",
+					"description": "每一款游戏都经过可证明的公平性验证，并在区块链上公开。"
+				},
+				"1": {
+					"title": "安全性",
+					"description": "通过Dynamic.xyz进行基于钱包的登录——无需密码，无需KYC，完全保护隐私。"
+				},
+				"2": {
+					"title": "控制权",
+					"description": "您决定何时玩或休息。"
+				},
+				"3": {
+					"title": "意识",
+					"description": "我们向您展示如何保持健康的游戏习惯。"
+				},
+				"4": {
+					"title": "支持",
+					"description": "我们的团队24/7随时为您提供自我排除或建议方面的帮助。"
+				}
+			}
+		},
+		"playSmart": {
+			"title": "别忘了：聪明地玩，安全地玩",
+			"intro": "{siteName} 关乎乐趣和自由，绝不涉及压力或财务困扰。请遵守以下基本原则：",
+			"reminders": {
+				"0": "提前设定您的限额。",
+				"1": "当它不再有趣时就离开。",
+				"2": "切勿追逐您的损失。",
+				"3": "将赌博与您的常规财务分开。",
+				"4": "将任何奖金视为额外奖励，而非薪水。"
+			}
+		},
+		"finalMessage": {
+			"paragraph1": "您的福祉至上。如果游戏开始感觉像个问题，请联系我们。我们随时在 {siteDomain} 为您服务。",
+			"paragraph2": "",
+			"contact": ""
+		}
+	},
+	"faqs": {
+		"title": "常见问题 – {siteName}",
+		"subtitle": "查找有关 {siteName} 的常见问题解答。了解钱包登录、存款、取款、公平游戏和区块链透明度。",
+		"introTitle": "常见问题 – {siteName}",
+		"intro": "嘿，欢迎来到 {siteName} 的常见问题解答。如果您对我们的加密游戏平台如何运作感到好奇，那么您来对地方了。无论您是区块链游戏的新手还是经验丰富的老手，您都可以在这里找到答案，帮助您聪明、安全地玩游戏。如果您没有看到您的问题，请联系我们——我们的支持团队随时在 {siteDomain} 为您服务。",
+		"lastUpdated": "最后更新：2025年1月",
+		"blockchainTransparency": {
+			"title": "🧩 区块链透明度",
+			"paragraph1": "{siteName} 完全在区块链智能合约上运行。每一次下注、赢利和支付都是公开的——任何人都可以查看记录。",
+			"paragraph2": "想亲眼看看吗？所有 {siteName} 的交易都在：",
+			"explorersTitle": "",
+			"guarantee": "这样，您就知道一切都是公平和光明正大的。"
+		},
+		"categories": {
+			"accountRegistration": {
+				"title": "账户与注册",
+				"items": {
+					"0": {
+						"question": "我可以在 {siteName} 上注册吗？",
+						"answer": "如果您年满18岁（或在您居住的地方达到合法赌博年龄），您就可以在 {siteName} 上玩。在开始之前，请确保加密游戏在您居住的地方是合法的。注册很简单。没有表格，没有密码，没有电子邮件的麻烦。只需通过 Dynamic.xyz 连接您的加密钱包，您就可以开始了。想了解更多关于谁有资格的信息吗？请查看我们的条款与条件。",
+						"reminder": "温馨提示：赌博可能会上瘾。请负责任地玩，并了解自己的限度。"
+					},
+					"1": {
+						"question": "如果我无法访问我的账户怎么办？",
+						"answer": "我们使用基于钱包的登录。因此，没有用户名，也没有密码可以恢复。要重新进入，只需使用您以前使用的相同钱包地址重新连接。无法访问您的钱包？使用您的助记词或恢复文件来恢复它。为了您的安全，我们从不存储私钥，也无法为您恢复丢失的钱包。"
+					},
+					"2": {
+						"question": "我可以更改我的钱包或用户名吗？",
+						"answer": "您的账户直接与您的钱包绑定。如果您想使用新钱包，请连接一个不同的钱包。请记住——您的余额、VIP状态和奖励都与您的旧钱包绑定。它们不会自动转移。"
+					},
+					"3": {
+						"question": "我如何成为VIP会员？",
+						"answer": "我们的VIP俱乐部仅限受邀者参加。随着您玩得越多，参与度越高，我们会跟踪您的活动。一旦您符合资格，我们会直接在平台上向您发送个人邀请。VIP福利包括：更高的奖励、更快的提款、个性化的奖金"
+					}
+				}
+			},
+			"depositsWithdrawals": {
+				"title": "存款与取款",
+				"items": {
+					"0": {
+						"question": "我如何存入加密货币？",
+						"answer": "存款既快速又安全，而且完全在链上进行。方法如下：在您的仪表板上打开我的钱包。点击存款并选择您的币种（BTC、ETH、USDT、BNB等）。复制地址或扫描二维码。从您的个人钱包发送您的加密货币。一旦您的交易在区块链上获得足够的确认，您的资金就会自动显示出来。",
+						"reminder": "在发送任何东西之前，请仔细检查您是否使用了正确的网络（ERC20、TRC20、BEP20等）。"
+					},
+					"1": {
+						"question": "存款需要多长时间？",
+						"answer": "通常，存款会在5到10分钟内显示出来，具体取决于网络流量和费用。您可以使用像Etherscan.io或BscScan.com这样的区块链浏览器来跟踪您的交易。我们在三次确认后记入您的资金。"
+					},
+					"2": {
+						"question": "最低取款限额是多少？",
+						"answer": "每种加密货币都有自己的最低取款金额。您将在取款部分看到确切的数字。这取决于币种和网络费用。"
+					},
+					"3": {
+						"question": "我如何提取奖金？",
+						"answer": "要取款：进入我的钱包并点击取款。输入您希望将加密货币发送到的地方以及您想提取的金额。仔细检查地址和网络。确认您的交易。一旦在链上确认，取款是即时的。您将在几分钟内看到您的资金。",
+						"reminder": "始终使用支持您正在取款的网络的钱包。"
+					},
+					"4": {
+						"question": "如果我的交易延迟了怎么办？",
+						"answer": "如果您的交易比平时花费的时间更长：使用区块链浏览器检查您的TXID。确保您使用了正确的地址和网络。再等几分钟进行确认。一个小时后还在等待？请通过 {siteDomain} 联系我们。发送您的TXID和钱包信息，我们将帮助您解决问题。"
+					}
+				}
+			},
+			"gamesSecurity": {
+				"title": "游戏、公平性与安全",
+				"items": {
+					"0": {
+						"question": "{siteName} 的游戏公平吗？",
+						"answer": "当然。每款游戏都是100%可证明公平的。我们在区块链上使用加密算法，因此您可以自己检查每一次下注和支付。没有隐藏的结果，没有欺诈，只有公平透明的游戏。"
+					},
+					"1": {
+						"question": "如果游戏卡住或崩溃了怎么办？",
+						"answer": "如果游戏停止工作：刷新页面。清除浏览器缓存或cookie。重新连接您的钱包。仍然卡住？请使用在线客服。如果您的会话或余额受到影响，我们的团队将为您恢复。"
+					},
+					"2": {
+						"question": "我可以使用多个钱包或账户吗？",
+						"answer": "不可以。一个钱包等于一个账户。开设额外的钱包以获取奖金或操纵系统违反了我们的条款，并可能导致您失去您的奖金。"
+					},
+					"3": {
+						"question": "我的数据安全吗？",
+						"answer": "是的。我们是一个仅限钱包的平台，因此我们从不收集您的个人信息、电子邮件、密码或身份证明文件。您的钱包就是您的身份，您拥有控制权。没有存储用户数据意味着您不必担心数据泄露。"
+					}
+				}
+			},
+			"responsibleGambling": {
+				"title": "🧠 负责任的博彩",
+				"items": {
+					"0": {
+						"question": "{siteName} 是否支持负责任的游戏？",
+						"answer": "当然。保持游戏的责任感是我们工作的核心。我们内置了自我排除和冷静期工具，以便您随时可以休息或设置限制。如果您需要建议或只是想找人聊聊，请查看我们的负责任博彩页面或给我们的支持团队留言。"
+					},
+					"1": {
+						"question": "如果我怀疑自己有赌博问题该怎么办？",
+						"answer": "如果赌博开始影响您的金钱、健康或人际关系，不要等待——寻求帮助。这些组织提供保密的支持：GamCare：https://www.gamcare.org.uk；Gambling Therapy：https://www.gamblingtherapy.org；Gamblers Anonymous：https://www.gamblersanonymous.org。您也可以随时要求 {siteName} 支持部门阻止或暂停您的账户。"
+					}
+				}
+			}
+		},
+		"needMoreHelp": {
+			"title": "💬 需要更多帮助吗？",
+			"intro": "我们的支持团队全天候为您服务。您可以通过在线客服联系我们（只需登录您的仪表板）或发送电子邮件至 support@{siteDomain}。",
+			"contactTitle": "",
+			"liveChat": "我们在这里确保您的体验安全、公平、无忧。"
 		}
 	}
 }
