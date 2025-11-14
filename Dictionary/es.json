@@ -38,6 +38,38 @@
 		"lobby": "Lobby",
 		"about": "Sobre nosotros"
 	},
+	"app": {
+		"name": "{siteName}"
+	},
+	"header": {
+		"toggleSidebar": "Alternar barra lateral",
+		"searchPlaceholder": "Buscar juegos, proveedores...",
+		"liveChat": "Chat en vivo",
+		"player": "Jugador",
+		"vip": "VIP",
+		"profile": "Perfil",
+		"statistics": "Estadísticas",
+		"wallet": "Depositar/Retirar",
+		"cashier": "Cajero",
+		"winLoss": "Ganancia/Pérdida",
+		"affiliate": "Bono de referido",
+		"logout": "Cerrar sesión",
+		"balance": "Saldo",
+		"turnoverBonus": "Bono por volumen de juego"
+	},
+	"navigation": {
+		"home": "Inicio",
+		"games": "Juegos",
+		"profile": "Perfil",
+		"wallet": "Billetera",
+		"settings": "Ajustes",
+		"promotions": "Promociones",
+		"affiliate": "Bono de referido",
+		"bonus": "Bono por volumen de juego",
+		"providers": "Proveedores",
+		"lobby": "Lobby",
+		"about": "Sobre nosotros"
+	},
 	"profile": {
 		"language": "Idioma",
 		"welcome": "¡Bienvenido, {name}!",

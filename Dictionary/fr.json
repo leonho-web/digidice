@@ -724,6 +724,180 @@
 			"shareFailed": "Échec du partage. Veuillez réessayer."
 		}
 	},
+	"bonus": {
+		"title": "Programme de bonus sur le chiffre d'affaires",
+		"loginPromptTitle": "Programme de bonus sur le chiffre d'affaires",
+		"loginPromptSubtitle": "Connectez-vous pour voir vos statistiques de bonus et réclamer vos récompenses.",
+		"goHome": "Aller à l'accueil",
+		"tabs": {
+			"dashboard": "Tableau de bord",
+			"claims": "Réclamations",
+			"rates": "Taux de bonus",
+			"calculator": "Calculateur"
+		},
+		"refresh": "Actualiser",
+		"refreshing": "Actualisation...",
+		"refreshAllSuccess": "Toutes les données ont été actualisées avec succès !",
+		"refreshPartial": "Partiellement actualisé : {success}/{total} sections mises à jour",
+		"refreshFailed": "Échec de l'actualisation des données. Veuillez réessayer.",
+		"dashboard": {
+			"title": "Tableau de bord des bonus",
+			"subtitle": "Suivez vos mises, bonus et gains de récompenses",
+			"claimButtonTitle": "Réclamer",
+			"performanceOverview": "Aperçu des bonus",
+			"bonusRatesTitle": "Structure des taux de bonus",
+			"totalIncome": "Bonus total",
+			"pendingBonus": "Bonus en attente",
+			"lastClaim": "Dernière réclamation",
+			"unclaimedEarnings": "Disponible pour réclamation",
+			"claim": {
+				"title": "Réclamation et retrait",
+				"points": {
+					"0": "Les commissions sont disponibles pour le retrait une fois calculées.",
+					"1": "Il n'y a pas de date d'expiration pour les commissions non réclamées — elles s'accumulent jusqu'à ce qu'elles soient réclamées.",
+					"2": "Les retraits suivent les règles standard de la plateforme, telles que les limites minimales et les délais de traitement."
+				}
+			},
+			"claiming": "Réclamation en cours...",
+			"section2": {
+				"title": "Éligibilité",
+				"content": "Pour participer :"
+			},
+			"section3": {
+				"title": "Niveaux de chiffre d'affaires et taux",
+				"content": "Les bonus sont calculés en fonction de vos montants de mise quotidiens :",
+				"noteTitle": "Remarque",
+				"noteContent": "Les niveaux sont évalués quotidiennement à 14:00 UTC. Le volume de vos mises de la veille détermine le taux de bonus d'aujourd'hui. Les taux s'appliquent à tous les types de jeux : machines à sous, casino en direct et sports."
+			}
+		},
+		"claims": {
+			"title": "Historique des réclamations",
+			"subtitle": "Suivez vos réclamations de bonus et votre activité de mise",
+			"tableHeaders": {
+				"date": "Date du pari",
+				"slots": "Machines à sous",
+				"liveCasino": "Casino en direct",
+				"sports": "Sports",
+				"total": "Total",
+				"tier": "Niveau",
+				"unclaimed": "Non réclamé",
+				"token": "Jeton"
+			},
+			"tierPrefix": "Niveau",
+			"availableToClaim": "Disponible pour réclamation",
+			"totalBonus": "Bonus total",
+			"claimed": "Réclamé",
+			"progressPercentage": "Progression",
+			"progressTitle": "Votre progression",
+			"currentTier": "Niveau actuel",
+			"nextTier": "Niveau suivant",
+			"wagerProgress": "Progression des mises",
+			"totalWagered": "Total misé aujourd'hui",
+			"toNextTier": "pour atteindre le niveau suivant",
+			"empty": {
+				"title": "Aucune réclamation de bonus pour le moment",
+				"subtitle": "Commencez à jouer pour gagner des bonus !"
+			}
+		},
+		"rates": {
+			"title": "Niveaux de chiffre d'affaires et taux",
+			"subtitle": "Pourcentages de bonus par niveau de mise et catégorie de jeu",
+			"overview": {
+				"title": "Aperçu",
+				"body": "Le bonus sur le chiffre d'affaires récompense les utilisateurs en fonction de leurs mises dans les machines à sous, le casino en direct, les paris sportifs et la loterie. Les bonus sont calculés toutes les 24 heures, et les utilisateurs peuvent les réclamer le lendemain de la mise. Il y a sept niveaux, chacun avec des taux différents en fonction du montant de la mise."
+			},
+			"eligibility": {
+				"title": "Éligibilité",
+				"content": "Pour participer :",
+				"points": {
+					"0": "Vous devez avoir un compte actif.",
+					"1": "Placez des mises dans les machines à sous, le casino en direct, les paris sportifs et la loterie.",
+					"2": "Atteignez les exigences de mise minimales pour chaque niveau."
+				}
+			},
+			"calculation": {
+				"title": "Comment les bonus sont calculés",
+				"desc": "Les bonus sont calculés toutes les 24 heures en fonction de vos mises totales. Exemples :",
+				"exampleTitle": "Niveau {tier} :",
+				"wagerIn": "Miser {amount} dans {gameType}"
+			},
+			"table": {
+				"tierLevel": "Niveau",
+				"wagerRange": "Plage de mise",
+				"slots": "Machines à sous",
+				"liveCasino": "Casino en direct",
+				"sports": "Sports",
+				"tierPrefix": "NIVEAU",
+				"commissionLevel": "Niveau de bonus",
+				"dailyWager": "Volume de mise quotidien"
+			},
+			"claim": {
+				"title": "Réclamation et retrait des bonus",
+				"points": {
+					"0": "Les bonus deviennent éligibles à la réclamation 24 heures après la mise.",
+					"1": "Les bonus non réclamés s'accumuleront et n'expireront pas.",
+					"2": "Le processus de réclamation et de retrait peut varier en fonction des politiques spécifiques de la plateforme."
+				}
+			},
+			"system": {
+				"title": "Heure et opérations du système",
+				"dailyTimeframeLabel": "Plage horaire quotidienne :",
+				"dailyTimeframeValue": "00:00 UTC à 23:59 UTC (tous les jours).",
+				"claimDailyLabel": "Réclamation quotidienne :",
+				"claimDailyValue": "Disponible tous les jours à 14:00 UTC (Votre heure locale : {local}).",
+				"note": "Remarque : bien que nous travaillions avec des fournisseurs de différents fuseaux horaires, tous les calculs suivent l'UTC pour garantir la cohérence et éviter toute confusion."
+			},
+			"amendments": {
+				"title": "Modifications et disqualifications",
+				"body": "Nous pouvons mettre à jour ces conditions à tout moment, et les modifications prennent effet dès leur publication. En cas de suspicion d'erreurs système, de mauvais calculs ou de tricherie, nous nous réservons le droit d'ajuster ou de disqualifier les bonus et les comptes si nécessaire pour garantir l'équité."
+			},
+			"footer": {
+				"schedule": "Calendrier des bonus :",
+				"availableDaily": "Disponible tous les jours à",
+				"localTimeLabel": "(Votre heure locale : {time})"
+			}
+		},
+		"calculator": {
+			"title": "Calculateur de bonus",
+			"subtitle": "Estimez vos gains de bonus en fonction de vos montants de mise",
+			"interactive": {
+				"title": "Outil interactif :",
+				"body": "Entrez différents montants de mise pour voir les bonus potentiels dans tous les niveaux"
+			},
+			"potentialEarnings": "Bonus potentiel",
+			"basedOnRate": "Basé sur un taux de bonus de {percentage}%",
+			"tier": "Niveau {level}",
+			"commissionLevel": "Niveau de bonus {level}",
+			"enterWager": "Entrez le montant de la mise (USD)",
+			"wagerPlaceholder": "ex: 1000",
+			"calcFor": "Calcul du bonus pour une mise de ${amount}",
+			"totalPotential": "Total du bonus potentiel :",
+			"combinedAtTier": "Bonus combiné de tous les types de jeux au niveau {level}"
+		},
+		"claimSuccessModal": {
+			"title": "Réclamation réussie",
+			"statusCompleted": "Terminé",
+			"statusOnChain": "Sur la chaîne",
+			"claimAmount": "Montant de la réclamation",
+			"logoAlt": "Logo {siteName}",
+			"backgroundAlt": "Arrière-plan de succès de la réclamation",
+			"creatingMagic": "Création de la magie...",
+			"downloadShare": "Télécharger et partager",
+			"spreadTheWin": "PARTAGEZ LA VICTOIRE",
+			"socialX": "X",
+			"socialFacebook": "Facebook",
+			"socialWhatsApp": "WhatsApp",
+			"socialTelegram": "Telegram",
+			"socialReddit": "Reddit",
+			"socialMore": "Plus",
+			"shareText": "Je viens de réclamer un bonus de {amount} ! Rejoignez-moi : {url}",
+			"referralLinkCopied": "Lien de parrainage copié !",
+			"referralLinkCopyFailed": "Échec de la copie du lien de parrainage",
+			"screenshotFailed": "Échec de la capture d'écran. Veuillez réessayer ou utiliser un autre navigateur.",
+			"shareTextCopied": "Texte de partage copié dans le presse-papiers !",
+			"shareFailed": "Échec du partage. Veuillez réessayer."
+		}
+	},
 	"debug": {
 		"title": "Page de Débogage"
 	},
