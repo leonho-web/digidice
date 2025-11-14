@@ -151,8 +151,8 @@
 			"status": "Estado",
 			"allStatuses": "Todos los estados",
 			"outstanding": "Pendiente",
-			"win": "Ganar",
-			"lose": "Perder",
+			"win": "Ganado",
+			"lose": "Perdido",
 			"draw": "Empate",
 			"void": "Anulado",
 			"bonusWin": "Ganancia de bono",
@@ -239,7 +239,7 @@
 				"winIn": "Ganó {amount} {currency} en {game}",
 				"gifAlt": "Vista previa de GIF",
 				"imageAlt": "Vista previa de imagen",
-				"emoji": "Mensaje de emoji",
+				"emoji": "Mensaje de Emoji",
 				"rain": "Lluvia: {amount} {currency}",
 				"system": "Sistema: {content}"
 			}
@@ -252,9 +252,9 @@
 			"roomLabel": "🎰 Chat del casino",
 			"shareNotice": "Tu imagen será compartida con todos los jugadores en la sala de chat",
 			"closeAria": "Cerrar diálogo",
-			"cancelAria": "Cancelar subida de imagen",
+			"cancelAria": "Cancelar carga de imagen",
 			"sendAria": "Enviar imagen al chat",
-			"send": "Enviar al chat"
+			"send": "Enviar al Chat"
 		},
 		"picker": {
 			"searchEmojis": "Buscar emojis...",
@@ -271,7 +271,7 @@
 			"noGifs": "No se encontraron GIFs",
 			"tryDifferent": "Prueba con otro término de búsqueda",
 			"gifCategories": {
-				"trending": "Tendencias",
+				"trending": "Tendencia",
 				"reactions": "Reacciones",
 				"gaming": "Juegos",
 				"casino": "Casino",
@@ -300,11 +300,11 @@
 			"historyError": "Error al cargar el historial del chat"
 		},
 		"message": {
-			"you": "Tú",
-			"winTitle": "¡Gran victoria en \"{game}\"! 🎰",
+			"you": "Usted",
+			"winTitle": "¡Gran Ganancia en \"{game}\"! 🎰",
 			"gifAlt": "GIF",
 			"imageAlt": "Imagen subida",
-			"rainTitle": "¡Lluvia de dinero! 🌧️💰",
+			"rainTitle": "¡Lluvia de Dinero! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {destinatario} other {destinatarios}}",
 			"eachTo": "{amount} {currency} para cada uno de: {list}",
 			"replyCount": "{count} {count, plural, one {respuesta} other {respuestas}}",
@@ -381,7 +381,7 @@
 		"searchPlaceholderGeneric": "Buscar...",
 		"providersDropdown": {
 			"title": "Proveedores",
-			"selected": "{count} seleccionados",
+			"selected": "{count} seleccionado",
 			"searchPlaceholder": "Buscar proveedores...",
 			"empty": "No se encontró ningún proveedor.",
 			"clear": "Limpiar filtros de proveedores"
@@ -394,7 +394,13 @@
 			"gridAria": "Vista de cuadrícula",
 			"listAria": "Vista de lista"
 		},
-		"loadMore": "Cargar más"
+		"loadMore": "Cargar Más"
+	},
+	"commonExtra": {
+		"connecting": "Conectando...",
+		"offline": "Desconectado",
+		"online": "Conectado",
+		"clear": "Borrar"
 	},
 	"commonExtra": {
 		"connecting": "Conectando...",
@@ -469,8 +475,8 @@
 				"totalWager": "Apuesta total",
 				"lastLogin": "Último inicio de sesión",
 				"registered": "Registrado",
-				"lastDeposit": "Último depósito",
-				"depositDate": "Fecha de depósito",
+				"lastDeposit": "Último Depósito",
+				"depositDate": "Fecha de Depósito",
 				"tier": "Nivel"
 			},
 			"empty": {
@@ -539,8 +545,8 @@
 				"title": "Herramienta interactiva:",
 				"body": "Introduce diferentes montos de apuesta para ver las ganancias potenciales en todos los niveles"
 			},
-			"potentialEarnings": "Ganancias potenciales",
-			"basedOnRate": "Basado en una tasa de comisión del {percentage}%",
+			"potentialEarnings": "Ganancias Potenciales",
+			"basedOnRate": "Basado en la tasa de comisión de {percentage}%",
 			"tier": "Nivel {level}",
 			"commissionLevel": "Nivel de comisión {level}",
 			"enterWager": "Introduce el monto de la apuesta (USD)",
@@ -803,14 +809,14 @@
 			"referrerHelp": "Opcional. Esto vincula tu cuenta al referente para los programas de bonos.",
 			"status": {
 				"checking": "Comprobando disponibilidad...",
-				"available": "¡El apodo está disponible!",
-				"taken": "Este apodo ya está en uso."
+				"available": "¡Apodo disponible!",
+				"taken": "Este apodo ya está tomado."
 			},
 			"register": "Registrarse y jugar",
 			"termsTitle": "Términos y condiciones:",
 			"termsBody": "Al firmar este documento con tu Billetera y/o continuar usando esta Aplicación Web3, aceptas los términos de uso de la aplicación. Firmar tu consentimiento a los Términos de Uso no es una transacción de blockchain y no tiene costo.",
 			"errors": {
-				"verifyNicknameFailed": "No se pudo verificar el apodo. Inténtalo de nuevo.",
+				"verifyNicknameFailed": "No se pudo verificar el apodo. Por favor, inténtelo de nuevo.",
 				"registerFailed": "Registro fallido: {message}"
 			}
 		},
@@ -848,7 +854,7 @@
 			}
 		},
 		"networkSelector": {
-			"placeholder": "Seleccionar red",
+			"placeholder": "Seleccionar Red",
 			"switching": "Cambiando...",
 			"walletNotConnected": "Billetera no conectada.",
 			"failedToSwitch": "Error al cambiar de red. Inténtalo desde tu billetera.",
@@ -861,9 +867,9 @@
 			"searchPlaceholder": "Busca un nombre o pega una dirección",
 			"emptySearch": "No se encontraron tokens que coincidan con tu búsqueda.",
 			"emptyOwned": "No se encontraron tokens con saldo.",
-			"searchResults": "Resultados de búsqueda",
-			"yourTokens": "Tus tokens",
-			"otherResults": "Otros resultados"
+			"searchResults": "Resultados de Búsqueda",
+			"yourTokens": "Sus Tokens",
+			"otherResults": "Otros Resultados"
 		},
 		"tabsSidebar": {
 			"walletInfo": "Billetera",
@@ -955,7 +961,7 @@
 			"gettingQuote": "Obteniendo cotización...",
 			"confirming": "Confirmando...",
 			"approving": "Aprobando...",
-			"insufficientBalance": "Saldo insuficiente para el intercambio",
+			"insufficientBalance": "Saldo insuficiente para el Intercambio",
 			"sameToken": "No se puede intercambiar el mismo token",
 			"approveAndSwap": "Aprobar e intercambiar",
 			"swap": "Intercambiar",
@@ -1069,8 +1075,8 @@
 			"submittedDesc": "Esperando la confirmación de la blockchain...",
 			"viewOnExplorer": "Ver en el explorador",
 			"manualApproval": "Este retiro requiere aprobación manual.",
-			"newWithdrawalConfirmed": "Hacer otro retiro",
-			"newWithdrawalPending": "Iniciar un nuevo retiro"
+			"newWithdrawalConfirmed": "Hacer Otro Retiro",
+			"newWithdrawalPending": "Iniciar un Nuevo Retiro"
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Recibirás"
@@ -1094,8 +1100,8 @@
 		"sports": "Deportes",
 		"liveCasino": "Casino en vivo",
 		"explore": "Explorar",
-		"exploreSubtitle": "Descubre increíbles experiencias de juego",
-		"poker": "Póker",
+		"exploreSubtitle": "Descubra experiencias de juego increíbles",
+		"poker": "Poker",
 		"lottery": "Lotería",
 		"futures": "Futuros",
 		"vr": "RV",
@@ -1129,10 +1135,10 @@
 	"providers": {
 		"pageTitle": "Todos los proveedores de juegos",
 		"searchPlaceholder": "Buscar un proveedor...",
-		"empty": "No se encontraron proveedores que coincidan con tu búsqueda.",
-		"logoAlt": "Logo de {name}",
+		"empty": "No se encontraron proveedores que coincidan con su búsqueda.",
+		"logoAlt": "Logotipo de {name}",
 		"filteredBy": "Filtrado por categoría:",
-		"clearFilter": "Limpiar filtro",
+		"clearFilter": "Borrar filtro",
 		"categories": {
 			"slot": {
 				"title": "Proveedores de juegos de tragamonedas"
@@ -1177,7 +1183,7 @@
 				"link": "Ir al casino"
 			},
 			"slots": {
-				"title": "Tragamonedas",
+				"title": "Tragaperras",
 				"badge": "5292 JUEGOS",
 				"desc": "Gira los carretes y consigue grandes premios con nuestra colección de tragamonedas premium.",
 				"link": "Ir a las tragamonedas"
@@ -1222,7 +1228,7 @@
 				"paused": "Pausado"
 			},
 			"actions": {
-				"pause": "Pausar",
+				"pause": "Pausa",
 				"resume": "Reanudar"
 			},
 			"tabs": {

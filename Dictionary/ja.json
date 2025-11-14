@@ -3,14 +3,14 @@
 		"loading": "読み込み中...",
 		"save": "保存",
 		"cancel": "キャンセル",
-		"confirm": "確認",
+		"confirm": "確定",
 		"viewAll": "すべて表示"
 	},
 	"app": {
 		"name": "{siteName}"
 	},
 	"header": {
-		"toggleSidebar": "サイドバーの切り替え",
+		"toggleSidebar": "サイドバーを切り替える",
 		"searchPlaceholder": "ゲーム、プロバイダーを検索...",
 		"liveChat": "ライブチャット",
 		"player": "プレイヤー",
@@ -48,7 +48,7 @@
 		"totalDeposits": "合計入金額",
 		"totalWithdrawals": "合計出金額",
 		"walletAddress": "ウォレットアドレス",
-		"copySuccess": "ウォレットアドレスをクリップボードにコピーしました！",
+		"copySuccess": "ウォレットアドレスがクリップボードにコピーされました！",
 		"copyFailed": "ウォレットアドレスのコピーに失敗しました",
 		"notConnected": "接続されていません",
 		"myProfile": "マイプロフィール",
@@ -103,7 +103,7 @@
 			"allStatuses": "すべてのステータス",
 			"success": "成功",
 			"pending": "保留中",
-			"rejected": "拒否",
+			"rejected": "拒否されました",
 			"clearAll": "すべてクリア",
 			"cancel": "キャンセル",
 			"applyFilters": "フィルターを適用",
@@ -111,7 +111,7 @@
 			"statusLabel": "ステータス",
 			"dateLabel": "日付",
 			"statsTotalTransactions": "合計{total}件の取引",
-			"pageOf": "ページ {current} / {total}",
+			"pageOf": "{total}ページ中の{current}ページ",
 			"live": "ライブ",
 			"tabs": {
 				"all": "すべて",
@@ -121,9 +121,9 @@
 			"errorLoadingTransactions": "取引の読み込みエラー",
 			"tryAgain": "再試行",
 			"noTransactionsFound": "取引が見つかりません",
-			"noTransactionsAvailableSelectedPeriod": "選択した期間に利用可能な取引はありません。",
-			"noDepositsFoundSelectedPeriod": "選択した期間に入金は見つかりませんでした。",
-			"noWithdrawalsFoundSelectedPeriod": "選択した期間に出金は見つかりませんでした。",
+			"noTransactionsAvailableSelectedPeriod": "選択された期間の取引はありません。",
+			"noDepositsFoundSelectedPeriod": "選択された期間の入金は見つかりません。",
+			"noWithdrawalsFoundSelectedPeriod": "選択された期間の出金は見つかりません。",
 			"show": "表示",
 			"ofTransactions": "{count}件の取引のうち",
 			"showingRangeOfTotal": "{total}件中{from}-{to}件を表示",
@@ -131,7 +131,7 @@
 		},
 		"betHistory": {
 			"title": "ベット履歴",
-			"trackBetsResults": "ゲームのベットと結果を追跡",
+			"trackBetsResults": "ゲームのベットと結果を追跡する",
 			"filters": "フィルター",
 			"refresh": "更新",
 			"advancedFilters": "高度なフィルター",
@@ -165,19 +165,19 @@
 			"dateLabel": "日付",
 			"totalBets": "合計ベット",
 			"totalProfitLoss": "合計損益",
-			"pageOf": "ページ {current} / {total}",
+			"pageOf": "{total}ページ中の{current}ページ",
 			"live": "ライブ",
 			"errorLoadingBets": "ベット履歴の読み込みエラー",
 			"failedToLoadBetHistory": "ベット履歴の読み込みに失敗しました。もう一度お試しください。",
 			"tryAgain": "再試行",
 			"noBetsFound": "ベットが見つかりません",
-			"noBetsFoundSelectedPeriod": "選択した期間とフィルターに一致するベット履歴は見つかりませんでした。",
+			"noBetsFoundSelectedPeriod": "選択された期間およびフィルターのベット履歴は見つかりません。",
 			"show": "表示",
 			"ofBets": "{count}件のベットのうち",
 			"showingRangeOfTotal": "{total}件中{from}-{to}件を表示",
 			"totalBet": "合計ベット額",
 			"totalWin": "合計勝利額",
-			"net": "純利益",
+			"net": "純額",
 			"tableHeaders": {
 				"date": "日付",
 				"game": "ゲーム",
@@ -210,7 +210,7 @@
 			"lastUpdate": "最終更新",
 			"netResult": "純損益",
 			"totalWagered": "合計賭け金",
-			"totalWon": "合計勝利金",
+			"totalWon": "合計勝利額",
 			"netProfit": "純利益",
 			"winRate": "勝率",
 			"showingResults": "{total}件の結果のうち{start}～{end}件を表示中",
@@ -279,7 +279,7 @@
 				"sports": "スポーツ"
 			},
 			"searchResults": "検索結果",
-			"availableToTag": "タグ付け可能なユーザー 🎯",
+			"availableToTag": "タグ付けできるユーザー 🎯",
 			"clickOrTab": "クリックまたはタブで選択",
 			"noUsers": "ユーザーが見つかりません",
 			"noUsersMatching": "一致するユーザーがいません",
@@ -329,10 +329,10 @@
 		"navigation": "ナビゲーション",
 		"games": "ゲーム",
 		"providers": "プロバイダー",
-		"trendingNow": "トレンド",
+		"trendingNow": "今トレンド",
 		"allProviders": "すべてのプロバイダー",
 		"allTopProviders": "すべてのトッププロバイダー",
-		"hotBadge": "人気"
+		"hotBadge": "ホット"
 	},
 	"search": {
 		"title": "ゲームを検索",
@@ -444,8 +444,8 @@
 			"yourReferralLinks": "あなたの紹介リンク",
 			"referralLinksSubtitle": "これらのリンクを共有して新しいユーザーを紹介し、手数料を獲得しましょう",
 			"completeReferralLink": "完全な紹介リンク",
-			"fullReferralPlaceholder": "完全な紹介リンクはここに表示されます",
-			"fullReferralHelp": "ユーザーがあなたの紹介コードで登録するためにクリックできる直接リンク",
+			"fullReferralPlaceholder": "完全な紹介リンクがここに表示されます",
+			"fullReferralHelp": "ユーザーがクリックしてあなたの紹介コードで登録できる直接リンク",
 			"referralCodeOnly": "紹介コードのみ",
 			"yourReferralId": "あなたの紹介ID",
 			"referralIdHelp": "ユーザーが登録時に手動で入力するためにこのコードを共有してください",
@@ -468,14 +468,14 @@
 				"nickname": "ニックネーム",
 				"totalWager": "合計賭け金",
 				"lastLogin": "最終ログイン",
-				"registered": "登録日",
+				"registered": "登録済み",
 				"lastDeposit": "最終入金",
 				"depositDate": "入金日",
 				"tier": "ティア"
 			},
 			"empty": {
-				"title": "紹介が見つかりません",
-				"subtitle": "ユーザーの紹介を開始して、ここに表示させましょう。"
+				"title": "紹介者が見つかりません",
+				"subtitle": "ここに表示するには、ユーザーの紹介を開始してください。"
 			},
 			"pagination": {
 				"showing": "{total}件の結果のうち{from}から{to}まで表示中",
@@ -759,7 +759,7 @@
 		"balance": "残高",
 		"max": "最大",
 		"deposit": "入金",
-		"ethereum": "イーサリアム"
+		"ethereum": "Ethereum"
 	},
 	"modalsSmall": {
 		"close": "閉じる",
@@ -779,18 +779,18 @@
 			"sending": "送信中",
 			"continue": "続行",
 			"enterCodeTitle": "コードを入力",
-			"sentTo": "{email}に送信しました",
+			"sentTo": "{email}に送信されました",
 			"changeEmail": "メールアドレスを変更",
 			"resendCode": "コードを再送信",
 			"resendIn": "{seconds}秒後に再送信",
-			"verifying": "認証中",
+			"verifying": "確認中",
 			"successTitle": "ログインしました",
 			"successSubtitle": "準備をしています…",
 			"modalAria": "メール認証モーダル",
 			"errors": {
 				"invalidEmail": "有効なメールアドレスを入力してください",
-				"sendFailed": "認証コードの送信に失敗しました。",
-				"invalidCode": "6桁の認証コードを入力してください"
+				"sendFailed": "確認コードの送信に失敗しました。",
+				"invalidCode": "6桁の確認コードを入力してください"
 			}
 		},
 		"setNickname": {
@@ -802,7 +802,7 @@
 			"referrerPlaceholder": "紹介者IDを入力",
 			"referrerHelp": "任意。これにより、あなたのアカウントがボーナスプログラムの紹介者にリンクされます。",
 			"status": {
-				"checking": "利用可能か確認中...",
+				"checking": "利用可能性を確認中...",
 				"available": "ニックネームは利用可能です！",
 				"taken": "このニックネームは既に使用されています。"
 			},
@@ -815,7 +815,7 @@
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "メールでログイン",
+			"loginWithEmail": "メールアドレスでログイン",
 			"connectWalletBtn": "ウォレットを接続",
 			"loginWithWallet": "ウォレットでログイン",
 			"player": "プレイヤー",
@@ -873,7 +873,7 @@
 			"swap": "スワップ"
 		},
 		"depositPanel": {
-			"youPay": "支払額",
+			"youPay": "あなたが支払う金額",
 			"resetForm": "フォームをリセット",
 			"enterAmount": "金額を入力",
 			"selectToken": "トークンを選択",
@@ -1015,7 +1015,7 @@
 		"withdrawPanel": {
 			"resetForm": "フォームをリセット",
 			"networkNotSupported": "出金はArbitrum、Polygon、BNBでのみサポートされています",
-			"youWithdraw": "出金額",
+			"youWithdraw": "あなたが出金する金額",
 			"loading": "読み込み中...",
 			"amount": "金額",
 			"max": "最大",
@@ -1068,7 +1068,7 @@
 			"confirmedDesc": "資金が送金中です。",
 			"submittedDesc": "ブロックチェーンの確認を待っています...",
 			"viewOnExplorer": "エクスプローラーで表示",
-			"manualApproval": "この出金には手動承認が必要です。",
+			"manualApproval": "この出金は手動承認が必要です。",
 			"newWithdrawalConfirmed": "別の出金を行う",
 			"newWithdrawalPending": "新しい出金を開始"
 		},
@@ -1077,7 +1077,7 @@
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "プロにアップグレード",
+		"upgradeToPro": "Proにアップグレード",
 		"account": "アカウント",
 		"billing": "請求",
 		"notifications": "通知",
@@ -1101,7 +1101,7 @@
 		"vr": "VR",
 		"swap": "スワップ",
 		"slotsDescription": "リールを回して巨大なジャックポットを獲得",
-		"liveCasinoDescription": "ライブディーラーとリアルタイムのカジノアクションを体験",
+		"liveCasinoDescription": "ライブディーラーとのリアルタイムカジノアクションを体験",
 		"sportsDescription": "お気に入りのチームやスポーツイベントにベット",
 		"pokerDescription": "クラシックなポーカーゲームでスキルを試す",
 		"lotteryDescription": "宝くじやインスタントウィンゲームで運試し",
@@ -1161,7 +1161,7 @@
 			"title1": "ウェルカムボーナス",
 			"title2": "最大590%",
 			"subtitle": "+ 225フリースピン",
-			"cta": "入金してゲット"
+			"cta": "入金して獲得"
 		},
 		"jackpot": {
 			"title1": "メガジャックポット",
@@ -1200,7 +1200,7 @@
 			"headerSubtitle": "厳選されたコレクションで素晴らしいゲームを発見し、新しい冒険を探求しましょう",
 			"slider1Title": "特集ゲーム",
 			"slider1Badge": "スタッフのおすすめ",
-			"slider2Title": "もっと探索する",
+			"slider2Title": "さらに探索",
 			"slider2Badge": "トレンド",
 			"featuredGameLabel": "特集ゲーム"
 		},
@@ -1248,7 +1248,7 @@
 		"current": "現在",
 		"browseGoogleFonts": "Googleフォントを閲覧",
 		"uploadCustomFont": "カスタムフォントをアップロード",
-		"quickUploadFontFile": "フォントファイルをクイックアップロード",
+		"quickUploadFontFile": "クイックフォントファイルアップロード",
 		"resetToDefault": "デフォルトにリセット",
 		"googleFonts": {
 			"title": "Googleフォント",
@@ -1272,11 +1272,11 @@
 			"fontName": "フォント名",
 			"fontNamePlaceholder": "フォントの名前を入力してください",
 			"previewYourFont": "フォントをプレビュー",
-			"uploadAndApply": "アップロードして適用",
+			"uploadAndApply": "アップロードしてフォントを適用",
 			"cancel": "キャンセル",
 			"uploading": "アップロード中...",
 			"errors": {
-				"invalidFileType": "有効なフォントファイルをアップロードしてください (.woff, .woff2, .ttf, .otf)",
+				"invalidFileType": "有効なフォントファイル（.woff, .woff2, .ttf, .otf）をアップロードしてください",
 				"fileTooLarge": "ファイルサイズが10MBの制限を超えています",
 				"uploadFailed": "フォントファイルのアップロードに失敗しました",
 				"enterFontName": "フォントファイルを選択して名前を入力してください",
