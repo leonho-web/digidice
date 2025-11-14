@@ -2843,5 +2843,415 @@
 				"link": "🌐 https://{siteDomain}"
 			}
 		}
+	},
+	"termsAndConditions": {
+		"title": "⚖️ Terms & Conditions — {siteName}",
+		"subtitle": "Read {siteName} Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
+		"lastUpdated": "Last updated: January 2025",
+		"meta": {
+			"title": "Terms & Conditions | {siteName} – Crypto Casino Rules",
+			"description": "Read {siteName} Terms & Conditions. Learn about wallet login (Dynamic.xyz), crypto deposits, withdrawals, fair play, and responsible gaming policies.",
+			"keywords": "{siteName} Terms and Conditions, {siteName} crypto casino rules, Dynamic.xyz wallet login, {siteName} withdrawal policy, {siteName} fair play",
+			"h1": "Terms & Conditions – {siteName} Crypto Wallet Casino",
+			"ogTitle": "Terms & Conditions | {siteName} (Crypto Wallet Casino)",
+			"ogDescription": "Review {siteName}'s Terms & Conditions. Understand Dynamic.xyz wallet login, crypto deposits, withdrawals, and platform rules."
+		},
+		"sections": {
+			"ownership": {
+				"number": "1",
+				"title": "{siteName} OWNERSHIP",
+				"clauses": [
+					{
+						"number": "1.1",
+						"content": "{siteName} is owned and operated by {siteName} N.V. (\"{siteName}\", \"We\", \"Our\", \"Us\"),"
+					},
+					{
+						"number": "1.2",
+						"content": "{siteName} is a crypto-wallet-only casino. All deposits, wagers, and withdrawals are processed through users' cryptocurrency wallets. We support wallet login through Dynamic.xyz and compatible wallet connectors (e.g., WalletConnect / MetaMask)."
+					}
+				]
+			},
+			"importantNotice": {
+				"number": "2",
+				"title": "IMPORTANT NOTICE",
+				"clauses": [
+					{
+						"number": "2.1",
+						"content": "By registering or connecting your wallet on www.{siteDomain} (the \"Website\"), you enter into a binding agreement with {siteName} N.V. and agree to: (i) these Terms and Conditions; (ii) our Privacy Policy; (iii) our Cookie Policy; (iv) our Affiliate Terms; and (v) our Responsible Gaming Policy."
+					},
+					{
+						"number": "2.2",
+						"content": "If you do not agree with any of these terms, do not access, use, or register on our Website."
+					},
+					{
+						"number": "2.3",
+						"content": "Read these Terms carefully. If you are uncertain about your rights or obligations, consult a legal advisor in your jurisdiction before using the Website."
+					}
+				]
+			},
+			"generalTerms": {
+				"number": "3",
+				"title": "GENERAL TERMS",
+				"clauses": [
+					{
+						"number": "3.1",
+						"content": "Upon registration or wallet connection, you (\"User\", \"Player\", \"You\", or \"Your\") agree to comply with all {siteName} rules and policies."
+					},
+					{
+						"number": "3.2",
+						"content": "This Agreement is a legally binding contract between you and {siteName}."
+					},
+					{
+						"number": "3.3",
+						"content": "These Terms become effective the moment you connect your wallet and start using the site."
+					},
+					{
+						"number": "3.4",
+						"content": "{siteName} reserves the right to amend or update these Terms at any time. Changes will be published on the Website; continued use constitutes acceptance."
+					},
+					{
+						"number": "3.5",
+						"content": "In the event of conflict, these Terms prevail over any other rules, promotions, or external materials."
+					},
+					{
+						"number": "3.6",
+						"content": "Only the English version of these Terms is legally binding. Translations are for convenience only."
+					}
+				]
+			},
+			"accountSecurity": {
+				"number": "4",
+				"title": "ACCOUNT, WALLET LOGIN & SECURITY",
+				"walletLogin": {
+					"title": "4.1 Wallet Login (Dynamic.xyz)",
+					"clauses": [
+						{
+							"number": "4.1.1",
+							"content": "{siteName} uses Dynamic.xyz (or other supported connectors) for wallet-based login and authentication. By connecting a wallet, you confirm you are the lawful owner of that wallet and authorize {siteName} to recognize that wallet as your account."
+						},
+						{
+							"number": "4.1.2",
+							"content": "We never request your private keys. You must keep your wallet credentials and device secure. {siteName} is not responsible for losses caused by compromised wallets or leaked private keys."
+						}
+					]
+				},
+				"registration": {
+					"title": "4.2 Registration Details",
+					"clauses": [
+						{
+							"number": "4.2.1",
+							"content": "You may be asked to provide contact details (email, username) for account communication. You must provide accurate information and keep it up to date."
+						},
+						{
+							"number": "4.2.2",
+							"content": "You are responsible for all actions taken using your connected wallet."
+						}
+					]
+				},
+				"multipleAccounts": {
+					"title": "4.3 Multiple Accounts & Security",
+					"clauses": [
+						{
+							"number": "4.3.1",
+							"content": "Only one account per individual is permitted. Multiple accounts or attempts to circumvent limits may result in account suspension and fund forfeiture."
+						},
+						{
+							"number": "4.3.2",
+							"content": "Enable any offered platform security features (for example, 2FA for associated services) and secure your own wallet."
+						},
+						{
+							"number": "4.3.3",
+							"content": "Notify support immediately if you suspect unauthorized access."
+						}
+					]
+				}
+			},
+			"eligibility": {
+				"number": "5",
+				"title": "ELIGIBILITY & USER WARRANTIES",
+				"clauses": [
+					{
+						"number": "5.1",
+						"content": "You represent and warrant that:|• You are at least 18 years old (or the minimum legal gambling age in your jurisdiction).|• You are legally permitted to use online crypto gambling services where you are located.|• You are the lawful owner of the wallet you connect.|• You will not use VPNs or location spoofing to bypass regional restrictions.|• You will not use the Service for illegal or commercial purposes.|• You accept that cryptocurrency value may fluctuate and you bear all market risk."
+					},
+					{
+						"number": "5.2",
+						"content": "If you breach these warranties, {siteName} may suspend or terminate access and withhold funds where permitted by law."
+					}
+				]
+			},
+			"restrictedJurisdictions": {
+				"number": "6",
+				"title": "RESTRICTED JURISDICTIONS",
+				"clauses": [
+					{
+						"number": "6.1",
+						"content": "{siteName} does not accept players from jurisdictions where crypto gambling is prohibited or restricted. This includes, but is not limited to:|United States (and U.S. territories), United Kingdom, France, Netherlands, Spain, Germany, Australia, Austria, Comoros, Iran, North Korea, Sudan, Syria, and any jurisdiction listed on FATF blacklists."
+					},
+					{
+						"number": "6.2",
+						"content": "Attempting to access the Service from a restricted jurisdiction, including via VPN or proxy, is a breach of these Terms and may lead to account closure and forfeiture of funds."
+					}
+				]
+			},
+			"cryptoTransactions": {
+				"number": "7",
+				"title": "CRYPTO DEPOSITS & WITHDRAWALS",
+				"cryptoOnly": {
+					"title": "7.1 Crypto-Only Policy",
+					"clauses": [
+						{
+							"number": "7.1.1",
+							"content": "{siteName} accepts deposits and withdrawals in supported cryptocurrencies only (e.g., BTC, ETH, USDT, TRX, BNB). No fiat, card, or bank-transfer deposits are accepted."
+						},
+						{
+							"number": "7.1.2",
+							"content": "All deposits must originate from wallets you control. Deposits from third-party wallets are prohibited."
+						}
+					]
+				},
+				"deposits": {
+					"title": "7.2 Deposits",
+					"clauses": [
+						{
+							"number": "7.2.1",
+							"content": "Deposits are credited after the required blockchain confirmations. Network (gas) fees are payable by you."
+						},
+						{
+							"number": "7.2.2",
+							"content": "{siteName} may refuse or reverse deposits that appear to originate from blocked addresses or restricted sources."
+						}
+					]
+				},
+				"withdrawals": {
+					"title": "7.3 Withdrawals",
+					"clauses": [
+						{
+							"number": "7.3.1",
+							"content": "Withdrawals are processed to the wallet address you provide. {siteName} may require you to confirm the destination wallet prior to processing."
+						},
+						{
+							"number": "7.3.2",
+							"content": "You must have sufficient cleared balance to cover a withdrawal. Withdrawals may be delayed to investigate suspected abuse or unusual activity."
+						}
+					]
+				},
+				"chargebacks": {
+					"title": "7.4 Chargebacks & Reversals",
+					"clauses": [
+						{
+							"number": "7.4.1",
+							"content": "Crypto transactions are final on-chain. If {siteName} incurs losses because of chargebacks or reversals from third-party service providers (rare with on-chain), we reserve the right to recover amounts or charge administrative fees."
+						}
+					]
+				}
+			},
+			"noKyc": {
+				"number": "8",
+				"title": "NO ROUTINE IDENTITY VERIFICATION (NO KYC)",
+				"clauses": [
+					{
+						"number": "8.1",
+						"content": "{siteName} does not perform routine identity verification (KYC) as a condition of normal play. Users can connect a wallet via Dynamic.xyz and start playing without providing identity documents."
+					},
+					{
+						"number": "8.2",
+						"content": "Notwithstanding clause 8.1, {siteName} reserves the right to request information or suspend transactions if required to:|• Comply with a lawful order from competent authorities;|• Prevent, investigate, or remediate fraud, money-laundering, or other illegal activity; or|• Protect the security and integrity of the platform."
+					},
+					{
+						"number": "8.3",
+						"content": "If you refuse to provide such information when legally required, {siteName} may restrict or close your account and delay or withhold withdrawals to the extent permitted by law."
+					}
+				]
+			},
+			"fairPlay": {
+				"number": "9",
+				"title": "FAIR PLAY, PROHIBITED CONDUCT & SECURITY",
+				"clauses": [
+					{
+						"number": "9.1",
+						"content": "You must not:|• Use bots, scripts, automated play tools, or any unauthorized software.|• Collude with other players or manipulate game outcomes.|• Create multiple accounts to exploit bonuses or promotions.|• Attempt to reverse or tamper with on-chain transactions.|• Exploit game bugs or platform vulnerabilities."
+					},
+					{
+						"number": "9.2",
+						"content": "Accounts found cheating, colluding, or exploiting the platform may be suspended, closed, or have balances forfeited."
+					},
+					{
+						"number": "9.3",
+						"content": "{siteName} implements technical and behavioral monitoring to protect platform integrity."
+					}
+				]
+			},
+			"bonuses": {
+				"number": "10",
+				"title": "BONUSES & PROMOTIONS",
+				"clauses": [
+					{
+						"number": "10.1",
+						"content": "All bonus offers and promotions are subject to specific Bonus Terms stated with each offer."
+					},
+					{
+						"number": "10.2",
+						"content": "Bonus abuse (including multiple accounts or rapid bonus switching) can lead to denial, reversal, or forfeiture of bonuses and closure of accounts."
+					},
+					{
+						"number": "10.3",
+						"content": "Bonus wagering requirements must be met before withdrawing bonus-derived funds, as specified per promotion."
+					}
+				]
+			},
+			"gameRules": {
+				"number": "11",
+				"title": "PLAYING RULES & GAME SETTLEMENT",
+				"clauses": [
+					{
+						"number": "11.1",
+						"content": "Bets are accepted only once you receive on-screen confirmation. Bets placed with insufficient balance are void."
+					},
+					{
+						"number": "11.2",
+						"content": "{siteName}'s internal logs and blockchain records are authoritative in case of disputes."
+					},
+					{
+						"number": "11.3",
+						"content": "If an event is canceled, suspended, or otherwise compromised, {siteName} will settle or void bets according to published game and market rules."
+					},
+					{
+						"number": "11.4",
+						"content": "For provably-fair games, verification tools and server seeds (where applicable) are made available per game; server logs are final."
+					}
+				]
+			},
+			"errors": {
+				"number": "12",
+				"title": "ERRORS, INTERRUPTIONS & LIMITS",
+				"clauses": [
+					{
+						"number": "12.1",
+						"content": "{siteName} is not liable for losses caused by:|• Internet or device failures;|• Blockchain delays, forks, or network congestion;|• Software bugs or third-party service outages."
+					},
+					{
+						"number": "12.2",
+						"content": "{siteName} reserves the right to void bets, adjust balances, or cancel transactions when errors or exploits are detected."
+					},
+					{
+						"number": "12.3",
+						"content": "We may set wagering limits, maximum wins, and other controls to protect users and the platform."
+					}
+				]
+			},
+			"suspension": {
+				"number": "13",
+				"title": "SUSPENSION, CLOSURE & FUND HANDLING",
+				"clauses": [
+					{
+						"number": "13.1",
+						"content": "{siteName} may suspend or close accounts where:|• Terms are violated;|• Abuse, fraud, or suspicious behavior is detected;|• Legal or regulatory obligations require it."
+					},
+					{
+						"number": "13.2",
+						"content": "On account closure, pending wagers may be canceled and remaining funds handled per applicable law and platform policy."
+					},
+					{
+						"number": "13.3",
+						"content": "{siteName} may retain funds where necessary to resolve disputes, comply with lawful requests, or remediate losses."
+					}
+				]
+			},
+			"responsibleGaming": {
+				"number": "14",
+				"title": "RESPONSIBLE GAMING",
+				"clauses": [
+					{
+						"number": "14.1",
+						"content": "{siteName} promotes responsible gambling. You may request:|• Self-exclusion;|• Deposit limits;|• Temporary suspension."
+					},
+					{
+						"number": "14.2",
+						"content": "If you suspect gambling harm, contact {siteName} for immediate assistance."
+					},
+					{
+						"number": "14.3",
+						"content": "Underage gambling (under 18 or the local legal age) is strictly prohibited. Accounts found to belong to minors will be closed and funds handled per policy."
+					}
+				]
+			},
+			"intellectualProperty": {
+				"number": "15",
+				"title": "INTELLECTUAL PROPERTY",
+				"clauses": [
+					{
+						"number": "15.1",
+						"content": "All trademarks, logos, site content, software, and game assets on {siteName} are owned or licensed by {siteName}. Unauthorized copying, scraping, or redistribution is prohibited."
+					},
+					{
+						"number": "15.2",
+						"content": "You are granted a limited, revocable license to access the Service for personal entertainment only."
+					}
+				]
+			},
+			"liability": {
+				"number": "16",
+				"title": "LIMITATION OF LIABILITY",
+				"clauses": [
+					{
+						"number": "16.1",
+						"content": "To the fullest extent permitted by law, {siteName} will not be liable for indirect, special, consequential or incidental losses, including lost profits or opportunity costs."
+					},
+					{
+						"number": "16.2",
+						"content": "Our aggregate liability for any claim related to these Terms shall not exceed the value of your last deposit or an amount specified by applicable law."
+					},
+					{
+						"number": "16.3",
+						"content": "Nothing in these Terms limits liability for death or personal injury caused by negligence where applicable law prohibits such limitation."
+					}
+				]
+			},
+			"disputes": {
+				"number": "17",
+				"title": "DISPUTE RESOLUTION & GOVERNING LAW",
+				"clauses": [
+					{
+						"number": "17.1",
+						"content": "In case of dispute, contact {siteName}. We aim to resolve complaints quickly; escalate to management if needed."
+					}
+				]
+			},
+			"amendments": {
+				"number": "18",
+				"title": "AMENDMENTS",
+				"clauses": [
+					{
+						"number": "18.1",
+						"content": "{siteName} may amend these Terms at any time. Updated Terms will be posted on the Website. Continued use constitutes acceptance."
+					}
+				]
+			},
+			"miscellaneous": {
+				"number": "19",
+				"title": "MISCELLANEOUS",
+				"clauses": [
+					{
+						"number": "19.1",
+						"content": "These Terms constitute the entire agreement between you and {siteName} regarding the Service."
+					},
+					{
+						"number": "19.2",
+						"content": "If any clause is found unenforceable, it will be modified to the minimum extent necessary and the remaining provisions will remain in effect."
+					},
+					{
+						"number": "19.3",
+						"content": "You may not assign your rights under these Terms. {siteName} may assign or subcontract rights and obligations."
+					}
+				]
+			},
+			"contact": {
+				"number": "20",
+				"title": "CONTACT",
+				"content": "For support, complaints, or legal notices:",
+				"link": "🌐 https://{siteDomain}"
+			}
+		}
 	}
 }
