@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "重置表单",
-			"networkNotSupported": "仅支持在Arbitrum, Polygon和BNB上提款",
+			"networkNotSupported": "仅支持在Arbitrum、Polygon、Optimism和BNB上提款",
 			"youWithdraw": "您提款",
 			"loading": "加载中...",
 			"amount": "金额",

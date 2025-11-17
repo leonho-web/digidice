@@ -73,11 +73,11 @@ const FeaturedGameCard = ({ game }: { game: Game }) => {
 		<Card className="group relative overflow-hidden border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 h-[400px] cursor-pointer">
 			{/* Full Background Image */}
 			<div className="absolute inset-0">
-				<Image
+				<img
 					src={game.full_url_game_image || ""}
 					alt={game.game_name}
-					fill
-					className=" transition-transform duration-700 group-hover:scale-110"
+					// fill
+					className=" transition-transform absolute inset-0 w-full h-full object-contain duration-700  group-hover:scale-110"
 				/>
 			</div>
 
@@ -148,11 +148,10 @@ const CompactGameCard = ({ game }: { game: Game }) => {
 		<Card className="group relative overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer h-[400px]">
 			{/* Full Background Image */}
 			<div className="absolute inset-0">
-				<Image
+				<img
 					src={game.full_url_game_image || ""}
 					alt={game.game_name}
-					fill
-					className="object-cover transition-transform duration-300 group-hover:scale-110"
+					className="transition-transform absolute inset-0 w-full h-full object-contain duration-300 group-hover:scale-110"
 				/>
 			</div>
 
@@ -236,11 +235,16 @@ export const Layout3 = ({
 	);
 	const tHero = useTranslations("hero");
 
+	// Filter out SPORTS games from sideGames
+	const filteredSideGames =
+		sideGames?.filter((game) => game.category !== "SPORTS") || [];
+
 	if (isLoading) return <Layout3Skeleton />;
-	if (!mainGame || !sideGames || sideGames.length < 4) return null;
+	if (!mainGame || !filteredSideGames || filteredSideGames.length < 3)
+		return null;
 
 	// Create featured games array (main game + first 3 side games)
-	const featuredGames = [mainGame, ...sideGames.slice(0, 3)];
+	const featuredGames = [mainGame, ...sideGames.slice(0, 4)];
 
 	return (
 		<div className="w-full space-y-8 py-8">
@@ -320,7 +324,7 @@ export const Layout3 = ({
 							}}
 						>
 							<CarouselContent>
-								{sideGames.map((game, index) => (
+								{filteredSideGames.map((game, index) => (
 									<CarouselItem
 										key={`explore-${game.game_id}-${index}`}
 										className="basis-full sm:basis-1/2"

@@ -1014,7 +1014,7 @@
 		},
 		"withdrawPanel": {
 			"resetForm": "Redefinir Formulário",
-			"networkNotSupported": "Retiradas são suportadas apenas em Arbitrum, Polygon e BNB",
+			"networkNotSupported": "Saques são suportados apenas em Arbitrum, Polygon, Optimism e BNB",
 			"youWithdraw": "Você Retira",
 			"loading": "Carregando...",
 			"amount": "Valor",
