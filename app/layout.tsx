@@ -47,6 +47,10 @@ export default async function RootLayout({
 				{/* SEO: Structured Data for Knowledge Graph & Rich Snippets */}
 				<JsonLd data={organizationSchema} />
 				<JsonLd data={websiteSchema} />
+				<meta
+					name="trustpilot-one-time-domain-verification-id"
+					content="9e223848-6087-4951-b43e-8753d7910c63"
+				/>
 
 				<script
 					async
