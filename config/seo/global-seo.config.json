@@ -3,7 +3,6 @@
 	"defaultLang": "en",
 	"defaultCountry": "global",
 	"environment": "production",
-
 	"regions": {
 		"global": {
 			"language": "en",
@@ -159,13 +158,12 @@
 			}
 		}
 	},
-
 	"defaults": {
 		"siteName": "Digidice",
 		"siteTLD": ".games",
 		"organization": "Digidice Gaming",
 		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
-		"author": "Digidice Team",
+		"author": "Digidice",
 		"favicon": "/assets/site/Digidice-logo.png",
 		"logo": "/assets/site/Digidice-logo.png",
 		"logoWidth": 1200,
@@ -178,7 +176,6 @@
 		"enableAISO": true,
 		"enableASO": true
 	},
-
 	"schemaDefaults": {
 		"organization": {
 			"@type": "Organization",
@@ -208,38 +205,42 @@
 			}
 		}
 	},
-
 	"pageDefaults": {
 		"home": {
-			"title": "DigiDice.games | Play Crypto Casino, Slots & Sports Betting",
-			"description": "Play at DigiDice.games – the trusted crypto casino for 5000+ slots, poker, and live sports betting. Instant wallet login, fast payouts, and secure blockchain gaming.",
+			"title": "DigiDice | Play Crypto Casino, Slots & Sports Betting",
+			"description": "Play at DigiDice – the #1 provably fair crypto casino with instant withdrawals, no KYC, 5000+ blockchain games. Bitcoin, Ethereum, fast payouts & anonymous play.",
 			"keywords": [
-				"DigiDice.games",
-				"DigiDice casino",
 				"crypto casino",
-				"play crypto slots",
-				"blockchain casino games",
-				"decentralized gambling",
-				"crypto sports betting",
-				"live crypto casino",
-				"no KYC casino",
-				"wallet login casino",
-				"provably fair slots",
-				"crypto casino India",
-				"DigiDice crypto betting"
+				"Bitcoin casino",
+				"blockchain casino",
+				"provably fair casino",
+				"no KYC crypto casino",
+				"instant withdrawal casino",
+				"anonymous crypto casino",
+				"Ethereum casino",
+				"live dealer crypto",
+				"fast payout casino",
+				"decentralized casino",
+				"Layer-2 casino",
+				"crash games crypto",
+				"crypto sports betting"
 			],
 			"ogType": "website",
 			"schemaType": "WebPage"
 		},
 		"lobby": {
-			"title": "Game Lobby - Browse All Games",
-			"description": "Explore our extensive collection of games including slots, live casino, table games, and more. Find your favorite games and start winning!",
+			"title": "Game Lobby - 5000+ Provably Fair Crypto Games",
+			"description": "Explore 5000+ provably fair blockchain games: crypto slots, live dealer games, crash games, and sports betting. Instant play with Bitcoin, Ethereum & more.",
 			"keywords": [
-				"game lobby",
-				"casino games",
-				"slots",
-				"table games",
-				"live casino"
+				"crypto games",
+				"blockchain games",
+				"provably fair games",
+				"crypto slots",
+				"live dealer crypto",
+				"crash games",
+				"crypto sports betting",
+				"Bitcoin gambling",
+				"instant play casino"
 			],
 			"ogType": "website",
 			"schemaType": "CollectionPage"
@@ -393,7 +394,6 @@
 			"schemaType": "FAQPage"
 		}
 	},
-
 	"robotsRules": {
 		"production": {
 			"allow": ["/"],
@@ -402,11 +402,12 @@
 		},
 		"staging": {
 			"allow": [],
-			"disallow": ["/"],
+			"disallow": [
+				"/"
+			],
 			"sitemap": null
 		}
 	},
-
 	"aeo": {
 		"enabled": true,
 		"generateFAQs": true,
@@ -414,7 +415,6 @@
 		"enableSpeakable": true,
 		"targetFeaturedSnippets": true
 	},
-
 	"aiso": {
 		"enabled": true,
 		"aiPlatforms": [
@@ -428,7 +428,6 @@
 		"entityMarkup": true,
 		"semanticContext": true
 	},
-
 	"aso": {
 		"enabled": true,
 		"androidAppId": "",
@@ -437,7 +436,6 @@
 		"appDeepLinkScheme": "digidice://",
 		"pwaEnabled": true
 	},
-
 	"performance": {
 		"enablePreconnect": true,
 		"enableDNSPrefetch": true,
@@ -448,7 +446,6 @@
 			"https://fonts.gstatic.com"
 		]
 	},
-
 	"socialMedia": {
 		"twitter": {
 			"handle": "@digidice",
@@ -462,7 +459,6 @@
 			"handle": "digidice"
 		}
 	},
-
 	"analytics": {
 		"ga4": {
 			"enabled": true,
