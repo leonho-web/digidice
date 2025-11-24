@@ -149,11 +149,6 @@ const AppSidebarComponent = ({ ...props }: ComponentProps<typeof Sidebar>) => {
 						priority
 						className="h-12 w-auto"
 					/>
-					{/* <img
-						src="/assets/site/digidice-logo-icon.png"
-						alt="Digi Dice Logo"
-						className=" hidden group-data-[collapsible=icon]:block"
-					/> */}
 				</Link>
 			</div>
 			<SidebarHeader className="border-b border-border/20 py-2 px-4 pr-7 bg-card/20">

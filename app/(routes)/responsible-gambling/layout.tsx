@@ -1,19 +1,19 @@
 import { Metadata } from "next";
-import { generateSEOMetadata } from "@/lib/seo/seo-provider";
+import { generateSEOMetadata } from "@/lib/utils/seo/seo-provider";
+import { getDynamicSEOConfig } from "@/lib/utils/seo/seo-config-loader";
 import {
 	generateOrganizationSchema,
 	generateWebPageSchema,
-} from "@/lib/seo/schema-generator";
-import {
-	interpolateSiteName,
-	interpolateSiteDomain,
-} from "@/lib/utils/site-config";
+} from "@/lib/utils/seo/schema-generator";
 
-const siteName = interpolateSiteName(`{siteName}`);
-const siteDomain = interpolateSiteDomain(`{siteDomain}`);
+export async function generateMetadata(): Promise<Metadata> {
+	const config = await getDynamicSEOConfig();
 
-export const metadata: Metadata = generateSEOMetadata({
-	title: `Responsible Gambling | ${siteDomain} – Play Smart, Stay Safe`,
+	const siteName = config.defaults.siteName;
+	const siteDomain = config.defaultDomain;
+
+	return generateSEOMetadata({
+		title: `Responsible Gambling | ${siteDomain} – Play Smart, Stay Safe`,
 	description: `Learn about responsible gambling at ${siteName}.. Stay in control, play safely, and access global gambling support and self-exclusion options.`,
 	keywords: [
 		`${siteName} Responsible Gambling`,
@@ -32,14 +32,15 @@ export const metadata: Metadata = generateSEOMetadata({
 	ogType: "website",
 	ogImage: "/assets/seo/og.png",
 	schemas: [
-		generateOrganizationSchema(),
+		generateOrganizationSchema(config),
 		generateWebPageSchema({
 			title: `Responsible Gambling at ${siteName}`,
-			url: `https://${siteDomain}/responsible-gambling`,
+			url: `${siteDomain}/responsible-gambling`,
 			description: `${siteName} promotes responsible crypto gaming. Learn to play safely, manage your playtime, and access trusted global gambling support resources.`,
-		}),
+		},config),
 	],
 });
+}
 
 export default function ResponsibleGamblingLayout({
 	children,

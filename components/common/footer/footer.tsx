@@ -14,7 +14,9 @@ import {
 	Info,
 } from "lucide-react";
 import { SeoContentSection } from "./seo-content-section";
-
+import { interpolateSiteName } from "@/lib/utils/site-config";
+import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
+import Image from "next/image";
 export function Footer() {
 	const t = useT();
 	const currentYear = new Date().getFullYear();
@@ -59,6 +61,8 @@ export function Footer() {
 			src: "/assets/footer/base-network-crypto-casino-logo.webp",
 		},
 	];
+
+	const { primaryWallet } = useDynamicContext();
 
 	// Cryptocurrencies
 	const cryptocurrencies = [
@@ -129,6 +133,39 @@ export function Footer() {
 					label: t("footer.sections.company.links.bonus"),
 					href: "/bonus",
 				},
+				{
+					label: "Bonus",
+					href: "/blog",
+				},
+			],
+		},
+		{
+			title: "Crypto Casino",
+			links: [
+				{ label: "Crypto Casino", href: "/crypto-casino" },
+				{ label: "Bitcoin Casino", href: "/bitcoin-casino" },
+				{ label: "Ethereum Casino", href: "/ethereum-casino" },
+				{ label: "Best Crypto Casinos", href: "/best-crypto-casinos" },
+				{ label: "Provably Fair", href: "/provably-fair" },
+			],
+		},
+		{
+			title: "Games",
+			links: [
+				{ label: "Crypto Slots", href: "/crypto-slots" },
+				{ label: "Crypto Blackjack", href: "/crypto-blackjack" },
+				{ label: "Crypto Roulette", href: "/crypto-roulette" },
+				{ label: "Live Casino", href: "/crypto-live-casino" },
+				{ label: "All Games", href: "/lobby" },
+			],
+		},
+		{
+			title: "More Casinos",
+			links: [
+				{ label: "Dogecoin Casino", href: "/dogecoin-casino" },
+				{ label: "Litecoin Casino", href: "/litecoin-casino" },
+				{ label: "Tron Casino", href: "/tron-casino" },
+				{ label: "Online Gambling", href: "/online-gambling" },
 			],
 		},
 		{
@@ -156,67 +193,32 @@ export function Footer() {
 				},
 			],
 		},
-		{
-			title: t("footer.sections.games.title"),
-			links: [
-				{
-					label: t("footer.sections.games.links.lobby"),
-					href: "/lobby",
-				},
-				{
-					label: t("footer.sections.games.links.slots"),
-					href: "/games?category=slots",
-				},
-				{
-					label: t("footer.sections.games.links.live"),
-					href: "/games?category=live",
-				},
-				{
-					label: t("footer.sections.games.links.sports"),
-					href: "/games?category=sports",
-				},
-			],
-		},
-		{
-			title: t("footer.sections.support.title"),
-			links: [
-				{
-					label: t("footer.sections.support.links.help"),
-					href: "/faqs",
-					icon: HelpCircle,
-				},
-				// {
-				// 	label: t("footer.sections.support.links.contact"),
-				// 	href: "mailto:support@digidice.games",
-				// 	icon: Mail,
-				// },
-			],
-		},
 	];
 
 	const socialLinks = [
 		{
 			icon: Twitter,
-			href: "https://twitter.com/digidice",
+			href: "		https://x.com/digidice1",
 			label: "Twitter",
 		},
 		{
 			icon: Facebook,
-			href: "https://facebook.com/digidice",
+			href: "https://www.facebook.com/profile.php?id=61584030086464",
 			label: "Facebook",
 		},
 		{
 			icon: Instagram,
-			href: "https://instagram.com/digidice",
+			href: "https://www.instagram.com/digidice.io/ ",
 			label: "Instagram",
 		},
 		{
 			icon: Youtube,
-			href: "https://youtube.com/@digidice",
+			href: "https://www.youtube.com/@DigidiceGames",
 			label: "YouTube",
 		},
 	];
 
+	const siteName = interpolateSiteName(`{siteName}`);
 	return (
 		<>
 			{/* SEO Content Section */}
@@ -225,102 +227,108 @@ export function Footer() {
 			{/* Main Footer */}
 			<footer className="border-t border-border bg-card mb-10 md:mb-0">
 				<div className="container mx-auto consistent-padding-x py-12">
-					{/* Main Footer Content */}
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-						{footerSections.map((section, index) => (
-							<div key={index} className="space-y-4">
-								<h3 className="font-semibold text-foreground text-sm">
-									{section.title}
-								</h3>
-								<ul className="space-y-2.5">
-									{section.links.map((link, linkIndex) => {
-										return (
-											<li key={linkIndex}>
-												<Link
-													href={link.href}
-													className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
-												>
-													{link.label}
-												</Link>
-											</li>
-										);
-									})}
-								</ul>
+					{primaryWallet === null && (
+						<>
+							{/* Main Footer Content */}
+							<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
+								{footerSections.map((section, index) => (
+									<div key={index} className="space-y-4">
+										<h3 className="font-semibold text-foreground text-sm">
+											{section.title}
+										</h3>
+										<ul className="space-y-2.5">
+											{section.links.map(
+												(link, linkIndex) => {
+													return (
+														<li key={linkIndex}>
+															<Link
+																href={link.href}
+																className="text-muted-foreground hover:text-primary transition-colors text-sm flex items-center gap-2"
+															>
+																{link.label}
+															</Link>
+														</li>
+													);
+												}
+											)}
+										</ul>
+									</div>
+								))}
 							</div>
-						))}
-					</div>
 
-					{/* Network Section */}
-					<div className="mb-10">
-						<h3 className="text-sm font-semibold text-foreground mb-5">
-							Network
-						</h3>
-						<div className="flex flex-wrap items-center gap-8 py-2">
-							{networks.map((network, index) => (
-								<div
-									key={index}
-									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-								>
-									<img
-										src={network.src}
-										alt={network.name}
-										width={80}
-										height={32}
-										className="h-8 w-auto object-contain"
-									/>
+							{/* Network Section */}
+							<div className="mb-10">
+								<h3 className="text-sm font-semibold text-foreground mb-5">
+									Network
+								</h3>
+								<div className="flex flex-wrap items-center gap-8 py-2">
+									{networks.map((network, index) => (
+										<div
+											key={index}
+											className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+										>
+											<Image
+												src={network.src}
+												alt={network.name}
+												width={80}
+												height={32}
+												className="h-8 w-auto object-contain"
+											/>
+										</div>
+									))}
 								</div>
-							))}
-						</div>
-					</div>
+							</div>
 
-					{/* Cryptocurrencies Section */}
-					<div className="mb-10">
-						<h3 className="text-sm font-semibold text-foreground mb-5">
-							Cryptocurrencies
-						</h3>
-						<div className="flex flex-wrap items-center gap-8 py-2">
-							{cryptocurrencies.map((crypto, index) => (
-								<div
-									key={index}
-									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-								>
-									<img
-										src={crypto.src}
-										alt={crypto.name}
-										width={80}
-										height={32}
-										className="h-8 w-auto object-contain"
-									/>
+							{/* Cryptocurrencies Section */}
+							<div className="mb-10">
+								<h3 className="text-sm font-semibold text-foreground mb-5">
+									Cryptocurrencies
+								</h3>
+								<div className="flex flex-wrap items-center gap-8 py-2">
+									{cryptocurrencies.map((crypto, index) => (
+										<div
+											key={index}
+											className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+										>
+											<Image
+												src={crypto.src}
+												alt={crypto.name}
+												width={80}
+												height={32}
+												className="h-8 w-auto object-contain"
+											/>
+										</div>
+									))}
 								</div>
-							))}
-						</div>
-					</div>
+							</div>
 
-					{/* Security & Fair Play Section */}
-					<div className="mb-12">
-						<h3 className="text-sm font-semibold text-foreground mb-5">
-							Security &amp; Fair Play
-						</h3>
-						<div className="flex flex-wrap items-center gap-8 py-2">
-							{securityLogos.map((logo, index) => (
-								<div
-									key={index}
-									className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
-								>
-									<img
-										src={logo.src}
-										alt={logo.name}
-										width={80}
-										height={32}
-										className="h-8 w-auto object-contain"
-									/>
+							{/* Security & Fair Play Section */}
+							<div className="mb-12">
+								<h3 className="text-sm font-semibold text-foreground mb-5">
+									Security &amp; Fair Play
+								</h3>
+								<div className="flex flex-wrap items-center gap-8 py-2">
+									{securityLogos.map((logo, index) => (
+										<div
+											key={index}
+											className="relative h-8 w-auto opacity-70 hover:opacity-100 transition-opacity"
+										>
+											<Image
+												src={logo.src}
+												alt={logo.name}
+												width={80}
+												height={32}
+												className="h-8 w-auto object-contain"
+											/>
+										</div>
+									))}
 								</div>
-							))}
-						</div>
-					</div>
+							</div>
 
-					{/* Divider */}
-					<div className="border-t border-border my-8" />
+							{/* Divider */}
+							<div className="border-t border-border my-8" />
+						</>
+					)}
 
 					{/* Bottom Footer */}
 					<div className="flex flex-col md:flex-row justify-between items-center lg:items-start gap-6">
@@ -330,7 +338,7 @@ export function Footer() {
 								href="/"
 								className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
 							>
-								DigiDice
+								{siteName}
 							</Link>
 							<div className="text-sm tracking-wider max-w-3xl text-muted-foreground space-y-2">
 								{t("footer.description")

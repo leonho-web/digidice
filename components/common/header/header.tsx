@@ -38,6 +38,7 @@ import {
 	faHome,
 	faMagnifyingGlass,
 	faRightFromBracket,
+	// faSquareList,
 	faUser,
 	faUsers,
 	faWallet,

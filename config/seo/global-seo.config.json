@@ -1,166 +1,11 @@
 {
-	"defaultDomain": "https://digidice.com",
+	"defaultDomain": "https://digidice.io",
 	"defaultLang": "en",
-	"defaultCountry": "global",
 	"environment": "production",
-	"regions": {
-		"global": {
-			"language": "en",
-			"currency": "USD",
-			"hreflang": "en",
-			"countryCode": "INT",
-			"timezone": "UTC",
-			"metaTitleSuffix": " | Digidice",
-			"canonicalBase": "https://digidice.com",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"us": {
-			"language": "en",
-			"currency": "USD",
-			"hreflang": "en-us",
-			"countryCode": "US",
-			"timezone": "America/New_York",
-			"metaTitleSuffix": " | Digidice USA",
-			"canonicalBase": "https://digidice.com/us",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"uk": {
-			"language": "en",
-			"currency": "GBP",
-			"hreflang": "en-gb",
-			"countryCode": "GB",
-			"timezone": "Europe/London",
-			"metaTitleSuffix": " | Digidice UK",
-			"canonicalBase": "https://digidice.com/uk",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"in": {
-			"language": "en",
-			"currency": "INR",
-			"hreflang": "en-in",
-			"countryCode": "IN",
-			"timezone": "Asia/Kolkata",
-			"metaTitleSuffix": " | Digidice India",
-			"canonicalBase": "https://digidice.com/in",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"za": {
-			"language": "en",
-			"currency": "ZAR",
-			"hreflang": "en-za",
-			"countryCode": "ZA",
-			"timezone": "Africa/Johannesburg",
-			"metaTitleSuffix": " | Digidice South Africa",
-			"canonicalBase": "https://digidice.com/za",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"ng": {
-			"language": "en",
-			"currency": "NGN",
-			"hreflang": "en-ng",
-			"countryCode": "NG",
-			"timezone": "Africa/Lagos",
-			"metaTitleSuffix": " | Digidice Nigeria",
-			"canonicalBase": "https://digidice.com/ng",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "gaming",
-				"rewards": "rewards",
-				"casino": "casino",
-				"betting": "betting"
-			}
-		},
-		"de": {
-			"language": "de",
-			"currency": "EUR",
-			"hreflang": "de-de",
-			"countryCode": "DE",
-			"timezone": "Europe/Berlin",
-			"metaTitleSuffix": " | Digidice Deutschland",
-			"canonicalBase": "https://digidice.com/de",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "Spielen",
-				"rewards": "Belohnungen",
-				"casino": "Kasino",
-				"betting": "Wetten"
-			}
-		},
-		"jp": {
-			"language": "ja",
-			"currency": "JPY",
-			"hreflang": "ja-jp",
-			"countryCode": "JP",
-			"timezone": "Asia/Tokyo",
-			"metaTitleSuffix": " | Digidice Japan",
-			"canonicalBase": "https://digidice.com/jp",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "ゲーム",
-				"rewards": "報酬",
-				"casino": "カジノ",
-				"betting": "ベッティング"
-			}
-		},
-		"br": {
-			"language": "pt",
-			"currency": "BRL",
-			"hreflang": "pt-br",
-			"countryCode": "BR",
-			"timezone": "America/Sao_Paulo",
-			"metaTitleSuffix": " | Digidice Brasil",
-			"canonicalBase": "https://digidice.com/br",
-			"gtmId": "",
-			"ga4Id": "",
-			"localizedTerms": {
-				"gaming": "jogos",
-				"rewards": "recompensas",
-				"casino": "cassino",
-				"betting": "apostas"
-			}
-		}
-	},
+	"metaTitleSuffix": " | DigiDice",
 	"defaults": {
 		"siteName": "Digidice",
-		"siteTLD": ".games",
+		"siteDomain": "Digidice.io",
 		"organization": "Digidice Gaming",
 		"description": "Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
 		"author": "Digidice",
@@ -180,8 +25,8 @@
 		"organization": {
 			"@type": "Organization",
 			"name": "Digidice Gaming",
-			"url": "https://digidice.com",
-			"logo": "https://digidice.com/assets/site/Digidice-logo.png",
+			"url": "https://digidice.io",
+			"logo": "https://digidice.io/assets/site/Digidice-logo.png",
 			"description": "Leading online gaming platform offering crypto gaming, slots, live casino, and sports betting worldwide.",
 			"sameAs": [
 				"https://twitter.com/digidice",
@@ -191,16 +36,16 @@
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"contactType": "customer support",
-				"email": "support@digidice.com"
+				"email": "support@digidice.io"
 			}
 		},
 		"website": {
 			"@type": "WebSite",
 			"name": "Digidice",
-			"url": "https://digidice.com",
+			"url": "https://digidice.io",
 			"potentialAction": {
 				"@type": "SearchAction",
-				"target": "https://digidice.com/search?q={search_term_string}",
+				"target": "https://digidice.io/search?q={search_term_string}",
 				"query-input": "required name=search_term_string"
 			}
 		}
@@ -398,13 +243,11 @@
 		"production": {
 			"allow": ["/"],
 			"disallow": ["/api/", "/admin/", "/_next/", "/private/"],
-			"sitemap": "https://digidice.com/sitemap.xml"
+			"sitemap": "https://digidice.io/sitemap.xml"
 		},
 		"staging": {
 			"allow": [],
-			"disallow": [
-				"/"
-			],
+			"disallow": ["/"],
 			"sitemap": null
 		}
 	},

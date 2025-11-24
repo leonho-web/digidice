@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button";
 import { NavMain } from "@/components/common/sidebar/nav-main";
 import { useTranslations } from "@/lib/locale-provider";
 import Image from "next/image";
+import Link from "next/link";
 import {
 	Sidebar,
 	SidebarContent,
@@ -172,9 +173,6 @@ const StableSidebarComponent = ({
 				<div className="flex gap-2 px-4 py-2">
 					<Button
 						variant="outline"
-						size="sm"
-						className="flex-1 bg-primary/20 text-xs border-primary/50 hover:bg-primary/40 text-foreground shimmer-effect transition-all duration-300"
-						onClick={() => handleProtectedAction("deposit")}
 					>
 						{tSidebar("deposit")}
 					</Button>
@@ -223,14 +221,14 @@ const StableSidebarComponent = ({
 						className="w-full bg-primary hover:bg-primary/90 text-foreground/80 font-semibold shadow-lg shadow-primary/40 animate-daily-bonus-pulse transition-all duration-300"
 						asChild
 					>
-						<a href="/bonus">
+						<Link href="/bonus">
 							<FontAwesomeIcon
 								icon={faGift}
 								fontSize={16}
 								className="mr-2"
 							/>
 							{tSidebar("dailyBonus")}
-						</a>
+						</Link>
 					</Button>
 				</div>
 			</SidebarFooter>

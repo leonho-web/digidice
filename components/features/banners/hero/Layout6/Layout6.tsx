@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -77,9 +78,10 @@ const FeaturedGameCard = ({ game }: { game: Game }) => {
 	return (
 		<Card className="group relative overflow-hidden border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 h-[400px] cursor-pointer">
 			<div className="absolute inset-0">
-				<img
+				<Image
 					src={game.full_url_game_image || ""}
 					alt={game.game_name}
+					fill
 					className="object-cover transition-transform duration-700 group-hover:scale-110"
 				/>
 			</div>
@@ -145,9 +147,10 @@ const CompactGameCard = ({ game }: { game: Game }) => {
 	return (
 		<Card className="group relative overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer h-[400px]">
 			<div className="absolute inset-0">
-				<img
+				<Image
 					src={game.full_url_game_image || ""}
 					alt={game.game_name}
+					fill
 					className="object-cover transition-transform duration-300 group-hover:scale-110"
 				/>
 			</div>
@@ -207,6 +210,7 @@ interface Layout6Props {
 	isLoading?: boolean;
 }
 
+
 export const Layout6 = ({
 	slides,
 	featuredGame,
@@ -245,7 +249,7 @@ export const Layout6 = ({
 		return null;
 	}
 
-	// Create featured games array
+	// Create featured games array 
 	const featuredGames = [mainGame, ...sideGames.slice(0, 3)];
 
 	return (
