@@ -134,7 +134,7 @@ export function Footer() {
 					href: "/bonus",
 				},
 				{
-					label: "Bonus",
+					label: "Blogs",
 					href: "/blog",
 				},
 			],
