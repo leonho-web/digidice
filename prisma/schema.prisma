@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:/var/www/html/production/Live/digidice/prisma/dev.db"
+  url      = "file:/var/www/html/production/Live/digidicev2/digidice/prisma/dev.db"
 }
 
 model User {
