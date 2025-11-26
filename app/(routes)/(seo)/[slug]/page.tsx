@@ -1,7 +1,7 @@
 import { getSeoPageBySlug } from "@/modules/seo/actions";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import { StructuredData } from "@/components/seo/StructuredData";
+import { StructuredData } from "@/components/features/seo/StructuredData";
 
 export async function generateMetadata({
 	params,
