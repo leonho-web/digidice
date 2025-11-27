@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useT } from "@/hooks/useI18n";
 import {
@@ -16,7 +17,7 @@ import {
 import { SeoContentSection } from "./seo-content-section";
 import { interpolateSiteName } from "@/lib/utils/site-config";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
-import Image from "next/image";
+
 export function Footer() {
 	const t = useT();
 	const currentYear = new Date().getFullYear();
@@ -134,8 +135,12 @@ export function Footer() {
 					href: "/bonus",
 				},
 				{
-					label: "Blogs",
+					label: t("footer.sections.company.links.blog"),
 					href: "/blog",
+				},
+				{
+					label: t("footer.sections.company.links.contact"),
+					href: "/contact-us",
 				},
 			],
 		},
@@ -198,22 +203,22 @@ export function Footer() {
 	const socialLinks = [
 		{
 			icon: Twitter,
-			href: "		https://x.com/digidice1",
+			href: "https://twitter.com/betflux",
 			label: "Twitter",
 		},
 		{
 			icon: Facebook,
-			href: "https://www.facebook.com/profile.php?id=61584030086464",
+			href: "https://facebook.com/betflux",
 			label: "Facebook",
 		},
 		{
 			icon: Instagram,
-			href: "https://www.instagram.com/digidice.io/ ",
+			href: "https://instagram.com/betflux",
 			label: "Instagram",
 		},
 		{
 			icon: Youtube,
-			href: "https://www.youtube.com/@DigidiceGames",
+			href: "https://youtube.com/@betflux",
 			label: "YouTube",
 		},
 	];
@@ -233,9 +238,9 @@ export function Footer() {
 							<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
 								{footerSections.map((section, index) => (
 									<div key={index} className="space-y-4">
-										<h3 className="font-semibold text-foreground text-sm">
+										<div className="font-semibold text-foreground text-sm">
 											{section.title}
-										</h3>
+										</div>
 										<ul className="space-y-2.5">
 											{section.links.map(
 												(link, linkIndex) => {
@@ -258,9 +263,9 @@ export function Footer() {
 
 							{/* Network Section */}
 							<div className="mb-10">
-								<h3 className="text-sm font-semibold text-foreground mb-5">
+								<div className="text-sm font-semibold text-foreground mb-5">
 									Network
-								</h3>
+								</div>
 								<div className="flex flex-wrap items-center gap-8 py-2">
 									{networks.map((network, index) => (
 										<div
@@ -281,9 +286,9 @@ export function Footer() {
 
 							{/* Cryptocurrencies Section */}
 							<div className="mb-10">
-								<h3 className="text-sm font-semibold text-foreground mb-5">
+								<div className="text-sm font-semibold text-foreground mb-5">
 									Cryptocurrencies
-								</h3>
+								</div>
 								<div className="flex flex-wrap items-center gap-8 py-2">
 									{cryptocurrencies.map((crypto, index) => (
 										<div
@@ -304,9 +309,9 @@ export function Footer() {
 
 							{/* Security & Fair Play Section */}
 							<div className="mb-12">
-								<h3 className="text-sm font-semibold text-foreground mb-5">
+								<div className="text-sm font-semibold text-foreground mb-5">
 									Security &amp; Fair Play
-								</h3>
+								</div>
 								<div className="flex flex-wrap items-center gap-8 py-2">
 									{securityLogos.map((logo, index) => (
 										<div
@@ -378,20 +383,6 @@ export function Footer() {
 							</div>
 						</div>
 					</div>
-
-					{/* Disclaimer */}
-					{/* <div className="mt-8 pt-6 border-t border-border">
-						<div className="space-y-2 text-xs text-muted-foreground text-center">
-							<p className="flex items-center justify-center gap-2 font-medium">
-								<Shield className="size-4 text-primary" />
-								{t("footer.disclaimer.line1")}
-							</p>
-							<p>{t("footer.disclaimer.line2")}</p>
-							<p className="font-medium text-foreground">
-								{t("footer.disclaimer.line3")}
-							</p>
-						</div>
-					</div> */}
 				</div>
 			</footer>
 		</>
