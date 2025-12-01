@@ -11,20 +11,21 @@ const nextConfig: NextConfig = {
 		removeConsole:
 			process.env.NODE_ENV === "production"
 				? {
-					exclude: ["error", "warn"],
-				}
+						exclude: ["error", "warn"],
+				  }
 				: false,
 	},
 
 	// Image optimization - AGGRESSIVE
 	images: {
-		deviceSizes: [640, 768, 1024, 1280],  // Reduced device sizes
-		imageSizes: [48, 64, 96, 128],  // Reduced image sizes
+		deviceSizes: [640, 768, 1024, 1280], // Reduced device sizes
+		imageSizes: [48, 64, 96, 128], // Reduced image sizes
 		formats: ["image/webp"], // Only WebP for better compression
-		minimumCacheTTL: 31536000,  // Cache for 1 year
+		minimumCacheTTL: 31536000, // Cache for 1 year
 		dangerouslyAllowSVG: true,
-		contentDispositionType: "attachment",
-		contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+		contentDispositionType: "inline",
+		contentSecurityPolicy:
+			"default-src 'self'; script-src 'none'; sandbox;",
 		remotePatterns: [
 			{
 				protocol: "https",
