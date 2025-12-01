@@ -42,12 +42,7 @@
 		"website": {
 			"@type": "WebSite",
 			"name": "Digidice",
-			"url": "https://digidice.io",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://digidice.io/search?q={search_term_string}",
-				"query-input": "required name=search_term_string"
-			}
+			"url": "https://digidice.io"
 		}
 	},
 	"pageDefaults": {

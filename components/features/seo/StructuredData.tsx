@@ -1,4 +1,4 @@
-import Script from 'next/script'
+import Script from "next/script";
 
 type SchemaType =
     | 'Organization'
@@ -55,20 +55,17 @@ export function OrganizationSchema() {
     )
 }
 
-// Helper for WebSite Schema (Sitelinks Search Box)
+// Helper for WebSite Schema
 export function WebsiteSchema() {
-    return (
-        <StructuredData
-            type="WebSite"
-            data={{
-                name: 'DigiDice',
-                url: 'https://digidice.io',
-                potentialAction: {
-                    '@type': 'SearchAction',
-                    target: 'https://digidice.io/search?q={search_term_string}',
-                    'query-input': 'required name=search_term_string',
-                },
-            }}
-        />
-    )
+	return (
+		<StructuredData
+			type="WebSite"
+			data={{
+				name: "DigiDice",
+				url: "https://digidice.io",
+				description:
+					"Your Gateway to Fun and Rewards - Experience the best online gaming with crypto, slots, live casino, and sports betting.",
+			}}
+		/>
+	);
 }
