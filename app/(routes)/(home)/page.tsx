@@ -232,7 +232,6 @@ export default function HomePage() {
 				<section className="w-full">
 					<BlogCardsSlider posts={blogPosts} />
 				</section>
-
 			</div>
 		</>
 	);

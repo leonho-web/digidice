@@ -284,6 +284,7 @@ export const SEOTemplates = {
 			language,
 			ogImage: "/assets/seo/og.png",
 			ogUrl: `${config.defaultDomain}/`,
+			nocanonical: false,
 			...customProps,
 		});
 	},
