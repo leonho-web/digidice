@@ -16,7 +16,11 @@ export async function generateMetadata({
 }: {
 	params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+	const { getDynamicSEOConfig } = await import(
+		"@/lib/utils/seo/seo-config-loader"
+	);
 	try {
+		const config = await getDynamicSEOConfig();
 		const { slug } = await params;
 		const post = await getPostBySlug(slug);
 		if (!post) return {};
@@ -28,6 +32,7 @@ export async function generateMetadata({
 				title: post.seoTitle || post.title,
 				description: post.seoDescription || post.excerpt || undefined,
 				images: post.coverImage ? [post.coverImage] : [],
+				url: `${config.defaultDomain}/blog/${slug}`,
 			},
 		};
 	} catch (error) {

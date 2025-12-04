@@ -17,6 +17,10 @@ interface PageProps {
 export async function generateMetadata({
 	params,
 }: PageProps): Promise<Metadata> {
+	const { getDynamicSEOConfig } = await import(
+		"@/lib/utils/seo/seo-config-loader"
+	);
+	const config = await getDynamicSEOConfig();
 	const { slug } = await params;
 	const { slugToProviderDisplayName, slugToCategory } = await import(
 		"@/lib/utils/provider-slug-mapping"
@@ -53,6 +57,7 @@ export async function generateMetadata({
 				path: `/games/${slug[0]}`,
 				pageType: "game",
 				ogType: "website",
+				ogUrl: `${config.defaultDomain}/games/${slug[0]}`,
 			});
 		}
 
@@ -74,6 +79,7 @@ export async function generateMetadata({
 			path: `/games/${slug[0]}`,
 			pageType: "game",
 			ogType: "website",
+			ogUrl: `${config.defaultDomain}/games/${slug[0]}`,
 		});
 	} else if (slug.length === 2) {
 		// Provider + category: /games/pg-soft/slot or /games/pragmatic-play/slot
@@ -107,6 +113,7 @@ export async function generateMetadata({
 			path: `/games/${slug[0]}/${slug[1]}`,
 			pageType: "game",
 			ogType: "website",
+			ogUrl: `${config.defaultDomain}/games/${slug[0]}/${slug[1]}`,
 		});
 	}
 
@@ -118,6 +125,7 @@ export async function generateMetadata({
 		path: "/games",
 		pageType: "game",
 		ogType: "website",
+		ogUrl: `${config.defaultDomain}/games`,
 	});
 }
 

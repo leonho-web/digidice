@@ -21,6 +21,9 @@ export async function generateMetadata({
 				title: page.title,
 				description: page.description,
 				type: "website",
+				url: `${
+					process.env.NEXT_PUBLIC_SITE_URL || "https://digidice.com"
+				}/${slug}`,
 			},
 		};
 	} catch (error) {

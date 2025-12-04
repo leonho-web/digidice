@@ -30,13 +30,17 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain-based casino games.`,
 		ogType: "website",
 		ogImage: "/assets/seo/og.png",
+		ogUrl: `${siteDomain}/faqs`,
 		schemas: [
 			generateOrganizationSchema(config),
-			generateWebPageSchema({
-				title: `FAQs – ${siteName} Crypto Casino Help Center`,
-				url: `${siteDomain}/faqs`,
-				description: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.`,
-			},config),
+			generateWebPageSchema(
+				{
+					title: `FAQs – ${siteName} Crypto Casino Help Center`,
+					url: `${siteDomain}/faqs`,
+					description: `Explore FAQs at ${siteName}. Learn how to connect your wallet, deposit crypto, withdraw winnings, and play provably fair blockchain games.`,
+				},
+				config
+			),
 		],
 	});
 }

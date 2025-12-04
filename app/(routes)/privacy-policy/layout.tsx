@@ -34,13 +34,17 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `${siteDomain} safeguards your crypto wallet and blockchain data with top-tier encryption, privacy-first technology, and no KYC authentication.`,
 		ogType: "website",
 		ogImage: "/assets/seo/og.png",
+		ogUrl: `${siteDomain}/privacy-policy`,
 		schemas: [
 			generateOrganizationSchema(config),
-			generateWebPageSchema({
-				title: `Privacy Policy - ${siteName}`,
-				url: `${siteDomain}/privacy-policy`,
-				description: `${siteName} Privacy Policy - How we collect, use, store and protect your personal and transaction data.`,
-			},config),
+			generateWebPageSchema(
+				{
+					title: `Privacy Policy - ${siteName}`,
+					url: `${siteDomain}/privacy-policy`,
+					description: `${siteName} Privacy Policy - How we collect, use, store and protect your personal and transaction data.`,
+				},
+				config
+			),
 		],
 	});
 }

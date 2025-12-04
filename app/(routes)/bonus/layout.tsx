@@ -36,6 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		ogDescription: `Unlock daily turnover bonuses and exclusive crypto rewards at ${siteName}. Play slots, live casino, and sports — get paid instantly with blockchain transparency.`,
 		ogType: "website",
 		ogImage: "/assets/seo/TURNOVER_BONUS.png",
+		ogUrl: `${siteDomain}/bonus`,
 		schemas: [
 			generateOrganizationSchema(config),
 			generateWebPageSchema(

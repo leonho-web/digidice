@@ -23,6 +23,10 @@ interface PageProps {
 export async function generateMetadata({
 	params,
 }: PageProps): Promise<Metadata> {
+	const { getDynamicSEOConfig } = await import(
+		"@/lib/utils/seo/seo-config-loader"
+	);
+	const config = await getDynamicSEOConfig();
 	const { category } = await params;
 	const categoryName = decodeURIComponent(category)
 		.replace(/-/g, " ")
@@ -46,6 +50,7 @@ export async function generateMetadata({
 		path: `/providers/${category}`,
 		pageType: "providers",
 		ogType: "website",
+		ogUrl: `${config.defaultDomain}/providers/${category}`,
 	});
 }
 
