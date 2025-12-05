@@ -10,9 +10,9 @@
 		"name": "{siteName}"
 	},
 	"header": {
-		"toggleSidebar": "Chuyển đổi thanh bên",
-		"searchPlaceholder": "Tìm kiếm trò chơi, nhà cung cấp...",
-		"liveChat": "Trò chuyện trực tiếp",
+		"toggleSidebar": "Bật/Tắt thanh bên",
+		"searchPlaceholder": "Tìm trò chơi, nhà cung cấp...",
+		"liveChat": "Chat trực tuyến",
 		"player": "Người chơi",
 		"vip": "VIP",
 		"profile": "Hồ sơ",
@@ -44,12 +44,12 @@
 		"settingUp": "Đang thiết lập",
 		"profileBtn": "Xem hồ sơ",
 		"currentBalance": "Số dư hiện tại",
-		"availableFunds": "Số tiền khả dụng",
-		"totalDeposits": "Tổng số tiền nạp",
-		"totalWithdrawals": "Tổng số tiền rút",
+		"availableFunds": "Quỹ khả dụng",
+		"totalDeposits": "Tổng tiền nạp",
+		"totalWithdrawals": "Tổng tiền rút",
 		"walletAddress": "Địa chỉ ví",
-		"copySuccess": "Đã sao chép địa chỉ ví vào khay nhớ tạm!",
-		"copyFailed": "Không thể sao chép địa chỉ ví",
+		"copySuccess": "Đã sao chép địa chỉ ví vào bộ nhớ tạm!",
+		"copyFailed": "Sao chép địa chỉ ví thất bại",
 		"notConnected": "Chưa kết nối",
 		"myProfile": "Hồ sơ của tôi",
 		"history": {
@@ -62,88 +62,88 @@
 		"gettingStarted": "Bắt đầu",
 		"verifyEmail": "Xác minh email của bạn",
 		"completeEmailVerification": "Hoàn tất xác minh email",
-		"verifyPhone": "Xác minh số điện thoại của bạn",
-		"addPhoneVerification": "Thêm xác minh qua điện thoại",
+		"verifyPhone": "Xác minh số điện thoại",
+		"addPhoneVerification": "Thêm xác minh điện thoại",
 		"firstDeposit": "Nạp tiền lần đầu",
-		"makeFirstDeposit": "Thực hiện lần nạp tiền đầu tiên của bạn",
-		"placeBetOrTrade": "Đặt cược / Thực hiện giao dịch",
-		"startFirstGame": "Bắt đầu trò chơi đầu tiên của bạn",
+		"makeFirstDeposit": "Thực hiện khoản nạp đầu tiên",
+		"placeBetOrTrade": "Đặt cược / Giao dịch",
+		"startFirstGame": "Bắt đầu trò chơi đầu tiên",
 		"recentActivity": "Hoạt động gần đây",
 		"transactionHistory": "Lịch sử giao dịch",
-		"activityGameWinDiceRoll": "Thắng trò chơi - Xúc xắc",
-		"activityGameLossBlackjack": "Thua trò chơi - Blackjack",
+		"activityGameWinDiceRoll": "Thắng game - Dice Roll",
+		"activityGameLossBlackjack": "Thua game - Blackjack",
 		"twoHoursAgo": "2 giờ trước",
 		"oneDayAgo": "1 ngày trước",
 		"twoDaysAgo": "2 ngày trước",
 		"deposit": "Nạp tiền",
-		"loggedOutTitle": "Ôi! Bạn đã đăng xuất",
+		"loggedOutTitle": "Rất tiếc! Bạn đã đăng xuất",
 		"loggedOutSubtitle": "Vui lòng đăng nhập để xem hồ sơ của bạn",
 		"goHome": "Về trang chủ",
 		"withdrawal": "Rút tiền",
 		"transactions": {
 			"title": "Lịch sử giao dịch",
-			"trackDepositsWithdrawals": "Theo dõi các khoản nạp và rút tiền của bạn",
+			"trackDepositsWithdrawals": "Theo dõi nạp và rút tiền của bạn",
 			"filters": "Bộ lọc",
 			"refresh": "Làm mới",
 			"advancedFilters": "Bộ lọc nâng cao",
 			"searchTransactionComingSoon": "Tìm kiếm giao dịch (Sắp ra mắt)",
 			"searchPlaceholderDisabled": "Chức năng tìm kiếm sẽ được triển khai ở cấp API...",
-			"dateRange": "Phạm vi ngày",
-			"selectDateRange": "Chọn phạm vi ngày",
+			"dateRange": "Khoảng thời gian",
+			"selectDateRange": "Chọn khoảng thời gian",
 			"today": "Hôm nay",
 			"last7Days": "7 ngày qua",
 			"last30Days": "30 ngày qua",
 			"last90Days": "90 ngày qua",
 			"thisMonth": "Tháng này",
 			"lastMonth": "Tháng trước",
-			"customRange": "Phạm vi tùy chỉnh",
+			"customRange": "Tùy chỉnh",
 			"fromDate": "Từ ngày",
 			"toDate": "Đến ngày",
 			"transactionStatus": "Trạng thái giao dịch",
 			"allStatuses": "Tất cả trạng thái",
 			"success": "Thành công",
-			"pending": "Đang chờ xử lý",
+			"pending": "Đang chờ",
 			"rejected": "Bị từ chối",
 			"clearAll": "Xóa tất cả",
 			"cancel": "Hủy",
 			"applyFilters": "Áp dụng bộ lọc",
-			"activeFilters": "Bộ lọc đang hoạt động:",
+			"activeFilters": "Bộ lọc đang dùng:",
 			"statusLabel": "Trạng thái",
 			"dateLabel": "Ngày",
 			"statsTotalTransactions": "Tổng cộng {total} giao dịch",
-			"pageOf": "Trang {current} của {total}",
+			"pageOf": "Trang {current} trên {total}",
 			"live": "Trực tiếp",
 			"tabs": {
 				"all": "Tất cả",
 				"deposits": "Nạp tiền",
 				"withdrawals": "Rút tiền"
 			},
-			"errorLoadingTransactions": "Lỗi khi tải giao dịch",
+			"errorLoadingTransactions": "Lỗi tải giao dịch",
 			"tryAgain": "Thử lại",
-			"noTransactionsFound": "Không tìm thấy giao dịch nào",
+			"noTransactionsFound": "Không tìm thấy giao dịch",
 			"noTransactionsAvailableSelectedPeriod": "Không có giao dịch nào trong khoảng thời gian đã chọn.",
 			"noDepositsFoundSelectedPeriod": "Không tìm thấy khoản nạp nào trong khoảng thời gian đã chọn.",
-			"noWithdrawalsFoundSelectedPeriod": "Không tìm thấy khoản rút tiền nào trong khoảng thời gian đã chọn.",
-			"show": "Hiển thị",
+			"noWithdrawalsFoundSelectedPeriod": "Không tìm thấy khoản rút nào trong khoảng thời gian đã chọn.",
+			"show": "Hiện",
 			"ofTransactions": "của {count} giao dịch",
-			"showingRangeOfTotal": "Hiển thị {from}-{to} của {total}",
+			"showingRangeOfTotal": "Hiển thị {from}-{to} trong tổng số {total}",
 			"pageShort": "Trang {current}/{total}"
 		},
 		"betHistory": {
 			"title": "Lịch sử cược",
-			"trackBetsResults": "Theo dõi các cược và kết quả trò chơi của bạn",
+			"trackBetsResults": "Theo dõi cược và kết quả trò chơi",
 			"filters": "Bộ lọc",
 			"refresh": "Làm mới",
 			"advancedFilters": "Bộ lọc nâng cao",
-			"dateRange": "Phạm vi ngày",
-			"selectDateRange": "Chọn phạm vi ngày",
+			"dateRange": "Khoảng thời gian",
+			"selectDateRange": "Chọn khoảng thời gian",
 			"today": "Hôm nay",
 			"last7Days": "7 ngày qua",
 			"last30Days": "30 ngày qua",
 			"last90Days": "90 ngày qua",
 			"thisMonth": "Tháng này",
 			"lastMonth": "Tháng trước",
-			"customRange": "Phạm vi tùy chỉnh",
+			"customRange": "Tùy chỉnh",
 			"fromDate": "Từ ngày",
 			"toDate": "Đến ngày",
 			"provider": "Nhà cung cấp",
@@ -154,27 +154,27 @@
 			"win": "Thắng",
 			"lose": "Thua",
 			"draw": "Hòa",
-			"void": "Vô hiệu",
-			"bonusWin": "Thắng thưởng",
+			"void": "Hủy",
+			"bonusWin": "Thắng Bonus",
 			"clearAll": "Xóa tất cả",
 			"cancel": "Hủy",
 			"applyFilters": "Áp dụng bộ lọc",
-			"activeFilters": "Bộ lọc đang hoạt động",
+			"activeFilters": "Bộ lọc đang dùng",
 			"statusLabel": "Trạng thái",
 			"providerLabel": "Nhà cung cấp",
 			"dateLabel": "Ngày",
-			"totalBets": "Tổng số cược",
+			"totalBets": "Tổng cược",
 			"totalProfitLoss": "Tổng Lời/Lỗ",
-			"pageOf": "Trang {current} của {total}",
+			"pageOf": "Trang {current} trên {total}",
 			"live": "Trực tiếp",
-			"errorLoadingBets": "Lỗi khi tải Lịch sử cược",
-			"failedToLoadBetHistory": "Không thể tải lịch sử cược. Vui lòng thử lại.",
+			"errorLoadingBets": "Lỗi tải lịch sử cược",
+			"failedToLoadBetHistory": "Không tải được lịch sử cược. Vui lòng thử lại.",
 			"tryAgain": "Thử lại",
-			"noBetsFound": "Không tìm thấy cược nào",
+			"noBetsFound": "Không tìm thấy cược",
 			"noBetsFoundSelectedPeriod": "Không tìm thấy lịch sử cược cho khoảng thời gian và bộ lọc đã chọn.",
-			"show": "Hiển thị",
+			"show": "Hiện",
 			"ofBets": "của {count} cược",
-			"showingRangeOfTotal": "Hiển thị {from}-{to} của {total}",
+			"showingRangeOfTotal": "Hiển thị {from}-{to} trong tổng số {total}",
 			"totalBet": "Tổng cược",
 			"totalWin": "Tổng thắng",
 			"net": "Ròng",
@@ -187,33 +187,33 @@
 				"betAmount": "Số tiền cược",
 				"winAmount": "Số tiền thắng",
 				"hideAmounts": "Ẩn số tiền",
-				"showAmounts": "Hiển thị số tiền",
-				"gameType": "Loại trò chơi",
-				"vendor": "Nhà cung cấp",
+				"showAmounts": "Hiện số tiền",
+				"gameType": "Loại game",
+				"vendor": "Nhà phát hành",
 				"lastUpdate": "Cập nhật lần cuối",
 				"netResult": "Kết quả ròng",
-				"betId": "Mã cược"
+				"betId": "ID cược"
 			},
-			"errorLoading": "Lỗi khi tải",
-			"noBetsFoundDescription": "Bắt đầu chơi để xem lịch sử cược của bạn tại đây.",
+			"errorLoading": "Lỗi tải",
+			"noBetsFoundDescription": "Bắt đầu chơi game để xem lịch sử cược tại đây.",
 			"betHistory": "Lịch sử cược",
 			"hideAmounts": "Ẩn số tiền",
-			"showAmounts": "Hiển thị số tiền",
+			"showAmounts": "Hiện số tiền",
 			"date": "Ngày",
 			"game": "Trò chơi",
-			"betId": "Mã cược",
+			"betId": "ID cược",
 			"amount": "Số tiền",
-			"payout": "Thanh toán",
+			"payout": "Trả thưởng",
 			"player": "Người chơi",
-			"gameType": "Loại trò chơi",
-			"vendor": "Nhà cung cấp",
+			"gameType": "Loại game",
+			"vendor": "Nhà phát hành",
 			"lastUpdate": "Cập nhật lần cuối",
 			"netResult": "Kết quả ròng",
 			"totalWagered": "Tổng đã cược",
-			"totalWon": "Tổng đã thắng",
+			"totalWon": "Tổng thắng",
 			"netProfit": "Lợi nhuận ròng",
 			"winRate": "Tỷ lệ thắng",
-			"showingResults": "Hiển thị {start}-{end} của {total} kết quả",
+			"showingResults": "Hiển thị {start}-{end} trong tổng số {total} kết quả",
 			"firstPage": "Trang đầu",
 			"previousPage": "Trang trước",
 			"nextPage": "Trang sau",
@@ -221,8 +221,8 @@
 		}
 	},
 	"chat": {
-		"title": "Trò chuyện trực tiếp",
-		"placeholder": "Nhập tin nhắn của bạn...",
+		"title": "Chat trực tuyến",
+		"placeholder": "Nhập tin nhắn...",
 		"send": "Gửi",
 		"input": {
 			"replyPlaceholder": "Trả lời {username}..."
@@ -238,7 +238,7 @@
 			"preview": {
 				"winIn": "Đã thắng {amount} {currency} trong {game}",
 				"gifAlt": "Xem trước GIF",
-				"imageAlt": "Xem trước hình ảnh",
+				"imageAlt": "Xem trước ảnh",
 				"emoji": "Tin nhắn biểu tượng cảm xúc",
 				"rain": "Mưa tiền: {amount} {currency}",
 				"system": "Hệ thống: {content}"
@@ -246,76 +246,76 @@
 		},
 		"imageDialog": {
 			"title": "Chia sẻ hình ảnh của bạn 🎰",
-			"description": "Sẵn sàng khoe với phòng chat chưa?",
+			"description": "Sẵn sàng khoe với phòng chat?",
 			"previewLabel": "Xem trước",
 			"statusReady": "Sẵn sàng chia sẻ",
-			"roomLabel": "🎰 Trò chuyện Casino",
+			"roomLabel": "🎰 Chat Casino",
 			"shareNotice": "Hình ảnh của bạn sẽ được chia sẻ với tất cả người chơi trong phòng chat",
 			"closeAria": "Đóng hộp thoại",
-			"cancelAria": "Hủy tải lên hình ảnh",
-			"sendAria": "Gửi hình ảnh vào cuộc trò chuyện",
-			"send": "Gửi vào cuộc trò chuyện"
+			"cancelAria": "Hủy tải ảnh",
+			"sendAria": "Gửi ảnh vào chat",
+			"send": "Gửi vào Chat"
 		},
 		"picker": {
-			"searchEmojis": "Tìm kiếm biểu tượng cảm xúc...",
-			"searchGifs": "Tìm kiếm ảnh GIF...",
+			"searchEmojis": "Tìm biểu tượng...",
+			"searchGifs": "Tìm GIF...",
 			"tabs": {
-				"emojis": "Biểu tượng cảm xúc",
-				"gifs": "Ảnh GIF"
+				"emojis": "Biểu tượng",
+				"gifs": "GIF"
 			},
-			"loadingEmojis": "Đang tải biểu tượng cảm xúc...",
-			"loadingGifs": "Đang tải ảnh GIF...",
+			"loadingEmojis": "Đang tải biểu tượng...",
+			"loadingGifs": "Đang tải GIF...",
 			"retry": "Thử lại",
 			"recent": "Gần đây",
-			"noEmojis": "Không tìm thấy biểu tượng cảm xúc nào",
-			"noGifs": "Không tìm thấy ảnh GIF nào",
-			"tryDifferent": "Thử một cụm từ tìm kiếm khác",
+			"noEmojis": "Không tìm thấy biểu tượng",
+			"noGifs": "Không tìm thấy GIF",
+			"tryDifferent": "Thử từ khóa khác",
 			"gifCategories": {
 				"trending": "Thịnh hành",
 				"reactions": "Phản ứng",
-				"gaming": "Chơi game",
-				"casino": "Sòng bạc",
-				"celebration": "Lễ kỷ niệm",
+				"gaming": "Gaming",
+				"casino": "Casino",
+				"celebration": "Ăn mừng",
 				"sports": "Thể thao"
 			},
 			"searchResults": "Kết quả tìm kiếm",
-			"availableToTag": "Người dùng có sẵn để gắn thẻ 🎯",
-			"clickOrTab": "Nhấp hoặc dùng phím Tab để chọn",
-			"noUsers": "Không tìm thấy người dùng nào",
-			"noUsersMatching": "Không tìm thấy người dùng phù hợp",
-			"startTyping": "Bắt đầu gõ để tìm kiếm",
-			"typeAt": "Gõ",
+			"availableToTag": "Người dùng có thể tag 🎯",
+			"clickOrTab": "Nhấp hoặc Tab để chọn",
+			"noUsers": "Không tìm thấy người dùng",
+			"noUsersMatching": "Không có người dùng phù hợp",
+			"startTyping": "Bắt đầu nhập để tìm kiếm",
+			"typeAt": "Nhập",
 			"toSeeSuggestions": "để xem gợi ý 🎰",
 			"errors": {
-				"emojisLoad": "Không thể tải biểu tượng cảm xúc",
-				"emojisSearch": "Không thể tìm kiếm biểu tượng cảm xúc",
-				"gifsLoad": "Không thể tải ảnh GIF"
+				"emojisLoad": "Không tải được biểu tượng",
+				"emojisSearch": "Tìm kiếm biểu tượng thất bại",
+				"gifsLoad": "Không tải được GIF"
 			}
 		},
 		"messages": {
 			"emptyTitle": "Chưa có tin nhắn nào...",
-			"emptySubtitle": "Hãy bắt đầu cuộc trò chuyện và thắng lớn! 🎰",
-			"loadingHistory": "Đang tải lịch sử trò chuyện...",
-			"loadingHistorySubtitle": "Đang tìm nạp các tin nhắn gần đây 📜",
-			"historyError": "Không thể tải lịch sử trò chuyện"
+			"emptySubtitle": "Bắt đầu cuộc trò chuyện và thắng lớn! 🎰",
+			"loadingHistory": "Đang tải lịch sử chat...",
+			"loadingHistorySubtitle": "Đang lấy tin nhắn gần đây 📜",
+			"historyError": "Không tải được lịch sử chat"
 		},
 		"message": {
 			"you": "Bạn",
 			"winTitle": "Thắng lớn trong \"{game}\"! 🎰",
 			"gifAlt": "GIF",
-			"imageAlt": "Hình ảnh đã tải lên",
+			"imageAlt": "Ảnh đã tải lên",
 			"rainTitle": "Mưa tiền! 🌧️💰",
-			"recipients": "→ {count} người nhận",
+			"recipients": "→ {count} {count, plural, one {người nhận} other {người nhận}}",
 			"eachTo": "{amount} {currency} mỗi người cho: {list}",
-			"replyCount": "{count} trả lời",
-			"loadingHistory": "Đang tải lịch sử trò chuyện..."
+			"replyCount": "{count} {count, plural, one {trả lời} other {trả lời}}",
+			"loadingHistory": "Đang tải lịch sử chat..."
 		},
 		"system": {
 			"slashDisabled": "Lệnh gạch chéo tạm thời bị vô hiệu hóa. Vui lòng sử dụng tin nhắn thông thường.",
-			"rateLimit": "Đã vượt quá giới hạn tốc độ. Vui lòng đợi {seconds} giây trước khi gửi một tin nhắn khác.",
-			"cannotTagSelf": "Bạn không thể gắn thẻ chính mình trong tin nhắn.",
+			"rateLimit": "Vượt quá giới hạn tốc độ. Vui lòng đợi {seconds} giây trước khi gửi tin nhắn khác.",
+			"cannotTagSelf": "Bạn không thể tag chính mình trong tin nhắn.",
 			"processingImage": "Đang xử lý hình ảnh...",
-			"failedUploadPrefix": "Không thể tải lên hình ảnh: {message}",
+			"failedUploadPrefix": "Tải ảnh thất bại: {message}",
 			"unknownError": "Lỗi không xác định"
 		}
 	},
@@ -335,17 +335,17 @@
 		"hotBadge": "Hot"
 	},
 	"search": {
-		"title": "Tìm kiếm trò chơi",
+		"title": "Tìm trò chơi",
 		"subtitle": "Tìm theo tên, nhà cung cấp hoặc danh mục",
-		"placeholder": "Tìm kiếm trò chơi, nhà cung cấp, danh mục...",
+		"placeholder": "Tìm trò chơi, nhà cung cấp, danh mục...",
 		"clear": "Xóa",
 		"recent": "Gần đây:",
 		"popular": "Phổ biến:",
-		"favoritesTry": "Bạn có thể thử — Mục yêu thích của bạn",
+		"favoritesTry": "Bạn có thể thử — Yêu thích của bạn",
 		"hotPicks": "Lựa chọn hot",
-		"resultsCount": "Đã tìm thấy {count} trò chơi",
+		"resultsCount": "Tìm thấy {count} {count, plural, one {trò chơi} other {trò chơi}}",
 		"noResults": "Không có kết quả",
-		"filterApplied": "Đã lọc bởi {count} nhà cung cấp",
+		"filterApplied": "Đã lọc theo {count} {count, plural, one {nhà cung cấp} other {nhà cung cấp}}",
 		"suggestions": {
 			"category": "Danh mục",
 			"provider": "Nhà cung cấp"
@@ -358,7 +358,7 @@
 			"providers": "Nhà cung cấp"
 		},
 		"results": {
-			"found": "Đã tìm thấy {games} trò chơi, {categories} danh mục, và {providers} nhà cung cấp"
+			"found": "Tìm thấy {games} trò chơi, {categories} danh mục, và {providers} nhà cung cấp"
 		},
 		"gameTypes": {
 			"blackjack": "Blackjack",
@@ -381,9 +381,9 @@
 		"searchPlaceholderGeneric": "Tìm kiếm...",
 		"providersDropdown": {
 			"title": "Nhà cung cấp",
-			"selected": "đã chọn {count}",
-			"searchPlaceholder": "Tìm kiếm nhà cung cấp...",
-			"empty": "Không tìm thấy nhà cung cấp nào.",
+			"selected": "Đã chọn {count}",
+			"searchPlaceholder": "Tìm nhà cung cấp...",
+			"empty": "Không tìm thấy nhà cung cấp.",
 			"clear": "Xóa bộ lọc nhà cung cấp"
 		},
 		"category": {
@@ -391,8 +391,8 @@
 		},
 		"view": {
 			"toggleAria": "Chuyển đổi chế độ xem",
-			"gridAria": "Chế độ xem lưới",
-			"listAria": "Chế độ xem danh sách"
+			"gridAria": "Xem lưới",
+			"listAria": "Xem danh sách"
 		},
 		"loadMore": "Tải thêm"
 	},
@@ -403,20 +403,20 @@
 		"clear": "Xóa"
 	},
 	"home": {
-		"topProviders": "Nhà cung cấp trò chơi hàng đầu"
+		"topProviders": "Nhà cung cấp game hàng đầu"
 	},
 	"lobby": {
 		"yourFavorites": "Mục yêu thích của bạn",
-		"featuredCasinoGames": "Trò chơi Casino nổi bật",
-		"hotPicks": "Lựa chọn hot",
-		"slots": "Slots",
+		"featuredCasinoGames": "Game Casino nổi bật",
+		"hotPicks": "Lựa chọn Hot",
+		"slots": "Nổ hũ",
 		"sports": "Thể thao",
 		"realTimeScoreboard": "Bảng điểm thời gian thực"
 	},
 	"affiliate": {
 		"title": "Chương trình Thưởng giới thiệu",
-		"loginPromptTitle": "Chương trình giới thiệu",
-		"loginPromptSubtitle": "Đăng nhập để xem thống kê giới thiệu, tiền thưởng và nhận phần thưởng của bạn.",
+		"loginPromptTitle": "Chương trình Giới thiệu",
+		"loginPromptSubtitle": "Đăng nhập để xem thống kê giới thiệu, tiền thưởng và nhận phần thưởng.",
 		"goHome": "Về trang chủ",
 		"tabs": {
 			"dashboard": "Bảng điều khiển",
@@ -425,119 +425,119 @@
 		},
 		"refresh": "Làm mới",
 		"refreshing": "Đang làm mới...",
-		"refreshAllSuccess": "Tất cả dữ liệu đã được làm mới thành công!",
-		"refreshPartial": "Đã làm mới một phần: {success}/{total} mục đã được cập nhật",
+		"refreshAllSuccess": "Đã làm mới tất cả dữ liệu thành công!",
+		"refreshPartial": "Làm mới một phần: {success}/{total} phần đã cập nhật",
 		"refreshFailed": "Không thể làm mới dữ liệu. Vui lòng thử lại.",
 		"dashboard": {
-			"title": "Bảng điều khiển liên kết",
-			"subtitle": "Theo dõi các lượt giới thiệu, thu nhập và hiệu suất hoa hồng của bạn",
+			"title": "Bảng điều khiển Đại lý",
+			"subtitle": "Theo dõi giới thiệu, thu nhập và hiệu suất hoa hồng của bạn",
 			"performanceOverview": "Tổng quan hiệu suất",
 			"referralManagement": "Quản lý giới thiệu",
-			"termsAndCommission": "Điều khoản & Cơ cấu hoa hồng",
+			"termsAndCommission": "Điều khoản & Cấu trúc hoa hồng",
 			"unclaimedEarnings": "Thu nhập chưa nhận",
 			"claim": "Nhận",
 			"claiming": "Đang nhận...",
 			"totalIncome": "Tổng thu nhập",
 			"claimButtonTitle": "Nhận thưởng",
-			"totalReferrals": "Tổng số lượt giới thiệu",
+			"totalReferrals": "Tổng giới thiệu",
 			"usersUnit": "người dùng",
 			"yourReferralLinks": "Liên kết giới thiệu của bạn",
 			"referralLinksSubtitle": "Chia sẻ các liên kết này để giới thiệu người dùng mới và kiếm hoa hồng",
 			"completeReferralLink": "Liên kết giới thiệu đầy đủ",
 			"fullReferralPlaceholder": "Liên kết giới thiệu đầy đủ sẽ xuất hiện ở đây",
-			"fullReferralHelp": "Liên kết trực tiếp mà người dùng có thể nhấp để đăng ký bằng mã giới thiệu của bạn",
+			"fullReferralHelp": "Liên kết trực tiếp mà người dùng có thể nhấp vào để đăng ký với mã giới thiệu của bạn",
 			"referralCodeOnly": "Chỉ mã giới thiệu",
-			"yourReferralId": "Mã giới thiệu của bạn",
-			"referralIdHelp": "Chia sẻ mã này để người dùng nhập thủ công trong quá trình đăng ký",
-			"copyFullSuccess": "Đã sao chép liên kết giới thiệu đầy đủ vào khay nhớ tạm!",
-			"copyIdSuccess": "Đã sao chép mã giới thiệu vào khay nhớ tạm!"
+			"yourReferralId": "ID giới thiệu của bạn",
+			"referralIdHelp": "Chia sẻ mã này để người dùng nhập thủ công khi đăng ký",
+			"copyFullSuccess": "Đã sao chép liên kết giới thiệu đầy đủ vào bộ nhớ tạm!",
+			"copyIdSuccess": "Đã sao chép ID giới thiệu vào bộ nhớ tạm!"
 		},
 		"referrals": {
-			"title": "Những người được tôi giới thiệu",
-			"subtitle": "Theo dõi và quản lý tất cả người dùng được giới thiệu qua liên kết liên kết của bạn",
-			"totalReferrals": "tổng số lượt giới thiệu",
-			"monitorHelp": "Theo dõi hoạt động, tiền gửi và các mẫu chơi game của những người bạn giới thiệu",
+			"title": "Giới thiệu của tôi",
+			"subtitle": "Theo dõi và quản lý tất cả người dùng được giới thiệu qua liên kết đại lý của bạn",
+			"totalReferrals": "tổng giới thiệu",
+			"monitorHelp": "Giám sát hoạt động, tiền nạp và mô hình chơi game của người được giới thiệu",
 			"sort": {
 				"placeholder": "Sắp xếp theo...",
 				"nicknameAsc": "Biệt danh (A-Z)",
 				"nicknameDesc": "Biệt danh (Z-A)",
-				"lastLogin": "Lần đăng nhập cuối",
+				"lastLogin": "Đăng nhập lần cuối",
 				"unclaimedAmount": "Số tiền chưa nhận"
 			},
 			"table": {
 				"nickname": "Biệt danh",
 				"totalWager": "Tổng cược",
-				"lastLogin": "Lần đăng nhập cuối",
+				"lastLogin": "Đăng nhập lần cuối",
 				"registered": "Đã đăng ký",
-				"lastDeposit": "Lần nạp cuối",
-				"depositDate": "Ngày nạp tiền",
-				"tier": "Cấp"
+				"lastDeposit": "Nạp lần cuối",
+				"depositDate": "Ngày nạp",
+				"tier": "Cấp độ"
 			},
 			"empty": {
-				"title": "Không tìm thấy người được giới thiệu nào",
+				"title": "Không tìm thấy giới thiệu nào",
 				"subtitle": "Bắt đầu giới thiệu người dùng để thấy họ ở đây."
 			},
 			"pagination": {
-				"showing": "Hiển thị {from} đến {to} của {total} kết quả",
+				"showing": "Hiển thị {from} đến {to} trong tổng số {total} kết quả",
 				"prev": "Trước",
 				"next": "Sau"
 			}
 		},
 		"rates": {
-			"title": "Cấu trúc tỷ lệ hoa hồng",
-			"subtitle": "Tỷ lệ phần trăm thu nhập theo cấp bậc và danh mục trò chơi",
+			"title": "Cấu trúc Tỷ lệ Hoa hồng",
+			"subtitle": "Tỷ lệ phần trăm thu nhập theo cấp độ và danh mục trò chơi",
 			"overview": {
 				"title": "Tổng quan",
-				"body": "Thưởng giới thiệu thưởng cho các đơn vị liên kết dựa trên doanh thu cược từ những người chơi được giới thiệu trong Slots, Live Casino, Sportsbooks và Lottery. Hoa hồng được tính toán mỗi 24 giờ, với thu nhập dựa trên các cấp độ doanh thu khác nhau."
+				"body": "Thưởng giới thiệu thưởng cho các đại lý dựa trên doanh thu cược từ người chơi được giới thiệu trong Slot, Casino Trực tiếp, Thể thao và Xổ số. Hoa hồng được tính mỗi 24 giờ, với thu nhập dựa trên các mức doanh thu khác nhau."
 			},
 			"calculation": {
 				"title": "Cách tính hoa hồng",
-				"desc": "Hoa hồng được tính toán mỗi 24 giờ dựa trên tổng số tiền cược của những người chơi được giới thiệu. \nVí dụ:",
+				"desc": "Hoa hồng được tính mỗi 24 giờ dựa trên tổng cược của người chơi được giới thiệu. \nVí dụ:",
 				"exampleTitle": "Cấp {tier}:",
 				"wagerIn": "Cược {amount} trong {gameType}"
 			},
 			"table": {
-				"tierLevel": "Cấp bậc",
+				"tierLevel": "Cấp độ",
 				"wagerRange": "Phạm vi cược",
-				"slots": "Slots",
-				"liveCasino": "Live Casino",
+				"slots": "Slot",
+				"liveCasino": "Casino Trực tiếp",
 				"sports": "Thể thao",
 				"tierPrefix": "CẤP",
 				"commissionLevel": "Mức hoa hồng",
 				"dailyWager": "Khối lượng cược hàng ngày"
 			},
 			"claim": {
-				"title": "Nhận và rút tiền",
+				"title": "Nhận và Rút tiền",
 				"points": {
-					"0": "Hoa hồng có sẵn để rút ngay sau khi được tính toán.",
-					"1": "Không có ngày hết hạn đối với hoa hồng chưa nhận—chúng sẽ tích lũy cho đến khi được nhận.",
-					"2": "Việc rút tiền tuân theo các quy tắc tiêu chuẩn của nền tảng, chẳng hạn như giới hạn tối thiểu và thời gian xử lý."
+					"0": "Hoa hồng có thể rút sau khi được tính toán.",
+					"1": "Không có thời hạn cho hoa hồng chưa nhận—chúng sẽ tích lũy cho đến khi được nhận.",
+					"2": "Rút tiền tuân theo các quy tắc tiêu chuẩn của nền tảng, chẳng hạn như giới hạn tối thiểu và thời gian xử lý."
 				}
 			},
 			"system": {
-				"title": "Thời gian và hoạt động của hệ thống",
+				"title": "Thời gian hệ thống và Hoạt động",
 				"dailyTimeframeLabel": "Khung thời gian hàng ngày:",
 				"dailyTimeframeValue": "00:00 UTC đến 23:59 UTC (mỗi ngày).",
 				"claimDailyLabel": "Nhận hàng ngày:",
-				"claimDailyValue": "Có sẵn hàng ngày vào lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
-				"note": "Lưu ý: Mặc dù chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
+				"claimDailyValue": "Có sẵn hàng ngày lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
+				"note": "Lưu ý: Mặc dù chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo giờ UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
 			},
 			"amendments": {
 				"title": "Sửa đổi",
-				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào. Các thay đổi có hiệu lực ngay khi được đăng, và việc tiếp tục tham gia có nghĩa là bạn chấp nhận các điều khoản mới."
+				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào. Các thay đổi có hiệu lực ngay lập tức khi đăng tải, và việc tiếp tục tham gia có nghĩa là bạn chấp nhận các điều khoản mới."
 			},
 			"footer": {
 				"schedule": "Lịch trình hoa hồng:",
-				"availableDaily": "Có sẵn hàng ngày vào lúc",
+				"availableDaily": "Có sẵn hàng ngày lúc",
 				"localTimeLabel": "(Giờ địa phương của bạn: {time})"
 			}
 		},
 		"calculator": {
-			"title": "Máy tính thu nhập",
-			"subtitle": "Ước tính thu nhập hoa hồng của bạn dựa trên số tiền cược của những người bạn giới thiệu",
+			"title": "Máy tính Thu nhập",
+			"subtitle": "Ước tính thu nhập hoa hồng của bạn dựa trên số tiền cược của người được giới thiệu",
 			"interactive": {
 				"title": "Công cụ tương tác:",
-				"body": "Nhập các số tiền cược khác nhau để xem thu nhập tiềm năng trên tất cả các cấp"
+				"body": "Nhập các số tiền cược khác nhau để xem thu nhập tiềm năng ở tất cả các cấp"
 			},
 			"potentialEarnings": "Thu nhập tiềm năng",
 			"basedOnRate": "Dựa trên tỷ lệ hoa hồng {percentage}%",
@@ -551,163 +551,163 @@
 		}
 	},
 	"bonus": {
-		"title": "Chương trình thưởng doanh thu",
-		"loginPromptTitle": "Chương trình thưởng doanh thu",
-		"loginPromptSubtitle": "Đăng nhập để xem thống kê tiền thưởng của bạn và nhận phần thưởng.",
+		"title": "Chương trình Thưởng Doanh thu",
+		"loginPromptTitle": "Chương trình Thưởng Doanh thu",
+		"loginPromptSubtitle": "Đăng nhập để xem thống kê tiền thưởng và nhận phần thưởng của bạn.",
 		"goHome": "Về trang chủ",
 		"tabs": {
 			"dashboard": "Bảng điều khiển",
-			"claims": "Lượt nhận",
+			"claims": "Lịch sử nhận",
 			"rates": "Tỷ lệ thưởng",
 			"calculator": "Máy tính"
 		},
 		"refresh": "Làm mới",
 		"refreshing": "Đang làm mới...",
-		"refreshAllSuccess": "Tất cả dữ liệu đã được làm mới thành công!",
-		"refreshPartial": "Đã làm mới một phần: {success}/{total} mục đã được cập nhật",
+		"refreshAllSuccess": "Đã làm mới tất cả dữ liệu thành công!",
+		"refreshPartial": "Làm mới một phần: {success}/{total} phần đã cập nhật",
 		"refreshFailed": "Không thể làm mới dữ liệu. Vui lòng thử lại.",
 		"dashboard": {
-			"title": "Bảng điều khiển thưởng",
-			"subtitle": "Theo dõi các cược, tiền thưởng và thu nhập phần thưởng của bạn",
+			"title": "Bảng điều khiển Thưởng",
+			"subtitle": "Theo dõi cược, tiền thưởng và thu nhập phần thưởng của bạn",
 			"claimButtonTitle": "Nhận",
-			"performanceOverview": "Tổng quan thưởng",
-			"bonusRatesTitle": "Cấu trúc tỷ lệ thưởng",
-			"totalIncome": "Tổng thưởng",
-			"pendingBonus": "Thưởng đang chờ",
+			"performanceOverview": "Tổng quan Thưởng",
+			"bonusRatesTitle": "Cấu trúc Tỷ lệ Thưởng",
+			"totalIncome": "Tổng Tiền Thưởng",
+			"pendingBonus": "Tiền thưởng đang chờ",
 			"lastClaim": "Lần nhận cuối",
 			"unclaimedEarnings": "Có sẵn để nhận",
 			"claim": {
-				"title": "Nhận và rút tiền",
+				"title": "Nhận và Rút tiền",
 				"points": {
-					"0": "Hoa hồng có sẵn để rút ngay sau khi được tính toán.",
-					"1": "Không có ngày hết hạn đối với hoa hồng chưa nhận—chúng sẽ tích lũy cho đến khi được nhận.",
-					"2": "Việc rút tiền tuân theo các quy tắc tiêu chuẩn của nền tảng, chẳng hạn như giới hạn tối thiểu và thời gian xử lý."
+					"0": "Hoa hồng có thể rút sau khi được tính toán.",
+					"1": "Không có thời hạn cho hoa hồng chưa nhận—chúng sẽ tích lũy cho đến khi được nhận.",
+					"2": "Rút tiền tuân theo các quy tắc tiêu chuẩn của nền tảng, chẳng hạn như giới hạn tối thiểu và thời gian xử lý."
 				}
 			},
 			"claiming": "Đang nhận...",
 			"section2": {
-				"title": "Điều kiện tham gia",
+				"title": "Điều kiện",
 				"content": "Để tham gia:"
 			},
 			"section3": {
-				"title": "Các cấp độ và tỷ lệ doanh thu",
+				"title": "Cấp độ Doanh thu và Tỷ lệ",
 				"content": "Tiền thưởng được tính dựa trên số tiền cược hàng ngày của bạn:",
 				"noteTitle": "Lưu ý",
-				"noteContent": "Các cấp độ được đánh giá hàng ngày vào lúc 14:00 UTC. Khối lượng cược của ngày hôm trước sẽ quyết định tỷ lệ thưởng của ngày hôm nay. Tỷ lệ áp dụng cho tất cả các loại trò chơi: Slots, Live Casino và Sports."
+				"noteContent": "Các cấp độ được đánh giá hàng ngày lúc 14:00 UTC. Khối lượng cược của ngày hôm trước xác định tỷ lệ thưởng của ngày hôm nay. Tỷ lệ áp dụng cho tất cả các loại trò chơi: Slot, Casino Trực tiếp và Thể thao."
 			}
 		},
 		"claims": {
 			"title": "Lịch sử nhận thưởng",
-			"subtitle": "Theo dõi các lần nhận thưởng và hoạt động cá cược của bạn",
+			"subtitle": "Theo dõi các lần nhận thưởng và hoạt động cược của bạn",
 			"tableHeaders": {
 				"date": "Ngày cược",
-				"slots": "Slots",
-				"liveCasino": "Live Casino",
+				"slots": "Slot",
+				"liveCasino": "Casino Trực tiếp",
 				"sports": "Thể thao",
-				"total": "Tổng cộng",
+				"total": "Tổng",
 				"tier": "Cấp",
 				"unclaimed": "Chưa nhận",
 				"token": "Token"
 			},
 			"tierPrefix": "Cấp",
 			"availableToClaim": "Có sẵn để nhận",
-			"totalBonus": "Tổng thưởng",
+			"totalBonus": "Tổng Tiền Thưởng",
 			"claimed": "Đã nhận",
-			"progressPercentage": "Tiến trình",
-			"progressTitle": "Tiến trình của bạn",
+			"progressPercentage": "Tiến độ",
+			"progressTitle": "Tiến độ của bạn",
 			"currentTier": "Cấp hiện tại",
 			"nextTier": "Cấp tiếp theo",
-			"wagerProgress": "Tiến trình cược",
-			"totalWagered": "Tổng đã cược hôm nay",
+			"wagerProgress": "Tiến độ cược",
+			"totalWagered": "Tổng cược hôm nay",
 			"toNextTier": "để đạt cấp tiếp theo",
 			"empty": {
-				"title": "Chưa có lượt nhận thưởng nào",
-				"subtitle": "Bắt đầu chơi để nhận thưởng!"
+				"title": "Chưa có lịch sử nhận thưởng",
+				"subtitle": "Bắt đầu chơi để kiếm tiền thưởng!"
 			}
 		},
 		"rates": {
-			"title": "Các cấp độ và tỷ lệ doanh thu",
-			"subtitle": "Tỷ lệ phần trăm thưởng theo cấp độ cược và danh mục trò chơi",
+			"title": "Cấp độ Doanh thu và Tỷ lệ",
+			"subtitle": "Phần trăm thưởng theo mức cược và danh mục trò chơi",
 			"overview": {
 				"title": "Tổng quan",
-				"body": "Thưởng doanh thu thưởng cho người dùng dựa trên các cược của họ trong Slot, Live Casino, Sportsbook và Lottery. Tiền thưởng được tính toán mỗi 24 giờ, và người dùng có thể nhận chúng vào ngày hôm sau sau khi đặt cược. Có bảy cấp độ, mỗi cấp độ có các tỷ lệ khác nhau tùy thuộc vào số tiền cược."
+				"body": "Thưởng Doanh thu thưởng cho người dùng dựa trên cược của họ trong Slot, Casino Trực tiếp, Thể thao và Xổ số. Tiền thưởng được tính mỗi 24 giờ và người dùng có thể nhận chúng vào ngày hôm sau sau khi cược. Có bảy cấp độ, mỗi cấp độ có tỷ lệ khác nhau tùy thuộc vào số tiền cược."
 			},
 			"eligibility": {
-				"title": "Điều kiện tham gia",
+				"title": "Điều kiện",
 				"content": "Để tham gia:",
 				"points": {
-					"0": "Bạn phải có một tài khoản đang hoạt động.",
-					"1": "Đặt cược trong Slot, Live Casino, Sportsbook và Lottery.",
-					"2": "Đáp ứng các yêu cầu cược tối thiểu cho mỗi cấp độ."
+					"0": "Bạn phải có tài khoản đang hoạt động.",
+					"1": "Đặt cược trong Slot, Casino Trực tiếp, Thể thao và Xổ số.",
+					"2": "Đáp ứng yêu cầu cược tối thiểu cho mỗi cấp độ."
 				}
 			},
 			"calculation": {
 				"title": "Cách tính tiền thưởng",
-				"desc": "Tiền thưởng được tính toán mỗi 24 giờ dựa trên tổng số tiền cược của bạn. Ví dụ:",
+				"desc": "Tiền thưởng được tính mỗi 24 giờ dựa trên tổng cược của bạn. Ví dụ:",
 				"exampleTitle": "Cấp {tier}:",
 				"wagerIn": "Cược {amount} trong {gameType}"
 			},
 			"table": {
-				"tierLevel": "Cấp bậc",
+				"tierLevel": "Cấp độ",
 				"wagerRange": "Phạm vi cược",
-				"slots": "Slots",
-				"liveCasino": "Live Casino",
+				"slots": "Slot",
+				"liveCasino": "Casino Trực tiếp",
 				"sports": "Thể thao",
 				"tierPrefix": "CẤP",
-				"commissionLevel": "Mức thưởng",
+				"commissionLevel": "Mức Thưởng",
 				"dailyWager": "Khối lượng cược hàng ngày"
 			},
 			"claim": {
-				"title": "Nhận và rút tiền thưởng",
+				"title": "Nhận và Rút tiền Thưởng",
 				"points": {
-					"0": "Tiền thưởng đủ điều kiện để nhận sau 24 giờ kể từ khi đặt cược.",
+					"0": "Tiền thưởng đủ điều kiện nhận 24 giờ sau khi cược.",
 					"1": "Tiền thưởng chưa nhận sẽ tích lũy và không hết hạn.",
 					"2": "Quy trình nhận và rút tiền có thể thay đổi tùy theo chính sách cụ thể của nền tảng."
 				}
 			},
 			"system": {
-				"title": "Thời gian và hoạt động của hệ thống",
+				"title": "Thời gian hệ thống và Hoạt động",
 				"dailyTimeframeLabel": "Khung thời gian hàng ngày:",
 				"dailyTimeframeValue": "00:00 UTC đến 23:59 UTC (mỗi ngày).",
 				"claimDailyLabel": "Nhận hàng ngày:",
-				"claimDailyValue": "Có sẵn hàng ngày vào lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
-				"note": "Lưu ý: mặc dù chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
+				"claimDailyValue": "Có sẵn hàng ngày lúc 14:00 UTC (Giờ địa phương của bạn: {local}).",
+				"note": "Lưu ý: mặc dù chúng tôi làm việc với các nhà cung cấp từ các múi giờ khác nhau, tất cả các tính toán đều tuân theo giờ UTC để đảm bảo tính nhất quán và tránh nhầm lẫn."
 			},
 			"amendments": {
-				"title": "Sửa đổi và loại trừ",
-				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào, và các thay đổi sẽ có hiệu lực ngay khi được đăng. Nếu nghi ngờ có lỗi hệ thống, tính toán sai, hoặc gian lận, chúng tôi có quyền điều chỉnh hoặc loại trừ tiền thưởng và tài khoản khi cần thiết để đảm bảo sự công bằng."
+				"title": "Sửa đổi và Mất quyền",
+				"body": "Chúng tôi có thể cập nhật các điều khoản này bất cứ lúc nào và các thay đổi sẽ có hiệu lực khi đăng tải. Nếu nghi ngờ lỗi hệ thống, tính toán sai hoặc gian lận, chúng tôi có quyền điều chỉnh hoặc tước quyền nhận thưởng và tài khoản khi cần thiết để đảm bảo công bằng."
 			},
 			"footer": {
 				"schedule": "Lịch trình thưởng:",
-				"availableDaily": "Có sẵn hàng ngày vào lúc",
+				"availableDaily": "Có sẵn hàng ngày lúc",
 				"localTimeLabel": "(Giờ địa phương của bạn: {time})"
 			}
 		},
 		"calculator": {
-			"title": "Máy tính thưởng",
-			"subtitle": "Ước tính thu nhập thưởng của bạn dựa trên số tiền cược của bạn",
+			"title": "Máy tính Thưởng",
+			"subtitle": "Ước tính thu nhập thưởng của bạn dựa trên số tiền cược",
 			"interactive": {
 				"title": "Công cụ tương tác:",
-				"body": "Nhập các số tiền cược khác nhau để xem các khoản thưởng tiềm năng trên tất cả các cấp"
+				"body": "Nhập các số tiền cược khác nhau để xem tiền thưởng tiềm năng ở tất cả các cấp"
 			},
-			"potentialEarnings": "Thưởng tiềm năng",
+			"potentialEarnings": "Tiền thưởng tiềm năng",
 			"basedOnRate": "Dựa trên tỷ lệ thưởng {percentage}%",
 			"tier": "Cấp {level}",
-			"commissionLevel": "Mức thưởng {level}",
+			"commissionLevel": "Mức Thưởng {level}",
 			"enterWager": "Nhập số tiền cược (USD)",
 			"wagerPlaceholder": "ví dụ: 1000",
 			"calcFor": "Đang tính thưởng cho cược ${amount}",
-			"totalPotential": "Tổng thưởng tiềm năng:",
+			"totalPotential": "Tổng Tiền Thưởng Tiềm Năng:",
 			"combinedAtTier": "Thưởng kết hợp từ tất cả các loại trò chơi ở Cấp {level}"
 		},
 		"claimSuccessModal": {
 			"title": "Nhận thưởng thành công",
-			"statusCompleted": "Đã hoàn thành",
-			"statusOnChain": "Trên chuỗi",
+			"statusCompleted": "Hoàn thành",
+			"statusOnChain": "On-Chain",
 			"claimAmount": "Số tiền nhận",
 			"logoAlt": "Logo {siteName}",
 			"backgroundAlt": "Nền nhận thưởng thành công",
-			"creatingMagic": "Đang tạo ra phép màu...",
+			"creatingMagic": "Đang tạo phép màu...",
 			"downloadShare": "Tải xuống & Chia sẻ",
 			"spreadTheWin": "LAN TỎA CHIẾN THẮNG",
 			"socialX": "X",
@@ -716,65 +716,65 @@
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "Thêm",
-			"shareText": "Tôi vừa nhận được {amount} tiền thưởng! Tham gia cùng tôi tại: {url}",
+			"shareText": "Tôi vừa nhận {amount} tiền thưởng! Tham gia cùng tôi: {url}",
 			"referralLinkCopied": "Đã sao chép liên kết giới thiệu!",
-			"referralLinkCopyFailed": "Không thể sao chép liên kết giới thiệu",
-			"screenshotFailed": "Không thể chụp ảnh màn hình. Vui lòng thử lại hoặc sử dụng một trình duyệt khác.",
-			"shareTextCopied": "Đã sao chép văn bản chia sẻ vào khay nhớ tạm!",
-			"shareFailed": "Không thể chia sẻ. Vui lòng thử lại."
+			"referralLinkCopyFailed": "Sao chép liên kết giới thiệu thất bại",
+			"screenshotFailed": "Chụp màn hình thất bại. Vui lòng thử lại hoặc sử dụng trình duyệt khác.",
+			"shareTextCopied": "Đã sao chép văn bản chia sẻ vào bộ nhớ tạm!",
+			"shareFailed": "Chia sẻ thất bại. Vui lòng thử lại."
 		}
 	},
 	"debug": {
-		"title": "Trang gỡ lỗi"
+		"title": "Trang Gỡ lỗi"
 	},
 	"getLobby": {
 		"enteringLobby": "Đang vào sảnh...",
 		"connectingWait": "Vui lòng đợi trong khi chúng tôi kết nối bạn.",
-		"invalidSession": "Phiên của bạn không hợp lệ hoặc nhà cung cấp bị thiếu. Vui lòng thử lại.",
+		"invalidSession": "Phiên của bạn không hợp lệ hoặc thiếu nhà cung cấp. Vui lòng thử lại.",
 		"failedPrefix": "Không thể vào sảnh: {message}",
 		"launchFailedTitle": "Khởi chạy thất bại",
-		"returnHome": "Quay về trang chủ"
+		"returnHome": "Về trang chủ"
 	},
 	"play": {
-		"connecting": "Đang kết nối đến máy chủ trò chơi...",
+		"connecting": "Đang kết nối máy chủ trò chơi...",
 		"invalidSession": "Phiên của bạn không hợp lệ hoặc đã hết hạn. Vui lòng đăng nhập và thử lại.",
 		"launchFailedTitle": "Khởi chạy thất bại",
-		"returnHome": "Quay về trang chủ"
+		"returnHome": "Về trang chủ"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "ƯU ĐÃI CÓ HẠN",
-		"headline": "Nhận 200% Thưởng chào mừng!",
-		"subheadline": "Kết nối ví crypto của bạn ngay bây giờ và nhận tới {amount} tiền thưởng cho lần nạp đầu tiên!",
-		"featureDepositMatch": "Khớp nạp 200%",
-		"featureZeroFees": "Không phí giao dịch",
-		"featureInstantWithdrawals": "Rút tiền tức thì",
-		"featureNoKyc": "Không yêu cầu KYC",
+		"headline": "Nhận 200% Thưởng Chào Mừng!",
+		"subheadline": "Kết nối ví crypto của bạn ngay và nhận tới {amount} tiền thưởng cho khoản nạp đầu tiên!",
+		"featureDepositMatch": "Thưởng 200% Khoản Nạp",
+		"featureZeroFees": "Phí Giao Dịch Bằng Không",
+		"featureInstantWithdrawals": "Rút Tiền Tức Thì",
+		"featureNoKyc": "Không Cần KYC",
 		"ctaClaim": "NHẬN THƯỞNG NGAY!",
 		"offerExpires": "Ưu đãi hết hạn sau:",
-		"disclaimer": "Áp dụng Điều khoản & Điều kiện. Cờ bạc có rủi ro. Chơi có trách nhiệm. 18+",
-		"closeAria": "Đóng cửa sổ",
-		"bannerAlt": "Biểu ngữ quảng cáo",
-		"ctaOk": "Kết nối ví & Bắt đầu cược",
-		"enterAmount": "Nhập số tiền",
-		"balance": "Số dư",
-		"max": "Tối đa",
-		"deposit": "Nạp tiền",
+		"disclaimer": "Áp dụng ĐK&ĐK. Cờ bạc có rủi ro. Chơi có trách nhiệm. 18+",
+		"closeAria": "Đóng hộp thoại",
+		"bannerAlt": "Banner Khuyến Mãi",
+		"ctaOk": "Kết Nối Ví & Bắt Đầu Cược",
+		"enterAmount": "Nhập Số Tiền",
+		"balance": "Số Dư",
+		"max": "Tối Đa",
+		"deposit": "Nạp Tiền",
 		"ethereum": "Ethereum"
 	},
 	"modalsSmall": {
 		"close": "Đóng",
-		"firstDepositBoost": "Thưởng nạp lần đầu",
+		"firstDepositBoost": "Tăng Cường Thưởng Nạp Đầu",
 		"bonus": "Thưởng",
 		"min": "Phút",
 		"sec": "Giây",
-		"deposit": "Nạp tiền"
+		"deposit": "Nạp Tiền"
 	},
 	"auth": {
 		"email": {
-			"title": "Đăng nhập bằng Email",
-			"description": "Chúng tôi sẽ gửi cho bạn một mã gồm 6 chữ số",
+			"title": "Đăng nhập Email",
+			"description": "Chúng tôi sẽ gửi mã 6 chữ số cho bạn",
 			"emailLabel": "Địa chỉ Email",
-			"emailPlaceholder": "name@email.com",
+			"emailPlaceholder": "ten@email.com",
 			"cancel": "Hủy",
 			"sending": "Đang gửi",
 			"continue": "Tiếp tục",
@@ -782,33 +782,33 @@
 			"sentTo": "Đã gửi đến {email}",
 			"changeEmail": "Đổi email",
 			"resendCode": "Gửi lại mã",
-			"resendIn": "Gửi lại sau {seconds} giây",
+			"resendIn": "Gửi lại sau {seconds}s",
 			"verifying": "Đang xác minh",
-			"successTitle": "Bạn đã vào được",
+			"successTitle": "Bạn đã đăng nhập",
 			"successSubtitle": "Đang thiết lập...",
-			"modalAria": "Cửa sổ xác minh email",
+			"modalAria": "Hộp thoại xác minh Email",
 			"errors": {
-				"invalidEmail": "Vui lòng nhập một địa chỉ email hợp lệ",
-				"sendFailed": "Không thể gửi mã xác minh.",
-				"invalidCode": "Vui lòng nhập mã xác minh gồm 6 chữ số"
+				"invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+				"sendFailed": "Gửi mã xác minh thất bại.",
+				"invalidCode": "Vui lòng nhập mã xác minh 6 chữ số"
 			}
 		},
 		"setNickname": {
-			"title": "Đặt biệt danh của bạn",
+			"title": "Đặt Biệt danh của bạn",
 			"subtitle": "Đây là thiết lập một lần và không thể thay đổi",
 			"logoutAria": "Đăng xuất",
 			"inputPlaceholder": "Chọn biệt danh độc đáo của bạn",
-			"referrerCheckbox": "Tôi có mã giới thiệu",
-			"referrerPlaceholder": "Nhập mã giới thiệu",
+			"referrerCheckbox": "Tôi có ID người giới thiệu",
+			"referrerPlaceholder": "Nhập ID người giới thiệu",
 			"referrerHelp": "Tùy chọn. Điều này liên kết tài khoản của bạn với người giới thiệu cho các chương trình thưởng.",
 			"status": {
-				"checking": "Đang kiểm tra tính khả dụng...",
-				"available": "Biệt danh có sẵn!",
+				"checking": "Đang kiểm tra...",
+				"available": "Biệt danh khả dụng!",
 				"taken": "Biệt danh này đã được sử dụng."
 			},
 			"register": "Đăng ký và Chơi",
 			"termsTitle": "Điều khoản & Điều kiện:",
-			"termsBody": "Bằng cách ký vào tài liệu này bằng Ví của bạn và/hoặc tiếp tục sử dụng Ứng dụng Web3 này, bạn chấp nhận các điều khoản sử dụng của ứng dụng. Việc ký chấp thuận Điều khoản sử dụng không phải là một giao dịch blockchain và không tốn chi phí.",
+			"termsBody": "Bằng cách ký tài liệu này bằng Ví của bạn và/hoặc tiếp tục sử dụng Ứng dụng Web3 này, bạn chấp nhận các điều khoản sử dụng của ứng dụng. Việc ký chấp thuận Điều khoản Sử dụng không phải là giao dịch blockchain và không tốn phí.",
 			"errors": {
 				"verifyNicknameFailed": "Không thể xác minh biệt danh. Vui lòng thử lại.",
 				"registerFailed": "Đăng ký thất bại: {message}"
@@ -816,13 +816,13 @@
 		},
 		"walletConnect": {
 			"loginWithEmail": "Đăng nhập bằng Email",
-			"connectWalletBtn": "Kết nối ví",
+			"connectWalletBtn": "Kết nối Ví",
 			"loginWithWallet": "Đăng nhập bằng Ví",
 			"player": "Người chơi",
-			"walletConnected": "Ví đã kết nối",
-			"emailConnected": "Email đã kết nối",
+			"walletConnected": "Đã kết nối Ví",
+			"emailConnected": "Đã kết nối Email",
 			"disconnect": "Ngắt kết nối",
-			"walletAddress": "Địa chỉ ví",
+			"walletAddress": "Địa chỉ Ví",
 			"balance": "Số dư"
 		}
 	},
@@ -850,17 +850,17 @@
 		"networkSelector": {
 			"placeholder": "Chọn mạng",
 			"switching": "Đang chuyển...",
-			"walletNotConnected": "Ví chưa được kết nối.",
-			"failedToSwitch": "Không thể chuyển mạng. Vui lòng thử từ ví của bạn.",
+			"walletNotConnected": "Chưa kết nối ví.",
+			"failedToSwitch": "Chuyển mạng thất bại. Vui lòng thử từ ví của bạn.",
 			"altLogo": "Logo mạng"
 		},
 		"tokenList": {
 			"dialogTitle": "Chọn một Token",
 			"instantDeposit": "Nạp tiền tức thì",
 			"yourWalletBalance": "Số dư ví của bạn",
-			"searchPlaceholder": "Tìm kiếm tên hoặc dán địa chỉ",
-			"emptySearch": "Không tìm thấy token nào phù hợp với tìm kiếm của bạn.",
-			"emptyOwned": "Không tìm thấy token nào có số dư.",
+			"searchPlaceholder": "Tìm tên hoặc dán địa chỉ",
+			"emptySearch": "Không tìm thấy token phù hợp.",
+			"emptyOwned": "Không tìm thấy token có số dư.",
 			"searchResults": "Kết quả tìm kiếm",
 			"yourTokens": "Token của bạn",
 			"otherResults": "Kết quả khác"
@@ -874,30 +874,30 @@
 		},
 		"depositPanel": {
 			"youPay": "Bạn trả",
-			"resetForm": "Đặt lại biểu mẫu",
+			"resetForm": "Đặt lại mẫu",
 			"enterAmount": "Nhập số tiền",
 			"selectToken": "Chọn token",
 			"max": "Tối đa",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được dành riêng để trang trải phí gas và tránh thất bại giao dịch",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được giữ lại để trả phí gas và tránh giao dịch thất bại",
 			"balance": "Số dư:",
-			"calculating": "Đang tính toán...",
+			"calculating": "Đang tính...",
 			"approxUsd": "~ ${amount} USD",
 			"minPrefix": "Tối thiểu:",
 			"ratesMayVary": "Tỷ giá có thể thay đổi",
-			"emailWalletAddress": "Địa chỉ ví Email",
-			"walletAddress": "Địa chỉ ví",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
 			"minimumIs": "Tối thiểu là {min}",
 			"errors": {
-				"selectTokenAndAmount": "Vui lòng chọn một token và nhập số tiền",
+				"selectTokenAndAmount": "Vui lòng chọn token và nhập số tiền",
 				"insufficientBalance": "Số dư không đủ cho giao dịch này",
 				"amountTooHighGas": "Số tiền quá cao khi tính cả phí gas",
-				"checkForm": "Vui lòng kiểm tra lại biểu mẫu và thử lại",
-				"pendingDeposit": "Bạn có một khoản nạp đang chờ xử lý. Vui lòng đợi cho đến khi nó hoàn tất"
+				"checkForm": "Vui lòng kiểm tra lại mẫu và thử lại",
+				"pendingDeposit": "Bạn có một khoản nạp đang chờ. Vui lòng đợi hoàn tất"
 			},
 			"status": {
 				"processing": "Đang xử lý...",
-				"awaitingApproval": "Đang chờ phê duyệt",
-				"calculatingRate": "Đang tính toán tỷ giá...",
+				"awaitingApproval": "Đang chờ duyệt",
+				"calculatingRate": "Đang tính tỷ giá...",
 				"insufficientBalance": "Số dư không đủ"
 			},
 			"buttons": {
@@ -906,27 +906,27 @@
 		},
 		"tipPanel": {
 			"youTip": "Bạn Tip",
-			"resetForm": "Đặt lại biểu mẫu",
+			"resetForm": "Đặt lại mẫu",
 			"enterAmount": "Nhập số tiền",
 			"selectToken": "Chọn token",
 			"minPrefix": "Tối thiểu",
 			"balance": "Số dư:",
 			"max": "Tối đa",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được dành riêng để trang trải phí gas và tránh thất bại giao dịch",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được giữ lại để trả phí gas và tránh giao dịch thất bại",
 			"approxUsd": "~ ${amount} USD",
-			"tipPanelWarningText": "Tiền tip là tự nguyện và không được hoàn lại.",
-			"emailWalletAddress": "Địa chỉ ví Email",
+			"tipPanelWarningText": "Tiền tip là tự nguyện và không hoàn lại.",
+			"emailWalletAddress": "Địa chỉ Ví Email",
 			"errors": {
-				"selectTokenAndAmount": "Vui lòng chọn một token và nhập số tiền.",
+				"selectTokenAndAmount": "Vui lòng chọn token và nhập số tiền.",
 				"insufficientBalance": "Số dư không đủ.",
 				"belowMinimum": "Số tiền phải ít nhất là {min}.",
-				"missingWallet": "Không thể tìm nạp ví tip. Vui lòng thử lại sau.",
+				"missingWallet": "Không thể lấy ví tip. Vui lòng thử lại sau.",
 				"checkForm": "Vui lòng xác minh chi tiết tip của bạn."
 			},
 			"status": {
 				"processing": "Đang gửi tip...",
-				"awaitingApproval": "Đang chờ phê duyệt...",
-				"calculatingRate": "Đang tính toán...",
+				"awaitingApproval": "Đang chờ duyệt...",
+				"calculatingRate": "Đang tính...",
 				"insufficientBalance": "Số dư không đủ",
 				"fetchingWallet": "Đang chuẩn bị ví tip..."
 			},
@@ -938,62 +938,62 @@
 				"tipUsd": "Tip ${amount}",
 				"tip": "Tip"
 			},
-			"minimumIs": "Tiền tip tối thiểu là {min}"
+			"minimumIs": "Tip tối thiểu là {min}"
 		},
 		"tipPending": {
-			"submittedTitle": "Đang chờ xử lý Tip",
+			"submittedTitle": "Tip đang chờ",
 			"submittedDesc": "Tiền tip của bạn đang được xác nhận trên chuỗi.",
-			"confirmedTitle": "Đã xác nhận Tip!",
-			"confirmedDesc": "Tiền tip của bạn đã được gửi thành công.",
-			"viewOnExplorer": "Xem trên trình khám phá",
-			"newTipPending": "Gửi một tip khác",
-			"newTipConfirmed": "Gửi một tip khác"
+			"confirmedTitle": "Tip đã xác nhận!",
+			"confirmedDesc": "Tip của bạn đã được gửi thành công.",
+			"viewOnExplorer": "Xem trên explorer",
+			"newTipPending": "Gửi tip khác",
+			"newTipConfirmed": "Gửi tip khác"
 		},
 		"swapPanel": {
 			"selectTokens": "Chọn token",
 			"enterAmount": "Nhập số tiền",
 			"gettingQuote": "Đang lấy báo giá...",
 			"confirming": "Đang xác nhận...",
-			"approving": "Đang phê duyệt...",
-			"insufficientBalance": "Số dư không đủ cho việc Hoán đổi",
+			"approving": "Đang duyệt...",
+			"insufficientBalance": "Số dư không đủ để Hoán đổi",
 			"sameToken": "Không thể hoán đổi cùng một token",
-			"approveAndSwap": "Phê duyệt & Hoán đổi",
+			"approveAndSwap": "Duyệt & Hoán đổi",
 			"swap": "Hoán đổi",
 			"slippageTolerance": "Dung sai trượt giá",
 			"custom": "Tùy chỉnh",
 			"set": "Đặt",
-			"currentSlippage": "Trượt giá hiện tại",
+			"currentSlippage": "Độ trượt giá hiện tại",
 			"swapSuccessful": "Hoán đổi thành công!",
 			"transactionConfirmed": "Giao dịch của bạn đã được gửi",
 			"hash": "Hash",
 			"newSwap": "Hoán đổi mới",
 			"youPay": "Bạn trả",
 			"max": "Tối đa",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được dành riêng để trang trải phí gas và tránh thất bại giao dịch",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} được giữ lại để trả phí gas và tránh giao dịch thất bại",
 			"low": "Thấp",
 			"amountPlaceholder": "0",
 			"selectToken": "Chọn Token",
-			"youReceive": "Bạn nhận được",
-			"gettingBestQuote": "Đang lấy báo giá tốt nhất...",
+			"youReceive": "Bạn nhận",
+			"gettingBestQuote": "Đang lấy giá tốt nhất...",
 			"gas": "Gas",
 			"minimumReceived": "Tối thiểu nhận được",
 			"slippageToleranceLabel": "Dung sai trượt giá",
 			"gasFee": "Phí gas",
-			"priceWarning": "Giá được cập nhật theo thời gian thực và có thể thay đổi trước khi giao dịch của bạn được xác nhận",
-			"emailWalletAddress": "Địa chỉ ví Email",
-			"walletAddress": "Địa chỉ ví",
+			"priceWarning": "Giá được cập nhật theo thời gian thực và có thể thay đổi trước khi giao dịch được xác nhận",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
 			"minimumIs": "Tối thiểu là {min}",
 			"errors": {
-				"selectTokenAndAmount": "Vui lòng chọn một token và nhập số tiền",
+				"selectTokenAndAmount": "Vui lòng chọn token và nhập số tiền",
 				"insufficientBalance": "Số dư không đủ cho giao dịch này",
 				"amountTooHighGas": "Số tiền quá cao khi tính cả phí gas",
-				"checkForm": "Vui lòng kiểm tra lại biểu mẫu và thử lại",
-				"pendingDeposit": "Bạn có một khoản nạp đang chờ xử lý. Vui lòng đợi cho đến khi nó hoàn tất"
+				"checkForm": "Vui lòng kiểm tra lại mẫu và thử lại",
+				"pendingDeposit": "Bạn có một khoản nạp đang chờ. Vui lòng đợi hoàn tất"
 			},
 			"status": {
 				"processing": "Đang xử lý...",
-				"awaitingApproval": "Đang chờ phê duyệt",
-				"calculatingRate": "Đang tính toán tỷ giá...",
+				"awaitingApproval": "Đang chờ duyệt",
+				"calculatingRate": "Đang tính tỷ giá...",
 				"insufficientBalance": "Số dư không đủ"
 			},
 			"buttons": {
@@ -1001,20 +1001,20 @@
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "Đã xác nhận nạp tiền!",
-			"submittedTitle": "Đã gửi giao dịch",
+			"confirmedTitle": "Nạp tiền đã xác nhận!",
+			"submittedTitle": "Giao dịch đã gửi",
 			"failedTitle": "Giao dịch thất bại",
 			"confirmedDesc": "Số dư của bạn đã được cập nhật.",
-			"submittedDesc": "Đang chờ xác nhận từ blockchain. Quá trình này có thể mất vài phút.",
+			"submittedDesc": "Đang chờ xác nhận blockchain. Quá trình này có thể mất vài phút.",
 			"failedDesc": "Giao dịch của bạn đã thất bại. Vui lòng thử lại.",
-			"viewOnExplorer": "Xem trên Trình khám phá",
-			"newDepositConfirmed": "Thực hiện một khoản nạp khác",
-			"newDepositPending": "Bắt đầu một khoản nạp mới",
+			"viewOnExplorer": "Xem trên Explorer",
+			"newDepositConfirmed": "Nạp thêm tiền",
+			"newDepositPending": "Bắt đầu nạp mới",
 			"newDepositFailed": "Thử lại"
 		},
 		"withdrawPanel": {
-			"resetForm": "Đặt lại biểu mẫu",
-			"networkNotSupported": "Việc rút tiền chỉ được hỗ trợ trên Arbitrum, Polygon, Optimism và BNB",
+			"resetForm": "Đặt lại mẫu",
+			"networkNotSupported": "Rút tiền chỉ được hỗ trợ trên Arbitrum, Polygon, Optimism và BNB",
 			"youWithdraw": "Bạn rút",
 			"loading": "Đang tải...",
 			"amount": "Số tiền",
@@ -1023,12 +1023,12 @@
 			"available": "Khả dụng:",
 			"insufficientBalance": "Số dư không đủ",
 			"minimumIs": "Tối thiểu là {min}",
-			"minLabel": "Tối thiểu:",
-			"calculating": "Đang tính toán",
-			"emailWalletAddress": "Địa chỉ ví Email",
-			"walletAddress": "Địa chỉ ví",
+			"minLabel": "Min:",
+			"calculating": "Đang tính",
+			"emailWalletAddress": "Địa chỉ Ví Email",
+			"walletAddress": "Địa chỉ Ví",
 			"errors": {
-				"pendingWithdrawal": "Bạn đã có một yêu cầu rút tiền đang chờ xử lý",
+				"pendingWithdrawal": "Bạn đã có một yêu cầu rút tiền đang chờ",
 				"invalidAddress": "Địa chỉ không hợp lệ",
 				"enterAmount": "Nhập số tiền",
 				"networkNotSupported": "Mạng không được hỗ trợ"
@@ -1036,7 +1036,7 @@
 			"status": {
 				"processing": "Đang xử lý...",
 				"insufficientBalance": "Số dư không đủ",
-				"pendingWithdrawal": "Đã có yêu cầu rút tiền đang chờ xử lý"
+				"pendingWithdrawal": "Đã có khoản rút đang chờ"
 			},
 			"buttons": {
 				"withdraw": "Rút {amount} {symbol}",
@@ -1045,32 +1045,32 @@
 		},
 		"withdrawSuccess": {
 			"title": "Rút tiền thành công!",
-			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ {siteName}! 🚀 Hãy tham gia chuỗi chiến thắng tại {shareUrl}",
+			"successMessage": "🎉 Vừa rút {withdrawAmount} {tokenSymbol} từ {siteName}! 🚀 Tham gia chuỗi thắng tại {shareUrl}",
 			"withdrawnAmount": "Số tiền đã rút",
 			"shareText": "Chia sẻ",
-			"subText": "🚀 THAM GIA CHUỖI CHIẾN THẮNG! 🚀",
+			"subText": "🚀 THAM GIA CHUỖI THẮNG! 🚀",
 			"generating": "Đang tạo...",
-			"screenshot": "Chụp ảnh màn hình",
-			"download": "Tải xuống hình ảnh",
+			"screenshot": "Chụp màn hình",
+			"download": "Tải ảnh",
 			"close": "Đóng",
 			"copiedToClipboard": "Đã sao chép liên kết chia sẻ thành công",
 			"userName": "Người chơi {siteName}",
-			"status": "Đã hoàn thành",
+			"status": "Hoàn thành",
 			"entryPrice": "Số tiền rút",
 			"lastPrice": "Ký hiệu Token",
 			"referralCode": "Mã giới thiệu",
-			"screenshotFailed": "Không thể chụp ảnh màn hình. Vui lòng thử lại hoặc sử dụng một trình duyệt khác.",
-			"shareFailed": "Không thể chia sẻ. Vui lòng thử lại."
+			"screenshotFailed": "Chụp màn hình thất bại. Vui lòng thử lại hoặc sử dụng trình duyệt khác.",
+			"shareFailed": "Chia sẻ thất bại. Vui lòng thử lại."
 		},
 		"withdrawPending": {
-			"confirmedTitle": "Đã xác nhận rút tiền!",
-			"submittedTitle": "Đã gửi giao dịch",
-			"confirmedDesc": "Tiền của bạn đang được gửi đến.",
-			"submittedDesc": "Đang chờ xác nhận từ blockchain...",
-			"viewOnExplorer": "Xem trên Trình khám phá",
-			"manualApproval": "Việc rút tiền này cần được phê duyệt thủ công.",
-			"newWithdrawalConfirmed": "Thực hiện một lần rút tiền khác",
-			"newWithdrawalPending": "Bắt đầu một lần rút tiền mới"
+			"confirmedTitle": "Rút tiền đã xác nhận!",
+			"submittedTitle": "Giao dịch đã gửi",
+			"confirmedDesc": "Tiền của bạn đang trên đường đến.",
+			"submittedDesc": "Đang chờ xác nhận blockchain...",
+			"viewOnExplorer": "Xem trên Explorer",
+			"manualApproval": "Khoản rút này cần được duyệt thủ công.",
+			"newWithdrawalConfirmed": "Rút thêm tiền",
+			"newWithdrawalPending": "Bắt đầu rút mới"
 		},
 		"withdrawSummary": {
 			"youWillReceive": "Bạn sẽ nhận được"
@@ -1088,35 +1088,35 @@
 		"playNow": "Chơi ngay",
 		"byProvider": "Bởi {name}",
 		"count": "{count} Trò chơi",
-		"noResults": "Không tìm thấy trò chơi nào phù hợp với tiêu chí của bạn.",
+		"noResults": "Không tìm thấy trò chơi phù hợp.",
 		"errorLoading": "Không thể tải trò chơi. Vui lòng thử lại sau.",
-		"slots": "Slots",
+		"slots": "Nổ hũ",
 		"sports": "Thể thao",
-		"liveCasino": "Casino trực tiếp",
+		"liveCasino": "Casino Trực tiếp",
 		"explore": "Khám phá",
-		"exploreSubtitle": "Khám phá những trải nghiệm chơi game tuyệt vời",
+		"exploreSubtitle": "Khám phá trải nghiệm chơi game tuyệt vời",
 		"poker": "Poker",
 		"lottery": "Xổ số",
 		"futures": "Hợp đồng tương lai",
 		"vr": "VR",
 		"swap": "Hoán đổi",
-		"slotsDescription": "Quay các cuộn và giành những giải jackpot khổng lồ",
-		"liveCasinoDescription": "Trải nghiệm hành động casino thời gian thực với các dealer trực tiếp",
-		"sportsDescription": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn",
-		"pokerDescription": "Kiểm tra kỹ năng của bạn trong các trò chơi poker cổ điển",
-		"lotteryDescription": "Thử vận may của bạn với các trò chơi xổ số và thắng ngay lập tức",
-		"futuresDescription": "Giao dịch và dự đoán các biến động của thị trường",
-		"vrDescription": "Đắm mình vào thế giới game thực tế ảo",
-		"swapDescription": "Trao đổi token và tiền điện tử một cách liền mạch",
+		"slotsDescription": "Quay guồng và thắng giải độc đắc lớn",
+		"liveCasinoDescription": "Trải nghiệm casino thời gian thực với người chia bài trực tiếp",
+		"sportsDescription": "Đặt cược vào các đội và sự kiện thể thao yêu thích",
+		"pokerDescription": "Thử thách kỹ năng trong các trò poker cổ điển",
+		"lotteryDescription": "Thử vận may với xổ số và trò chơi thắng ngay",
+		"futuresDescription": "Giao dịch và dự đoán biến động thị trường",
+		"vrDescription": "Đắm mình trong trò chơi thực tế ảo",
+		"swapDescription": "Trao đổi token và tiền điện tử liền mạch",
 		"categories": {
 			"slot": {
-				"title": "Trò chơi Slot"
+				"title": "Trò chơi Nổ hũ"
 			},
 			"liveCasino": {
-				"title": "Trò chơi Casino trực tiếp"
+				"title": "Trò chơi Casino Trực tiếp"
 			},
 			"sports": {
-				"title": "Trò chơi cá cược thể thao"
+				"title": "Trò chơi Cá cược Thể thao"
 			},
 			"rng": {
 				"title": "Trò chơi RNG"
@@ -1127,99 +1127,99 @@
 		}
 	},
 	"providers": {
-		"pageTitle": "Tất cả nhà cung cấp trò chơi",
-		"searchPlaceholder": "Tìm kiếm nhà cung cấp...",
-		"empty": "Không tìm thấy nhà cung cấp nào phù hợp với tìm kiếm của bạn.",
+		"pageTitle": "Tất cả nhà cung cấp game",
+		"searchPlaceholder": "Tìm nhà cung cấp...",
+		"empty": "Không tìm thấy nhà cung cấp phù hợp.",
 		"logoAlt": "Logo {name}",
-		"filteredBy": "Đã lọc theo danh mục:",
+		"filteredBy": "Lọc theo danh mục:",
 		"clearFilter": "Xóa bộ lọc",
 		"categories": {
 			"slot": {
-				"title": "Nhà cung cấp trò chơi Slot"
+				"title": "Nhà cung cấp Nổ hũ"
 			},
 			"liveCasino": {
-				"title": "Nhà cung cấp Casino trực tiếp"
+				"title": "Nhà cung cấp Casino Trực tiếp"
 			},
 			"sports": {
-				"title": "Nhà cung cấp cá cược thể thao"
+				"title": "Nhà cung cấp Cá cược Thể thao"
 			},
 			"rng": {
-				"title": "Nhà cung cấp trò chơi RNG"
+				"title": "Nhà cung cấp Game RNG"
 			},
 			"other": {
-				"title": "Nhà cung cấp trò chơi {category}"
+				"title": "Nhà cung cấp Game {category}"
 			}
 		}
 	},
 	"hero": {
 		"guest": {
-			"title": "Tham gia hành động",
+			"title": "Tham gia ngay",
 			"subtitle": "Đăng ký ngay và nhận thưởng chào mừng độc quyền!",
 			"cta": "Đăng ký ngay"
 		},
 		"welcome": {
-			"title1": "Thưởng chào mừng",
+			"title1": "Thưởng Chào Mừng",
 			"title2": "Lên đến 590%",
-			"subtitle": "+ 225 Vòng quay miễn phí",
-			"cta": "Nạp tiền & Nhận"
+			"subtitle": "+ 225 Vòng Quay Miễn Phí",
+			"cta": "Nạp & Nhận"
 		},
 		"jackpot": {
 			"title1": "Mega Jackpot",
 			"title2": "$1,000,000",
-			"subtitle": "Chơi ngay & Thắng lớn",
-			"cta": "Chơi ngay"
+			"subtitle": "Chơi Ngay & Thắng Lớn",
+			"cta": "Chơi Ngay"
 		},
 		"cards": {
 			"casino": {
 				"title": "Casino",
 				"badge": "590+ TRÒ CHƠI",
-				"desc": "Thưởng thức các trò chơi độc quyền của {siteName} và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"desc": "Thưởng thức {siteName} Originals và các trò chơi casino khác từ nhà cung cấp hàng đầu.",
 				"link": "Đến Casino"
 			},
 			"slots": {
-				"title": "Slots",
+				"title": "Nổ hũ",
 				"badge": "5292 TRÒ CHƠI",
-				"desc": "Quay các cuộn và giành những giải jackpot khổng lồ với bộ sưu tập slot cao cấp của chúng tôi.",
-				"link": "Đến Slots"
+				"desc": "Quay guồng và trúng giải độc đắc lớn với bộ sưu tập slot cao cấp.",
+				"link": "Đến Nổ hũ"
 			},
 			"sports": {
 				"title": "Thể thao",
 				"badge": "3 TRÒ CHƠI",
-				"desc": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn với tỷ lệ cược cạnh tranh.",
+				"desc": "Đặt cược vào đội yêu thích và sự kiện thể thao với tỷ lệ cược cạnh tranh.",
 				"link": "Đến Thể thao"
 			},
 			"crypto": {
 				"title": "Crypto & Kiếm tiền",
 				"badge": "60% APR",
-				"desc": "Stake, giao dịch và kiếm tiền với tiền điện tử với tỷ lệ hấp dẫn.",
+				"desc": "Staking, giao dịch và kiếm tiền với tiền điện tử ở mức lãi suất hấp dẫn.",
 				"link": "Đến Crypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Tiêu điểm trò chơi",
-			"headerSubtitle": "Khám phá những trò chơi tuyệt vời và khám phá những cuộc phiêu lưu mới trong bộ sưu tập được tuyển chọn của chúng tôi",
+			"headerTitle": "Tiêu điểm Trò chơi",
+			"headerSubtitle": "Khám phá các trò chơi tuyệt vời và những cuộc phiêu lưu mới trong bộ sưu tập tuyển chọn",
 			"slider1Title": "Trò chơi nổi bật",
-			"slider1Badge": "Lựa chọn của nhân viên",
+			"slider1Badge": "Nhân viên chọn",
 			"slider2Title": "Khám phá thêm",
 			"slider2Badge": "Thịnh hành",
 			"featuredGameLabel": "Trò chơi nổi bật"
 		},
-		"ctaExploreGames": "Khám phá trò chơi",
-		"ctaJoinAffiliate": "Tham gia liên kết"
+		"ctaExploreGames": "Khám phá Trò chơi",
+		"ctaJoinAffiliate": "Tham gia Đại lý"
 	},
 	"betting": {
 		"live": {
 			"winRate": "Tỷ lệ thắng",
-			"biggestWin": "Chiến thắng lớn nhất",
-			"bigWins50": "Chiến thắng lớn (50+)",
-			"recentWins": "Chiến thắng gần đây",
+			"biggestWin": "Thắng lớn nhất",
+			"bigWins50": "Thắng lớn (50+)",
+			"recentWins": "Thắng gần đây",
 			"header": {
-				"title": "Hoạt động cá cược trực tiếp",
-				"subtitle": "Hoạt động cá cược thời gian thực • đã tải {count} trò chơi"
+				"title": "Hoạt động cược trực tiếp",
+				"subtitle": "Hoạt động cược thời gian thực • đã tải {count} trò chơi"
 			},
 			"status": {
 				"live": "TRỰC TIẾP",
-				"paused": "Tạm dừng"
+				"paused": "Đã tạm dừng"
 			},
 			"actions": {
 				"pause": "Tạm dừng",
@@ -1236,107 +1236,107 @@
 				"provider": "Nhà cung cấp",
 				"nickname": "Biệt danh",
 				"bet": "Cược",
-				"multiplier": "Hệ số nhân",
+				"multiplier": "Hệ số",
 				"profit": "Lợi nhuận"
 			},
-			"empty": "Không tìm thấy bản ghi cá cược nào"
+			"empty": "Không tìm thấy hồ sơ cược"
 		}
 	},
 	"fontChanger": {
-		"changeFont": "Thay đổi phông chữ",
-		"fontSettings": "Cài đặt phông chữ",
+		"changeFont": "Đổi Phông chữ",
+		"fontSettings": "Cài đặt Phông chữ",
 		"current": "Hiện tại",
-		"browseGoogleFonts": "Duyệt qua Google Fonts",
-		"uploadCustomFont": "Tải lên phông chữ tùy chỉnh",
-		"quickUploadFontFile": "Tải lên tệp phông chữ nhanh",
+		"browseGoogleFonts": "Duyệt Google Fonts",
+		"uploadCustomFont": "Tải lên Phông chữ Tùy chỉnh",
+		"quickUploadFontFile": "Tải nhanh tệp phông chữ",
 		"resetToDefault": "Đặt lại về mặc định",
 		"googleFonts": {
 			"title": "Google Fonts",
-			"searchFonts": "Tìm kiếm phông chữ...",
+			"searchFonts": "Tìm phông chữ...",
 			"preview": "Xem trước",
-			"previewText": "Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng",
+			"previewText": "Con cáo nâu nhanh nhẹn nhảy qua con chó lười",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
-			"applyFont": "Áp dụng phông chữ",
+			"applyFont": "Áp dụng Phông chữ",
 			"clearPreview": "Xóa xem trước",
 			"previewWith": "Xem trước văn bản với {font}",
-			"noFontsFound": "Không tìm thấy phông chữ nào phù hợp với \"{searchTerm}\""
+			"noFontsFound": "Không tìm thấy phông chữ khớp với \"{searchTerm}\""
 		},
 		"customUpload": {
-			"title": "Tải lên phông chữ tùy chỉnh",
+			"title": "Tải lên Phông chữ Tùy chỉnh",
 			"description": "Tải lên tệp phông chữ của riêng bạn để tùy chỉnh trang web",
-			"fontFile": "Tệp phông chữ",
-			"dragDropArea": "Kéo và thả tệp phông chữ của bạn vào đây, hoặc",
+			"fontFile": "Tệp Phông chữ",
+			"dragDropArea": "Kéo và thả tệp phông chữ vào đây, hoặc",
 			"clickToUpload": "nhấp để tải lên",
-			"supportedFormats": "Các định dạng được hỗ trợ: .woff, .woff2, .ttf, .otf",
+			"supportedFormats": "Định dạng hỗ trợ: .woff, .woff2, .ttf, .otf",
 			"maxFileSize": "Kích thước tệp tối đa: 10MB",
-			"fontName": "Tên phông chữ",
+			"fontName": "Tên Phông chữ",
 			"fontNamePlaceholder": "Nhập tên cho phông chữ của bạn",
-			"previewYourFont": "Xem trước phông chữ của bạn",
-			"uploadAndApply": "Tải lên & Áp dụng phông chữ",
+			"previewYourFont": "Xem trước Phông chữ",
+			"uploadAndApply": "Tải lên & Áp dụng",
 			"cancel": "Hủy",
 			"uploading": "Đang tải lên...",
 			"errors": {
-				"invalidFileType": "Vui lòng tải lên một tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+				"invalidFileType": "Vui lòng tải lên tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
 				"fileTooLarge": "Kích thước tệp vượt quá giới hạn 10MB",
-				"uploadFailed": "Không thể tải lên tệp phông chữ",
-				"enterFontName": "Vui lòng chọn một tệp phông chữ và cung cấp tên",
-				"readFileFailed": "Không thể đọc tệp phông chữ"
+				"uploadFailed": "Tải lên tệp phông chữ thất bại",
+				"enterFontName": "Vui lòng chọn tệp phông chữ và cung cấp tên",
+				"readFileFailed": "Đọc tệp phông chữ thất bại"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "Đã áp dụng thành công phông chữ \"{fontName}\"!",
-			"fontUploadedSuccess": "Đã tải lên và áp dụng thành công phông chữ \"{fontName}\"!",
+			"fontAppliedSuccess": "Đã áp dụng phông chữ \"{fontName}\" thành công!",
+			"fontUploadedSuccess": "Đã tải lên và áp dụng phông chữ \"{fontName}\" thành công!",
 			"fontResetSuccess": "Đã đặt lại phông chữ về mặc định",
-			"invalidFileType": "Vui lòng tải lên một tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
-			"uploadFailed": "Không thể đọc tệp phông chữ"
+			"invalidFileType": "Vui lòng tải lên tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Đọc tệp phông chữ thất bại"
 		}
 	},
 	"contact": {
-		"title": "Liên hệ với chúng tôi",
-		"subtitle": "Có câu hỏi hoặc cần hỗ trợ? Đội ngũ hỗ trợ tận tâm của chúng tôi luôn sẵn sàng giúp đỡ bạn suốt ngày đêm.",
+		"title": "Liên hệ Chúng tôi",
+		"subtitle": "Có câu hỏi hoặc cần trợ giúp? Đội ngũ hỗ trợ tận tâm của chúng tôi luôn sẵn sàng giúp đỡ bạn suốt ngày đêm.",
 		"methods": {
 			"liveChat": {
-				"title": "Trò chuyện trực tiếp",
-				"description": "Nhận trợ giúp ngay lập tức từ đội ngũ hỗ trợ của chúng tôi qua trò chuyện trực tiếp.",
-				"availability": "Hoạt động 24/7"
+				"title": "Chat Trực tuyến",
+				"description": "Nhận trợ giúp ngay lập tức từ đội ngũ hỗ trợ qua chat trực tuyến.",
+				"availability": "Sẵn sàng 24/7"
 			},
 			"email": {
-				"title": "Hỗ trợ qua email",
-				"description": "Gửi email cho chúng tôi và chúng tôi sẽ trả lời trong vòng 24 giờ.",
-				"availability": "Phản hồi trong vòng 24 giờ"
+				"title": "Hỗ trợ qua Email",
+				"description": "Gửi email cho chúng tôi và chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+				"availability": "Phản hồi trong 24h"
 			},
 			"support": {
-				"title": "Trung tâm trợ giúp",
-				"description": "Duyệt qua cơ sở kiến thức toàn diện của chúng tôi để tìm câu trả lời nhanh chóng.",
+				"title": "Trung tâm Trợ giúp",
+				"description": "Duyệt qua cơ sở kiến thức toàn diện của chúng tôi để có câu trả lời nhanh.",
 				"availability": "Tự phục vụ có sẵn"
 			}
 		},
 		"form": {
-			"title": "Gửi tin nhắn cho chúng tôi",
-			"name": "Họ và tên",
-			"namePlaceholder": "Nhập họ và tên của bạn",
-			"email": "Địa chỉ email",
+			"title": "Gửi Tin nhắn",
+			"name": "Họ và Tên",
+			"namePlaceholder": "Nhập họ tên đầy đủ",
+			"email": "Địa chỉ Email",
 			"emailPlaceholder": "Nhập địa chỉ email của bạn",
 			"subject": "Chủ đề",
 			"subjectPlaceholder": "Câu hỏi của bạn về vấn đề gì?",
 			"message": "Tin nhắn",
 			"messagePlaceholder": "Vui lòng mô tả chi tiết câu hỏi của bạn...",
-			"submit": "Gửi tin nhắn",
+			"submit": "Gửi Tin nhắn",
 			"sending": "Đang gửi...",
 			"errors": {
 				"nameRequired": "Vui lòng nhập tên của bạn",
 				"emailRequired": "Vui lòng nhập email của bạn",
-				"emailInvalid": "Vui lòng nhập một địa chỉ email hợp lệ",
-				"subjectRequired": "Vui lòng nhập một chủ đề",
-				"messageRequired": "Vui lòng nhập tin nhắn của bạn",
+				"emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+				"subjectRequired": "Vui lòng nhập chủ đề",
+				"messageRequired": "Vui lòng nhập tin nhắn",
 				"messageTooShort": "Tin nhắn phải có ít nhất 10 ký tự"
 			}
 		},
 		"responseTime": {
-			"title": "Thời gian phản hồi dự kiến",
-			"description": "Chúng tôi cố gắng trả lời tất cả các câu hỏi càng nhanh càng tốt.",
+			"title": "Thời gian Phản hồi Dự kiến",
+			"description": "Chúng tôi cố gắng phản hồi mọi thắc mắc nhanh nhất có thể.",
 			"liveChat": {
-				"title": "Trò chuyện trực tiếp",
+				"title": "Chat Trực tuyến",
 				"time": "Dưới 2 phút"
 			},
 			"email": {
@@ -1349,88 +1349,88 @@
 			}
 		},
 		"faq": {
-			"title": "Câu hỏi thường gặp",
+			"title": "Câu hỏi Thường gặp",
 			"items": [
 				{
-					"question": "Làm thế nào để đặt lại mật khẩu của tôi?",
-					"answer": "Bạn có thể đặt lại mật khẩu của mình bằng cách nhấp vào liên kết 'Quên mật khẩu' trên trang đăng nhập. Nhập địa chỉ email đã đăng ký của bạn và làm theo hướng dẫn được gửi đến hộp thư đến của bạn."
+					"question": "Làm thế nào để đặt lại mật khẩu?",
+					"answer": "Bạn có thể đặt lại mật khẩu bằng cách nhấp vào liên kết 'Quên mật khẩu' trên trang đăng nhập. Nhập địa chỉ email đã đăng ký và làm theo hướng dẫn được gửi đến hộp thư đến của bạn."
 				},
 				{
-					"question": "Mất bao lâu để xử lý việc rút tiền?",
-					"answer": "Hầu hết các giao dịch rút tiền điện tử được xử lý ngay lập tức. Trong một số trường hợp, có thể cần xác minh thủ công, có thể mất đến 24 giờ."
+					"question": "Rút tiền mất bao lâu để xử lý?",
+					"answer": "Hầu hết các khoản rút tiền điện tử được xử lý ngay lập tức. Trong một số trường hợp, có thể cần xác minh thủ công, quá trình này có thể mất tới 24 giờ."
 				},
 				{
 					"question": "Bạn chấp nhận những loại tiền điện tử nào?",
 					"answer": "Chúng tôi chấp nhận các loại tiền điện tử chính bao gồm Bitcoin (BTC), Ethereum (ETH), USDT, USDC và một số token phổ biến khác trên nhiều mạng blockchain."
 				},
 				{
-					"question": "Làm thế nào để tôi có thể xác minh tài khoản của mình?",
-					"answer": "Việc xác minh tài khoản có thể được hoàn thành thông qua cài đặt hồ sơ của bạn. Bạn có thể cần cung cấp các tài liệu nhận dạng tùy thuộc vào cấp độ tài khoản và giới hạn rút tiền của bạn."
+					"question": "Làm thế nào để xác minh tài khoản?",
+					"answer": "Xác minh tài khoản có thể được hoàn thành thông qua cài đặt hồ sơ của bạn. Bạn có thể cần cung cấp giấy tờ tùy thân tùy thuộc vào cấp độ tài khoản và giới hạn rút tiền."
 				},
 				{
 					"question": "Thông tin cá nhân của tôi có an toàn không?",
-					"answer": "Có, chúng tôi sử dụng mã hóa và các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ tất cả thông tin cá nhân và tài chính. Nền tảng của chúng tôi thường xuyên được kiểm tra bảo mật."
+					"answer": "Có, chúng tôi sử dụng mã hóa và các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ tất cả thông tin cá nhân và tài chính. Nền tảng của chúng tôi trải qua các cuộc kiểm tra bảo mật thường xuyên."
 				}
 			]
 		}
 	},
 	"about": {
 		"title": "Về {siteDomain}",
-		"subtitle": "Tại {siteName}, chơi game không chỉ là niềm vui — đó là một cách chơi hoàn toàn mới.",
+		"subtitle": "Tại {siteName}, chơi game không chỉ là giải trí — đó là một cách chơi hoàn toàn mới.",
 		"meta": {
-			"title": "Về {siteName} | Nền tảng chơi game được hỗ trợ bởi tiền điện tử",
-			"description": "Tìm hiểu về {siteName} — một sòng bạc tiền điện tử phi tập trung cung cấp các trò chơi slot có thể chứng minh là công bằng, sòng bạc trực tiếp, cá cược thể thao và thanh toán ngay lập tức. Được xây dựng cho kỷ nguyên blockchain ngày nay."
+			"title": "Về {siteName} | Nền tảng Game Crypto",
+			"description": "Tìm hiểu về {siteName} — sòng bạc crypto phi tập trung cung cấp slot công bằng, casino trực tiếp, cá cược thể thao và thanh toán tức thì. Được xây dựng cho kỷ nguyên blockchain ngày nay."
 		},
 		"intro": {
-			"paragraph1": "Tại {siteName}, chơi game không chỉ là niềm vui — đó là một cách chơi hoàn toàn mới. Chúng tôi đã xây dựng nền tảng được hỗ trợ bởi tiền điện tử này cho những người muốn nhiều hơn là chỉ may mắn. Nếu bạn quan tâm đến tốc độ, tính minh bạch và có quyền kiểm soát, bạn đã đến đúng nơi.",
-			"paragraph2": "Ngay từ ngày đầu tiên, mục tiêu của chúng tôi đã rõ ràng: mang đến cho người chơi trải nghiệm chơi game ở cấp độ tiếp theo, nơi công nghệ và sự công bằng thực sự hoạt động cùng nhau. Chúng tôi muốn bạn cảm thấy an toàn, được kết nối và giống như bạn đang được thưởng cho mỗi lần quay, đặt cược hoặc ván bài. Dù bạn đang quay các trò chơi slot tiền điện tử, đặt cược trực tiếp vào thể thao hay ngồi vào bàn sòng bạc, {siteName} được xây dựng cho kỷ nguyên blockchain ngày nay."
+			"paragraph1": "Tại {siteName}, chơi game không chỉ là giải trí — đó là một cách chơi hoàn toàn mới. Chúng tôi xây dựng nền tảng crypto này cho những người muốn nhiều hơn là may mắn. Nếu bạn quan tâm đến tốc độ, sự minh bạch và quyền kiểm soát, bạn đã đến đúng nơi.",
+			"paragraph2": "Ngay từ ngày đầu tiên, mục tiêu của chúng tôi đã rõ ràng: mang đến cho người chơi trải nghiệm game đẳng cấp, nơi công nghệ và sự công bằng thực sự song hành. Chúng tôi muốn bạn cảm thấy an toàn, được kết nối và được thưởng cho mỗi lần quay, cược hay ván bài. Dù bạn quay slot crypto, cược thể thao trực tiếp hay ngồi tại bàn casino, {siteName} được xây dựng cho kỷ nguyên blockchain ngày nay."
 		},
 		"whoWeAre": {
-			"title": "Chúng tôi là ai",
-			"paragraph1": "Chúng tôi là một nền tảng chơi game toàn cầu, hoàn toàn phi tập trung được thiết kế cho những người hâm mộ tiền điện tử muốn có sự tự do, riêng tư và hành động ngay lập tức. Chúng tôi hợp tác với những tên tuổi hàng đầu trong ngành — Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech và mang đến cho bạn hơn 5.000 trò chơi và tùy chọn cá cược cao cấp, tất cả ở một nơi.",
-			"paragraph2": "Mỗi trò chơi trên {siteName} đều có thể chứng minh là công bằng và được xác minh bằng blockchain. Không có điều gì mờ ám, chỉ có sự minh bạch hoàn toàn. Chúng tôi tin rằng chơi game nên không cần tin tưởng nhưng vẫn phải có tính nhân văn, pha trộn sự trung thực của blockchain với trải nghiệm mượt mà, thú vị mà bất kỳ ai cũng có thể tận hưởng, dù họ ở đâu."
+			"title": "Chúng Tôi Là Ai",
+			"paragraph1": "Chúng tôi là nền tảng game toàn cầu, phi tập trung hoàn toàn, được thiết kế cho những người hâm mộ crypto muốn tự do, riêng tư và hành động tức thì. Chúng tôi hợp tác với những tên tuổi hàng đầu trong ngành—Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech và mang đến hơn 5.000 trò chơi cao cấp và tùy chọn cá cược, tất cả ở một nơi.",
+			"paragraph2": "Mọi trò chơi trên {siteName} đều được chứng minh công bằng và xác minh trên blockchain. Không có gì mờ ám, chỉ có sự minh bạch tuyệt đối. Chúng tôi tin rằng chơi game nên không cần niềm tin (trustless) nhưng vẫn mang tính người, kết hợp sự trung thực của blockchain với trải nghiệm mượt mà, thú vị mà bất kỳ ai cũng có thể tận hưởng, dù ở đâu."
 		},
 		"mission": {
-			"title": "Sứ mệnh của chúng tôi",
-			"paragraph1": "Chúng tôi muốn thay đổi cách mọi người trải nghiệm chơi game trực tuyến — làm cho nó nhanh hơn, công bằng hơn và hoàn toàn do tiền điện tử điều khiển. Vì vậy, chúng tôi đã loại bỏ những rắc rối thông thường như kiểm tra KYC, thanh toán chậm và các vấn đề về lòng tin. Ở đây, bạn có quyền truy cập dựa trên ví, giao dịch tức thì và bằng chứng về sự công bằng trên mỗi lần đặt cược.",
-			"paragraph2": "Sự riêng tư của bạn được bảo vệ, tiền thắng cược của bạn được thanh toán ngay lập tức và bạn luôn kiểm soát được cuộc chơi của mình."
+			"title": "Sứ Mệnh Của Chúng Tôi",
+			"paragraph1": "Chúng tôi muốn thay đổi cách mọi người trải nghiệm game trực tuyến—làm cho nó nhanh hơn, công bằng hơn và hoàn toàn dựa trên crypto. Vì vậy, chúng tôi đã loại bỏ những rắc rối thông thường như kiểm tra KYC, thanh toán chậm và vấn đề niềm tin. Tại đây, bạn có quyền truy cập dựa trên ví, giao dịch tức thì và bằng chứng công bằng trên mỗi lần cược.",
+			"paragraph2": "Quyền riêng tư của bạn được bảo vệ, tiền thắng được thanh toán ngay lập tức và bạn luôn kiểm soát cuộc chơi của mình."
 		},
 		"focus": {
-			"title": "Chúng tôi tập trung vào điều gì",
+			"title": "Điều Chúng Tôi Chú Trọng",
 			"items": [
-				"Gửi và rút tiền nhanh như chớp",
+				"Nạp và rút tiền nhanh như chớp",
 				"Truy cập ưu tiên quyền riêng tư không cần KYC",
-				"Giao diện người dùng liền mạch hoạt động ở mọi nơi",
-				"Hỗ trợ khách hàng thực sự 24/7 từ con người thật"
+				"Giao diện liền mạch hoạt động mọi nơi",
+				"Hỗ trợ khách hàng 24/7 thực sự từ người thật"
 			],
-			"closing": "Lòng tin rất quan trọng đối với chúng tôi. Mỗi tính năng mới? Nó được thiết kế dành cho bạn."
+			"closing": "Niềm tin rất quan trọng với chúng tôi. Mọi tính năng mới? Nó được thiết kế cho bạn."
 		},
 		"whatMakesUsDifferent": {
-			"title": "Điều gì làm nên sự khác biệt của {siteName}",
+			"title": "Điều Gì Làm {siteName} Khác Biệt",
 			"features": [
-				"Hơn 5.000 trò chơi sòng bạc tiền điện tử — slot, poker, bàn trực tiếp, bạn có thể kể tên",
-				"Đăng nhập dựa trên ví với Dynamic.xyz — chỉ cần kết nối và chơi, không cần chờ đợi",
-				"Thanh toán tiền điện tử tức thì — tự động và được xác minh ngay trên blockchain",
-				"Mỗi trò chơi đều có thể chứng minh là công bằng và được chứng nhận RNG",
+				"Hơn 5.000 trò chơi casino crypto—slot, poker, bàn trực tiếp, bạn kể tên đi",
+				"Đăng nhập ví với Dynamic.xyz—chỉ cần kết nối và chơi, không chờ đợi",
+				"Thanh toán crypto tức thì—tự động và xác minh ngay trên blockchain",
+				"Mọi trò chơi đều được chứng minh công bằng và chứng nhận RNG",
 				"Hoạt động hoàn hảo trên mọi thiết bị, di động hoặc máy tính để bàn",
-				"Phần thưởng minh bạch — tiền thưởng và khuyến mãi thực sự mang lại lợi ích cho người chơi"
+				"Phần thưởng minh bạch—bonus và khuyến mãi thực sự có lợi cho người chơi"
 			],
-			"closing": "{siteName} không chỉ là về các trò chơi — đó là về sự tự do. Chơi một cách an toàn, từ mọi nơi, với sự minh bạch hoàn toàn."
+			"closing": "{siteName} không chỉ là về trò chơi—đó là về sự tự do. Chơi an toàn, từ bất cứ đâu, với sự minh bạch tuyệt đối."
 		},
 		"fairGaming": {
-			"title": "Chơi game công bằng và có trách nhiệm",
-			"paragraph1": "Chúng tôi cũng rất coi trọng việc chơi game công bằng và có trách nhiệm. Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp của quốc gia họ) chơi, chấm hết. Mỗi trò chơi đều được kiểm tra bởi các đơn vị kiểm tra độc lập và chạy trên sự minh bạch của blockchain, vì vậy bạn có thể tự mình xác minh mọi kết quả.",
-			"ageRestriction": "Chỉ những người chơi từ 18 tuổi trở lên mới có thể đăng ký và chơi.",
-			"paragraph2": "Thông tin cá nhân và tài chính của bạn luôn được giữ bí mật. Chúng tôi sử dụng mã hóa đầu cuối và không bao giờ lưu trữ khóa ví hoặc dữ liệu nhạy cảm của bạn."
+			"title": "Chơi Game Công Bằng & Có Trách Nhiệm",
+			"paragraph1": "Chúng tôi cũng coi trọng việc chơi game công bằng và có trách nhiệm. Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp của quốc gia họ) chơi, chấm hết. Mọi trò chơi đều được kiểm tra bởi các bên kiểm thử độc lập và chạy trên sự minh bạch của blockchain, vì vậy bạn có thể tự mình xác minh mọi kết quả.",
+			"ageRestriction": "Chỉ người chơi từ 18 tuổi trở lên mới có thể đăng ký và chơi.",
+			"paragraph2": "Thông tin cá nhân và tài chính của bạn luôn được giữ kín. Chúng tôi sử dụng mã hóa đầu cuối và không bao giờ lưu trữ khóa ví hay dữ liệu nhạy cảm của bạn."
 		},
 		"promise": {
-			"title": "Lời hứa của chúng tôi",
-			"paragraph1": "Chúng tôi không chỉ là một sòng bạc trực tuyến khác. Chúng tôi là bước tiếp theo trong lĩnh vực chơi game. {siteName} tồn tại để trao quyền cho người chơi, không phải để kiểm soát họ. Với công nghệ tiền điện tử, sự công bằng có thể chứng minh và cách tiếp cận lấy người chơi làm đầu, chúng tôi đang xây dựng một thế giới chơi game cởi mở, an toàn và bổ ích.",
-			"paragraph2": "Mỗi bản cập nhật, tính năng hoặc đối tác mới — mọi thứ chúng tôi làm đều nhằm mục đích làm cho việc chơi game trở nên công bằng, tức thì và là của bạn."
+			"title": "Lời Hứa Của Chúng Tôi",
+			"paragraph1": "Chúng tôi không chỉ là một sòng bạc trực tuyến khác. Chúng tôi là bước tiếp theo trong gaming. {siteName} tồn tại để trao quyền cho người chơi, không phải kiểm soát họ. Với công nghệ crypto, sự công bằng có thể chứng minh và cách tiếp cận ưu tiên người chơi, chúng tôi đang xây dựng một thế giới game mở, an toàn và bổ ích.",
+			"paragraph2": "Mọi bản cập nhật, tính năng hay đối tác mới—mọi thứ chúng tôi làm đều nhằm làm cho việc chơi game công bằng, tức thì và thuộc về bạn."
 		},
 		"joinCommunity": {
-			"title": "Sẵn sàng tham gia?",
-			"paragraph1": "Tương lai của ngành game đã đến — phi tập trung, nhanh như chớp và không biên giới. Đăng ký, kết nối ví của bạn và xem cảm giác tự do chơi game thực sự là như thế nào.",
+			"title": "Sẵn Sàng Tham Gia?",
+			"paragraph1": "Tương lai của gaming đã ở đây—phi tập trung, nhanh như chớp và không biên giới. Đăng ký, kết nối ví và xem cảm giác tự do chơi game thực sự là như thế nào.",
 			"paragraph2": "Chơi thông minh. Thắng nhanh. Trải nghiệm {siteName}.",
 			"tagline": "Chơi thông minh. Thắng nhanh. Trải nghiệm {siteName}."
 		}
@@ -1443,7 +1443,9 @@
 					"about": "Về chúng tôi",
 					"providers": "Nhà cung cấp",
 					"affiliate": "Thưởng giới thiệu",
-					"bonus": "Thưởng doanh thu"
+					"bonus": "Thưởng doanh thu",
+					"blog": "Blog",
+					"contact": "Liên hệ"
 				}
 			},
 			"legal": {
@@ -1458,9 +1460,9 @@
 			"games": {
 				"title": "Trò chơi",
 				"links": {
-					"lobby": "Sảnh trò chơi",
-					"slots": "Slots",
-					"live": "Casino trực tiếp",
+					"lobby": "Sảnh game",
+					"slots": "Nổ hũ",
+					"live": "Casino Trực tiếp",
 					"sports": "Cá cược thể thao"
 				}
 			},
@@ -1468,273 +1470,273 @@
 				"title": "Hỗ trợ",
 				"links": {
 					"help": "Trung tâm trợ giúp",
-					"contact": "Liên hệ với chúng tôi"
+					"contact": "Liên hệ"
 				}
 			}
 		},
 		"seoContent": {
-			"title": "{siteName} — Điểm đến cuối cùng của bạn cho giải trí sòng bạc tiền điện tử",
-			"paragraph1": "Bước vào tương lai của trò chơi trực tuyến với {siteName}, sòng bạc hàng đầu thế giới được hỗ trợ bởi tiền điện tử, nơi sự đổi mới gặp gỡ sự phấn khích. Được thiết kế cho những người chơi thực thụ, nền tảng của chúng tôi mang đến trải nghiệm nhanh chóng, an toàn và minh bạch trên các trò chơi slot, bàn sòng bạc trực tiếp, cá cược thể thao và trò chơi tiền điện tử.",
-			"paragraph2": "Mỗi vòng quay, lá bài và tiền cược tại {siteName} đều được xây dựng trên sự công bằng của blockchain, được xác minh trong thời gian thực để đảm bảo mọi kết quả đều thực sự ngẫu nhiên và không thể bị giả mạo. Từ những hành động đặt cược cao đến chơi thông thường, các trò chơi của chúng tôi phục vụ mọi loại người chơi cờ bạc — từ những người tìm kiếm cảm giác mạnh đến các chuyên gia chiến lược.",
-			"paragraph3": "Với việc gửi tiền ngay lập tức và rút tiền nhanh như chớp, đăng nhập bằng ví Dynamic.xyz và tiền thưởng doanh thu độc quyền, {siteName} đảm bảo rằng việc chơi game của bạn luôn mượt mà, bổ ích và an toàn.|Dù bạn ở Canada, Châu Âu hay Châu Á, hệ thống đa chuỗi của chúng tôi hỗ trợ người chơi toàn cầu đồng thời tối ưu hóa cho các xu hướng sòng bạc tiền điện tử địa phương ở mọi khu vực.",
-			"paragraph4": "Tham gia cùng hàng nghìn người chơi khám phá cách chơi thông minh hơn — nơi sự công bằng, quyền riêng tư và lợi nhuận kết hợp với nhau.|{siteName} không chỉ là một sòng bạc.|Đó là sự tiến hóa tiếp theo của cờ bạc Web3 — được xây dựng cho những người táo bạo, được hỗ trợ bởi tiền điện tử và được người chơi trên toàn thế giới tin tưởng.",
-			"tagline": "🎯 Chơi thông minh. Đặt cược an toàn. Thắng lớn — Chỉ có tại {siteName}.",
-			"showMore": "Hiển thị thêm",
-			"showLess": "Hiển thị ít hơn"
+			"title": "{siteName} — Điểm Đến Giải Trí Casino Crypto Tối Thượng Của Bạn",
+			"paragraph1": "Bước vào tương lai của game trực tuyến với {siteName}, sòng bạc crypto hàng đầu thế giới nơi sự đổi mới gặp gỡ sự phấn khích. Được thiết kế cho người chơi thực thụ, nền tảng của chúng tôi mang lại trải nghiệm nhanh, an toàn và minh bạch trên các slot, bàn casino trực tiếp, cá cược thể thao và game crypto.",
+			"paragraph2": "Mọi vòng quay, lá bài và cược tại {siteName} đều được xây dựng trên sự công bằng của blockchain, xác minh theo thời gian thực để đảm bảo mọi kết quả đều thực sự ngẫu nhiên và chống gian lận. Từ hành động cược cao đến chơi giải trí, các trò chơi của chúng tôi phục vụ mọi loại người chơi — từ người tìm kiếm cảm giác mạnh đến chuyên gia chiến lược.",
+			"paragraph3": "Với nạp tiền tức thì và rút tiền nhanh như chớp, đăng nhập ví Dynamic.xyz và thưởng doanh thu độc quyền, {siteName} đảm bảo việc chơi game của bạn luôn mượt mà, bổ ích và an toàn.|Dù bạn ở Canada, Châu Âu hay Châu Á, hệ thống đa chuỗi của chúng tôi hỗ trợ người chơi toàn cầu trong khi tối ưu hóa cho các xu hướng casino crypto địa phương ở mỗi khu vực.",
+			"paragraph4": "Tham gia cùng hàng ngàn người chơi đang khám phá cách chơi thông minh hơn — nơi chơi công bằng, quyền riêng tư và lợi nhuận kết hợp với nhau.|{siteName} không chỉ là một sòng bạc.|Đó là sự phát triển tiếp theo của cờ bạc Web3 — được xây dựng cho những người táo bạo, được cung cấp bởi crypto và được tin cậy bởi người chơi trên toàn thế giới.",
+			"tagline": "🎯 Chơi Thông Minh. Cược An Toàn. Thắng Lớn — Chỉ có tại {siteName}.",
+			"showMore": "Xem thêm",
+			"showLess": "Thu gọn"
 		},
-		"copyright": "© {year} {siteName}. Mọi quyền được bảo lưu.",
+		"copyright": "© {year} {siteName}. Đã đăng ký bản quyền.",
 		"followUs": "Theo dõi chúng tôi:",
 		"disclaimer": {
-			"line1": "Chỉ dành cho người trên 18 tuổi | Chơi cờ bạc có trách nhiệm",
-			"line2": "Cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và chỉ đặt cược những gì bạn có thể đủ khả năng để mất.",
-			"line3": "Nếu bạn cảm thấy mình có vấn đề về cờ bạc, vui lòng tìm kiếm sự giúp đỡ."
+			"line1": "Chỉ 18+ | Cờ bạc có trách nhiệm",
+			"line2": "Cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và chỉ cược những gì bạn có thể chi trả.",
+			"line3": "Nếu bạn cảm thấy mình có vấn đề về cờ bạc, vui lòng tìm sự giúp đỡ."
 		},
-		"description": "{siteName} — sòng bạc tiền điện tử đáng tin cậy của bạn cho các trò chơi slot, bàn trực tiếp và cá cược thể thao.|Chơi các trò chơi blockchain có thể chứng minh là công bằng, tận hưởng các khoản thanh toán tức thì dựa trên ví và mở khóa các phần thưởng sòng bạc hàng ngày.|Nhanh chóng, an toàn và phi tập trung — {siteName} mang đến trải nghiệm chơi game cấp độ tiếp theo cho người chơi trên toàn thế giới.|🎯 Chơi thông minh. Thắng lớn. Tin tưởng {siteName}."
+		"description": "{siteName} — sòng bạc crypto tin cậy của bạn cho slot, bàn trực tiếp và cá cược thể thao.|Chơi các game blockchain công bằng, tận hưởng thanh toán qua ví tức thì và mở khóa bonus casino hàng ngày.|Nhanh, an toàn và phi tập trung — {siteName} mang đến game đẳng cấp cho người chơi toàn cầu.|🎯 Chơi Thông Minh. Thắng Lớn. Tin Tưởng {siteName}."
 	},
 	"privacy": {
 		"title": "Chính sách bảo mật — {siteDomain}",
-		"subtitle": "Cách chúng tôi xử lý thông tin của bạn bao gồm ví tiền điện tử, lối chơi và mọi thứ bạn làm trên trang web của chúng tôi",
+		"subtitle": "Cách chúng tôi xử lý thông tin của bạn bao gồm ví crypto, lối chơi và mọi thứ bạn làm trên trang web của chúng tôi",
 		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"intro": {
-			"paragraph1": "Tại {siteName} ('{siteDomain},' 'chúng tôi,' 'của chúng tôi,' hoặc 'chúng ta'), quyền riêng tư của bạn là ưu tiên hàng đầu. Chúng tôi điều hành sòng bạc tiền điện tử {siteName} và nền tảng chơi game phi tập trung, và Chính sách bảo mật này nêu rõ cách chúng tôi xử lý thông tin của bạn bao gồm ví tiền điện tử, lối chơi và mọi thứ bạn làm trên trang web, dApp hoặc các dịch vụ liên quan của chúng tôi (chúng tôi sẽ gọi đây là 'Dịch vụ').",
-			"paragraph2": "{siteDomain} là một sòng bạc tiền điện tử chỉ sử dụng ví. Điều đó có nghĩa là việc gửi và rút tiền được thực hiện trực tiếp qua blockchain, không có bên trung gian. Chúng tôi không yêu cầu ID của bạn và chúng tôi không bao giờ lưu trữ thông tin nhận dạng cá nhân. Quyền riêng tư, ví và tài sản của bạn? Chúng vẫn là của bạn.",
+			"paragraph1": "Tại {siteName} ('{siteDomain},' 'chúng tôi,' 'của chúng tôi'), quyền riêng tư của bạn là trung tâm. Chúng tôi vận hành sòng bạc crypto {siteName} và nền tảng game phi tập trung, và Chính sách bảo mật này quy định cách chúng tôi xử lý thông tin của bạn bao gồm ví crypto, lối chơi và mọi thứ bạn thực hiện trên trang web, dApp hoặc các dịch vụ liên quan của chúng tôi (chúng tôi gọi chung là 'Dịch vụ').",
+			"paragraph2": "{siteDomain} là một sòng bạc chỉ dùng ví. Điều đó có nghĩa là nạp và rút tiền đi thẳng qua blockchain, không qua trung gian. Chúng tôi không yêu cầu ID của bạn và không bao giờ lưu trữ thông tin nhận dạng cá nhân. Quyền riêng tư, ví và tài sản của bạn? Chúng vẫn là của bạn.",
 			"paragraph3": "Bằng cách sử dụng {siteDomain}, bạn đồng ý với Chính sách bảo mật này."
 		},
 		"sections": {
 			"scope": {
 				"title": "Phạm vi & Chấp nhận",
-				"content": "Chính sách này áp dụng cho tất cả những ai truy cập hoặc sử dụng {siteDomain}. Nếu chúng tôi cần cập nhật chính sách — có thể do công nghệ mới hoặc luật pháp thay đổi, chúng tôi sẽ đăng các thay đổi ngay tại đây. Nếu bạn tiếp tục sử dụng nền tảng sau đó, bạn chấp nhận các điều khoản mới."
+				"content": "Chính sách này bao gồm tất cả những người truy cập hoặc sử dụng {siteDomain}. Nếu chúng tôi cần cập nhật chính sách—có thể do công nghệ mới hoặc luật thay đổi, chúng tôi sẽ đăng các thay đổi ngay tại đây. Nếu bạn tiếp tục sử dụng nền tảng sau đó, bạn đang chấp nhận các điều khoản mới."
 			},
 			"dataCollection": {
 				"title": "Dữ liệu chúng tôi thu thập",
-				"intro": "Chúng tôi đã xây dựng {siteName} với tâm niệm về quyền riêng tư. Chúng tôi chỉ yêu cầu những gì cần thiết để trang web hoạt động, giữ an toàn cho mọi thứ và đảm bảo các trò chơi công bằng.",
+				"intro": "Chúng tôi xây dựng {siteName} với tâm niệm về quyền riêng tư. Chúng tôi chỉ yêu cầu những gì cần thiết để trang web hoạt động, giữ mọi thứ an toàn và đảm bảo trò chơi công bằng.",
 				"accountData": {
-					"title": "A. Dữ liệu ví & tài khoản",
+					"title": "A. Dữ liệu Ví & Tài khoản",
 					"items": {
-						"0": "Địa chỉ ví được kết nối (thông qua Dynamic.xyz, WalletConnect hoặc MetaMask).",
+						"0": "Địa chỉ ví đã kết nối (thông qua Dynamic.xyz, WalletConnect hoặc MetaMask).",
 						"1": "Tên hiển thị (tùy chọn) nếu bạn muốn cá nhân hóa tài khoản của mình.",
-						"2": "Địa chỉ email (tùy chọn) nếu bạn đăng ký nhận bản tin hoặc liên hệ với bộ phận hỗ trợ."
+						"2": "Địa chỉ email (tùy chọn) nếu bạn đăng ký nhận bản tin hoặc liên hệ hỗ trợ."
 					},
-					"kyc": "Chúng tôi không bao giờ thực hiện kiểm tra danh tính hoặc thu thập giấy tờ tùy thân của chính phủ. Nếu và chỉ khi có tình huống pháp lý phát sinh (như điều tra gian lận), chúng tôi có thể yêu cầu bằng chứng nhận dạng. Nếu điều đó xảy ra, chúng tôi sẽ nói thẳng về điều đó và chỉ yêu cầu những gì thực sự cần thiết."
+					"kyc": "Chúng tôi không bao giờ kiểm tra danh tính hoặc thu thập ID chính phủ. Nếu, và chỉ nếu, một tình huống pháp lý phát sinh (như điều tra gian lận), chúng tôi có thể yêu cầu bằng chứng danh tính. Nếu điều đó xảy ra, chúng tôi sẽ thẳng thắn về việc đó và chỉ yêu cầu những gì thực sự cần thiết."
 				},
 				"walletData": {
-					"title": "B. Dữ liệu giao dịch",
-					"addresses": "Các địa chỉ ví blockchain được sử dụng để gửi hoặc rút tiền.",
-					"transactions": "Các hàm băm giao dịch, dấu thời gian và xác nhận mạng.",
-					"metadata": "Chi tiết gửi và rút tiền để cân bằng tài khoản của bạn.",
-					"note": "Tất cả các giao dịch tiền điện tử đều công khai trên blockchain. Chúng tôi không chỉnh sửa, ẩn hoặc cố gắng ẩn danh dữ liệu này — mọi thứ đều minh bạch."
+					"title": "B. Dữ liệu Giao dịch",
+					"addresses": "Địa chỉ ví blockchain được sử dụng để nạp hoặc rút tiền.",
+					"transactions": "Hash giao dịch, dấu thời gian và xác nhận mạng.",
+					"metadata": "Chi tiết nạp và rút tiền để cân bằng tài khoản của bạn.",
+					"note": "Tất cả các giao dịch crypto đều công khai trên blockchain. Chúng tôi không chỉnh sửa, ẩn hoặc cố gắng làm cho dữ liệu này ẩn danh—mọi thứ đều minh bạch."
 				},
 				"technicalData": {
-					"title": "C. Dữ liệu kỹ thuật & sử dụng",
-					"ip": "Thông tin về thiết bị và trình duyệt của bạn (loại, hệ điều hành, kích thước màn hình).|Địa chỉ IP và vị trí gần đúng để phòng chống gian lận.",
-					"session": "Các trang bạn truy cập, các trò chơi bạn chơi, lịch sử giao dịch và thời gian dành cho trang web.",
+					"title": "C. Dữ liệu Kỹ thuật & Sử dụng",
+					"ip": "Thông tin về thiết bị và trình duyệt của bạn (loại, OS, kích thước màn hình).|Địa chỉ IP và vị trí sơ bộ để ngăn chặn gian lận.",
+					"session": "Các trang bạn truy cập, trò chơi bạn chơi, lịch sử giao dịch và thời gian dành cho trang web.",
 					"cookies": "Cookie và phân tích để giúp chúng tôi cải thiện trải nghiệm."
 				},
 				"securityData": {
-					"title": "D. Dữ liệu bảo mật & rủi ro",
-					"fraud": "Lấy dấu vân tay thiết bị và giám sát chống gian lận.",
-					"disputes": "Nhật ký phiên chơi trò chơi để đảm bảo tính công bằng và giúp giải quyết các vấn đề.|Kiểm tra tự động để phát hiện bot hoặc lạm dụng.",
-					"note": "Chúng tôi không thu thập dữ liệu cá nhân nhạy cảm như dân tộc, tôn giáo, quan điểm chính trị hoặc sinh trắc học của bạn."
+					"title": "D. Dữ liệu Bảo mật & Rủi ro",
+					"fraud": "Dấu vân tay thiết bị và giám sát chống gian lận.",
+					"disputes": "Nhật ký phiên chơi game để đảm bảo công bằng và giúp giải quyết vấn đề.|Kiểm tra tự động để phát hiện bot hoặc lạm dụng.",
+					"note": "Chúng tôi không thu thập dữ liệu cá nhân nhạy cảm như sắc tộc, tôn giáo, quan điểm chính trị hoặc sinh trắc học của bạn."
 				}
 			},
 			"purposes": {
 				"title": "Tại sao chúng tôi thu thập dữ liệu",
-				"intro": "Đây là những gì chúng tôi sử dụng thông tin của bạn cho:",
-				"outro": "Bạn có thể hủy đăng ký nhận tin nhắn tiếp thị bất cứ lúc nào.",
+				"intro": "Đây là những gì chúng tôi sử dụng thông tin của bạn để làm:",
+				"outro": "Bạn có thể hủy đăng ký nhận tin nhắn tiếp thị bất cứ khi nào bạn muốn.",
 				"items": {
 					"0": {
-						"title": "Hoạt động dịch vụ",
-						"description": "Để cho phép bạn đăng nhập bằng ví của mình, xác minh giao dịch, chạy trò chơi và xử lý các khoản thanh toán."
+						"title": "Hoạt động Dịch vụ",
+						"description": "Để cho phép bạn đăng nhập bằng ví, xác minh giao dịch, chạy trò chơi và xử lý thanh toán."
 					},
 					"1": {
-						"title": "Bảo mật & Phòng chống gian lận",
-						"description": "Để phát hiện và ngăn chặn gian lận, tài khoản trùng lặp hoặc bất cứ điều gì đáng ngờ."
+						"title": "Bảo mật & Ngăn chặn Gian lận",
+						"description": "Để phát hiện và ngăn chặn gian lận, tài khoản trùng lặp hoặc bất kỳ điều gì đáng ngờ."
 					},
 					"2": {
-						"title": "Cải tiến nền tảng",
-						"description": "Để làm cho trang web hoạt động tốt hơn và mượt mà hơn."
+						"title": "Cải thiện Nền tảng",
+						"description": "Để làm cho trang web chạy tốt hơn và mượt mà hơn."
 					},
 					"3": {
-						"title": "Tiếp thị (có sự đồng ý)",
-						"description": "Đối với mục đích tiếp thị, nhưng chỉ khi bạn đồng ý — chúng tôi không bao giờ lén lút quảng cáo mà không có sự cho phép của bạn."
+						"title": "Tiếp thị (với sự đồng ý)",
+						"description": "Để tiếp thị, nhưng chỉ khi bạn đồng ý—chúng tôi không bao giờ lén đưa quảng cáo vào mà không có sự cho phép của bạn."
 					},
 					"4": {
-						"title": "Tính toàn vẹn của nền tảng",
+						"title": "Tính toàn vẹn của Nền tảng",
 						"description": "Để bảo vệ {siteName} và giữ cho việc chơi game công bằng."
 					}
 				}
 			},
 			"cryptoWallet": {
-				"title": "Tính minh bạch của Blockchain",
-				"intro": "{siteDomain} hoạt động hoàn toàn trên blockchain:",
+				"title": "Minh bạch Blockchain",
+				"intro": "{siteDomain} chạy hoàn toàn trên blockchain:",
 				"outro": "Nếu bạn sử dụng ví của bên thứ ba (như Dynamic.xyz, WalletConnect hoặc MetaMask), chính sách bảo mật của họ sẽ áp dụng cho việc bạn sử dụng dịch vụ của họ",
 				"points": {
 					"0": "Dữ liệu ví và giao dịch của bạn tồn tại vĩnh viễn trên các blockchain công khai như Ethereum hoặc BNB Chain.",
-					"1": "Sau khi giao dịch blockchain hoàn tất, chúng tôi không thể thay đổi hoặc xóa nó.",
-					"2": "Chúng tôi chỉ lưu trữ lượng thông tin tối thiểu ngoài chuỗi, chỉ vì lý do kỹ thuật và tài khoản.",
+					"1": "Khi một giao dịch blockchain hoàn tất, chúng tôi không thể thay đổi hoặc xóa nó.",
+					"2": "Chúng tôi chỉ lưu trữ tối thiểu thông tin ngoài chuỗi, chỉ vì lý do kỹ thuật và tài khoản.",
 					"3": "Nếu bạn sử dụng ví của bên thứ ba (như Dynamic.xyz, WalletConnect hoặc MetaMask), chính sách bảo mật của họ sẽ áp dụng cho việc bạn sử dụng dịch vụ của họ."
 				}
 			},
 			"dataSharing": {
 				"title": "Chia sẻ & Tiết lộ",
 				"intro": "Chúng tôi không bán, trao đổi hoặc cho thuê dữ liệu của bạn. Không bao giờ.",
-				"para": "Nhưng trong những trường hợp hiếm hoi, chúng tôi có thể phải chia sẻ thông tin hạn chế:",
+				"para": "Nhưng trong một số trường hợp hiếm hoi, chúng tôi có thể phải chia sẻ thông tin hạn chế:",
 				"items": {
-					"0": "Nếu luật pháp hoặc một quy trình pháp lý hợp lệ yêu cầu.",
-					"1": "Với các đối tác chống gian lận hoặc các công cụ phân tích blockchain nếu chúng tôi phát hiện hoạt động đáng ngờ.",
-					"2": "Nếu có sự sáp nhập, mua lại hoặc thay đổi kinh doanh lớn, luôn luôn dưới sự bảo mật nghiêm ngặt."
+					"0": "Nếu luật pháp hoặc quy trình pháp lý hợp lệ yêu cầu.",
+					"1": "Với các đối tác chống gian lận hoặc công cụ phân tích blockchain nếu chúng tôi phát hiện hoạt động đáng ngờ.",
+					"2": "Nếu có sự sáp nhập, mua lại hoặc thay đổi kinh doanh lớn—luôn luôn bảo mật nghiêm ngặt."
 				},
-				"noSelling": "Bất cứ khi nào chúng tôi chia sẻ bất cứ điều gì, chúng tôi đảm bảo nó tuân thủ luật bảo vệ dữ liệu."
+				"noSelling": "Bất cứ khi nào chúng tôi chia sẻ điều gì, chúng tôi đảm bảo nó tuân theo luật bảo vệ dữ liệu."
 			},
 			"security": {
-				"title": "Các biện pháp an ninh",
-				"intro": "Chúng tôi rất coi trọng vấn đề bảo mật của bạn và áp dụng nhiều lớp bảo vệ tiên tiến để giữ an toàn cho dữ liệu và tài sản kỹ thuật số của bạn:",
+				"title": "Biện pháp Bảo mật",
+				"intro": "Chúng tôi coi trọng bảo mật của bạn và áp dụng nhiều lớp bảo vệ tiên tiến để giữ an toàn cho dữ liệu và tài sản kỹ thuật số của bạn:",
 				"items": {
 					"0": "Mọi bit dữ liệu bạn gửi giữa trình duyệt và máy chủ của chúng tôi đều được mã hóa TLS/SSL.",
-					"1": "Chúng tôi lưu trữ nhật ký và dữ liệu kỹ thuật ở dạng được mã hóa.",
-					"2": "Kiểm soát truy cập dựa trên vai trò (RBAC) giữ cho quyền truy cập nội bộ được khóa chặt chẽ.",
-					"3": "Chúng tôi thường xuyên thực hiện các bài kiểm tra thâm nhập và mời các chuyên gia bên ngoài để kiểm tra bảo mật.",
-					"4": "Quản trị viên đăng nhập bằng Xác thực đa yếu tố (MFA) để tăng cường an toàn."
+					"1": "Chúng tôi lưu trữ nhật ký và dữ liệu kỹ thuật ở dạng mã hóa.",
+					"2": "Kiểm soát truy cập dựa trên vai trò (RBAC) giữ cho quyền truy cập nội bộ bị khóa chặt.",
+					"3": "Chúng tôi chạy kiểm tra xâm nhập thường xuyên và mời các chuyên gia bên ngoài kiểm toán bảo mật.",
+					"4": "Quản trị viên đăng nhập bằng Xác thực Đa yếu tố (MFA) để an toàn hơn."
 				},
-				"warning": "Chỉ là một lời cảnh báo:\n\n🔐 {siteName} sẽ không bao giờ yêu cầu khóa riêng tư hoặc cụm từ hạt giống của bạn. Hãy giữ bí mật thông tin đăng nhập ví của bạn, đó là trách nhiệm của bạn."
+				"warning": "Lưu ý:\n\n🔐 {siteName} sẽ không bao giờ yêu cầu khóa riêng tư hoặc cụm từ hạt giống của bạn. Giữ kín thông tin đăng nhập ví của bạn—đó là trách nhiệm của bạn."
 			},
 			"cookies": {
 				"title": "Cookie & Phân tích",
-				"intro": "Chúng tôi sử dụng cookie và các công cụ theo dõi để:",
+				"intro": "Chúng tôi sử dụng cookie và công cụ theo dõi để:",
 				"items": {
-					"0": "Giữ cho ví của bạn được kết nối và các phiên ổn định.",
-					"1": "Cải thiện tốc độ và hiệu suất của trang web.",
-					"2": "Thu thập dữ liệu phân tích ẩn danh để chúng tôi có thể hiểu cách mọi người sử dụng trang web."
+					"0": "Giữ ví của bạn kết nối và phiên ổn định.",
+					"1": "Cải thiện tốc độ và hiệu suất trang web.",
+					"2": "Thu thập phân tích ẩn danh để chúng tôi có thể hiểu cách mọi người sử dụng trang web."
 				},
-				"outro": "Bạn có thể tắt các cookie không cần thiết trong trình duyệt của mình bất cứ lúc nào. Tuy nhiên, nếu bạn chặn các cookie cần thiết, bạn có thể gặp sự cố với lối chơi hoặc kết nối ví."
+				"outro": "Bạn có thể tắt cookie không thiết yếu trong trình duyệt bất cứ khi nào bạn muốn. Tuy nhiên, nếu bạn chặn cookie thiết yếu, bạn có thể gặp vấn đề với trò chơi hoặc kết nối ví."
 			},
 			"minAge": {
-				"title": "Chính sách sử dụng của trẻ vị thành niên",
-				"intro": "{siteDomain} cấm bất kỳ ai dưới 18 tuổi hoặc dưới độ tuổi đánh bạc hợp pháp trong khu vực của họ.",
-				"content": "Nếu chúng tôi phát hiện ra ai đó là trẻ vị thành niên, chúng tôi sẽ đình chỉ tài khoản ngay lập tức, vô hiệu hóa mọi khoản tiền thắng cược và xóa dữ liệu liên quan. \nĐối với phụ huynh và người giám hộ:",
+				"title": "Chính sách Sử dụng dưới độ tuổi",
+				"intro": "{siteDomain} cấm bất kỳ ai dưới 18 tuổi, hoặc dưới độ tuổi đánh bạc hợp pháp trong khu vực của họ.",
+				"content": "Nếu chúng tôi phát hiện ai đó chưa đủ tuổi, chúng tôi sẽ đình chỉ tài khoản ngay lập tức, hủy bỏ mọi khoản thắng và xóa dữ liệu liên quan. \nĐối với cha mẹ và người giám hộ:",
 				"items": {
-					"0": "Sử dụng bảo vệ bằng mật khẩu trên các thiết bị.",
-					"1": "Không lưu thông tin ví trên các thiết bị dùng chung.",
-					"2": "Thiết lập các công cụ như NetNanny hoặc GamBlock để chặn các trang web cờ bạc."
+					"0": "Sử dụng bảo vệ mật khẩu trên thiết bị.",
+					"1": "Không lưu thông tin ví trên thiết bị dùng chung.",
+					"2": "Cài đặt các công cụ như NetNanny hoặc GamBlock để chặn các trang web cờ bạc."
 				}
 			},
 			"breach": {
-				"title": "Phản ứng vi phạm dữ liệu",
-				"content": "Nếu vi phạm dữ liệu có nguy cơ đe dọa quyền hoặc bảo mật của bạn:",
+				"title": "Phản ứng Vi phạm Dữ liệu",
+				"content": "If một vi phạm dữ liệu đe dọa quyền hoặc bảo mật của bạn:",
 				"items": {
-					"0": "Chúng tôi sẽ thông báo cho tất cả người dùng bị ảnh hưởng ngay lập tức.",
-					"1": "Chúng tôi sẽ thông báo cho các cơ quan có thẩm quyền, tuân thủ pháp luật.",
+					"0": "Chúng tôi sẽ cảnh báo tất cả người dùng bị ảnh hưởng ngay lập tức.",
+					"1": "Chúng tôi sẽ thông báo cho các cơ quan chức năng, tuân thủ pháp luật.",
 					"2": "Chúng tôi sẽ hành động nhanh chóng để khắc phục sự cố và khôi phục bảo mật."
 				}
 			},
 			"changes": {
-				"title": "Cập nhật chính sách",
-				"content": "Chúng tôi cập nhật Chính sách bảo mật này theo thời gian khi mọi thứ thay đổi, cho dù đó là hoạt động, công nghệ hay luật pháp. Những thay đổi lớn sẽ xuất hiện trên trang web dưới dạng thông báo hoặc biểu ngữ. Thỉnh thoảng hãy kiểm tra trang này để luôn cập nhật."
+				"title": "Cập nhật Chính sách",
+				"content": "Chúng tôi cập nhật Chính sách bảo mật này theo thời gian khi mọi thứ thay đổi—dù là hoạt động, công nghệ hay luật pháp. Các thay đổi lớn sẽ hiển thị trên trang web dưới dạng thông báo hoặc banner. Kiểm tra trang này thỉnh thoảng để cập nhật thông tin."
 			},
 			"contact": {
-				"title": "Liên hệ với chúng tôi",
+				"title": "Liên hệ",
 				"intro": "Có câu hỏi, lo ngại về quyền riêng tư hoặc yêu cầu về dữ liệu của bạn? Hãy liên hệ bất cứ lúc nào:"
 			}
 		}
 	},
 	"terms": {
-		"title": "Điều khoản & Điều kiện — Sòng bạc tiền điện tử {siteName}",
+		"title": "Điều khoản & Điều kiện — {siteName} Sòng bạc Crypto",
 		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"sections": {
 			"ownership": {
-				"title": "Ai điều hành {siteDomain}",
-				"content1": "{siteDomain} thuộc về {siteName} N.V. Đó là chúng tôi — khi chúng tôi nói '{siteName},' 'chúng tôi,' 'của chúng tôi,' hoặc 'chúng ta,' chúng tôi đang nói về đội ngũ đằng sau trang web.",
-				"content2": "Chúng tôi điều hành một sòng bạc tiền điện tử chỉ sử dụng ví. Tất cả các khoản tiền gửi, đặt cược và rút tiền đều được thực hiện trực tiếp thông qua ví tiền điện tử của riêng bạn. Để đảm bảo an ninh và dễ dàng truy cập, chúng tôi hỗ trợ Dynamic.xyz, WalletConnect và MetaMask."
+				"title": "Ai Điều hành {siteDomain}",
+				"content1": "{siteDomain} thuộc về {siteName} N.V. Đó là chúng tôi—khi chúng tôi nói '{siteName},' 'chúng tôi,' 'của chúng tôi,' hoặc 'chúng ta,' chúng tôi đang nói về đội ngũ đứng sau trang web.",
+				"content2": "Chúng tôi vận hành một sòng bạc crypto chỉ dùng ví. Tất cả tiền nạp, cược và rút tiền đi thẳng qua ví crypto của riêng bạn. Để bảo mật và truy cập dễ dàng, chúng tôi hỗ trợ Dynamic.xyz, WalletConnect và MetaMask."
 			},
 			"notice": {
-				"title": "Bạn đang đồng ý với điều gì",
-				"content": "Khi bạn kết nối ví của mình hoặc sử dụng {siteDomain}, bạn đồng ý với:",
+				"title": "Bạn Đang Đồng Ý Với Điều Gì",
+				"content": "Khi bạn kết nối ví hoặc sử dụng {siteDomain}, bạn đồng ý với:",
 				"items": {
 					"0": "Các Điều khoản & Điều kiện này",
-					"1": "Chính sách bảo mật của chúng tôi",
-					"2": "Chính sách chơi game có trách nhiệm của chúng tôi",
-					"3": "Mọi điều khoản thưởng, liên kết hoặc khuyến mãi",
+					"1": "Chính sách Bảo mật của chúng tôi",
+					"2": "Chính sách Chơi game Có Trách nhiệm của chúng tôi",
+					"3": "Bất kỳ điều khoản thưởng, liên kết hoặc khuyến mãi nào",
 					"4": "Tất cả các quy tắc hoặc cập nhật khác được đăng trên {siteDomain}"
 				},
-				"content2": "Nếu bạn không chấp nhận các điều khoản này, chỉ cần không sử dụng {siteDomain}.",
-				"outro": "Bạn có trách nhiệm đảm bảo rằng việc chơi game bằng tiền điện tử được cho phép ở nơi bạn sống trước khi bạn chơi."
+				"content2": "Nếu bạn không chấp nhận các điều khoản này, đừng sử dụng {siteDomain}.",
+				"outro": "Việc đảm bảo chơi game crypto được phép ở nơi bạn sống trước khi chơi là tùy thuộc vào bạn."
 			},
 			"general": {
-				"title": "Những điều cơ bản",
+				"title": "Cơ bản",
 				"items": [
-					"Khi bạn kết nối ví của mình, bạn đồng ý tuân thủ mọi quy tắc và hướng dẫn ở đây.",
-					"Các điều khoản này là một thỏa thuận ràng buộc giữa bạn và {siteDomain}. Chúng có hiệu lực ngay khi bạn kết nối ví hoặc sử dụng trang web.",
-					"Chúng tôi có thể cập nhật các điều khoản này bất cứ khi nào chúng tôi cần. Nếu chúng tôi làm vậy, chúng tôi sẽ đăng phiên bản mới ở đây và nó sẽ có hiệu lực ngay lập tức.",
-					"Nếu có sự mâu thuẫn giữa các điều khoản này và bất cứ điều gì khác — ưu đãi thưởng, nội dung của bên thứ ba, bất cứ điều gì — các điều khoản này sẽ được ưu tiên áp dụng.",
-					"Phiên bản tiếng Anh là phiên bản chính thức. Các bản dịch chỉ nhằm mục đích trợ giúp."
+					"Khi bạn kết nối ví, bạn đồng ý tuân theo mọi quy tắc và hướng dẫn tại đây.",
+					"Các điều khoản này là thỏa thuận ràng buộc giữa bạn và {siteDomain}. Chúng có hiệu lực ngay khi bạn kết nối ví hoặc sử dụng trang web.",
+					"Chúng tôi có thể cập nhật các điều khoản này bất cứ khi nào cần. Nếu làm vậy, chúng tôi sẽ đăng phiên bản mới tại đây và nó áp dụng ngay lập tức.",
+					"Nếu có mâu thuẫn giữa các điều khoản này và bất kỳ thứ gì khác—đề nghị thưởng, thứ của bên thứ ba, bất cứ gì—các điều khoản này sẽ thắng.",
+					"Phiên bản tiếng Anh là phiên bản chính thức. Bản dịch chỉ để hỗ trợ."
 				]
 			},
 			"account": {
-				"title": "Ví, Đăng nhập và Bảo mật của bạn",
+				"title": "Ví, Đăng nhập và Bảo mật của Bạn",
 				"intro": "",
 				"walletLogin": {
-					"title": "Kết nối và Quyền sở hữu ví",
+					"title": "Kết nối Ví & Quyền sở hữu",
 					"items": [
-						"Chúng tôi sử dụng Dynamic.xyz và các trình kết nối ví khác để đăng nhập và xác thực. Khi bạn kết nối ví của mình, bạn xác nhận rằng bạn sở hữu nó và cho phép chúng tôi liên kết nó với tài khoản của bạn.",
-						"Chúng tôi sẽ không bao giờ yêu cầu khóa riêng tư, cụm từ hạt giống hoặc thông tin khôi phục của bạn. Bảo mật của ví của bạn nằm trong tay bạn. Chúng tôi không chịu trách nhiệm nếu bạn bị lừa đảo, bị hack hoặc mất quyền truy cập do thiết bị của chính bạn."
+						"Chúng tôi sử dụng Dynamic.xyz và các trình kết nối ví khác để đăng nhập và xác thực. Khi bạn kết nối ví, bạn xác nhận bạn sở hữu nó và cho phép chúng tôi liên kết nó với tài khoản của bạn.",
+						"Chúng tôi sẽ không bao giờ hỏi khóa riêng tư, cụm từ hạt giống hoặc thông tin khôi phục của bạn. Bảo mật ví của bạn nằm trong tay bạn. Chúng tôi không chịu trách nhiệm nếu bạn bị lừa đảo, hack hoặc mất quyền truy cập do thiết bị của chính bạn."
 					]
 				},
 				"registration": {
-					"title": "Email và Chi tiết tài khoản",
+					"title": "Email & Chi tiết Tài khoản",
 					"items": [
-						"Bạn có thể cung cấp cho chúng tôi một email hoặc tên người dùng nếu bạn muốn trợ giúp hoặc cập nhật, nhưng điều đó là tùy chọn.",
-						"Bạn chịu trách nhiệm về mọi thứ xảy ra với ví được kết nối của mình."
+						"Bạn có thể cung cấp email hoặc tên người dùng nếu muốn được trợ giúp hoặc cập nhật, nhưng đó là tùy chọn.",
+						"Bạn chịu trách nhiệm cho mọi thứ xảy ra với ví đã kết nối của mình."
 					]
 				},
 				"security": {
-					"title": "Nhiều tài khoản và Bảo mật",
+					"title": "Nhiều Tài khoản & Bảo mật",
 					"items": [
-						"Hãy sử dụng một ví/tài khoản cho mỗi người. Nếu bạn cố gắng lách luật bằng cách sử dụng nhiều hơn một, chúng tôi có thể đình chỉ tài khoản của bạn và giữ lại tiền của bạn.",
+						"Chỉ dùng một ví/tài khoản cho mỗi người. Nếu bạn cố gắng chơi khăm hệ thống bằng cách sử dụng nhiều hơn một, chúng tôi có thể đình chỉ tài khoản và giữ tiền của bạn.",
 						"Nếu ví của bạn hỗ trợ 2FA, hãy bật nó lên.",
-						"Nếu có điều gì đó có vẻ không ổn, hãy gửi email cho chúng tôi tại support@digidice.games ngay lập tức."
+						"Nếu có gì đó không ổn, hãy gửi email cho chúng tôi tại support@digidice.games ngay lập tức."
 					]
 				}
 			},
 			"eligibility": {
-				"title": "Ai có thể chơi và bạn hứa điều gì",
-				"intro": "Bằng cách sử dụng {siteDomain}, bạn hứa rằng:",
+				"title": "Ai Có Thể Chơi và Bạn Hứa Gì",
+				"intro": "Bằng cách sử dụng {siteDomain}, bạn hứa:",
 				"items": [
 					"Bạn ít nhất 18 tuổi, hoặc bất kỳ độ tuổi đánh bạc hợp pháp nào ở nơi bạn sống.",
-					"Chơi game bằng tiền điện tử trực tuyến là hợp pháp đối với bạn.",
+					"Chơi game crypto trực tuyến là hợp pháp đối với bạn.",
 					"Bạn sở hữu ví mà bạn kết nối.",
-					"Bạn sẽ không sử dụng VPN, proxy hoặc che giấu IP để tránh các khối địa lý.",
+					"Bạn sẽ không sử dụng VPN, proxy hoặc che giấu IP để né tránh chặn địa lý.",
 					"Bạn sẽ không sử dụng {siteName} cho bất cứ điều gì bất hợp pháp hoặc mờ ám.",
-					"Bạn hiểu rằng tiền điện tử có tính biến động và bạn chấp nhận rủi ro."
+					"Bạn hiểu rằng crypto biến động, và bạn chấp nhận rủi ro."
 				],
-				"outro": "Nếu bạn vi phạm bất kỳ lời hứa nào trong số này, chúng tôi có thể đình chỉ hoặc đóng tài khoản của bạn và giữ lại tiền của bạn nếu pháp luật quy định."
+				"outro": "Nếu bạn phá vỡ bất kỳ lời hứa nào trong số này, chúng tôi có thể đình chỉ hoặc đóng tài khoản của bạn và giữ tiền của bạn nếu luật pháp yêu cầu."
 			},
 			"restricted": {
-				"title": "Nơi bạn không thể chơi",
-				"content1": "{siteDomain} bị cấm nếu bạn đang ở một nơi mà cờ bạc trực tuyến hoặc cá cược bằng tiền điện tử bị hạn chế. Điều đó có nghĩa là, ví dụ: Hoa Kỳ, Vương quốc Anh, Pháp, Hà Lan, Tây Ban Nha, Đức, Úc, Comoros, Iran, Bắc Triều Tiên, Syria, Sudan và bất kỳ nơi nào trong danh sách đen của FATF.",
-				"content2": "Cố gắng lẻn vào bằng VPN hoặc proxy? Đừng làm vậy. Nếu bạn làm vậy, chúng tôi sẽ đóng tài khoản của bạn và bạn sẽ mất tiền.",
+				"title": "Nơi Bạn Không Thể Chơi",
+				"content1": "{siteDomain} bị cấm nếu bạn ở nơi hạn chế cờ bạc trực tuyến hoặc cá cược crypto. Điều đó có nghĩa là, ví dụ: Hoa Kỳ, Vương quốc Anh, Pháp, Hà Lan, Tây Ban Nha, Đức, Úc, Comoros, Iran, Bắc Triều Tiên, Syria, Sudan và bất kỳ nơi nào trong danh sách đen của FATF.",
+				"content2": "Cố gắng lẻn vào bằng VPN hoặc proxy? Đừng. Nếu bạn làm vậy, chúng tôi sẽ đóng tài khoản của bạn và bạn sẽ mất tiền.",
 				"content3": ""
 			},
 			"crypto": {
-				"title": "Gửi và rút tiền điện tử",
+				"title": "Nạp và Rút tiền Crypto",
 				"policy": {
-					"title": "Chỉ tiền điện tử",
+					"title": "Chỉ Crypto",
 					"items": [
-						"Chúng tôi chỉ sử dụng tiền điện tử. Bạn chỉ có thể gửi và rút bằng các đồng tiền được phê duyệt: BTC, ETH, USDT, BNB, TRX và các đồng tiền tương tự. Không có thanh toán bằng tiền pháp định hoặc thẻ.",
-						"Tất cả các giao dịch phải đến từ ví mà bạn kiểm soát. Không có ví của bên thứ ba hoặc ví dùng chung."
+						"Chúng tôi chỉ dùng crypto. Bạn có thể nạp và rút chỉ bằng các đồng tiền được chấp thuận: BTC, ETH, USDT, BNB, TRX và tương tự. Không thanh toán bằng tiền pháp định hoặc thẻ.",
+						"Tất cả các giao dịch phải đến từ ví mà bạn kiểm soát. Không dùng ví của bên thứ ba hoặc ví chung."
 					]
 				},
 				"deposits": {
-					"title": "Gửi tiền",
+					"title": "Nạp tiền",
 					"items": [
-						"Khi bạn gửi tiền, tiền của bạn sẽ xuất hiện sau khi blockchain xác nhận giao dịch. Bạn phải trả phí mạng (gas), không phải chúng tôi. Khoản tiền gửi tối thiểu là 10 đô la tiền điện tử. Chúng tôi có thể từ chối các khoản tiền gửi từ các ví bị đưa vào danh sách đen hoặc có rủi ro.",
+						"Khi bạn nạp tiền, tiền của bạn sẽ hiện ra sau khi blockchain xác nhận giao dịch. Bạn chịu phí mạng (gas), không phải chúng tôi. Mức nạp tối thiểu là $10 bằng crypto. Chúng tôi có thể từ chối nạp tiền từ các ví trong danh sách đen hoặc rủi ro.",
 						""
 					]
 				},
 				"withdrawals": {
 					"title": "Rút tiền",
 					"items": [
-						"Việc rút tiền được thực hiện trực tiếp vào ví bạn đã chọn. Đảm bảo rằng nó hoạt động với blockchain phù hợp. Khoản tiền rút tối thiểu thường là 10 đô la, tùy thuộc vào phí. Chúng tôi có thể trì hoãn việc rút tiền để kiểm tra gian lận hoặc vì lý do bảo mật.",
-						"Tất cả các giao dịch blockchain là cuối cùng. Chúng tôi không thể hủy, hoàn tiền hoặc thay đổi chúng sau khi chúng đã được xác nhận."
+						"Tiền rút đi thẳng vào ví bạn chọn. Đảm bảo nó hoạt động với đúng blockchain. Mức rút tối thiểu thường là $10, tùy thuộc vào phí. Chúng tôi có thể trì hoãn rút tiền để kiểm tra gian lận hoặc bảo mật.",
+						"Tất cả các giao dịch blockchain là cuối cùng. Chúng tôi không thể hủy, hoàn tiền hoặc thay đổi chúng sau khi đã xác nhận."
 					]
 				},
 				"chargebacks": {
@@ -1744,95 +1746,95 @@
 			},
 			"kyc": {
 				"title": "CHÍNH SÁCH KHÔNG KYC",
-				"intro": "{siteDomain} hoạt động trên mô hình Không KYC, vì vậy bạn có thể chơi mà không cần kiểm tra ID cho các trò chơi thông thường.",
+				"intro": "{siteDomain} chạy trên mô hình Không KYC, vì vậy bạn có thể chơi mà không cần kiểm tra ID cho các trò chơi thông thường.",
 				"content1": "Nhưng đôi khi, {siteName} có thể yêu cầu một chút thông tin nếu:",
 				"items": [
-					"Pháp luật hoặc cơ quan có thẩm quyền yêu cầu.",
+					"Luật pháp hoặc cơ quan chức năng yêu cầu.",
 					"Họ cần điều tra gian lận hoặc hành vi đáng ngờ.",
 					"Cần thiết để giữ an toàn cho nền tảng hoặc đáp ứng các quy định."
 				],
-				"outro": "Nếu bạn không hợp tác với yêu cầu xác minh pháp lý, tài khoản của bạn có thể bị đình chỉ hoặc việc rút tiền của bạn có thể bị trì hoãn."
+				"outro": "Nếu bạn không hợp tác với yêu cầu xác minh hợp pháp, tài khoản của bạn có thể bị đình chỉ hoặc việc rút tiền có thể bị trì hoãn."
 			},
 			"fairPlay": {
-				"title": "CHƠI CÔNG BẰNG, HÀNH VI & BẢO MẬT",
+				"title": "CHƠI CÔNG BẰNG, ỨNG XỬ & BẢO MẬT",
 				"intro": "Bạn không thể:",
 				"items": [
-					"Sử dụng bot, tập lệnh hoặc các công cụ chơi tự động.",
-					"Hợp tác với những người khác để dàn xếp kết quả.",
-					"Tận dụng các lỗi hoặc lỗ hổng hợp đồng thông minh.",
+					"Sử dụng bot, kịch bản hoặc công cụ tự động chơi.",
+					"Hợp tác với người khác để dàn xếp kết quả.",
+					"Lợi dụng lỗi hoặc lỗ hổng hợp đồng thông minh.",
 					"Lạm dụng tiền thưởng, giới thiệu hoặc khuyến mãi."
 				],
-				"outro1": "Nếu bạn vi phạm các quy tắc này, {siteName} có thể cấm tài khoản của bạn vĩnh viễn và lấy số dư của bạn.",
-				"outro2": "{siteName} sử dụng tính năng phát hiện gian lận bằng AI, phân tích hành vi và kiểm tra blockchain để giữ cho mọi thứ công bằng và an toàn."
+				"outro1": "Nếu bạn phá vỡ các quy tắc này, {siteName} có thể cấm tài khoản của bạn vĩnh viễn và lấy số dư của bạn.",
+				"outro2": "{siteName} sử dụng AI phát hiện gian lận, phân tích hành vi và kiểm tra blockchain để giữ mọi thứ công bằng và an toàn."
 			},
 			"bonuses": {
 				"title": "TIỀN THƯỞNG & KHUYẾN MÃI",
 				"items": [
-					"Mỗi phần thưởng đều tuân theo một bộ điều khoản riêng được liệt kê cùng với chương trình khuyến mãi.",
-					"Nếu bạn lạm dụng tiền thưởng (như tạo thêm tài khoản, xoay vòng ví hoặc sử dụng VPN), bạn sẽ mất tiền thưởng của mình.",
+					"Mỗi khoản thưởng tuân theo bộ quy tắc riêng được liệt kê cùng với khuyến mãi.",
+					"Nếu bạn lạm dụng tiền thưởng (như tạo thêm tài khoản, xoay vòng ví hoặc dùng VPN), bạn sẽ mất tiền thưởng.",
 					"Bạn phải đáp ứng tất cả các yêu cầu đặt cược trước khi có thể rút tiền thắng cược từ tiền thưởng."
 				]
 			},
 			"playingRules": {
-				"title": "QUY TẮC CHƠI & KẾT QUẢ",
+				"title": "QUY TẮC TRÒ CHƠI & KẾT QUẢ",
 				"items": [
-					"Cược của bạn chỉ được tính sau khi bạn thấy xác nhận trên màn hình. Nếu số dư của bạn không đủ để trang trải, cược sẽ bị vô hiệu.",
+					"Cược của bạn chỉ được tính sau khi bạn thấy xác nhận trên màn hình. Nếu số dư của bạn không đủ, cược sẽ bị hủy.",
 					"Nếu có tranh chấp, hồ sơ blockchain của {siteName} là cuối cùng.",
-					"Tất cả các trò chơi có thể chứng minh là công bằng đều sử dụng tính ngẫu nhiên trên chuỗi để duy trì tính minh bạch.",
+					"Tất cả các trò chơi được chứng minh công bằng sử dụng tính ngẫu nhiên trên chuỗi để duy trì tính minh bạch.",
 					""
 				]
 			},
 			"errors": {
 				"title": "GIỚI HẠN & GIÁN ĐOẠN",
-				"intro": "{siteName} không chịu trách nhiệm về:",
+				"intro": "{siteName} không chịu trách nhiệm cho:",
 				"items": [
-					"Mất kết nối internet hoặc độ trễ.",
-					"Sự chậm trễ hoặc phân nhánh của blockchain.",
-					"Thời gian ngừng hoạt động của ví từ các bên thứ ba.",
-					"Các sự cố về hợp đồng thông minh hoặc nhà cung cấp trò chơi."
+					"Mất internet hoặc lag.",
+					"Chậm trễ blockchain hoặc fork.",
+					"Thời gian chết của ví từ bên thứ ba.",
+					"Lỗi hợp đồng thông minh hoặc nhà cung cấp trò chơi."
 				],
-				"outro1": "{siteName} có thể vô hiệu hóa các cược hoặc giao dịch nếu sự cố kỹ thuật hoặc khai thác làm hỏng mọi thứ."
+				"outro1": "{siteName} có thể hủy cược hoặc giao dịch nếu sự cố kỹ thuật hoặc khai thác lỗi làm hỏng mọi thứ."
 			},
 			"suspension": {
-				"title": "ĐÌNH CHỈ TÀI KHOẢN & TIỀN",
+				"title": "ĐÌNH CHỈ TÀI KHOẢN & QUỸ",
 				"intro": "{siteName} có thể đình chỉ hoặc đóng tài khoản vì:",
-				"items": ["Vi phạm các quy tắc", "Gian lận", "Lý do pháp lý."],
-				"outro1": "Mọi khoản tiền còn lại sẽ được xử lý theo luật pháp và chính sách của {siteName}.",
+				"items": ["Phá vỡ quy tắc", "Gian lận", "Lý do pháp lý."],
+				"outro1": "Bất kỳ khoản tiền nào còn lại sẽ được xử lý theo luật pháp và chính sách của {siteName}.",
 				"outro2": ""
 			},
 			"responsibleGaming": {
-				"title": "CHƠI CÓ TRÁCH NHIỆM",
+				"title": "CỜ BẠC CÓ TRÁCH NHIỆM",
 				"items": [
-					"{siteName} hỗ trợ cờ bạc có trách nhiệm. Nếu bạn cần nghỉ ngơi, hãy gửi email đến support@digidice.games để tự loại trừ hoặc tạm dừng.",
-					"Không ai dưới 18 tuổi hoặc dưới độ tuổi hợp pháp được phép chơi. Các tài khoản vi phạm quy tắc này sẽ bị đóng ngay lập tức.",
+					"{siteName} hỗ trợ cờ bạc có trách nhiệm. Nếu bạn cần nghỉ ngơi, hãy gửi email support@digidice.games để tự loại trừ hoặc hạ nhiệt.",
+					"Không ai dưới 18 tuổi hoặc dưới độ tuổi hợp pháp được chơi. Các tài khoản bị phát hiện phá vỡ quy tắc này sẽ bị đóng ngay lập tức.",
 					""
 				]
 			},
 			"ip": {
 				"title": "SỞ HỮU TRÍ TUỆ",
-				"content1": "Tất cả các nhãn hiệu, đồ họa, nội dung và phần mềm thuộc về {siteName} hoặc các nhà cấp phép của nó. Bạn chỉ có thể sử dụng chúng cho mục đích giải trí cá nhân. Không sao chép hoặc chia sẻ chúng mà không có sự cho phép.",
+				"content1": "Tất cả thương hiệu, đồ họa, nội dung và phần mềm thuộc về {siteName} hoặc người cấp phép của nó. Bạn chỉ có thể sử dụng chúng cho mục đích giải trí cá nhân. Không sao chép hoặc chia sẻ chúng mà không được phép.",
 				"content2": ""
 			},
 			"liability": {
 				"title": "GIỚI HẠN TRÁCH NHIỆM",
 				"items": [
-					"{siteName} không chịu trách nhiệm về những thiệt hại gián tiếp hoặc bất ngờ — như mất lợi nhuận.",
-					"Nếu có khiếu nại, số tiền tối đa mà {siteName} sẽ chi trả là khoản tiền gửi gần đây nhất của bạn.",
+					"{siteName} không chịu trách nhiệm cho các thiệt hại gián tiếp hoặc không mong muốn—như mất lợi nhuận.",
+					"Nếu có khiếu nại, mức tối đa {siteName} sẽ chi trả là khoản nạp gần nhất của bạn.",
 					""
 				]
 			},
 			"disputes": {
 				"title": "GIẢI QUYẾT TRANH CHẤP",
-				"content": "Nếu bạn có khiếu nại hoặc tranh chấp, hãy liên hệ với {siteDomain}. Họ đặt mục tiêu giải quyết mọi việc một cách nhanh chóng và công bằng."
+				"content": "Nếu bạn có khiếu nại hoặc tranh chấp, hãy liên hệ với {siteDomain}. Họ nhắm đến việc giải quyết mọi thứ nhanh chóng và công bằng."
 			},
 			"amendments": {
 				"title": "SỬA ĐỔI",
 				"content": "{siteName} có thể thay đổi các Điều khoản này bất cứ lúc nào. Phiên bản mới nhất luôn có tại https://{siteDomain}. Bằng cách sử dụng trang web, bạn chấp nhận mọi cập nhật."
 			},
 			"miscellaneous": {
-				"title": "KHÁC",
+				"title": "LINH TINH",
 				"items": [
-					"Các Điều khoản này là toàn bộ thỏa thuận giữa bạn và {siteName}. Nếu bất kỳ phần nào không có hiệu lực, phần còn lại vẫn có hiệu lực. {siteName} có thể chuyển nhượng hoặc ủy quyền các quyền của mình, nhưng người dùng thì không.",
+					"Các Điều khoản này là toàn bộ thỏa thuận giữa bạn và {siteName}. Nếu bất kỳ phần nào không giữ vững, phần còn lại vẫn có hiệu lực. {siteName} có thể chuyển nhượng hoặc ủy quyền quyền của mình, nhưng người dùng thì không.",
 					"",
 					""
 				]
@@ -1848,87 +1850,87 @@
 	},
 	"responsibleGambling": {
 		"title": "Cờ bạc có trách nhiệm tại {siteName}",
-		"subtitle": "Tìm hiểu về cờ bạc có trách nhiệm tại {siteName}. Giữ quyền kiểm soát, chơi có trách nhiệm và nhận hỗ trợ thông qua các tổ chức trợ giúp toàn cầu.",
+		"subtitle": "Tìm hiểu về cờ bạc có trách nhiệm tại {siteName}. Giữ kiểm soát, chơi có trách nhiệm và nhận hỗ trợ thông qua các tổ chức trợ giúp toàn cầu.",
 		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"intro": {
 			"title": "Cờ bạc có trách nhiệm tại {siteName}",
-			"paragraph1": "Tại {siteName}, chúng tôi muốn việc chơi game phải thú vị, công bằng và luôn có trách nhiệm. Mục tiêu chính của chúng tôi? Đảm bảo mọi người chơi đều có một khoảng thời gian tuyệt vời — trong khi vẫn được thông tin, an toàn và có quyền kiểm soát.",
-			"paragraph2": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp tại quốc gia của họ) chơi. Chấm hết."
+			"paragraph1": "Tại {siteName}, chúng tôi muốn việc chơi game trở nên thú vị, công bằng và luôn có trách nhiệm. Mục tiêu chính của chúng tôi? Đảm bảo mọi người chơi đều có khoảng thời gian tuyệt vời—trong khi vẫn được thông tin, an toàn và trong tầm kiểm soát.",
+			"paragraph2": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp ở quốc gia của họ) chơi. Chấm hết."
 		},
 		"mission": {
-			"title": "Sứ mệnh của chúng tôi rất đơn giản:",
-			"paragraph1": "Chơi game có trách nhiệm không chỉ là một quy tắc đối với chúng tôi — đó là trọng tâm của những gì chúng tôi làm. Chúng tôi cam kết xây dựng một không gian minh bạch, an toàn, được hỗ trợ bởi tiền điện tử, nơi bạn có thể đưa ra những lựa chọn thông minh, cân bằng.",
+			"title": "Sứ mệnh của chúng tôi đơn giản:",
+			"paragraph1": "Chơi game có trách nhiệm không chỉ là một quy tắc đối với chúng tôi—nó nằm ở trung tâm của những gì chúng tôi làm. Chúng tôi cam kết xây dựng một không gian minh bạch, an toàn, được hỗ trợ bởi crypto nơi bạn có thể đưa ra những lựa chọn thông minh, cân bằng.",
 			"paragraph2": "Chúng tôi ủng hộ:",
 			"beliefs": {
-				"0": "Cờ bạc như một hình thức giải trí, không phải là một cách để kiếm tiền",
+				"0": "Cờ bạc như một hình thức giải trí, không phải cách kiếm tiền",
 				"1": "Tự nhận thức, điều độ và chơi thông minh",
-				"2": "Các công cụ, giáo dục và quyền truy cập vào các tổ chức trợ giúp thực sự trên toàn thế giới"
+				"2": "Công cụ, giáo dục và quyền truy cập vào các tổ chức trợ giúp thực sự trên toàn thế giới"
 			}
 		},
 		"understanding": {
-			"title": "Cờ bạc có trách nhiệm: Ý nghĩa thực sự của nó",
-			"paragraph1": "Chơi game bằng tiền điện tử nhanh chóng, không biên giới và ngay trong tầm tay bạn. Điều đó thật thú vị, nhưng nó cũng có nghĩa là bạn cần phải cảnh giác. Cờ bạc có trách nhiệm không chỉ là một từ thông dụng — đó là việc biết giới hạn của mình, để mắt đến thời gian và tiền điện tử của bạn và đảm bảo rằng việc chơi game vẫn thú vị, không phải là thứ bạn không thể từ bỏ.",
-			"paragraph2": "Đây là cách để giữ cho mọi thứ an toàn và vui vẻ:",
+			"title": "Cờ bạc có trách nhiệm: Ý nghĩa thực sự",
+			"paragraph1": "Chơi game crypto nhanh chóng, không biên giới và ngay trong tầm tay bạn. Điều đó thật thú vị, nhưng nó cũng có nghĩa là bạn cần phải cảnh giác. Cờ bạc có trách nhiệm không chỉ là một từ thông dụng — đó là về việc biết giới hạn của bạn, để mắt đến thời gian và tiền crypto của bạn, và đảm bảo việc chơi game vẫn thú vị, không phải thứ gì đó bạn không thể rời bỏ.",
+			"paragraph2": "Dưới đây là cách giữ mọi thứ an toàn và vui vẻ:",
 			"tips": {
-				"0": "Chơi để giải trí, không phải để kiếm tiền.",
-				"1": "Đừng cố gỡ gạc lại những gì đã mất. Nếu bạn thất vọng, hãy tạm dừng một chút.",
-				"2": "Đặt ra giới hạn của riêng bạn về thời gian chơi và số tiền bạn gửi.",
+				"0": "Chơi vì cảm giác hồi hộp, không phải để kiếm tiền.",
+				"1": "Đừng đuổi theo những trận thua. Nếu bạn nản lòng, hãy tránh xa một chút.",
+				"2": "Đặt giới hạn riêng của bạn về thời gian chơi và số tiền nạp.",
 				"3": "Nếu bạn mệt mỏi, căng thẳng hoặc buồn bã, hãy nghỉ ngơi thay vì chơi.",
-				"4": "Không bao giờ đánh bạc bằng số tiền bạn cần để trả tiền thuê nhà, mua thức ăn hoặc bất cứ thứ gì cần thiết.",
-				"5": "Khi niềm vui không còn nữa, hãy nhấn tạm dừng và thiết lập lại."
+				"4": "Không bao giờ đánh bạc bằng tiền bạn cần cho tiền thuê nhà, thức ăn hoặc bất cứ thứ gì thiết yếu.",
+				"5": "Khi niềm vui không còn, hãy nhấn tạm dừng và thiết lập lại."
 			}
 		},
 		"selfCheck": {
-			"title": "Tự kiểm tra nhanh: Bạn có còn kiểm soát được không?",
-			"intro": "Hãy thành thật với chính mình:",
+			"title": "Tự kiểm tra nhanh: Bạn vẫn đang kiểm soát chứ?",
+			"intro": "Hãy trung thực với bản thân:",
 			"questions": {
 				"0": "Bạn có chơi lâu hơn dự định không?",
 				"1": "Việc chơi game có ảnh hưởng đến công việc hoặc các mối quan hệ của bạn không?",
-				"2": "Bạn có cảm thấy bồn chồn hoặc khó chịu khi không thể chơi không?",
-				"3": "Bạn có đánh bạc chỉ để thoát khỏi căng thẳng hoặc buồn chán không?",
-				"4": "Bạn có vay tiền điện tử chỉ để tiếp tục chơi không?",
-				"5": "Bạn có tăng tiền cược sau khi thua, hy vọng lấy lại tất cả không?"
+				"2": "Bạn có bồn chồn hoặc khó chịu khi không thể chơi không?",
+				"3": "Bạn có đang đánh bạc chỉ để thoát khỏi căng thẳng hoặc buồn chán không?",
+				"4": "Bạn có vay mượn crypto chỉ để tiếp tục chơi không?",
+				"5": "Bạn có tăng cược sau khi thua, hy vọng giành lại tất cả không?"
 			},
-			"warning": "Nếu bạn trả lời \"có\" cho một vài câu hỏi trong số này, có lẽ đã đến lúc bạn nên lùi lại một bước hoặc nói chuyện với ai đó về điều đó."
+			"warning": "Nếu bạn trả lời \"có\" cho một vài câu hỏi này, có lẽ đã đến lúc lùi lại hoặc nói chuyện với ai đó về điều đó."
 		},
 		"tools": {
-			"title": "Cách {siteName} chăm sóc bạn",
-			"intro": "Chúng tôi muốn bạn vui vẻ, nhưng chúng tôi còn quan tâm nhiều hơn đến sức khỏe của bạn. Đó là lý do tại sao {siteName} cung cấp cho bạn các công cụ để chơi an toàn và nhận thức được chi tiêu của mình.",
+			"title": "Cách {siteName} quan tâm đến bạn",
+			"intro": "Chúng tôi muốn bạn vui vẻ, nhưng chúng tôi quan tâm đến sức khỏe của bạn hơn nữa. Đó là lý do tại sao {siteName} cung cấp cho bạn các công cụ để chơi an toàn và nhận thức về chi tiêu của mình.",
 			"selfExclusion": {
 				"title": "Tự loại trừ",
-				"description": "Bạn có thể yêu cầu chặn tài khoản của mình tạm thời hoặc vĩnh viễn. Trong thời gian đó, bạn sẽ không thể chơi hoặc nhận các chương trình khuyến mãi của chúng tôi. Chỉ cần gửi email đến support@{siteDomain} — mọi thứ đều được giữ bí mật."
+				"description": "Bạn có thể yêu cầu chặn tài khoản của mình tạm thời hoặc vĩnh viễn. Trong thời gian đó, bạn sẽ không thể chơi hoặc nhận khuyến mãi của chúng tôi. Chỉ cần gửi email support@{siteDomain} — mọi thứ đều được giữ kín."
 			},
 			"coolingOff": {
-				"title": "Thời gian tạm nghỉ",
-				"paragraph1": "Cần nghỉ ngơi? Chọn một khoảng thời gian tạm dừng phù hợp với bạn:",
+				"title": " Thời gian hạ nhiệt",
+				"paragraph1": "Cần nghỉ ngơi? Chọn thời gian tạm dừng phù hợp với bạn:",
 				"periods": {
 					"0": "24 giờ",
 					"1": "1 tuần",
 					"2": "1 tháng"
 				},
-				"paragraph2": "Trong khi bạn đang tạm dừng, ví của bạn sẽ không hoạt động để chơi game."
+				"paragraph2": "Trong khi bạn đang tạm dừng, ví của bạn sẽ không hoạt động cho việc chơi game."
 			},
 			"depositAwareness": {
-				"title": "Nhận thức về việc gửi tiền điện tử",
-				"description": "{siteName} hoạt động hoàn toàn trên blockchain. Chúng tôi khuyên bạn nên theo dõi ví của mình hoặc trình khám phá khối để theo dõi các khoản tiền gửi và cược của mình."
+				"title": "Nhận thức về nạp tiền Crypto",
+				"description": "{siteName} chạy hoàn toàn trên blockchain. Chúng tôi khuyên bạn nên để mắt đến ví của mình hoặc trình khám phá khối để theo dõi các khoản nạp và cược của mình."
 			}
 		},
 		"underagePrevention": {
 			"title": "Ngăn chặn trẻ vị thành niên",
-			"paragraph1": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi chơi, gửi tiền hoặc đăng ký. Chấm hết.",
-			"tipsTitle": "Đối với phụ huynh và người giám hộ:",
+			"paragraph1": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi chơi, nạp tiền hoặc đăng ký. Chấm hết.",
+			"tipsTitle": "Dành cho cha mẹ và người giám hộ:",
 			"tips": {
-				"0": "Đặt mật khẩu và sử dụng các biện pháp kiểm soát của phụ huynh.",
-				"1": "Không lưu thông tin ví trên các thiết bị dùng chung.",
-				"2": "Đăng xuất khỏi {siteName} khi bạn không có mặt.",
-				"3": "Cài đặt các bộ lọc web như NetNanny hoặc GamBlock để chặn quyền truy cập.",
-				"4": "Thường xuyên kiểm tra những gì con bạn làm trực tuyến."
+				"0": "Đặt mật khẩu và sử dụng kiểm soát của phụ huynh.",
+				"1": "Không lưu thông tin ví trên thiết bị dùng chung.",
+				"2": "Đăng xuất khỏi {siteName} khi bạn không ở gần.",
+				"3": "Cài đặt bộ lọc web như NetNanny hoặc GamBlock để chặn truy cập.",
+				"4": "Thường xuyên kiểm tra xem con bạn làm gì trực tuyến."
 			},
-			"warning": "Nếu chúng tôi phát hiện trẻ vị thành niên chơi, chúng tôi sẽ đóng tài khoản đó và tịch thu mọi khoản tiền thắng cược."
+			"warning": "Nếu chúng tôi phát hiện trẻ vị thành niên chơi, chúng tôi sẽ đóng tài khoản đó và tịch thu mọi khoản thắng."
 		},
 		"helpSupport": {
 			"title": "Cần giúp đỡ? Bạn không đơn độc",
-			"intro": "Nếu cờ bạc bắt đầu chiếm lĩnh, có sự giúp đỡ thực sự ở ngoài kia — miễn phí, riêng tư và không phán xét.|Hãy xem các tổ chức toàn cầu này để được hỗ trợ:",
+			"intro": "Nếu cờ bạc bắt đầu chiếm lĩnh, có sự trợ giúp thực sự ngoài kia — miễn phí, riêng tư và không phán xét.|Kiểm tra các tổ chức toàn cầu này để được hỗ trợ:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1951,19 +1953,19 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "Họ cung cấp các bài kiểm tra tự đánh giá, trò chuyện trực tuyến và hỗ trợ từ những người hiểu rõ."
+			"paragraph2": "Họ cung cấp các bài tự kiểm tra, chat trực tuyến và hỗ trợ từ những người hiểu rõ."
 		},
 		"principles": {
 			"title": "Lời hứa của chúng tôi: Luôn chơi game có trách nhiệm",
-			"intro": "Đây là những gì {siteName} đại diện cho:",
+			"intro": "Đây là những gì {siteName} đại diện:",
 			"items": {
 				"0": {
 					"title": "Minh bạch",
-					"description": "Mọi trò chơi đều có thể chứng minh là công bằng và mở trên blockchain."
+					"description": "Mọi trò chơi đều được chứng minh công bằng và mở trên blockchain."
 				},
 				"1": {
 					"title": "Bảo mật",
-					"description": "Đăng nhập dựa trên ví với Dynamic.xyz — không mật khẩu, không KYC, hoàn toàn riêng tư."
+					"description": "Đăng nhập dựa trên ví với Dynamic.xyz — không mật khẩu, không KYC, riêng tư hoàn toàn."
 				},
 				"2": {
 					"title": "Kiểm soát",
@@ -1971,23 +1973,23 @@
 				},
 				"3": {
 					"title": "Nhận thức",
-					"description": "Chúng tôi chỉ cho bạn cách giữ cho việc chơi game của bạn lành mạnh."
+					"description": "Chúng tôi chỉ cho bạn cách giữ cho việc chơi game của mình lành mạnh."
 				},
 				"4": {
 					"title": "Hỗ trợ",
-					"description": "Đội ngũ của chúng tôi luôn ở đây 24/7 để giúp đỡ về việc tự loại trừ hoặc đưa ra lời khuyên."
+					"description": "Đội ngũ của chúng tôi ở đây 24/7 để giúp tự loại trừ hoặc tư vấn."
 				}
 			}
 		},
 		"playSmart": {
-			"title": "Đừng quên: Chơi thông minh, Chơi an toàn",
-			"intro": "{siteName} là về niềm vui và sự tự do, không bao giờ là về áp lực hay căng thẳng tài chính. Hãy tuân thủ những điều cơ bản sau:",
+			"title": "Đừng quên: Chơi Thông Minh, Chơi An Toàn",
+			"intro": "{siteName} là về niềm vui và sự tự do, không bao giờ là áp lực hay căng thẳng tài chính. Hãy tuân thủ những điều cơ bản này:",
 			"reminders": {
-				"0": "Đặt ra giới hạn của bạn trước.",
-				"1": "Hãy dừng lại khi nó không còn vui nữa.",
-				"2": "Đừng bao giờ cố gỡ gạc lại những gì đã mất.",
+				"0": "Đặt giới hạn của bạn trước.",
+				"1": "Rời đi khi nó không còn vui nữa.",
+				"2": "Không bao giờ đuổi theo những trận thua.",
 				"3": "Giữ cờ bạc tách biệt khỏi tài chính thông thường của bạn.",
-				"4": "Hãy coi bất kỳ khoản tiền thắng cược nào như một phần thưởng, không phải là một khoản lương."
+				"4": "Coi mọi khoản thắng như một phần thưởng, không phải tiền lương."
 			}
 		},
 		"finalMessage": {
@@ -1998,16 +2000,16 @@
 	},
 	"faqs": {
 		"title": "Câu hỏi thường gặp – {siteName}",
-		"subtitle": "Tìm câu trả lời cho các câu hỏi thường gặp về {siteName}. Tìm hiểu về đăng nhập ví, gửi tiền, rút tiền, chơi công bằng và tính minh bạch của blockchain.",
+		"subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về {siteName}. Tìm hiểu về đăng nhập ví, nạp tiền, rút tiền, chơi công bằng và minh bạch blockchain.",
 		"introTitle": "Câu hỏi thường gặp – {siteName}",
-		"intro": "Chào bạn, chào mừng đến với Câu hỏi thường gặp của {siteName}. Nếu bạn tò mò về cách hoạt động của nền tảng chơi game tiền điện tử của chúng tôi, bạn đã đến đúng nơi. Dù bạn là người mới chơi game blockchain hay đã có kinh nghiệm, bạn sẽ tìm thấy câu trả lời ở đây để giúp bạn chơi thông minh và an toàn.|Và nếu bạn không thấy câu hỏi của mình, chỉ cần liên hệ — đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng tại {siteDomain}.",
+		"intro": "Này, chào mừng đến với Câu hỏi thường gặp của {siteName}. Nếu bạn tò mò về cách nền tảng game crypto của chúng tôi hoạt động, bạn đã đến đúng nơi. Dù bạn mới làm quen với game blockchain hay đã chơi nhiều, bạn sẽ tìm thấy câu trả lời ở đây để giúp bạn chơi thông minh và an toàn.|Và nếu bạn không thấy câu hỏi của mình, chỉ cần liên hệ — đội ngũ hỗ trợ của chúng tôi luôn túc trực tại {siteDomain}.",
 		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"blockchainTransparency": {
-			"title": "🧩 Tính minh bạch của Blockchain",
-			"paragraph1": "{siteName} hoạt động hoàn toàn trên các hợp đồng thông minh của blockchain.|Mọi lần đặt cược, chiến thắng và thanh toán đều công khai — bất kỳ ai cũng có thể kiểm tra các bản ghi.",
-			"paragraph2": "Bạn muốn tự mình xem? Tất cả các giao dịch của {siteName} đều có trên:",
+			"title": "🧩 Minh bạch Blockchain",
+			"paragraph1": "{siteName} chạy hoàn toàn trên các hợp đồng thông minh blockchain.|Mọi cược, thắng và thanh toán đều công khai—bất kỳ ai cũng có thể kiểm tra hồ sơ.",
+			"paragraph2": "Muốn tự mình xem? Tất cả giao dịch {siteName} đều có trên:",
 			"explorersTitle": "",
-			"guarantee": "Bằng cách này, bạn biết rằng mọi thứ đều công bằng và minh bạch."
+			"guarantee": "Bằng cách này, bạn biết mọi thứ đều công bằng và minh bạch."
 		},
 		"categories": {
 			"accountRegistration": {
@@ -2015,47 +2017,47 @@
 				"items": {
 					"0": {
 						"question": "Tôi có thể đăng ký trên {siteName} không?",
-						"answer": "Nếu bạn từ 18 tuổi trở lên (hoặc đủ tuổi đánh bạc hợp pháp ở nơi bạn sống), bạn có thể chơi trên {siteName}. Trước khi bắt đầu, hãy đảm bảo rằng việc chơi game bằng tiền điện tử thực sự hợp pháp ở nơi bạn sống.|Việc đăng ký rất dễ dàng. Không có biểu mẫu, không có mật khẩu, không có rắc rối về email. Chỉ cần kết nối ví tiền điện tử của bạn thông qua Dynamic.xyz và bạn đã sẵn sàng.|Bạn muốn biết thêm về những người đủ điều kiện? Hãy xem Điều khoản & Điều kiện của chúng tôi.",
-						"reminder": "Một lời nhắc nhở nhỏ: cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và biết giới hạn của mình."
+						"answer": "Nếu bạn từ 18 tuổi trở lên (hoặc đủ tuổi đánh bạc ở nơi bạn sống), bạn có thể chơi trên {siteName}. Trước khi tham gia, hãy chắc chắn rằng game crypto thực sự hợp pháp ở nơi bạn sống.|Đăng ký rất dễ dàng. Không biểu mẫu, không mật khẩu, không rắc rối email. Chỉ cần kết nối ví crypto của bạn qua Dynamic.xyz và bạn đã vào.|Muốn biết thêm về ai đủ điều kiện? Hãy xem Điều khoản & Điều kiện của chúng tôi.",
+						"reminder": "Một lời nhắc nhanh: cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và biết giới hạn của bạn."
 					},
 					"1": {
-						"question": "Nếu tôi mất quyền truy cập vào tài khoản của mình thì sao?",
-						"answer": "Chúng tôi sử dụng đăng nhập dựa trên ví. Vì vậy, không có tên người dùng, không có mật khẩu để khôi phục. Để đăng nhập lại, chỉ cần kết nối lại với cùng một địa chỉ ví mà bạn đã sử dụng trước đó.|Mất quyền truy cập vào ví của bạn? Sử dụng cụm từ hạt giống hoặc tệp khôi phục để khôi phục nó.|Để đảm bảo an toàn cho bạn, chúng tôi không bao giờ lưu trữ khóa riêng tư và không thể khôi phục ví bị mất cho bạn."
+						"question": "Nếu tôi mất quyền truy cập vào tài khoản thì sao?",
+						"answer": "Chúng tôi sử dụng đăng nhập dựa trên ví. Vì vậy, không có tên người dùng, không có mật khẩu để khôi phục. Để vào lại, chỉ cần kết nối lại với cùng địa chỉ ví bạn đã sử dụng trước đó.|Mất quyền truy cập vào ví của bạn? Sử dụng cụm từ hạt giống hoặc tệp khôi phục để khôi phục nó.|Để bảo mật cho bạn, chúng tôi không bao giờ lưu trữ khóa riêng tư và không thể khôi phục ví bị mất cho bạn."
 					},
 					"2": {
-						"question": "Tôi có thể thay đổi ví hoặc tên người dùng của mình không?",
-						"answer": "Tài khoản của bạn được liên kết trực tiếp với ví của bạn. Nếu bạn muốn sử dụng một ví mới, hãy kết nối một ví khác. Chỉ cần lưu ý — số dư, trạng thái VIP và phần thưởng của bạn vẫn ở lại với ví cũ của bạn. Chúng không tự động chuyển sang."
+						"question": "Tôi có thể đổi ví hoặc tên người dùng không?",
+						"answer": "Tài khoản của bạn gắn liền trực tiếp với ví của bạn. Nếu bạn muốn sử dụng ví mới, hãy kết nối ví khác. Chỉ cần nhớ rằng — số dư, trạng thái VIP và phần thưởng của bạn vẫn ở lại với ví cũ. Chúng không tự động chuyển sang."
 					},
 					"3": {
-						"question": "Làm thế nào để tôi trở thành thành viên VIP?",
-						"answer": "Câu lạc bộ VIP của chúng tôi chỉ dành cho những người được mời. Khi bạn chơi và tham gia nhiều hơn, chúng tôi sẽ theo dõi hoạt động của bạn. Khi bạn đủ điều kiện, chúng tôi sẽ gửi cho bạn một lời mời cá nhân ngay trên nền tảng.|Các đặc quyền của VIP bao gồm:|Phần thưởng cao hơn|Rút tiền nhanh hơn|Tiền thưởng được cá nhân hóa"
+						"question": "Làm thế nào để trở thành thành viên VIP?",
+						"answer": "Câu lạc bộ VIP của chúng tôi chỉ dành cho người được mời. Khi bạn chơi và tham gia nhiều hơn, chúng tôi theo dõi hoạt động của bạn. Khi bạn đủ điều kiện, chúng tôi sẽ gửi cho bạn lời mời cá nhân ngay trên nền tảng.|Đặc quyền VIP bao gồm:|Phần thưởng cao hơn|Rút tiền nhanh hơn|Bonus cá nhân hóa"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "Gửi tiền & Rút tiền",
+				"title": "Nạp tiền & Rút tiền",
 				"items": {
 					"0": {
-						"question": "Làm thế nào để tôi gửi tiền điện tử?",
-						"answer": "Việc gửi tiền nhanh chóng và an toàn, và tất cả đều diễn ra trên chuỗi. Đây là cách thực hiện:|Mở Ví của tôi trên bảng điều khiển của bạn.|Nhấn Gửi tiền và chọn đồng tiền của bạn (BTC, ETH, USDT, BNB, v.v.).|Sao chép địa chỉ hoặc quét mã QR.|Gửi tiền điện tử của bạn từ ví cá nhân của bạn.|Sau khi giao dịch của bạn nhận đủ xác nhận trên blockchain, tiền của bạn sẽ tự động xuất hiện.",
-						"reminder": "Hãy kiểm tra kỹ xem bạn đang sử dụng đúng mạng (ERC20, TRC20, BEP20, v.v.) trước khi gửi bất cứ thứ gì."
+						"question": "Làm thế nào để nạp crypto?",
+						"answer": "Nạp tiền nhanh chóng và an toàn, và tất cả đều diễn ra trên chuỗi. Đây là cách làm:|Mở Ví của tôi trên bảng điều khiển.|Nhấn Nạp tiền và chọn đồng tiền của bạn (BTC, ETH, USDT, BNB, v.v.).|Sao chép địa chỉ hoặc quét mã QR.|Gửi crypto từ ví cá nhân của bạn.|Khi giao dịch của bạn nhận đủ xác nhận trên blockchain, tiền của bạn sẽ tự động hiển thị.",
+						"reminder": "Kiểm tra kỹ xem bạn có đang sử dụng đúng mạng (ERC20, TRC20, BEP20, v.v.) trước khi gửi bất cứ thứ gì không."
 					},
 					"1": {
-						"question": "Gửi tiền mất bao lâu?",
-						"answer": "Thông thường, tiền gửi sẽ xuất hiện trong vòng 5 đến 10 phút, tùy thuộc vào lưu lượng mạng và phí. Bạn có thể theo dõi giao dịch của mình bằng trình khám phá blockchain như Etherscan.io hoặc BscScan.com.|Chúng tôi ghi có tiền của bạn sau ba lần xác nhận."
+						"question": "Nạp tiền mất bao lâu?",
+						"answer": "Thông thường, tiền nạp hiển thị trong 5 đến 10 phút, tùy thuộc vào lưu lượng mạng và phí. Bạn có thể theo dõi giao dịch của mình bằng trình khám phá blockchain như Etherscan.io hoặc BscScan.com.|Chúng tôi ghi có tiền cho bạn sau ba xác nhận."
 					},
 					"2": {
 						"question": "Giới hạn rút tiền tối thiểu là bao nhiêu?",
-						"answer": "Mỗi loại tiền điện tử có số tiền rút tối thiểu riêng. Bạn sẽ thấy các con số chính xác trong phần Rút tiền. Nó phụ thuộc vào đồng tiền và phí mạng."
+						"answer": "Mỗi loại crypto có số tiền rút tối thiểu riêng. Bạn sẽ thấy các con số chính xác trong phần Rút tiền. Nó phụ thuộc vào đồng tiền và phí mạng."
 					},
 					"3": {
-						"question": "Làm thế nào để tôi rút tiền thắng cược?",
-						"answer": "Để rút tiền:|Vào Ví của tôi và nhấn Rút tiền.|Nhập nơi bạn muốn gửi tiền điện tử của mình và số tiền bạn muốn rút ra.|Kiểm tra kỹ địa chỉ và mạng.|Xác nhận giao dịch của bạn.|Việc rút tiền được thực hiện ngay lập tức sau khi được xác nhận trên chuỗi. Bạn sẽ thấy tiền của mình trong vài phút.",
-						"reminder": "Luôn sử dụng ví hỗ trợ mạng mà bạn đang rút tiền."
+						"question": "Làm thế nào để rút tiền thắng?",
+						"answer": "Để rút tiền:|Vào Ví của tôi và nhấn Rút tiền.|Nhập nơi bạn muốn gửi crypto và số tiền bạn muốn rút.|Kiểm tra kỹ địa chỉ và mạng.|Xác nhận giao dịch của bạn.|Rút tiền là tức thì sau khi được xác nhận trên chuỗi. Bạn sẽ thấy tiền của mình trong vài phút.",
+						"reminder": "Luôn sử dụng ví hỗ trợ mạng mà bạn đang rút tiền từ đó."
 					},
 					"4": {
-						"question": "Nếu giao dịch của tôi bị trì hoãn thì sao?",
-						"answer": "Nếu giao dịch của bạn mất nhiều thời gian hơn bình thường:|Kiểm tra TXID của bạn bằng trình khám phá blockchain.|Đảm bảo rằng bạn đã sử dụng đúng địa chỉ và mạng.|Hãy đợi thêm vài phút để xác nhận.|Vẫn đang đợi sau một giờ? Hãy liên hệ với chúng tôi tại {siteDomain}. Gửi TXID và thông tin ví của bạn, chúng tôi sẽ giúp bạn giải quyết."
+						"question": "Nếu giao dịch của tôi bị chậm trễ thì sao?",
+						"answer": "Nếu giao dịch của bạn mất nhiều thời gian hơn bình thường:|Kiểm tra TXID của bạn với trình khám phá blockchain.|Đảm bảo bạn đã sử dụng đúng địa chỉ và mạng.|Đợi thêm vài phút để xác nhận.|Vẫn chờ đợi sau một giờ? Liên hệ với chúng tôi tại {siteDomain}. Gửi TXID và thông tin ví của bạn, và chúng tôi sẽ giúp bạn giải quyết."
 					}
 				}
 			},
@@ -2063,20 +2065,20 @@
 				"title": "Trò chơi, Công bằng & Bảo mật",
 				"items": {
 					"0": {
-						"question": "Các trò chơi của {siteName} có công bằng không?",
-						"answer": "Hoàn toàn. Mọi trò chơi đều công bằng 100% và có thể chứng minh được. Chúng tôi sử dụng các thuật toán mã hóa trên blockchain để bạn có thể tự mình kiểm tra mọi lần đặt cược và thanh toán.|Không có kết quả ẩn, không có mánh khóe, chỉ có trò chơi công bằng và minh bạch."
+						"question": "Trò chơi {siteName} có công bằng không?",
+						"answer": "Chắc chắn rồi. Mọi trò chơi đều được chứng minh công bằng 100%. Chúng tôi sử dụng các thuật toán mã hóa trên blockchain để bạn có thể tự kiểm tra mọi cược và khoản thanh toán.|Không có kết quả ẩn, không có mánh khóe, chỉ có chơi game công bằng và minh bạch."
 					},
 					"1": {
-						"question": "Tôi nên làm gì nếu một trò chơi bị treo hoặc gặp sự cố?",
-						"answer": "Nếu một trò chơi ngừng hoạt động:|Làm mới trang.|Xóa bộ nhớ cache hoặc cookie của trình duyệt.|Kết nối lại ví của bạn.|Vẫn bị kẹt? Hãy tham gia Trò chuyện trực tiếp. Đội ngũ của chúng tôi sẽ khôi phục phiên hoặc số dư của bạn nếu có bất kỳ ảnh hưởng nào."
+						"question": "Tôi nên làm gì nếu trò chơi bị đóng băng hoặc gặp sự cố?",
+						"answer": "Nếu trò chơi ngừng hoạt động:|Làm mới trang.|Xóa bộ nhớ cache hoặc cookie trình duyệt của bạn.|Kết nối lại ví của bạn.|Vẫn bị kẹt? Vào Chat Trực tuyến. Đội ngũ của chúng tôi sẽ khôi phục phiên hoặc số dư của bạn nếu có bất kỳ điều gì bị ảnh hưởng."
 					},
 					"2": {
 						"question": "Tôi có thể sử dụng nhiều ví hoặc tài khoản không?",
-						"answer": "Không. Một ví bằng một tài khoản. Việc mở thêm ví để nhận tiền thưởng hoặc gây rối với hệ thống sẽ vi phạm Điều khoản của chúng tôi và có thể khiến bạn mất tiền thắng cược."
+						"answer": "Không. Một ví tương đương với một tài khoản. Mở thêm ví để lấy bonus hoặc gây rối hệ thống là vi phạm Điều khoản của chúng tôi và có thể khiến bạn mất tiền thắng."
 					},
 					"3": {
 						"question": "Dữ liệu của tôi có an toàn không?",
-						"answer": "Có. Chúng tôi là một nền tảng chỉ sử dụng ví, vì vậy chúng tôi không bao giờ thu thập thông tin cá nhân, email, mật khẩu hoặc giấy tờ tùy thân của bạn.|Ví của bạn là danh tính của bạn và bạn có toàn quyền kiểm soát. Không có dữ liệu người dùng được lưu trữ có nghĩa là bạn không phải lo lắng về việc vi phạm dữ liệu."
+						"answer": "Có. Chúng tôi là nền tảng chỉ dùng ví, vì vậy chúng tôi không bao giờ thu thập thông tin cá nhân, email, mật khẩu hoặc tài liệu ID của bạn.|Ví của bạn là danh tính của bạn, và bạn nắm quyền kiểm soát. Không lưu trữ dữ liệu người dùng có nghĩa là bạn không phải lo lắng về vi phạm dữ liệu."
 					}
 				}
 			},
@@ -2085,20 +2087,20 @@
 				"items": {
 					"0": {
 						"question": "{siteName} có hỗ trợ chơi game có trách nhiệm không?",
-						"answer": "Hoàn toàn. Giữ cho việc chơi có trách nhiệm là trọng tâm của những gì chúng tôi làm.|Chúng tôi đã tích hợp các công cụ tự loại trừ và tạm dừng để bạn có thể nghỉ ngơi hoặc đặt ra giới hạn bất cứ khi nào bạn cần.|Nếu bạn muốn được tư vấn hoặc chỉ cần ai đó để nói chuyện, hãy xem trang Cờ bạc có trách nhiệm của chúng tôi hoặc gửi một ghi chú cho đội ngũ hỗ trợ của chúng tôi."
+						"answer": "Chắc chắn rồi. Giữ cho việc chơi có trách nhiệm là trọng tâm của những gì chúng tôi làm.|Chúng tôi đã tích hợp các công cụ tự loại trừ và hạ nhiệt để bạn có thể nghỉ ngơi hoặc đặt giới hạn bất cứ khi nào bạn cần.|Nếu bạn muốn lời khuyên hoặc chỉ cần ai đó để nói chuyện, hãy xem trang Cờ bạc có trách nhiệm của chúng tôi hoặc để lại lời nhắn cho đội ngũ hỗ trợ."
 					},
 					"1": {
-						"question": "Tôi nên làm gì nếu tôi nghi ngờ mình có vấn đề về cờ bạc?",
-						"answer": "Nếu cờ bạc bắt đầu ảnh hưởng đến tiền bạc, sức khỏe hoặc các mối quan hệ của bạn, đừng chờ đợi — hãy tìm kiếm sự giúp đỡ. Các tổ chức này cung cấp hỗ trợ bí mật:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|Bạn cũng có thể yêu cầu bộ phận hỗ trợ của {siteName} chặn hoặc tạm dừng tài khoản của mình."
+						"question": "Tôi nên làm gì nếu nghi ngờ có vấn đề cờ bạc?",
+						"answer": "Nếu cờ bạc bắt đầu gây rối với tiền bạc, sức khỏe hoặc các mối quan hệ của bạn, đừng chờ đợi—hãy tìm kiếm sự giúp đỡ. Các tổ chức này cung cấp hỗ trợ bí mật:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|Bạn cũng luôn có thể yêu cầu hỗ trợ {siteName} chặn hoặc tạm dừng tài khoản của mình."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
 			"title": "💬 Cần thêm trợ giúp?",
-			"intro": "Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng 24/7.|Bạn có thể liên hệ với chúng tôi qua Trò chuyện trực tiếp (chỉ cần đăng nhập vào bảng điều khiển của bạn) hoặc gửi email cho chúng tôi tại support@{siteDomain}.",
+			"intro": "Đội ngũ hỗ trợ của chúng tôi túc trực 24/7.|Bạn có thể liên hệ với chúng tôi trên Chat Trực tuyến (chỉ cần đăng nhập vào bảng điều khiển của bạn) hoặc gửi email cho chúng tôi tại support@{siteDomain}.",
 			"contactTitle": "",
-			"liveChat": "Chúng tôi ở đây để đảm bảo trải nghiệm của bạn luôn an toàn, công bằng và không gặp rắc rối."
+			"liveChat": "Chúng tôi ở đây để đảm bảo trải nghiệm của bạn luôn an toàn, công bằng và không rắc rối."
 		}
 	}
 }

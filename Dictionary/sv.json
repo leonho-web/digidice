@@ -41,44 +41,44 @@
 	"profile": {
 		"language": "Språk",
 		"welcome": "Välkommen, {name}!",
-		"settingUp": "Ställer in",
+		"settingUp": "Konfigurerar",
 		"profileBtn": "Visa profil",
-		"currentBalance": "Nuvarande saldo",
+		"currentBalance": "Aktuellt saldo",
 		"availableFunds": "Tillgängliga medel",
-		"totalDeposits": "Totala insättningar",
-		"totalWithdrawals": "Totala uttag",
+		"totalDeposits": "Totalt insatt",
+		"totalWithdrawals": "Totalt uttaget",
 		"walletAddress": "Plånboksadress",
 		"copySuccess": "Plånboksadress kopierad till urklipp!",
 		"copyFailed": "Misslyckades med att kopiera plånboksadress",
-		"notConnected": "Inte ansluten",
+		"notConnected": "Ej ansluten",
 		"myProfile": "Min profil",
 		"history": {
 			"title": "Historik"
 		},
 		"logout": "Logga ut",
-		"pendingRegistration": "Väntande registrering",
-		"noEmailProvided": "Ingen e-postadress angiven",
+		"pendingRegistration": "Väntar på registrering",
+		"noEmailProvided": "Ingen e-post angiven",
 		"balanceOverview": "Saldoöversikt",
-		"gettingStarted": "Komma igång",
+		"gettingStarted": "Kom igång",
 		"verifyEmail": "Verifiera din e-post",
 		"completeEmailVerification": "Slutför e-postverifiering",
 		"verifyPhone": "Verifiera ditt telefonnummer",
 		"addPhoneVerification": "Lägg till telefonverifiering",
-		"firstDeposit": "Första insättning",
+		"firstDeposit": "Första insättningen",
 		"makeFirstDeposit": "Gör din första insättning",
-		"placeBetOrTrade": "Placera spel / Gör handel",
+		"placeBetOrTrade": "Lägg ett spel / Gör en handel",
 		"startFirstGame": "Starta ditt första spel",
 		"recentActivity": "Senaste aktivitet",
 		"transactionHistory": "Transaktionshistorik",
-		"activityGameWinDiceRoll": "Spelvinst - Tärningskast",
+		"activityGameWinDiceRoll": "Spelvinst - Dice Roll",
 		"activityGameLossBlackjack": "Spelförlust - Blackjack",
-		"twoHoursAgo": "för 2 timmar sedan",
-		"oneDayAgo": "för 1 dag sedan",
-		"twoDaysAgo": "för 2 dagar sedan",
+		"twoHoursAgo": "2 timmar sedan",
+		"oneDayAgo": "1 dag sedan",
+		"twoDaysAgo": "2 dagar sedan",
 		"deposit": "Insättning",
 		"loggedOutTitle": "Hoppsan! Du är utloggad",
 		"loggedOutSubtitle": "Vänligen logga in för att se din profil",
-		"goHome": "Gå till startsidan",
+		"goHome": "Gå till Hem",
 		"withdrawal": "Uttag",
 		"transactions": {
 			"title": "Transaktionshistorik",
@@ -86,8 +86,8 @@
 			"filters": "Filter",
 			"refresh": "Uppdatera",
 			"advancedFilters": "Avancerade filter",
-			"searchTransactionComingSoon": "Sök transaktion (kommer snart)",
-			"searchPlaceholderDisabled": "Sökfunktionen kommer att implementeras på API-nivå...",
+			"searchTransactionComingSoon": "Sök transaktion (Kommer snart)",
+			"searchPlaceholderDisabled": "Sökfunktionalitet kommer att implementeras på API-nivå...",
 			"dateRange": "Datumintervall",
 			"selectDateRange": "Välj datumintervall",
 			"today": "Idag",
@@ -101,8 +101,8 @@
 			"toDate": "Till datum",
 			"transactionStatus": "Transaktionsstatus",
 			"allStatuses": "Alla statusar",
-			"success": "Lyckad",
-			"pending": "Väntande",
+			"success": "Lyckades",
+			"pending": "Väntar",
 			"rejected": "Avvisad",
 			"clearAll": "Rensa alla",
 			"cancel": "Avbryt",
@@ -110,7 +110,7 @@
 			"activeFilters": "Aktiva filter:",
 			"statusLabel": "Status",
 			"dateLabel": "Datum",
-			"statsTotalTransactions": "{total} totala transaktioner",
+			"statsTotalTransactions": "{total} transaktioner totalt",
 			"pageOf": "Sida {current} av {total}",
 			"live": "Live",
 			"tabs": {
@@ -131,7 +131,7 @@
 		},
 		"betHistory": {
 			"title": "Spelhistorik",
-			"trackBetsResults": "Spåra dina spel och resultat",
+			"trackBetsResults": "Spåra dina spelinsatser och resultat",
 			"filters": "Filter",
 			"refresh": "Uppdatera",
 			"advancedFilters": "Avancerade filter",
@@ -150,11 +150,11 @@
 			"allProviders": "Alla leverantörer",
 			"status": "Status",
 			"allStatuses": "Alla statusar",
-			"outstanding": "Öppen",
+			"outstanding": "Utestående",
 			"win": "Vinst",
 			"lose": "Förlust",
 			"draw": "Oavgjort",
-			"void": "Annullerad",
+			"void": "Ogiltig",
 			"bonusWin": "Bonusvinst",
 			"clearAll": "Rensa alla",
 			"cancel": "Avbryt",
@@ -163,8 +163,8 @@
 			"statusLabel": "Status",
 			"providerLabel": "Leverantör",
 			"dateLabel": "Datum",
-			"totalBets": "Totala spel",
-			"totalProfitLoss": "Total vinst/förlust",
+			"totalBets": "Totalt antal spel",
+			"totalProfitLoss": "Total Vinst/Förlust",
 			"pageOf": "Sida {current} av {total}",
 			"live": "Live",
 			"errorLoadingBets": "Fel vid laddning av spelhistorik",
@@ -195,7 +195,7 @@
 				"betId": "Spel-ID"
 			},
 			"errorLoading": "Fel vid laddning",
-			"noBetsFoundDescription": "Börja spela för att se din spelhistorik här.",
+			"noBetsFoundDescription": "Börja spela spel för att se din spelhistorik här.",
 			"betHistory": "Spelhistorik",
 			"hideAmounts": "Dölj belopp",
 			"showAmounts": "Visa belopp",
@@ -210,9 +210,9 @@
 			"lastUpdate": "Senaste uppdatering",
 			"netResult": "Nettoresultat",
 			"totalWagered": "Totalt omsatt",
-			"totalWon": "Totalt vunnit",
+			"totalWon": "Totalt vunnet",
 			"netProfit": "Nettovinst",
-			"winRate": "Vinstprocent",
+			"winRate": "Vinstfrekvens",
 			"showingResults": "Visar {start}-{end} av {total} resultat",
 			"firstPage": "Första sidan",
 			"previousPage": "Föregående sida",
@@ -225,10 +225,10 @@
 		"placeholder": "Skriv ditt meddelande...",
 		"send": "Skicka",
 		"input": {
-			"replyPlaceholder": "Svara {username}..."
+			"replyPlaceholder": "Svara till {username}..."
 		},
 		"reply": {
-			"replyingTo": "Svarar på {username}",
+			"replyingTo": "Svarar till {username}",
 			"types": {
 				"win": "Vann {amount} {currency}",
 				"gif": "GIF-meddelande",
@@ -237,8 +237,8 @@
 			},
 			"preview": {
 				"winIn": "Vann {amount} {currency} i {game}",
-				"gifAlt": "GIF förhandsgranskning",
-				"imageAlt": "Bildförhandsgranskning",
+				"gifAlt": "GIF-förhandsvisning",
+				"imageAlt": "Bildförhandsvisning",
 				"emoji": "Emoji-meddelande",
 				"rain": "Regn: {amount} {currency}",
 				"system": "System: {content}"
@@ -247,40 +247,40 @@
 		"imageDialog": {
 			"title": "Dela din bild 🎰",
 			"description": "Redo att visa chattrummet?",
-			"previewLabel": "Förhandsgranskning",
-			"statusReady": "Redo att delas",
-			"roomLabel": "🎰 Kasinochatt",
+			"previewLabel": "Förhandsvisning",
+			"statusReady": "Redo att dela",
+			"roomLabel": "🎰 Casinochatt",
 			"shareNotice": "Din bild kommer att delas med alla spelare i chattrummet",
-			"closeAria": "Stäng dialogruta",
+			"closeAria": "Stäng dialog",
 			"cancelAria": "Avbryt bilduppladdning",
-			"sendAria": "Skicka bild till chatten",
+			"sendAria": "Skicka bild till chatt",
 			"send": "Skicka till chatt"
 		},
 		"picker": {
 			"searchEmojis": "Sök emojis...",
-			"searchGifs": "Sök GIF...",
+			"searchGifs": "Sök GIFs...",
 			"tabs": {
 				"emojis": "Emojis",
-				"gifs": "GIF"
+				"gifs": "GIFs"
 			},
 			"loadingEmojis": "Laddar emojis...",
-			"loadingGifs": "Laddar GIF...",
+			"loadingGifs": "Laddar GIFs...",
 			"retry": "Försök igen",
 			"recent": "Senaste",
 			"noEmojis": "Inga emojis hittades",
-			"noGifs": "Inga GIF hittades",
+			"noGifs": "Inga GIFs hittades",
 			"tryDifferent": "Prova en annan sökterm",
 			"gifCategories": {
 				"trending": "Trendar",
 				"reactions": "Reaktioner",
-				"gaming": "Spel",
-				"casino": "Kasino",
+				"gaming": "Gaming",
+				"casino": "Casino",
 				"celebration": "Firande",
 				"sports": "Sport"
 			},
 			"searchResults": "Sökresultat",
 			"availableToTag": "Tillgängliga användare att tagga 🎯",
-			"clickOrTab": "Klicka eller tabba för att välja",
+			"clickOrTab": "Klicka eller Tabba för att välja",
 			"noUsers": "Inga användare hittades",
 			"noUsersMatching": "Inga användare matchar",
 			"startTyping": "Börja skriva för att söka",
@@ -289,7 +289,7 @@
 			"errors": {
 				"emojisLoad": "Misslyckades med att ladda emojis",
 				"emojisSearch": "Misslyckades med att söka emojis",
-				"gifsLoad": "Misslyckades med att ladda GIF"
+				"gifsLoad": "Misslyckades med att ladda GIFs"
 			}
 		},
 		"messages": {
@@ -306,13 +306,13 @@
 			"imageAlt": "Uppladdad bild",
 			"rainTitle": "Pengaregn! 🌧️💰",
 			"recipients": "→ {count} {count, plural, one {mottagare} other {mottagare}}",
-			"eachTo": "{amount} {currency} var till: {list}",
+			"eachTo": "{amount} {currency} vardera till: {list}",
 			"replyCount": "{count} {count, plural, one {svar} other {svar}}",
 			"loadingHistory": "Laddar chatthistorik..."
 		},
 		"system": {
-			"slashDisabled": "Slash-kommandon är tillfälligt inaktiverade. Använd vanliga meddelanden.",
-			"rateLimit": "Hastighetsgränsen överskreds. Vänta {seconds} sekunder innan du skickar ett nytt meddelande.",
+			"slashDisabled": "Snedstreckskommandon är tillfälligt inaktiverade. Vänligen använd vanliga meddelanden.",
+			"rateLimit": "Hastighetsbegränsning överskriden. Vänligen vänta {seconds} sekunder innan du skickar ett nytt meddelande.",
 			"cannotTagSelf": "Du kan inte tagga dig själv i meddelanden.",
 			"processingImage": "Bearbetar bild...",
 			"failedUploadPrefix": "Misslyckades med att ladda upp bild: {message}",
@@ -321,7 +321,7 @@
 	},
 	"sidebar": {
 		"quest": "UPPDRAG",
-		"spin": "SPINN",
+		"spin": "SNURRA",
 		"deposit": "INSÄTTNING",
 		"withdraw": "UTTAG",
 		"playOnTelegram": "Spela på Telegram",
@@ -332,11 +332,11 @@
 		"trendingNow": "Trendar nu",
 		"allProviders": "Alla leverantörer",
 		"allTopProviders": "Alla toppleverantörer",
-		"hotBadge": "Hett"
+		"hotBadge": "Het"
 	},
 	"search": {
 		"title": "Sök spel",
-		"subtitle": "Hitta efter namn, leverantör eller kategori",
+		"subtitle": "Hitta via namn, leverantör eller kategori",
 		"placeholder": "Sök spel, leverantörer, kategorier...",
 		"clear": "Rensa",
 		"recent": "Senaste:",
@@ -345,7 +345,7 @@
 		"hotPicks": "Heta val",
 		"resultsCount": "Hittade {count} {count, plural, one {spel} other {spel}}",
 		"noResults": "Inga resultat",
-		"filterApplied": "Filtrerat efter {count} {count, plural, one {leverantör} other {leverantörer}}",
+		"filterApplied": "Filtrerat på {count} {count, plural, one {leverantör} other {leverantörer}}",
 		"suggestions": {
 			"category": "Kategori",
 			"provider": "Leverantör"
@@ -394,7 +394,7 @@
 			"gridAria": "Rutnätsvy",
 			"listAria": "Listvy"
 		},
-		"loadMore": "Ladda mer"
+		"loadMore": "Ladda fler"
 	},
 	"commonExtra": {
 		"connecting": "Ansluter...",
@@ -403,70 +403,70 @@
 		"clear": "Rensa"
 	},
 	"home": {
-		"topProviders": "Toppspelleverantörer"
+		"topProviders": "Topp Spelleverantörer"
 	},
 	"lobby": {
 		"yourFavorites": "Dina favoriter",
-		"featuredCasinoGames": "Utvalda kasinospel",
+		"featuredCasinoGames": "Utvalda casinospel",
 		"hotPicks": "Heta val",
 		"slots": "Slots",
 		"sports": "Sport",
 		"realTimeScoreboard": "Resultattavla i realtid"
 	},
 	"affiliate": {
-		"title": "Värvningsbonusprogram",
+		"title": "Program för värvningsbonus",
 		"loginPromptTitle": "Värvningsprogram",
 		"loginPromptSubtitle": "Logga in för att se din värvningsstatistik, bonusar och hämta belöningar.",
-		"goHome": "Gå till startsidan",
+		"goHome": "Gå till Hem",
 		"tabs": {
-			"dashboard": "Översikt",
+			"dashboard": "Instrumentpanel",
 			"rates": "Provisionssatser",
 			"calculator": "Kalkylator"
 		},
 		"refresh": "Uppdatera",
 		"refreshing": "Uppdaterar...",
-		"refreshAllSuccess": "All data har uppdaterats!",
+		"refreshAllSuccess": "All data uppdaterad!",
 		"refreshPartial": "Delvis uppdaterad: {success}/{total} sektioner uppdaterade",
 		"refreshFailed": "Misslyckades med att uppdatera data. Försök igen.",
 		"dashboard": {
-			"title": "Affiliate-översikt",
-			"subtitle": "Spåra dina värvningar, intäkter och provisionsprestanda",
+			"title": "Affiliate-panel",
+			"subtitle": "Spåra dina värvningar, inkomster och provisionsresultat",
 			"performanceOverview": "Prestationsöversikt",
-			"referralManagement": "Värvningshantering",
-			"termsAndCommission": "Villkor & provisionsstruktur",
-			"unclaimedEarnings": "Outhämtade intäkter",
+			"referralManagement": "Hantering av värvningar",
+			"termsAndCommission": "Villkor & Provisionsstruktur",
+			"unclaimedEarnings": "Ej uthämtade intäkter",
 			"claim": "Hämta",
 			"claiming": "Hämtar...",
 			"totalIncome": "Total inkomst",
 			"claimButtonTitle": "Hämta bonus",
-			"totalReferrals": "Totala värvningar",
+			"totalReferrals": "Totalt antal värvningar",
 			"usersUnit": "användare",
 			"yourReferralLinks": "Dina värvningslänkar",
 			"referralLinksSubtitle": "Dela dessa länkar för att värva nya användare och tjäna provision",
-			"completeReferralLink": "Komplett värvningslänk",
+			"completeReferralLink": "Fullständig värvningslänk",
 			"fullReferralPlaceholder": "Fullständig värvningslänk visas här",
 			"fullReferralHelp": "Direktlänk som användare kan klicka på för att registrera sig med din värvningskod",
 			"referralCodeOnly": "Endast värvningskod",
 			"yourReferralId": "Ditt värvnings-ID",
-			"referralIdHelp": "Dela denna kod så att användare kan ange den manuellt vid registrering",
+			"referralIdHelp": "Dela denna kod för att användare ska kunna ange den manuellt vid registrering",
 			"copyFullSuccess": "Fullständig värvningslänk kopierad till urklipp!",
 			"copyIdSuccess": "Värvnings-ID kopierat till urklipp!"
 		},
 		"referrals": {
 			"title": "Mina värvningar",
 			"subtitle": "Spåra och hantera alla användare som värvats via dina affiliate-länkar",
-			"totalReferrals": "totala värvningar",
+			"totalReferrals": "totalt antal värvningar",
 			"monitorHelp": "Övervaka dina värvningars aktivitet, insättningar och spelmönster",
 			"sort": {
 				"placeholder": "Sortera efter...",
 				"nicknameAsc": "Smeknamn (A-Ö)",
 				"nicknameDesc": "Smeknamn (Ö-A)",
 				"lastLogin": "Senaste inloggning",
-				"unclaimedAmount": "Outhämtat belopp"
+				"unclaimedAmount": "Ej uthämtat belopp"
 			},
 			"table": {
 				"nickname": "Smeknamn",
-				"totalWager": "Total insats",
+				"totalWager": "Total omsättning",
 				"lastLogin": "Senaste inloggning",
 				"registered": "Registrerad",
 				"lastDeposit": "Senaste insättning",
@@ -484,33 +484,33 @@
 			}
 		},
 		"rates": {
-			"title": "Provisionssatsstruktur",
-			"subtitle": "Intjäningsprocent per nivå och spelkategori",
+			"title": "Struktur för provisionssatser",
+			"subtitle": "Intäktsprocent per nivå och spelkategori",
 			"overview": {
 				"title": "Översikt",
-				"body": "Värvningsbonusen belönar affiliates baserat på omsättningen från värvade spelare i Slots, Live Casino, Sportspel och Lotteri. Provisioner beräknas var 24:e timme, med intäkter baserade på olika omsättningsnivåer."
+				"body": "Värvningsbonusen belönar affiliates baserat på insatsomsättningen från värvade spelare i Slots, Live Casino, Sportsbook och Lotteri. Provisioner beräknas var 24:e timme, med intäkter baserade på olika omsättningsnivåer."
 			},
 			"calculation": {
 				"title": "Hur provisioner beräknas",
-				"desc": "Provisioner beräknas var 24:e timme baserat på de värvade spelarnas totala insatser. \nExempel:",
+				"desc": "Provisioner beräknas var 24:e timme baserat på värvade spelares totala insatser. \nExempel:",
 				"exampleTitle": "Nivå {tier}:",
-				"wagerIn": "Satsa {amount} i {gameType}"
+				"wagerIn": "Omsätt {amount} i {gameType}"
 			},
 			"table": {
 				"tierLevel": "Nivå",
 				"wagerRange": "Insatsintervall",
 				"slots": "Slots",
-				"liveCasino": "Livekasino",
+				"liveCasino": "Live Casino",
 				"sports": "Sport",
 				"tierPrefix": "NIVÅ",
 				"commissionLevel": "Provisionsnivå",
-				"dailyWager": "Daglig omsättningsvolym"
+				"dailyWager": "Daglig insatsvolym"
 			},
 			"claim": {
 				"title": "Hämta och ta ut",
 				"points": {
-					"0": "Provisioner är tillgängliga för uttag så snart de har beräknats.",
-					"1": "Det finns inget utgångsdatum för outhämtade provisioner – de ackumuleras tills de hämtas.",
+					"0": "Provisioner är tillgängliga för uttag när de har beräknats.",
+					"1": "Det finns inget utgångsdatum för ej uthämtade provisioner – de ackumuleras tills de hämtas.",
 					"2": "Uttag följer plattformens standardregler, såsom minimigränser och behandlingstider."
 				}
 			},
@@ -519,25 +519,25 @@
 				"dailyTimeframeLabel": "Daglig tidsram:",
 				"dailyTimeframeValue": "00:00 UTC till 23:59 UTC (varje dag).",
 				"claimDailyLabel": "Hämta dagligen:",
-				"claimDailyValue": "Tillgänglig dagligen kl. 14:00 UTC (Din lokala tid: {local}).",
+				"claimDailyValue": "Tillgängligt dagligen kl. 14:00 UTC (Din lokala tid: {local}).",
 				"note": "Obs: Även om vi arbetar med leverantörer från olika tidszoner, följer alla beräkningar UTC för att säkerställa konsekvens och undvika förvirring."
 			},
 			"amendments": {
 				"title": "Ändringar",
-				"body": "Vi kan uppdatera dessa villkor när som helst. Ändringar träder i kraft omedelbart vid publicering, och fortsatt deltagande innebär att du accepterar de nya villkoren."
+				"body": "Vi kan uppdatera dessa villkor när som helst. Ändringar träder i kraft omedelbart efter publicering, och fortsatt deltagande innebär att du accepterar de nya villkoren."
 			},
 			"footer": {
 				"schedule": "Provisionsschema:",
-				"availableDaily": "Tillgänglig dagligen kl.",
+				"availableDaily": "Tillgängligt dagligen kl.",
 				"localTimeLabel": "(Din lokala tid: {time})"
 			}
 		},
 		"calculator": {
 			"title": "Intäktskalkylator",
-			"subtitle": "Beräkna dina provisionsintäkter baserat på dina värvningars insatsbelopp",
+			"subtitle": "Uppskatta dina provisionsintäkter baserat på dina värvningars insatsbelopp",
 			"interactive": {
 				"title": "Interaktivt verktyg:",
-				"body": "Ange olika insatsbelopp för att se potentiella intäkter på alla nivåer"
+				"body": "Ange olika insatsbelopp för att se potentiella intäkter över alla nivåer"
 			},
 			"potentialEarnings": "Potentiella intäkter",
 			"basedOnRate": "Baserat på {percentage}% provisionssats",
@@ -547,40 +547,40 @@
 			"wagerPlaceholder": "t.ex. 1000",
 			"calcFor": "Beräknar intäkter för ${amount} insats",
 			"totalPotential": "Totala potentiella intäkter:",
-			"combinedAtTier": "Kombinerade intäkter från alla speltyper på nivå {level}"
+			"combinedAtTier": "Kombinerade intäkter från alla speltyper på Nivå {level}"
 		}
 	},
 	"bonus": {
-		"title": "Omsättningsbonusprogram",
-		"loginPromptTitle": "Omsättningsbonusprogram",
+		"title": "Program för omsättningsbonus",
+		"loginPromptTitle": "Program för omsättningsbonus",
 		"loginPromptSubtitle": "Logga in för att se din bonusstatistik och hämta dina belöningar.",
-		"goHome": "Gå till startsidan",
+		"goHome": "Gå till Hem",
 		"tabs": {
-			"dashboard": "Översikt",
+			"dashboard": "Instrumentpanel",
 			"claims": "Anspråk",
 			"rates": "Bonussatser",
 			"calculator": "Kalkylator"
 		},
 		"refresh": "Uppdatera",
 		"refreshing": "Uppdaterar...",
-		"refreshAllSuccess": "All data har uppdaterats!",
+		"refreshAllSuccess": "All data uppdaterad!",
 		"refreshPartial": "Delvis uppdaterad: {success}/{total} sektioner uppdaterade",
 		"refreshFailed": "Misslyckades med att uppdatera data. Försök igen.",
 		"dashboard": {
-			"title": "Bonusöversikt",
+			"title": "Bonuspanel",
 			"subtitle": "Spåra dina insatser, bonusar och belöningsintäkter",
 			"claimButtonTitle": "Hämta",
 			"performanceOverview": "Bonusöversikt",
-			"bonusRatesTitle": "Bonusgradsstruktur",
+			"bonusRatesTitle": "Struktur för bonussatser",
 			"totalIncome": "Total bonus",
 			"pendingBonus": "Väntande bonus",
 			"lastClaim": "Senaste anspråk",
-			"unclaimedEarnings": "Tillgänglig att hämta",
+			"unclaimedEarnings": "Tillgängligt att hämta",
 			"claim": {
 				"title": "Hämta och ta ut",
 				"points": {
-					"0": "Provisioner är tillgängliga för uttag så snart de har beräknats.",
-					"1": "Det finns inget utgångsdatum för outhämtade provisioner – de ackumuleras tills de hämtas.",
+					"0": "Provisioner är tillgängliga för uttag när de har beräknats.",
+					"1": "Det finns inget utgångsdatum för ej uthämtade provisioner – de ackumuleras tills de hämtas.",
 					"2": "Uttag följer plattformens standardregler, såsom minimigränser och behandlingstider."
 				}
 			},
@@ -593,31 +593,31 @@
 				"title": "Omsättningsnivåer och satser",
 				"content": "Bonusar beräknas baserat på dina dagliga insatsbelopp:",
 				"noteTitle": "Obs",
-				"noteContent": "Nivåer utvärderas dagligen kl. 14:00 UTC. Din föregående dags omsättningsvolym avgör dagens bonussats. Satserna gäller för alla speltyper: Slots, Live Casino och Sport."
+				"noteContent": "Nivåer utvärderas dagligen kl. 14:00 UTC. Din insatsvolym från föregående dag avgör dagens bonussats. Satser gäller för alla speltyper: Slots, Live Casino och Sport."
 			}
 		},
 		"claims": {
 			"title": "Anspråkshistorik",
-			"subtitle": "Spåra dina bonusanspråk och omsättningsaktivitet",
+			"subtitle": "Spåra dina bonusanspråk och spelaktivitet",
 			"tableHeaders": {
 				"date": "Speldatum",
 				"slots": "Slots",
-				"liveCasino": "Livekasino",
+				"liveCasino": "Live Casino",
 				"sports": "Sport",
 				"total": "Totalt",
 				"tier": "Nivå",
-				"unclaimed": "Outhämtad",
+				"unclaimed": "Ej uthämtat",
 				"token": "Token"
 			},
 			"tierPrefix": "Nivå",
-			"availableToClaim": "Tillgänglig att hämta",
+			"availableToClaim": "Tillgängligt att hämta",
 			"totalBonus": "Total bonus",
-			"claimed": "Hämtad",
+			"claimed": "Hämtat",
 			"progressPercentage": "Framsteg",
 			"progressTitle": "Dina framsteg",
 			"currentTier": "Nuvarande nivå",
 			"nextTier": "Nästa nivå",
-			"wagerProgress": "Omsättningsframsteg",
+			"wagerProgress": "Insatsframsteg",
 			"totalWagered": "Totalt omsatt idag",
 			"toNextTier": "för att nå nästa nivå",
 			"empty": {
@@ -627,42 +627,42 @@
 		},
 		"rates": {
 			"title": "Omsättningsnivåer och satser",
-			"subtitle": "Bonusprocent per omsättningsnivå och spelkategori",
+			"subtitle": "Bonusprocent per insatsnivå och spelkategori",
 			"overview": {
 				"title": "Översikt",
-				"body": "Omsättningsbonusen belönar användare baserat på deras insatser i Slot, Live Casino, Sportspel och Lotteri. Bonusar beräknas var 24:e timme, och användare kan hämta dem nästa dag efter att ha spelat. Det finns sju nivåer, var och en med olika satser beroende på insatsbeloppet."
+				"body": "Omsättningsbonusen belönar användare baserat på deras insatser i Slot, Live Casino, Sportsbook och Lotteri. Bonusar beräknas var 24:e timme, och användare kan hämta dem nästa dag efter insats. Det finns sju nivåer, var och en med olika satser beroende på insatsbeloppet."
 			},
 			"eligibility": {
 				"title": "Behörighet",
 				"content": "För att delta:",
 				"points": {
 					"0": "Du måste ha ett aktivt konto.",
-					"1": "Placera insatser i Slot, Live Casino, Sportspel och Lotteri.",
-					"2": "Uppfyll minimikraven för omsättning för varje nivå."
+					"1": "Lägg insatser i Slot, Live Casino, Sportsbook och Lotteri.",
+					"2": "Uppfyll minimikraven för insats för varje nivå."
 				}
 			},
 			"calculation": {
 				"title": "Hur bonusar beräknas",
 				"desc": "Bonusar beräknas var 24:e timme baserat på dina totala insatser. Exempel:",
 				"exampleTitle": "Nivå {tier}:",
-				"wagerIn": "Satsa {amount} i {gameType}"
+				"wagerIn": "Omsätt {amount} i {gameType}"
 			},
 			"table": {
 				"tierLevel": "Nivå",
 				"wagerRange": "Insatsintervall",
 				"slots": "Slots",
-				"liveCasino": "Livekasino",
+				"liveCasino": "Live Casino",
 				"sports": "Sport",
 				"tierPrefix": "NIVÅ",
 				"commissionLevel": "Bonusnivå",
-				"dailyWager": "Daglig omsättningsvolym"
+				"dailyWager": "Daglig insatsvolym"
 			},
 			"claim": {
 				"title": "Hämta och ta ut bonusar",
 				"points": {
-					"0": "Bonusar blir tillgängliga att hämta 24 timmar efter insatsen.",
-					"1": "Outhämtade bonusar ackumuleras och förfaller inte.",
-					"2": "Processen för att hämta och ta ut kan variera beroende på plattformsspecifika policyer."
+					"0": "Bonusar blir berättigade att hämtas 24 timmar efter insatsen.",
+					"1": "Ej uthämtade bonusar ackumuleras och går inte ut.",
+					"2": "Processen för att hämta och ta ut kan variera baserat på plattformsspecifika policyer."
 				}
 			},
 			"system": {
@@ -670,25 +670,25 @@
 				"dailyTimeframeLabel": "Daglig tidsram:",
 				"dailyTimeframeValue": "00:00 UTC till 23:59 UTC (varje dag).",
 				"claimDailyLabel": "Hämta dagligen:",
-				"claimDailyValue": "Tillgänglig dagligen kl. 14:00 UTC (Din lokala tid: {local}).",
+				"claimDailyValue": "Tillgängligt dagligen kl. 14:00 UTC (Din lokala tid: {local}).",
 				"note": "Obs: även om vi arbetar med leverantörer från olika tidszoner, följer alla beräkningar UTC för att säkerställa konsekvens och undvika förvirring."
 			},
 			"amendments": {
 				"title": "Ändringar och diskvalificeringar",
-				"body": "Vi kan uppdatera dessa villkor när som helst, och ändringar träder i kraft vid publicering. Om systemfel, felberäkningar eller fusk misstänks, förbehåller vi oss rätten att justera eller diskvalificera bonusar och konton vid behov för att säkerställa rättvisa."
+				"body": "Vi kan uppdatera dessa villkor när som helst, och ändringar träder i kraft vid publicering. Om systemfel, felberäkningar eller fusk misstänks, förbehåller vi oss rätten att justera eller diskvalificera bonusar och konton vid behov för att säkerställa rättvisa"
 			},
 			"footer": {
 				"schedule": "Bonusschema:",
-				"availableDaily": "Tillgänglig dagligen kl.",
+				"availableDaily": "Tillgängligt dagligen kl.",
 				"localTimeLabel": "(Din lokala tid: {time})"
 			}
 		},
 		"calculator": {
 			"title": "Bonuskalkylator",
-			"subtitle": "Beräkna dina bonusintäkter baserat på dina insatsbelopp",
+			"subtitle": "Uppskatta dina bonusintäkter baserat på dina insatsbelopp",
 			"interactive": {
 				"title": "Interaktivt verktyg:",
-				"body": "Ange olika insatsbelopp för att se potentiella bonusar på alla nivåer"
+				"body": "Ange olika insatsbelopp för att se potentiella bonusar över alla nivåer"
 			},
 			"potentialEarnings": "Potentiell bonus",
 			"basedOnRate": "Baserat på {percentage}% bonussats",
@@ -698,17 +698,17 @@
 			"wagerPlaceholder": "t.ex. 1000",
 			"calcFor": "Beräknar bonus för ${amount} insats",
 			"totalPotential": "Total potentiell bonus:",
-			"combinedAtTier": "Kombinerad bonus från alla speltyper på nivå {level}"
+			"combinedAtTier": "Kombinerad bonus från alla speltyper på Nivå {level}"
 		},
 		"claimSuccessModal": {
-			"title": "Anspråk lyckades",
+			"title": "Hämtning lyckades",
 			"statusCompleted": "Slutförd",
 			"statusOnChain": "On-Chain",
-			"claimAmount": "Anspråksbelopp",
-			"logoAlt": "{siteName} logotyp",
-			"backgroundAlt": "Anspråk lyckades bakgrund",
+			"claimAmount": "Hämtat belopp",
+			"logoAlt": "{siteName} Logotyp",
+			"backgroundAlt": "Bakgrund för lyckad hämtning",
 			"creatingMagic": "Skapar magi...",
-			"downloadShare": "Ladda ner och dela",
+			"downloadShare": "Ladda ner & Dela",
 			"spreadTheWin": "SPRID VINSTEN",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
@@ -716,7 +716,7 @@
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "Mer",
-			"shareText": "Jag hämtade precis {amount} bonus! Gå med mig: {url}",
+			"shareText": "Jag har precis hämtat {amount} bonus! Gå med mig: {url}",
 			"referralLinkCopied": "Värvningslänk kopierad!",
 			"referralLinkCopyFailed": "Misslyckades med att kopiera värvningslänk",
 			"screenshotFailed": "Skärmdump misslyckades. Försök igen eller använd en annan webbläsare.",
@@ -729,32 +729,32 @@
 	},
 	"getLobby": {
 		"enteringLobby": "Går in i lobbyn...",
-		"connectingWait": "Vänta medan vi ansluter dig.",
+		"connectingWait": "Vänligen vänta medan vi ansluter dig.",
 		"invalidSession": "Din session är ogiltig eller leverantören saknas. Försök igen.",
 		"failedPrefix": "Misslyckades med att gå in i lobbyn: {message}",
 		"launchFailedTitle": "Start misslyckades",
-		"returnHome": "Återvänd till startsidan"
+		"returnHome": "Återgå till Hem"
 	},
 	"play": {
-		"connecting": "Ansluter till spelsverver...",
-		"invalidSession": "Din session är ogiltig eller har löpt ut. Logga in och försök igen.",
+		"connecting": "Ansluter till spelserver...",
+		"invalidSession": "Din session är ogiltig eller har löpt ut. Vänligen logga in och försök igen.",
 		"launchFailedTitle": "Start misslyckades",
-		"returnHome": "Återvänd till startsidan"
+		"returnHome": "Återgå till Hem"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "TIDSBEGRÄNSAT ERBJUDANDE",
-		"headline": "Få 200% välkomstbonus!",
+		"headline": "Få 200% Välkomstbonus!",
 		"subheadline": "Anslut din kryptoplånbok nu och få upp till {amount} bonus på din första insättning!",
 		"featureDepositMatch": "200% insättningsmatchning",
 		"featureZeroFees": "Noll transaktionsavgifter",
-		"featureInstantWithdrawals": "Omedelbara uttag",
+		"featureInstantWithdrawals": "Direkta uttag",
 		"featureNoKyc": "Ingen KYC krävs",
 		"ctaClaim": "HÄMTA BONUS NU!",
 		"offerExpires": "Erbjudandet går ut om:",
 		"disclaimer": "Villkor gäller. Spel innebär risk. Spela ansvarsfullt. 18+",
 		"closeAria": "Stäng modal",
 		"bannerAlt": "Kampanjbanner",
-		"ctaOk": "Anslut plånbok och börja spela",
+		"ctaOk": "Anslut plånbok & Börja spela",
 		"enterAmount": "Ange belopp",
 		"balance": "Saldo",
 		"max": "Max",
@@ -763,7 +763,7 @@
 	},
 	"modalsSmall": {
 		"close": "Stäng",
-		"firstDepositBoost": "Bonus-boost för första insättningen",
+		"firstDepositBoost": "Bonusboost vid 1:a insättning",
 		"bonus": "Bonus",
 		"min": "Min",
 		"sec": "Sek",
@@ -772,25 +772,25 @@
 	"auth": {
 		"email": {
 			"title": "E-postinloggning",
-			"description": "Vi skickar dig en 6-siffrig kod",
+			"description": "Vi skickar en 6-siffrig kod",
 			"emailLabel": "E-postadress",
-			"emailPlaceholder": "namn@epost.com",
+			"emailPlaceholder": "namn@email.com",
 			"cancel": "Avbryt",
 			"sending": "Skickar",
 			"continue": "Fortsätt",
 			"enterCodeTitle": "Ange kod",
-			"sentTo": "Skickad till {email}",
+			"sentTo": "Skickat till {email}",
 			"changeEmail": "Ändra e-post",
 			"resendCode": "Skicka kod igen",
 			"resendIn": "Skicka igen om {seconds}s",
 			"verifying": "Verifierar",
-			"successTitle": "Du är inne",
-			"successSubtitle": "Förbereder saker och ting...",
+			"successTitle": "Du är inloggad",
+			"successSubtitle": "Konfigurerar...",
 			"modalAria": "Modal för e-postverifiering",
 			"errors": {
-				"invalidEmail": "Ange en giltig e-postadress",
+				"invalidEmail": "Vänligen ange en giltig e-postadress",
 				"sendFailed": "Misslyckades med att skicka verifieringskod.",
-				"invalidCode": "Ange en 6-siffrig verifieringskod"
+				"invalidCode": "Vänligen ange en 6-siffrig verifieringskod"
 			}
 		},
 		"setNickname": {
@@ -798,17 +798,17 @@
 			"subtitle": "Detta är en engångsinställning och kan inte ändras",
 			"logoutAria": "Logga ut",
 			"inputPlaceholder": "Välj ditt unika smeknamn",
-			"referrerCheckbox": "Jag har ett värvar-ID",
-			"referrerPlaceholder": "Ange värvar-ID",
-			"referrerHelp": "Valfritt. Detta kopplar ditt konto till värvaren för bonusprogram.",
+			"referrerCheckbox": "Jag har ett värvnings-ID",
+			"referrerPlaceholder": "Ange värvnings-ID",
+			"referrerHelp": "Valfritt. Detta länkar ditt konto till värvaren för bonusprogram.",
 			"status": {
 				"checking": "Kontrollerar tillgänglighet...",
 				"available": "Smeknamnet är tillgängligt!",
 				"taken": "Detta smeknamn är redan upptaget."
 			},
 			"register": "Registrera och spela",
-			"termsTitle": "Villkor:",
-			"termsBody": "Genom att signera detta dokument med din plånbok och/eller fortsätta använda denna Web3-applikation, accepterar du applikationens användarvillkor. Att signera ditt samtycke till användarvillkoren är inte en blockkedjetransaktion och medför inga kostnader.",
+			"termsTitle": "Villkor & Bestämmelser:",
+			"termsBody": "Genom att signera detta dokument med din plånbok och/eller fortsätta använda denna Web3-applikation, accepterar du applikationens användarvillkor. Att signera ditt samtycke till användarvillkoren är inte en blockkedjetransaktion och medför ingen kostnad.",
 			"errors": {
 				"verifyNicknameFailed": "Kunde inte verifiera smeknamn. Försök igen.",
 				"registerFailed": "Registrering misslyckades: {message}"
@@ -849,14 +849,14 @@
 		},
 		"networkSelector": {
 			"placeholder": "Välj nätverk",
-			"switching": "Byter...",
-			"walletNotConnected": "Plånboken är inte ansluten.",
-			"failedToSwitch": "Misslyckades med att byta nätverk. Försök från din plånbok.",
+			"switching": "Växlar...",
+			"walletNotConnected": "Plånbok ej ansluten.",
+			"failedToSwitch": "Misslyckades med att växla nätverk. Försök från din plånbok.",
 			"altLogo": "Nätverkslogotyp"
 		},
 		"tokenList": {
 			"dialogTitle": "Välj en token",
-			"instantDeposit": "Omedelbar insättning",
+			"instantDeposit": "Direktinsättning",
 			"yourWalletBalance": "Ditt plånbokssaldo",
 			"searchPlaceholder": "Sök namn eller klistra in adress",
 			"emptySearch": "Inga tokens hittades som matchar din sökning.",
@@ -878,21 +878,21 @@
 			"enterAmount": "Ange belopp",
 			"selectToken": "Välj token",
 			"max": "Max",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} är reserverat för att täcka gasavgifter och undvika transaktionsfel",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} reserveras för att täcka gasavgifter och undvika att transaktionen misslyckas",
 			"balance": "Saldo:",
 			"calculating": "Beräknar...",
 			"approxUsd": "~ ${amount} USD",
 			"minPrefix": "Min:",
 			"ratesMayVary": "Kurser kan variera",
-			"emailWalletAddress": "E-postplånboksadress",
+			"emailWalletAddress": "Adress för e-postplånbok",
 			"walletAddress": "Plånboksadress",
-			"minimumIs": "Minimum är {min}",
+			"minimumIs": "Minsta belopp är {min}",
 			"errors": {
-				"selectTokenAndAmount": "Välj en token och ange ett belopp",
+				"selectTokenAndAmount": "Vänligen välj en token och ange ett belopp",
 				"insufficientBalance": "Otillräckligt saldo för denna transaktion",
-				"amountTooHighGas": "Beloppet är för högt med hänsyn till gasavgifter",
-				"checkForm": "Kontrollera formuläret och försök igen",
-				"pendingDeposit": "Du har en väntande insättning. Vänta tills den är slutförd"
+				"amountTooHighGas": "Beloppet är för högt med tanke på gasavgifter",
+				"checkForm": "Vänligen kontrollera formuläret och försök igen",
+				"pendingDeposit": "Du har en väntande insättning. Vänligen vänta tills den är klar"
 			},
 			"status": {
 				"processing": "Bearbetar...",
@@ -909,19 +909,19 @@
 			"resetForm": "Återställ formulär",
 			"enterAmount": "Ange belopp",
 			"selectToken": "Välj token",
-			"minPrefix": "Minimum",
+			"minPrefix": "Minsta",
 			"balance": "Saldo:",
 			"max": "Max",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} är reserverat för att täcka gasavgifter och undvika transaktionsfel",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} reserveras för att täcka gasavgifter och undvika att transaktionen misslyckas",
 			"approxUsd": "~ ${amount} USD",
-			"tipPanelWarningText": "Dricks är frivilligt och återbetalas inte.",
-			"emailWalletAddress": "E-postplånboksadress",
+			"tipPanelWarningText": "Dricks är frivilligt och återbetalas ej.",
+			"emailWalletAddress": "Adress för e-postplånbok",
 			"errors": {
-				"selectTokenAndAmount": "Välj en token och ange ett belopp.",
+				"selectTokenAndAmount": "Vänligen välj en token och ange ett belopp.",
 				"insufficientBalance": "Otillräckligt saldo.",
 				"belowMinimum": "Beloppet måste vara minst {min}.",
-				"missingWallet": "Kunde inte hämta dricksplånboken. Försök igen senare.",
-				"checkForm": "Verifiera dina dricksuppgifter."
+				"missingWallet": "Kunde inte hämta dricksplånbok. Försök igen senare.",
+				"checkForm": "Vänligen verifiera dina dricksdetaljer."
 			},
 			"status": {
 				"processing": "Skickar dricks...",
@@ -942,10 +942,10 @@
 		},
 		"tipPending": {
 			"submittedTitle": "Dricks väntar",
-			"submittedDesc": "Din dricks bekräftas på kedjan.",
+			"submittedDesc": "Din dricks bekräftas on-chain.",
 			"confirmedTitle": "Dricks bekräftad!",
 			"confirmedDesc": "Din dricks levererades framgångsrikt.",
-			"viewOnExplorer": "Visa på utforskare",
+			"viewOnExplorer": "Visa i utforskare",
 			"newTipPending": "Skicka en till dricks",
 			"newTipConfirmed": "Skicka en till dricks"
 		},
@@ -955,40 +955,40 @@
 			"gettingQuote": "Hämtar offert...",
 			"confirming": "Bekräftar...",
 			"approving": "Godkänner...",
-			"insufficientBalance": "Otillräckligt saldo för bytet",
-			"sameToken": "Kan inte byta samma token",
-			"approveAndSwap": "Godkänn & byt",
-			"swap": "Byt",
+			"insufficientBalance": "Otillräckligt saldo för växling",
+			"sameToken": "Kan inte växla samma token",
+			"approveAndSwap": "Godkänn & Växla",
+			"swap": "Växla",
 			"slippageTolerance": "Slippage-tolerans",
 			"custom": "Anpassad",
-			"set": "Ange",
+			"set": "Ställ in",
 			"currentSlippage": "Nuvarande slippage",
-			"swapSuccessful": "Bytet lyckades!",
+			"swapSuccessful": "Växling lyckades!",
 			"transactionConfirmed": "Din transaktion har skickats",
 			"hash": "Hash",
-			"newSwap": "Nytt byte",
+			"newSwap": "Ny växling",
 			"youPay": "Du betalar",
 			"max": "Max",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} är reserverat för att täcka gasavgifter och undvika transaktionsfel",
+			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} reserveras för att täcka gasavgifter och undvika att transaktionen misslyckas",
 			"low": "Låg",
 			"amountPlaceholder": "0",
-			"selectToken": "Välj token",
+			"selectToken": "Välj Token",
 			"youReceive": "Du får",
 			"gettingBestQuote": "Hämtar bästa offert...",
 			"gas": "Gas",
 			"minimumReceived": "Minsta mottagna",
 			"slippageToleranceLabel": "Slippage-tolerans",
 			"gasFee": "Gasavgift",
-			"priceWarning": "Priserna uppdateras i realtid och kan ändras innan din transaktion bekräftas",
-			"emailWalletAddress": "E-postplånboksadress",
+			"priceWarning": "Priser uppdateras i realtid och kan ändras innan din transaktion bekräftas",
+			"emailWalletAddress": "Adress för e-postplånbok",
 			"walletAddress": "Plånboksadress",
-			"minimumIs": "Minimum är {min}",
+			"minimumIs": "Minsta belopp är {min}",
 			"errors": {
-				"selectTokenAndAmount": "Välj en token och ange ett belopp",
+				"selectTokenAndAmount": "Vänligen välj en token och ange ett belopp",
 				"insufficientBalance": "Otillräckligt saldo för denna transaktion",
-				"amountTooHighGas": "Beloppet är för högt med hänsyn till gasavgifter",
-				"checkForm": "Kontrollera formuläret och försök igen",
-				"pendingDeposit": "Du har en väntande insättning. Vänta tills den är slutförd"
+				"amountTooHighGas": "Beloppet är för högt med tanke på gasavgifter",
+				"checkForm": "Vänligen kontrollera formuläret och försök igen",
+				"pendingDeposit": "Du har en väntande insättning. Vänligen vänta tills den är klar"
 			},
 			"status": {
 				"processing": "Bearbetar...",
@@ -1005,10 +1005,10 @@
 			"submittedTitle": "Transaktion skickad",
 			"failedTitle": "Transaktion misslyckades",
 			"confirmedDesc": "Ditt saldo har uppdaterats.",
-			"submittedDesc": "Väntar på bekräftelse från blockkedjan. Detta kan ta några minuter.",
+			"submittedDesc": "Väntar på blockkedjebekräftelse. Detta kan ta några minuter.",
 			"failedDesc": "Din transaktion har misslyckats. Försök igen.",
-			"viewOnExplorer": "Visa på utforskare",
-			"newDepositConfirmed": "Gör en till insättning",
+			"viewOnExplorer": "Visa i Utforskare",
+			"newDepositConfirmed": "Gör en annan insättning",
 			"newDepositPending": "Starta en ny insättning",
 			"newDepositFailed": "Försök igen"
 		},
@@ -1022,30 +1022,30 @@
 			"balance": "Saldo:",
 			"available": "Tillgängligt:",
 			"insufficientBalance": "Otillräckligt saldo",
-			"minimumIs": "Minimum är {min}",
+			"minimumIs": "Minsta belopp är {min}",
 			"minLabel": "Min:",
 			"calculating": "Beräknar",
-			"emailWalletAddress": "E-postplånboksadress",
+			"emailWalletAddress": "Adress för e-postplånbok",
 			"walletAddress": "Plånboksadress",
 			"errors": {
 				"pendingWithdrawal": "Du har redan ett väntande uttag",
 				"invalidAddress": "Ogiltig adress",
 				"enterAmount": "Ange belopp",
-				"networkNotSupported": "Nätverk stöds inte"
+				"networkNotSupported": "Nätverk stöds ej"
 			},
 			"status": {
 				"processing": "Bearbetar...",
 				"insufficientBalance": "Otillräckligt saldo",
-				"pendingWithdrawal": "Har redan ett väntande uttag"
+				"pendingWithdrawal": "Har redan väntande uttag"
 			},
 			"buttons": {
 				"withdraw": "Ta ut {amount} {symbol}",
-				"minimum": "Minimum {amount} {symbol}"
+				"minimum": "Minst {amount} {symbol}"
 			}
 		},
 		"withdrawSuccess": {
 			"title": "Uttag lyckades!",
-			"successMessage": "🎉 Tog precis ut {withdrawAmount} {tokenSymbol} från {siteName}! 🚀 Gå med i vinstsviten på {shareUrl}",
+			"successMessage": "🎉 Har precis tagit ut {withdrawAmount} {tokenSymbol} från {siteName}! 🚀 Gå med i vinstsviten på {shareUrl}",
 			"withdrawnAmount": "Uttaget belopp",
 			"shareText": "Dela",
 			"subText": "🚀 GÅ MED I VINSTSVITEN! 🚀",
@@ -1053,7 +1053,7 @@
 			"screenshot": "Ta skärmdump",
 			"download": "Ladda ner bild",
 			"close": "Stäng",
-			"copiedToClipboard": "Delningslänk kopierad!",
+			"copiedToClipboard": "Delningslänk kopierad framgångsrikt",
 			"userName": "{siteName} Spelare",
 			"status": "Slutförd",
 			"entryPrice": "Uttagsbelopp",
@@ -1065,11 +1065,11 @@
 		"withdrawPending": {
 			"confirmedTitle": "Uttag bekräftat!",
 			"submittedTitle": "Transaktion skickad",
-			"confirmedDesc": "Dina pengar är på väg.",
-			"submittedDesc": "Väntar på bekräftelse från blockkedjan...",
-			"viewOnExplorer": "Visa på utforskare",
+			"confirmedDesc": "Dina medel är på väg.",
+			"submittedDesc": "Väntar på blockkedjebekräftelse...",
+			"viewOnExplorer": "Visa i Utforskare",
 			"manualApproval": "Detta uttag kräver manuellt godkännande.",
-			"newWithdrawalConfirmed": "Gör ett till uttag",
+			"newWithdrawalConfirmed": "Gör ett annat uttag",
 			"newWithdrawalPending": "Starta ett nytt uttag"
 		},
 		"withdrawSummary": {
@@ -1087,36 +1087,36 @@
 		"pageTitle": "Alla spel",
 		"playNow": "Spela nu",
 		"byProvider": "Av {name}",
-		"count": "{count} spel",
+		"count": "{count} Spel",
 		"noResults": "Inga spel hittades som matchar dina kriterier.",
 		"errorLoading": "Kunde inte ladda spel. Försök igen senare.",
 		"slots": "Slots",
 		"sports": "Sport",
-		"liveCasino": "Livekasino",
+		"liveCasino": "Live Casino",
 		"explore": "Utforska",
 		"exploreSubtitle": "Upptäck fantastiska spelupplevelser",
 		"poker": "Poker",
 		"lottery": "Lotteri",
 		"futures": "Futures",
 		"vr": "VR",
-		"swap": "Byt",
-		"slotsDescription": "Snurra på hjulen och vinn massiva jackpottar",
-		"liveCasinoDescription": "Upplev kasinoaction i realtid med live-dealers",
+		"swap": "Växla",
+		"slotsDescription": "Snurra hjulen och vinn massiva jackpottar",
+		"liveCasinoDescription": "Upplev casinoaction i realtid med livedealers",
 		"sportsDescription": "Satsa på dina favoritlag och sportevenemang",
 		"pokerDescription": "Testa dina färdigheter i klassiska pokerspel",
-		"lotteryDescription": "Testa lyckan med lotteri och spel med omedelbar vinst",
-		"futuresDescription": "Handla och förutsäg marknadsrörelser",
+		"lotteryDescription": "Testa lyckan med lotteri och spel med direkta vinster",
+		"futuresDescription": "Handla och förutspå marknadsrörelser",
 		"vrDescription": "Fördjupa dig i virtual reality-spel",
-		"swapDescription": "Byt tokens och kryptovalutor sömlöst",
+		"swapDescription": "Växla tokens och kryptovalutor sömlöst",
 		"categories": {
 			"slot": {
 				"title": "Slotspel"
 			},
 			"liveCasino": {
-				"title": "Livekasinospel"
+				"title": "Live Casino-spel"
 			},
 			"sports": {
-				"title": "Sportspel"
+				"title": "Sportbetting-spel"
 			},
 			"rng": {
 				"title": "RNG-spel"
@@ -1131,17 +1131,17 @@
 		"searchPlaceholder": "Sök efter en leverantör...",
 		"empty": "Inga leverantörer hittades som matchar din sökning.",
 		"logoAlt": "{name} logotyp",
-		"filteredBy": "Filtrerat efter kategori:",
+		"filteredBy": "Filtrerad efter kategori:",
 		"clearFilter": "Rensa filter",
 		"categories": {
 			"slot": {
-				"title": "Slotspelleverantörer"
+				"title": "Slotspelsleverantörer"
 			},
 			"liveCasino": {
-				"title": "Livekasinoleverantörer"
+				"title": "Live Casino-leverantörer"
 			},
 			"sports": {
-				"title": "Sportspelsleverantörer"
+				"title": "Sportbettingleverantörer"
 			},
 			"rng": {
 				"title": "RNG-spelleverantörer"
@@ -1153,7 +1153,7 @@
 	},
 	"hero": {
 		"guest": {
-			"title": "Gå med i händelsernas centrum",
+			"title": "Gå med i händelserna",
 			"subtitle": "Registrera dig nu och få en exklusiv välkomstbonus!",
 			"cta": "Registrera dig nu"
 		},
@@ -1161,42 +1161,42 @@
 			"title1": "Välkomstbonus",
 			"title2": "Upp till 590%",
 			"subtitle": "+ 225 gratissnurr",
-			"cta": "Sätt in och få"
+			"cta": "Sätt in & Få"
 		},
 		"jackpot": {
-			"title1": "Mega Jackpot",
-			"title2": "$1,000,000",
-			"subtitle": "Spela nu och vinn stort",
+			"title1": "Megajackpott",
+			"title2": "$1 000 000",
+			"subtitle": "Spela nu & Vinn stort",
 			"cta": "Spela nu"
 		},
 		"cards": {
 			"casino": {
-				"title": "Kasino",
+				"title": "Casino",
 				"badge": "590+ SPEL",
-				"desc": "Njut av {siteName} Originals och andra kasinospel från toppleverantörer.",
-				"link": "Gå till kasino"
+				"desc": "Njut av {siteName} Originals och andra casinospel från toppleverantörer.",
+				"link": "Gå till Casino"
 			},
 			"slots": {
 				"title": "Slots",
 				"badge": "5292 SPEL",
-				"desc": "Snurra på hjulen och vinn massiva jackpottar med vår premium slot-samling.",
-				"link": "Gå till slots"
+				"desc": "Snurra hjulen och träffa massiva jackpottar med vår premium slot-samling.",
+				"link": "Gå till Slots"
 			},
 			"sports": {
 				"title": "Sport",
 				"badge": "3 SPEL",
 				"desc": "Satsa på dina favoritlag och sportevenemang med konkurrenskraftiga odds.",
-				"link": "Gå till sport"
+				"link": "Gå till Sport"
 			},
 			"crypto": {
-				"title": "Krypto & tjäna",
+				"title": "Krypto & Tjäna",
 				"badge": "60% APR",
-				"desc": "Satsa, handla och tjäna med kryptovaluta till attraktiva priser.",
-				"link": "Gå till krypto"
+				"desc": "Staka, handla och tjäna med kryptovaluta till attraktiva räntor.",
+				"link": "Gå till Krypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "Spel i fokus",
+			"headerTitle": "Spel i rampljuset",
 			"headerSubtitle": "Upptäck fantastiska spel och utforska nya äventyr i vår utvalda samling",
 			"slider1Title": "Utvalda spel",
 			"slider1Badge": "Personalens val",
@@ -1205,7 +1205,7 @@
 			"featuredGameLabel": "Utvalt spel"
 		},
 		"ctaExploreGames": "Utforska spel",
-		"ctaJoinAffiliate": "Gå med som affiliate"
+		"ctaJoinAffiliate": "Bli Affiliate"
 	},
 	"betting": {
 		"live": {
@@ -1214,8 +1214,8 @@
 			"bigWins50": "Stora vinster (50+)",
 			"recentWins": "Senaste vinster",
 			"header": {
-				"title": "Live-spelaktivitet",
-				"subtitle": "Spelaktivitet i realtid • {count} spel laddade"
+				"title": "Live betting-aktivitet",
+				"subtitle": "Bettingaktivitet i realtid • {count} spel laddade"
 			},
 			"status": {
 				"live": "LIVE",
@@ -1239,7 +1239,7 @@
 				"multiplier": "Multiplikator",
 				"profit": "Vinst"
 			},
-			"empty": "Inga spelposter hittades"
+			"empty": "Inga bettingposter hittades"
 		}
 	},
 	"fontChanger": {
@@ -1248,16 +1248,16 @@
 		"current": "Nuvarande",
 		"browseGoogleFonts": "Bläddra bland Google Fonts",
 		"uploadCustomFont": "Ladda upp anpassat typsnitt",
-		"quickUploadFontFile": "Snabb uppladdning av typsnittsfil",
+		"quickUploadFontFile": "Snabbuppladdning av typsnittsfil",
 		"resetToDefault": "Återställ till standard",
 		"googleFonts": {
 			"title": "Google Fonts",
 			"searchFonts": "Sök typsnitt...",
-			"preview": "Förhandsgranskning",
+			"preview": "Förhandsvisning",
 			"previewText": "Den snabba bruna räven hoppar över den lata hunden",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
-			"applyFont": "Använd typsnitt",
-			"clearPreview": "Rensa förhandsgranskning",
+			"applyFont": "Tillämpa typsnitt",
+			"clearPreview": "Rensa förhandsvisning",
 			"previewWith": "Förhandsgranska text med {font}",
 			"noFontsFound": "Inga typsnitt hittades som matchar \"{searchTerm}\""
 		},
@@ -1268,51 +1268,51 @@
 			"dragDropArea": "Dra och släpp din typsnittsfil här, eller",
 			"clickToUpload": "klicka för att ladda upp",
 			"supportedFormats": "Format som stöds: .woff, .woff2, .ttf, .otf",
-			"maxFileSize": "Maximal filstorlek: 10 MB",
+			"maxFileSize": "Maximal filstorlek: 10MB",
 			"fontName": "Typsnittsnamn",
 			"fontNamePlaceholder": "Ange ett namn för ditt typsnitt",
 			"previewYourFont": "Förhandsgranska ditt typsnitt",
-			"uploadAndApply": "Ladda upp och använd typsnitt",
+			"uploadAndApply": "Ladda upp & Tillämpa typsnitt",
 			"cancel": "Avbryt",
 			"uploading": "Laddar upp...",
 			"errors": {
-				"invalidFileType": "Ladda upp en giltig typsnittsfil (.woff, .woff2, .ttf, .otf)",
-				"fileTooLarge": "Filstorleken överstiger 10 MB-gränsen",
+				"invalidFileType": "Vänligen ladda upp en giltig typsnittsfil (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Filstorleken överskrider gränsen på 10MB",
 				"uploadFailed": "Misslyckades med att ladda upp typsnittsfil",
-				"enterFontName": "Välj en typsnittsfil och ange ett namn",
+				"enterFontName": "Vänligen välj en typsnittsfil och ange ett namn",
 				"readFileFailed": "Misslyckades med att läsa typsnittsfil"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "Typsnittet \"{fontName}\" har tillämpats!",
-			"fontUploadedSuccess": "Typsnittet \"{fontName}\" har laddats upp och tillämpats!",
-			"fontResetSuccess": "Typsnittet har återställts till standard",
-			"invalidFileType": "Ladda upp en giltig typsnittsfil (.woff, .woff2, .ttf, .otf)",
+			"fontAppliedSuccess": "Typsnittet \"{fontName}\" tillämpades framgångsrikt!",
+			"fontUploadedSuccess": "Typsnittet \"{fontName}\" laddades upp och tillämpades framgångsrikt!",
+			"fontResetSuccess": "Typsnitt återställt till standard",
+			"invalidFileType": "Vänligen ladda upp en giltig typsnittsfil (.woff, .woff2, .ttf, .otf)",
 			"uploadFailed": "Misslyckades med att läsa typsnittsfil"
 		}
 	},
 	"contact": {
 		"title": "Kontakta oss",
-		"subtitle": "Har du frågor eller behöver du hjälp? Vårt dedikerade supportteam är här för att hjälpa dig dygnet runt.",
+		"subtitle": "Har du frågor eller behöver hjälp? Vårt dedikerade supportteam finns här för att hjälpa dig dygnet runt.",
 		"methods": {
 			"liveChat": {
 				"title": "Livechatt",
 				"description": "Få omedelbar hjälp från vårt supportteam via livechatt.",
-				"availability": "Tillgänglig dygnet runt"
+				"availability": "Tillgänglig 24/7"
 			},
 			"email": {
 				"title": "E-postsupport",
-				"description": "Skicka ett e-postmeddelande till oss så svarar vi inom 24 timmar.",
-				"availability": "Svar inom 24 timmar"
+				"description": "Skicka oss ett e-postmeddelande så svarar vi inom 24 timmar.",
+				"availability": "Svar inom 24h"
 			},
 			"support": {
 				"title": "Hjälpcenter",
-				"description": "Sök i vår omfattande kunskapsbas för snabba svar.",
-				"availability": "Självbetjäning tillgänglig"
+				"description": "Bläddra i vår omfattande kunskapsbas för snabba svar.",
+				"availability": "Självservice tillgänglig"
 			}
 		},
 		"form": {
-			"title": "Skicka ett meddelande till oss",
+			"title": "Skicka oss ett meddelande",
 			"name": "Fullständigt namn",
 			"namePlaceholder": "Ange ditt fullständiga namn",
 			"email": "E-postadress",
@@ -1320,16 +1320,16 @@
 			"subject": "Ämne",
 			"subjectPlaceholder": "Vad handlar din förfrågan om?",
 			"message": "Meddelande",
-			"messagePlaceholder": "Beskriv din förfrågan i detalj...",
+			"messagePlaceholder": "Vänligen beskriv din förfrågan i detalj...",
 			"submit": "Skicka meddelande",
 			"sending": "Skickar...",
 			"errors": {
-				"nameRequired": "Ange ditt namn",
-				"emailRequired": "Ange din e-postadress",
-				"emailInvalid": "Ange en giltig e-postadress",
-				"subjectRequired": "Ange ett ämne",
-				"messageRequired": "Ange ditt meddelande",
-				"messageTooShort": "Meddelandet måste vara minst 10 tecken långt"
+				"nameRequired": "Vänligen ange ditt namn",
+				"emailRequired": "Vänligen ange din e-post",
+				"emailInvalid": "Vänligen ange en giltig e-postadress",
+				"subjectRequired": "Vänligen ange ett ämne",
+				"messageRequired": "Vänligen ange ditt meddelande",
+				"messageTooShort": "Meddelandet måste vara minst 10 tecken"
 			}
 		},
 		"responseTime": {
@@ -1357,80 +1357,80 @@
 				},
 				{
 					"question": "Hur lång tid tar det att behandla uttag?",
-					"answer": "De flesta uttag av kryptovalutor behandlas omedelbart. I vissa fall kan manuell verifiering krävas, vilket kan ta upp till 24 timmar."
+					"answer": "De flesta kryptovalutauttag behandlas omedelbart. I vissa fall kan manuell verifiering krävas, vilket kan ta upp till 24 timmar."
 				},
 				{
 					"question": "Vilka kryptovalutor accepterar ni?",
-					"answer": "Vi accepterar större kryptovalutor inklusive Bitcoin (BTC), Ethereum (ETH), USDT, USDC och flera andra populära tokens över flera blockkedjenätverk."
+					"answer": "Vi accepterar stora kryptovalutor inklusive Bitcoin (BTC), Ethereum (ETH), USDT, USDC och flera andra populära tokens över flera blockkedjenätverk."
 				},
 				{
 					"question": "Hur kan jag verifiera mitt konto?",
-					"answer": "Kontoverifiering kan slutföras via dina profilinställningar. Du kan behöva tillhandahålla identifieringshandlingar beroende på din kontonivå och uttagsgränser."
+					"answer": "Kontoverifiering kan slutföras via dina profilinställningar. Du kan behöva tillhandahålla identifieringsdokument beroende på din kontonivå och uttagsgränser."
 				},
 				{
 					"question": "Är min personliga information säker?",
-					"answer": "Ja, vi använder branschstandardkryptering och säkerhetsåtgärder för att skydda all personlig och finansiell information. Vår plattform genomgår regelbundna säkerhetsrevisioner."
+					"answer": "Ja, vi använder industristandardiserad kryptering och säkerhetsåtgärder för att skydda all personlig och finansiell information. Vår plattform genomgår regelbundna säkerhetsrevisioner."
 				}
 			]
 		}
 	},
 	"about": {
 		"title": "Om {siteDomain}",
-		"subtitle": "På {siteName} är spel inte bara roligt — det är ett helt nytt sätt att spela.",
+		"subtitle": "På {siteName} handlar spel inte bara om nöje — det är ett helt nytt sätt att spela.",
 		"meta": {
 			"title": "Om {siteName} | Kryptodriven spelplattform",
-			"description": "Lär dig mer om {siteName} — ett decentraliserat kryptokasino som erbjuder bevisligen rättvisa slots, livekasino, sportspel och omedelbara utbetalningar. Byggt för dagens blockkedje-era."
+			"description": "Lär dig mer om {siteName} — ett decentraliserat kryptocasino som erbjuder bevisligen rättvisa slots, live casino, sportbetting och omedelbara utbetalningar. Byggt för dagens blockkedje-era."
 		},
 		"intro": {
-			"paragraph1": "På {siteName} är spel inte bara roligt — det är ett helt nytt sätt att spela. Vi byggde denna kryptodrivna plattform för människor som vill ha mer än bara tur. Om du bryr dig om hastighet, transparens och att ha kontroll, är du på rätt plats.",
-			"paragraph2": "Från dag ett var vårt mål tydligt: att ge spelare en spelupplevelse på nästa nivå där teknik och rättvisa faktiskt fungerar tillsammans. Vi vill att du ska känna dig trygg, ansluten och som att du blir belönad för varje snurr, insats eller hand. Oavsett om du snurrar på kryptoslots, satsar live på sport eller sitter vid ett kasinobord, är {siteName} byggt för dagens blockkedje-era."
+			"paragraph1": "På {siteName} handlar spel inte bara om nöje — det är ett helt nytt sätt att spela. Vi byggde denna kryptodrivna plattform för människor som vill ha mer än bara tur. Om du bryr dig om hastighet, transparens och att ha kontroll, är du på rätt plats.",
+			"paragraph2": "Från dag ett var vårt mål tydligt: ge spelare en spelupplevelse på nästa nivå där teknik och rättvisa faktiskt arbetar tillsammans. Vi vill att du ska känna dig säker, ansluten och som att du blir belönad för varje snurr, insats eller hand. Oavsett om du snurrar kryptoslots, bettar live på sport eller sitter vid ett casinobord, är {siteName} byggt för dagens blockkedje-era."
 		},
 		"whoWeAre": {
 			"title": "Vilka vi är",
-			"paragraph1": "Vi är en världsomspännande, helt decentraliserad spelplattform designad för krypto-fans som vill ha frihet, integritet och omedelbar action. Vi samarbetar med de främsta namnen i branschen – Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech – och ger dig över 5 000 premiumspel och spelalternativ, allt på ett ställe.",
-			"paragraph2": "Varje spel på {siteName} är bevisligen rättvist och blockkedje-verifierat. Inga skumma saker, bara total transparens. Vi tror att spel ska vara tillitslöst men ändå mänskligt, och blanda blockkedjans ärlighet med en smidig, spännande upplevelse som alla kan njuta av, var de än är."
+			"paragraph1": "Vi är en världsomspännande, helt decentraliserad spelplattform designad för kryptofans som vill ha frihet, integritet och omedelbar action. Vi arbetar med toppnamn i branschen—Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech och ger dig över 5 000 premiumspel och bettingalternativ, allt på ett ställe.",
+			"paragraph2": "Varje spel på {siteName} är bevisligen rättvist och blockkedjeverifierat. Inga skumma grejer, bara total transparens. Vi tror att spel ska vara tillitslöst (trustless) men ändå mänskligt, och blanda blockkedjans ärlighet med en smidig, spännande upplevelse som alla kan njuta av, var de än är."
 		},
 		"mission": {
 			"title": "Vårt uppdrag",
-			"paragraph1": "Vi vill förändra hur människor upplever onlinespel – göra det snabbare, rättvisare och helt kryptodrivet. Så vi slopade de vanliga krånglen som KYC-kontroller, långsamma utbetalningar och förtroendeproblem. Här får du plånboksbaserad åtkomst, omedelbara transaktioner och bevis på rättvisa vid varje enskild insats.",
-			"paragraph2": "Din integritet förblir skyddad, dina vinster betalas ut omedelbart och du har alltid kontroll över ditt spel."
+			"paragraph1": "Vi vill förändra hur människor upplever onlinespel—göra det snabbare, rättvisare och helt kryptodrivet. Så vi skippade de vanliga krånglen som KYC-kontroller, långsamma utbetalningar och tillitsproblem. Här får du plånboksbaserad åtkomst, omedelbara transaktioner och bevis på rättvisa på varje enskild insats.",
+			"paragraph2": "Din integritet förblir skyddad, dina vinster betalas ut omedelbart och du har alltid kontroll över ditt spelande."
 		},
 		"focus": {
 			"title": "Vad vi fokuserar på",
 			"items": [
 				"Blixtsnabba insättningar och uttag",
-				"Integritetsfokuserad åtkomst utan KYC",
-				"Ett sömlöst användargränssnitt som fungerar överallt",
-				"Verklig, 24/7 kundsupport från faktiska människor"
+				"Integritet först-åtkomst utan KYC",
+				"Ett sömlöst gränssnitt som fungerar överallt",
+				"Riktig, 24/7 kundsupport från riktiga människor"
 			],
-			"closing": "Förtroende är viktigt för oss. Varje ny funktion? Den är designad för dig."
+			"closing": "Tillit är viktigt för oss. Varje ny funktion? Den är designad för dig."
 		},
 		"whatMakesUsDifferent": {
-			"title": "Vad som gör {siteName} annorlunda",
+			"title": "Vad som skiljer {siteName} åt",
 			"features": [
-				"Över 5 000 kryptokasinospel – slots, poker, livebord, allt du kan tänka dig",
-				"Plånboksbaserad inloggning med Dynamic.xyz – bara anslut och spela, ingen väntan",
-				"Omedelbara kryptoutbetalningar – automatiserade och verifierade direkt på blockkedjan",
+				"Över 5 000 kryptocasinospel—slots, poker, livebord, du namnger det",
+				"Plånboksbaserad inloggning med Dynamic.xyz—bara anslut och spela, ingen väntan",
+				"Omedelbara kryptoutbetalningar—automatiserade och verifierade direkt på blockkedjan",
 				"Varje spel är bevisligen rättvist och RNG-certifierat",
-				"Fungerar perfekt på alla enheter, mobil eller dator",
-				"Transparanta belöningar – bonusar och kampanjer som faktiskt gynnar spelarna"
+				"Fungerar perfekt på alla enheter, mobil eller stationär dator",
+				"Transparenta belöningar—bonusar och kampanjer som faktiskt gynnar spelare"
 			],
-			"closing": "{siteName} handlar inte bara om spel – det handlar om frihet. Spela säkert, var som helst, med total transparens."
+			"closing": "{siteName} handlar inte bara om spel—det handlar om frihet. Spela säkert, varifrån som helst, med total transparens."
 		},
 		"fairGaming": {
-			"title": "Rättvist och ansvarsfullt spelande",
-			"paragraph1": "Vi tar också rättvist och ansvarsfullt spelande på allvar. Vi tillåter ingen under 18 (eller under deras lands lagliga ålder) att spela, punkt. Varje spel kontrolleras av oberoende testare och körs på blockkedjans transparens, så du kan verifiera varje resultat själv.",
+			"title": "Rättvist & Ansvarsfullt Spelande",
+			"paragraph1": "Vi tar också rättvist och ansvarsfullt spelande på allvar. Vi låter ingen under 18 (eller under landets lagliga ålder) spela, punkt slut. Varje spel kontrolleras av oberoende testare och körs på blockkedjetransparens, så att du kan verifiera varje utfall själv.",
 			"ageRestriction": "Endast spelare som är 18 år eller äldre kan registrera sig och spela.",
-			"paragraph2": "Din personliga och finansiella information förblir privat – alltid. Vi använder end-to-end-kryptering och lagrar aldrig dina plånboksnycklar eller känsliga data."
+			"paragraph2": "Din personliga och finansiella information förblir privat—alltid. Vi använder end-to-end-kryptering och lagrar aldrig dina plånboksnycklar eller känsliga data."
 		},
 		"promise": {
 			"title": "Vårt löfte",
-			"paragraph1": "Vi är inte bara ett annat onlinekasino. Vi är nästa steg inom spel. {siteName} finns för att stärka spelare, inte kontrollera dem. Med kryptoteknik, bevisbar rättvisa och en spelarfokuserad strategi bygger vi en spelvärld som är öppen, säker och givande.",
-			"paragraph2": "Varje uppdatering, funktion eller ny partner – allt vi gör handlar om att göra spel rättvist, omedelbart och ditt."
+			"paragraph1": "Vi är inte bara ett annat onlinecasino. Vi är nästa steg inom gaming. {siteName} finns till för att stärka spelare, inte kontrollera dem. Med kryptoteknik, bevisbar rättvisa och en strategi som sätter spelaren först, bygger vi en spelvärld som är öppen, säker och givande.",
+			"paragraph2": "Varje uppdatering, funktion eller ny partner—allt vi gör handlar om att göra spelandet rättvist, omedelbart och ditt."
 		},
 		"joinCommunity": {
 			"title": "Redo att gå med?",
-			"paragraph1": "Framtidens spel är här – decentraliserat, blixtsnabbt och utan gränser. Registrera dig, anslut din plånbok och se hur verklig spelfrihet känns.",
+			"paragraph1": "Framtiden för spel är här—decentraliserad, blixtsnabb och utan gränser. Registrera dig, anslut din plånbok och se hur verklig spelfrihet känns.",
 			"paragraph2": "Spela smart. Vinn snabbt. Upplev {siteName}.",
 			"tagline": "Spela smart. Vinn snabbt. Upplev {siteName}."
 		}
@@ -1443,16 +1443,18 @@
 					"about": "Om oss",
 					"providers": "Leverantörer",
 					"affiliate": "Värvningsbonus",
-					"bonus": "Omsättningsbonus"
+					"bonus": "Omsättningsbonus",
+					"blog": "Blogg",
+					"contact": "Kontakta oss"
 				}
 			},
 			"legal": {
 				"title": "Juridiskt",
 				"links": {
 					"privacy": "Integritetspolicy",
-					"terms": "Användarvillkor",
+					"terms": "Villkor & Bestämmelser",
 					"gambling": "Ansvarsfullt spelande",
-					"faqs": "Vanliga frågor"
+					"faqs": "FAQs"
 				}
 			},
 			"games": {
@@ -1460,8 +1462,8 @@
 				"links": {
 					"lobby": "Spellobby",
 					"slots": "Slots",
-					"live": "Livekasino",
-					"sports": "Sportspel"
+					"live": "Live Casino",
+					"sports": "Sportbetting"
 				}
 			},
 			"support": {
@@ -1473,11 +1475,11 @@
 			}
 		},
 		"seoContent": {
-			"title": "{siteName} — Din ultimata destination för kryptokasinounderhållning",
-			"paragraph1": "Kliv in i framtiden för onlinespel med {siteName}, världens främsta kryptodrivna kasino där innovation möter spänning. Designad för riktiga spelare, levererar vår plattform en snabb, säker och transparent upplevelse över slots, livekasinobord, sportspel och kryptospel.",
-			"paragraph2": "Varje snurr, kort och insats på {siteName} bygger på blockkedjans rättvisa, verifierad i realtid för att säkerställa att varje resultat är verkligt slumpmässigt och manipuleringssäkert. Från action med höga insatser till avslappnat spel, tillgodoser våra spel alla typer av spelare — från spänningssökare till strategiproffs.",
-			"paragraph3": "Med omedelbara insättningar och blixtsnabba uttag, Dynamic.xyz-plånboksinloggning och exklusiva omsättningsbonusar, ser {siteName} till att ditt spel förblir smidigt, givande och säkert. Oavsett om du är i Kanada, Europa eller Asien, stöder vårt flerkedjesystem globala spelare samtidigt som det optimerar för lokala kryptokasinotrender i varje region.",
-			"paragraph4": "Gå med tusentals spelare som upptäcker ett smartare sätt att spela — där rättvist spel, integritet och vinst möts. {siteName} är inte bara ett kasino. Det är nästa utveckling av Web3-spel — byggt för de modiga, drivet av krypto och betrodd av spelare världen över.",
+			"title": "{siteName} — Din ultimata destination för krypto-casinounderhållning",
+			"paragraph1": "Kliv in i framtiden för onlinespel med {siteName}, världens främsta kryptodrivna casino där innovation möter spänning. Vår plattform är designad för riktiga spelare och levererar en snabb, säker och transparent upplevelse över slots, live casinobord, sportbetting och kryptospel.",
+			"paragraph2": "Varje snurr, kort och insats på {siteName} bygger på blockkedjerättvisa, verifierad i realtid för att säkerställa att varje utfall är verkligt slumpmässigt och manipuleringssäkert. Från action med höga insatser till vardagsspel, våra spel tillgodoser alla typer av spelare — från spänningssökare till strategiproffs.",
+			"paragraph3": "Med omedelbara insättningar och blixtsnabba uttag, Dynamic.xyz plånboksinloggning och exklusiva omsättningsbonusar, ser {siteName} till att ditt spelande förblir smidigt, givande och säkert.|Oavsett om du är i Kanada, Europa eller Asien, stöder vårt flkedjesystem globala spelare samtidigt som det optimeras för lokala kryptocasinotrender i varje region.",
+			"paragraph4": "Gå med tusentals spelare som upptäcker ett smartare sätt att spela — där rättvist spel, integritet och vinst möts.|{siteName} är inte bara ett casino.|Det är nästa evolution av Web3-spelande — byggt för de djärva, drivet av krypto och betrott av spelare över hela världen.",
 			"tagline": "🎯 Spela smart. Satsa säkert. Vinn stort — Endast på {siteName}.",
 			"showMore": "Visa mer",
 			"showLess": "Visa mindre"
@@ -1489,66 +1491,66 @@
 			"line2": "Spel kan vara beroendeframkallande. Vänligen spela ansvarsfullt och satsa bara vad du har råd att förlora.",
 			"line3": "Om du känner att du har ett spelproblem, vänligen sök hjälp."
 		},
-		"description": "{siteName} — ditt betrodda kryptokasino för slots, livebord och sportspel. Spela bevisligen rättvisa blockkedjespel, njut av omedelbara plånboksbaserade utbetalningar och lås upp dagliga kasinobonusar. Snabbt, säkert och decentraliserat — {siteName} ger spel på nästa nivå till spelare världen över. 🎯 Spela smart. Vinn stort. Lita på {siteName}."
+		"description": "{siteName} — ditt pålitliga kryptocasino för slots, livebord och sportbetting.|Spela bevisligen rättvisa blockkedjespel, njut av omedelbara plånboksbaserade utbetalningar och lås upp dagliga casinobonusar.|Snabbt, säkert och decentraliserat — {siteName} tar spelandet till nästa nivå för spelare över hela världen.|🎯 Spela smart. Vinn stort. Lita på {siteName}."
 	},
 	"privacy": {
 		"title": "Integritetspolicy — {siteDomain}",
-		"subtitle": "Hur vi hanterar din information som täcker din kryptoplånbok, spelande och allt du gör på vår webbplats",
-		"lastUpdated": "Senast uppdaterad: januari 2025",
+		"subtitle": "Hur vi hanterar din info som täcker din kryptoplånbok, spelande och allt du gör på vår sida",
+		"lastUpdated": "Senast uppdaterad: Januari 2025",
 		"intro": {
-			"paragraph1": "På {siteName} ('{siteDomain}', 'vi', 'oss' eller 'vår'), står din integritet i centrum. Vi driver {siteName} kryptokasino och decentraliserad spelplattform, och denna integritetspolicy beskriver hur vi hanterar din information som täcker din kryptoplånbok, spelande och allt du gör på vår webbplats, dApp eller relaterade tjänster (vi kommer att kalla dessa 'Tjänsterna').",
-			"paragraph2": "{siteDomain} är ett kryptokasino som endast använder plånböcker. Det innebär att insättningar och uttag går direkt via blockkedjan, utan mellanhänder. Vi ber inte om ditt ID, och vi lagrar aldrig personlig identitetsinformation. Din integritet, plånbok och tillgångar? De förblir dina.",
+			"paragraph1": "På {siteName} ('{siteDomain},' 'vi,' 'oss,' eller 'vår'), står din integritet i centrum. Vi driver {siteName} kryptocasino och decentraliserad spelplattform, och denna integritetspolicy beskriver hur vi hanterar din information som täcker din kryptoplånbok, spelande och allt du gör på vår sida, dApp eller relaterade tjänster (vi kallar dessa 'Tjänsterna').",
+			"paragraph2": "{siteDomain} är ett casino enbart för plånböcker. Det betyder att insättningar och uttag går direkt genom blockkedjan, ingen mellanhand. Vi ber inte om ditt ID, och vi lagrar aldrig personlig identitetsinformation. Din integritet, plånbok och tillgångar? De förblir dina.",
 			"paragraph3": "Genom att använda {siteDomain} godkänner du denna integritetspolicy."
 		},
 		"sections": {
 			"scope": {
-				"title": "Omfattning och godkännande",
-				"content": "Denna policy omfattar alla som besöker eller använder {siteDomain}. Om vi någonsin behöver uppdatera policyn – kanske på grund av ny teknik eller ändrade lagar – kommer vi att publicera ändringarna här. Om du fortsätter att använda plattformen efter det, accepterar du de nya villkoren."
+				"title": "Omfattning & Acceptans",
+				"content": "Denna policy omfattar alla som besöker eller använder {siteDomain}. Om vi någonsin behöver uppdatera policyn—kanske på grund av ny teknik eller ändrade lagar—kommer vi att publicera ändringarna precis här. Om du fortsätter att använda plattformen efter det, accepterar du de nya villkoren."
 			},
 			"dataCollection": {
 				"title": "Data vi samlar in",
-				"intro": "Vi byggde {siteName} med integritet i åtanke. Vi ber bara om det som behövs för att webbplatsen ska fungera, hålla saker säkra och se till att spelen är rättvisa.",
+				"intro": "Vi byggde {siteName} med integritet i åtanke. Vi ber bara om vad som behövs för att få webbplatsen att fungera, hålla saker säkra och se till att spelen är rättvisa.",
 				"accountData": {
-					"title": "A. Plånboks- och kontodata",
+					"title": "A. Plånbok & Kontodata",
 					"items": {
-						"0": "Ansluten plånboksadress (via Dynamic.xyz, WalletConnect eller MetaMask).",
-						"1": "Visningsnamn (valfritt) om du vill anpassa ditt konto.",
-						"2": "E-postadress (valfritt) om du anmäler dig till nyhetsbrev eller kontaktar support."
+						"0": "Ansluten plånboksadress (genom Dynamic.xyz, WalletConnect eller MetaMask).",
+						"1": "Visningsnamn (valfritt) om du vill göra ditt konto personligt.",
+						"2": "E-postadress (valfritt) om du registrerar dig för nyhetsbrev eller kontaktar support."
 					},
-					"kyc": "Vi gör aldrig identitetskontroller eller samlar in statliga ID-handlingar. Om, och endast om, en juridisk situation uppstår (som en bedrägeriutredning), kan vi be om identitetsbevis. Om det händer kommer vi att vara öppna med det och bara be om det som är absolut nödvändigt."
+					"kyc": "Vi gör aldrig identitetskontroller eller samlar in statliga ID-handlingar. Om, och endast om, en juridisk situation dyker upp (som en bedrägeriutredning), kan vi be om bevis på identitet. Om det händer kommer vi att vara öppna med det och bara be om vad som är absolut nödvändigt."
 				},
 				"walletData": {
 					"title": "B. Transaktionsdata",
-					"addresses": "Blockkedje-plånboksadresser som används för insättningar eller uttag.",
-					"transactions": "Transaktions-hasher, tidsstämplar och nätverksbekräftelser.",
+					"addresses": "Blockkedjeplånboksadresser som används för insättningar eller uttag.",
+					"transactions": "Transaktionshashar, tidsstämplar och nätverksbekräftelser.",
 					"metadata": "Insättnings- och uttagsdetaljer för att balansera ditt konto.",
-					"note": "Alla kryptotransaktioner är offentliga på blockkedjan. Vi redigerar, döljer eller försöker inte anonymisera dessa data – allt är transparent."
+					"note": "Alla kryptotransaktioner är offentliga på blockkedjan. Vi redigerar inte, döljer inte och försöker inte göra denna data anonym—allt är transparent."
 				},
 				"technicalData": {
-					"title": "C. Teknisk och användningsdata",
-					"ip": "Information om din enhet och webbläsare (typ, operativsystem, skärmstorlek).|IP-adress och ungefärlig plats för bedrägeribekämpning.",
-					"session": "Sidor du besöker, spel du spelar, transaktionshistorik och tid spenderad på webbplatsen.",
-					"cookies": "Cookies och analyser för att hjälpa oss att förbättra upplevelsen."
+					"title": "C. Teknisk & Användningsdata",
+					"ip": "Info om din enhet och webbläsare (typ, OS, skärmstorlek).|IP-adress och ungefärlig plats för bedrägeribekämpning.",
+					"session": "Sidor du besöker, spel du spelar, transaktionshistorik och tid spenderad på sidan.",
+					"cookies": "Kakor och analyser för att hjälpa oss förbättra upplevelsen."
 				},
 				"securityData": {
-					"title": "D. Säkerhets- och riskdata",
-					"fraud": "Enhetsfingeravtryck och övervakning mot bedrägeri.",
-					"disputes": "Spelsessionsloggar för rättvisa och för att hjälpa till att lösa problem.|Automatiska kontroller för att upptäcka bots eller missbruk.",
+					"title": "D. Säkerhets- & Riskdata",
+					"fraud": "Enhetsfingeravtryck och övervakning mot bedrägerier.",
+					"disputes": "Loggar för spelsessioner för rättvisa och för att hjälpa till att lösa problem.|Automatiserade kontroller för att upptäcka bots eller missbruk.",
 					"note": "Vi samlar inte in känsliga personuppgifter som din etnicitet, religion, politiska åsikter eller biometri."
 				}
 			},
 			"purposes": {
 				"title": "Varför vi samlar in data",
-				"intro": "Här är vad vi använder din information till:",
-				"outro": "Du kan när som helst avregistrera dig från marknadsföringsmeddelanden.",
+				"intro": "Här är vad vi använder din info till:",
+				"outro": "Du kan avregistrera dig från marknadsföringsmeddelanden när du vill.",
 				"items": {
 					"0": {
-						"title": "Tjänsteoperationer",
+						"title": "Tjänsteverksamhet",
 						"description": "För att låta dig logga in med din plånbok, verifiera transaktioner, köra spel och hantera utbetalningar."
 					},
 					"1": {
-						"title": "Säkerhet och bedrägeribekämpning",
-						"description": "För att upptäcka och förhindra bedrägeri, dubblettkonton eller något misstänkt."
+						"title": "Säkerhet & Bedrägeribekämpning",
+						"description": "För att upptäcka och förhindra bedrägerier, dubblettkonton eller något misstänkt."
 					},
 					"2": {
 						"title": "Plattformsförbättring",
@@ -1556,11 +1558,11 @@
 					},
 					"3": {
 						"title": "Marknadsföring (med samtycke)",
-						"description": "För marknadsföring, men bara om du säger ja – vi smyger aldrig in kampanjer utan ditt tillstånd."
+						"description": "För marknadsföring, men bara om du säger ja—vi smyger aldrig in kampanjer utan ditt tillstånd."
 					},
 					"4": {
 						"title": "Plattformsintegritet",
-						"description": "För att skydda {siteName} och hålla spelet rättvist."
+						"description": "För att skydda {siteName} och hålla spelandet rättvist."
 					}
 				}
 			},
@@ -1569,49 +1571,49 @@
 				"intro": "{siteDomain} körs helt på blockkedjan:",
 				"outro": "Om du använder en tredjepartsplånbok (som Dynamic.xyz, WalletConnect eller MetaMask), gäller deras integritetspolicy för din användning av deras tjänst",
 				"points": {
-					"0": "Dina plånboks- och transaktionsdata lever permanent på offentliga blockkedjor som Ethereum eller BNB Chain.",
+					"0": "Din plånbok och transaktionsdata lever permanent på offentliga blockkedjor som Ethereum eller BNB Chain.",
 					"1": "När en blockkedjetransaktion är klar kan vi inte ändra eller radera den.",
-					"2": "Vi lagrar endast det absoluta minimum av information off-chain, endast av tekniska och kontomässiga skäl.",
+					"2": "Vi lagrar endast det absoluta minimumet av information off-chain, bara av tekniska och kontomässiga skäl.",
 					"3": "Om du använder en tredjepartsplånbok (som Dynamic.xyz, WalletConnect eller MetaMask), gäller deras integritetspolicy för din användning av deras tjänst."
 				}
 			},
 			"dataSharing": {
-				"title": "Delning och utlämnande",
-				"intro": "Vi säljer, byter eller hyr inte ut dina data. Aldrig.",
-				"para": "Men i sällsynta fall kan vi behöva dela begränsad information:",
+				"title": "Delning & Utlämnande",
+				"intro": "Vi säljer, handlar eller hyr inte ut din data. Någonsin.",
+				"para": "Men i sällsynta fall kan vi behöva dela begränsad info:",
 				"items": {
 					"0": "Om lagen eller en giltig juridisk process kräver det.",
-					"1": "Med partners för bedrägeribekämpning eller blockkedjeanalysverktyg om vi upptäcker misstänkt aktivitet.",
-					"2": "Om det sker en fusion, förvärv eller större affärsförändring – alltid under strikt konfidentialitet."
+					"1": "Med anti-bedrägeripartners eller blockkedjeanalysverktyg om vi upptäcker misstänkt aktivitet.",
+					"2": "Om det sker en fusion, förvärv eller stor affärsförändring—alltid under strikt sekretess."
 				},
-				"noSelling": "När vi delar något ser vi till att det följer dataskyddslagar."
+				"noSelling": "När vi delar något ser vi till att det följer dataskyddslagarna."
 			},
 			"security": {
 				"title": "Säkerhetsåtgärder",
-				"intro": "Vi tar din säkerhet på allvar och använder flera avancerade skyddslager för att hålla dina data och digitala tillgångar säkra:",
+				"intro": "Vi tar din säkerhet på allvar och lägger flera lager av avancerat skydd för att hålla din data och dina digitala tillgångar säkra:",
 				"items": {
-					"0": "Varje bit data du skickar mellan din webbläsare och våra servrar krypteras med TLS/SSL.",
-					"1": "Vi lagrar loggar och tekniska data i krypterad form.",
+					"0": "Varje bit data du skickar mellan din webbläsare och våra servrar får TLS/SSL-kryptering.",
+					"1": "Vi lagrar loggar och teknisk data i krypterad form.",
 					"2": "Rollbaserad åtkomstkontroll (RBAC) håller intern åtkomst tätt låst.",
-					"3": "Vi genomför regelbundna penetrationstester och anlitar externa experter för säkerhetsrevisioner.",
-					"4": "Administratörer loggar in med multifaktorautentisering (MFA) för extra säkerhet."
+					"3": "Vi kör regelbundna penetrationstester och tar in externa experter för säkerhetsrevisioner.",
+					"4": "Administratörer loggar in med Multi-Factor Authentication (MFA) för extra säkerhet."
 				},
-				"warning": "Bara en heads-up:\n\n🔐 {siteName} kommer aldrig att be om dina privata nycklar eller seed-fraser. Håll dina plånboksuppgifter privata – det är ditt ansvar."
+				"warning": "Bara en varning:\n\n🔐 {siteName} kommer aldrig att be om dina privata nycklar eller seed-fraser. Håll dina plånboksuppgifter privata—det är upp till dig."
 			},
 			"cookies": {
-				"title": "Cookies och analys",
-				"intro": "Vi använder cookies och spårningsverktyg för att:",
+				"title": "Kakor & Analyser",
+				"intro": "Vi använder kakor och spårningsverktyg för att:",
 				"items": {
-					"0": "Hålla din plånbok ansluten och sessionerna stabila.",
+					"0": "Hålla din plånbok ansluten och sessioner stabila.",
 					"1": "Förbättra webbplatsens hastighet och prestanda.",
 					"2": "Samla in anonym analys så att vi kan förstå hur människor använder webbplatsen."
 				},
-				"outro": "Du kan stänga av icke-väsentliga cookies i din webbläsare när som helst. Om du blockerar väsentliga cookies kan du dock stöta på problem med spel eller plånboksanslutningar."
+				"outro": "Du kan stänga av icke-nödvändiga kakor i din webbläsare när du vill. Om du blockerar nödvändiga kakor kan du dock stöta på problem med spel eller plånboksanslutningar."
 			},
 			"minAge": {
-				"title": "Policy för minderårigas användning",
+				"title": "Policy för användning av minderåriga",
 				"intro": "{siteDomain} är förbjudet för alla under 18 år, eller under den lagliga spelåldern i deras område.",
-				"content": "Om vi får reda på att någon är minderårig, kommer vi att stänga av kontot omedelbart, ogiltigförklara eventuella vinster och radera relaterade data. \nFör föräldrar och vårdnadshavare:",
+				"content": "Om vi får reda på att någon är minderårig stänger vi av kontot direkt, ogiltigförklarar eventuella vinster och raderar relaterad data. \nFör föräldrar och vårdnadshavare:",
 				"items": {
 					"0": "Använd lösenordsskydd på enheter.",
 					"1": "Spara inte plånboksinformation på delade enheter.",
@@ -1622,38 +1624,38 @@
 				"title": "Svar på dataintrång",
 				"content": "Om ett dataintrång någonsin hotar dina rättigheter eller säkerhet:",
 				"items": {
-					"0": "Vi kommer att varna alla berörda användare omedelbart.",
-					"1": "Vi kommer att meddela rätt myndigheter, i enlighet med lagen.",
+					"0": "Kommer vi att varna alla berörda användare direkt.",
+					"1": "Vi kommer att meddela rätt myndigheter, enligt lag.",
 					"2": "Vi kommer att agera snabbt för att åtgärda problem och återställa säkerheten."
 				}
 			},
 			"changes": {
-				"title": "Policyuppdateringar",
-				"content": "Vi uppdaterar denna integritetspolicy från tid till annan när saker förändras – oavsett om det är verksamhet, teknik eller lag. Stora förändringar kommer att visas på webbplatsen som meddelanden eller banners. Kontrollera den här sidan då och då för att hålla dig uppdaterad."
+				"title": "Uppdateringar av policyn",
+				"content": "Vi uppdaterar denna integritetspolicy från tid till annan när saker förändras—vare sig det gäller verksamhet, teknik eller lagen. Stora förändringar kommer att visas på webbplatsen som meddelanden eller banners. Kontrollera denna sida då och då för att hålla dig uppdaterad."
 			},
 			"contact": {
 				"title": "Kontakta oss",
-				"intro": "Har du frågor, integritetsproblem eller en begäran om dina data? Kontakta oss när som helst:"
+				"intro": "Har du frågor, integritetsbekymmer eller en begäran om din data? Hör av dig när som helst:"
 			}
 		}
 	},
 	"terms": {
-		"title": "Användarvillkor — {siteName} kryptokasino",
-		"lastUpdated": "Senast uppdaterad: januari 2025",
+		"title": "Villkor & Bestämmelser — {siteName} Kryptocasino",
+		"lastUpdated": "Senast uppdaterad: Januari 2025",
 		"sections": {
 			"ownership": {
-				"title": "Vem driver {siteDomain}",
-				"content1": "{siteDomain} tillhör {siteName} N.V. Det är vi – när vi säger '{siteName}', 'vi', 'vår' eller 'oss', pratar vi om teamet bakom webbplatsen.",
-				"content2": "Vi driver ett kryptokasino som endast använder plånböcker. Alla insättningar, insatser och uttag går direkt via din egen kryptoplånbok. För säkerhet och enkel åtkomst stöder vi Dynamic.xyz, WalletConnect och MetaMask."
+				"title": "Vem som driver {siteDomain}",
+				"content1": "{siteDomain} tillhör {siteName} N.V. Det är vi—när vi säger '{siteName},' 'vi,' 'vår,' eller 'oss,' pratar vi om teamet bakom webbplatsen.",
+				"content2": "Vi driver ett kryptocasino enbart för plånböcker. Alla insättningar, spel och uttag går direkt genom din egen kryptoplånbok. För säkerhet och enkel åtkomst stöder vi Dynamic.xyz, WalletConnect och MetaMask."
 			},
 			"notice": {
-				"title": "Vad du godkänner",
-				"content": "När du ansluter din plånbok eller använder {siteDomain} godkänner du:",
+				"title": "Vad du går med på",
+				"content": "När du ansluter din plånbok eller använder {siteDomain}, godkänner du:",
 				"items": {
-					"0": "Dessa användarvillkor",
-					"1": "Vår integritetspolicy",
-					"2": "Vår policy för ansvarsfullt spelande",
-					"3": "Eventuella bonus-, affiliate- eller kampanjvillkor",
+					"0": "Dessa Villkor & Bestämmelser",
+					"1": "Vår Integritetspolicy",
+					"2": "Vår Policy för Ansvarsfullt Spelande",
+					"3": "Alla bonus-, affiliate- eller kampanjvillkor",
 					"4": "Alla andra regler eller uppdateringar som publiceras på {siteDomain}"
 				},
 				"content2": "Om du inte accepterar dessa villkor, använd helt enkelt inte {siteDomain}.",
@@ -1662,10 +1664,10 @@
 			"general": {
 				"title": "Grunderna",
 				"items": [
-					"När du ansluter din plånbok godkänner du att följa alla regler och riktlinjer här.",
+					"När du har anslutit din plånbok går du med på att följa varje regel och riktlinje här.",
 					"Dessa villkor är ett bindande avtal mellan dig och {siteDomain}. De träder i kraft så snart du ansluter din plånbok eller använder webbplatsen.",
-					"Vi kan uppdatera dessa villkor när vi behöver. Om vi gör det kommer vi att publicera den nya versionen här och den gäller omedelbart.",
-					"Om det finns en konflikt mellan dessa villkor och något annat – bonuserbjudanden, tredjepartsmaterial, vad som helst – vinner dessa villkor.",
+					"Vi kan uppdatera dessa villkor när vi behöver. Om vi gör det publicerar vi den nya versionen här och den gäller omedelbart.",
+					"Om det finns en konflikt mellan dessa villkor och något annat—bonuserbjudanden, tredjeparts saker, vad som helst—vinner dessa villkor.",
 					"Den engelska versionen är den officiella. Översättningar är bara till för att hjälpa till."
 				]
 			},
@@ -1673,49 +1675,49 @@
 				"title": "Din plånbok, inloggning och säkerhet",
 				"intro": "",
 				"walletLogin": {
-					"title": "Plånboksanslutning och ägande",
+					"title": "Plånboksanslutning & Ägande",
 					"items": [
-						"Vi använder Dynamic.xyz och andra plånboksanslutare för inloggning och autentisering. När du ansluter din plånbok bekräftar du att du äger den och låter oss länka den till ditt konto.",
-						"Vi kommer aldrig att be om dina privata nycklar, seed-fraser eller återställningsinformation. Din plånboks säkerhet ligger i dina händer. Vi är inte ansvariga om du blir nätfiskad, hackad eller förlorar åtkomst på grund av din egen enhet."
+						"Vi använder Dynamic.xyz och andra plånbokskontakter för inloggning och autentisering. När du ansluter din plånbok bekräftar du att du äger den och låter oss länka den till ditt konto.",
+						"Vi kommer aldrig att be om dina privata nycklar, seed-fraser eller återställningsinfo. Din plånboks säkerhet ligger i dina händer. Vi är inte ansvariga om du blir utsatt för nätfiske, hackad eller förlorar åtkomst på grund av din egen enhet."
 					]
 				},
 				"registration": {
-					"title": "E-post och kontouppgifter",
+					"title": "E-post & Kontouppgifter",
 					"items": [
-						"Du kan ge oss en e-postadress eller ett användarnamn om du vill ha hjälp eller uppdateringar, men det är valfritt.",
+						"Du kan ge oss en e-post eller ett användarnamn om du vill ha hjälp eller uppdateringar, men det är valfritt.",
 						"Du är ansvarig för allt som händer med din anslutna plånbok."
 					]
 				},
 				"security": {
-					"title": "Flera konton och säkerhet",
+					"title": "Flera konton & Säkerhet",
 					"items": [
-						"Håll dig till en plånbok/ett konto per person. Om du försöker lura systemet genom att använda mer än en, kan vi stänga av ditt konto och behålla dina medel.",
-						"Om din plånbok stöder 2FA, aktivera det.",
+						"Håll dig till en plånbok/konto per person. Om du försöker lura systemet genom att använda mer än en, kan vi stänga av ditt konto och behålla dina medel.",
+						"Om din plånbok stöder 2FA, slå på det.",
 						"Om något verkar fel, maila oss på support@digidice.games direkt."
 					]
 				}
 			},
 			"eligibility": {
 				"title": "Vem som kan spela och vad du lovar",
-				"intro": "Genom att använda {siteDomain} lovar du:",
+				"intro": "Genom att använda {siteDomain}, lovar du:",
 				"items": [
-					"Du är minst 18 år, eller den lagliga spelåldern där du bor.",
-					"Onlinekryptospel är lagligt för dig.",
+					"Du är minst 18 år, eller vad den lagliga spelåldern än är där du bor.",
+					"Kryptospel online är lagligt för dig.",
 					"Du äger plånboken du ansluter.",
-					"Du kommer inte att använda VPN, proxyservrar eller IP-maskering för att undvika geo-blockeringar.",
+					"Du kommer inte att använda VPN, proxys eller IP-maskering för att undvika geografiska blockeringar.",
 					"Du kommer inte att använda {siteName} för något olagligt eller skumt.",
-					"Du förstår att krypto är volatilt och du accepterar riskerna."
+					"Du förstår att krypto är volatilt, och du accepterar riskerna."
 				],
-				"outro": "Om du bryter mot något av dessa löften kan vi stänga av eller stänga ditt konto och hålla inne dina medel om lagen säger så."
+				"outro": "Om du bryter något av dessa löften kan vi stänga av eller stänga ditt konto och hålla inne dina medel om lagen säger det."
 			},
 			"restricted": {
-				"title": "Där du inte kan spela",
-				"content1": "{siteDomain} är förbjudet om du befinner dig på en plats där onlinespel eller kryptobetting är begränsat. Det betyder till exempel: USA, Storbritannien, Frankrike, Nederländerna, Spanien, Tyskland, Australien, Komorerna, Iran, Nordkorea, Syrien, Sudan och var som helst på FATF:s svarta lista.",
-				"content2": "Försöker du smita in med en VPN eller proxy? Gör det inte. Om du gör det stänger vi ditt konto och du förlorar dina medel.",
+				"title": "Var du inte kan spela",
+				"content1": "{siteDomain} är förbjudet om du befinner dig på en plats där onlinespel eller kryptobetting är begränsat. Det betyder till exempel: USA, Storbritannien, Frankrike, Nederländerna, Spanien, Tyskland, Australien, Komorerna, Iran, Nordkorea, Syrien, Sudan och någonstans på FATF:s svarta lista.",
+				"content2": "Försöker du smyga in med en VPN eller proxy? Gör det inte. Om du gör det stänger vi ditt konto och du förlorar dina medel.",
 				"content3": ""
 			},
 			"crypto": {
-				"title": "Kryptoinsättningar och -uttag",
+				"title": "Kryptoinsättningar och uttag",
 				"policy": {
 					"title": "Endast krypto",
 					"items": [
@@ -1726,15 +1728,15 @@
 				"deposits": {
 					"title": "Insättningar",
 					"items": [
-						"När du sätter in pengar visas de efter att blockkedjan har bekräftat transaktionen. Du täcker nätverksavgifterna (gas), inte vi. Minsta insättning är $10 i krypto. Vi kan avvisa insättningar från svartlistade eller riskfyllda plånböcker.",
+						"När du sätter in dyker dina medel upp efter att blockkedjan bekräftar transaktionen. Du täcker nätverksavgifterna (gas), inte vi. Minsta insättning är $10 i krypto. Vi kan avvisa insättningar från svartlistade eller riskfyllda plånböcker.",
 						""
 					]
 				},
 				"withdrawals": {
 					"title": "Uttag",
 					"items": [
-						"Uttag går direkt till din valda plånbok. Se till att den fungerar med rätt blockkedja. Minsta uttag är vanligtvis $10, beroende på avgifter. Vi kan fördröja uttag för bedrägerikontroller eller säkerhetsskäl.",
-						"Alla blockkedjetransaktioner är slutgiltiga. Vi kan inte avbryta, återbetala eller ändra dem när de väl har bekräftats."
+						"Uttag går direkt till din valda plånbok. Se till att den fungerar med rätt blockkedja. Minsta uttag är vanligtvis $10, beroende på avgifter. Vi kan fördröja uttag för bedrägerikontroller eller säkerhet.",
+						"Alla blockkedjetransaktioner är slutgiltiga. Vi kan inte avbryta, återbetala eller ändra dem när de väl är bekräftade."
 					]
 				},
 				"chargebacks": {
@@ -1744,79 +1746,79 @@
 			},
 			"kyc": {
 				"title": "INGEN KYC-POLICY",
-				"intro": "{siteDomain} körs på en No KYC-modell, så du kan spela utan ID-kontroller för vanliga spel.",
+				"intro": "{siteDomain} körs på en Ingen KYC-modell, så du kan spela utan ID-kontroller för vanliga spel.",
 				"content1": "Men ibland kan {siteName} be om lite information om:",
 				"items": [
 					"Lagen eller en myndighet kräver det.",
 					"De behöver undersöka bedrägeri eller misstänkt beteende.",
-					"Det behövs för att hålla plattformen säker eller uppfylla regleringar."
+					"Det behövs för att hålla plattformen säker eller uppfylla regler."
 				],
-				"outro": "Om du inte samarbetar med en laglig verifieringsbegäran kan ditt konto bli avstängt eller dina uttag försenas."
+				"outro": "Om du inte samarbetar med en laglig verifieringsbegäran kan ditt konto stängas av eller dina uttag försenas."
 			},
 			"fairPlay": {
-				"title": "RÄTTVIST SPEL, UPPFÖRANDE OCH SÄKERHET",
-				"intro": "Du får inte:",
+				"title": "RÄTTVIST SPEL, UPPFÖRANDE & SÄKERHET",
+				"intro": "Du kan inte:",
 				"items": [
-					"Använda bots, skript eller autospelsverktyg.",
-					"Samarbeta med andra för att rigga resultat.",
-					"Utnyttja buggar eller kryphål i smarta kontrakt.",
+					"Använda bots, skript eller autospelverktyg.",
+					"Samarbeta med andra för att fixa resultat.",
+					"Dra nytta av buggar eller smarta kontrakt-kryphål.",
 					"Missbruka bonusar, värvningar eller kampanjer."
 				],
-				"outro1": "Om du bryter mot dessa regler kan {siteName} stänga av ditt konto permanent och ta ditt saldo.",
+				"outro1": "Om du bryter mot dessa regler kan {siteName} banna ditt konto för gott och ta ditt saldo.",
 				"outro2": "{siteName} använder AI-bedrägeridetektering, beteendeanalys och blockkedjekontroller för att hålla saker rättvisa och säkra."
 			},
 			"bonuses": {
-				"title": "BONUSAR OCH KAMPANJER",
+				"title": "BONUSAR & KAMPANJER",
 				"items": [
-					"Varje bonus följer sin egen uppsättning villkor som anges med kampanjen.",
-					"Om du missbrukar bonusar (som att skapa extra konton, cykla plånböcker eller använda VPN), förlorar du din bonus.",
+					"Varje bonus följer sin egen uppsättning villkor som listas med kampanjen.",
+					"Om du missbrukar bonusar (som att göra extra konton, cykla plånböcker eller använda VPN), förlorar du din bonus.",
 					"Du måste uppfylla alla omsättningskrav innan du kan ta ut bonusvinster."
 				]
 			},
 			"playingRules": {
-				"title": "SPELREGLER OCH RESULTAT",
+				"title": "SPELREGLER & RESULTAT",
 				"items": [
-					"Din insats räknas först efter att du ser en bekräftelse på skärmen. Om ditt saldo inte kan täcka den är insatsen ogiltig.",
-					"Om det uppstår en tvist är {siteName}s blockkedjeposter slutgiltiga.",
+					"Ditt spel räknas först efter att du ser bekräftelse på skärmen. Om ditt saldo inte kan täcka det, är spelet ogiltigt.",
+					"Om det finns en tvist är {siteName}s blockkedjeposter slutgiltiga.",
 					"Alla bevisligen rättvisa spel använder on-chain slumpmässighet för att förbli transparenta.",
 					""
 				]
 			},
 			"errors": {
-				"title": "BEGRÄNSNINGAR OCH AVBROTT",
+				"title": "BEGRÄNSNINGAR & AVBROTT",
 				"intro": "{siteName} ansvarar inte för:",
 				"items": [
 					"Internetavbrott eller lagg.",
-					"Blockkedjeförseningar eller forks.",
-					"Plånboksnedtid från tredje part.",
-					"Glitchar i smarta kontrakt eller hos spelleverantörer."
+					"Blockkedjeförseningar eller gafflar (forks).",
+					"Plånboksnertid från tredje part.",
+					"Smart kontrakt- eller spelleverantörsfel."
 				],
-				"outro1": "{siteName} kan ogiltigförklara insatser eller transaktioner om ett tekniskt problem eller en exploit förstör saker och ting."
+				"outro1": "{siteName} kan ogiltigförklara spel eller transaktioner om ett tekniskt problem eller utnyttjande rör till det."
 			},
 			"suspension": {
-				"title": "KONTOAVSTÄNGNING OCH MEDEL",
+				"title": "KONTOAVSTÄNGNING & MEDEL",
 				"intro": "{siteName} kan stänga av eller stänga konton för:",
-				"items": ["Regelbrott", "Bedrägeri", "Juridiska skäl."],
-				"outro1": "Eventuella kvarvarande pengar kommer att hanteras i enlighet med lagen och {siteName}s policyer.",
+				"items": ["Brott mot reglerna", "Bedrägeri", "Juridiska skäl."],
+				"outro1": "Eventuella kvarvarande pengar kommer att hanteras enligt lagen och {siteName}s policyer.",
 				"outro2": ""
 			},
 			"responsibleGaming": {
 				"title": "ANSVARSFULLT SPELANDE",
 				"items": [
-					"{siteName} stöder ansvarsfullt spelande. Om du behöver en paus, maila support@digidice.games för självavstängning eller en avkylningsperiod.",
-					"Ingen under 18 eller under den lagliga åldern får spela. Konton som upptäcks bryta mot denna regel stängs omedelbart.",
+					"{siteName} stöder ansvarsfullt spelande. Om du behöver en paus, maila support@digidice.games för självuteslutning eller en avkylning.",
+					"Ingen under 18 eller under den lagliga åldern kan spela. Konton som hittas bryta mot denna regel stängs omedelbart.",
 					""
 				]
 			},
 			"ip": {
 				"title": "IMMATERIELL EGENDOM",
-				"content1": "Alla varumärken, grafik, innehåll och programvara tillhör {siteName} eller dess licensgivare. Du får endast använda dem för personligt nöje. Kopiera eller dela dem inte utan tillstånd.",
+				"content1": "Alla varumärken, grafik, innehåll och programvara tillhör {siteName} eller dess licensgivare. Du kan använda dem endast för personligt nöje. Kopiera eller dela dem inte utan tillstånd.",
 				"content2": ""
 			},
 			"liability": {
-				"title": "ANSVARSBEGRÄNSNING",
+				"title": "BEGRÄNSNING AV ANSVAR",
 				"items": [
-					"{siteName} ansvarar inte för indirekta eller oväntade skador – som förlorade vinster.",
+					"{siteName} är inte ansvarigt för indirekta eller oväntade skador—som förlorad vinst.",
 					"Om det finns ett krav är det mesta {siteName} kommer att täcka din senaste insättning.",
 					""
 				]
@@ -1827,12 +1829,12 @@
 			},
 			"amendments": {
 				"title": "ÄNDRINGAR",
-				"content": "{siteName} kan ändra dessa villkor när som helst. Den senaste versionen finns alltid på https://{siteDomain}. Genom att använda webbplatsen accepterar du eventuella uppdateringar."
+				"content": "{siteName} kan ändra dessa Villkor när som helst. Den senaste versionen finns alltid på https://{siteDomain}. Genom att använda webbplatsen accepterar du eventuella uppdateringar."
 			},
 			"miscellaneous": {
 				"title": "ÖVRIGT",
 				"items": [
-					"Dessa villkor utgör hela avtalet mellan dig och {siteName}. Om någon del inte håller, gäller resten fortfarande. {siteName} kan överlåta eller delegera sina rättigheter, men användare kan inte det.",
+					"Dessa Villkor är hela avtalet mellan dig och {siteName}. Om någon del inte håller, gäller resten fortfarande. {siteName} kan överlåta eller delegera sina rättigheter, men användare kan inte.",
 					"",
 					""
 				]
@@ -1849,76 +1851,76 @@
 	"responsibleGambling": {
 		"title": "Ansvarsfullt spelande på {siteName}",
 		"subtitle": "Lär dig om ansvarsfullt spelande på {siteName}. Håll kontrollen, spela ansvarsfullt och få stöd genom globala hjälporganisationer.",
-		"lastUpdated": "Senast uppdaterad: januari 2025",
+		"lastUpdated": "Senast uppdaterad: Januari 2025",
 		"intro": {
 			"title": "Ansvarsfullt spelande på {siteName}",
-			"paragraph1": "På {siteName} vill vi att spel ska vara spännande, rättvist och alltid ansvarsfullt. Vårt huvudmål? Se till att varje spelare har en fantastisk tid – samtidigt som de är informerade, säkra och har kontroll.",
-			"paragraph2": "Vi tillåter ingen under 18 (eller under den lagliga åldern i deras land) att spela. Punkt."
+			"paragraph1": "På {siteName} vill vi att spelandet ska vara spännande, rättvist och alltid ansvarsfullt. Vårt huvudmål? Se till att varje spelare har en fantastisk tid—samtidigt som de håller sig informerade, säkra och i kontroll.",
+			"paragraph2": "Vi tillåter inte att någon under 18 (eller under den lagliga åldern i deras land) spelar. Punkt slut."
 		},
 		"mission": {
 			"title": "Vårt uppdrag är enkelt:",
-			"paragraph1": "Ansvarsfullt spelande är inte bara en regel för oss – det är kärnan i vad vi gör. Vi är engagerade i att bygga ett transparent, säkert, kryptodrivet utrymme där du kan göra smarta, balanserade val.",
+			"paragraph1": "Ansvarsfullt spelande är inte bara en regel för oss—det är kärnan i vad vi gör. Vi är engagerade i att bygga ett transparent, säkert, kryptodrivet utrymme där du kan göra smarta, balanserade val.",
 			"paragraph2": "Vi står för:",
 			"beliefs": {
 				"0": "Spel som underhållning, inte ett sätt att tjäna pengar",
-				"1": "Självmedvetenhet, måttfullhet och smart spel",
-				"2": "Verktyg, utbildning och tillgång till verkliga hjälporganisationer över hela världen"
+				"1": "Självmedvetenhet, måttlighet och smart spel",
+				"2": "Verktyg, utbildning och tillgång till riktiga hjälporganisationer världen över"
 			}
 		},
 		"understanding": {
 			"title": "Ansvarsfullt spelande: Vad det verkligen betyder",
-			"paragraph1": "Kryptospel är snabbt, gränslöst och precis vid dina fingertoppar. Det är spännande, men det innebär också att du måste vara vaksam. Ansvarsfullt spelande är inte bara ett modeord – det handlar om att känna sina gränser, hålla ett öga på sin tid och krypto, och se till att spelandet förblir roligt, inte något man inte kan gå ifrån.",
-			"paragraph2": "Här är hur du håller saker säkra och roliga:",
+			"paragraph1": "Kryptospel är snabbt, gränslöst och precis vid dina fingertoppar. Det är spännande, men det betyder också att du måste vara alert. Ansvarsfullt spelande är inte bara ett modeord — det handlar om att känna sina gränser, hålla koll på sin tid och krypto, och se till att spelandet förblir njutbart, inte något du inte kan gå ifrån.",
+			"paragraph2": "Här är hur du håller det säkert och roligt:",
 			"tips": {
-				"0": "Spela för spänningens skull, inte för att tjäna pengar.",
-				"1": "Jaga inte dina förluster. Om du är frustrerad, ta en paus en stund.",
+				"0": "Spela för spänningen, inte för att tjäna pengar.",
+				"1": "Jaga inte dina förluster. Om du är frustrerad, kliv åt sidan en stund.",
 				"2": "Sätt dina egna gränser för hur länge du spelar och hur mycket du sätter in.",
 				"3": "Om du är trött, stressad eller upprörd, ta en paus istället för att spela.",
-				"4": "Spela aldrig med pengar du behöver för hyra, mat eller något nödvändigt.",
-				"5": "När det roliga är borta, tryck på paus och återställ."
+				"4": "Spela aldrig för pengar du behöver till hyra, mat eller något nödvändigt.",
+				"5": "När det roliga är slut, tryck på paus och återställ."
 			}
 		},
 		"selfCheck": {
-			"title": "Snabb självtest: Har du fortfarande kontroll?",
+			"title": "Snabb självkontroll: Har du fortfarande kontroll?",
 			"intro": "Var ärlig mot dig själv:",
 			"questions": {
-				"0": "Slutar det med att du spelar längre än du tänkt dig?",
+				"0": "Slutar det med att du spelar längre än du tänkt?",
 				"1": "Tar spelandet ut sin rätt på ditt jobb eller dina relationer?",
 				"2": "Blir du rastlös eller irriterad när du inte kan spela?",
-				"3": "Spelar du bara för att undkomma stress eller tristess?",
+				"3": "Spelar du bara för att fly stress eller tristess?",
 				"4": "Har du lånat krypto bara för att fortsätta spela?",
 				"5": "Höjer du dina insatser efter att ha förlorat, i hopp om att vinna tillbaka allt?"
 			},
-			"warning": "Om du svarade \"ja\" på några av dessa är det förmodligen dags att ta ett steg tillbaka eller prata med någon om det."
+			"warning": "Om du sa \"ja\" till några av dessa, är det förmodligen dags att ta ett steg tillbaka eller prata med någon om det."
 		},
 		"tools": {
 			"title": "Hur {siteName} ser efter dig",
-			"intro": "Vi vill att du ska ha roligt, men vi bryr oss ännu mer om ditt välbefinnande. Det är därför {siteName} ger dig verktyg för att spela säkert och vara medveten om dina utgifter.",
+			"intro": "Vi vill att du ska ha kul, men vi bryr oss ännu mer om ditt välbefinnande. Det är därför {siteName} ger dig verktyg för att spela säkert och vara medveten om dina utgifter.",
 			"selfExclusion": {
-				"title": "Självavstängning",
-				"description": "Du kan be om att blockera ditt konto tillfälligt eller permanent. Under den tiden kommer du inte att kunna spela eller få våra kampanjer. Maila bara support@{siteDomain} – allt förblir privat."
+				"title": "Självuteslutning",
+				"description": "Du kan be om att blockera ditt konto tillfälligt eller för gott. Under den tiden kommer du inte att kunna spela eller få våra kampanjer. Maila bara support@{siteDomain} — allt förblir privat."
 			},
 			"coolingOff": {
-				"title": "Avkylningsperioder",
-				"paragraph1": "Behöver du en paus? Välj en paus som passar dig:",
+				"title": " Avkylningsperioder",
+				"paragraph1": "Behöver du andrum? Välj en paus som fungerar för dig:",
 				"periods": {
 					"0": "24 timmar",
 					"1": "1 vecka",
 					"2": "1 månad"
 				},
-				"paragraph2": "Medan du är på paus kommer din plånbok inte att fungera för spel."
+				"paragraph2": "Medan du är på paus fungerar inte din plånbok för spel."
 			},
 			"depositAwareness": {
-				"title": "Medvetenhet om kryptoinsättningar",
-				"description": "{siteName} körs helt på blockkedjan. Vi föreslår att du håller ett öga på din plånbok eller en blockutforskare för att spåra dina insättningar och insatser."
+				"title": "Medvetenhet om kryptoinsättning",
+				"description": "{siteName} körs helt på blockkedjan. Vi föreslår att du håller ett öga på din plånbok eller en blockutforskare för att spåra dina insättningar och spel."
 			}
 		},
 		"underagePrevention": {
 			"title": "Hålla minderåriga borta",
-			"paragraph1": "Vi tillåter ingen under 18 att spela, sätta in eller registrera sig. Punkt.",
+			"paragraph1": "Vi tillåter inte någon under 18 att spela, sätta in pengar eller registrera sig. Punkt slut.",
 			"tipsTitle": "För föräldrar och vårdnadshavare:",
 			"tips": {
-				"0": "Sätt lösenord och använd föräldrakontroller.",
+				"0": "Ställ in lösenord och använd föräldrakontroll.",
 				"1": "Spara inte plånboksinformation på delade enheter.",
 				"2": "Logga ut från {siteName} när du inte är i närheten.",
 				"3": "Installera webbfilter som NetNanny eller GamBlock för att blockera åtkomst.",
@@ -1928,7 +1930,7 @@
 		},
 		"helpSupport": {
 			"title": "Behöver du hjälp? Du är inte ensam",
-			"intro": "Om spelandet börjar ta över finns det verklig hjälp att få – gratis, privat och utan dömande. Kolla in dessa globala organisationer för stöd:",
+			"intro": "Om spelandet börjar ta över finns det riktig hjälp där ute — gratis, privat och dömandefritt.|Kolla in dessa globala organisationer för stöd:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1963,7 +1965,7 @@
 				},
 				"1": {
 					"title": "Säkerhet",
-					"description": "Plånboksbaserad inloggning med Dynamic.xyz – inga lösenord, ingen KYC, total integritet."
+					"description": "Plånboksbaserad inloggning med Dynamic.xyz — inga lösenord, ingen KYC, total integritet."
 				},
 				"2": {
 					"title": "Kontroll",
@@ -1975,13 +1977,13 @@
 				},
 				"4": {
 					"title": "Support",
-					"description": "Vårt team är här 24/7 för att hjälpa till med självavstängning eller råd."
+					"description": "Vårt team finns här 24/7 för att hjälpa till med självuteslutning eller råd."
 				}
 			}
 		},
 		"playSmart": {
 			"title": "Glöm inte: Spela smart, spela säkert",
-			"intro": "{siteName} handlar om roligt och frihet, aldrig om press eller ekonomisk stress. Håll dig till dessa grundläggande principer:",
+			"intro": "{siteName} handlar om nöje och frihet, aldrig om press eller ekonomisk stress. Håll dig till dessa grunder:",
 			"reminders": {
 				"0": "Sätt dina gränser i förväg.",
 				"1": "Gå därifrån när det slutar vara roligt.",
@@ -1991,112 +1993,112 @@
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "Ditt välbefinnande kommer först. Om spelandet någonsin börjar kännas som ett problem, kontakta oss. Vi finns alltid här på {siteDomain}.",
+			"paragraph1": "Ditt välbefinnande kommer först. Om spelandet någonsin börjar kännas som ett problem, hör av dig. Vi finns alltid här på {siteDomain}.",
 			"paragraph2": "",
 			"contact": ""
 		}
 	},
 	"faqs": {
-		"title": "Vanliga frågor – {siteName}",
-		"subtitle": "Hitta svar på vanliga {siteName}-frågor. Lär dig om plånboksinloggning, insättningar, uttag, rättvist spel och blockkedjetransparens.",
-		"introTitle": "Vanliga frågor – {siteName}",
-		"intro": "Hej, välkommen till {siteName}s FAQ. Om du är nyfiken på hur vår kryptospelplattform fungerar har du kommit rätt. Oavsett om du är ny på blockkedjespel eller har varit med ett tag, hittar du svar här för att hjälpa dig spela smart och säkert. Och om du inte hittar din fråga, kontakta oss bara – vårt supportteam är alltid tillgängligt på {siteDomain}.",
-		"lastUpdated": "Senast uppdaterad: januari 2025",
+		"title": "FAQs – {siteName}",
+		"subtitle": "Hitta svar på vanliga frågor om {siteName}. Lär dig om plånboksinloggning, insättningar, uttag, rättvist spel och blockkedjetransparens.",
+		"introTitle": "FAQs – {siteName}",
+		"intro": "Hej, välkommen till {siteName} FAQ. Om du är nyfiken på hur vår kryptospelplattform fungerar, är du på rätt plats. Oavsett om du är ny inom blockkedjespel eller har varit med ett tag, hittar du svar här för att hjälpa dig spela smart och säkert.|Och om du inte ser din fråga, hör bara av dig — vårt supportteam finns alltid på plats på {siteDomain}.",
+		"lastUpdated": "Senast uppdaterad: Januari 2025",
 		"blockchainTransparency": {
 			"title": "🧩 Blockkedjetransparens",
-			"paragraph1": "{siteName} körs helt på blockkedjans smarta kontrakt. Varje insats, vinst och utbetalning är öppen – vem som helst kan kontrollera posterna.",
-			"paragraph2": "Vill du se själv? Alla {siteName}-transaktioner finns på:",
+			"paragraph1": "{siteName} körs helt på smarta kontrakt på blockkedjan.|Varje insats, vinst och utbetalning är öppen—vem som helst kan kontrollera posterna.",
+			"paragraph2": "Vill du se själv? Alla transaktioner på {siteName} finns på:",
 			"explorersTitle": "",
-			"guarantee": "På så sätt vet du att allt är rättvist och ärligt."
+			"guarantee": "På så sätt vet du att allt är rättvist och korrekt."
 		},
 		"categories": {
 			"accountRegistration": {
-				"title": "Konto och registrering",
+				"title": "Konto & Registrering",
 				"items": {
 					"0": {
 						"question": "Kan jag registrera mig på {siteName}?",
-						"answer": "Om du är 18 år eller äldre (eller tillräckligt gammal för att spela där du bor), kan du spela på {siteName}. Innan du hoppar in, se till att kryptospel faktiskt är lagligt där du bor. Att registrera sig är enkelt. Inga formulär, inga lösenord, inget e-postkrångel. Anslut bara din kryptoplånbok via Dynamic.xyz så är du inne. Vill du veta mer om vem som är berättigad? Ta en titt på våra användarvillkor.",
-						"reminder": "En snabb påminnelse: spel kan bli beroendeframkallande. Vänligen spela ansvarsfullt och känn dina gränser."
+						"answer": "Om du är 18 år eller äldre (eller gammal nog att spela där du bor), kan du spela på {siteName}. Innan du hoppar in, se till att kryptospel faktiskt är lagligt där du bor.|Att registrera sig är enkelt. Inga formulär, inga lösenord, inget e-postkrångel. Anslut bara din kryptoplånbok via Dynamic.xyz så är du inne.|Vill du veta mer om vem som är behörig? Ta en titt på våra Villkor & Bestämmelser.",
+						"reminder": "En snabb påminnelse: spel kan vara beroendeframkallande. Snälla, spela ansvarsfullt och känn dina gränser."
 					},
 					"1": {
-						"question": "Vad händer om jag förlorar åtkomsten till mitt konto?",
-						"answer": "Vi använder plånboksbaserad inloggning. Så, inga användarnamn, inga lösenord att återställa. För att komma in igen, anslut bara med samma plånboksadress som du använde tidigare. Har du förlorat åtkomsten till din plånbok? Använd din seed-fras eller återställningsfil för att återställa den. För din säkerhet lagrar vi aldrig privata nycklar och kan inte återställa förlorade plånböcker åt dig."
+						"question": "Vad händer om jag förlorar åtkomst till mitt konto?",
+						"answer": "Vi använder plånboksbaserad inloggning. Så, inga användarnamn, inga lösenord att återställa. För att komma in igen, återanslut bara med samma plånboksadress som du använde tidigare.|Förlorat åtkomst till din plånbok? Använd din seed-fras eller återställningsfil för att återställa den.|För din säkerhet lagrar vi aldrig privata nycklar och kan inte återställa förlorade plånböcker åt dig."
 					},
 					"2": {
-						"question": "Kan jag ändra min plånbok eller mitt användarnamn?",
-						"answer": "Ditt konto är direkt kopplat till din plånbok. Om du vill använda en ny plånbok, anslut en annan. Kom bara ihåg – ditt saldo, VIP-status och belöningar stannar kvar med din gamla plånbok. De flyttas inte över automatiskt."
+						"question": "Kan jag byta min plånbok eller mitt användarnamn?",
+						"answer": "Ditt konto är direkt kopplat till din plånbok. Om du vill använda en ny plånbok, anslut en annan. Ha bara i åtanke — ditt saldo, VIP-status och belöningar stannar hos din gamla plånbok. De flyttas inte över automatiskt."
 					},
 					"3": {
 						"question": "Hur blir jag VIP-medlem?",
-						"answer": "Vår VIP-klubb är endast för inbjudna. När du spelar och blir mer involverad spårar vi din aktivitet. När du kvalificerar dig skickar vi dig en personlig inbjudan direkt på plattformen. VIP-förmåner inkluderar: Högre belöningar, Snabbare uttag, Personliga bonusar"
+						"answer": "Vår VIP-klubb är endast via inbjudan. När du spelar och blir mer involverad spårar vi din aktivitet. När du kvalificerar dig skickar vi dig en personlig inbjudan direkt på plattformen.|VIP-förmåner inkluderar:|Högre belöningar|Snabbare uttag|Personliga bonusar"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "Insättningar och uttag",
+				"title": "Insättningar & Uttag",
 				"items": {
 					"0": {
 						"question": "Hur sätter jag in krypto?",
-						"answer": "Att sätta in är snabbt och säkert, och allt händer on-chain. Så här gör du: Öppna Min plånbok på din instrumentpanel. Tryck på Insättning och välj din valuta (BTC, ETH, USDT, BNB, etc.). Kopiera adressen eller skanna QR-koden. Skicka din krypto från din personliga plånbok. När din transaktion får tillräckligt med bekräftelser på blockkedjan visas dina medel automatiskt.",
+						"answer": "Att sätta in är snabbt och säkert, och allt sker on-chain. Så här gör du:|Öppna Min Plånbok på din instrumentpanel.|Tryck på Insättning och välj ditt mynt (BTC, ETH, USDT, BNB, etc.).|Kopiera adressen eller skanna QR-koden.|Skicka din krypto från din personliga plånbok.|När din transaktion får tillräckligt med bekräftelser på blockkedjan dyker dina medel upp automatiskt.",
 						"reminder": "Dubbelkolla att du använder rätt nätverk (ERC20, TRC20, BEP20, etc.) innan du skickar något."
 					},
 					"1": {
 						"question": "Hur lång tid tar insättningar?",
-						"answer": "Vanligtvis dyker insättningar upp inom 5 till 10 minuter, beroende på nätverkstrafik och avgifter. Du kan hålla ett öga på din transaktion med en blockkedjeutforskare som Etherscan.io eller BscScan.com. Vi krediterar dina medel efter tre bekräftelser."
+						"answer": "Vanligtvis dyker insättningar upp inom 5 till 10 minuter, beroende på nätverkstrafik och avgifter. Du kan hålla ett öga på din transaktion med hjälp av en blockkedjeutforskare som Etherscan.io eller BscScan.com.|Vi krediterar dina medel efter tre bekräftelser."
 					},
 					"2": {
 						"question": "Vad är den minsta uttagsgränsen?",
-						"answer": "Varje krypto har sin egen minsta uttagsbelopp. Du ser de exakta siffrorna under avsnittet Uttag. Det beror på myntet och nätverksavgiften."
+						"answer": "Varje krypto har sitt eget minsta uttagsbelopp. Du ser de exakta siffrorna under Uttagssektionen. Det beror på myntet och nätverksavgiften."
 					},
 					"3": {
 						"question": "Hur tar jag ut vinster?",
-						"answer": "För att ta ut: Gå till Min plånbok och tryck på Uttag. Ange var du vill att din krypto ska skickas och hur mycket du vill ta ut. Dubbelkolla adressen och nätverket. Bekräfta din transaktion. Uttag är omedelbara när de har bekräftats on-chain. Du ser dina medel inom några minuter.",
-						"reminder": "Använd alltid en plånbok som stöder det nätverk du tar ut från."
+						"answer": "För att ta ut:|Gå till Min Plånbok och tryck på Uttag.|Ange vart du vill att din krypto ska skickas och hur mycket du vill ta ut.|Dubbelkolla adressen och nätverket.|Bekräfta din transaktion.|Uttag är omedelbara när de bekräftats on-chain. Du ser dina medel inom några minuter.",
+						"reminder": "Använd alltid en plånbok som stöder nätverket du tar ut från."
 					},
 					"4": {
 						"question": "Vad händer om min transaktion är försenad?",
-						"answer": "Om din transaktion tar längre tid än vanligt: Kontrollera ditt TXID med en blockkedjeutforskare. Se till att du använde rätt adress och nätverk. Ge det några minuter till för bekräftelser. Väntar du fortfarande efter en timme? Kontakta oss på {siteDomain}. Skicka ditt TXID och din plånboksinformation, så hjälper vi dig att lösa det."
+						"answer": "Om din transaktion tar längre tid än vanligt:|Kontrollera ditt TXID med en blockkedjeutforskare.|Se till att du använde rätt adress och nätverk.|Ge det några fler minuter för bekräftelser.|Väntar du fortfarande efter en timme? Kontakta oss på {siteDomain}. Skicka ditt TXID och plånboksinfo, så hjälper vi dig att reda ut det."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "Spel, rättvisa och säkerhet",
+				"title": "Spel, Rättvisa & Säkerhet",
 				"items": {
 					"0": {
-						"question": "Är {siteName}-spel rättvisa?",
-						"answer": "Absolut. Varje spel är 100% bevisligen rättvist. Vi använder kryptografiska algoritmer på blockkedjan så att du kan kontrollera varje insats och utbetalning själv. Det finns inga dolda resultat, inga trick, bara rättvist och transparent spel."
+						"question": "Är {siteName}s spel rättvisa?",
+						"answer": "Absolut. Varje spel är 100% bevisligen rättvist. Vi använder kryptografiska algoritmer på blockkedjan så att du kan kontrollera varje insats och utbetalning själv.|Det finns inga dolda resultat, inga trick, bara rättvist och transparent spel."
 					},
 					"1": {
 						"question": "Vad ska jag göra om ett spel fryser eller kraschar?",
-						"answer": "Om ett spel slutar fungera: Uppdatera sidan. Rensa din webbläsares cache eller cookies. Återanslut din plånbok. Fortfarande fast? Hoppa på Live Chat. Vårt team kommer att återställa din session eller ditt saldo om något har påverkats."
+						"answer": "Om ett spel slutar fungera:|Uppdatera sidan.|Rensa din webbläsares cache eller cookies.|Återanslut din plånbok.|Fortfarande fast? Hoppa in i Livechatt. Vårt team återställer din session eller saldo om något påverkats."
 					},
 					"2": {
 						"question": "Kan jag använda flera plånböcker eller konton?",
-						"answer": "Nej. En plånbok motsvarar ett konto. Att öppna extra plånböcker för att ta bonusar eller bråka med systemet bryter mot våra villkor och kan kosta dig dina vinster."
+						"answer": "Nej. En plånbok motsvarar ett konto. Att öppna extra plånböcker för att ta bonusar eller stöka med systemet bryter mot våra Villkor och kan kosta dig dina vinster."
 					},
 					"3": {
-						"question": "Är mina data säkra?",
-						"answer": "Ja. Vi är en plattform som endast använder plånböcker, så vi samlar aldrig in din personliga information, e-post, lösenord eller ID-handlingar. Din plånbok är din identitet, och du har kontrollen. Inga lagrade användardata innebär att du inte behöver oroa dig för dataintrång."
+						"question": "Är min data säker?",
+						"answer": "Ja. Vi är en plattform endast för plånböcker, så vi samlar aldrig in din personliga info, e-post, lösenord eller ID-dokument.|Din plånbok är din identitet, och du har kontrollen. Ingen lagrad användardata innebär att du inte behöver oroa dig för dataintrång."
 					}
 				}
 			},
 			"responsibleGambling": {
-				"title": "🧠 Ansvarsfullt spelande",
+				"title": "🧠 Ansvarsfullt Spelande",
 				"items": {
 					"0": {
 						"question": "Stöder {siteName} ansvarsfullt spelande?",
-						"answer": "Absolut. Att hålla spelet ansvarsfullt är kärnan i vad vi gör. Vi har byggt in självavstängnings- och avkylningsverktyg så att du kan ta en paus eller sätta gränser när du behöver. Om du vill ha råd или bara någon att prata med, kolla in vår sida om ansvarsfullt spelande eller skicka ett meddelande till vårt supportteam."
+						"answer": "Absolut. Att hålla spelandet ansvarsfullt är kärnan i vad vi gör.|Vi har byggt in verktyg för självuteslutning och avkylning så att du kan ta en paus eller sätta gränser när du behöver.|Om du vill ha råd eller bara någon att prata med, kolla in vår sida för Ansvarsfullt Spelande eller lämna ett meddelande till vårt supportteam."
 					},
 					"1": {
 						"question": "Vad ska jag göra om jag misstänker ett spelproblem?",
-						"answer": "Om spelandet börjar störa dina pengar, din hälsa eller dina relationer, vänta inte – sök hjälp. Dessa organisationer erbjuder konfidentiellt stöd: GamCare: https://www.gamcare.org.uk, Gambling Therapy: https://www.gamblingtherapy.org, Gamblers Anonymous: https://www.gamblersanonymous.org. Du kan alltid be {siteName}-supporten att blockera eller pausa ditt konto också."
+						"answer": "Om spel börjar bråka med dina pengar, hälsa eller relationer, vänta inte—sök hjälp. Dessa organisationer erbjuder konfidentiellt stöd:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|Du kan alltid be {siteName}s support att blockera eller pausa ditt konto också."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
 			"title": "💬 Behöver du mer hjälp?",
-			"intro": "Vårt supportteam finns tillgängligt 24/7. Du kan nå oss på Live Chat (logga bara in på din instrumentpanel) eller maila oss på support@{siteDomain}.",
+			"intro": "Vårt supportteam finns runt 24/7.|Du kan nå oss på Livechatt (logga bara in på din instrumentpanel) eller maila oss på support@{siteDomain}.",
 			"contactTitle": "",
 			"liveChat": "Vi är här för att se till att din upplevelse förblir säker, rättvis och problemfri."
 		}

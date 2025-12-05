@@ -16,14 +16,14 @@
 		"player": "玩家",
 		"vip": "VIP",
 		"profile": "个人资料",
-		"statistics": "统计数据",
-		"wallet": "存款/取款",
+		"statistics": "统计",
+		"wallet": "充值/提现",
 		"cashier": "收银台",
-		"winLoss": "输/赢",
-		"affiliate": "推荐奖金",
-		"logout": "登出",
+		"winLoss": "盈/亏",
+		"affiliate": "推荐红利",
+		"logout": "退出登录",
 		"balance": "余额",
-		"turnoverBonus": "流水奖金"
+		"turnoverBonus": "流水红利"
 	},
 	"navigation": {
 		"home": "首页",
@@ -32,26 +32,26 @@
 		"wallet": "钱包",
 		"settings": "设置",
 		"promotions": "优惠活动",
-		"affiliate": "推荐奖金",
-		"bonus": "流水奖金",
-		"providers": "游戏厂商",
-		"lobby": "游戏大厅",
+		"affiliate": "推荐红利",
+		"bonus": "流水红利",
+		"providers": "提供商",
+		"lobby": "大厅",
 		"about": "关于我们"
 	},
 	"profile": {
 		"language": "语言",
 		"welcome": "欢迎，{name}！",
-		"settingUp": "设置中",
-		"profileBtn": "查看个人资料",
+		"settingUp": "正在设置",
+		"profileBtn": "查看资料",
 		"currentBalance": "当前余额",
 		"availableFunds": "可用资金",
-		"totalDeposits": "总存款",
-		"totalWithdrawals": "总取款",
+		"totalDeposits": "总充值",
+		"totalWithdrawals": "总提现",
 		"walletAddress": "钱包地址",
 		"copySuccess": "钱包地址已复制到剪贴板！",
 		"copyFailed": "复制钱包地址失败",
 		"notConnected": "未连接",
-		"myProfile": "我的个人资料",
+		"myProfile": "我的资料",
 		"history": {
 			"title": "历史记录"
 		},
@@ -59,75 +59,75 @@
 		"pendingRegistration": "等待注册",
 		"noEmailProvided": "未提供电子邮件",
 		"balanceOverview": "余额概览",
-		"gettingStarted": "入门指南",
+		"gettingStarted": "新手入门",
 		"verifyEmail": "验证您的电子邮件",
 		"completeEmailVerification": "完成电子邮件验证",
-		"verifyPhone": "验证您的电话号码",
-		"addPhoneVerification": "添加电话验证",
-		"firstDeposit": "首次存款",
-		"makeFirstDeposit": "进行您的首次存款",
-		"placeBetOrTrade": "下注/进行交易",
+		"verifyPhone": "验证您的手机号码",
+		"addPhoneVerification": "添加手机验证",
+		"firstDeposit": "首次充值",
+		"makeFirstDeposit": "进行首次充值",
+		"placeBetOrTrade": "下注 / 交易",
 		"startFirstGame": "开始您的第一场游戏",
-		"recentActivity": "最近活动",
+		"recentActivity": "近期活动",
 		"transactionHistory": "交易历史",
-		"activityGameWinDiceRoll": "游戏胜利 - 掷骰子",
-		"activityGameLossBlackjack": "游戏失败 - 二十一点",
+		"activityGameWinDiceRoll": "游戏获胜 - 掷骰子",
+		"activityGameLossBlackjack": "游戏失败 - 21点",
 		"twoHoursAgo": "2小时前",
 		"oneDayAgo": "1天前",
 		"twoDaysAgo": "2天前",
-		"deposit": "存款",
+		"deposit": "充值",
 		"loggedOutTitle": "哎呀！您已登出",
-		"loggedOutSubtitle": "请登录以查看您的个人资料",
+		"loggedOutSubtitle": "请登录以查看您的资料",
 		"goHome": "返回首页",
-		"withdrawal": "取款",
+		"withdrawal": "提现",
 		"transactions": {
 			"title": "交易历史",
-			"trackDepositsWithdrawals": "追踪您的存款和取款",
+			"trackDepositsWithdrawals": "追踪您的充值和提现记录",
 			"filters": "筛选",
 			"refresh": "刷新",
 			"advancedFilters": "高级筛选",
 			"searchTransactionComingSoon": "搜索交易（即将推出）",
-			"searchPlaceholderDisabled": "搜索功能将在API层面实现...",
+			"searchPlaceholderDisabled": "搜索功能将在API级别实现...",
 			"dateRange": "日期范围",
 			"selectDateRange": "选择日期范围",
 			"today": "今天",
-			"last7Days": "过去7天",
-			"last30Days": "过去30天",
-			"last90Days": "过去90天",
+			"last7Days": "最近7天",
+			"last30Days": "最近30天",
+			"last90Days": "最近90天",
 			"thisMonth": "本月",
 			"lastMonth": "上月",
 			"customRange": "自定义范围",
-			"fromDate": "起始日期",
+			"fromDate": "开始日期",
 			"toDate": "结束日期",
 			"transactionStatus": "交易状态",
 			"allStatuses": "所有状态",
 			"success": "成功",
-			"pending": "处理中",
+			"pending": "待处理",
 			"rejected": "已拒绝",
-			"clearAll": "全部清除",
+			"clearAll": "清除全部",
 			"cancel": "取消",
 			"applyFilters": "应用筛选",
-			"activeFilters": "当前筛选:",
+			"activeFilters": "当前筛选：",
 			"statusLabel": "状态",
 			"dateLabel": "日期",
 			"statsTotalTransactions": "共 {total} 笔交易",
 			"pageOf": "第 {current} 页，共 {total} 页",
-			"live": "直播",
+			"live": "实时",
 			"tabs": {
 				"all": "全部",
-				"deposits": "存款",
-				"withdrawals": "取款"
+				"deposits": "充值",
+				"withdrawals": "提现"
 			},
-			"errorLoadingTransactions": "加载交易时出错",
+			"errorLoadingTransactions": "加载交易失败",
 			"tryAgain": "重试",
-			"noTransactionsFound": "未找到任何交易",
-			"noTransactionsAvailableSelectedPeriod": "选定时期内无可用交易。",
-			"noDepositsFoundSelectedPeriod": "选定时期内未找到存款记录。",
-			"noWithdrawalsFoundSelectedPeriod": "选定时期内未找到取款记录。",
+			"noTransactionsFound": "未找到交易",
+			"noTransactionsAvailableSelectedPeriod": "所选期间没有可用交易。",
+			"noDepositsFoundSelectedPeriod": "所选期间未找到充值记录。",
+			"noWithdrawalsFoundSelectedPeriod": "所选期间未找到提现记录。",
 			"show": "显示",
 			"ofTransactions": "共 {count} 笔交易",
-			"showingRangeOfTotal": "显示 {from}-{to}，共 {total} 条",
-			"pageShort": "第 {current}/{total} 页"
+			"showingRangeOfTotal": "显示 {total} 中的 {from}-{to}",
+			"pageShort": "页码 {current}/{total}"
 		},
 		"betHistory": {
 			"title": "投注历史",
@@ -138,13 +138,13 @@
 			"dateRange": "日期范围",
 			"selectDateRange": "选择日期范围",
 			"today": "今天",
-			"last7Days": "过去7天",
-			"last30Days": "过去30天",
-			"last90Days": "过去90天",
+			"last7Days": "最近7天",
+			"last30Days": "最近30天",
+			"last90Days": "最近90天",
 			"thisMonth": "本月",
 			"lastMonth": "上月",
 			"customRange": "自定义范围",
-			"fromDate": "起始日期",
+			"fromDate": "开始日期",
 			"toDate": "结束日期",
 			"provider": "提供商",
 			"allProviders": "所有提供商",
@@ -153,31 +153,31 @@
 			"outstanding": "未结算",
 			"win": "赢",
 			"lose": "输",
-			"draw": "平局",
+			"draw": "平",
 			"void": "作废",
-			"bonusWin": "奖金赢取",
-			"clearAll": "全部清除",
+			"bonusWin": "红利获胜",
+			"clearAll": "清除全部",
 			"cancel": "取消",
 			"applyFilters": "应用筛选",
 			"activeFilters": "当前筛选",
 			"statusLabel": "状态",
 			"providerLabel": "提供商",
 			"dateLabel": "日期",
-			"totalBets": "总投注数",
+			"totalBets": "总投注",
 			"totalProfitLoss": "总盈亏",
 			"pageOf": "第 {current} 页，共 {total} 页",
-			"live": "直播",
-			"errorLoadingBets": "加载投注历史时出错",
-			"failedToLoadBetHistory": "加载投注历史失败。请重试。",
+			"live": "实时",
+			"errorLoadingBets": "加载投注历史错误",
+			"failedToLoadBetHistory": "无法加载投注历史。请重试。",
 			"tryAgain": "重试",
-			"noBetsFound": "未找到任何投注",
-			"noBetsFoundSelectedPeriod": "在选定时期和筛选条件下未找到投注历史。",
+			"noBetsFound": "未找到投注记录",
+			"noBetsFoundSelectedPeriod": "在所选期间和筛选条件下未找到投注历史。",
 			"show": "显示",
 			"ofBets": "共 {count} 笔投注",
-			"showingRangeOfTotal": "显示 {from}-{to}，共 {total} 条",
+			"showingRangeOfTotal": "显示 {total} 中的 {from}-{to}",
 			"totalBet": "总投注额",
-			"totalWin": "总赢额",
-			"net": "净额",
+			"totalWin": "总派彩",
+			"net": "净利",
 			"tableHeaders": {
 				"date": "日期",
 				"game": "游戏",
@@ -185,43 +185,43 @@
 				"type": "类型",
 				"status": "状态",
 				"betAmount": "投注金额",
-				"winAmount": "赢取金额",
+				"winAmount": "获胜金额",
 				"hideAmounts": "隐藏金额",
 				"showAmounts": "显示金额",
 				"gameType": "游戏类型",
-				"vendor": "厂商",
+				"vendor": "供应商",
 				"lastUpdate": "最后更新",
 				"netResult": "净结果",
-				"betId": "投注ID"
+				"betId": "注单号"
 			},
-			"errorLoading": "加载时出错",
-			"noBetsFoundDescription": "开始玩游戏以在此处查看您的投注历史。",
+			"errorLoading": "加载错误",
+			"noBetsFoundDescription": "开始游戏以在此查看您的投注历史。",
 			"betHistory": "投注历史",
 			"hideAmounts": "隐藏金额",
 			"showAmounts": "显示金额",
 			"date": "日期",
 			"game": "游戏",
-			"betId": "投注ID",
+			"betId": "注单号",
 			"amount": "金额",
-			"payout": "赔付",
+			"payout": "派彩",
 			"player": "玩家",
 			"gameType": "游戏类型",
-			"vendor": "厂商",
+			"vendor": "供应商",
 			"lastUpdate": "最后更新",
 			"netResult": "净结果",
-			"totalWagered": "总投注额",
-			"totalWon": "总赢额",
+			"totalWagered": "总投注",
+			"totalWon": "总获胜",
 			"netProfit": "净利润",
 			"winRate": "胜率",
-			"showingResults": "显示 {start}-{end}，共 {total} 条结果",
-			"firstPage": "首页",
+			"showingResults": "显示 {total} 结果中的 {start}-{end}",
+			"firstPage": "第一页",
 			"previousPage": "上一页",
 			"nextPage": "下一页",
-			"lastPage": "末页"
+			"lastPage": "最后一页"
 		}
 	},
 	"chat": {
-		"title": "在线客服",
+		"title": "在线聊天",
 		"placeholder": "输入您的消息...",
 		"send": "发送",
 		"input": {
@@ -231,44 +231,44 @@
 			"replyingTo": "正在回复 {username}",
 			"types": {
 				"win": "赢了 {amount} {currency}",
-				"gif": "GIF消息",
+				"gif": "GIF 消息",
 				"image": "图片",
 				"default": "消息"
 			},
 			"preview": {
 				"winIn": "在 {game} 中赢了 {amount} {currency}",
-				"gifAlt": "GIF预览",
+				"gifAlt": "GIF 预览",
 				"imageAlt": "图片预览",
-				"emoji": "表情符号消息",
+				"emoji": "表情消息",
 				"rain": "红包雨: {amount} {currency}",
 				"system": "系统: {content}"
 			}
 		},
 		"imageDialog": {
 			"title": "分享您的图片 🎰",
-			"description": "准备好向聊天室展示了吗？",
+			"description": "准备好在聊天室展示了吗？",
 			"previewLabel": "预览",
 			"statusReady": "准备分享",
-			"roomLabel": "🎰 赌场聊天室",
+			"roomLabel": "🎰 赌场聊天",
 			"shareNotice": "您的图片将与聊天室中的所有玩家分享",
 			"closeAria": "关闭对话框",
-			"cancelAria": "取消图片上传",
-			"sendAria": "发送图片到聊天室",
-			"send": "发送到聊天室"
+			"cancelAria": "取消上传图片",
+			"sendAria": "发送图片到聊天",
+			"send": "发送到聊天"
 		},
 		"picker": {
-			"searchEmojis": "搜索表情符号...",
-			"searchGifs": "搜索GIF...",
+			"searchEmojis": "搜索表情...",
+			"searchGifs": "搜索 GIF...",
 			"tabs": {
-				"emojis": "表情符号",
+				"emojis": "表情",
 				"gifs": "GIF"
 			},
-			"loadingEmojis": "正在加载表情符号...",
-			"loadingGifs": "正在加载GIF...",
+			"loadingEmojis": "正在加载表情...",
+			"loadingGifs": "正在加载 GIF...",
 			"retry": "重试",
 			"recent": "最近使用",
-			"noEmojis": "未找到表情符号",
-			"noGifs": "未找到GIF",
+			"noEmojis": "未找到表情",
+			"noGifs": "未找到 GIF",
 			"tryDifferent": "尝试不同的搜索词",
 			"gifCategories": {
 				"trending": "热门",
@@ -279,53 +279,53 @@
 				"sports": "体育"
 			},
 			"searchResults": "搜索结果",
-			"availableToTag": "可@的用户 🎯",
-			"clickOrTab": "点击或按Tab键选择",
+			"availableToTag": "可标记的用户 🎯",
+			"clickOrTab": "点击或按 Tab 选择",
 			"noUsers": "未找到用户",
-			"noUsersMatching": "未找到匹配的用户",
+			"noUsersMatching": "无匹配用户",
 			"startTyping": "开始输入以搜索",
 			"typeAt": "输入",
-			"toSeeSuggestions": "查看建议 🎰",
+			"toSeeSuggestions": "以查看建议 🎰",
 			"errors": {
-				"emojisLoad": "加载表情符号失败",
-				"emojisSearch": "搜索表情符号失败",
-				"gifsLoad": "加载GIF失败"
+				"emojisLoad": "无法加载表情",
+				"emojisSearch": "无法搜索表情",
+				"gifsLoad": "无法加载 GIF"
 			}
 		},
 		"messages": {
-			"emptyTitle": "还没有消息...",
-			"emptySubtitle": "开始对话，赢取大奖！🎰",
+			"emptyTitle": "暂无消息...",
+			"emptySubtitle": "开始对话并赢得大奖！🎰",
 			"loadingHistory": "正在加载聊天记录...",
 			"loadingHistorySubtitle": "正在获取最近的消息 📜",
-			"historyError": "加载聊天记录失败"
+			"historyError": "无法加载聊天记录"
 		},
 		"message": {
 			"you": "您",
-			"winTitle": "在“{game}”中大获全胜！🎰",
+			"winTitle": "在 \"{game}\" 中大获全胜！🎰",
 			"gifAlt": "GIF",
-			"imageAlt": "已上传的图片",
-			"rainTitle": "天降财神！🌧️💰",
-			"recipients": "→ {count} 位接收者",
-			"eachTo": "每人 {amount} {currency} 发给: {list}",
-			"replyCount": "{count} 条回复",
+			"imageAlt": "上传的图片",
+			"rainTitle": "红包雨！🌧️💰",
+			"recipients": "→ {count} {count, plural, one {接收者} other {接收者}}",
+			"eachTo": "每人 {amount} {currency} 分给：{list}",
+			"replyCount": "{count} {count, plural, one {回复} other {回复}}",
 			"loadingHistory": "正在加载聊天记录..."
 		},
 		"system": {
 			"slashDisabled": "斜杠命令暂时禁用。请使用常规消息。",
-			"rateLimit": "超出频率限制。请等待 {seconds} 秒后再发送另一条消息。",
-			"cannotTagSelf": "您不能在消息中@自己。",
+			"rateLimit": "超出速率限制。请在发送另一条消息前等待 {seconds} 秒。",
+			"cannotTagSelf": "您不能在消息中标记自己。",
 			"processingImage": "正在处理图片...",
-			"failedUploadPrefix": "图片上传失败: {message}",
+			"failedUploadPrefix": "无法上传图片：{message}",
 			"unknownError": "未知错误"
 		}
 	},
 	"sidebar": {
 		"quest": "任务",
 		"spin": "旋转",
-		"deposit": "存款",
-		"withdraw": "取款",
-		"playOnTelegram": "在Telegram上玩",
-		"dailyBonus": "每日奖金",
+		"deposit": "充值",
+		"withdraw": "提现",
+		"playOnTelegram": "在 Telegram 上玩",
+		"dailyBonus": "每日红利",
 		"navigation": "导航",
 		"games": "游戏",
 		"providers": "提供商",
@@ -339,13 +339,13 @@
 		"subtitle": "按名称、提供商或类别查找",
 		"placeholder": "搜索游戏、提供商、类别...",
 		"clear": "清除",
-		"recent": "最近搜索:",
-		"popular": "热门搜索:",
+		"recent": "最近：",
+		"popular": "热门：",
 		"favoritesTry": "您可以尝试 — 您的收藏",
 		"hotPicks": "热门精选",
-		"resultsCount": "找到 {count} 个游戏",
+		"resultsCount": "找到 {count} {count, plural, one {个游戏} other {个游戏}}",
 		"noResults": "无结果",
-		"filterApplied": "已按 {count} 个提供商筛选",
+		"filterApplied": "已按 {count} {count, plural, one {个提供商} other {个提供商}} 筛选",
 		"suggestions": {
 			"category": "类别",
 			"provider": "提供商"
@@ -358,12 +358,12 @@
 			"providers": "提供商"
 		},
 		"results": {
-			"found": "找到 {games} 个游戏, {categories} 个类别, 和 {providers} 个提供商"
+			"found": "找到 {games} 个游戏，{categories} 个类别和 {providers} 个提供商"
 		},
 		"gameTypes": {
-			"blackjack": "二十一点",
+			"blackjack": "21点",
 			"roulette": "轮盘",
-			"crash": "碰撞游戏"
+			"crash": "爆点游戏"
 		}
 	},
 	"query": {
@@ -376,7 +376,7 @@
 			"filter": "筛选",
 			"optionsTitle": "筛选选项",
 			"clearAll": "清除所有筛选",
-			"activeLabel": "当前:"
+			"activeLabel": "当前："
 		},
 		"searchPlaceholderGeneric": "搜索...",
 		"providersDropdown": {
@@ -387,10 +387,10 @@
 			"clear": "清除提供商筛选"
 		},
 		"category": {
-			"label": "类别:"
+			"label": "类别："
 		},
 		"view": {
-			"toggleAria": "视图模式切换",
+			"toggleAria": "切换视图模式",
 			"gridAria": "网格视图",
 			"listAria": "列表视图"
 		},
@@ -411,10 +411,10 @@
 		"hotPicks": "热门精选",
 		"slots": "老虎机",
 		"sports": "体育",
-		"realTimeScoreboard": "实时记分板"
+		"realTimeScoreboard": "实时比分板"
 	},
 	"affiliate": {
-		"title": "推荐奖金计划",
+		"title": "推荐红利计划",
 		"loginPromptTitle": "推荐计划",
 		"loginPromptSubtitle": "登录以查看您的推荐统计、奖金并领取奖励。",
 		"goHome": "返回首页",
@@ -425,27 +425,27 @@
 		},
 		"refresh": "刷新",
 		"refreshing": "刷新中...",
-		"refreshAllSuccess": "所有数据已成功刷新！",
-		"refreshPartial": "部分刷新: {success}/{total} 部分已更新",
+		"refreshAllSuccess": "所有数据刷新成功！",
+		"refreshPartial": "部分刷新：{success}/{total} 个部分已更新",
 		"refreshFailed": "刷新数据失败。请重试。",
 		"dashboard": {
 			"title": "代理仪表盘",
 			"subtitle": "追踪您的推荐、收益和佣金表现",
-			"performanceOverview": "业绩概览",
+			"performanceOverview": "表现概览",
 			"referralManagement": "推荐管理",
 			"termsAndCommission": "条款与佣金结构",
 			"unclaimedEarnings": "未领取收益",
 			"claim": "领取",
 			"claiming": "领取中...",
 			"totalIncome": "总收入",
-			"claimButtonTitle": "领取奖金",
-			"totalReferrals": "总推荐数",
+			"claimButtonTitle": "领取红利",
+			"totalReferrals": "总推荐人数",
 			"usersUnit": "用户",
 			"yourReferralLinks": "您的推荐链接",
 			"referralLinksSubtitle": "分享这些链接以推荐新用户并赚取佣金",
 			"completeReferralLink": "完整推荐链接",
-			"fullReferralPlaceholder": "完整推荐链接将在此处显示",
-			"fullReferralHelp": "用户可以直接点击此链接使用您的推荐码进行注册",
+			"fullReferralPlaceholder": "完整推荐链接将显示在这里",
+			"fullReferralHelp": "用户点击即可使用您的推荐码注册的直接链接",
 			"referralCodeOnly": "仅推荐码",
 			"yourReferralId": "您的推荐ID",
 			"referralIdHelp": "分享此代码供用户在注册时手动输入",
@@ -455,8 +455,8 @@
 		"referrals": {
 			"title": "我的推荐",
 			"subtitle": "追踪和管理通过您的代理链接推荐的所有用户",
-			"totalReferrals": "总推荐数",
-			"monitorHelp": "监控您推荐用户的活动、存款和游戏模式",
+			"totalReferrals": "总推荐",
+			"monitorHelp": "监控您的推荐人的活动、充值和游戏模式",
 			"sort": {
 				"placeholder": "排序方式...",
 				"nicknameAsc": "昵称 (A-Z)",
@@ -466,139 +466,139 @@
 			},
 			"table": {
 				"nickname": "昵称",
-				"totalWager": "总投注额",
+				"totalWager": "总流水",
 				"lastLogin": "最后登录",
 				"registered": "注册时间",
-				"lastDeposit": "最后存款",
-				"depositDate": "存款日期",
+				"lastDeposit": "最后充值",
+				"depositDate": "充值日期",
 				"tier": "等级"
 			},
 			"empty": {
-				"title": "未找到推荐用户",
-				"subtitle": "开始推荐用户以在此处看到他们。"
+				"title": "未找到推荐",
+				"subtitle": "开始推荐用户以在此处查看。"
 			},
 			"pagination": {
-				"showing": "显示 {from} 到 {to}，共 {total} 条结果",
+				"showing": "显示 {total} 个结果中的 {from} 到 {to}",
 				"prev": "上一页",
 				"next": "下一页"
 			}
 		},
 		"rates": {
 			"title": "佣金率结构",
-			"subtitle": "按等级和游戏类别划分的收益百分比",
+			"subtitle": "按等级和游戏类别的收益百分比",
 			"overview": {
 				"title": "概览",
-				"body": "推荐奖金根据被推荐玩家在老虎机、真人娱乐场、体育博彩和彩票中的投注流水额奖励代理商。佣金每24小时计算一次，收益基于不同的流水等级。"
+				"body": "推荐红利根据被推荐玩家在老虎机、真人娱乐场、体育博彩和彩票中的流水量奖励代理。佣金每24小时计算一次，收益基于不同的流水等级。"
 			},
 			"calculation": {
-				"title": "佣金如何计算",
-				"desc": "佣金根据被推荐玩家的总投注额每24小时计算一次。\n例如:",
-				"exampleTitle": "等级 {tier}:",
+				"title": "佣金计算方式",
+				"desc": "佣金每24小时根据被推荐玩家的总投注额计算。\n示例：",
+				"exampleTitle": "等级 {tier}：",
 				"wagerIn": "在 {gameType} 中投注 {amount}"
 			},
 			"table": {
-				"tierLevel": "等级",
+				"tierLevel": "等级水平",
 				"wagerRange": "投注范围",
 				"slots": "老虎机",
 				"liveCasino": "真人娱乐场",
 				"sports": "体育",
 				"tierPrefix": "等级",
-				"commissionLevel": "佣金级别",
-				"dailyWager": "每日投注量"
+				"commissionLevel": "佣金等级",
+				"dailyWager": "日投注量"
 			},
 			"claim": {
-				"title": "领取和提款",
+				"title": "领取和提现",
 				"points": {
-					"0": "佣金计算后即可提款。",
-					"1": "未领取的佣金没有有效期——它们会一直累积直到被领取。",
-					"2": "提款遵循平台的标准规则，例如最低限额和处理时间。"
+					"0": "佣金计算完成后即可提取。",
+					"1": "未领取的佣金没有过期时间——它们会累积直到被领取。",
+					"2": "提现遵循平台的标准规则，如最低限额和处理时间。"
 				}
 			},
 			"system": {
 				"title": "系统时间和操作",
-				"dailyTimeframeLabel": "每日时间范围:",
-				"dailyTimeframeValue": "每日 00:00 UTC 至 23:59 UTC。",
-				"claimDailyLabel": "每日领取:",
-				"claimDailyValue": "每日 14:00 UTC 可用 (您的本地时间: {local})。",
-				"note": "注意: 虽然我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
+				"dailyTimeframeLabel": "每日时间范围：",
+				"dailyTimeframeValue": "00:00 UTC 至 23:59 UTC（每天）。",
+				"claimDailyLabel": "每日领取：",
+				"claimDailyValue": "每天 14:00 UTC 可用（您的当地时间：{local}）。",
+				"note": "注意：虽然我们与不同时区的提供商合作，但所有计算均遵循 UTC 以确保一致性并避免混淆。"
 			},
 			"amendments": {
 				"title": "修订",
-				"body": "我们可能随时更新这些条款。更改在发布后立即生效，继续参与即表示您接受新条款。"
+				"body": "我们可能随时更新这些条款。更改在发布后立即生效，继续参与意味着您接受新条款。"
 			},
 			"footer": {
-				"schedule": "佣金时间表:",
+				"schedule": "佣金时间表：",
 				"availableDaily": "每日可用时间",
-				"localTimeLabel": "(您的本地时间: {time})"
+				"localTimeLabel": "（您的当地时间：{time}）"
 			}
 		},
 		"calculator": {
 			"title": "收益计算器",
-			"subtitle": "根据您推荐用户的投注额估算您的佣金收益",
+			"subtitle": "根据您的推荐人的投注金额估算您的佣金收益",
 			"interactive": {
-				"title": "互动工具:",
-				"body": "输入不同的投注额以查看所有等级的潜在收益"
+				"title": "交互式工具：",
+				"body": "输入不同的投注金额以查看所有等级的潜在收益"
 			},
 			"potentialEarnings": "潜在收益",
-			"basedOnRate": "基于 {percentage}% 的佣金率",
+			"basedOnRate": "基于 {percentage}% 佣金率",
 			"tier": "等级 {level}",
-			"commissionLevel": "佣金级别 {level}",
-			"enterWager": "输入投注额 (USD)",
-			"wagerPlaceholder": "例如, 1000",
-			"calcFor": "计算 ${amount} 投注额的收益",
-			"totalPotential": "总潜在收益:",
-			"combinedAtTier": "在等级 {level} 下所有游戏类型的合并收益"
+			"commissionLevel": "佣金等级 {level}",
+			"enterWager": "输入投注金额 (USD)",
+			"wagerPlaceholder": "例如 1000",
+			"calcFor": "正在计算 ${amount} 投注的收益",
+			"totalPotential": "总潜在收益：",
+			"combinedAtTier": "等级 {level} 所有游戏类型的合计收益"
 		}
 	},
 	"bonus": {
-		"title": "流水奖金计划",
-		"loginPromptTitle": "流水奖金计划",
-		"loginPromptSubtitle": "登录以查看您的奖金统计并领取您的奖励。",
+		"title": "流水红利计划",
+		"loginPromptTitle": "流水红利计划",
+		"loginPromptSubtitle": "登录以查看您的红利统计数据并领取奖励。",
 		"goHome": "返回首页",
 		"tabs": {
 			"dashboard": "仪表盘",
 			"claims": "领取记录",
-			"rates": "奖金率",
+			"rates": "红利比例",
 			"calculator": "计算器"
 		},
 		"refresh": "刷新",
 		"refreshing": "刷新中...",
-		"refreshAllSuccess": "所有数据已成功刷新！",
-		"refreshPartial": "部分刷新: {success}/{total} 部分已更新",
+		"refreshAllSuccess": "所有数据刷新成功！",
+		"refreshPartial": "部分刷新：{success}/{total} 个部分已更新",
 		"refreshFailed": "刷新数据失败。请重试。",
 		"dashboard": {
-			"title": "奖金仪表盘",
-			"subtitle": "追踪您的投注、奖金和奖励收益",
+			"title": "红利仪表盘",
+			"subtitle": "追踪您的投注、红利和奖励收益",
 			"claimButtonTitle": "领取",
-			"performanceOverview": "奖金概览",
-			"bonusRatesTitle": "奖金率结构",
-			"totalIncome": "总奖金",
-			"pendingBonus": "待处理奖金",
+			"performanceOverview": "红利概览",
+			"bonusRatesTitle": "红利比例结构",
+			"totalIncome": "总红利",
+			"pendingBonus": "待处理红利",
 			"lastClaim": "上次领取",
-			"unclaimedEarnings": "可领取",
+			"unclaimedEarnings": "可领取金额",
 			"claim": {
-				"title": "领取和提款",
+				"title": "领取和提现",
 				"points": {
-					"0": "佣金计算后即可提款。",
-					"1": "未领取的佣金没有有效期——它们会一直累积直到被领取。",
-					"2": "提款遵循平台的标准规则，例如最低限额和处理时间。"
+					"0": "佣金计算完成后即可提取。",
+					"1": "未领取的佣金没有过期时间——它们会累积直到被领取。",
+					"2": "提现遵循平台的标准规则，如最低限额和处理时间。"
 				}
 			},
 			"claiming": "领取中...",
 			"section2": {
-				"title": "参与资格",
-				"content": "要参与:"
+				"title": "资格",
+				"content": "参与条件："
 			},
 			"section3": {
-				"title": "流水等级和费率",
-				"content": "奖金根据您的每日投注额计算:",
+				"title": "流水等级和比例",
+				"content": "红利根据您的日投注金额计算：",
 				"noteTitle": "注意",
-				"noteContent": "等级每日在 14:00 UTC 进行评估。您前一天的投注量决定了今天的奖金率。费率适用于所有游戏类型: 老虎机、真人娱乐场和体育。"
+				"noteContent": "等级每天在 14:00 UTC 评估。您前一天的投注量决定今天的红利比例。比例适用于所有游戏类型：老虎机、真人娱乐场和体育。"
 			}
 		},
 		"claims": {
 			"title": "领取历史",
-			"subtitle": "追踪您的奖金领取和投注活动",
+			"subtitle": "追踪您的红利领取和投注活动",
 			"tableHeaders": {
 				"date": "投注日期",
 				"slots": "老虎机",
@@ -611,112 +611,112 @@
 			},
 			"tierPrefix": "等级",
 			"availableToClaim": "可领取",
-			"totalBonus": "总奖金",
+			"totalBonus": "总红利",
 			"claimed": "已领取",
 			"progressPercentage": "进度",
 			"progressTitle": "您的进度",
 			"currentTier": "当前等级",
 			"nextTier": "下一等级",
-			"wagerProgress": "投注进度",
-			"totalWagered": "今日总投注额",
-			"toNextTier": "达到下一等级",
+			"wagerProgress": "流水进度",
+			"totalWagered": "今日总投注",
+			"toNextTier": "距离下一等级还需",
 			"empty": {
-				"title": "尚无奖金领取记录",
-				"subtitle": "开始游戏以赚取奖金！"
+				"title": "尚无红利领取记录",
+				"subtitle": "开始游戏以赚取红利！"
 			}
 		},
 		"rates": {
-			"title": "流水等级和费率",
-			"subtitle": "按投注级别和游戏类别划分的奖金百分比",
+			"title": "流水等级和比例",
+			"subtitle": "按投注等级和游戏类别的红利百分比",
 			"overview": {
 				"title": "概览",
-				"body": "流水奖金根据用户在老虎机、真人娱乐场、体育博彩和彩票中的投注额奖励用户。奖金每24小时计算一次，用户可以在投注后的第二天领取。共有七个等级，每个等级根据投注额有不同的费率。"
+				"body": "流水红利根据用户在老虎机、真人娱乐场、体育博彩和彩票中的投注奖励用户。红利每24小时计算一次，用户可以在投注后的第二天领取。共有七个等级，每个等级根据投注金额有不同的比例。"
 			},
 			"eligibility": {
-				"title": "参与资格",
-				"content": "要参与:",
+				"title": "资格",
+				"content": "参与条件：",
 				"points": {
-					"0": "您必须拥有一个活跃账户。",
+					"0": "您必须拥有活跃账户。",
 					"1": "在老虎机、真人娱乐场、体育博彩和彩票中下注。",
-					"2": "满足每个等级的最低投注要求。"
+					"2": "达到每个等级的最低投注要求。"
 				}
 			},
 			"calculation": {
-				"title": "奖金如何计算",
-				"desc": "奖金根据您的总投注额每24小时计算一次。例如:",
-				"exampleTitle": "等级 {tier}:",
+				"title": "红利如何计算",
+				"desc": "红利每24小时根据您的总投注计算。示例：",
+				"exampleTitle": "等级 {tier}：",
 				"wagerIn": "在 {gameType} 中投注 {amount}"
 			},
 			"table": {
-				"tierLevel": "等级",
+				"tierLevel": "等级水平",
 				"wagerRange": "投注范围",
 				"slots": "老虎机",
 				"liveCasino": "真人娱乐场",
 				"sports": "体育",
 				"tierPrefix": "等级",
-				"commissionLevel": "奖金级别",
-				"dailyWager": "每日投注量"
+				"commissionLevel": "红利等级",
+				"dailyWager": "日投注量"
 			},
 			"claim": {
-				"title": "领取和提取奖金",
+				"title": "领取和提取红利",
 				"points": {
-					"0": "奖金在投注后24小时即可领取。",
-					"1": "未领取的奖金将累积且不会过期。",
-					"2": "领取和提款过程可能根据平台特定政策而有所不同。"
+					"0": "红利在投注后24小时有资格领取。",
+					"1": "未领取的红利将累积且不会过期。",
+					"2": "领取和提现过程可能因特定平台的政策而异。"
 				}
 			},
 			"system": {
 				"title": "系统时间和操作",
-				"dailyTimeframeLabel": "每日时间范围:",
-				"dailyTimeframeValue": "每日 00:00 UTC 至 23:59 UTC。",
-				"claimDailyLabel": "每日领取:",
-				"claimDailyValue": "每日 14:00 UTC 可用 (您的本地时间: {local})。",
-				"note": "注意: 虽然我们与不同时区的提供商合作，但所有计算均遵循UTC以确保一致性并避免混淆。"
+				"dailyTimeframeLabel": "每日时间范围：",
+				"dailyTimeframeValue": "00:00 UTC 至 23:59 UTC（每天）。",
+				"claimDailyLabel": "每日领取：",
+				"claimDailyValue": "每天 14:00 UTC 可用（您的当地时间：{local}）。",
+				"note": "注意：虽然我们与不同时区的提供商合作，但所有计算均遵循 UTC 以确保一致性并避免混淆。"
 			},
 			"amendments": {
 				"title": "修订和取消资格",
-				"body": "我们可能随时更新这些条款，更改在发布后生效。如果怀疑存在系统错误、计算错误或作弊行为，我们保留根据需要调整或取消奖金和账户资格的权利，以确保公平。"
+				"body": "我们可能随时更新这些条款，更改在发布后生效。如果怀疑有系统错误、计算错误或作弊行为，我们保留必要时调整或取消红利和账户资格的权利以确保公平"
 			},
 			"footer": {
-				"schedule": "奖金时间表:",
+				"schedule": "红利时间表：",
 				"availableDaily": "每日可用时间",
-				"localTimeLabel": "(您的本地时间: {time})"
+				"localTimeLabel": "（您的当地时间：{time}）"
 			}
 		},
 		"calculator": {
-			"title": "奖金计算器",
-			"subtitle": "根据您的投注额估算您的奖金收益",
+			"title": "红利计算器",
+			"subtitle": "根据您的投注金额估算红利收益",
 			"interactive": {
-				"title": "互动工具:",
-				"body": "输入不同的投注额以查看所有等级的潜在奖金"
+				"title": "交互式工具：",
+				"body": "输入不同的投注金额以查看所有等级的潜在红利"
 			},
-			"potentialEarnings": "潜在奖金",
-			"basedOnRate": "基于 {percentage}% 的奖金率",
+			"potentialEarnings": "潜在红利",
+			"basedOnRate": "基于 {percentage}% 红利比例",
 			"tier": "等级 {level}",
-			"commissionLevel": "奖金级别 {level}",
-			"enterWager": "输入投注额 (USD)",
-			"wagerPlaceholder": "例如, 1000",
-			"calcFor": "计算 ${amount} 投注额的奖金",
-			"totalPotential": "总潜在奖金:",
-			"combinedAtTier": "在等级 {level} 下所有游戏类型的合并奖金"
+			"commissionLevel": "红利等级 {level}",
+			"enterWager": "输入投注金额 (USD)",
+			"wagerPlaceholder": "例如 1000",
+			"calcFor": "正在计算 ${amount} 投注的红利",
+			"totalPotential": "总潜在红利：",
+			"combinedAtTier": "等级 {level} 所有游戏类型的合计红利"
 		},
 		"claimSuccessModal": {
 			"title": "领取成功",
 			"statusCompleted": "已完成",
 			"statusOnChain": "链上",
 			"claimAmount": "领取金额",
-			"logoAlt": "{siteName} 标志",
+			"logoAlt": "{siteName} Logo",
 			"backgroundAlt": "领取成功背景",
 			"creatingMagic": "正在创造奇迹...",
 			"downloadShare": "下载并分享",
-			"spreadTheWin": "分享胜利",
+			"spreadTheWin": "分享喜悦",
 			"socialX": "X",
 			"socialFacebook": "Facebook",
 			"socialWhatsApp": "WhatsApp",
 			"socialTelegram": "Telegram",
 			"socialReddit": "Reddit",
 			"socialMore": "更多",
-			"shareText": "我刚领取了 {amount} 奖金！加入我: {url}",
+			"shareText": "我刚刚领取了 {amount} 红利！快来加入我：{url}",
 			"referralLinkCopied": "推荐链接已复制！",
 			"referralLinkCopyFailed": "复制推荐链接失败",
 			"screenshotFailed": "截图失败。请重试或使用其他浏览器。",
@@ -730,49 +730,49 @@
 	"getLobby": {
 		"enteringLobby": "正在进入大厅...",
 		"connectingWait": "请稍候，我们正在为您连接。",
-		"invalidSession": "您的会话无效或提供商丢失。请重试。",
-		"failedPrefix": "进入大厅失败: {message}",
+		"invalidSession": "您的会话无效或缺少提供商。请重试。",
+		"failedPrefix": "进入大厅失败：{message}",
 		"launchFailedTitle": "启动失败",
 		"returnHome": "返回首页"
 	},
 	"play": {
-		"connecting": "正在连接到游戏服务器...",
+		"connecting": "正在连接游戏服务器...",
 		"invalidSession": "您的会话无效或已过期。请登录并重试。",
 		"launchFailedTitle": "启动失败",
 		"returnHome": "返回首页"
 	},
 	"modalsIdle": {
 		"badgeLimitedTime": "限时优惠",
-		"headline": "获取200%欢迎奖金！",
-		"subheadline": "立即连接您的加密钱包，首次存款即可获得高达 {amount} 的奖金！",
-		"featureDepositMatch": "200%存款匹配",
+		"headline": "获得 200% 欢迎红利！",
+		"subheadline": "立即连接您的加密钱包并在首次充值时获得高达 {amount} 的红利！",
+		"featureDepositMatch": "200% 充值匹配",
 		"featureZeroFees": "零交易费",
-		"featureInstantWithdrawals": "即时取款",
-		"featureNoKyc": "无需KYC",
-		"ctaClaim": "立即领取奖金！",
-		"offerExpires": "优惠截止日期:",
-		"disclaimer": "适用条款与条件。赌博涉及风险。请负责任地玩。18+",
+		"featureInstantWithdrawals": "即时提现",
+		"featureNoKyc": "无需 KYC",
+		"ctaClaim": "立即领取红利！",
+		"offerExpires": "优惠过期时间：",
+		"disclaimer": "受条款限制。博彩涉及风险。请理性博彩。18+",
 		"closeAria": "关闭模态框",
 		"bannerAlt": "促销横幅",
 		"ctaOk": "连接钱包并开始投注",
 		"enterAmount": "输入金额",
 		"balance": "余额",
 		"max": "最大",
-		"deposit": "存款",
+		"deposit": "充值",
 		"ethereum": "以太坊"
 	},
 	"modalsSmall": {
 		"close": "关闭",
-		"firstDepositBoost": "首次存款奖金加成",
-		"bonus": "奖金",
-		"min": "分钟",
+		"firstDepositBoost": "首充红利提升",
+		"bonus": "红利",
+		"min": "分",
 		"sec": "秒",
-		"deposit": "存款"
+		"deposit": "充值"
 	},
 	"auth": {
 		"email": {
 			"title": "邮箱登录",
-			"description": "我们将向您发送一个6位数的验证码",
+			"description": "我们将向您发送一个6位验证码",
 			"emailLabel": "电子邮件地址",
 			"emailPlaceholder": "name@email.com",
 			"cancel": "取消",
@@ -782,42 +782,42 @@
 			"sentTo": "已发送至 {email}",
 			"changeEmail": "更改邮箱",
 			"resendCode": "重新发送验证码",
-			"resendIn": "{seconds}秒后重新发送",
+			"resendIn": "{seconds}秒后重发",
 			"verifying": "验证中",
 			"successTitle": "您已登录",
 			"successSubtitle": "正在设置...",
-			"modalAria": "电子邮件验证模态框",
+			"modalAria": "邮箱验证模态框",
 			"errors": {
 				"invalidEmail": "请输入有效的电子邮件地址",
 				"sendFailed": "发送验证码失败。",
-				"invalidCode": "请输入一个6位数的验证码"
+				"invalidCode": "请输入6位验证码"
 			}
 		},
 		"setNickname": {
 			"title": "设置您的昵称",
-			"subtitle": "这是一次性设置，不可更改",
+			"subtitle": "这是一次性设置，无法更改",
 			"logoutAria": "登出",
 			"inputPlaceholder": "选择您独特的昵称",
 			"referrerCheckbox": "我有推荐人ID",
 			"referrerPlaceholder": "输入推荐人ID",
-			"referrerHelp": "可选。这将您的账户与推荐人关联以参与奖金计划。",
+			"referrerHelp": "可选。这会将您的账户链接到推荐人以获取红利计划。",
 			"status": {
 				"checking": "正在检查可用性...",
 				"available": "昵称可用！",
 				"taken": "此昵称已被占用。"
 			},
-			"register": "注册并开始游戏",
-			"termsTitle": "条款与条件:",
-			"termsBody": "通过使用您的钱包签署本文件和/或继续使用此Web3应用程序，您即接受该应用程序的使用条款。签署同意使用条款不是区块链交易，不会产生任何费用。",
+			"register": "注册并游玩",
+			"termsTitle": "条款与条件：",
+			"termsBody": "通过用您的钱包签署此文档和/或继续使用此 Web3 应用程序，您接受该应用程序的使用条款。签署同意使用条款不是区块链交易，不产生费用。",
 			"errors": {
 				"verifyNicknameFailed": "无法验证昵称。请重试。",
-				"registerFailed": "注册失败: {message}"
+				"registerFailed": "注册失败：{message}"
 			}
 		},
 		"walletConnect": {
-			"loginWithEmail": "使用邮箱登录",
+			"loginWithEmail": "邮箱登录",
 			"connectWalletBtn": "连接钱包",
-			"loginWithWallet": "使用钱包登录",
+			"loginWithWallet": "钱包登录",
 			"player": "玩家",
 			"walletConnected": "钱包已连接",
 			"emailConnected": "邮箱已连接",
@@ -830,9 +830,9 @@
 		"transactionModal": {
 			"title": "钱包",
 			"tabs": {
-				"deposit": "存款",
+				"deposit": "充值",
 				"tip": "打赏",
-				"withdraw": "取款",
+				"withdraw": "提现",
 				"swap": "兑换",
 				"walletInfo": "钱包",
 				"emailWallet": "邮箱钱包",
@@ -841,9 +841,9 @@
 			"mobileDropdown": {
 				"emailWallet": "邮箱钱包",
 				"wallet": "钱包",
-				"deposit": "存款",
+				"deposit": "充值",
 				"tip": "打赏",
-				"withdraw": "取款",
+				"withdraw": "提现",
 				"swap": "兑换"
 			}
 		},
@@ -851,15 +851,15 @@
 			"placeholder": "选择网络",
 			"switching": "切换中...",
 			"walletNotConnected": "钱包未连接。",
-			"failedToSwitch": "切换网络失败。请从您的钱包尝试。",
-			"altLogo": "网络标志"
+			"failedToSwitch": "切换网络失败。请从您的钱包重试。",
+			"altLogo": "网络Logo"
 		},
 		"tokenList": {
-			"dialogTitle": "选择一个代币",
-			"instantDeposit": "即时存款",
+			"dialogTitle": "选择代币",
+			"instantDeposit": "即时充值",
 			"yourWalletBalance": "您的钱包余额",
 			"searchPlaceholder": "搜索名称或粘贴地址",
-			"emptySearch": "未找到与您搜索匹配的代币。",
+			"emptySearch": "未找到匹配的代币。",
 			"emptyOwned": "未找到有余额的代币。",
 			"searchResults": "搜索结果",
 			"yourTokens": "您的代币",
@@ -868,67 +868,67 @@
 		"tabsSidebar": {
 			"walletInfo": "钱包",
 			"emailWallet": "邮箱钱包",
-			"deposit": "存款",
-			"withdraw": "取款",
+			"deposit": "充值",
+			"withdraw": "提现",
 			"swap": "兑换"
 		},
 		"depositPanel": {
-			"youPay": "您支付",
+			"youPay": "支付",
 			"resetForm": "重置表单",
 			"enterAmount": "输入金额",
 			"selectToken": "选择代币",
 			"max": "最大",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
-			"balance": "余额:",
+			"maxButtonToolTipText": "保留 {gasReservationAmount} {selectedTokenSymbol} 以支付Gas费并避免交易失败",
+			"balance": "余额：",
 			"calculating": "计算中...",
-			"approxUsd": "≈ ${amount} USD",
-			"minPrefix": "最小:",
+			"approxUsd": "约 ${amount} USD",
+			"minPrefix": "最小：",
 			"ratesMayVary": "汇率可能变化",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
-			"minimumIs": "最小为 {min}",
+			"minimumIs": "最小值为 {min}",
 			"errors": {
-				"selectTokenAndAmount": "请选择一个代币并输入金额",
-				"insufficientBalance": "此交易余额不足",
-				"amountTooHighGas": "考虑gas费用后金额过高",
+				"selectTokenAndAmount": "请选择代币并输入金额",
+				"insufficientBalance": "余额不足以进行此交易",
+				"amountTooHighGas": "考虑Gas费后金额过高",
 				"checkForm": "请检查表单并重试",
-				"pendingDeposit": "您有待处理的存款。请等待其完成"
+				"pendingDeposit": "您有一笔待处理的充值。请等待其完成"
 			},
 			"status": {
 				"processing": "处理中...",
 				"awaitingApproval": "等待批准",
-				"calculatingRate": "正在计算汇率...",
+				"calculatingRate": "计算汇率...",
 				"insufficientBalance": "余额不足"
 			},
 			"buttons": {
-				"depositUsd": "存入 ${amount}"
+				"depositUsd": "充值 ${amount}"
 			}
 		},
 		"tipPanel": {
-			"youTip": "您打赏",
+			"youTip": "打赏",
 			"resetForm": "重置表单",
 			"enterAmount": "输入金额",
 			"selectToken": "选择代币",
-			"minPrefix": "最小",
-			"balance": "余额:",
+			"minPrefix": "最低",
+			"balance": "余额：",
 			"max": "最大",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
-			"approxUsd": "≈ ${amount} USD",
-			"tipPanelWarningText": "打赏是自愿且不可退款的。",
+			"maxButtonToolTipText": "保留 {gasReservationAmount} {selectedTokenSymbol} 以支付Gas费并避免交易失败",
+			"approxUsd": "约 ${amount} USD",
+			"tipPanelWarningText": "打赏是自愿的且不可退款。",
 			"emailWalletAddress": "邮箱钱包地址",
 			"errors": {
-				"selectTokenAndAmount": "请选择一个代币并输入金额。",
+				"selectTokenAndAmount": "请选择代币并输入金额。",
 				"insufficientBalance": "余额不足。",
 				"belowMinimum": "金额必须至少为 {min}。",
 				"missingWallet": "无法获取打赏钱包。请稍后重试。",
-				"checkForm": "请核实您的打赏详情。"
+				"checkForm": "请核实打赏详情。"
 			},
 			"status": {
-				"processing": "发送打赏中...",
-				"awaitingApproval": "等待批准中...",
+				"processing": "正在发送打赏...",
+				"awaitingApproval": "等待批准...",
 				"calculatingRate": "计算中...",
 				"insufficientBalance": "余额不足",
-				"fetchingWallet": "准备打赏钱包中..."
+				"fetchingWallet": "正在准备打赏钱包..."
 			},
 			"prompts": {
 				"selectToken": "选择代币",
@@ -938,24 +938,24 @@
 				"tipUsd": "打赏 ${amount}",
 				"tip": "打赏"
 			},
-			"minimumIs": "最小打赏金额为 {min}"
+			"minimumIs": "最低打赏为 {min}"
 		},
 		"tipPending": {
 			"submittedTitle": "打赏待处理",
-			"submittedDesc": "您的打赏正在链上确认中。",
+			"submittedDesc": "您的打赏正在链上确认。",
 			"confirmedTitle": "打赏已确认！",
 			"confirmedDesc": "您的打赏已成功送达。",
-			"viewOnExplorer": "在浏览器中查看",
+			"viewOnExplorer": "在浏览器上查看",
 			"newTipPending": "发送另一笔打赏",
 			"newTipConfirmed": "发送另一笔打赏"
 		},
 		"swapPanel": {
 			"selectTokens": "选择代币",
 			"enterAmount": "输入金额",
-			"gettingQuote": "获取报价中...",
+			"gettingQuote": "获取报价...",
 			"confirming": "确认中...",
 			"approving": "批准中...",
-			"insufficientBalance": "兑换余额不足",
+			"insufficientBalance": "余额不足以兑换",
 			"sameToken": "不能兑换相同的代币",
 			"approveAndSwap": "批准并兑换",
 			"swap": "兑换",
@@ -965,776 +965,778 @@
 			"currentSlippage": "当前滑点",
 			"swapSuccessful": "兑换成功！",
 			"transactionConfirmed": "您的交易已提交",
-			"hash": "哈希值",
-			"newSwap": "新的兑换",
-			"youPay": "您支付",
+			"hash": "哈希",
+			"newSwap": "新兑换",
+			"youPay": "支付",
 			"max": "最大",
-			"maxButtonToolTipText": "{gasReservationAmount} {selectedTokenSymbol} 已被预留以支付gas费用并避免交易失败",
+			"maxButtonToolTipText": "保留 {gasReservationAmount} {selectedTokenSymbol} 以支付Gas费并避免交易失败",
 			"low": "低",
 			"amountPlaceholder": "0",
 			"selectToken": "选择代币",
-			"youReceive": "您收到",
-			"gettingBestQuote": "正在获取最佳报价...",
-			"gas": "Gas费",
+			"youReceive": "获得",
+			"gettingBestQuote": "获取最佳报价...",
+			"gas": "Gas",
 			"minimumReceived": "最少收到",
 			"slippageToleranceLabel": "滑点容差",
 			"gasFee": "Gas费",
-			"priceWarning": "价格实时更新，可能在您的交易确认前发生变化",
+			"priceWarning": "价格实时更新，可能会在交易确认前发生变化",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
-			"minimumIs": "最小为 {min}",
+			"minimumIs": "最小值为 {min}",
 			"errors": {
-				"selectTokenAndAmount": "请选择一个代币并输入金额",
-				"insufficientBalance": "此交易余额不足",
-				"amountTooHighGas": "考虑gas费用后金额过高",
+				"selectTokenAndAmount": "请选择代币并输入金额",
+				"insufficientBalance": "余额不足以进行此交易",
+				"amountTooHighGas": "考虑Gas费后金额过高",
 				"checkForm": "请检查表单并重试",
-				"pendingDeposit": "您有待处理的存款。请等待其完成"
+				"pendingDeposit": "您有一笔待处理的充值。请等待其完成"
 			},
 			"status": {
 				"processing": "处理中...",
 				"awaitingApproval": "等待批准",
-				"calculatingRate": "正在计算汇率...",
+				"calculatingRate": "计算汇率...",
 				"insufficientBalance": "余额不足"
 			},
 			"buttons": {
-				"depositUsd": "存入 ${amount}"
+				"depositUsd": "充值 ${amount}"
 			}
 		},
 		"depositPending": {
-			"confirmedTitle": "存款已确认！",
+			"confirmedTitle": "充值已确认！",
 			"submittedTitle": "交易已提交",
 			"failedTitle": "交易失败",
 			"confirmedDesc": "您的余额已更新。",
 			"submittedDesc": "等待区块链确认。这可能需要几分钟。",
 			"failedDesc": "您的交易失败。请重试。",
-			"viewOnExplorer": "在浏览器中查看",
-			"newDepositConfirmed": "进行另一笔存款",
-			"newDepositPending": "开始新的存款",
+			"viewOnExplorer": "在浏览器上查看",
+			"newDepositConfirmed": "再次充值",
+			"newDepositPending": "开始新充值",
 			"newDepositFailed": "重试"
 		},
 		"withdrawPanel": {
 			"resetForm": "重置表单",
-			"networkNotSupported": "仅支持在Arbitrum、Polygon、Optimism和BNB上提款",
-			"youWithdraw": "您提款",
+			"networkNotSupported": "提现仅支持 Arbitrum, Polygon, Optimism 和 BNB",
+			"youWithdraw": "提现",
 			"loading": "加载中...",
 			"amount": "金额",
 			"max": "最大",
-			"balance": "余额:",
-			"available": "可用:",
+			"balance": "余额：",
+			"available": "可用：",
 			"insufficientBalance": "余额不足",
-			"minimumIs": "最小为 {min}",
-			"minLabel": "最小:",
+			"minimumIs": "最小值为 {min}",
+			"minLabel": "最小：",
 			"calculating": "计算中",
 			"emailWalletAddress": "邮箱钱包地址",
 			"walletAddress": "钱包地址",
 			"errors": {
-				"pendingWithdrawal": "您已有待处理的提款",
-				"invalidAddress": "无效地址",
+				"pendingWithdrawal": "您已有一笔待处理的提现",
+				"invalidAddress": "地址无效",
 				"enterAmount": "输入金额",
-				"networkNotSupported": "不支持的网络"
+				"networkNotSupported": "网络不支持"
 			},
 			"status": {
 				"processing": "处理中...",
 				"insufficientBalance": "余额不足",
-				"pendingWithdrawal": "已有待处理的提款"
+				"pendingWithdrawal": "已有待处理提现"
 			},
 			"buttons": {
-				"withdraw": "提款 {amount} {symbol}",
+				"withdraw": "提现 {amount} {symbol}",
 				"minimum": "最小 {amount} {symbol}"
 			}
 		},
 		"withdrawSuccess": {
-			"title": "提款成功！",
-			"successMessage": "🎉 刚从 {siteName} 提取了 {withdrawAmount} {tokenSymbol}！🚀 在 {shareUrl} 加入连胜行列",
-			"withdrawnAmount": "已提款金额",
-			"shareText": "分享",
-			"subText": "🚀 加入连胜行列！🚀",
-			"generating": "生成中...",
-			"screenshot": "截图",
-			"download": "下载图片",
-			"close": "关闭",
-			"copiedToClipboard": "分享链接已成功复制",
-			"userName": "{siteName} 玩家",
-			"status": "已完成",
-			"entryPrice": "提款金额",
-			"lastPrice": "代币符号",
-			"referralCode": "推荐码",
-			"screenshotFailed": "截图失败。请重试或使用其他浏览器。",
-			"shareFailed": "分享失败。请重试。"
+			"title": "提现成功！",
+			"successMessage": "🎉 刚刚从 {siteName} 提现了 {withdrawAmount} {tokenSymbol}！🚀 Tham gia chuỗi chiến thắng tại {shareUrl}",
+			"withdrawnAmount": "Số tiền đã rút",
+			"shareText": "Chia sẻ",
+			"subText": "🚀 THAM GIA CHUỖI CHIẾN THẮNG! 🚀",
+			"generating": "Đang tạo...",
+			"screenshot": "Chụp màn hình",
+			"download": "Tải hình ảnh",
+			"close": "Đóng",
+			"copiedToClipboard": "Sao chép liên kết chia sẻ thành công",
+			"userName": "Người chơi {siteName}",
+			"status": "Hoàn thành",
+			"entryPrice": "Số tiền rút",
+			"lastPrice": "Ký hiệu Token",
+			"referralCode": "Mã giới thiệu",
+			"screenshotFailed": "Chụp màn hình thất bại. Vui lòng thử lại hoặc sử dụng trình duyệt khác.",
+			"shareFailed": "Chia sẻ thất bại. Vui lòng thử lại."
 		},
 		"withdrawPending": {
-			"confirmedTitle": "提款已确认！",
-			"submittedTitle": "交易已提交",
-			"confirmedDesc": "您的资金正在路上。",
-			"submittedDesc": "等待区块链确认...",
-			"viewOnExplorer": "在浏览器中查看",
-			"manualApproval": "此提款需要手动批准。",
-			"newWithdrawalConfirmed": "进行另一笔提款",
-			"newWithdrawalPending": "开始新的提款"
+			"confirmedTitle": "Rút tiền đã xác nhận!",
+			"submittedTitle": "Giao dịch đã gửi",
+			"confirmedDesc": "Tiền của bạn đang trên đường tới.",
+			"submittedDesc": "Đang chờ xác nhận blockchain...",
+			"viewOnExplorer": "Xem trên Explorer",
+			"manualApproval": "Khoản rút này cần được phê duyệt thủ công.",
+			"newWithdrawalConfirmed": "Rút thêm tiền",
+			"newWithdrawalPending": "Bắt đầu rút tiền mới"
 		},
 		"withdrawSummary": {
-			"youWillReceive": "您将收到"
+			"youWillReceive": "Bạn sẽ nhận được"
 		}
 	},
 	"navUser": {
-		"upgradeToPro": "升级到专业版",
-		"account": "账户",
-		"billing": "账单",
-		"notifications": "通知",
-		"logout": "登出"
+		"upgradeToPro": "Nâng cấp lên Pro",
+		"account": "Tài khoản",
+		"billing": "Thanh toán",
+		"notifications": "Thông báo",
+		"logout": "Đăng xuất"
 	},
 	"games": {
-		"pageTitle": "所有游戏",
-		"playNow": "立即游戏",
-		"byProvider": "由 {name} 提供",
-		"count": "{count} 款游戏",
-		"noResults": "未找到符合您条件的游戏。",
-		"errorLoading": "无法加载游戏。请稍后重试。",
-		"slots": "老虎机",
-		"sports": "体育",
-		"liveCasino": "真人娱乐场",
-		"explore": "探索",
-		"exploreSubtitle": "发现奇妙的游戏体验",
-		"poker": "扑克",
-		"lottery": "彩票",
-		"futures": "期货",
+		"pageTitle": "Tất cả trò chơi",
+		"playNow": "Chơi ngay",
+		"byProvider": "Bởi {name}",
+		"count": "{count} Trò chơi",
+		"noResults": "Không tìm thấy trò chơi phù hợp với tiêu chí của bạn.",
+		"errorLoading": "Không thể tải trò chơi. Vui lòng thử lại sau.",
+		"slots": "Nổ hũ",
+		"sports": "Thể thao",
+		"liveCasino": "Casino Trực tiếp",
+		"explore": "Khám phá",
+		"exploreSubtitle": "Khám phá trải nghiệm chơi game tuyệt vời",
+		"poker": "Poker",
+		"lottery": "Xổ số",
+		"futures": "Hợp đồng tương lai",
 		"vr": "VR",
-		"swap": "兑换",
-		"slotsDescription": "旋转卷轴，赢取巨额头奖",
-		"liveCasinoDescription": "与真人荷官一起体验实时赌场行动",
-		"sportsDescription": "为您最喜爱的球队和体育赛事下注",
-		"pokerDescription": "在经典扑克游戏中测试您的技巧",
-		"lotteryDescription": "通过彩票和即时赢取游戏试试您的运气",
-		"futuresDescription": "交易和预测市场动向",
-		"vrDescription": "沉浸在虚拟现实游戏中",
-		"swapDescription": "无缝兑换代币和加密货币",
+		"swap": "Hoán đổi",
+		"slotsDescription": "Quay guồng và trúng giải độc đắc lớn",
+		"liveCasinoDescription": "Trải nghiệm hành động sòng bạc thời gian thực với người chia bài trực tiếp",
+		"sportsDescription": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn",
+		"pokerDescription": "Thử thách kỹ năng của bạn trong các trò chơi poker cổ điển",
+		"lotteryDescription": "Thử vận may với xổ số và các trò chơi thắng ngay",
+		"futuresDescription": "Giao dịch và dự đoán biến động thị trường",
+		"vrDescription": "Đắm mình trong trò chơi thực tế ảo",
+		"swapDescription": "Trao đổi token và tiền điện tử một cách liền mạch",
 		"categories": {
 			"slot": {
-				"title": "老虎机游戏"
+				"title": "Trò chơi Nổ hũ"
 			},
 			"liveCasino": {
-				"title": "真人娱乐场游戏"
+				"title": "Trò chơi Casino Trực tiếp"
 			},
 			"sports": {
-				"title": "体育博彩游戏"
+				"title": "Trò chơi Cá cược Thể thao"
 			},
 			"rng": {
-				"title": "RNG游戏"
+				"title": "Trò chơi RNG"
 			},
 			"other": {
-				"title": "{category} 游戏"
+				"title": "Trò chơi {category}"
 			}
 		}
 	},
 	"providers": {
-		"pageTitle": "所有游戏提供商",
-		"searchPlaceholder": "搜索提供商...",
-		"empty": "未找到与您搜索匹配的提供商。",
-		"logoAlt": "{name} 标志",
-		"filteredBy": "按类别筛选:",
-		"clearFilter": "清除筛选",
+		"pageTitle": "Tất cả nhà cung cấp trò chơi",
+		"searchPlaceholder": "Tìm kiếm nhà cung cấp...",
+		"empty": "Không tìm thấy nhà cung cấp nào phù hợp với tìm kiếm của bạn.",
+		"logoAlt": "Logo {name}",
+		"filteredBy": "Lọc theo danh mục:",
+		"clearFilter": "Xóa bộ lọc",
 		"categories": {
 			"slot": {
-				"title": "老虎机游戏提供商"
+				"title": "Nhà cung cấp Trò chơi Nổ hũ"
 			},
 			"liveCasino": {
-				"title": "真人娱乐场提供商"
+				"title": "Nhà cung cấp Casino Trực tiếp"
 			},
 			"sports": {
-				"title": "体育博彩提供商"
+				"title": "Nhà cung cấp Cá cược Thể thao"
 			},
 			"rng": {
-				"title": "RNG游戏提供商"
+				"title": "Nhà cung cấp Trò chơi RNG"
 			},
 			"other": {
-				"title": "{category} 游戏提供商"
+				"title": "Nhà cung cấp Trò chơi {category}"
 			}
 		}
 	},
 	"hero": {
 		"guest": {
-			"title": "加入行动",
-			"subtitle": "立即注册，获取专属欢迎奖金！",
-			"cta": "立即注册"
+			"title": "Tham gia hành động",
+			"subtitle": "Đăng ký ngay và nhận thưởng chào mừng độc quyền!",
+			"cta": "Đăng ký ngay"
 		},
 		"welcome": {
-			"title1": "欢迎奖金",
-			"title2": "高达590%",
-			"subtitle": "+ 225次免费旋转",
-			"cta": "存款并获取"
+			"title1": "Thưởng chào mừng",
+			"title2": "Lên đến 590%",
+			"subtitle": "+ 225 Vòng quay miễn phí",
+			"cta": "Nạp tiền & Nhận"
 		},
 		"jackpot": {
-			"title1": "巨额头奖",
-			"title2": "1,000,000美元",
-			"subtitle": "立即游戏，赢取大奖",
-			"cta": "立即游戏"
+			"title1": "Mega Jackpot",
+			"title2": "$1,000,000",
+			"subtitle": "Chơi ngay & Thắng lớn",
+			"cta": "Chơi ngay"
 		},
 		"cards": {
 			"casino": {
-				"title": "赌场",
-				"badge": "590+ 游戏",
-				"desc": "享受 {siteName} 原创游戏和其他顶级提供商的赌场游戏。",
-				"link": "前往赌场"
+				"title": "Casino",
+				"badge": "590+ TRÒ CHƠI",
+				"desc": "Thưởng thức {siteName} Originals và các trò chơi casino khác từ các nhà cung cấp hàng đầu.",
+				"link": "Đến Casino"
 			},
 			"slots": {
-				"title": "老虎机",
-				"badge": "5292 游戏",
-				"desc": "旋转卷轴，通过我们的高级老虎机系列赢取巨额头奖。",
-				"link": "前往老虎机"
+				"title": "Nổ hũ",
+				"badge": "5292 TRÒ CHƠI",
+				"desc": "Quay guồng và trúng giải độc đắc lớn với bộ sưu tập slot cao cấp của chúng tôi.",
+				"link": "Đến Nổ hũ"
 			},
 			"sports": {
-				"title": "体育",
-				"badge": "3 游戏",
-				"desc": "以有竞争力的赔率为您最喜爱的球队和体育赛事下注。",
-				"link": "前往体育"
+				"title": "Thể thao",
+				"badge": "3 TRÒ CHƠI",
+				"desc": "Đặt cược vào các đội và sự kiện thể thao yêu thích của bạn với tỷ lệ cược cạnh tranh.",
+				"link": "Đến Thể thao"
 			},
 			"crypto": {
-				"title": "加密货币与收益",
-				"badge": "60% 年化收益率",
-				"desc": "以诱人的利率进行质押、交易和赚取加密货币。",
-				"link": "前往加密货币"
+				"title": "Crypto & Kiếm tiền",
+				"badge": "60% APR",
+				"desc": "Đặt cược, giao dịch và kiếm tiền với tiền điện tử với mức lãi suất hấp dẫn.",
+				"link": "Đến Crypto"
 			}
 		},
 		"layout3": {
-			"headerTitle": "游戏焦点",
-			"headerSubtitle": "在我们精选的系列中发现精彩游戏并探索新的冒险",
-			"slider1Title": "精选游戏",
-			"slider1Badge": "员工精选",
-			"slider2Title": "更多探索",
-			"slider2Badge": "热门",
-			"featuredGameLabel": "精选游戏"
+			"headerTitle": "Tiêu điểm Trò chơi",
+			"headerSubtitle": "Khám phá các trò chơi tuyệt vời và khám phá những cuộc phiêu lưu mới trong bộ sưu tập được tuyển chọn của chúng tôi",
+			"slider1Title": "Trò chơi nổi bật",
+			"slider1Badge": "Nhân viên chọn",
+			"slider2Title": "Khám phá thêm",
+			"slider2Badge": "Thịnh hành",
+			"featuredGameLabel": "Trò chơi nổi bật"
 		},
-		"ctaExploreGames": "探索游戏",
-		"ctaJoinAffiliate": "加入代理"
+		"ctaExploreGames": "Khám phá Trò chơi",
+		"ctaJoinAffiliate": "Tham gia Đại lý"
 	},
 	"betting": {
 		"live": {
-			"winRate": "胜率",
-			"biggestWin": "最大赢额",
-			"bigWins50": "大赢(50+)",
-			"recentWins": "最近赢取",
+			"winRate": "Tỷ lệ thắng",
+			"biggestWin": "Thắng lớn nhất",
+			"bigWins50": "Thắng lớn (50+)",
+			"recentWins": "Thắng gần đây",
 			"header": {
-				"title": "实时投注活动",
-				"subtitle": "实时投注活动 • 已加载 {count} 个游戏"
+				"title": "Hoạt động cược trực tiếp",
+				"subtitle": "Hoạt động cược thời gian thực • đã tải {count} trò chơi"
 			},
 			"status": {
-				"live": "直播",
-				"paused": "已暂停"
+				"live": "TRỰC TIẾP",
+				"paused": "Đã tạm dừng"
 			},
 			"actions": {
-				"pause": "暂停",
-				"resume": "继续"
+				"pause": "Tạm dừng",
+				"resume": "Tiếp tục"
 			},
 			"tabs": {
-				"all": "全部",
-				"wins": "赢",
-				"losses": "输"
+				"all": "Tất cả",
+				"wins": "Thắng",
+				"losses": "Thua"
 			},
 			"table": {
-				"game": "游戏名称",
-				"time": "时间",
-				"provider": "提供商",
-				"nickname": "昵称",
-				"bet": "投注",
-				"multiplier": "乘数",
-				"profit": "利润"
+				"game": "Tên trò chơi",
+				"time": "Thời gian",
+				"provider": "Nhà cung cấp",
+				"nickname": "Biệt danh",
+				"bet": "Cược",
+				"multiplier": "Hệ số",
+				"profit": "Lợi nhuận"
 			},
-			"empty": "未找到投注记录"
+			"empty": "Không tìm thấy hồ sơ cược"
 		}
 	},
 	"fontChanger": {
-		"changeFont": "更改字体",
-		"fontSettings": "字体设置",
-		"current": "当前",
-		"browseGoogleFonts": "浏览谷歌字体",
-		"uploadCustomFont": "上传自定义字体",
-		"quickUploadFontFile": "快速上传字体文件",
-		"resetToDefault": "重置为默认",
+		"changeFont": "Đổi Phông chữ",
+		"fontSettings": "Cài đặt Phông chữ",
+		"current": "Hiện tại",
+		"browseGoogleFonts": "Duyệt Google Fonts",
+		"uploadCustomFont": "Tải lên Phông chữ Tùy chỉnh",
+		"quickUploadFontFile": "Tải nhanh tệp phông chữ",
+		"resetToDefault": "Đặt lại về mặc định",
 		"googleFonts": {
-			"title": "谷歌字体",
-			"searchFonts": "搜索字体...",
-			"preview": "预览",
-			"previewText": "敏捷的棕色狐狸跳过懒惰的狗",
+			"title": "Google Fonts",
+			"searchFonts": "Tìm phông chữ...",
+			"preview": "Xem trước",
+			"previewText": "Con cáo nâu nhanh nhẹn nhảy qua con chó lười",
 			"alphabetPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890",
-			"applyFont": "应用字体",
-			"clearPreview": "清除预览",
-			"previewWith": "使用 {font} 预览文本",
-			"noFontsFound": "未找到与“{searchTerm}”匹配的字体"
+			"applyFont": "Áp dụng Phông chữ",
+			"clearPreview": "Xóa xem trước",
+			"previewWith": "Xem trước văn bản với {font}",
+			"noFontsFound": "Không tìm thấy phông chữ khớp với \"{searchTerm}\""
 		},
 		"customUpload": {
-			"title": "上传自定义字体",
-			"description": "上传您自己的字体文件以自定义网站",
-			"fontFile": "字体文件",
-			"dragDropArea": "将您的字体文件拖放到此处，或",
-			"clickToUpload": "点击上传",
-			"supportedFormats": "支持的格式: .woff, .woff2, .ttf, .otf",
-			"maxFileSize": "最大文件大小: 10MB",
-			"fontName": "字体名称",
-			"fontNamePlaceholder": "为您的字体输入名称",
-			"previewYourFont": "预览您的字体",
-			"uploadAndApply": "上传并应用字体",
-			"cancel": "取消",
-			"uploading": "上传中...",
+			"title": "Tải lên Phông chữ Tùy chỉnh",
+			"description": "Tải lên tệp phông chữ của riêng bạn để tùy chỉnh trang web",
+			"fontFile": "Tệp Phông chữ",
+			"dragDropArea": "Kéo và thả tệp phông chữ vào đây, hoặc",
+			"clickToUpload": "nhấp để tải lên",
+			"supportedFormats": "Định dạng hỗ trợ: .woff, .woff2, .ttf, .otf",
+			"maxFileSize": "Kích thước tệp tối đa: 10MB",
+			"fontName": "Tên Phông chữ",
+			"fontNamePlaceholder": "Nhập tên cho phông chữ của bạn",
+			"previewYourFont": "Xem trước Phông chữ của bạn",
+			"uploadAndApply": "Tải lên & Áp dụng Phông chữ",
+			"cancel": "Hủy",
+			"uploading": "Đang tải lên...",
 			"errors": {
-				"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
-				"fileTooLarge": "文件大小超过10MB限制",
-				"uploadFailed": "上传字体文件失败",
-				"enterFontName": "请选择一个字体文件并提供名称",
-				"readFileFailed": "读取字体文件失败"
+				"invalidFileType": "Vui lòng tải lên tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+				"fileTooLarge": "Kích thước tệp vượt quá giới hạn 10MB",
+				"uploadFailed": "Tải lên tệp phông chữ thất bại",
+				"enterFontName": "Vui lòng chọn tệp phông chữ và cung cấp tên",
+				"readFileFailed": "Đọc tệp phông chữ thất bại"
 			}
 		},
 		"messages": {
-			"fontAppliedSuccess": "字体“{fontName}”已成功应用！",
-			"fontUploadedSuccess": "字体“{fontName}”已成功上传并应用！",
-			"fontResetSuccess": "字体已重置为默认",
-			"invalidFileType": "请上传有效的字体文件 (.woff, .woff2, .ttf, .otf)",
-			"uploadFailed": "读取字体文件失败"
+			"fontAppliedSuccess": "Đã áp dụng phông chữ \"{fontName}\" thành công!",
+			"fontUploadedSuccess": "Đã tải lên và áp dụng phông chữ \"{fontName}\" thành công!",
+			"fontResetSuccess": "Đã đặt lại phông chữ về mặc định",
+			"invalidFileType": "Vui lòng tải lên tệp phông chữ hợp lệ (.woff, .woff2, .ttf, .otf)",
+			"uploadFailed": "Đọc tệp phông chữ thất bại"
 		}
 	},
 	"contact": {
-		"title": "联系我们",
-		"subtitle": "有任何问题或需要帮助吗？我们专业的支持团队全天候为您服务。",
+		"title": "Liên hệ Chúng tôi",
+		"subtitle": "Có câu hỏi hoặc cần trợ giúp? Đội ngũ hỗ trợ tận tâm của chúng tôi luôn sẵn sàng giúp đỡ bạn suốt ngày đêm.",
 		"methods": {
 			"liveChat": {
-				"title": "在线客服",
-				"description": "通过在线客服即时获得我们支持团队的帮助。",
-				"availability": "全天候可用"
+				"title": "Chat Trực tuyến",
+				"description": "Nhận trợ giúp ngay lập tức từ đội ngũ hỗ trợ của chúng tôi qua chat trực tuyến.",
+				"availability": "Sẵn sàng 24/7"
 			},
 			"email": {
-				"title": "邮件支持",
-				"description": "发送电子邮件给我们，我们将在24小时内回复。",
-				"availability": "24小时内回复"
+				"title": "Hỗ trợ qua Email",
+				"description": "Gửi email cho chúng tôi và chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+				"availability": "Phản hồi trong 24h"
 			},
 			"support": {
-				"title": "帮助中心",
-				"description": "浏览我们全面的知识库以快速找到答案。",
-				"availability": "自助服务可用"
+				"title": "Trung tâm Trợ giúp",
+				"description": "Duyệt qua cơ sở kiến thức toàn diện của chúng tôi để có câu trả lời nhanh.",
+				"availability": "Tự phục vụ có sẵn"
 			}
 		},
 		"form": {
-			"title": "给我们发送消息",
-			"name": "全名",
-			"namePlaceholder": "输入您的全名",
-			"email": "邮箱地址",
-			"emailPlaceholder": "输入您的邮箱地址",
-			"subject": "主题",
-			"subjectPlaceholder": "您的咨询内容是关于？",
-			"message": "消息",
-			"messagePlaceholder": "请详细描述您的咨询...",
-			"submit": "发送消息",
-			"sending": "发送中...",
+			"title": "Gửi Tin nhắn cho Chúng tôi",
+			"name": "Họ và Tên",
+			"namePlaceholder": "Nhập họ tên đầy đủ của bạn",
+			"email": "Địa chỉ Email",
+			"emailPlaceholder": "Nhập địa chỉ email của bạn",
+			"subject": "Chủ đề",
+			"subjectPlaceholder": "Câu hỏi của bạn về vấn đề gì?",
+			"message": "Tin nhắn",
+			"messagePlaceholder": "Vui lòng mô tả chi tiết câu hỏi của bạn...",
+			"submit": "Gửi Tin nhắn",
+			"sending": "Đang gửi...",
 			"errors": {
-				"nameRequired": "请输入您的姓名",
-				"emailRequired": "请输入您的邮箱",
-				"emailInvalid": "请输入有效的邮箱地址",
-				"subjectRequired": "请输入主题",
-				"messageRequired": "请输入您的消息",
-				"messageTooShort": "消息必须至少包含10个字符"
+				"nameRequired": "Vui lòng nhập tên của bạn",
+				"emailRequired": "Vui lòng nhập email của bạn",
+				"emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ",
+				"subjectRequired": "Vui lòng nhập chủ đề",
+				"messageRequired": "Vui lòng nhập tin nhắn",
+				"messageTooShort": "Tin nhắn phải có ít nhất 10 ký tự"
 			}
 		},
 		"responseTime": {
-			"title": "预计响应时间",
-			"description": "我们努力尽快回复所有咨询。",
+			"title": "Thời gian Phản hồi Dự kiến",
+			"description": "Chúng tôi cố gắng phản hồi mọi thắc mắc nhanh nhất có thể.",
 			"liveChat": {
-				"title": "在线客服",
-				"time": "2分钟内"
+				"title": "Chat Trực tuyến",
+				"time": "Dưới 2 phút"
 			},
 			"email": {
-				"title": "邮件",
-				"time": "24小时内"
+				"title": "Email",
+				"time": "Trong vòng 24 giờ"
 			},
 			"priority": {
-				"title": "VIP支持",
-				"time": "优先处理"
+				"title": "Hỗ trợ VIP",
+				"time": "Xử lý ưu tiên"
 			}
 		},
 		"faq": {
-			"title": "常见问题",
+			"title": "Câu hỏi Thường gặp",
 			"items": [
 				{
-					"question": "如何重置我的密码？",
-					"answer": "您可以通过点击登录页面上的“忘记密码”链接来重置密码。输入您注册的邮箱地址，并按照发送到您收件箱的说明操作。"
+					"question": "Làm thế nào để đặt lại mật khẩu của tôi?",
+					"answer": "Bạn có thể đặt lại mật khẩu bằng cách nhấp vào liên kết 'Quên mật khẩu' trên trang đăng nhập. Nhập địa chỉ email đã đăng ký và làm theo hướng dẫn được gửi đến hộp thư đến của bạn."
 				},
 				{
-					"question": "提款处理需要多长时间？",
-					"answer": "大多数加密货币提款都会立即处理。在某些情况下，可能需要手动验证，这最多可能需要24小时。"
+					"question": "Rút tiền mất bao lâu để xử lý?",
+					"answer": "Hầu hết các khoản rút tiền điện tử được xử lý ngay lập tức. Trong một số trường hợp, có thể cần xác minh thủ công, quá trình này có thể mất tới 24 giờ."
 				},
 				{
-					"question": "你们接受哪些加密货币？",
-					"answer": "我们接受包括比特币（BTC）、以太坊（ETH）、USDT、USDC在内的主要加密货币，以及多个区块链网络上的其他几种流行代币。"
+					"question": "Bạn chấp nhận những loại tiền điện tử nào?",
+					"answer": "Chúng tôi chấp nhận các loại tiền điện tử chính bao gồm Bitcoin (BTC), Ethereum (ETH), USDT, USDC và một số token phổ biến khác trên nhiều mạng blockchain."
 				},
 				{
-					"question": "如何验证我的账户？",
-					"answer": "账户验证可以通过您的个人中心设置完成。根据您的账户等级和提款限额，您可能需要提供身份证明文件。"
+					"question": "Làm thế nào để xác minh tài khoản của tôi?",
+					"answer": "Xác minh tài khoản có thể được hoàn thành thông qua cài đặt hồ sơ của bạn. Bạn có thể cần cung cấp giấy tờ tùy thân tùy thuộc vào cấp độ tài khoản và giới hạn rút tiền."
 				},
 				{
-					"question": "我的个人信息安全吗？",
-					"answer": "是的，我们使用行业标准的加密和安全措施来保护所有个人和财务信息。我们的平台会定期进行安全审计。"
+					"question": "Thông tin cá nhân của tôi có an toàn không?",
+					"answer": "Có, chúng tôi sử dụng mã hóa và các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ tất cả thông tin cá nhân và tài chính. Nền tảng của chúng tôi trải qua các cuộc kiểm tra bảo mật thường xuyên."
 				}
 			]
 		}
 	},
 	"about": {
-		"title": "关于 {siteDomain}",
-		"subtitle": "在 {siteName}，游戏不仅仅是娱乐——它是一种全新的玩法。",
+		"title": "Về {siteDomain}",
+		"subtitle": "Tại {siteName}, chơi game không chỉ là giải trí — đó là một cách chơi hoàn toàn mới.",
 		"meta": {
-			"title": "关于 {siteName} | 加密驱动的游戏平台",
-			"description": "了解 {siteName}——一个提供可证明公平的老虎机、真人娱乐场、体育博彩和即时支付的去中心化加密赌场。为当今的区块链时代而建。"
+			"title": "Về {siteName} | Nền tảng Game được hỗ trợ bởi Crypto",
+			"description": "Tìm hiểu về {siteName} — sòng bạc crypto phi tập trung cung cấp slot công bằng, casino trực tiếp, cá cược thể thao và thanh toán tức thì. Được xây dựng cho kỷ nguyên blockchain ngày nay."
 		},
 		"intro": {
-			"paragraph1": "在 {siteName}，游戏不仅仅是娱乐——它是一种全新的玩法。我们为那些不仅仅追求运气的人们打造了这个加密驱动的平台。如果您关心速度、透明度和控制权，那么您来对地方了。",
-			"paragraph2": "从第一天起，我们的目标就很明确：为玩家提供更高层次的游戏体验，让技术与公平真正协同工作。我们希望您感到安全、互联，并为每一次旋转、下注或每一手牌都感到有所回报。无论您是在玩加密老虎机、现场体育博彩，还是坐在赌场牌桌前，{siteName} 都是为当今的区块链时代而建。"
+			"paragraph1": "Tại {siteName}, chơi game không chỉ là giải trí — đó là một cách chơi hoàn toàn mới. Chúng tôi xây dựng nền tảng được hỗ trợ bởi crypto này cho những người muốn nhiều hơn là may mắn. Nếu bạn quan tâm đến tốc độ, sự minh bạch và quyền kiểm soát, bạn đã đến đúng nơi.",
+			"paragraph2": "Ngay từ ngày đầu tiên, mục tiêu của chúng tôi đã rõ ràng: mang đến cho người chơi trải nghiệm game đẳng cấp, nơi công nghệ và sự công bằng thực sự song hành. Chúng tôi muốn bạn cảm thấy an toàn, được kết nối và giống như bạn được thưởng cho mỗi lần quay, cược hay ván bài. Dù bạn quay slot crypto, cược thể thao trực tiếp hay ngồi tại bàn casino, {siteName} được xây dựng cho kỷ nguyên blockchain ngày nay."
 		},
 		"whoWeAre": {
-			"title": "我们是谁",
-			"paragraph1": "我们是一个全球性的、完全去中心化的游戏平台，专为追求自由、隐私和即时行动的加密爱好者设计。我们与行业顶尖品牌合作——Pragmatic Play、Red Tiger、Yggdrasil、PG Soft、Playtech，为您带来超过5,000款优质游戏和投注选项，尽在一个平台。",
-			"paragraph2": "在 {siteName} 上的每一款游戏都经过可证明的公平性和区块链验证。没有暗箱操作，只有完全的透明度。我们相信游戏应该是无需信任但仍具人情味的，将区块链的诚实与任何人在任何地方都能享受的流畅、刺激的体验相结合。"
+			"title": "Chúng Tôi Là Ai",
+			"paragraph1": "Chúng tôi là nền tảng game toàn cầu, phi tập trung hoàn toàn, được thiết kế cho những người hâm mộ crypto muốn tự do, riêng tư và hành động tức thì. Chúng tôi hợp tác với những tên tuổi hàng đầu trong ngành—Pragmatic Play, Red Tiger, Yggdrasil, PG Soft, Playtech và mang đến hơn 5.000 trò chơi cao cấp và tùy chọn cá cược, tất cả ở một nơi.",
+			"paragraph2": "Mọi trò chơi trên {siteName} đều được chứng minh công bằng và xác minh trên blockchain. Không có gì mờ ám, chỉ có sự minh bạch tuyệt đối. Chúng tôi tin rằng chơi game nên không cần niềm tin (trustless) nhưng vẫn mang tính người, kết hợp sự trung thực của blockchain với trải nghiệm mượt mà, thú vị mà bất kỳ ai cũng có thể tận hưởng, dù ở đâu."
 		},
 		"mission": {
-			"title": "我们的使命",
-			"paragraph1": "我们希望改变人们体验在线游戏的方式——使其更快、更公平、完全由加密货币驱动。因此，我们摒弃了像KYC检查、支付缓慢和信任问题等常见的麻烦。在这里，您可以通过钱包访问、享受即时交易，并在每一次投注中获得公平性证明。",
-			"paragraph2": "您的隐私得到保护，您的奖金即时支付，您始终掌控着自己的游戏。"
+			"title": "Sứ Mệnh Của Chúng Tôi",
+			"paragraph1": "Chúng tôi muốn thay đổi cách mọi người trải nghiệm game trực tuyến—làm cho nó nhanh hơn, công bằng hơn và hoàn toàn dựa trên crypto. Vì vậy, chúng tôi đã loại bỏ những rắc rối thông thường như kiểm tra KYC, thanh toán chậm và vấn đề niềm tin. Tại đây, bạn có quyền truy cập dựa trên ví, giao dịch tức thì và bằng chứng công bằng trên mỗi lần cược.",
+			"paragraph2": "Quyền riêng tư của bạn được bảo vệ, tiền thắng được thanh toán ngay lập tức và bạn luôn kiểm soát cuộc chơi của mình."
 		},
 		"focus": {
-			"title": "我们关注什么",
+			"title": "Điều Chúng Tôi Chú Trọng",
 			"items": [
-				"闪电般的存款和取款",
-				"无需KYC的隐私优先访问",
-				"可在任何地方无缝工作的用户界面",
-				"真实的人工客服提供24/7支持"
+				"Nạp và rút tiền nhanh như chớp",
+				"Truy cập ưu tiên quyền riêng tư không cần KYC",
+				"Giao diện liền mạch hoạt động mọi nơi",
+				"Hỗ trợ khách hàng 24/7 thực sự từ người thật"
 			],
-			"closing": "信任对我们至关重要。每一个新功能？都是为您设计的。"
+			"closing": "Niềm tin rất quan trọng với chúng tôi. Mọi tính năng mới? Nó được thiết kế cho bạn."
 		},
 		"whatMakesUsDifferent": {
-			"title": "{siteName} 的与众不同之处",
+			"title": "Điều Gì Làm {siteName} Khác Biệt",
 			"features": [
-				"超过5,000款加密赌场游戏——老虎机、扑克、真人牌桌，应有尽有",
-				"通过Dynamic.xyz进行基于钱包的登录——只需连接即可玩，无需等待",
-				"即时加密货币支付——在区块链上自动验证",
-				"每款游戏都经过可证明的公平性和RNG认证",
-				"在任何设备上完美运行，无论是移动设备还是桌面设备",
-				"透明的奖励——真正惠及玩家的奖金和促销活动"
+				"Hơn 5.000 trò chơi casino crypto—slot, poker, bàn trực tiếp, bạn kể tên đi",
+				"Đăng nhập ví với Dynamic.xyz—chỉ cần kết nối và chơi, không chờ đợi",
+				"Thanh toán crypto tức thì—tự động và xác minh ngay trên blockchain",
+				"Mọi trò chơi đều được chứng minh công bằng và chứng nhận RNG",
+				"Hoạt động hoàn hảo trên mọi thiết bị, di động hoặc máy tính để bàn",
+				"Phần thưởng minh bạch—bonus và khuyến mãi thực sự có lợi cho người chơi"
 			],
-			"closing": "{siteName} 不仅仅是游戏——它是自由。安全地玩，从任何地方，完全透明。"
+			"closing": "{siteName} không chỉ là về trò chơi—đó là về sự tự do. Chơi an toàn, từ bất cứ đâu, với sự minh bạch tuyệt đối."
 		},
 		"fairGaming": {
-			"title": "公平与负责任的游戏",
-			"paragraph1": "我们也认真对待公平和负责任的游戏。我们不允许任何未满18岁（或未达到其国家法定年龄）的人玩游戏。每一款游戏都经过独立测试人员的检查，并在区块链的透明度下运行，因此您可以亲自验证每一个结果。",
-			"ageRestriction": "只有年满18岁的玩家才能注册和玩游戏。",
-			"paragraph2": "您的个人和财务信息始终保持私密。我们使用端到端加密，绝不存储您的钱包密钥或敏感数据。"
+			"title": "Chơi Game Công Bằng & Có Trách Nhiệm",
+			"paragraph1": "Chúng tôi cũng coi trọng việc chơi game công bằng và có trách nhiệm. Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp của quốc gia họ) chơi, chấm hết. Mọi trò chơi đều được kiểm tra bởi các bên kiểm thử độc lập và chạy trên sự minh bạch của blockchain, vì vậy bạn có thể tự mình xác minh mọi kết quả.",
+			"ageRestriction": "Chỉ người chơi từ 18 tuổi trở lên mới có thể đăng ký và chơi.",
+			"paragraph2": "Thông tin cá nhân và tài chính của bạn luôn được giữ kín. Chúng tôi sử dụng mã hóa đầu cuối và không bao giờ lưu trữ khóa ví hay dữ liệu nhạy cảm của bạn."
 		},
 		"promise": {
-			"title": "我们的承诺",
-			"paragraph1": "我们不仅仅是另一个在线赌场。我们是游戏的下一步。{siteName} 的存在是为了赋予玩家力量，而不是控制他们。凭借加密技术、可证明的公平性和玩家至上的方法，我们正在构建一个开放、安全和有益的游戏世界。",
-			"paragraph2": "每一次更新、功能或新合作伙伴——我们所做的一切都是为了让游戏变得公平、即时和属于您。"
+			"title": "Lời Hứa Của Chúng Tôi",
+			"paragraph1": "Chúng tôi không chỉ là một sòng bạc trực tuyến khác. Chúng tôi là bước tiếp theo trong gaming. {siteName} tồn tại để trao quyền cho người chơi, không phải kiểm soát họ. Với công nghệ crypto, sự công bằng có thể chứng minh và cách tiếp cận ưu tiên người chơi, chúng tôi đang xây dựng một thế giới game mở, an toàn và bổ ích.",
+			"paragraph2": "Mọi bản cập nhật, tính năng hay đối tác mới—mọi thứ chúng tôi làm đều nhằm làm cho việc chơi game công bằng, tức thì và thuộc về bạn."
 		},
 		"joinCommunity": {
-			"title": "准备好加入了？",
-			"paragraph1": "游戏的未来就在这里——去中心化、闪电般快速、无国界。注册，连接您的钱包，感受真正的游戏自由。",
-			"paragraph2": "聪明地玩。快速赢。体验 {siteName}。",
-			"tagline": "聪明地玩。快速赢。体验 {siteName}。"
+			"title": "Sẵn Sàng Tham Gia?",
+			"paragraph1": "Tương lai của gaming đã ở đây—phi tập trung, nhanh như chớp và không biên giới. Đăng ký, kết nối ví và xem cảm giác tự do chơi game thực sự là như thế nào.",
+			"paragraph2": "Chơi thông minh. Thắng nhanh. Trải nghiệm {siteName}.",
+			"tagline": "Chơi thông minh. Thắng nhanh. Trải nghiệm {siteName}."
 		}
 	},
 	"footer": {
 		"sections": {
 			"company": {
-				"title": "公司",
+				"title": "Công ty",
 				"links": {
-					"about": "关于我们",
-					"providers": "提供商",
-					"affiliate": "推荐奖金",
-					"bonus": "流水奖金"
+					"about": "Về chúng tôi",
+					"providers": "Nhà cung cấp",
+					"affiliate": "Thưởng giới thiệu",
+					"bonus": "Thưởng doanh thu",
+					"blog": "Blog",
+					"contact": "Liên hệ"
 				}
 			},
 			"legal": {
-				"title": "法律",
+				"title": "Pháp lý",
 				"links": {
-					"privacy": "隐私政策",
-					"terms": "条款与条件",
-					"gambling": "负责任的博彩",
-					"faqs": "常见问题"
+					"privacy": "Chính sách bảo mật",
+					"terms": "Điều khoản & Điều kiện",
+					"gambling": "Cờ bạc có trách nhiệm",
+					"faqs": "Câu hỏi thường gặp"
 				}
 			},
 			"games": {
-				"title": "游戏",
+				"title": "Trò chơi",
 				"links": {
-					"lobby": "游戏大厅",
-					"slots": "老虎机",
-					"live": "真人娱乐场",
-					"sports": "体育博彩"
+					"lobby": "Sảnh game",
+					"slots": "Nổ hũ",
+					"live": "Casino Trực tiếp",
+					"sports": "Cá cược thể thao"
 				}
 			},
 			"support": {
-				"title": "支持",
+				"title": "Hỗ trợ",
 				"links": {
-					"help": "帮助中心",
-					"contact": "联系我们"
+					"help": "Trung tâm trợ giúp",
+					"contact": "Liên hệ"
 				}
 			}
 		},
 		"seoContent": {
-			"title": "{siteName} — 您加密赌场娱乐的终极目的地",
-			"paragraph1": "与 {siteName} 一起迈向在线游戏的未来，这是世界上首屈一指的加密驱动赌场，创新与激情在此相遇。专为真实玩家设计，我们的平台在老虎机、真人赌场牌桌、体育博彩和加密游戏中提供快速、安全和透明的体验。",
-			"paragraph2": "{siteName} 的每一次旋转、每一张牌和每一次下注都建立在区块链的公平性之上，实时验证以确保每一个结果都是真正随机和防篡改的。从高风险的行动到休闲游戏，我们的游戏满足了各种类型的赌徒——从寻求刺激的人到策略专家。",
-			"paragraph3": "通过即时存款和闪电般的取款、Dynamic.xyz钱包登录和独家流水奖金，{siteName} 确保您的游戏体验流畅、有益且安全。无论您在加拿大、欧洲还是亚洲，我们的多链系统都支持全球玩家，同时为每个地区的本地加密赌场趋势进行优化。",
-			"paragraph4": "加入成千上万发现更智能游戏方式的玩家——在这里，公平游戏、隐私和利润汇聚一堂。{siteName} 不仅仅是一个赌场。它是Web3赌博的下一次进化——为大胆者而建，由加密货币驱动，并受到全球玩家的信赖。",
-			"tagline": "🎯 聪明地玩。安全地下注。赢取大奖 — 仅在 {siteName}。",
-			"showMore": "显示更多",
-			"showLess": "显示更少"
+			"title": "{siteName} — Điểm Đến Giải Trí Casino Crypto Tối Thượng Của Bạn",
+			"paragraph1": "Bước vào tương lai của game trực tuyến với {siteName}, sòng bạc được hỗ trợ bởi crypto hàng đầu thế giới nơi sự đổi mới gặp gỡ sự phấn khích. Được thiết kế cho người chơi thực thụ, nền tảng của chúng tôi mang lại trải nghiệm nhanh, an toàn và minh bạch trên các slot, bàn casino trực tiếp, cá cược thể thao và game crypto.",
+			"paragraph2": "Mọi vòng quay, lá bài và cược tại {siteName} đều được xây dựng trên sự công bằng của blockchain, xác minh theo thời gian thực để đảm bảo mọi kết quả đều thực sự ngẫu nhiên và chống gian lận. Từ hành động cược cao đến chơi giải trí, các trò chơi của chúng tôi phục vụ mọi loại người chơi — từ người tìm kiếm cảm giác mạnh đến chuyên gia chiến lược.",
+			"paragraph3": "Với nạp tiền tức thì và rút tiền nhanh như chớp, đăng nhập ví Dynamic.xyz và thưởng doanh thu độc quyền, {siteName} đảm bảo việc chơi game của bạn luôn mượt mà, bổ ích và an toàn.|Dù bạn ở Canada, Châu Âu hay Châu Á, hệ thống đa chuỗi của chúng tôi hỗ trợ người chơi toàn cầu trong khi tối ưu hóa cho các xu hướng casino crypto địa phương ở mỗi khu vực.",
+			"paragraph4": "Tham gia cùng hàng ngàn người chơi đang khám phá cách chơi thông minh hơn — nơi chơi công bằng, quyền riêng tư và lợi nhuận kết hợp với nhau.|{siteName} không chỉ là một sòng bạc.|Đó là sự phát triển tiếp theo của cờ bạc Web3 — được xây dựng cho những người táo bạo, được cung cấp bởi crypto và được tin cậy bởi người chơi trên toàn thế giới.",
+			"tagline": "🎯 Chơi Thông Minh. Cược An Toàn. Thắng Lớn — Chỉ có tại {siteName}.",
+			"showMore": "Xem thêm",
+			"showLess": "Thu gọn"
 		},
-		"copyright": "© {year} {siteName}. 保留所有权利。",
-		"followUs": "关注我们:",
+		"copyright": "© {year} {siteName}. Đã đăng ký bản quyền.",
+		"followUs": "Theo dõi chúng tôi:",
 		"disclaimer": {
-			"line1": "仅限18岁以上 | 请负责任地赌博",
-			"line2": "赌博可能上瘾。请负责任地玩，只下注您能承受损失的金额。",
-			"line3": "如果您觉得自己有赌博问题，请寻求帮助。"
+			"line1": "Chỉ 18+ | Cờ bạc có trách nhiệm",
+			"line2": "Cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và chỉ cược những gì bạn có thể chi trả.",
+			"line3": "Nếu bạn cảm thấy mình có vấn đề về cờ bạc, vui lòng tìm sự giúp đỡ."
 		},
-		"description": "{siteName} — 您值得信赖的加密赌场，提供老虎机、真人牌桌和体育博彩。玩可证明公平的区块链游戏，享受基于钱包的即时支付，并解锁每日赌场奖金。快速、安全和去中心化 — {siteName} 为全球玩家带来更高层次的游戏体验。🎯 聪明地玩。赢取大奖。信任 {siteName}。"
+		"description": "{siteName} — sòng bạc crypto tin cậy của bạn cho slot, bàn trực tiếp và cá cược thể thao.|Chơi các game blockchain công bằng, tận hưởng thanh toán qua ví tức thì và mở khóa bonus casino hàng ngày.|Nhanh, an toàn và phi tập trung — {siteName} mang đến game đẳng cấp cho người chơi toàn cầu.|🎯 Chơi Thông Minh. Thắng Lớn. Tin Tưởng {siteName}."
 	},
 	"privacy": {
-		"title": "隐私政策 — {siteDomain}",
-		"subtitle": "我们如何处理您的信息，涵盖您的加密钱包、游戏玩法以及您在我们网站上所做的一切",
-		"lastUpdated": "最后更新：2025年1月",
+		"title": "Chính sách bảo mật — {siteDomain}",
+		"subtitle": "Cách chúng tôi xử lý thông tin của bạn bao gồm ví crypto, lối chơi và mọi thứ bạn làm trên trang web của chúng tôi",
+		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"intro": {
-			"paragraph1": "在 {siteName}（'{siteDomain}'、'我们'、'我们的'），您的隐私至关重要。我们运营 {siteName} 加密赌场和去中心化游戏平台，本隐私政策阐述了我们如何处理您的信息，涵盖您的加密钱包、游戏玩法以及您在我们网站、dApp或相关服务（我们称之为'服务'）上所做的一切。",
-			"paragraph2": "{siteDomain} 是一个仅限钱包的加密赌场。这意味着存款和取款都直接通过区块链进行，没有中间人。我们不要求您的身份证明，也从不存储个人身份信息。您的隐私、钱包和资产？它们仍然属于您。",
-			"paragraph3": "使用 {siteDomain} 即表示您同意本隐私政策。"
+			"paragraph1": "Tại {siteName} ('{siteDomain},' 'chúng tôi,' 'của chúng tôi'), quyền riêng tư của bạn là trung tâm. Chúng tôi vận hành sòng bạc crypto {siteName} và nền tảng game phi tập trung, và Chính sách bảo mật này quy định cách chúng tôi xử lý thông tin của bạn bao gồm ví crypto, lối chơi và mọi thứ bạn thực hiện trên trang web, dApp hoặc các dịch vụ liên quan của chúng tôi (chúng tôi gọi chung là 'Dịch vụ').",
+			"paragraph2": "{siteDomain} là một sòng bạc chỉ dùng ví. Điều đó có nghĩa là nạp và rút tiền đi thẳng qua blockchain, không qua trung gian. Chúng tôi không yêu cầu ID của bạn và không bao giờ lưu trữ thông tin nhận dạng cá nhân. Quyền riêng tư, ví và tài sản của bạn? Chúng vẫn là của bạn.",
+			"paragraph3": "Bằng cách sử dụng {siteDomain}, bạn đồng ý với Chính sách bảo mật này."
 		},
 		"sections": {
 			"scope": {
-				"title": "范围与接受",
-				"content": "本政策涵盖访问或使用 {siteDomain} 的每个人。如果我们将来需要更新政策——可能是因为新技术或法律变化——我们会在这里发布更改。如果您在此之后继续使用平台，即表示您接受新条款。"
+				"title": "Phạm vi & Chấp nhận",
+				"content": "Chính sách này bao gồm tất cả những người truy cập hoặc sử dụng {siteDomain}. Nếu chúng tôi cần cập nhật chính sách—có thể do công nghệ mới hoặc luật thay đổi, chúng tôi sẽ đăng các thay đổi ngay tại đây. Nếu bạn tiếp tục sử dụng nền tảng sau đó, bạn đang chấp nhận các điều khoản mới."
 			},
 			"dataCollection": {
-				"title": "我们收集的数据",
-				"intro": "我们以隐私为核心构建了 {siteName}。我们只要求为确保网站正常运行、保障安全和游戏公平所必需的信息。",
+				"title": "Dữ liệu chúng tôi thu thập",
+				"intro": "Chúng tôi xây dựng {siteName} với tâm niệm về quyền riêng tư. Chúng tôi chỉ yêu cầu những gì cần thiết để trang web hoạt động, giữ mọi thứ an toàn và đảm bảo trò chơi công bằng.",
 				"accountData": {
-					"title": "A. 钱包和账户数据",
+					"title": "A. Dữ liệu Ví & Tài khoản",
 					"items": {
-						"0": "连接的钱包地址（通过Dynamic.xyz、WalletConnect或MetaMask）。",
-						"1": "显示名称（可选），如果您想个性化您的账户。",
-						"2": "电子邮件地址（可选），如果您订阅时事通讯或联系支持。"
+						"0": "Địa chỉ ví đã kết nối (thông qua Dynamic.xyz, WalletConnect hoặc MetaMask).",
+						"1": "Tên hiển thị (tùy chọn) nếu bạn muốn cá nhân hóa tài khoản của mình.",
+						"2": "Địa chỉ email (tùy chọn) nếu bạn đăng ký nhận bản tin hoặc liên hệ hỗ trợ."
 					},
-					"kyc": "我们从不进行身份检查或收集政府ID。如果，且仅当出现法律情况（如欺诈调查），我们可能会要求提供身份证明。如果发生这种情况，我们会坦诚相告，并且只要求绝对必要的信息。"
+					"kyc": "Chúng tôi không bao giờ kiểm tra danh tính hoặc thu thập ID chính phủ. Nếu, và chỉ nếu, một tình huống pháp lý phát sinh (như điều tra gian lận), chúng tôi có thể yêu cầu bằng chứng danh tính. Nếu điều đó xảy ra, chúng tôi sẽ thẳng thắn về việc đó và chỉ yêu cầu những gì thực sự cần thiết."
 				},
 				"walletData": {
-					"title": "B. 交易数据",
-					"addresses": "用于存款或取款的区块链钱包地址。",
-					"transactions": "交易哈希、时间戳和网络确认。",
-					"metadata": "用于平衡您账户的存款和取款详情。",
-					"note": "所有加密交易在区块链上都是公开的。我们不编辑、隐藏或试图匿名化这些数据——一切都是透明的。"
+					"title": "B. Dữ liệu Giao dịch",
+					"addresses": "Địa chỉ ví blockchain được sử dụng để nạp hoặc rút tiền.",
+					"transactions": "Hash giao dịch, dấu thời gian và xác nhận mạng.",
+					"metadata": "Chi tiết nạp và rút tiền để cân bằng tài khoản của bạn.",
+					"note": "Tất cả các giao dịch crypto đều công khai trên blockchain. Chúng tôi không chỉnh sửa, ẩn hoặc cố gắng làm cho dữ liệu này ẩn danh—mọi thứ đều minh bạch."
 				},
 				"technicalData": {
-					"title": "C. 技术和使用数据",
-					"ip": "关于您的设备和浏览器的信息（类型、操作系统、屏幕尺寸）。用于预防欺诈的IP地址和大致位置。",
-					"session": "您访问的页面、玩的游戏、交易历史和在网站上花费的时间。",
-					"cookies": "用于帮助我们改善体验的Cookie和分析工具。"
+					"title": "C. Dữ liệu Kỹ thuật & Sử dụng",
+					"ip": "Thông tin về thiết bị và trình duyệt của bạn (loại, OS, kích thước màn hình).|Địa chỉ IP và vị trí sơ bộ để ngăn chặn gian lận.",
+					"session": "Các trang bạn truy cập, trò chơi bạn chơi, lịch sử giao dịch và thời gian dành cho trang web.",
+					"cookies": "Cookie và phân tích để giúp chúng tôi cải thiện trải nghiệm."
 				},
 				"securityData": {
-					"title": "D. 安全和风险数据",
-					"fraud": "设备指纹和反欺诈监控。",
-					"disputes": "用于保证公平性和帮助解决问题的游戏会话日志。用于检测机器人或滥用行为的自动检查。",
-					"note": "我们不收集敏感的个人数据，如您的种族、宗教、政治观点或生物识别信息。"
+					"title": "D. Dữ liệu Bảo mật & Rủi ro",
+					"fraud": "Dấu vân tay thiết bị và giám sát chống gian lận.",
+					"disputes": "Nhật ký phiên chơi game để đảm bảo công bằng và giúp giải quyết vấn đề.|Kiểm tra tự động để phát hiện bot hoặc lạm dụng.",
+					"note": "Chúng tôi không thu thập dữ liệu cá nhân nhạy cảm như sắc tộc, tôn giáo, quan điểm chính trị hoặc sinh trắc học của bạn."
 				}
 			},
 			"purposes": {
-				"title": "我们为什么收集数据",
-				"intro": "以下是我们使用您信息的目的：",
-				"outro": "您可以随时取消订阅营销信息。",
+				"title": "Tại sao chúng tôi thu thập dữ liệu",
+				"intro": "Đây là những gì chúng tôi sử dụng thông tin của bạn để làm:",
+				"outro": "Bạn có thể hủy đăng ký nhận tin nhắn tiếp thị bất cứ khi nào bạn muốn.",
 				"items": {
 					"0": {
-						"title": "服务运营",
-						"description": "让您可以用钱包登录、验证交易、运行游戏和处理支付。"
+						"title": "Hoạt động Dịch vụ",
+						"description": "Để cho phép bạn đăng nhập bằng ví, xác minh giao dịch, chạy trò chơi và xử lý thanh toán."
 					},
 					"1": {
-						"title": "安全与欺诈预防",
-						"description": "发现和预防欺诈、重复账户或任何可疑行为。"
+						"title": "Bảo mật & Ngăn chặn Gian lận",
+						"description": "Để phát hiện và ngăn chặn gian lận, tài khoản trùng lặp hoặc bất kỳ điều gì đáng ngờ."
 					},
 					"2": {
-						"title": "平台改进",
-						"description": "让网站运行得更好、更流畅。"
+						"title": "Cải thiện Nền tảng",
+						"description": "Để làm cho trang web chạy tốt hơn và mượt mà hơn."
 					},
 					"3": {
-						"title": "营销（经同意）",
-						"description": "用于营销，但只有在您同意的情况下——我们绝不会未经您的许可擅自推送促销活动。"
+						"title": "Tiếp thị (với sự đồng ý)",
+						"description": "Để tiếp thị, nhưng chỉ khi bạn đồng ý—chúng tôi không bao giờ lén đưa quảng cáo vào mà không có sự cho phép của bạn."
 					},
 					"4": {
-						"title": "平台完整性",
-						"description": "保护 {siteName} 并保持游戏公平。"
+						"title": "Tính toàn vẹn của Nền tảng",
+						"description": "Để bảo vệ {siteName} và giữ cho việc chơi game công bằng."
 					}
 				}
 			},
 			"cryptoWallet": {
-				"title": "区块链透明度",
-				"intro": "{siteDomain} 完全在区块链上运行：",
-				"outro": "如果您使用第三方钱包（如Dynamic.xyz、WalletConnect或MetaMask），他们的隐私政策将适用于您对他们服务的使用",
+				"title": "Minh bạch Blockchain",
+				"intro": "{siteDomain} chạy hoàn toàn trên blockchain:",
+				"outro": "Nếu bạn sử dụng ví của bên thứ ba (như Dynamic.xyz, WalletConnect hoặc MetaMask), chính sách bảo mật của họ sẽ áp dụng cho việc bạn sử dụng dịch vụ của họ",
 				"points": {
-					"0": "您的钱包和交易数据永久存在于像以太坊或币安智能链这样的公共区块链上。",
-					"1": "一旦区块链交易完成，我们无法更改或删除它。",
-					"2": "我们只在链下存储最少量的信息，仅用于技术和账户原因。",
-					"3": "如果您使用第三方钱包（如Dynamic.xyz、WalletConnect或MetaMask），他们的隐私政策将适用于您对他们服务的使用。"
+					"0": "Dữ liệu ví và giao dịch của bạn tồn tại vĩnh viễn trên các blockchain công khai như Ethereum hoặc BNB Chain.",
+					"1": "Khi một giao dịch blockchain hoàn tất, chúng tôi không thể thay đổi hoặc xóa nó.",
+					"2": "Chúng tôi chỉ lưu trữ tối thiểu thông tin ngoài chuỗi, chỉ vì lý do kỹ thuật và tài khoản.",
+					"3": "Nếu bạn sử dụng ví của bên thứ ba (như Dynamic.xyz, WalletConnect hoặc MetaMask), chính sách bảo mật của họ sẽ áp dụng cho việc bạn sử dụng dịch vụ của họ."
 				}
 			},
 			"dataSharing": {
-				"title": "分享与披露",
-				"intro": "我们从不销售、交易或出租您的数据。绝不。",
-				"para": "但在极少数情况下，我们可能需要分享有限的信息：",
+				"title": "Chia sẻ & Tiết lộ",
+				"intro": "Chúng tôi không bán, trao đổi hoặc cho thuê dữ liệu của bạn. Không bao giờ.",
+				"para": "Nhưng trong một số trường hợp hiếm hoi, chúng tôi có thể phải chia sẻ thông tin hạn chế:",
 				"items": {
-					"0": "如果法律或有效的法律程序要求。",
-					"1": "如果我们发现可疑活动，会与反欺诈合作伙伴或区块链分析工具分享。",
-					"2": "如果发生合并、收购或重大业务变更，始终在严格保密的情况下进行。"
+					"0": "Nếu luật pháp hoặc quy trình pháp lý hợp lệ yêu cầu.",
+					"1": "Với các đối tác chống gian lận hoặc công cụ phân tích blockchain nếu chúng tôi phát hiện hoạt động đáng ngờ.",
+					"2": "Nếu có sự sáp nhập, mua lại hoặc thay đổi kinh doanh lớn—luôn luôn bảo mật nghiêm ngặt."
 				},
-				"noSelling": "无论何时我们分享任何信息，我们都确保其符合数据保护法。"
+				"noSelling": "Bất cứ khi nào chúng tôi chia sẻ điều gì, chúng tôi đảm bảo nó tuân theo luật bảo vệ dữ liệu."
 			},
 			"security": {
-				"title": "安全措施",
-				"intro": "我们认真对待您的安全，并采用多层先进的保护措施来确保您的数据和数字资产的安全：",
+				"title": "Biện pháp Bảo mật",
+				"intro": "Chúng tôi coi trọng bảo mật của bạn và áp dụng nhiều lớp bảo vệ tiên tiến để giữ an toàn cho dữ liệu và tài sản kỹ thuật số của bạn:",
 				"items": {
-					"0": "您在浏览器和我们服务器之间发送的每一位数据都经过TLS/SSL加密。",
-					"1": "我们将日志和技术数据以加密形式存储。",
-					"2": "基于角色的访问控制（RBAC）严格限制内部访问。",
-					"3": "我们定期进行渗透测试，并聘请外部专家进行安全审计。",
-					"4": "管理员使用多因素认证（MFA）登录以增加安全性。"
+					"0": "Mọi bit dữ liệu bạn gửi giữa trình duyệt và máy chủ của chúng tôi đều được mã hóa TLS/SSL.",
+					"1": "Chúng tôi lưu trữ nhật ký và dữ liệu kỹ thuật ở dạng mã hóa.",
+					"2": "Kiểm soát truy cập dựa trên vai trò (RBAC) giữ cho quyền truy cập nội bộ bị khóa chặt.",
+					"3": "Chúng tôi chạy kiểm tra xâm nhập thường xuyên và mời các chuyên gia bên ngoài kiểm toán bảo mật.",
+					"4": "Quản trị viên đăng nhập bằng Xác thực Đa yếu tố (MFA) để an toàn hơn."
 				},
-				"warning": "温馨提示：\n\n🔐 {siteName} 绝不会索要您的私钥或助记词。请妥善保管您的钱包凭证，这是您的责任。"
+				"warning": "Lưu ý:\n\n🔐 {siteName} sẽ không bao giờ yêu cầu khóa riêng tư hoặc cụm từ hạt giống của bạn. Giữ kín thông tin đăng nhập ví của bạn—đó là trách nhiệm của bạn."
 			},
 			"cookies": {
-				"title": "Cookies与分析",
-				"intro": "我们使用cookies和跟踪工具来：",
+				"title": "Cookie & Phân tích",
+				"intro": "Chúng tôi sử dụng cookie và công cụ theo dõi để:",
 				"items": {
-					"0": "保持您的钱包连接和会话稳定。",
-					"1": "提高网站速度和性能。",
-					"2": "收集匿名分析数据，以便我们了解人们如何使用网站。"
+					"0": "Giữ ví của bạn kết nối và phiên ổn định.",
+					"1": "Cải thiện tốc độ và hiệu suất trang web.",
+					"2": "Thu thập phân tích ẩn danh để chúng tôi có thể hiểu cách mọi người sử dụng trang web."
 				},
-				"outro": "您可以随时在浏览器中关闭非必要的cookies。但是，如果您阻止了必要的cookies，您可能会在游戏或钱包连接方面遇到问题。"
+				"outro": "Bạn có thể tắt cookie không thiết yếu trong trình duyệt bất cứ khi nào bạn muốn. Tuy nhiên, nếu bạn chặn cookie thiết yếu, bạn có thể gặp vấn đề với trò chơi hoặc kết nối ví."
 			},
 			"minAge": {
-				"title": "未成年人使用政策",
-				"intro": "{siteDomain} 禁止任何未满18岁或未达到其所在地区法定赌博年龄的人使用。",
-				"content": "如果我们发现有人是未成年人，我们将立即暂停该账户，作废任何奖金，并删除相关数据。\n致家长和监护人：",
+				"title": "Chính sách Sử dụng dưới độ tuổi",
+				"intro": "{siteDomain} cấm bất kỳ ai dưới 18 tuổi, hoặc dưới độ tuổi đánh bạc hợp pháp trong khu vực của họ.",
+				"content": "Nếu chúng tôi phát hiện ai đó chưa đủ tuổi, chúng tôi sẽ đình chỉ tài khoản ngay lập tức, hủy bỏ mọi khoản thắng và xóa dữ liệu liên quan. \nĐối với cha mẹ và người giám hộ:",
 				"items": {
-					"0": "在设备上使用密码保护。",
-					"1": "不要在共享设备上保存钱包信息。",
-					"2": "设置像NetNanny或GamBlock这样的工具来阻止赌博网站。"
+					"0": "Sử dụng bảo vệ mật khẩu trên thiết bị.",
+					"1": "Không lưu thông tin ví trên thiết bị dùng chung.",
+					"2": "Cài đặt các công cụ như NetNanny hoặc GamBlock để chặn các trang web cờ bạc."
 				}
 			},
 			"breach": {
-				"title": "数据泄露响应",
-				"content": "如果数据泄露威胁到您的权利或安全：",
+				"title": "Phản ứng Vi phạm Dữ liệu",
+				"content": "Nếu một vi phạm dữ liệu đe dọa quyền hoặc bảo mật của bạn:",
 				"items": {
-					"0": "我们将立即通知所有受影响的用户。",
-					"1": "我们将依法通知相关部门。",
-					"2": "我们将迅速采取行动解决问题并恢复安全。"
+					"0": "Chúng tôi sẽ cảnh báo tất cả người dùng bị ảnh hưởng ngay lập tức.",
+					"1": "Chúng tôi sẽ thông báo cho các cơ quan chức năng, tuân thủ pháp luật.",
+					"2": "Chúng tôi sẽ hành động nhanh chóng để khắc phục sự cố và khôi phục bảo mật."
 				}
 			},
 			"changes": {
-				"title": "政策更新",
-				"content": "我们会不时更新本隐私政策以应对运营、技术或法律的变化。重大变更将以通知或横幅的形式出现在网站上。请不时查看此页面以保持更新。"
+				"title": "Cập nhật Chính sách",
+				"content": "Chúng tôi cập nhật Chính sách bảo mật này theo thời gian khi mọi thứ thay đổi—dù là hoạt động, công nghệ hay luật pháp. Các thay đổi lớn sẽ hiển thị trên trang web dưới dạng thông báo hoặc banner. Kiểm tra trang này thỉnh thoảng để cập nhật thông tin."
 			},
 			"contact": {
-				"title": "联系我们",
-				"intro": "有关于您的数据的问题、隐私疑虑或请求吗？随时联系我们："
+				"title": "Liên hệ",
+				"intro": "Có câu hỏi, lo ngại về quyền riêng tư hoặc yêu cầu về dữ liệu của bạn? Hãy liên hệ bất cứ lúc nào:"
 			}
 		}
 	},
 	"terms": {
-		"title": "条款与条件 — {siteName} 加密赌场",
-		"lastUpdated": "最后更新：2025年1月",
+		"title": "Điều khoản & Điều kiện — {siteName} Sòng bạc Crypto",
+		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"sections": {
 			"ownership": {
-				"title": "谁运营 {siteDomain}",
-				"content1": "{siteDomain} 属于 {siteName} N.V.。这就是我们——当我们说“{siteName}”、“我们”、“我们的”或“我们”时，我们指的是网站背后的团队。",
-				"content2": "我们运营一个仅限钱包的加密赌场。所有存款、投注和取款都直接通过您自己的加密钱包进行。为了安全和方便访问，我们支持 Dynamic.xyz、WalletConnect 和 MetaMask。"
+				"title": "Ai Điều hành {siteDomain}",
+				"content1": "{siteDomain} thuộc về {siteName} N.V. Đó là chúng tôi—khi chúng tôi nói '{siteName},' 'chúng tôi,' 'của chúng tôi,' hoặc 'chúng ta,' chúng tôi đang nói về đội ngũ đứng sau trang web.",
+				"content2": "Chúng tôi vận hành một sòng bạc crypto chỉ dùng ví. Tất cả tiền nạp, cược và rút tiền đi thẳng qua ví crypto của riêng bạn. Để bảo mật và truy cập dễ dàng, chúng tôi hỗ trợ Dynamic.xyz, WalletConnect và MetaMask."
 			},
 			"notice": {
-				"title": "您同意的内容",
-				"content": "当您连接钱包或使用 {siteDomain} 时，即表示您同意：",
+				"title": "Bạn Đang Đồng Ý Với Điều Gì",
+				"content": "Khi bạn kết nối ví hoặc sử dụng {siteDomain}, bạn đồng ý với:",
 				"items": {
-					"0": "这些条款与条件",
-					"1": "我们的隐私政策",
-					"2": "我们的负责任博彩政策",
-					"3": "任何奖金、代理或促销条款",
-					"4": "{siteDomain} 上发布的所有其他规则或更新"
+					"0": "Các Điều khoản & Điều kiện này",
+					"1": "Chính sách Bảo mật của chúng tôi",
+					"2": "Chính sách Chơi game Có Trách nhiệm của chúng tôi",
+					"3": "Bất kỳ điều khoản thưởng, liên kết hoặc khuyến mãi nào",
+					"4": "Tất cả các quy tắc hoặc cập nhật khác được đăng trên {siteDomain}"
 				},
-				"content2": "如果您不接受这些条款，请不要使用 {siteDomain}。",
-				"outro": "在您玩游戏之前，确保加密博彩在您居住的地方是合法的，这是您的责任。"
+				"content2": "Nếu bạn không chấp nhận các điều khoản này, đừng sử dụng {siteDomain}.",
+				"outro": "Việc đảm bảo chơi game crypto được phép ở nơi bạn sống trước khi chơi là tùy thuộc vào bạn."
 			},
 			"general": {
-				"title": "基本原则",
+				"title": "Cơ bản",
 				"items": [
-					"一旦您连接了您的钱包，您即同意遵守此处的所有规则和指南。",
-					"这些条款是您与 {siteDomain} 之间具有约束力的协议。它们在您连接钱包或使用网站时立即生效。",
-					"我们可能随时根据需要更新这些条款。如果我们这样做，我们会在此处发布新版本，并立即生效。",
-					"如果这些条款与任何其他内容——奖金优惠、第三方内容等——发生冲突，以这些条款为准。",
-					"英文版本为官方版本。翻译仅为提供帮助。"
+					"Khi bạn kết nối ví, bạn đồng ý tuân theo mọi quy tắc và hướng dẫn tại đây.",
+					"Các điều khoản này là thỏa thuận ràng buộc giữa bạn và {siteDomain}. Chúng có hiệu lực ngay khi bạn kết nối ví hoặc sử dụng trang web.",
+					"Chúng tôi có thể cập nhật các điều khoản này bất cứ khi nào cần. Nếu làm vậy, chúng tôi sẽ đăng phiên bản mới tại đây và nó áp dụng ngay lập tức.",
+					"Nếu có mâu thuẫn giữa các điều khoản này và bất kỳ thứ gì khác—đề nghị thưởng, thứ của bên thứ ba, bất cứ gì—các điều khoản này sẽ thắng.",
+					"Phiên bản tiếng Anh là phiên bản chính thức. Bản dịch chỉ để hỗ trợ."
 				]
 			},
 			"account": {
-				"title": "您的钱包、登录和安全",
+				"title": "Ví, Đăng nhập và Bảo mật của Bạn",
 				"intro": "",
 				"walletLogin": {
-					"title": "钱包连接与所有权",
+					"title": "Kết nối Ví & Quyền sở hữu",
 					"items": [
-						"我们使用 Dynamic.xyz 和其他钱包连接器进行登录和身份验证。当您连接您的钱包时，您确认您拥有该钱包并允许我们将其链接到您的账户。",
-						"我们绝不会索要您的私钥、助记词或恢复信息。您钱包的安全由您自己负责。如果您因自己的设备而被钓鱼、被黑客攻击或失去访问权限，我们概不负责。"
+						"Chúng tôi sử dụng Dynamic.xyz và các trình kết nối ví khác để đăng nhập và xác thực. Khi bạn kết nối ví, bạn xác nhận bạn sở hữu nó và cho phép chúng tôi liên kết nó với tài khoản của bạn.",
+						"Chúng tôi sẽ không bao giờ hỏi khóa riêng tư, cụm từ hạt giống hoặc thông tin khôi phục của bạn. Bảo mật ví của bạn nằm trong tay bạn. Chúng tôi không chịu trách nhiệm nếu bạn bị lừa đảo, hack hoặc mất quyền truy cập do thiết bị của chính bạn."
 					]
 				},
 				"registration": {
-					"title": "电子邮件和账户详情",
+					"title": "Email & Chi tiết Tài khoản",
 					"items": [
-						"如果您需要帮助或更新，可以向我们提供电子邮件或用户名，但这是可选的。",
-						"您对您连接的钱包发生的一切负责。"
+						"Bạn có thể cung cấp email hoặc tên người dùng nếu muốn được trợ giúp hoặc cập nhật, nhưng đó là tùy chọn.",
+						"Bạn chịu trách nhiệm cho mọi thứ xảy ra với ví đã kết nối của mình."
 					]
 				},
 				"security": {
-					"title": "多个账户与安全",
+					"title": "Nhiều Tài khoản & Bảo mật",
 					"items": [
-						"每人坚持使用一个钱包/账户。如果您试图通过使用多个账户来滥用系统，我们可能会暂停您的账户并扣留您的资金。",
-						"如果您的钱包支持双重认证（2FA），请开启它。",
-						"如果出现任何异常情况，请立即发送电子邮件至 support@digidice.games。"
+						"Chỉ dùng một ví/tài khoản cho mỗi người. Nếu bạn cố gắng chơi khăm hệ thống bằng cách sử dụng nhiều hơn một, chúng tôi có thể đình chỉ tài khoản và giữ tiền của bạn.",
+						"Nếu ví của bạn hỗ trợ 2FA, hãy bật nó lên.",
+						"Nếu có gì đó không ổn, hãy gửi email cho chúng tôi tại support@digidice.games ngay lập tức."
 					]
 				}
 			},
 			"eligibility": {
-				"title": "谁可以玩以及您的承诺",
-				"intro": "通过使用 {siteDomain}，您承诺：",
+				"title": "Ai Có Thể Chơi và Bạn Hứa Gì",
+				"intro": "Bằng cách sử dụng {siteDomain}, bạn hứa:",
 				"items": [
-					"您至少年满18岁，或达到您所在地的法定博彩年龄。",
-					"在线加密博彩对您是合法的。",
-					"您拥有您所连接的钱包。",
-					"您不会使用VPN、代理或IP隐藏来规避地理区域限制。",
-					"您不会将 {siteName} 用于任何非法或可疑的活动。",
-					"您理解加密货币的波动性，并接受相关风险。"
+					"Bạn ít nhất 18 tuổi, hoặc bất kỳ độ tuổi đánh bạc hợp pháp nào ở nơi bạn sống.",
+					"Chơi game crypto trực tuyến là hợp pháp đối với bạn.",
+					"Bạn sở hữu ví mà bạn kết nối.",
+					"Bạn sẽ không sử dụng VPN, proxy hoặc che giấu IP để né tránh chặn địa lý.",
+					"Bạn sẽ không sử dụng {siteName} cho bất cứ điều gì bất hợp pháp hoặc mờ ám.",
+					"Bạn hiểu rằng crypto biến động, và bạn chấp nhận rủi ro."
 				],
-				"outro": "如果您违反任何这些承诺，我们可能会暂停或关闭您的账户，并在法律允许的情况下扣留您的资金。"
+				"outro": "Nếu bạn phá vỡ bất kỳ lời hứa nào trong số này, chúng tôi có thể đình chỉ hoặc đóng tài khoản của bạn và giữ tiền của bạn nếu luật pháp yêu cầu."
 			},
 			"restricted": {
-				"title": "您不能玩的地区",
-				"content1": "如果您身处在线赌博或加密投注受限的地区，则禁止使用 {siteDomain}。这些地区例如：美国、英国、法国、荷兰、西班牙、德国、澳大利亚、科摩罗、伊朗、朝鲜、叙利亚、苏丹以及FATF黑名单上的任何地方。",
-				"content2": "试图使用VPN或代理偷偷进入？不要这样做。如果您这样做，我们将关闭您的账户，您将失去您的资金。",
+				"title": "Nơi Bạn Không Thể Chơi",
+				"content1": "{siteDomain} bị cấm nếu bạn ở nơi hạn chế cờ bạc trực tuyến hoặc cá cược crypto. Điều đó có nghĩa là, ví dụ: Hoa Kỳ, Vương quốc Anh, Pháp, Hà Lan, Tây Ban Nha, Đức, Úc, Comoros, Iran, Bắc Triều Tiên, Syria, Sudan và bất kỳ nơi nào trong danh sách đen của FATF.",
+				"content2": "Cố gắng lẻn vào bằng VPN hoặc proxy? Đừng. Nếu bạn làm vậy, chúng tôi sẽ đóng tài khoản của bạn và bạn sẽ mất tiền.",
 				"content3": ""
 			},
 			"crypto": {
-				"title": "加密货币存款和取款",
+				"title": "Nạp và Rút tiền Crypto",
 				"policy": {
-					"title": "仅限加密货币",
+					"title": "Chỉ Crypto",
 					"items": [
-						"我们仅支持加密货币。您只能使用经批准的币种进行存款和取款：BTC、ETH、USDT、BNB、TRX等。不接受法定货币或银行卡支付。",
-						"所有交易必须来自您控制的钱包。不接受第三方或共享钱包。"
+						"Chúng tôi chỉ dùng crypto. Bạn có thể nạp và rút chỉ bằng các đồng tiền được chấp thuận: BTC, ETH, USDT, BNB, TRX và tương tự. Không thanh toán bằng tiền pháp định hoặc thẻ.",
+						"Tất cả các giao dịch phải đến từ ví mà bạn kiểm soát. Không dùng ví của bên thứ ba hoặc ví chung."
 					]
 				},
 				"deposits": {
-					"title": "存款",
+					"title": "Nạp tiền",
 					"items": [
-						"当您存款时，您的资金在区块链确认交易后出现。您需要支付网络（gas）费，而不是我们。最低存款额为价值10美元的加密货币。我们可能会拒绝来自黑名单或高风险钱包的存款。",
+						"Khi bạn nạp tiền, tiền của bạn sẽ hiện ra sau khi blockchain xác nhận giao dịch. Bạn chịu phí mạng (gas), không phải chúng tôi. Mức nạp tối thiểu là $10 bằng crypto. Chúng tôi có thể từ chối nạp tiền từ các ví trong danh sách đen hoặc rủi ro.",
 						""
 					]
 				},
 				"withdrawals": {
-					"title": "取款",
+					"title": "Rút tiền",
 					"items": [
-						"取款直接进入您选择的钱包。请确保它与正确的区块链兼容。最低取款额通常为10美元，具体取决于费用。我们可能会因欺诈检查或安全原因延迟取款。",
-						"所有区块链交易都是最终的。一旦确认，我们无法取消、退款或更改它们。"
+						"Tiền rút đi thẳng vào ví bạn chọn. Đảm bảo nó hoạt động với đúng blockchain. Mức rút tối thiểu thường là $10, tùy thuộc vào phí. Chúng tôi có thể trì hoãn rút tiền để kiểm tra gian lận hoặc bảo mật.",
+						"Tất cả các giao dịch blockchain là cuối cùng. Chúng tôi không thể hủy, hoàn tiền hoặc thay đổi chúng sau khi đã xác nhận."
 					]
 				},
 				"chargebacks": {
@@ -1743,102 +1745,102 @@
 				}
 			},
 			"kyc": {
-				"title": "无KYC政策",
-				"intro": "{siteDomain} 采用无KYC模式，因此您可以在常规游戏中无需身份验证即可玩。",
-				"content1": "但有时，{siteName} 可能会在以下情况下要求提供一些信息：",
+				"title": "CHÍNH SÁCH KHÔNG KYC",
+				"intro": "{siteDomain} chạy trên mô hình Không KYC, vì vậy bạn có thể chơi mà không cần kiểm tra ID cho các trò chơi thông thường.",
+				"content1": "Nhưng đôi khi, {siteName} có thể yêu cầu một chút thông tin nếu:",
 				"items": [
-					"法律或权威机构要求。",
-					"他们需要调查欺诈或可疑行为。",
-					"为确保平台安全或满足监管要求所必需。"
+					"Luật pháp hoặc cơ quan chức năng yêu cầu.",
+					"Họ cần điều tra gian lận hoặc hành vi đáng ngờ.",
+					"Cần thiết để giữ an toàn cho nền tảng hoặc đáp ứng các quy định."
 				],
-				"outro": "如果您不配合合法的验证请求，您的账户可能会被暂停，或您的取款可能会被延迟。"
+				"outro": "Nếu bạn không hợp tác với yêu cầu xác minh hợp pháp, tài khoản của bạn có thể bị đình chỉ hoặc việc rút tiền có thể bị trì hoãn."
 			},
 			"fairPlay": {
-				"title": "公平游戏、行为与安全",
-				"intro": "您不可以：",
+				"title": "CHƠI CÔNG BẰNG, ỨNG XỬ & BẢO MẬT",
+				"intro": "Bạn không thể:",
 				"items": [
-					"使用机器人、脚本或自动播放工具。",
-					"与他人合谋操纵结果。",
-					"利用漏洞或智能合约的漏洞。",
-					"滥用奖金、推荐或促销活动。"
+					"Sử dụng bot, kịch bản hoặc công cụ tự động chơi.",
+					"Hợp tác với người khác để dàn xếp kết quả.",
+					"Lợi dụng lỗi hoặc lỗ hổng hợp đồng thông minh.",
+					"Lạm dụng tiền thưởng, giới thiệu hoặc khuyến mãi."
 				],
-				"outro1": "如果您违反这些规则，{siteName} 可能会永久封禁您的账户并没收您的余额。",
-				"outro2": "{siteName} 使用人工智能欺诈检测、行为分析和区块链检查来保持公平和安全。"
+				"outro1": "Nếu bạn phá vỡ các quy tắc này, {siteName} có thể cấm tài khoản của bạn vĩnh viễn và lấy số dư của bạn.",
+				"outro2": "{siteName} sử dụng AI phát hiện gian lận, phân tích hành vi và kiểm tra blockchain để giữ mọi thứ công bằng và an toàn."
 			},
 			"bonuses": {
-				"title": "奖金与促销",
+				"title": "TIỀN THƯỞNG & KHUYẾN MÃI",
 				"items": [
-					"每个奖金都遵循其与促销活动一起列出的条款。",
-					"如果您滥用奖金（例如创建额外账户、循环使用钱包或使用VPN），您将失去您的奖金。",
-					"您必须满足所有投注要求才能兑现奖金 winnings。"
+					"Mỗi khoản thưởng tuân theo bộ quy tắc riêng được liệt kê cùng với khuyến mãi.",
+					"Nếu bạn lạm dụng tiền thưởng (như tạo thêm tài khoản, xoay vòng ví hoặc dùng VPN), bạn sẽ mất tiền thưởng.",
+					"Bạn phải đáp ứng tất cả các yêu cầu đặt cược trước khi có thể rút tiền thắng cược từ tiền thưởng."
 				]
 			},
 			"playingRules": {
-				"title": "游戏规则与结果",
+				"title": "QUY TẮC TRÒ CHƠI & KẾT QUẢ",
 				"items": [
-					"您的投注只有在屏幕上看到确认为后才算数。如果您的余额不足以支付，则投注无效。",
-					"如果发生争议，{siteName} 的区块链记录为最终依据。",
-					"所有可证明公平的游戏都使用链上随机性来保持透明。",
+					"Cược của bạn chỉ được tính sau khi bạn thấy xác nhận trên màn hình. Nếu số dư của bạn không đủ, cược sẽ bị hủy.",
+					"Nếu có tranh chấp, hồ sơ blockchain của {siteName} là cuối cùng.",
+					"Tất cả các trò chơi được chứng minh công bằng sử dụng tính ngẫu nhiên trên chuỗi để duy trì tính minh bạch.",
 					""
 				]
 			},
 			"errors": {
-				"title": "限制与中断",
-				"intro": "{siteName} 不对以下情况负责：",
+				"title": "GIỚI HẠN & GIÁN ĐOẠN",
+				"intro": "{siteName} không chịu trách nhiệm cho:",
 				"items": [
-					"互联网中断或延迟。",
-					"区块链延迟或分叉。",
-					"第三方钱包停机。",
-					"智能合约或游戏提供商的故障。"
+					"Mất internet hoặc lag.",
+					"Chậm trễ blockchain hoặc fork.",
+					"Thời gian chết của ví từ bên thứ ba.",
+					"Lỗi hợp đồng thông minh hoặc nhà cung cấp trò chơi."
 				],
-				"outro1": "{siteName} 如果技术问题或漏洞导致问题，可以使投注或交易无效。"
+				"outro1": "{siteName} có thể hủy cược hoặc giao dịch nếu sự cố kỹ thuật hoặc khai thác lỗi làm hỏng mọi thứ."
 			},
 			"suspension": {
-				"title": "账户暂停与资金",
-				"intro": "{siteName} 可能因以下原因暂停或关闭账户：",
-				"items": ["违反规则", "欺诈", "法律原因。"],
-				"outro1": "任何剩余资金将根据法律和 {siteName} 的政策处理。",
+				"title": "ĐÌNH CHỈ TÀI KHOẢN & QUỸ",
+				"intro": "{siteName} có thể đình chỉ hoặc đóng tài khoản vì:",
+				"items": ["Phá vỡ quy tắc", "Gian lận", "Lý do pháp lý."],
+				"outro1": "Bất kỳ khoản tiền nào còn lại sẽ được xử lý theo luật pháp và chính sách của {siteName}.",
 				"outro2": ""
 			},
 			"responsibleGaming": {
-				"title": "负责任的博彩",
+				"title": "CỜ BẠC CÓ TRÁCH NHIỆM",
 				"items": [
-					"{siteName} 支持负责任的博彩。如果您需要休息，请发送电子邮件至 support@digidice.games 进行自我排除或冷静期。",
-					"任何未满18岁或未达到法定年龄的人都不得玩游戏。发现违反此规则的账户将立即被关闭。",
+					"{siteName} hỗ trợ cờ bạc có trách nhiệm. Nếu bạn cần nghỉ ngơi, hãy gửi email support@digidice.games để tự loại trừ hoặc hạ nhiệt.",
+					"Không ai dưới 18 tuổi hoặc dưới độ tuổi hợp pháp được chơi. Các tài khoản bị phát hiện phá vỡ quy tắc này sẽ bị đóng ngay lập tức.",
 					""
 				]
 			},
 			"ip": {
-				"title": "知识产权",
-				"content1": "所有商标、图形、内容和软件均属于 {siteName} 或其许可方。您只能将其用于个人娱乐。未经许可不得复制或分享。",
+				"title": "SỞ HỮU TRÍ TUỆ",
+				"content1": "Tất cả thương hiệu, đồ họa, nội dung và phần mềm thuộc về {siteName} hoặc người cấp phép của nó. Bạn chỉ có thể sử dụng chúng cho mục đích giải trí cá nhân. Không sao chép hoặc chia sẻ chúng mà không được phép.",
 				"content2": ""
 			},
 			"liability": {
-				"title": "责任限制",
+				"title": "GIỚI HẠN TRÁCH NHIỆM",
 				"items": [
-					"{siteName} 不对间接或意外损害负责——例如利润损失。",
-					"如果有索赔，{siteName} 将赔偿的最高金额是您最近一次的存款额。",
+					"{siteName} không chịu trách nhiệm cho các thiệt hại gián tiếp hoặc không mong muốn—như mất lợi nhuận.",
+					"Nếu có khiếu nại, mức tối đa {siteName} sẽ chi trả là khoản nạp gần nhất của bạn.",
 					""
 				]
 			},
 			"disputes": {
-				"title": "争议解决",
-				"content": "如果您有投诉或争议，请联系 {siteDomain}。他们的目标是快速、公正地解决问题。"
+				"title": "GIẢI QUYẾT TRANH CHẤP",
+				"content": "Nếu bạn có khiếu nại hoặc tranh chấp, hãy liên hệ với {siteDomain}. Họ nhắm đến việc giải quyết mọi thứ nhanh chóng và công bằng."
 			},
 			"amendments": {
-				"title": "修订",
-				"content": "{siteName} 可能随时更改这些条款。最新版本始终在 https://{siteDomain}。使用本网站即表示您接受任何更新。"
+				"title": "SỬA ĐỔI",
+				"content": "{siteName} có thể thay đổi các Điều khoản này bất cứ lúc nào. Phiên bản mới nhất luôn có tại https://{siteDomain}. Bằng cách sử dụng trang web, bạn chấp nhận mọi cập nhật."
 			},
 			"miscellaneous": {
-				"title": "其他",
+				"title": "KHÁC",
 				"items": [
-					"这些条款是您与 {siteName} 之间的完整协议。如果任何部分无效，其余部分仍然有效。{siteName} 可以转让或委托其权利，但用户不能。",
+					"Các Điều khoản này là toàn bộ thỏa thuận giữa bạn và {siteName}. Nếu bất kỳ phần nào không giữ vững, phần còn lại vẫn có hiệu lực. {siteName} có thể chuyển nhượng hoặc ủy quyền quyền của mình, nhưng người dùng thì không.",
 					"",
 					""
 				]
 			},
 			"contact": {
-				"title": "联系方式",
+				"title": "LIÊN HỆ",
 				"intro": "{siteDomain}",
 				"supportEmail": "",
 				"affiliateEmail": "",
@@ -1847,88 +1849,88 @@
 		}
 	},
 	"responsibleGambling": {
-		"title": "在 {siteName} 负责任地博彩",
-		"subtitle": "了解在 {siteName} 的负责任博彩。保持控制，负责任地玩，并通过全球帮助组织获得支持。",
-		"lastUpdated": "最后更新：2025年1月",
+		"title": "Cờ bạc có trách nhiệm tại {siteName}",
+		"subtitle": "Tìm hiểu về cờ bạc có trách nhiệm tại {siteName}. Giữ kiểm soát, chơi có trách nhiệm và nhận hỗ trợ thông qua các tổ chức trợ giúp toàn cầu.",
+		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"intro": {
-			"title": "在 {siteName} 负责任地博彩",
-			"paragraph1": "在 {siteName}，我们希望游戏是有趣、公平且始终负责任的。我们的主要目标是什么？确保每位玩家都能享受美好时光——同时保持知情、安全和可控。",
-			"paragraph2": "我们不允许任何未满18岁（或低于其所在国家法定年龄）的人玩游戏。句号。"
+			"title": "Cờ bạc có trách nhiệm tại {siteName}",
+			"paragraph1": "Tại {siteName}, chúng tôi muốn việc chơi game trở nên thú vị, công bằng và luôn có trách nhiệm. Mục tiêu chính của chúng tôi? Đảm bảo mọi người chơi đều có khoảng thời gian tuyệt vời—trong khi vẫn được thông tin, an toàn và trong tầm kiểm soát.",
+			"paragraph2": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi (hoặc dưới độ tuổi hợp pháp ở quốc gia của họ) chơi. Chấm hết."
 		},
 		"mission": {
-			"title": "我们的使命很简单：",
-			"paragraph1": "负责任的博彩对我们来说不仅仅是一条规则——它是我们工作的核心。我们致力于建立一个透明、安全、由加密货币驱动的空间，在这里您可以做出明智、平衡的选择。",
-			"paragraph2": "我们主张：",
+			"title": "Sứ mệnh của chúng tôi đơn giản:",
+			"paragraph1": "Chơi game có trách nhiệm không chỉ là một quy tắc đối với chúng tôi—nó nằm ở trung tâm của những gì chúng tôi làm. Chúng tôi cam kết xây dựng một không gian minh bạch, an toàn, được hỗ trợ bởi crypto nơi bạn có thể đưa ra những lựa chọn thông minh, cân bằng.",
+			"paragraph2": "Chúng tôi ủng hộ:",
 			"beliefs": {
-				"0": "将赌博视为娱乐，而非赚钱方式",
-				"1": "自我意识、适度和明智的游戏",
-				"2": "提供工具、教育和接触全球真实帮助组织的渠道"
+				"0": "Cờ bạc như một hình thức giải trí, không phải cách kiếm tiền",
+				"1": "Tự nhận thức, điều độ và chơi thông minh",
+				"2": "Công cụ, giáo dục và quyền truy cập vào các tổ chức trợ giúp thực sự trên toàn thế giới"
 			}
 		},
 		"understanding": {
-			"title": "负责任的博彩：它真正的含义",
-			"paragraph1": "加密游戏快速、无国界，触手可及。这很令人兴奋，但也意味着您需要保持警惕。负责任的博彩不仅仅是一个时髦的词——它关乎了解您的极限，关注您的时间和加密货币，并确保游戏保持乐趣，而不是您无法摆脱的东西。",
-			"paragraph2": "以下是如何保持安全和乐趣的方法：",
+			"title": "Cờ bạc có trách nhiệm: Ý nghĩa thực sự",
+			"paragraph1": "Chơi game crypto nhanh chóng, không biên giới và ngay trong tầm tay bạn. Điều đó thật thú vị, nhưng nó cũng có nghĩa là bạn cần phải cảnh giác. Cờ bạc có trách nhiệm không chỉ là một từ thông dụng — đó là về việc biết giới hạn của bạn, để mắt đến thời gian và tiền crypto của bạn, và đảm bảo việc chơi game vẫn thú vị, không phải thứ gì đó bạn không thể rời bỏ.",
+			"paragraph2": "Dưới đây là cách giữ mọi thứ an toàn và vui vẻ:",
 			"tips": {
-				"0": "为刺激而玩，而不是为了赚钱。",
-				"1": "不要追逐您的损失。如果您感到沮丧，请暂时离开。",
-				"2": "为您玩多长时间和存入多少钱设定自己的限制。",
-				"3": "如果您感到疲倦、有压力或心烦意乱，请休息一下而不是玩游戏。",
-				"4": "切勿用您需要支付房租、食物或任何必需品的钱来赌博。",
-				"5": "当乐趣消失时，按下暂停并重置。"
+				"0": "Chơi vì cảm giác hồi hộp, không phải để kiếm tiền.",
+				"1": "Đừng đuổi theo những trận thua. Nếu bạn nản lòng, hãy tránh xa một chút.",
+				"2": "Đặt giới hạn riêng của bạn về thời gian chơi và số tiền nạp.",
+				"3": "Nếu bạn mệt mỏi, căng thẳng hoặc buồn bã, hãy nghỉ ngơi thay vì chơi.",
+				"4": "Không bao giờ đánh bạc bằng tiền bạn cần cho tiền thuê nhà, thức ăn hoặc bất cứ thứ gì thiết yếu.",
+				"5": "Khi niềm vui không còn, hãy nhấn tạm dừng và thiết lập lại."
 			}
 		},
 		"selfCheck": {
-			"title": "快速自检：您是否仍在控制之中？",
-			"intro": "对自己诚实：",
+			"title": "Tự kiểm tra nhanh: Bạn vẫn đang kiểm soát chứ?",
+			"intro": "Hãy trung thực với bản thân:",
 			"questions": {
-				"0": "您最终玩的时间是否比您预期的要长？",
-				"1": "游戏是否对您的工作或人际关系造成了影响？",
-				"2": "当您不能玩游戏时，您是否会感到烦躁或恼怒？",
-				"3": "您是否只是为了逃避压力或无聊而赌博？",
-				"4": "您是否曾为了继续玩而借用加密货币？",
-				"5": "您是否在输钱后提高赌注，希望赢回所有？"
+				"0": "Bạn có chơi lâu hơn dự định không?",
+				"1": "Việc chơi game có ảnh hưởng đến công việc hoặc các mối quan hệ của bạn không?",
+				"2": "Bạn có bồn chồn hoặc khó chịu khi không thể chơi không?",
+				"3": "Bạn có đang đánh bạc chỉ để thoát khỏi căng thẳng hoặc buồn chán không?",
+				"4": "Bạn có vay mượn crypto chỉ để tiếp tục chơi không?",
+				"5": "Bạn có tăng cược sau khi thua, hy vọng giành lại tất cả không?"
 			},
-			"warning": "如果您对其中几个问题回答了“是”，那么可能是时候退一步或与某人谈谈了。"
+			"warning": "Nếu bạn trả lời \"có\" cho một vài câu hỏi này, có lẽ đã đến lúc lùi lại hoặc nói chuyện với ai đó về điều đó."
 		},
 		"tools": {
-			"title": "{siteName} 如何关心您",
-			"intro": "我们希望您玩得开心，但我们更关心您的福祉。这就是为什么 {siteName} 为您提供工具来安全游戏并注意您的支出。",
+			"title": "Cách {siteName} quan tâm đến bạn",
+			"intro": "Chúng tôi muốn bạn vui vẻ, nhưng chúng tôi quan tâm đến sức khỏe của bạn hơn nữa. Đó là lý do tại sao {siteName} cung cấp cho bạn các công cụ để chơi an toàn và nhận thức về chi tiêu của mình.",
 			"selfExclusion": {
-				"title": "自我排除",
-				"description": "您可以要求临时或永久封锁您的账户。在此期间，您将无法玩游戏或接收我们的促销活动。只需发送电子邮件至 support@{siteDomain}——一切都将保密。"
+				"title": "Tự loại trừ",
+				"description": "Bạn có thể yêu cầu chặn tài khoản của mình tạm thời hoặc vĩnh viễn. Trong thời gian đó, bạn sẽ không thể chơi hoặc nhận khuyến mãi của chúng tôi. Chỉ cần gửi email support@{siteDomain} — mọi thứ đều được giữ kín."
 			},
 			"coolingOff": {
-				"title": "冷静期",
-				"paragraph1": "需要喘口气吗？选择一个适合您的暂停时间：",
+				"title": " Thời gian hạ nhiệt",
+				"paragraph1": "Cần nghỉ ngơi? Chọn thời gian tạm dừng phù hợp với bạn:",
 				"periods": {
-					"0": "24小时",
-					"1": "1周",
-					"2": "1个月"
+					"0": "24 giờ",
+					"1": "1 tuần",
+					"2": "1 tháng"
 				},
-				"paragraph2": "当您处于暂停期间，您的钱包将无法用于游戏。"
+				"paragraph2": "Trong khi bạn đang tạm dừng, ví của bạn sẽ không hoạt động cho việc chơi game."
 			},
 			"depositAwareness": {
-				"title": "加密货币存款意识",
-				"description": "{siteName} 完全在区块链上运行。我们建议您密切关注您的钱包或区块浏览器来跟踪您的存款和投注。"
+				"title": "Nhận thức về nạp tiền Crypto",
+				"description": "{siteName} chạy hoàn toàn trên blockchain. Chúng tôi khuyên bạn nên để mắt đến ví của mình hoặc trình khám phá khối để theo dõi các khoản nạp và cược của mình."
 			}
 		},
 		"underagePrevention": {
-			"title": "防止未成年人参与",
-			"paragraph1": "我们不允许任何未满18岁的人玩游戏、存款或注册。句号。",
-			"tipsTitle": "致家长和监护人：",
+			"title": "Ngăn chặn trẻ vị thành niên",
+			"paragraph1": "Chúng tôi không cho phép bất kỳ ai dưới 18 tuổi chơi, nạp tiền hoặc đăng ký. Chấm hết.",
+			"tipsTitle": "Dành cho cha mẹ và người giám hộ:",
 			"tips": {
-				"0": "设置密码并使用家长控制。",
-				"1": "不要在共享设备上保存钱包信息。",
-				"2": "在您不在时注销 {siteName}。",
-				"3": "安装像NetNanny或GamBlock这样的网络过滤器来阻止访问。",
-				"4": "定期检查您的孩子在网上做什么。"
+				"0": "Đặt mật khẩu và sử dụng kiểm soát của phụ huynh.",
+				"1": "Không lưu thông tin ví trên thiết bị dùng chung.",
+				"2": "Đăng xuất khỏi {siteName} khi bạn không ở gần.",
+				"3": "Cài đặt bộ lọc web như NetNanny hoặc GamBlock để chặn truy cập.",
+				"4": "Thường xuyên kiểm tra xem con bạn làm gì trực tuyến."
 			},
-			"warning": "如果我们发现有未成年人玩游戏，我们将关闭该账户并没收任何奖金。"
+			"warning": "Nếu chúng tôi phát hiện trẻ vị thành niên chơi, chúng tôi sẽ đóng tài khoản đó và tịch thu mọi khoản thắng."
 		},
 		"helpSupport": {
-			"title": "需要帮助吗？您并不孤单",
-			"intro": "如果赌博开始占据您的生活，外面有真正的帮助——免费、保密且不带评判。请查看这些全球组织以获得支持：",
+			"title": "Cần giúp đỡ? Bạn không đơn độc",
+			"intro": "Nếu cờ bạc bắt đầu chiếm lĩnh, có sự trợ giúp thực sự ngoài kia — miễn phí, riêng tư và không phán xét.|Kiểm tra các tổ chức toàn cầu này để được hỗ trợ:",
 			"organizations": {
 				"0": {
 					"name": "GamCare",
@@ -1951,154 +1953,154 @@
 					"url": "https://www.gamtalk.org"
 				}
 			},
-			"paragraph2": "他们提供自我测试、在线聊天以及来自理解您处境的人的支持。"
+			"paragraph2": "Họ cung cấp các bài tự kiểm tra, chat trực tuyến và hỗ trợ từ những người hiểu rõ."
 		},
 		"principles": {
-			"title": "我们的承诺：始终负责任地博彩",
-			"intro": "以下是 {siteName} 所代表的：",
+			"title": "Lời hứa của chúng tôi: Luôn chơi game có trách nhiệm",
+			"intro": "Đây là những gì {siteName} đại diện:",
 			"items": {
 				"0": {
-					"title": "透明度",
-					"description": "每一款游戏都经过可证明的公平性验证，并在区块链上公开。"
+					"title": "Minh bạch",
+					"description": "Mọi trò chơi đều được chứng minh công bằng và mở trên blockchain."
 				},
 				"1": {
-					"title": "安全性",
-					"description": "通过Dynamic.xyz进行基于钱包的登录——无需密码，无需KYC，完全保护隐私。"
+					"title": "Bảo mật",
+					"description": "Đăng nhập dựa trên ví với Dynamic.xyz — không mật khẩu, không KYC, riêng tư hoàn toàn."
 				},
 				"2": {
-					"title": "控制权",
-					"description": "您决定何时玩或休息。"
+					"title": "Kiểm soát",
+					"description": "Bạn quyết định khi nào chơi hoặc nghỉ ngơi."
 				},
 				"3": {
-					"title": "意识",
-					"description": "我们向您展示如何保持健康的游戏习惯。"
+					"title": "Nhận thức",
+					"description": "Chúng tôi chỉ cho bạn cách giữ cho việc chơi game của mình lành mạnh."
 				},
 				"4": {
-					"title": "支持",
-					"description": "我们的团队24/7随时为您提供自我排除或建议方面的帮助。"
+					"title": "Hỗ trợ",
+					"description": "Đội ngũ của chúng tôi ở đây 24/7 để giúp tự loại trừ hoặc tư vấn."
 				}
 			}
 		},
 		"playSmart": {
-			"title": "别忘了：聪明地玩，安全地玩",
-			"intro": "{siteName} 关乎乐趣和自由，绝不涉及压力或财务困扰。请遵守以下基本原则：",
+			"title": "Đừng quên: Chơi Thông Minh, Chơi An Toàn",
+			"intro": "{siteName} là về niềm vui và sự tự do, không bao giờ là áp lực hay căng thẳng tài chính. Hãy tuân thủ những điều cơ bản này:",
 			"reminders": {
-				"0": "提前设定您的限额。",
-				"1": "当它不再有趣时就离开。",
-				"2": "切勿追逐您的损失。",
-				"3": "将赌博与您的常规财务分开。",
-				"4": "将任何奖金视为额外奖励，而非薪水。"
+				"0": "Đặt giới hạn của bạn trước.",
+				"1": "Rời đi khi nó không còn vui nữa.",
+				"2": "Không bao giờ đuổi theo những trận thua.",
+				"3": "Giữ cờ bạc tách biệt khỏi tài chính thông thường của bạn.",
+				"4": "Coi mọi khoản thắng như một phần thưởng, không phải tiền lương."
 			}
 		},
 		"finalMessage": {
-			"paragraph1": "您的福祉至上。如果游戏开始感觉像个问题，请联系我们。我们随时在 {siteDomain} 为您服务。",
+			"paragraph1": "Sức khỏe của bạn là trên hết. Nếu việc chơi game bắt đầu cảm thấy như một vấn đề, hãy liên hệ. Chúng tôi luôn ở đây tại {siteDomain}.",
 			"paragraph2": "",
 			"contact": ""
 		}
 	},
 	"faqs": {
-		"title": "常见问题 – {siteName}",
-		"subtitle": "查找有关 {siteName} 的常见问题解答。了解钱包登录、存款、取款、公平游戏和区块链透明度。",
-		"introTitle": "常见问题 – {siteName}",
-		"intro": "嘿，欢迎来到 {siteName} 的常见问题解答。如果您对我们的加密游戏平台如何运作感到好奇，那么您来对地方了。无论您是区块链游戏的新手还是经验丰富的老手，您都可以在这里找到答案，帮助您聪明、安全地玩游戏。如果您没有看到您的问题，请联系我们——我们的支持团队随时在 {siteDomain} 为您服务。",
-		"lastUpdated": "最后更新：2025年1月",
+		"title": "Câu hỏi thường gặp – {siteName}",
+		"subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về {siteName}. Tìm hiểu về đăng nhập ví, nạp tiền, rút tiền, chơi công bằng và minh bạch blockchain.",
+		"introTitle": "Câu hỏi thường gặp – {siteName}",
+		"intro": "Này, chào mừng đến với Câu hỏi thường gặp của {siteName}. Nếu bạn tò mò về cách nền tảng game crypto của chúng tôi hoạt động, bạn đã đến đúng nơi. Dù bạn mới làm quen với game blockchain hay đã chơi nhiều, bạn sẽ tìm thấy câu trả lời ở đây để giúp bạn chơi thông minh và an toàn.|Và nếu bạn không thấy câu hỏi của mình, chỉ cần liên hệ — đội ngũ hỗ trợ của chúng tôi luôn túc trực tại {siteDomain}.",
+		"lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2025",
 		"blockchainTransparency": {
-			"title": "🧩 区块链透明度",
-			"paragraph1": "{siteName} 完全在区块链智能合约上运行。每一次下注、赢利和支付都是公开的——任何人都可以查看记录。",
-			"paragraph2": "想亲眼看看吗？所有 {siteName} 的交易都在：",
+			"title": "🧩 Minh bạch Blockchain",
+			"paragraph1": "{siteName} chạy hoàn toàn trên các hợp đồng thông minh blockchain.|Mọi cược, thắng và thanh toán đều công khai—bất kỳ ai cũng có thể kiểm tra hồ sơ.",
+			"paragraph2": "Muốn tự mình xem? Tất cả giao dịch {siteName} đều có trên:",
 			"explorersTitle": "",
-			"guarantee": "这样，您就知道一切都是公平和光明正大的。"
+			"guarantee": "Bằng cách này, bạn biết mọi thứ đều công bằng và minh bạch."
 		},
 		"categories": {
 			"accountRegistration": {
-				"title": "账户与注册",
+				"title": "Tài khoản & Đăng ký",
 				"items": {
 					"0": {
-						"question": "我可以在 {siteName} 上注册吗？",
-						"answer": "如果您年满18岁（或在您居住的地方达到合法赌博年龄），您就可以在 {siteName} 上玩。在开始之前，请确保加密游戏在您居住的地方是合法的。注册很简单。没有表格，没有密码，没有电子邮件的麻烦。只需通过 Dynamic.xyz 连接您的加密钱包，您就可以开始了。想了解更多关于谁有资格的信息吗？请查看我们的条款与条件。",
-						"reminder": "温馨提示：赌博可能会上瘾。请负责任地玩，并了解自己的限度。"
+						"question": "Tôi có thể đăng ký trên {siteName} không?",
+						"answer": "Nếu bạn từ 18 tuổi trở lên (hoặc đủ tuổi đánh bạc ở nơi bạn sống), bạn có thể chơi trên {siteName}. Trước khi tham gia, hãy chắc chắn rằng game crypto thực sự hợp pháp ở nơi bạn sống.|Đăng ký rất dễ dàng. Không biểu mẫu, không mật khẩu, không rắc rối email. Chỉ cần kết nối ví crypto của bạn qua Dynamic.xyz và bạn đã vào.|Muốn biết thêm về ai đủ điều kiện? Hãy xem Điều khoản & Điều kiện của chúng tôi.",
+						"reminder": "Một lời nhắc nhanh: cờ bạc có thể gây nghiện. Vui lòng chơi có trách nhiệm và biết giới hạn của bạn."
 					},
 					"1": {
-						"question": "如果我无法访问我的账户怎么办？",
-						"answer": "我们使用基于钱包的登录。因此，没有用户名，也没有密码可以恢复。要重新进入，只需使用您以前使用的相同钱包地址重新连接。无法访问您的钱包？使用您的助记词或恢复文件来恢复它。为了您的安全，我们从不存储私钥，也无法为您恢复丢失的钱包。"
+						"question": "Nếu tôi mất quyền truy cập vào tài khoản thì sao?",
+						"answer": "Chúng tôi sử dụng đăng nhập dựa trên ví. Vì vậy, không có tên người dùng, không có mật khẩu để khôi phục. Để vào lại, chỉ cần kết nối lại với cùng địa chỉ ví bạn đã sử dụng trước đó.|Mất quyền truy cập vào ví của bạn? Sử dụng cụm từ hạt giống hoặc tệp khôi phục để khôi phục nó.|Để bảo mật cho bạn, chúng tôi không bao giờ lưu trữ khóa riêng tư và không thể khôi phục ví bị mất cho bạn."
 					},
 					"2": {
-						"question": "我可以更改我的钱包或用户名吗？",
-						"answer": "您的账户直接与您的钱包绑定。如果您想使用新钱包，请连接一个不同的钱包。请记住——您的余额、VIP状态和奖励都与您的旧钱包绑定。它们不会自动转移。"
+						"question": "Tôi có thể đổi ví hoặc tên người dùng không?",
+						"answer": "Tài khoản của bạn gắn liền trực tiếp với ví của bạn. Nếu bạn muốn sử dụng ví mới, hãy kết nối ví khác. Chỉ cần nhớ rằng — số dư, trạng thái VIP và phần thưởng của bạn vẫn ở lại với ví cũ. Chúng không tự động chuyển sang."
 					},
 					"3": {
-						"question": "我如何成为VIP会员？",
-						"answer": "我们的VIP俱乐部仅限受邀者参加。随着您玩得越多，参与度越高，我们会跟踪您的活动。一旦您符合资格，我们会直接在平台上向您发送个人邀请。VIP福利包括：更高的奖励、更快的提款、个性化的奖金"
+						"question": "Làm thế nào để trở thành thành viên VIP?",
+						"answer": "Câu lạc bộ VIP của chúng tôi chỉ dành cho người được mời. Khi bạn chơi và tham gia nhiều hơn, chúng tôi theo dõi hoạt động của bạn. Khi bạn đủ điều kiện, chúng tôi sẽ gửi cho bạn lời mời cá nhân ngay trên nền tảng.|Đặc quyền VIP bao gồm:|Phần thưởng cao hơn|Rút tiền nhanh hơn|Bonus cá nhân hóa"
 					}
 				}
 			},
 			"depositsWithdrawals": {
-				"title": "存款与取款",
+				"title": "Nạp tiền & Rút tiền",
 				"items": {
 					"0": {
-						"question": "我如何存入加密货币？",
-						"answer": "存款既快速又安全，而且完全在链上进行。方法如下：在您的仪表板上打开我的钱包。点击存款并选择您的币种（BTC、ETH、USDT、BNB等）。复制地址或扫描二维码。从您的个人钱包发送您的加密货币。一旦您的交易在区块链上获得足够的确认，您的资金就会自动显示出来。",
-						"reminder": "在发送任何东西之前，请仔细检查您是否使用了正确的网络（ERC20、TRC20、BEP20等）。"
+						"question": "Làm thế nào để nạp crypto?",
+						"answer": "Nạp tiền nhanh chóng và an toàn, và tất cả đều diễn ra trên chuỗi. Đây là cách làm:|Mở Ví của tôi trên bảng điều khiển.|Nhấn Nạp tiền và chọn đồng tiền của bạn (BTC, ETH, USDT, BNB, v.v.).|Sao chép địa chỉ hoặc quét mã QR.|Gửi crypto từ ví cá nhân của bạn.|Khi giao dịch của bạn nhận đủ xác nhận trên blockchain, tiền của bạn sẽ tự động hiển thị.",
+						"reminder": "Kiểm tra kỹ xem bạn có đang sử dụng đúng mạng (ERC20, TRC20, BEP20, v.v.) trước khi gửi bất cứ thứ gì không."
 					},
 					"1": {
-						"question": "存款需要多长时间？",
-						"answer": "通常，存款会在5到10分钟内显示出来，具体取决于网络流量和费用。您可以使用像Etherscan.io或BscScan.com这样的区块链浏览器来跟踪您的交易。我们在三次确认后记入您的资金。"
+						"question": "Nạp tiền mất bao lâu?",
+						"answer": "Thông thường, tiền nạp hiển thị trong 5 đến 10 phút, tùy thuộc vào lưu lượng mạng và phí. Bạn có thể theo dõi giao dịch của mình bằng trình khám phá blockchain như Etherscan.io hoặc BscScan.com.|Chúng tôi ghi có tiền cho bạn sau ba xác nhận."
 					},
 					"2": {
-						"question": "最低取款限额是多少？",
-						"answer": "每种加密货币都有自己的最低取款金额。您将在取款部分看到确切的数字。这取决于币种和网络费用。"
+						"question": "Giới hạn rút tiền tối thiểu là bao nhiêu?",
+						"answer": "Mỗi loại crypto có số tiền rút tối thiểu riêng. Bạn sẽ thấy các con số chính xác trong phần Rút tiền. Nó phụ thuộc vào đồng tiền và phí mạng."
 					},
 					"3": {
-						"question": "我如何提取奖金？",
-						"answer": "要取款：进入我的钱包并点击取款。输入您希望将加密货币发送到的地方以及您想提取的金额。仔细检查地址和网络。确认您的交易。一旦在链上确认，取款是即时的。您将在几分钟内看到您的资金。",
-						"reminder": "始终使用支持您正在取款的网络的钱包。"
+						"question": "Làm thế nào để rút tiền thắng?",
+						"answer": "Để rút tiền:|Vào Ví của tôi và nhấn Rút tiền.|Nhập nơi bạn muốn gửi crypto và số tiền bạn muốn rút.|Kiểm tra kỹ địa chỉ và mạng.|Xác nhận giao dịch của bạn.|Rút tiền là tức thì sau khi được xác nhận trên chuỗi. Bạn sẽ thấy tiền của mình trong vài phút.",
+						"reminder": "Luôn sử dụng ví hỗ trợ mạng mà bạn đang rút tiền từ đó."
 					},
 					"4": {
-						"question": "如果我的交易延迟了怎么办？",
-						"answer": "如果您的交易比平时花费的时间更长：使用区块链浏览器检查您的TXID。确保您使用了正确的地址和网络。再等几分钟进行确认。一个小时后还在等待？请通过 {siteDomain} 联系我们。发送您的TXID和钱包信息，我们将帮助您解决问题。"
+						"question": "Nếu giao dịch của tôi bị chậm trễ thì sao?",
+						"answer": "Nếu giao dịch của bạn mất nhiều thời gian hơn bình thường:|Kiểm tra TXID của bạn với trình khám phá blockchain.|Đảm bảo bạn đã sử dụng đúng địa chỉ và mạng.|Đợi thêm vài phút để xác nhận.|Vẫn chờ đợi sau một giờ? Liên hệ với chúng tôi tại {siteDomain}. Gửi TXID và thông tin ví của bạn, và chúng tôi sẽ giúp bạn giải quyết."
 					}
 				}
 			},
 			"gamesSecurity": {
-				"title": "游戏、公平性与安全",
+				"title": "Trò chơi, Công bằng & Bảo mật",
 				"items": {
 					"0": {
-						"question": "{siteName} 的游戏公平吗？",
-						"answer": "当然。每款游戏都是100%可证明公平的。我们在区块链上使用加密算法，因此您可以自己检查每一次下注和支付。没有隐藏的结果，没有欺诈，只有公平透明的游戏。"
+						"question": "Trò chơi {siteName} có công bằng không?",
+						"answer": "Chắc chắn rồi. Mọi trò chơi đều được chứng minh công bằng 100%. Chúng tôi sử dụng các thuật toán mã hóa trên blockchain để bạn có thể tự kiểm tra mọi cược và khoản thanh toán.|Không có kết quả ẩn, không có mánh khóe, chỉ có chơi game công bằng và minh bạch."
 					},
 					"1": {
-						"question": "如果游戏卡住或崩溃了怎么办？",
-						"answer": "如果游戏停止工作：刷新页面。清除浏览器缓存或cookie。重新连接您的钱包。仍然卡住？请使用在线客服。如果您的会话或余额受到影响，我们的团队将为您恢复。"
+						"question": "Tôi nên làm gì nếu trò chơi bị đóng băng hoặc gặp sự cố?",
+						"answer": "Nếu trò chơi ngừng hoạt động:|Làm mới trang.|Xóa bộ nhớ cache hoặc cookie trình duyệt của bạn.|Kết nối lại ví của bạn.|Vẫn bị kẹt? Vào Chat Trực tuyến. Đội ngũ của chúng tôi sẽ khôi phục phiên hoặc số dư của bạn nếu có bất kỳ điều gì bị ảnh hưởng."
 					},
 					"2": {
-						"question": "我可以使用多个钱包或账户吗？",
-						"answer": "不可以。一个钱包等于一个账户。开设额外的钱包以获取奖金或操纵系统违反了我们的条款，并可能导致您失去您的奖金。"
+						"question": "Tôi có thể sử dụng nhiều ví hoặc tài khoản không?",
+						"answer": "Không. Một ví tương đương với một tài khoản. Mở thêm ví để lấy bonus hoặc gây rối hệ thống là vi phạm Điều khoản của chúng tôi và có thể khiến bạn mất tiền thắng."
 					},
 					"3": {
-						"question": "我的数据安全吗？",
-						"answer": "是的。我们是一个仅限钱包的平台，因此我们从不收集您的个人信息、电子邮件、密码或身份证明文件。您的钱包就是您的身份，您拥有控制权。没有存储用户数据意味着您不必担心数据泄露。"
+						"question": "Dữ liệu của tôi có an toàn không?",
+						"answer": "Có. Chúng tôi là nền tảng chỉ dùng ví, vì vậy chúng tôi không bao giờ thu thập thông tin cá nhân, email, mật khẩu hoặc tài liệu ID của bạn.|Ví của bạn là danh tính của bạn, và bạn nắm quyền kiểm soát. Không lưu trữ dữ liệu người dùng có nghĩa là bạn không phải lo lắng về vi phạm dữ liệu."
 					}
 				}
 			},
 			"responsibleGambling": {
-				"title": "🧠 负责任的博彩",
+				"title": "🧠 Cờ bạc có trách nhiệm",
 				"items": {
 					"0": {
-						"question": "{siteName} 是否支持负责任的游戏？",
-						"answer": "当然。保持游戏的责任感是我们工作的核心。我们内置了自我排除和冷静期工具，以便您随时可以休息或设置限制。如果您需要建议或只是想找人聊聊，请查看我们的负责任博彩页面或给我们的支持团队留言。"
+						"question": "{siteName} có hỗ trợ chơi game có trách nhiệm không?",
+						"answer": "Chắc chắn rồi. Giữ cho việc chơi có trách nhiệm là trọng tâm của những gì chúng tôi làm.|Chúng tôi đã tích hợp các công cụ tự loại trừ và hạ nhiệt để bạn có thể nghỉ ngơi hoặc đặt giới hạn bất cứ khi nào bạn cần.|Nếu bạn muốn lời khuyên hoặc chỉ cần ai đó để nói chuyện, hãy xem trang Cờ bạc có trách nhiệm của chúng tôi hoặc để lại lời nhắn cho đội ngũ hỗ trợ."
 					},
 					"1": {
-						"question": "如果我怀疑自己有赌博问题该怎么办？",
-						"answer": "如果赌博开始影响您的金钱、健康或人际关系，不要等待——寻求帮助。这些组织提供保密的支持：GamCare：https://www.gamcare.org.uk；Gambling Therapy：https://www.gamblingtherapy.org；Gamblers Anonymous：https://www.gamblersanonymous.org。您也可以随时要求 {siteName} 支持部门阻止或暂停您的账户。"
+						"question": "Tôi nên làm gì nếu nghi ngờ có vấn đề cờ bạc?",
+						"answer": "Nếu cờ bạc bắt đầu gây rối với tiền bạc, sức khỏe hoặc các mối quan hệ của bạn, đừng chờ đợi—hãy tìm kiếm sự giúp đỡ. Các tổ chức này cung cấp hỗ trợ bí mật:|GamCare: https://www.gamcare.org.uk|Gambling Therapy: https://www.gamblingtherapy.org|Gamblers Anonymous: https://www.gamblersanonymous.org|Bạn cũng luôn có thể yêu cầu hỗ trợ {siteName} chặn hoặc tạm dừng tài khoản của mình."
 					}
 				}
 			}
 		},
 		"needMoreHelp": {
-			"title": "💬 需要更多帮助吗？",
-			"intro": "我们的支持团队全天候为您服务。您可以通过在线客服联系我们（只需登录您的仪表板）或发送电子邮件至 support@{siteDomain}。",
+			"title": "💬 Cần thêm trợ giúp?",
+			"intro": "Đội ngũ hỗ trợ của chúng tôi túc trực 24/7.|Bạn có thể liên hệ với chúng tôi trên Chat Trực tuyến (chỉ cần đăng nhập vào bảng điều khiển của bạn) hoặc gửi email cho chúng tôi tại support@{siteDomain}.",
 			"contactTitle": "",
-			"liveChat": "我们在这里确保您的体验安全、公平、无忧。"
+			"liveChat": "Chúng tôi ở đây để đảm bảo trải nghiệm của bạn luôn an toàn, công bằng và không rắc rối."
 		}
 	}
 }
